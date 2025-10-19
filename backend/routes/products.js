@@ -264,6 +264,56 @@ router.get('/search/suggestions', async (req, res) => {
   }
 });
 
+// Get cross-sell products for a product (bidirectional)
+router.get('/:id/cross-sell', async (req, res) => {
+  try {
+    const productId = req.params.id;
+
+    // Get the main product with its direct cross-sell products
+    const product = await Product.findById(productId)
+      .populate({
+        path: 'crossSellProducts',
+        match: { status: 'active' },
+        select: 'name price originalPrice discount images slug averageRating totalReviews stock category',
+        options: { lean: true }
+      });
+
+    if (!product) {
+      return res.status(404).json({ message: 'Product not found' });
+    }
+
+    // Find products that have this product as their cross-sell (reverse relationships)
+    const reverseProducts = await Product.find({
+      crossSellProducts: productId,
+      status: 'active',
+      _id: { $ne: productId } // Exclude self
+    })
+    .select('name price originalPrice discount images slug averageRating totalReviews stock category')
+    .lean();
+
+    // Combine direct cross-sells and reverse cross-sells
+    const directCrossSells = product.crossSellProducts || [];
+    const reverseCrossSells = reverseProducts || [];
+
+    // Remove duplicates (in case a product is both direct and reverse cross-sell)
+    const allCrossSells = [...directCrossSells];
+    reverseCrossSells.forEach(reverseProduct => {
+      if (!allCrossSells.some(direct => direct._id.toString() === reverseProduct._id.toString())) {
+        allCrossSells.push(reverseProduct);
+      }
+    });
+
+    res.json({
+      crossSellProducts: allCrossSells,
+      directCrossSells: directCrossSells.length,
+      reverseCrossSells: reverseCrossSells.length,
+      totalCrossSells: allCrossSells.length
+    });
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching cross-sell products', error: error.message });
+  }
+});
+
 // Get product by ID (for admin panel)
 router.get('/id/:id', async (req, res) => {
   try {

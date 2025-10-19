@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Edit,
   TextInput,
@@ -9,10 +9,304 @@ import {
   SimpleFormIterator,
   TabbedForm,
   FormTab,
+  useRecordContext,
+  useNotify,
+  useInput,
 } from 'react-admin';
-import { Box, Typography, Card, Grid } from '@mui/material';
+import {
+  Box,
+  Typography,
+  Card,
+  Grid,
+  TextField,
+  Button,
+  Chip,
+  Alert,
+  List,
+  ListItem,
+  ListItemText,
+  ListItemSecondaryAction,
+  IconButton,
+  InputAdornment,
+  CircularProgress
+} from '@mui/material';
+import { Delete as DeleteIcon, Search as SearchIcon, Add as AddIcon } from '@mui/icons-material';
 import ImageField from './ImageField';
 import StructuredDescriptionEditor from './StructuredDescriptionEditor';
+
+// Cross-Sell Products Manager Component
+const CrossSellManager = () => {
+  const record = useRecordContext();
+  const notify = useNotify();
+  const {
+    field: { value, onChange },
+  } = useInput({ source: 'crossSellProducts', defaultValue: [] });
+
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [crossSellProducts, setCrossSellProducts] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
+
+  // Load existing cross-sell products from form value or record
+  useEffect(() => {
+    const fetchCrossSellProducts = async () => {
+      const crossSellIds = value || record?.crossSellProducts || [];
+      if (crossSellIds.length > 0) {
+        try {
+          // Fetch full product data for existing cross-sell products
+          const productPromises = crossSellIds.map(async (productId) => {
+            const response = await fetch(`http://localhost:5001/api/products/id/${productId}`);
+            if (response.ok) {
+              return await response.json();
+            }
+            return null;
+          });
+
+          const products = await Promise.all(productPromises);
+          const validProducts = products.filter(p => p !== null);
+          setCrossSellProducts(validProducts);
+        } catch (error) {
+          console.error('Failed to fetch cross-sell products:', error);
+        }
+      }
+    };
+
+    fetchCrossSellProducts();
+  }, [value, record]);
+
+  // Search products function
+  const searchProducts = async (query) => {
+    if (!query.trim()) {
+      setSearchResults([]);
+      setHasSearched(false);
+      return;
+    }
+
+    setIsSearching(true);
+    try {
+      const response = await fetch(
+        `http://localhost:5001/api/products?search=${encodeURIComponent(query)}&limit=50&status=active`
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+        // Filter out current product and already selected products
+        const filteredProducts = data.products.filter(product =>
+          product._id !== record?.id &&
+          !crossSellProducts.some(existing => existing._id === product._id)
+        );
+        setSearchResults(filteredProducts);
+        setHasSearched(true);
+      }
+    } catch (error) {
+      console.error('Failed to search products:', error);
+      notify('Failed to search products', { type: 'error' });
+    } finally {
+      setIsSearching(false);
+    }
+  };
+
+  // Handle search input change with debounce
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      searchProducts(searchQuery);
+    }, 300); // 300ms debounce
+
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const handleAddProduct = (product) => {
+    const newCrossSellProducts = [...crossSellProducts, product];
+    setCrossSellProducts(newCrossSellProducts);
+
+    // Update form value with product IDs
+    const productIds = newCrossSellProducts.map(p => p._id);
+    onChange(productIds);
+
+    // Remove from search results
+    setSearchResults(prev => prev.filter(p => p._id !== product._id));
+
+    notify('Cross-sell product added successfully', { type: 'success' });
+  };
+
+  const handleRemoveProduct = (productId) => {
+    const newCrossSellProducts = crossSellProducts.filter(p => p._id !== productId);
+    setCrossSellProducts(newCrossSellProducts);
+
+    // Update form value with product IDs
+    const productIds = newCrossSellProducts.map(p => p._id);
+    onChange(productIds);
+
+    notify('Cross-sell product removed successfully', { type: 'success' });
+  };
+
+  return (
+    <Card sx={{ p: 3 }}>
+      <Typography variant="h6" gutterBottom color="primary">
+        Cross-Sell Products Management
+      </Typography>
+      <Typography variant="body2" color="textSecondary" sx={{ mb: 3 }}>
+        Search and add compatible accessories that will be shown as "Accesorii compatibile" on the product page.
+      </Typography>
+
+      {/* Search Bar */}
+      <Box sx={{ mb: 3 }}>
+        <TextField
+          fullWidth
+          placeholder="Search products by name, brand, or category..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          InputProps={{
+            startAdornment: (
+              <InputAdornment position="start">
+                {isSearching ? <CircularProgress size={20} /> : <SearchIcon />}
+              </InputAdornment>
+            ),
+          }}
+          sx={{
+            '& .MuiOutlinedInput-root': {
+              fontSize: '1.1rem',
+              minHeight: '56px'
+            }
+          }}
+        />
+      </Box>
+
+      {/* Search Results */}
+      {hasSearched && (
+        <Box sx={{ mb: 4 }}>
+          <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
+            Search Results ({searchResults.length})
+          </Typography>
+
+          {searchResults.length > 0 ? (
+            <List sx={{ maxHeight: 400, overflowY: 'auto', border: '1px solid #e0e0e0', borderRadius: 1 }}>
+              {searchResults.map((product) => (
+                <ListItem
+                  key={product._id}
+                  sx={{
+                    borderBottom: '1px solid #f0f0f0',
+                    '&:last-child': { borderBottom: 'none' }
+                  }}
+                >
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mr: 2 }}>
+                    {product.images?.[0]?.url && (
+                      <img
+                        src={product.images[0].url}
+                        alt={product.name}
+                        style={{ width: 50, height: 50, objectFit: 'cover', borderRadius: 4 }}
+                      />
+                    )}
+                  </Box>
+                  <ListItemText
+                    primary={product.name}
+                    secondary={
+                      <Box>
+                        <Typography variant="body2" color="textSecondary">
+                          {product.brand} • {product.price} lei • Stock: {product.stock}
+                        </Typography>
+                        <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
+                          <Chip label={product.category} size="small" variant="outlined" />
+                          {product.featured && <Chip label="Featured" size="small" color="primary" />}
+                          {product.stock > 0 ? (
+                            <Chip label="În stoc" size="small" color="success" />
+                          ) : (
+                            <Chip label="Stoc epuizat" size="small" color="error" />
+                          )}
+                        </Box>
+                      </Box>
+                    }
+                  />
+                  <ListItemSecondaryAction>
+                    <Button
+                      variant="contained"
+                      size="small"
+                      startIcon={<AddIcon />}
+                      onClick={() => handleAddProduct(product)}
+                    >
+                      Add
+                    </Button>
+                  </ListItemSecondaryAction>
+                </ListItem>
+              ))}
+            </List>
+          ) : (
+            <Alert severity="info">
+              No products found for "{searchQuery}". Try different search terms.
+            </Alert>
+          )}
+        </Box>
+      )}
+
+      {/* Selected Cross-Sell Products */}
+      <Box>
+        <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
+          Selected Cross-Sell Products ({crossSellProducts.length})
+        </Typography>
+
+        {crossSellProducts.length > 0 ? (
+          <List>
+            {crossSellProducts.map((product) => (
+              <ListItem
+                key={product._id}
+                sx={{
+                  border: 1,
+                  borderColor: 'success.light',
+                  borderRadius: 1,
+                  mb: 1,
+                  bgcolor: 'success.50'
+                }}
+              >
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mr: 2 }}>
+                  {product.images?.[0]?.url && (
+                    <img
+                      src={product.images[0].url}
+                      alt={product.name}
+                      style={{ width: 50, height: 50, objectFit: 'cover', borderRadius: 4 }}
+                    />
+                  )}
+                </Box>
+                <ListItemText
+                  primary={product.name}
+                  secondary={
+                    <Box>
+                      <Typography variant="body2" color="textSecondary">
+                        {product.brand} • {product.price} lei • Stock: {product.stock}
+                      </Typography>
+                      <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
+                        <Chip label={product.category} size="small" variant="outlined" />
+                        {product.stock > 0 ? (
+                          <Chip label="În stoc" size="small" color="success" />
+                        ) : (
+                          <Chip label="Stoc epuizat" size="small" color="error" />
+                        )}
+                      </Box>
+                    </Box>
+                  }
+                />
+                <ListItemSecondaryAction>
+                  <IconButton
+                    color="error"
+                    onClick={() => handleRemoveProduct(product._id)}
+                    title="Remove cross-sell product"
+                  >
+                    <DeleteIcon />
+                  </IconButton>
+                </ListItemSecondaryAction>
+              </ListItem>
+            ))}
+          </List>
+        ) : (
+          <Alert severity="info">
+            No cross-sell products selected. Use the search bar above to find and add compatible accessories.
+          </Alert>
+        )}
+      </Box>
+    </Card>
+  );
+};
+
 
 const ProductEditForm = () => {
   return (
@@ -78,6 +372,9 @@ const ProductEditForm = () => {
           <Typography variant="h6" gutterBottom>
             Stock Management
           </Typography>
+          <Typography variant="body2" color="textSecondary" sx={{ mb: 3 }}>
+            To mark a product as out-of-stock (but keep it visible): Set Status to "Active" and Stock Quantity to 0
+          </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
@@ -113,8 +410,8 @@ const ProductEditForm = () => {
                 fullWidth
                 choices={[
                   { id: 'active', name: 'Active' },
-                  { id: 'inactive', name: 'Inactive' },
-                  { id: 'out-of-stock', name: 'Out of Stock' },
+                  { id: 'inactive', name: 'Inactive (Hidden from Frontend)' },
+                  { id: 'discontinued', name: 'Discontinued' },
                 ]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -661,6 +958,11 @@ const ProductEditForm = () => {
       {/* Tab 6: Structured Description */}
       <FormTab label="Structured Description">
         <StructuredDescriptionEditor source="structuredDescription.sections" />
+      </FormTab>
+
+      {/* Tab 7: Cross-Sell */}
+      <FormTab label="Cross-Sell">
+        <CrossSellManager />
       </FormTab>
     </TabbedForm>
   );

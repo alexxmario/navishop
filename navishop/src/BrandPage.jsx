@@ -136,7 +136,7 @@ const BrandPage = () => {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search models..."
+                placeholder="Caută modele..."
                 className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}

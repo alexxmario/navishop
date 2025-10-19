@@ -113,8 +113,8 @@ const ProductCreateForm = () => {
                 fullWidth
                 choices={[
                   { id: 'active', name: 'Active' },
-                  { id: 'inactive', name: 'Inactive' },
-                  { id: 'out-of-stock', name: 'Out of Stock' },
+                  { id: 'inactive', name: 'Inactive (Hidden from Frontend)' },
+                  { id: 'discontinued', name: 'Discontinued' },
                 ]}
                 sx={{
                   '& .MuiOutlinedInput-root': {

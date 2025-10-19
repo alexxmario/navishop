@@ -437,7 +437,12 @@ const productSchema = new mongoose.Schema({
   purchaseCount: {
     type: Number,
     default: 0
-  }
+  },
+  // Cross-sell products (compatible accessories)
+  crossSellProducts: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Product'
+  }]
 }, {
   timestamps: true
 });
@@ -447,6 +452,7 @@ productSchema.index({ category: 1, subcategory: 1 });
 productSchema.index({ price: 1 });
 productSchema.index({ featured: 1 });
 productSchema.index({ status: 1 });
+productSchema.index({ crossSellProducts: 1 });
 
 productSchema.methods.updateAverageRating = function() {
   if (this.reviews.length === 0) {

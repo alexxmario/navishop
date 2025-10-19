@@ -162,10 +162,10 @@ const ModelPage = () => {
         <PageTitle />
         <Header />
         <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="text-2xl font-light text-gray-900 mb-4">Model Not Found</h1>
+          <h1 className="text-2xl font-light text-gray-900 mb-4">Model negăsit</h1>
           <p className="text-gray-600 mb-8">{error}</p>
           <Link to={`/brand/${brand}`} className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
-            Back to {capitalizeWord(brand)} Models
+            Înapoi la modelele {capitalizeWord(brand)}
           </Link>
         </div>
         <Footer />
@@ -177,14 +177,14 @@ const ModelPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle title={`${capitalizeWord(brand)} ${capitalizeWord(model)} Navigation Systems`} />
+      <PageTitle title={`${capitalizeWord(brand)} ${capitalizeWord(model)} Sisteme de Navigație`} />
       <Header />
 
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center space-x-2 text-sm">
-            <Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link>
+            <Link to="/" className="text-gray-600 hover:text-blue-600">Acasă</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
             <Link to={`/brand/${brand}`} className="text-gray-600 hover:text-blue-600">
               {capitalizeWord(brand)}
@@ -215,10 +215,10 @@ const ModelPage = () => {
             </div>
             <div>
               <h1 className="text-3xl font-light text-gray-900">
-                <span className="text-blue-600">{capitalizeWord(brand)} {capitalizeWord(model)}</span> Navigation Systems
+                <span className="text-blue-600">{capitalizeWord(brand)} {capitalizeWord(model)}</span> Sisteme de Navigație
               </h1>
               <p className="text-gray-600 mt-1">
-                {modelData.totalProducts} compatible navigation systems available
+                {modelData.totalProducts} sisteme de navigație compatibile disponibile
               </p>
             </div>
           </div>
@@ -234,15 +234,15 @@ const ModelPage = () => {
               <div className="flex items-center space-x-2">
                 <label className="text-sm font-medium text-gray-700 flex items-center">
                   <SortAsc className="w-4 h-4 mr-1" />
-                  Sort:
+                  Sortează:
                 </label>
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-blue-600"
                 >
-                  <option value="name">Name</option>
-                  <option value="price">Price</option>
+                  <option value="name">Nume</option>
+                  <option value="price">Preț</option>
                 </select>
               </div>
               
@@ -281,9 +281,9 @@ const ModelPage = () => {
           ) : (
             <div className="text-center py-12">
               <Car className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-              <h3 className="text-lg font-medium text-gray-900 mb-2">No products found</h3>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">Nu au fost găsite produse</h3>
               <p className="text-gray-600">
-                No navigation systems found for {capitalizeWord(brand)} {capitalizeWord(model)}
+                Nu au fost găsite sisteme de navigație pentru {capitalizeWord(brand)} {capitalizeWord(model)}
               </p>
             </div>
           )}

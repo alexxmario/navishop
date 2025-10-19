@@ -35,6 +35,7 @@ const ProductPage = () => {
     averageRating: 0,
     ratingDistribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }
   });
+  const [crossSellProducts, setCrossSellProducts] = useState([]);
 
   // Extract car brand and model from product name
   const extractCarBrandModel = (productName) => {
@@ -167,6 +168,23 @@ const ProductPage = () => {
     }
   };
 
+  const fetchCrossSellProducts = async (productId) => {
+    try {
+      const response = await fetch(`http://localhost:5001/api/products/${productId}/cross-sell`);
+      if (response.ok) {
+        const data = await response.json();
+        setCrossSellProducts(data.crossSellProducts || []);
+
+        // Log the bidirectional relationships for debugging
+        if (data.directCrossSells > 0 || data.reverseCrossSells > 0) {
+          console.log(`Cross-sell relationships: ${data.directCrossSells} direct + ${data.reverseCrossSells} reverse = ${data.totalCrossSells} total`);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to fetch cross-sell products:', error);
+    }
+  };
+
   const loadProduct = async () => {
     try {
       setLoading(true);
@@ -177,8 +195,9 @@ const ProductPage = () => {
       // Add to recently viewed when product loads successfully
       if (data.product) {
         addToRecentlyViewed(data.product);
-        // Fetch real review stats
+        // Fetch real review stats and cross-sell products
         fetchReviewStats(data.product._id);
+        fetchCrossSellProducts(data.product._id);
       }
     } catch (error) {
       console.error('Failed to load product:', error);
@@ -633,6 +652,71 @@ const ProductPage = () => {
                           }
                         </ul>
                       </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* Accesorii compatibile section */}
+                {crossSellProducts.length > 0 && (
+                  <div className="mt-12">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6">Accesorii compatibile</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {crossSellProducts.map((accessory) => (
+                        <Link
+                          key={accessory._id}
+                          to={`/product/${accessory.slug}`}
+                          className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-all duration-200 group"
+                        >
+                          <div className="relative mb-4">
+                            {accessory.images && accessory.images.length > 0 ? (
+                              <img
+                                src={accessory.images[0].url}
+                                alt={accessory.images[0].alt || accessory.name}
+                                className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
+                              />
+                            ) : (
+                              <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center">
+                                <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
+                              </div>
+                            )}
+                            {accessory.discount > 0 && (
+                              <span className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded text-sm font-semibold">
+                                -{accessory.discount}%
+                              </span>
+                            )}
+                          </div>
+
+                          <h4 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                            {accessory.name}
+                          </h4>
+
+                          <div className="flex items-center gap-2 mb-2">
+                            <div className="flex items-center gap-1">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-4 h-4 ${i < Math.floor(accessory.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`}
+                                />
+                              ))}
+                            </div>
+                            <span className="text-sm text-gray-600">
+                              ({accessory.totalReviews || 0})
+                            </span>
+                          </div>
+
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <span className="text-lg font-bold text-gray-900">{accessory.price} lei</span>
+                              {accessory.originalPrice && accessory.originalPrice > accessory.price && (
+                                <span className="text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
+                              )}
+                            </div>
+                            <span className={`text-sm font-medium ${accessory.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
+                              {accessory.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
+                            </span>
+                          </div>
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 )}

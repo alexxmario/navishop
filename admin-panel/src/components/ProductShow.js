@@ -44,6 +44,110 @@ import {
   ThumbUp
 } from '@mui/icons-material';
 
+// Cross-Sell Display Component
+const CrossSellDisplay = ({ productId }) => {
+  const [crossSellData, setCrossSellData] = useState(null);
+
+  useEffect(() => {
+    const fetchCrossSellData = async () => {
+      try {
+        const response = await fetch(`http://localhost:5001/api/products/${productId}/cross-sell`);
+        if (response.ok) {
+          const data = await response.json();
+          setCrossSellData(data);
+        }
+      } catch (error) {
+        console.error('Failed to fetch cross-sell data:', error);
+      }
+    };
+
+    if (productId) {
+      fetchCrossSellData();
+    }
+  }, [productId]);
+
+  if (!crossSellData) {
+    return (
+      <Box sx={{ textAlign: 'center', p: 2 }}>
+        <Typography>Loading cross-sell data...</Typography>
+      </Box>
+    );
+  }
+
+  return (
+    <Box>
+      {crossSellData?.crossSellProducts?.length > 0 ? (
+        <Box>
+          <Box sx={{ mb: 2 }}>
+            <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
+              All Compatible Accessories ({crossSellData.totalCrossSells})
+            </Typography>
+            <Typography variant="body2" color="textSecondary">
+              {crossSellData.directCrossSells} direct cross-sells + {crossSellData.reverseCrossSells} reverse relationships
+            </Typography>
+          </Box>
+          <Grid container spacing={2}>
+            {crossSellData.crossSellProducts.map((product, index) => (
+              <Grid item xs={12} md={6} key={index}>
+                <Card sx={{ border: '1px solid #e0e0e0' }}>
+                  <CardContent>
+                    <Box sx={{ display: 'flex', gap: 2 }}>
+                      {product.images?.[0]?.url && (
+                        <img
+                          src={product.images[0].url}
+                          alt={product.name}
+                          style={{
+                            width: 60,
+                            height: 60,
+                            objectFit: 'cover',
+                            borderRadius: 4
+                          }}
+                        />
+                      )}
+                      <Box sx={{ flex: 1 }}>
+                        <Typography variant="body1" sx={{ fontWeight: 'bold', mb: 1 }}>
+                          {product.name}
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" sx={{ mb: 1 }}>
+                          {product.brand} • {product.price} lei
+                        </Typography>
+                        <Box sx={{ display: 'flex', gap: 1 }}>
+                          <Chip label={product.category} size="small" variant="outlined" />
+                          {product.stock > 0 ? (
+                            <Chip label="În stoc" size="small" color="success" />
+                          ) : (
+                            <Chip label="Stoc epuizat" size="small" color="error" />
+                          )}
+                        </Box>
+                      </Box>
+                    </Box>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+      ) : (
+        <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
+          <Typography variant="h6" color="textSecondary" gutterBottom>
+            No Cross-Sell Products
+          </Typography>
+          <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+            This product doesn't have any compatible accessories configured yet.
+          </Typography>
+          <Button
+            variant="contained"
+            startIcon={<Edit />}
+            onClick={() => window.open(`#/products/${productId}`, '_blank')}
+          >
+            Add Cross-Sell Products
+          </Button>
+        </Box>
+      )}
+    </Box>
+  );
+};
+
 // Review Overview Stats Component
 const ReviewOverviewStats = ({ record }) => {
   const [reviewStats, setReviewStats] = useState(null);
@@ -1068,6 +1172,24 @@ export const ProductShow = () => (
                 />
               </Box>
             </Box>
+          </CardContent>
+        </Card>
+      </Tab>
+
+      {/* Cross-Sell Tab */}
+      <Tab label="Cross-Sell">
+        <Card sx={{ mb: 3 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom color="primary">
+              Cross-Sell Products (Accesorii compatibile)
+            </Typography>
+            <Divider sx={{ mb: 3 }} />
+
+            <FunctionField
+              render={record => (
+                <CrossSellDisplay productId={record.id} />
+              )}
+            />
           </CardContent>
         </Card>
       </Tab>

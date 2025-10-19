@@ -7,6 +7,8 @@ import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import RecentlyViewed from './components/RecentlyViewed';
 import NavigationModel3D from './components/NavigationModel3D';
+import FeaturedProductsCarousel from './components/FeaturedProductsCarousel';
+import ReviewsCarousel from './components/ReviewsCarousel';
 import Header from './components/Header';
 import {
   Star, Heart, Check, Truck,
@@ -178,26 +180,6 @@ const HomePage = () => {
     { name: 'Chevrolet', logo: '/logos/chevrolet.png' }
   ];
 
-  const testimonials = [
-    {
-      id: 1,
-      name: 'Alexandru P.',
-      rating: 5,
-      text: 'Navigația funcționează perfect în BMW-ul meu. Calitate excelentă și livrare rapidă!'
-    },
-    {
-      id: 2,
-      name: 'Maria D.',
-      rating: 5,
-      text: 'Serviciul de instalare a fost profesionist. Recomand cu încredere!'
-    },
-    {
-      id: 3,
-      name: 'Ion M.',
-      rating: 4,
-      text: 'Preturi competitive și produse de calitate. Voi mai comanda!'
-    }
-  ];
 
   const ProductCard = ({ product }) => {
     const { addToCart } = useCart();
@@ -374,6 +356,9 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Featured Products Carousel */}
+      <FeaturedProductsCarousel />
+
       {/* Search Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -522,43 +507,7 @@ const HomePage = () => {
       </section>
 
       {/* Reviews */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl font-light mb-4">Ce spun <span className="text-blue-600">clienții</span></h2>
-            <div className="flex items-center justify-center space-x-4">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-blue-600 text-blue-600" />
-                ))}
-              </div>
-              <span className="text-lg font-medium">4.8</span>
-              <span className="text-gray-600">din 15.000+ recenzii</span>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {testimonials.map(testimonial => (
-              <div key={testimonial.id} className="bg-white p-6 border border-gray-100">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-blue-100 border border-blue-200 rounded-full flex items-center justify-center font-medium text-blue-600">
-                    {testimonial.name.charAt(0)}
-                  </div>
-                  <div className="ml-3">
-                    <h4 className="font-medium">{testimonial.name}</h4>
-                    <div className="flex">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-3 h-3 fill-blue-600 text-blue-600" />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <p className="text-gray-700 text-sm">"{testimonial.text}"</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ReviewsCarousel />
 
       {/* Newsletter */}
       <section className="py-16 bg-blue-600 text-white">

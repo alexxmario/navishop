@@ -12,23 +12,41 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   });
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchReviewStats();
-  }, [fetchReviewStats]);
-
   const fetchReviewStats = useCallback(async () => {
+    // Skip if no product ID
+    if (!product?._id) {
+      setReviewStats({
+        totalReviews: 0,
+        averageRating: 0
+      });
+      setLoading(false);
+      return;
+    }
+
     try {
       const response = await fetch(`http://localhost:5001/api/reviews/stats/${product._id}`);
       if (response.ok) {
         const stats = await response.json();
-        setReviewStats(stats);
+        setReviewStats({
+          totalReviews: stats.totalReviews || 0,
+          averageRating: stats.averageRating || 0
+        });
       }
     } catch (error) {
       console.error('Failed to fetch review stats:', error);
+      // Set default values on error
+      setReviewStats({
+        totalReviews: 0,
+        averageRating: 0
+      });
     } finally {
       setLoading(false);
     }
-  }, [product._id]);
+  }, [product?._id]);
+
+  useEffect(() => {
+    fetchReviewStats();
+  }, [fetchReviewStats]);
 
   const handleAddToCart = async (e) => {
     e.preventDefault();

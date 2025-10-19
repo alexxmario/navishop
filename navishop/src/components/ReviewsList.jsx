@@ -26,11 +26,6 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
     { value: 'helpful', label: 'Cele mai utile' }
   ];
 
-  useEffect(() => {
-    fetchReviews();
-    fetchStats();
-  }, [productId, currentPage, sortBy, fetchReviews, fetchStats]);
-
   const fetchReviews = useCallback(async () => {
     try {
       const response = await fetch(
@@ -65,6 +60,11 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
       console.error('Error fetching stats:', err);
     }
   }, [productId]);
+
+  useEffect(() => {
+    fetchReviews();
+    fetchStats();
+  }, [productId, currentPage, sortBy, fetchReviews, fetchStats]);
 
   const handleSubmitReview = async (reviewData) => {
     if (!isAuthenticated()) {

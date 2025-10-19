@@ -78,7 +78,7 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
         
         <div className="flex items-center justify-between">
           <span className="text-sm text-blue-600 font-medium">
-            {modelData.productCount} {modelData.productCount === 1 ? 'product' : 'products'}
+            {modelData.productCount} {modelData.productCount === 1 ? 'produs' : 'produse'}
           </span>
           <ChevronRight className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors" />
         </div>
