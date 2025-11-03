@@ -11,6 +11,21 @@
 # production
 /build
 
+# Large image directories (keep for localhost, exclude from git)
+public/images/products/
+public/cars/
+public/*.xml
+public/*.gltf
+public/test*
+
+# Database files
+mongodb/
+*.db
+*.sqlite
+
+# Vercel
+.vercel
+
 # misc
 .DS_Store
 .env.local
@@ -21,4 +36,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.vercel

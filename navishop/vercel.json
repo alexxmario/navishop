@@ -1,14 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
   "routes": [
     {
       "src": "/static/(.*)",
@@ -19,6 +12,11 @@
       "src": "/(.*\\.(js|css|map|ico|png|jpg|jpeg|gif|svg|webp))$",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
       "dest": "/$1"
+    },
+    {
+      "src": "/logos/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/logos/$1"
     },
     {
       "src": "/(.*)",
