@@ -47,10 +47,13 @@ const HomePage = () => {
 
   const loadFeaturedProducts = async () => {
     try {
-      const products = await apiService.getFeaturedProducts();
-      setFeaturedProducts(products);
+      const response = await apiService.getFeaturedProducts();
+      // Handle both response formats: {products: [...]} or [...]
+      const products = response.products || response || [];
+      setFeaturedProducts(Array.isArray(products) ? products : []);
     } catch (error) {
       console.error('Failed to load featured products:', error);
+      setFeaturedProducts([]); // Ensure it's always an array
     }
   };
 
@@ -468,9 +471,15 @@ const HomePage = () => {
             </button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProducts.map(product => (
-              <ProductCard key={product._id} product={product} />
-            ))}
+            {featuredProducts && featuredProducts.length > 0 ? (
+              featuredProducts.map(product => (
+                <ProductCard key={product._id} product={product} />
+              ))
+            ) : (
+              <div className="col-span-full text-center py-8 text-gray-500">
+                Loading featured products...
+              </div>
+            )}
           </div>
         </div>
       </section>
