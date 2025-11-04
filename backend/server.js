@@ -35,7 +35,9 @@ app.use(cors({
     'https://navishop-luzogoady-alexs-projects-65522e6f.vercel.app',
     'https://navishop-5e12gw7wj-alexs-projects-65522e6f.vercel.app'
   ],
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Set proper UTF-8 encoding for all responses
