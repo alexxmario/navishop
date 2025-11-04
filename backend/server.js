@@ -28,7 +28,13 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://navishop.vercel.app',
+    'https://navishop-luzogoady-alexs-projects-65522e6f.vercel.app',
+    'https://navishop-5e12gw7wj-alexs-projects-65522e6f.vercel.app'
+  ],
   credentials: true
 }));
 
