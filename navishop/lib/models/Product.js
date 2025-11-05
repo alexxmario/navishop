@@ -26,6 +26,16 @@ const ProductSchema = new mongoose.Schema({
       points: [String]
     }]
   },
+  detailedSpecs: {
+    processor: String,
+    ram: String,
+    storage: String
+  },
+  displaySpecs: {
+    screenSize: String,
+    technology: String,
+    resolution: String
+  },
   romanianSpecs: {
     hardware: {
       memorieRAM: String,
@@ -52,7 +62,15 @@ const ProductSchema = new mongoose.Schema({
     },
     package: {
       continutPachet: String
-    }
+    },
+    general: {
+      sku: String,
+      brand: String,
+      categorii: String,
+      sistemOperare: String
+    },
+    additional: mongoose.Schema.Types.Mixed,
+    rawDetails: mongoose.Schema.Types.Mixed
   },
   warranty: { type: Number, default: 12 },
   status: { type: String, default: 'active' },
