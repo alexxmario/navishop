@@ -14,7 +14,6 @@ const Marquee = ({
   useEffect(() => {
     const container = containerRef.current;
     const content = contentRef.current;
-
     if (!container || !content) return;
 
     // Wait for content to be rendered and measured

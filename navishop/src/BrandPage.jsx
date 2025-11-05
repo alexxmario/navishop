@@ -26,8 +26,7 @@ const BrandPage = () => {
   const loadBrandData = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`http://localhost:5001/api/brands/${encodeURIComponent(brand)}`);
-      const data = await response.json();
+      const data = await apiService.request(`/brands/${encodeURIComponent(brand)}`);
       
       if (data.success) {
         setBrandData(data.data);
@@ -43,12 +42,12 @@ const BrandPage = () => {
   };
 
   const filteredModels = brandData?.models?.filter(model =>
-    model.model.toLowerCase().includes(searchQuery.toLowerCase())
+    model?.model?.toLowerCase().includes(searchQuery.toLowerCase())
   ) || [];
 
   const getModelImage = (modelName) => {
     // Return a placeholder or brand-specific image
-    return `/logos/${brand.toLowerCase()}.png`;
+    return `/logos/${brand?.toLowerCase()}.png`;
   };
 
 
@@ -91,7 +90,7 @@ const BrandPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle title={`${brandData.brand} Navigation Systems`} />
+      <PageTitle title={`${brandData.name} Navigation Systems`} />
       <Header />
 
       {/* Breadcrumb */}
@@ -100,7 +99,7 @@ const BrandPage = () => {
           <nav className="flex items-center space-x-2 text-sm">
             <Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <span className="text-gray-900 font-medium">{brandData.brand}</span>
+            <span className="text-gray-900 font-medium">{brandData.name}</span>
           </nav>
         </div>
       </div>
@@ -111,8 +110,8 @@ const BrandPage = () => {
           <div className="flex justify-center mb-6">
             <div className="w-20 h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center shadow-sm">
               <img 
-                src={`/logos/${brand.toLowerCase()}.png`} 
-                alt={`${brandData.brand} logo`}
+                src={`/logos/${brand?.toLowerCase()}.png`} 
+                alt={`${brandData.name} logo`}
                 className="w-12 h-12 object-contain"
                 onError={(e) => {
                   e.target.style.display = 'none';
@@ -120,15 +119,15 @@ const BrandPage = () => {
                 }}
               />
               <div className="w-12 h-12 bg-gray-100 rounded flex items-center justify-center text-gray-500 text-sm font-semibold hidden">
-                {brandData.brand.substring(0, 2).toUpperCase()}
+                {brandData.name?.substring(0, 2).toUpperCase()}
               </div>
             </div>
           </div>
           <h1 className="text-4xl font-light mb-4 text-gray-900">
-            Navigații <span className="text-blue-600">{brandData.brand}</span>
+            Navigații <span className="text-blue-600">{brandData.name}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Alege modelul {brandData.brand} pentru a găsi produsele compatibile
+            Alege modelul {brandData.name} pentru a găsi produsele compatibile
           </p>
           
           {/* Search */}
@@ -153,10 +152,9 @@ const BrandPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredModels.map((modelData) => (
               <CarModelCard
-                key={modelData.modelKey}
-                brand={brandData.brand}
+                key={modelData.model}
+                brand={brandData.name}
                 modelData={modelData}
-                modelKey={modelData.modelKey}
               />
             ))}
           </div>
@@ -167,8 +165,8 @@ const BrandPage = () => {
               <h3 className="text-lg font-medium text-gray-900 mb-2">No models found</h3>
               <p className="text-gray-600">
                 {searchQuery ? 
-                  `No ${brandData.brand} models match your search "${searchQuery}"` :
-                  `No ${brandData.brand} models available`
+                  `No ${brandData.name} models match your search "${searchQuery}"` :
+                  `No ${brandData.name} models available`
                 }
               </p>
             </div>

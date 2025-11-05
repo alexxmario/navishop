@@ -20,6 +20,7 @@ const HomePage = () => {
   const { getCartItemsCount } = useCart();
   const navigate = useNavigate();
   const [featuredProducts, setFeaturedProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [selectedBrand, setSelectedBrand] = useState('');
   const [selectedModel, setSelectedModel] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
@@ -47,13 +48,17 @@ const HomePage = () => {
 
   const loadFeaturedProducts = async () => {
     try {
+      setLoading(true);
       const response = await apiService.getFeaturedProducts();
       // Handle both response formats: {products: [...]} or [...]
-      const products = response.products || response || [];
+      const products = response?.products || response || [];
       setFeaturedProducts(Array.isArray(products) ? products : []);
     } catch (error) {
       console.error('Failed to load featured products:', error);
-      setFeaturedProducts([]); // Ensure it's always an array
+      // Set empty array and continue - don't let API failure crash the app
+      setFeaturedProducts([]);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -331,6 +336,18 @@ const HomePage = () => {
     );
   };
 
+  // Show loading screen if still loading
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading PilotOn...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white">
       <PageTitle />
@@ -424,7 +441,7 @@ const HomePage = () => {
             {brands.map((brand, index) => (
               <Link 
                 key={index} 
-                to={`/brand/${encodeURIComponent(brand.name.toLowerCase())}`}
+                to={`/brand/${encodeURIComponent(brand.name?.toLowerCase())}`}
                 className="text-center group cursor-pointer"
               >
                 <div className="w-20 h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-50 group-hover:border-blue-200 transition-all duration-200 shadow-sm group-hover:shadow-md">

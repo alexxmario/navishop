@@ -2,24 +2,25 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Car, ChevronRight } from 'lucide-react';
 
-const CarModelCard = ({ brand, modelData, modelKey }) => {
+const CarModelCard = ({ brand, modelData }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
   const [useFallback, setUseFallback] = useState(false);
-  
-  console.log(`Model Key: ${modelKey}, Model Name: ${modelData.model}`);
+
+  const modelName = modelData?.model || '';
+  console.log(`Model Name: ${modelName}`);
 
   const getCarImagePath = (type = 'normal', extension = 'png') => {
-    const brandLower = brand.toLowerCase();
-    const modelLower = modelKey.toLowerCase();
+    const brandLower = brand?.toLowerCase();
+    const modelLower = modelName?.toLowerCase();
     console.log(`Looking for image: /cars/${brandLower}/${modelLower}/${type}.${extension}`);
     return `/cars/${brandLower}/${modelLower}/${type}.${extension}`;
   };
 
   const getCarImagePathFallback = (type = 'normal', extension = 'png') => {
     // Fallback: try with just the base model name (without years)
-    const brandLower = brand.toLowerCase();
-    const baseModelName = modelData.model.toLowerCase();
+    const brandLower = brand?.toLowerCase();
+    const baseModelName = modelData?.model?.toLowerCase();
     console.log(`Fallback image search: /cars/${brandLower}/${baseModelName}/${type}.${extension}`);
     return `/cars/${brandLower}/${baseModelName}/${type}.${extension}`;
   };
@@ -31,7 +32,7 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
 
   return (
     <Link
-      to={`/brand/${encodeURIComponent(brand)}/${encodeURIComponent(modelKey)}`}
+      to={`/brand/${encodeURIComponent(brand)}/${encodeURIComponent(modelName)}`}
       className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
     >
       <div className="aspect-video bg-white flex items-center justify-center relative overflow-hidden">

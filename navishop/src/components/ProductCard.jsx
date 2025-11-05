@@ -24,7 +24,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     }
 
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${product._id}`);
+      const response = await fetch(`/api/reviews/stats/${product._id}`);
       if (response.ok) {
         const stats = await response.json();
         setReviewStats({

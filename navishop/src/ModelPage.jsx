@@ -31,7 +31,7 @@ const ModelPage = () => {
   const loadModelData = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`http://localhost:5001/api/brands/${encodeURIComponent(brand)}/${encodeURIComponent(model)}`);
+      const response = await fetch(`/api/brands/${encodeURIComponent(brand)}/${encodeURIComponent(model)}`);
       const data = await response.json();
       
       if (data.success) {

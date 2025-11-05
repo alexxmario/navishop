@@ -158,7 +158,7 @@ const ProductPage = () => {
 
   const fetchReviewStats = async (productId) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${productId}`);
+      const response = await fetch(`/api/reviews/stats/${productId}`);
       if (response.ok) {
         const stats = await response.json();
         setReviewStats(stats);
@@ -170,7 +170,7 @@ const ProductPage = () => {
 
   const fetchCrossSellProducts = async (productId) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/products/${productId}/cross-sell`);
+      const response = await fetch(`/api/products/${productId}/cross-sell`);
       if (response.ok) {
         const data = await response.json();
         setCrossSellProducts(data.crossSellProducts || []);
@@ -190,14 +190,17 @@ const ProductPage = () => {
       setLoading(true);
       setError(null);
       const data = await apiService.getProductBySlug(slug);
-      setProduct(data.product);
+
+      // Handle both response formats: {product} or direct product object
+      const product = data.product || data;
+      setProduct(product);
 
       // Add to recently viewed when product loads successfully
-      if (data.product) {
-        addToRecentlyViewed(data.product);
+      if (product) {
+        addToRecentlyViewed(product);
         // Fetch real review stats and cross-sell products
-        fetchReviewStats(data.product._id);
-        fetchCrossSellProducts(data.product._id);
+        fetchReviewStats(product._id);
+        fetchCrossSellProducts(product._id);
       }
     } catch (error) {
       console.error('Failed to load product:', error);

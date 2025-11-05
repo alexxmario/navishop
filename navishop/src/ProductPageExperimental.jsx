@@ -169,11 +169,14 @@ const ProductPageExperimental = () => {
       setLoading(true);
       setError(null);
       const data = await apiService.getProductBySlug(slug);
-      setProduct(data.product);
-      
+
+      // Handle both response formats: {product} or direct product object
+      const product = data.product || data;
+      setProduct(product);
+
       // Add to recently viewed when product loads successfully
-      if (data.product) {
-        addToRecentlyViewed(data.product);
+      if (product) {
+        addToRecentlyViewed(product);
       }
     } catch (error) {
       console.error('Failed to load product:', error);

@@ -29,7 +29,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
   const fetchReviews = useCallback(async () => {
     try {
       const response = await fetch(
-        `http://localhost:5001/api/reviews/product/${productId}?page=${currentPage}&sort=${sortBy}`,
+        `/api/reviews/product/${productId}?page=${currentPage}&sort=${sortBy}`,
         {
           headers: {
             'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   const fetchStats = useCallback(async () => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${productId}`);
+      const response = await fetch(`/api/reviews/stats/${productId}`);
       if (!response.ok) throw new Error('Failed to fetch stats');
       const data = await response.json();
       setStats(data);
@@ -76,8 +76,8 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
     try {
       const token = getToken();
       const url = editingReview
-        ? `http://localhost:5001/api/reviews/${editingReview._id}`
-        : 'http://localhost:5001/api/reviews';
+        ? `/api/reviews/${editingReview._id}`
+        : '/api/reviews';
 
       const response = await fetch(url, {
         method: editingReview ? 'PUT' : 'POST',
@@ -124,7 +124,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
     try {
       const token = getToken();
-      const response = await fetch(`http://localhost:5001/api/reviews/${reviewId}/helpful`, {
+      const response = await fetch(`/api/reviews/${reviewId}/helpful`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -157,7 +157,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
     try {
       const token = getToken();
-      const response = await fetch(`http://localhost:5001/api/reviews/${reviewId}`, {
+      const response = await fetch(`/api/reviews/${reviewId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`
