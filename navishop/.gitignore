@@ -11,9 +11,7 @@
 # production
 /build
 
-# Large image directories (keep for localhost, exclude from git)
-public/images/products/
-public/cars/
+# Large build files
 public/*.xml
 public/*.gltf
 public/test*

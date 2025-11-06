@@ -4,6 +4,16 @@ import fs from 'fs';
 import path from 'path';
 
 export default async function handler(req, res) {
+  // Set CORS headers
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
@@ -11,34 +21,31 @@ export default async function handler(req, res) {
   try {
     await connectDB();
 
-    // Read the backup file with structured descriptions
-    const backupPath = path.join(process.cwd(), 'data', 'piloton.products.json');
+    // Get chunk number from query parameter
+    const chunkNumber = parseInt(req.query.chunk) || 1;
+    const paddedChunkNumber = String(chunkNumber).padStart(3, '0');
 
-    if (!fs.existsSync(backupPath)) {
+    // Read the specific chunk file
+    const chunkPath = path.join(process.cwd(), 'data', 'chunks', `chunk-${paddedChunkNumber}.json`);
+
+    if (!fs.existsSync(chunkPath)) {
       return res.status(404).json({
         success: false,
-        message: 'Backup file not found at ' + backupPath
+        message: `Chunk file not found: chunk-${paddedChunkNumber}.json`
       });
     }
 
-    const backupData = JSON.parse(fs.readFileSync(backupPath, 'utf8'));
-    console.log(`Loaded ${backupData.length} products from backup file`);
+    const chunkData = JSON.parse(fs.readFileSync(chunkPath, 'utf8'));
+    console.log(`Processing chunk ${chunkNumber} with ${chunkData.length} products`);
 
     let updatedCount = 0;
     let notFoundCount = 0;
+    let skippedCount = 0;
 
-    // Process in batches to avoid timeout
-    const batchSize = parseInt(req.query.batchSize) || 50;
-    const startIndex = parseInt(req.query.startIndex) || 0;
-    const endIndex = Math.min(startIndex + batchSize, backupData.length);
-
-    console.log(`Processing batch: ${startIndex} to ${endIndex} of ${backupData.length} products`);
-
-    const batchProducts = backupData.slice(startIndex, endIndex);
-
-    for (const backupProduct of batchProducts) {
+    for (const backupProduct of chunkData) {
       // Skip if no structured description in backup
       if (!backupProduct.structuredDescription || !backupProduct.structuredDescription.sections) {
+        skippedCount++;
         continue;
       }
 
@@ -109,26 +116,24 @@ export default async function handler(req, res) {
       }
     }
 
-    // Count products with different types of specs
-    const productsWithStructuredDescriptions = backupData.filter(p => p.structuredDescription?.sections?.length > 0).length;
-    const productsWithDetailedSpecs = backupData.filter(p => p.detailedSpecs || p.displaySpecs || p.romanianSpecs).length;
-
     res.status(200).json({
       success: true,
-      message: `Restoration complete - restored structured descriptions and detailed specifications`,
-      backupProducts: backupData.length,
-      productsWithStructuredDescriptions: productsWithStructuredDescriptions,
-      productsWithDetailedSpecs: productsWithDetailedSpecs,
+      message: `Chunk ${chunkNumber} processed successfully`,
+      chunkNumber: chunkNumber,
+      chunkProducts: chunkData.length,
       updatedProducts: updatedCount,
-      notFoundProducts: notFoundCount
+      notFoundProducts: notFoundCount,
+      skippedProducts: skippedCount,
+      timestamp: new Date().toISOString()
     });
 
   } catch (error) {
-    console.error('Error restoring structured descriptions and detailed specs:', error);
+    console.error(`Error processing chunk:`, error);
     res.status(500).json({
       success: false,
-      message: 'Error restoring structured descriptions and detailed specifications',
-      error: error.message
+      message: 'Error processing chunk',
+      error: error.message,
+      chunkNumber: req.query.chunk
     });
   }
 }
