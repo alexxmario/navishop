@@ -7,8 +7,6 @@ import Header from './components/Header';
 import {
   Eye, EyeOff, Mail, Lock, ArrowLeft, Phone
 } from 'lucide-react';
-import apiService from './services/api';
-import { API_BASE_URL } from './config/env';
 
 const LoginPage = () => {
   const { login } = useAuth();
@@ -86,28 +84,41 @@ const LoginPage = () => {
     setErrors({});
     
     try {
-      const data = await apiService.login({
-        email: formData.email,
-        password: formData.password
+      const response = await fetch('http://localhost:5001/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: formData.email,
+          password: formData.password
+        })
       });
 
-      login(data.user, data.token, rememberMe);
-      window.location.href = '/';
+      const data = await response.json();
+
+      if (response.ok) {
+        login(data.user, data.token, rememberMe);
+        console.log('Login successful:', data);
+        // Redirect to home page after login
+        window.location.href = '/';
+      } else {
+        setErrors({ general: data.message || 'A apărut o eroare. Încercați din nou.' });
+      }
     } catch (error) {
       console.error('Login error:', error);
-      setErrors({ general: error.message || 'Nu se poate conecta la server. Încercați din nou.' });
+      setErrors({ general: 'Nu se poate conecta la server. Încercați din nou.' });
     } finally {
       setIsLoading(false);
     }
   };
 
-  const apiBase = API_BASE_URL?.replace(/\/$/, '') || '/api';
   const handleGoogleLogin = () => {
-    window.location.href = `${apiBase}/auth/google`;
+    window.location.href = 'http://localhost:5001/api/auth/google';
   };
 
   const handleFacebookLogin = () => {
-    window.location.href = `${apiBase}/auth/facebook`;
+    window.location.href = 'http://localhost:5001/api/auth/facebook';
   };
 
   return (

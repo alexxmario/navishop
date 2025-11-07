@@ -5,7 +5,6 @@ import Header from './components/Header';
 import {
   Eye, EyeOff, Mail, Lock, ArrowLeft, Phone, UserPlus
 } from 'lucide-react';
-import apiService from './services/api';
 
 const RegisterPage = () => {
   const [formData, setFormData] = useState({
@@ -76,16 +75,30 @@ const RegisterPage = () => {
     setErrors({});
     
     try {
-      await apiService.register({
-        name: formData.name,
-        email: formData.email,
-        password: formData.password
+      const response = await fetch('http://localhost:5001/api/auth/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          password: formData.password
+        })
       });
 
-      window.location.href = '/login?registered=true';
+      const data = await response.json();
+
+      if (response.ok) {
+        console.log('Registration successful:', data);
+        // Redirect to login page with success message
+        window.location.href = '/login?registered=true';
+      } else {
+        setErrors({ general: data.message || 'A apărut o eroare. Încercați din nou.' });
+      }
     } catch (error) {
       console.error('Registration error:', error);
-      setErrors({ general: error.message || 'Nu se poate conecta la server. Încercați din nou.' });
+      setErrors({ general: 'Nu se poate conecta la server. Încercați din nou.' });
     } finally {
       setIsLoading(false);
     }
