@@ -21,7 +21,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/navishop/api/$1"
+      "dest": "/api/$1"
     },
     {
       "src": "/static/(.*)",
