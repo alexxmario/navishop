@@ -1,3 +1,39 @@
 {
-  "version": 2
+  "version": 2,
+  "builds": [
+    {
+      "src": "navishop/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "navishop/api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/navishop/api/$1"
+    },
+    {
+      "src": "/static/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/navishop/static/$1"
+    },
+    {
+      "src": "/(.*\\.(js|css|map|ico|png|jpg|jpeg|gif|svg|webp))$",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/navishop/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/navishop/index.html"
+    }
+  ]
 }
