@@ -12,10 +12,11 @@ This project consists of 3 separate applications that need to be deployed indivi
 ### 1. Deploy Backend API
 1. In Vercel, create a new project and select the `backend` folder
 2. Set Framework Preset to "Other"
-3. Set Environment Variables:
+3. Set Environment Variables (shared across every project that touches the database):
    ```
    NODE_ENV=production
    MONGODB_URI=your_production_mongodb_uri
+   MONGODB_DB_NAME=your_database_name
    JWT_SECRET=your_jwt_secret
    GOOGLE_CLIENT_ID=your_google_client_id
    GOOGLE_CLIENT_SECRET=your_google_client_secret
@@ -37,16 +38,17 @@ This project consists of 3 separate applications that need to be deployed indivi
 ### 2. Deploy Frontend (NaviShop)
 1. In Vercel, create a new project and select the `navishop` folder
 2. Set Framework Preset to "Create React App"
-3. Set Environment Variable:
+3. Set Environment Variables:
    ```
    REACT_APP_API_URL=https://your-backend-url.vercel.app
+   REACT_APP_ASSETS_BASE_URL=https://your-cdn-or-backend-url
    ```
 4. Deploy
 
 ### 3. Deploy Admin Panel
 1. In Vercel, create a new project and select the `admin-panel` folder
 2. Set Framework Preset to "Create React App"
-3. Set Environment Variable:
+3. Set Environment Variables:
    ```
    REACT_APP_API_URL=https://your-backend-url.vercel.app
    ```
@@ -59,6 +61,7 @@ This project consists of 3 separate applications that need to be deployed indivi
 3. **Environment Variables**: Make sure all sensitive data is stored in Vercel's environment variables, not in code
 4. **Domain Configuration**: Update the environment variables to point to your production URLs
 5. **File Uploads**: Consider using a cloud storage service like AWS S3 or Cloudinary for file uploads in production
+6. **Shared Secrets**: `MONGODB_URI`, `MONGODB_DB_NAME`, and `JWT_SECRET` must be identical across every API deployment (navishop serverless functions, admin-api, navishop-backend) so they all read/write the same database.
 
 ## Post-Deployment Configuration
 

@@ -1,43 +1,38 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "build",
+  "builds": [
+    {
+      "src": "build/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
-    {
-      "src": "/manifest.json",
-      "headers": { "content-type": "application/manifest+json" },
-      "dest": "/manifest.json"
-    },
-    {
-      "src": "/static/(.*)",
-      "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/(.*\\.gltf)$",
-      "headers": {
-        "cache-control": "s-maxage=31536000,immutable",
-        "content-type": "model/gltf+json"
-      },
-      "dest": "/$1"
-    },
-    {
-      "src": "/(.*\\.(js|css|map|ico|png|jpg|jpeg|gif|svg|webp))$",
-      "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/$1"
-    },
-    {
-      "src": "/logos/(.*)",
-      "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/logos/$1"
-    },
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     },
     {
+      "src": "/static/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/build/static/$1"
+    },
+    {
+      "src": "/(.*\\.(js|css|map|ico|png|jpg|jpeg|gif|svg|webp))$",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/build/$1"
+    },
+    {
+      "src": "/logos/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/build/logos/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/build/index.html"
     }
   ]
 }

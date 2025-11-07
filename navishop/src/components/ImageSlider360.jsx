@@ -1,4 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { ASSETS_BASE_URL } from '../config/env';
+
+const buildAssetUrl = (path) => {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  const base = (ASSETS_BASE_URL || '').replace(/\/$/, '');
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  return base ? `${base}${normalizedPath}` : normalizedPath;
+};
 
 const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,15 +20,11 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
 
   // Generate carousel images (screens ON)
   const generateCarouselImages = () => {
-    const carouselImages = [];
-    for (let i = 1; i <= 10; i++) {
-      carouselImages.push({
-        url: `http://localhost:5001/test-slider-on/Navigatie_WV_portina_${i}.jpg`,
-        alt: `Screen ON View ${i}`,
-        isPrimary: i === 1
-      });
-    }
-    return carouselImages;
+    return Array.from({ length: 10 }, (_, index) => ({
+      url: buildAssetUrl(`/test-slider-on/Navigatie_WV_portina_${index + 1}.jpg`),
+      alt: `Screen ON View ${index + 1}`,
+      isPrimary: index === 0
+    }));
   };
 
   const carouselImages = generateCarouselImages();
@@ -111,9 +116,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   }
 
   const currentImage = currentImages[currentIndex];
-  const imageUrl = currentImage?.url?.startsWith('http') 
-    ? currentImage.url 
-    : `http://localhost:5001${currentImage?.url}`;
+  const imageUrl = buildAssetUrl(currentImage?.url);
 
   return (
     <div className="relative">

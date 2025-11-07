@@ -36,7 +36,7 @@ const ProductPageExperimental = () => {
     // Your actual image files: Navigatie_WV_360-1.jpg to Navigatie_WV_360-17.jpg
     for (let i = 1; i <= 17; i++) {
       testImages.push({
-        url: `http://localhost:5001/test-slider/Navigatie_WV_360-${i}.jpg`,
+        url: `/test-slider/Navigatie_WV_360-${i}.jpg`,
         alt: `360° View Frame ${i}`,
         isPrimary: i === 1
       });
