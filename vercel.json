@@ -21,12 +21,17 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "dest": "/navishop/api/$1"
     },
     {
       "src": "/static/(.*)",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
       "dest": "/navishop/static/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/navishop/images/$1"
     },
     {
       "src": "/(.*\\.(js|css|map|ico|png|jpg|jpeg|gif|svg|webp|json|txt|woff|woff2|gltf))$",
