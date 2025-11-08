@@ -32,7 +32,9 @@ app.use(cors({
     'http://localhost:3000',
     'https://navishop.vercel.app',
     'https://navishop-luzogoady-alexs-projects-65522e6f.vercel.app',
-    /^https:\/\/navishop-.*-alexs-projects-65522e6f\.vercel\.app$/
+    /^https:\/\/navishop-.*-alexs-projects-65522e6f\.vercel\.app$/,
+    'https://admin-panel-navishop.vercel.app',
+    /^https:\/\/admin-panel-navishop-.*\.vercel\.app$/
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
