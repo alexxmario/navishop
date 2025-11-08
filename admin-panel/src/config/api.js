@@ -1,6 +1,6 @@
 // Shared API configuration for admin panel
-export const apiUrl = process.env.REACT_APP_API_URL || 'https://navishop-b3ct89nnk-alexs-projects-65522e6f.vercel.app/api';
-export const baseUrl = process.env.REACT_APP_BASE_URL || 'https://navishop-b3ct89nnk-alexs-projects-65522e6f.vercel.app';
+export const apiUrl = process.env.REACT_APP_API_URL || 'https://navishop.vercel.app/api';
+export const baseUrl = process.env.REACT_APP_BASE_URL || 'https://navishop.vercel.app';
 
 // Helper function to get full image URL
 export const getImageUrl = (imageUrl) => {
