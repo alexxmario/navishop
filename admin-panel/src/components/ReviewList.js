@@ -44,6 +44,7 @@ import {
   Menu,
   MenuItem
 } from '@mui/material';
+import { apiUrl } from '../config/api';
 import {
   CheckCircle,
   Cancel,
@@ -76,7 +77,7 @@ const ReviewActionButtons = () => {
 
   const handleStatusChange = async (newStatus) => {
     try {
-      await fetch(`http://localhost:5001/api/reviews/admin/${record.id}/status`, {
+      await fetch(`${apiUrl}/reviews/admin/${record.id}/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

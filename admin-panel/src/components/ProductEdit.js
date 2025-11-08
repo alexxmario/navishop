@@ -33,6 +33,7 @@ import {
 import { Delete as DeleteIcon, Search as SearchIcon, Add as AddIcon } from '@mui/icons-material';
 import ImageField from './ImageField';
 import StructuredDescriptionEditor from './StructuredDescriptionEditor';
+import { apiUrl, getImageUrl } from '../config/api';
 
 // Cross-Sell Products Manager Component
 const CrossSellManager = () => {
@@ -56,7 +57,7 @@ const CrossSellManager = () => {
         try {
           // Fetch full product data for existing cross-sell products
           const productPromises = crossSellIds.map(async (productId) => {
-            const response = await fetch(`http://localhost:5001/api/products/id/${productId}`);
+            const response = await fetch(`${apiUrl}/products/id/${productId}`);
             if (response.ok) {
               return await response.json();
             }
@@ -86,7 +87,7 @@ const CrossSellManager = () => {
     setIsSearching(true);
     try {
       const response = await fetch(
-        `http://localhost:5001/api/products?search=${encodeURIComponent(query)}&limit=50&status=active`
+        `${apiUrl}/products?search=${encodeURIComponent(query)}&limit=50&status=active`
       );
 
       if (response.ok) {
@@ -193,7 +194,7 @@ const CrossSellManager = () => {
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mr: 2 }}>
                     {product.images?.[0]?.url && (
                       <img
-                        src={product.images[0].url}
+                        src={getImageUrl(product.images[0].url)}
                         alt={product.name}
                         style={{ width: 50, height: 50, objectFit: 'cover', borderRadius: 4 }}
                       />

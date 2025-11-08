@@ -24,6 +24,7 @@ import {
   Visibility,
 } from '@mui/icons-material';
 import { useDropzone } from 'react-dropzone';
+import { apiUrl, getImageUrl } from '../config/api';
 
 const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
   const [uploading, setUploading] = useState(false);
@@ -41,7 +42,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
     formData.append('image', file);
 
     const token = localStorage.getItem('token');
-    const response = await fetch('http://localhost:5001/api/upload/image', {
+    const response = await fetch(`${apiUrl}/upload/image`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,
@@ -60,7 +61,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
     const filename = imageUrl.split('/').pop();
     const token = localStorage.getItem('token');
     
-    const response = await fetch(`http://localhost:5001/api/upload/image/${filename}`, {
+    const response = await fetch(`${apiUrl}/upload/image/${filename}`, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${token}`,
@@ -234,7 +235,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
                       sx={{
                         width: '100%',
                         height: 200,
-                        backgroundImage: `url(${image.url?.startsWith('http') ? image.url : `http://localhost:5001${image.url}`})`,
+                        backgroundImage: `url(${getImageUrl(image.url)})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -357,7 +358,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
           <DialogContent>
             {previewImage && (
               <img
-                src={previewImage.url?.startsWith('http') ? previewImage.url : `http://localhost:5001${previewImage.url}`}
+                src={getImageUrl(previewImage.url)}
                 alt={previewImage.alt}
                 style={{
                   width: '100%',

@@ -18,6 +18,7 @@ import {
 } from 'react-admin';
 import { Box, Typography, Card, CardContent, Avatar, Chip, Rating } from '@mui/material';
 import { Inventory, Category, Star, ShoppingCart, LocalOffer } from '@mui/icons-material';
+import { apiUrl } from '../config/api';
 
 // Rating Column Component
 const RatingColumn = ({ record }) => {
@@ -27,7 +28,7 @@ const RatingColumn = ({ record }) => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const response = await fetch(`http://localhost:5001/api/reviews/stats/${record.id}`);
+        const response = await fetch(`${apiUrl}/reviews/stats/${record.id}`);
         if (response.ok) {
           const stats = await response.json();
           setReviewStats(stats);

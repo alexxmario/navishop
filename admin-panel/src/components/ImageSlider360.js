@@ -17,6 +17,7 @@ import {
   Pause,
   Fullscreen,
 } from '@mui/icons-material';
+import { getImageUrl } from '../config/api';
 
 const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -126,9 +127,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   }
 
   const currentImage = images[currentIndex];
-  const imageUrl = currentImage?.url?.startsWith('http') 
-    ? currentImage.url 
-    : `http://localhost:5001${currentImage?.url}`;
+  const imageUrl = getImageUrl(currentImage?.url);
 
   return (
     <Box sx={{ position: 'relative' }}>

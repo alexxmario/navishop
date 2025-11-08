@@ -1,14 +1,12 @@
 import { fetchUtils } from 'ra-core';
-
-const apiUrl = 'http://localhost:5001/api';
-const baseUrl = 'http://localhost:5001';
+import { apiUrl, getImageUrl } from './config/api';
 
 // Convert relative image URLs to full URLs for admin panel
 const convertImageUrls = (item) => {
   if (item.images && Array.isArray(item.images)) {
     item.images = item.images.map(image => ({
       ...image,
-      url: image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`
+      url: getImageUrl(image.url)
     }));
   }
   return item;

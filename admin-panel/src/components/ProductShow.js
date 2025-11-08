@@ -43,6 +43,7 @@ import {
   Pending,
   ThumbUp
 } from '@mui/icons-material';
+import { apiUrl, getImageUrl } from '../config/api';
 
 // Cross-Sell Display Component
 const CrossSellDisplay = ({ productId }) => {
@@ -51,7 +52,7 @@ const CrossSellDisplay = ({ productId }) => {
   useEffect(() => {
     const fetchCrossSellData = async () => {
       try {
-        const response = await fetch(`http://localhost:5001/api/products/${productId}/cross-sell`);
+        const response = await fetch(`${apiUrl}/products/${productId}/cross-sell`);
         if (response.ok) {
           const data = await response.json();
           setCrossSellData(data);
@@ -94,7 +95,7 @@ const CrossSellDisplay = ({ productId }) => {
                     <Box sx={{ display: 'flex', gap: 2 }}>
                       {product.images?.[0]?.url && (
                         <img
-                          src={product.images[0].url}
+                          src={getImageUrl(product.images[0].url)}
                           alt={product.name}
                           style={{
                             width: 60,
@@ -155,7 +156,7 @@ const ReviewOverviewStats = ({ record }) => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const response = await fetch(`http://localhost:5001/api/reviews/stats/${record.id}`);
+        const response = await fetch(`${apiUrl}/reviews/stats/${record.id}`);
         if (response.ok) {
           const stats = await response.json();
           setReviewStats(stats);
@@ -215,7 +216,7 @@ const ProductReviewsTab = () => {
 
   const fetchReviews = useCallback(async () => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/product/${record.id}?page=1&limit=50`);
+      const response = await fetch(`${apiUrl}/reviews/product/${record.id}?page=1&limit=50`);
       if (response.ok) {
         const data = await response.json();
         setReviews(data.reviews || []);
@@ -229,7 +230,7 @@ const ProductReviewsTab = () => {
 
   const fetchReviewStats = useCallback(async () => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${record.id}`);
+      const response = await fetch(`${apiUrl}/reviews/stats/${record.id}`);
       if (response.ok) {
         const stats = await response.json();
         setReviewStats(stats);
@@ -248,7 +249,7 @@ const ProductReviewsTab = () => {
 
   const handleStatusChange = async (reviewId, newStatus) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/admin/${reviewId}/status`, {
+      const response = await fetch(`${apiUrl}/reviews/admin/${reviewId}/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -272,7 +273,7 @@ const ProductReviewsTab = () => {
 
   const handleDeleteReview = async () => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/${deleteDialog.reviewId}`, {
+      const response = await fetch(`${apiUrl}/reviews/${deleteDialog.reviewId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`

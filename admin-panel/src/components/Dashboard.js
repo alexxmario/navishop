@@ -44,26 +44,9 @@ import {
   Area,
   AreaChart
 } from 'recharts';
+import { apiRequest } from '../config/api';
 
-// API base URL
-const API_BASE = 'http://localhost:5001/api';
-
-// Helper function to make authenticated API calls
-const apiCall = async (endpoint) => {
-  const token = localStorage.getItem('token');
-  const response = await fetch(`${API_BASE}${endpoint}`, {
-    headers: {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`API call failed: ${response.statusText}`);
-  }
-
-  return response.json();
-};
+const apiCall = (endpoint) => apiRequest(endpoint);
 
 const StatCard = ({ title, value, icon, color = 'primary', trend, subtitle }) => (
   <Card 

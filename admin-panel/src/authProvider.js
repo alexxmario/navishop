@@ -1,5 +1,4 @@
-const apiUrl = 'http://localhost:5001/api';
-
+import { apiUrl } from './config/api';
 const authProvider = {
   // called when the user attempts to log in
   login: ({ username, password }) => {
