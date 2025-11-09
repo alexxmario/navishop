@@ -1,6 +1,8 @@
 // Shared API configuration for admin panel
-export const apiUrl = process.env.REACT_APP_API_URL || 'https://navishop.vercel.app/api';
-export const baseUrl = process.env.REACT_APP_BASE_URL || 'https://navishop.vercel.app';
+const defaultBackendBase = 'https://navishop-backend.vercel.app';
+
+export const apiUrl = process.env.REACT_APP_API_URL || `${defaultBackendBase}/api`;
+export const baseUrl = process.env.REACT_APP_BASE_URL || defaultBackendBase;
 
 // Helper function to get full image URL
 export const getImageUrl = (imageUrl) => {
