@@ -5,11 +5,28 @@ const fs = require('fs');
 const auth = require('../middleware/auth');
 const router = express.Router();
 
-// Ensure upload directory exists
-const uploadDir = path.join(__dirname, '../../navishop/public/images/products');
-if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir, { recursive: true });
+const localUploadsDir = path.join(__dirname, '../../navishop/public/images/products');
+const fallbackUploadsDir = process.env.UPLOAD_DIR || path.join('/tmp', 'navishop', 'uploads', 'products');
+
+const ensureDirectory = (dir) => {
+  try {
+    fs.mkdirSync(dir, { recursive: true });
+    return true;
+  } catch (error) {
+    console.warn(`Unable to initialize upload directory at ${dir}: ${error.message}`);
+    return false;
+  }
+};
+
+let uploadDir = localUploadsDir;
+if (!ensureDirectory(uploadDir)) {
+  uploadDir = fallbackUploadsDir;
+  if (!ensureDirectory(uploadDir)) {
+    throw new Error('Failed to initialize any upload directory');
+  }
 }
+
+console.log(`Product images will be stored in: ${uploadDir}`);
 
 // Configure multer for image uploads
 const storage = multer.diskStorage({

@@ -72,7 +72,13 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Serve static images from frontend public directory
-app.use('/images', express.static(path.join(__dirname, '../navishop/public/images')));
+const localImagesDir = path.join(__dirname, '../navishop/public/images');
+const uploadsOverrideDir = process.env.UPLOAD_DIR || path.join('/tmp', 'navishop', 'uploads', 'products');
+
+app.use('/images', express.static(localImagesDir));
+if (uploadsOverrideDir && uploadsOverrideDir !== localImagesDir) {
+  app.use('/images/products', express.static(uploadsOverrideDir));
+}
 app.use('/test-slider', express.static(path.join(__dirname, '../navishop/public/test slider')));
 app.use('/test-slider-on', express.static(path.join(__dirname, '../navishop/public/test slider ON')));
 
