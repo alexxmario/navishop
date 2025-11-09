@@ -21,7 +21,12 @@ try {
 } catch (error) {
   console.warn('Optional test shipping routes could not be loaded:', error.message);
 }
-const testFanCourierRoutes = require('./routes/test-fan-courier-integration');
+let testFanCourierRoutes = null;
+try {
+  testFanCourierRoutes = require('./routes/test-fan-courier-integration');
+} catch (error) {
+  console.warn('Optional test fan courier routes could not be loaded:', error.message);
+}
 const uploadRoutes = require('./routes/upload');
 const dashboardRoutes = require('./routes/dashboard');
 const reviewRoutes = require('./routes/reviews');
@@ -84,7 +89,9 @@ app.use('/api/shipping', shippingRoutes);
 if (testShippingRoutes) {
   app.use('/api/test', testShippingRoutes);
 }
-app.use('/api/fan-courier-test', testFanCourierRoutes);
+if (testFanCourierRoutes) {
+  app.use('/api/fan-courier-test', testFanCourierRoutes);
+}
 app.use('/api/upload', uploadRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/reviews', reviewRoutes);
