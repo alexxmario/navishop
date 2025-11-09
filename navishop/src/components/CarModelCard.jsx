@@ -32,7 +32,7 @@ const CarModelCard = ({ brand, modelData }) => {
 
   return (
     <Link
-      to={`/brand/${encodeURIComponent(brand)}/${encodeURIComponent(modelName)}`}
+      to={`/brands/${encodeURIComponent(brand)}/${encodeURIComponent(modelName)}`}
       className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
     >
       <div className="aspect-video bg-white flex items-center justify-center relative overflow-hidden">

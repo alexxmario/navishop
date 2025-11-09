@@ -441,7 +441,7 @@ const HomePage = () => {
             {brands.map((brand, index) => (
               <Link 
                 key={index} 
-                to={`/brand/${encodeURIComponent(brand.name?.toLowerCase())}`}
+                to={`/brands/${encodeURIComponent(brand.name?.toLowerCase())}`}
                 className="text-center group cursor-pointer"
               >
                 <div className="w-20 h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-50 group-hover:border-blue-200 transition-all duration-200 shadow-sm group-hover:shadow-md">

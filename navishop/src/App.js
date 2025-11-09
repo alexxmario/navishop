@@ -35,8 +35,8 @@ function App() {
             <Route path="/product-experimental/:slug" element={<ProductPageExperimental />} />
             <Route path="/category/:category" element={<CategoryPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
-            <Route path="/brand/:brand" element={<BrandPage />} />
-            <Route path="/brand/:brand/:model" element={<ModelPage />} />
+            <Route path="/brands/:brand" element={<BrandPage />} />
+            <Route path="/brands/:brand/:model" element={<ModelPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/dashboard" element={

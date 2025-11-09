@@ -298,7 +298,7 @@ const ProductPageExperimental = () => {
                 {carBrand && (
                   <>
                     <Link 
-                      to={`/brand/${encodeURIComponent(carBrand.toLowerCase())}`} 
+                      to={`/brands/${encodeURIComponent(carBrand.toLowerCase())}`} 
                       className="hover:text-blue-600 transition-colors"
                     >
                       {carBrand}
@@ -309,7 +309,7 @@ const ProductPageExperimental = () => {
                 {carModel && (
                   <>
                     <Link 
-                      to={`/brand/${encodeURIComponent(carBrand.toLowerCase())}/${encodeURIComponent(carModel.toLowerCase())}`} 
+                      to={`/brands/${encodeURIComponent(carBrand.toLowerCase())}/${encodeURIComponent(carModel.toLowerCase())}`} 
                       className="hover:text-blue-600 transition-colors"
                     >
                       {carModel}
