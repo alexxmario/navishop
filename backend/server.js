@@ -15,7 +15,12 @@ const syncRoutes = require('./routes/sync');
 const brandsRoutes = require('./routes/brands');
 const webhookRoutes = require('./routes/webhooks');
 const shippingRoutes = require('./routes/shipping');
-const testShippingRoutes = require('./routes/test-shipping');
+let testShippingRoutes = null;
+try {
+  testShippingRoutes = require('./routes/test-shipping');
+} catch (error) {
+  console.warn('Optional test shipping routes could not be loaded:', error.message);
+}
 const testFanCourierRoutes = require('./routes/test-fan-courier-integration');
 const uploadRoutes = require('./routes/upload');
 const dashboardRoutes = require('./routes/dashboard');
@@ -76,7 +81,9 @@ app.use('/api/sync', syncRoutes);
 app.use('/api/brands', brandsRoutes);
 app.use('/api/webhooks', webhookRoutes);
 app.use('/api/shipping', shippingRoutes);
-app.use('/api/test', testShippingRoutes);
+if (testShippingRoutes) {
+  app.use('/api/test', testShippingRoutes);
+}
 app.use('/api/fan-courier-test', testFanCourierRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/dashboard', dashboardRoutes);
