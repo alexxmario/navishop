@@ -8,6 +8,7 @@ const CarModelCard = ({ brand, modelData }) => {
   const [useFallback, setUseFallback] = useState(false);
 
   const modelName = modelData?.model || '';
+  const modelKey = modelData?.modelKey || modelName;
   console.log(`Model Name: ${modelName}`);
 
   const getCarImagePath = (type = 'normal', extension = 'png') => {
@@ -32,7 +33,7 @@ const CarModelCard = ({ brand, modelData }) => {
 
   return (
     <Link
-      to={`/brands/${encodeURIComponent(brand)}/${encodeURIComponent(modelName)}`}
+      to={`/brands/${encodeURIComponent(brand)}/${encodeURIComponent(modelKey)}`}
       className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
     >
       <div className="aspect-video bg-white flex items-center justify-center relative overflow-hidden">
