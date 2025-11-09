@@ -26,9 +26,13 @@ const BrandPage = () => {
   const loadBrandData = async () => {
     try {
       setLoading(true);
+      console.log('Loading brand data for:', brand);
       const data = await apiService.request(`/brands/${encodeURIComponent(brand)}`);
-      
+      console.log('Brand API response:', data);
+
       if (data.success) {
+        console.log('Setting brand data:', data.data);
+        console.log('Models count:', data.data.models?.length);
         setBrandData(data.data);
       } else {
         setError('Brand not found');
@@ -44,6 +48,10 @@ const BrandPage = () => {
   const filteredModels = brandData?.models?.filter(model =>
     model?.model?.toLowerCase().includes(searchQuery.toLowerCase())
   ) || [];
+
+  console.log('Brand data:', brandData);
+  console.log('Filtered models:', filteredModels);
+  console.log('Search query:', searchQuery);
 
   const getModelImage = (modelName) => {
     // Return a placeholder or brand-specific image
