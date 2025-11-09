@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import ReviewCard from './ReviewCard';
 import ReviewForm from './ReviewForm';
 import { useAuth } from '../AuthContext';
+import apiService from '../services/api';
 import { Star, Filter, ChevronDown, MessageSquare } from 'lucide-react';
 
 const ReviewsList = ({ productId, onReviewUpdate }) => {
@@ -28,18 +29,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   const fetchReviews = useCallback(async () => {
     try {
-      const response = await fetch(
-        `/api/reviews/product/${productId}?page=${currentPage}&sort=${sortBy}`,
-        {
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        }
-      );
-
-      if (!response.ok) throw new Error('Failed to fetch reviews');
-
-      const data = await response.json();
+      const data = await apiService.request(`/reviews/product/${productId}?page=${currentPage}&sort=${sortBy}`);
       setReviews(data.reviews);
       setTotalPages(data.pagination.totalPages);
     } catch (err) {
@@ -52,9 +42,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   const fetchStats = useCallback(async () => {
     try {
-      const response = await fetch(`/api/reviews/stats/${productId}`);
-      if (!response.ok) throw new Error('Failed to fetch stats');
-      const data = await response.json();
+      const data = await apiService.request(`/reviews/stats/${productId}`);
       setStats(data);
     } catch (err) {
       console.error('Error fetching stats:', err);
@@ -74,25 +62,15 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
     setSubmitting(true);
     try {
-      const token = getToken();
       const url = editingReview
-        ? `/api/reviews/${editingReview._id}`
-        : '/api/reviews';
+        ? `/reviews/${editingReview._id}`
+        : '/reviews';
 
-      const response = await fetch(url, {
+      const data = await apiService.request(url, {
         method: editingReview ? 'PUT' : 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify(reviewData)
+        headers: apiService.getAuthHeaders(),
+        body: reviewData
       });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.message || 'Error submitting review');
-      }
 
       alert(editingReview ? 'Recenzia a fost actualizată cu succes!' : 'Recenzia a fost trimisă cu succes! Va fi publicată după aprobare.');
 
@@ -123,17 +101,11 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
     }
 
     try {
-      const token = getToken();
-      const response = await fetch(`/api/reviews/${reviewId}/helpful`, {
+      await apiService.request(`/reviews/${reviewId}/helpful`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify({ helpful })
+        headers: apiService.getAuthHeaders(),
+        body: { helpful }
       });
-
-      if (!response.ok) throw new Error('Failed to vote');
 
       // Update the review in the local state
       setReviews(prev => prev.map(review =>
@@ -156,15 +128,10 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
     if (!window.confirm('Ești sigur că vrei să ștergi această recenzie?')) return;
 
     try {
-      const token = getToken();
-      const response = await fetch(`/api/reviews/${reviewId}`, {
+      await apiService.request(`/reviews/${reviewId}`, {
         method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
+        headers: apiService.getAuthHeaders()
       });
-
-      if (!response.ok) throw new Error('Failed to delete review');
 
       alert('Recenzia a fost ștearsă cu succes!');
       await fetchReviews();

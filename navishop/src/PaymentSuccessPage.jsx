@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { CheckCircle, Download, Home, Package } from 'lucide-react';
 import PageTitle from './components/PageTitle';
+import apiService from './services/api';
 
 const PaymentSuccessPage = () => {
   const [searchParams] = useSearchParams();
@@ -22,14 +23,8 @@ const PaymentSuccessPage = () => {
 
   const checkPaymentStatus = async () => {
     try {
-      const response = await fetch(`/api/webhooks/payment/${paymentId}/status`);
-      const data = await response.json();
-      
-      if (response.ok) {
-        setPaymentData(data);
-      } else {
-        setError(data.message || 'Eroare la verificarea plății');
-      }
+      const data = await apiService.request(`/webhooks/payment/${paymentId}/status`);
+      setPaymentData(data);
     } catch (err) {
       setError('Eroare la verificarea plății');
       console.error('Payment status check failed:', err);

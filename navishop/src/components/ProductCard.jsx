@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
 import { useAuth } from '../AuthContext';
+import apiService from '../services/api';
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   const { addToCart } = useCart();
@@ -24,14 +25,11 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     }
 
     try {
-      const response = await fetch(`/api/reviews/stats/${product._id}`);
-      if (response.ok) {
-        const stats = await response.json();
-        setReviewStats({
-          totalReviews: stats.totalReviews || 0,
-          averageRating: stats.averageRating || 0
-        });
-      }
+      const stats = await apiService.request(`/reviews/stats/${product._id}`);
+      setReviewStats({
+        totalReviews: stats.totalReviews || 0,
+        averageRating: stats.averageRating || 0
+      });
     } catch (error) {
       console.error('Failed to fetch review stats:', error);
       // Set default values on error

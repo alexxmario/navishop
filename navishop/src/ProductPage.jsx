@@ -158,11 +158,8 @@ const ProductPage = () => {
 
   const fetchReviewStats = async (productId) => {
     try {
-      const response = await fetch(`/api/reviews/stats/${productId}`);
-      if (response.ok) {
-        const stats = await response.json();
-        setReviewStats(stats);
-      }
+      const stats = await apiService.request(`/reviews/stats/${productId}`);
+      setReviewStats(stats);
     } catch (error) {
       console.error('Failed to fetch review stats:', error);
     }
@@ -170,15 +167,12 @@ const ProductPage = () => {
 
   const fetchCrossSellProducts = async (productId) => {
     try {
-      const response = await fetch(`/api/products/${productId}/cross-sell`);
-      if (response.ok) {
-        const data = await response.json();
-        setCrossSellProducts(data.crossSellProducts || []);
+      const data = await apiService.request(`/products/${productId}/cross-sell`);
+      setCrossSellProducts(data.crossSellProducts || []);
 
-        // Log the bidirectional relationships for debugging
-        if (data.directCrossSells > 0 || data.reverseCrossSells > 0) {
-          console.log(`Cross-sell relationships: ${data.directCrossSells} direct + ${data.reverseCrossSells} reverse = ${data.totalCrossSells} total`);
-        }
+      // Log the bidirectional relationships for debugging
+      if (data.directCrossSells > 0 || data.reverseCrossSells > 0) {
+        console.log(`Cross-sell relationships: ${data.directCrossSells} direct + ${data.reverseCrossSells} reverse = ${data.totalCrossSells} total`);
       }
     } catch (error) {
       console.error('Failed to fetch cross-sell products:', error);
