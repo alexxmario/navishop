@@ -1,5 +1,9 @@
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://navishop-backend.vercel.app/api';
 
+// Debug logging to see what URL is being used
+console.log('API Base URL:', API_BASE_URL);
+console.log('Environment REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
+
 class ApiService {
   constructor() {
     this.baseURL = API_BASE_URL;
