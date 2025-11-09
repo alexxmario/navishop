@@ -32,6 +32,10 @@ This project consists of 3 separate applications that need to be deployed indivi
    FAN_COURIER_SENDER_PHONE=+40123456789
    FAN_COURIER_CONTACT_PERSON=Support Team
    FAN_COURIER_ORIGIN_CITY=Bucuresti
+   ADMIN_EMAIL=admin@navishop.com
+   ADMIN_PASSWORD=admin123456
+   ADMIN_NAME=PilotOn Admin
+   ADMIN_FORCE_RESET=false
    ```
 4. Deploy
 

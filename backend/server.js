@@ -35,7 +35,13 @@ require('./config/passport');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-connectDB();
+const ensureAdminUser = require('./services/ensureAdminUser');
+
+connectDB()
+  .then(() => ensureAdminUser())
+  .catch(error => {
+    console.error('Failed to initialize admin user:', error);
+  });
 
 app.use(cors({
   origin: [
