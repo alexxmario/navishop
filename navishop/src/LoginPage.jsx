@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from './AuthContext';
+import apiService from './services/api';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
@@ -84,30 +85,18 @@ const LoginPage = () => {
     setErrors({});
     
     try {
-      const response = await fetch('http://localhost:5001/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: formData.email,
-          password: formData.password
-        })
+      const data = await apiService.login({
+        email: formData.email,
+        password: formData.password
       });
 
-      const data = await response.json();
-
-      if (response.ok) {
-        login(data.user, data.token, rememberMe);
-        console.log('Login successful:', data);
-        // Redirect to home page after login
-        window.location.href = '/';
-      } else {
-        setErrors({ general: data.message || 'A apărut o eroare. Încercați din nou.' });
-      }
+      login(data.user, data.token, rememberMe);
+      console.log('Login successful:', data);
+      // Redirect to home page after login
+      window.location.href = '/';
     } catch (error) {
       console.error('Login error:', error);
-      setErrors({ general: 'Nu se poate conecta la server. Încercați din nou.' });
+      setErrors({ general: error.message || 'Nu se poate conecta la server. Încercați din nou.' });
     } finally {
       setIsLoading(false);
     }

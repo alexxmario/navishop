@@ -37,10 +37,6 @@
       "dest": "/logos/$1"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
