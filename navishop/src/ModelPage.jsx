@@ -31,12 +31,15 @@ const ModelPage = () => {
   const loadModelData = async () => {
     try {
       setLoading(true);
-      const data = await apiService.request(`/brands/${encodeURIComponent(brand)}/${encodeURIComponent(model)}`);
-
-      if (data.success) {
+      const decodedBrand = decodeURIComponent(brand || '').replace(/\+/g, ' ').trim();
+      const decodedModel = decodeURIComponent(model || '').replace(/\+/g, ' ').trim();
+      const data = await apiService.getBrandModelProducts(decodedBrand, decodedModel);
+      
+      if (data?.success) {
         setModelData(data.data);
+        setError(null);
       } else {
-        setError('Model not found');
+        setError(data?.message || 'Model not found');
       }
     } catch (error) {
       console.error('Failed to load model data:', error);
@@ -163,7 +166,7 @@ const ModelPage = () => {
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-2xl font-light text-gray-900 mb-4">Model negăsit</h1>
           <p className="text-gray-600 mb-8">{error}</p>
-          <Link to={`/brands/${brand}`} className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
+          <Link to={`/brand/${brand}`} className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
             Înapoi la modelele {capitalizeWord(brand)}
           </Link>
         </div>
@@ -185,7 +188,7 @@ const ModelPage = () => {
           <nav className="flex items-center space-x-2 text-sm">
             <Link to="/" className="text-gray-600 hover:text-blue-600">Acasă</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <Link to={`/brands/${brand}`} className="text-gray-600 hover:text-blue-600">
+            <Link to={`/brand/${brand}`} className="text-gray-600 hover:text-blue-600">
               {capitalizeWord(brand)}
             </Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />

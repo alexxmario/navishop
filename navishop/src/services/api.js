@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://navishop-backend.vercel.app/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
 class ApiService {
   constructor() {
@@ -81,6 +81,20 @@ class ApiService {
   async getProductReviews(productId, params = {}) {
     const queryString = new URLSearchParams(params).toString();
     const endpoint = `/products/${productId}/reviews${queryString ? `?${queryString}` : ''}`;
+    return this.request(endpoint);
+  }
+
+  // Brand/model methods
+  async getBrandModels(brand) {
+    const slug = encodeURIComponent(brand);
+    return this.request(`/brands/${slug}`);
+  }
+
+  async getBrandModelProducts(brand, model, params = {}) {
+    const queryString = new URLSearchParams(params).toString();
+    const slug = encodeURIComponent(brand);
+    const modelSlug = encodeURIComponent(model);
+    const endpoint = `/brands/${slug}/${modelSlug}${queryString ? `?${queryString}` : ''}`;
     return this.request(endpoint);
   }
 

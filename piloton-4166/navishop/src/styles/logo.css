@@ -1,0 +1,48 @@
+/* Logo styles - Global CSS */
+.logo-header {
+  height: 5rem; /* h-16 = 64px */
+  width: auto;
+  margin-left: -20px;
+}
+
+.logo-footer {
+  height: 5rem; /* h-10 = 40px */
+  width: auto;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+/* Header layout styles */
+.main-header {
+  height: 80px; /* h-20 = 80px */
+}
+
+.main-header .container {
+  height: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.actions-container {
+  flex-shrink: 0;
+}

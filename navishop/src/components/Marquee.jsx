@@ -10,10 +10,12 @@ const Marquee = ({
   const containerRef = useRef(null);
   const contentRef = useRef(null);
   const [isReady, setIsReady] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const container = containerRef.current;
     const content = contentRef.current;
+
     if (!container || !content) return;
 
     // Wait for content to be rendered and measured
@@ -49,17 +51,20 @@ const Marquee = ({
         className={`marquee-content ${isReady ? 'animate' : ''}`}
         style={{
           display: 'flex',
-          animation: isReady ? `marquee-scroll var(--animation-duration, 30s) linear infinite` : 'none',
-          animationPlayState: 'running'
+          animationName: isReady ? 'marquee-scroll' : 'none',
+          animationDuration: 'var(--animation-duration, 30s)',
+          animationTimingFunction: 'linear',
+          animationIterationCount: 'infinite',
+          animationPlayState: isPaused ? 'paused' : 'running'
         }}
-        onMouseEnter={(e) => {
+        onMouseEnter={() => {
           if (pauseOnHover) {
-            e.currentTarget.style.animationPlayState = 'paused';
+            setIsPaused(true);
           }
         }}
-        onMouseLeave={(e) => {
+        onMouseLeave={() => {
           if (pauseOnHover) {
-            e.currentTarget.style.animationPlayState = 'running';
+            setIsPaused(false);
           }
         }}
       >
@@ -74,25 +79,6 @@ const Marquee = ({
           {children}
         </div>
       </div>
-
-      <style>{`
-        @keyframes marquee-scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(calc(var(--content-width, 1000px) * var(--direction, -1)));
-          }
-        }
-
-        .marquee-content {
-          will-change: transform;
-        }
-
-        .marquee-content.animate {
-          animation-timing-function: linear;
-        }
-      `}</style>
     </div>
   );
 };

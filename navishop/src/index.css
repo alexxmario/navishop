@@ -15,3 +15,60 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#recently-viewed-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#recently-viewed-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+.marquee-content {
+  will-change: transform;
+}
+
+.marquee-content.animate {
+  animation-timing-function: linear;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--content-width, 1000px) * var(--direction, -1)));
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

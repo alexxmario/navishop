@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Image Test - PilotOn</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .product { border: 1px solid #ccc; margin: 10px; padding: 10px; }
+        img { max-width: 200px; height: auto; margin: 5px; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>PilotOn Local Images Test</h1>
+    <div id="results"></div>
+
+    <script>
+        async function testImages() {
+            const resultsDiv = document.getElementById('results');
+            
+            try {
+                // Fetch products from API
+                const response = await fetch('http://localhost:5001/api/products?limit=5');
+                const data = await response.json();
+                
+                if (!data.products || data.products.length === 0) {
+                    resultsDiv.innerHTML = '<p class="error">No products found!</p>';
+                    return;
+                }
+                
+                resultsDiv.innerHTML = '<h2>Testing first 5 products:</h2>';
+                
+                for (const product of data.products) {
+                    const productDiv = document.createElement('div');
+                    productDiv.className = 'product';
+                    
+                    let html = `<h3>${product.name}</h3>`;
+                    
+                    if (product.images && product.images.length > 0) {
+                        html += '<div>';
+                        for (let i = 0; i < Math.min(2, product.images.length); i++) {
+                            const image = product.images[i];
+                            const fullUrl = `http://localhost:5001${image.url}`;
+                            html += `<img src="${fullUrl}" alt="${image.alt}" onload="this.nextSibling.innerHTML='✅ Loaded'" onerror="this.nextSibling.innerHTML='❌ Failed'" />`;
+                            html += `<span class="status">Loading...</span><br/>`;
+                        }
+                        html += '</div>';
+                    } else {
+                        html += '<p class="error">No images found for this product</p>';
+                    }
+                    
+                    productDiv.innerHTML = html;
+                    resultsDiv.appendChild(productDiv);
+                }
+                
+            } catch (error) {
+                resultsDiv.innerHTML = `<p class="error">Error: ${error.message}</p>`;
+            }
+        }
+        
+        // Run test when page loads
+        testImages();
+    </script>
+</body>
+</html>

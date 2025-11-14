@@ -1,0 +1,1243 @@
+{
+  "timestamp": "2025-08-07T13:42:10.941584",
+  "confidence_threshold": 0.5,
+  "total_found": 247,
+  "total_reprocessed": 0,
+  "results": [
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/t-cross/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/tiguan 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/jetta 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/arteon/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/taigo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/polo 6r/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/amarok/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/caravelle/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/golf plus/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/passat cc b7/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/touareg 7p/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/passat cc b6/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/touareg 7l/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/touran 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/golf 7/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/scirocco/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/polo 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/touran 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/polo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/passat b8/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/transporter t5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/passat b6/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/sharan/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/passat b7/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/tiguan 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/jetta/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/new beetle/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/t-roc/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/multivan t5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volkswagen/touran 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/outlander 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/outlander 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/l200 triton/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/lancer/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/pajero 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mitsubishi/asx 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/clio 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/zoe/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/clio 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/arkana/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/express/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/megane 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/kadjar/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/captur/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/fluence/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/clio 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/koleos/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/renault/megane 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/focus 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/focus 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/ranger 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/fiesta 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/galaxy/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/transit/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/fiesta 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/kuga/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/c-max 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/mondeo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/mondeo 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/f-150 raptor/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/mondeo 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/ford/s-max/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/jeep/renegade/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/jeep/compass 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/jeep/patriot 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/jeep/grand cherokee 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/6 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/3 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/cx5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/cx 7/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/6 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/3 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mazda/5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/tucson 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/ioniq/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i10 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i30 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/ix35 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/santa fe 4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i30 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i20 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/santa fe ix45 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i20 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/kona/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/bayon/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/tucson 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i10 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i10 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/tucson 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i30 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/santa fe 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/elantra 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/elantra 4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/hyundai/i20 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/kia/sportage 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/kia/ceed 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/kia/sportage 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/kia/sportage 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/kia/ceed 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/vito 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/a class/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/viano/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/cls c219/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/b class/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/e class w211/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/c class 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/ml class/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/ml class 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/mercedes/c class w204/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/astra j/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/vivaro c/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/astra k/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/mokka 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/signum/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/meriva a/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/astra h/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/insignia 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/zafira b/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/corsa e/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/corsa c/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/corsa d/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/meriva/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/adam/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/opel/vectra c/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/chevrolet/cruze/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/chevrolet/aveo 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/chevrolet/captiva/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/chevrolet/spark/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/duster 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/duster 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/lodgy/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/sandero 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/jogger/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/logan 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/logan 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/duster 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/dokker/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/sandero 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/dacia/sandero 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/chr/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/avensis t27/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/yaris p9/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/aygo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/auris e15/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/proace/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/rav4 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/rav4 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/yaris p13/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/auris e18/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/prius w3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/corolla e21/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/toyota/corolla e18/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/parhfinder/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/navara/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/qashqai j10/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/x-trail/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/qashqai j11/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/nissan/juke/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/audi/a3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/audi/a4 b7/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/audi/a4 b6/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/audi/tt/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/audi/q3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volvo/c30/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volvo/xc60/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/volvo/v50/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/307/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/308 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/3008/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/407/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/5008 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/2008/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/508/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/4008/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/4007/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/207/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/206/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/208/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/5008 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/expert/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/607/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/308 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/peugeot/traveller/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/impreza xv wrx/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/forester sk/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/forester sj/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/impreza wrx 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/legacy 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/forester sh/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/subaru/forester sg/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/alfa romeo/giulietta/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/alfa romeo/mito/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/rapid/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/superb 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/kodiaq/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/octavia 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/fabia/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/superb 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/octavia 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/skoda/yeti/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/seria 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/x1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/seria 3 e46/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/seria 5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/x3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/seria 3 e90/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/bmw/x5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/freemont/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/doblo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/500 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/500 L/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/tipo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/sedici/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/talento/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/bravo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/fiat/500 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/berlingo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/c1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/c4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/c-crosser/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/c5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/c4 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/citroen/ds4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/civic/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/crv 1/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/civic 8 sedan/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/civic ix hatchback/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/civic 8 hatchback/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/accord 8/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/crv 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/civic ix sedan/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/honda/crv 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/swift 3/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/swift 4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/swift 5/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/jimny 2/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/vitara/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/sx4/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/suzuki/grand vitara/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/ibiza 6f/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/exeo/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/leon/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/ateca/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/ibiza 6j/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/altea/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/arona/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    },
+    {
+      "flash_file": "/Users/alexmario/Desktop/site navigatii/piloton/public/cars/seat/leon 1p/flash.png",
+      "error": "'ImageReorganizer' object has no attribute 'api_url'",
+      "success": false
+    }
+  ]
+}

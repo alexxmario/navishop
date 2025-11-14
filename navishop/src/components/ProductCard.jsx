@@ -2,8 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
-import { useAuth } from '../AuthContext';
-import apiService from '../services/api';
+const FALLBACK_IMAGE = 'https://via.placeholder.com/400x300?text=Navishop';
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   const { addToCart } = useCart();
@@ -25,11 +24,14 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     }
 
     try {
-      const stats = await apiService.request(`/reviews/stats/${product._id}`);
-      setReviewStats({
-        totalReviews: stats.totalReviews || 0,
-        averageRating: stats.averageRating || 0
-      });
+      const response = await fetch(`http://localhost:5001/api/reviews/stats/${product._id}`);
+      if (response.ok) {
+        const stats = await response.json();
+        setReviewStats({
+          totalReviews: stats.totalReviews || 0,
+          averageRating: stats.averageRating || 0
+        });
+      }
     } catch (error) {
       console.error('Failed to fetch review stats:', error);
       // Set default values on error
@@ -111,6 +113,13 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     );
   };
 
+  const handleImageError = (event) => {
+    if (event?.currentTarget) {
+      event.currentTarget.onerror = null;
+      event.currentTarget.src = FALLBACK_IMAGE;
+    }
+  };
+
   if (viewMode === 'list') {
     return (
       <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
@@ -121,6 +130,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
               src={product.images?.[0]?.url || '/placeholder-image.jpg'}
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full object-cover rounded-lg"
+              onError={handleImageError}
             />
           </div>
 
@@ -188,6 +198,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             src={product.images?.[0]?.url || '/placeholder-image.jpg'}
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+            onError={handleImageError}
           />
         </div>
 
