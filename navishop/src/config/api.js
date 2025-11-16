@@ -27,7 +27,17 @@ export const resolveImageUrl = (url) => {
   if (url.startsWith('http://') || url.startsWith('https://')) {
     return url;
   }
-  return buildAssetUrl(url);
+  let normalized = url;
+  if (!normalized.startsWith('/')) {
+    if (normalized.startsWith('images/')) {
+      normalized = `/${normalized}`;
+    } else if (normalized.includes('/')) {
+      normalized = `/${normalized}`;
+    } else {
+      normalized = `/images/products/${normalized}`;
+    }
+  }
+  return buildAssetUrl(normalized);
 };
 
 export const placeholderImage = (width = 400, height = 300, text = 'Navishop') => {
