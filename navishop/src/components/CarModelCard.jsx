@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom';
 import { Car, ChevronRight } from 'lucide-react';
 import { resolveImageUrl } from '../config/api';
 
-const sanitizeFolder = (value = '') =>
+const normalizeSpacing = (value = '') =>
   value
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/\s+/g, ' ')
-    .trim()
-    .toLowerCase();
+    .trim();
 
 const encodeFolderForUrl = (folder = '') =>
   folder
@@ -18,12 +17,14 @@ const encodeFolderForUrl = (folder = '') =>
     .join('/');
 
 const stripBrandPrefix = (text = '', brand = '') => {
-  const lowerText = text.toLowerCase();
-  const lowerBrand = brand.toLowerCase();
-  if (lowerText.startsWith(`${lowerBrand} `)) {
-    return text.slice(brand.length).trim();
+  const normalizedText = normalizeSpacing(text);
+  const normalizedBrand = normalizeSpacing(brand);
+  if (
+    normalizedText.toLowerCase().startsWith(`${normalizedBrand.toLowerCase()} `)
+  ) {
+    return normalizedText.slice(normalizedBrand.length).trim();
   }
-  return text.trim();
+  return normalizedText;
 };
 
 const CarModelCard = ({ brand, modelData, modelKey }) => {
@@ -34,30 +35,42 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
   const candidateFolders = useMemo(() => {
     const brandLower = brand.toLowerCase();
     const candidates = new Set();
+    const years = modelData.years ? normalizeSpacing(modelData.years) : '';
 
-    const baseFromKey = sanitizeFolder(
-      stripBrandPrefix(modelKey.replace(/-/g, ' '), brand)
+    const addCandidate = (value) => {
+      const normalized = normalizeSpacing(value);
+      if (!normalized) return;
+      candidates.add(normalized);
+      candidates.add(normalized.toLowerCase());
+    };
+
+    const addWithYears = (value) => {
+      if (!value) return;
+      addCandidate(value);
+      if (years) {
+        addCandidate(`${value} ${years}`);
+      }
+    };
+
+    // Primary: model name as returned by API (preserves case and hyphens)
+    addWithYears(stripBrandPrefix(modelData.model || '', brand));
+
+    // Secondary: try slug-based model key (replace hyphens that separate words but keep numeric ranges)
+    const slugModel = stripBrandPrefix(
+      modelKey.replace(/-(?=[a-z])/gi, ' '),
+      brand
     );
-    const baseFromModel = sanitizeFolder(
-      stripBrandPrefix(modelData.model || '', brand)
-    );
-    const years = modelData.years ? modelData.years.trim() : '';
+    addWithYears(slugModel);
 
-    if (baseFromKey) candidates.add(baseFromKey);
-    if (baseFromModel) candidates.add(baseFromModel);
-    if (baseFromKey && years) candidates.add(`${baseFromKey} ${years}`.trim());
-    if (baseFromModel && years) candidates.add(`${baseFromModel} ${years}`.trim());
+    // Fallback: raw slug without stripping brand
+    addWithYears(modelKey.replace(/-(?=[a-z])/gi, ' '));
 
-    // Include original key/model (before removing brand) as last resort
-    const rawKey = sanitizeFolder(modelKey.replace(/-/g, ' '));
-    if (rawKey) candidates.add(rawKey);
-    const rawModel = sanitizeFolder(modelData.model || '');
-    if (rawModel) candidates.add(rawModel);
-
-    return Array.from(candidates).map(folder => ({
-      brand: brandLower,
-      folder
-    }));
+    return Array.from(candidates)
+      .filter(Boolean)
+      .map((folder) => ({
+        brand: brandLower,
+        folder
+      }));
   }, [brand, modelData.model, modelData.years, modelKey]);
 
   useEffect(() => {
