@@ -10,14 +10,14 @@ import PageTitle from './components/PageTitle';
 import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
-import { buildApiUrl, resolveImageUrl } from './config/api';
+import { buildApiUrl, resolveImageUrl, placeholderImage } from './config/api';
 import {
   Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
   X, ChevronLeft
 } from 'lucide-react';
 
-const FALLBACK_IMAGE = 'https://via.placeholder.com/800x600?text=Navishop';
+const FALLBACK_IMAGE = placeholderImage(800, 600);
 
 const ProductPage = () => {
   const { slug } = useParams();

@@ -30,4 +30,16 @@ export const resolveImageUrl = (url) => {
   return buildAssetUrl(url);
 };
 
+export const placeholderImage = (width = 400, height = 300, text = 'Navishop') => {
+  const sanitizedText = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+    <rect width="100%" height="100%" fill="#e5e7eb"/>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+      font-family="Arial, sans-serif" font-size="${Math.min(width, height) / 10}" fill="#94a3b8">
+      ${sanitizedText}
+    </text>
+  </svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+};
+
 export { API_URL, ASSET_BASE_URL };

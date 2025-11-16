@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useRecentlyViewed } from '../RecentlyViewedContext';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
+import { resolveImageUrl, placeholderImage } from '../config/api';
 
-const FALLBACK_IMAGE = 'https://via.placeholder.com/160x120?text=Navishop';
+const FALLBACK_IMAGE = placeholderImage(160, 120);
 
 const RecentlyViewed = () => {
   const { recentlyViewed, clearRecentlyViewed } = useRecentlyViewed();
@@ -59,21 +60,15 @@ const RecentlyViewed = () => {
                   className="flex-shrink-0 group"
                 >
                   <div className="w-24 h-20 bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-                    {product.images && product.images.length > 0 ? (
-                      <img
-                        src={product.images[0].url}
-                        alt={product.images[0].alt || product.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
-                        onError={(event) => {
-                          event.currentTarget.onerror = null;
-                          event.currentTarget.src = FALLBACK_IMAGE;
-                        }}
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-gray-100 flex items-center justify-center">
-                        <div className="w-8 h-8 bg-blue-100 rounded border border-blue-200"></div>
-                      </div>
-                    )}
+                    <img
+                      src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
+                      alt={product.images?.[0]?.alt || product.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                      onError={(event) => {
+                        event.currentTarget.onerror = null;
+                        event.currentTarget.src = FALLBACK_IMAGE;
+                      }}
+                    />
                   </div>
                   <p className="text-xs text-gray-600 mt-1 truncate w-24 group-hover:text-blue-600 transition-colors">
                     {product.name}

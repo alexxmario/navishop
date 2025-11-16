@@ -2,8 +2,9 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
-import { buildApiUrl, resolveImageUrl } from '../config/api';
-const FALLBACK_IMAGE = 'https://via.placeholder.com/400x300?text=Navishop';
+import { buildApiUrl, resolveImageUrl, placeholderImage } from '../config/api';
+
+const FALLBACK_IMAGE = placeholderImage(400, 300);
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   const { addToCart } = useCart();
@@ -121,6 +122,8 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     }
   };
 
+  const getProductImage = (image) => resolveImageUrl(image?.url) || FALLBACK_IMAGE;
+
   if (viewMode === 'list') {
     return (
       <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
@@ -128,7 +131,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
           {/* Image */}
           <div className="flex-shrink-0 w-48 h-48">
             <img
-              src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
+              src={getProductImage(product.images?.[0])}
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full object-cover rounded-lg"
               onError={handleImageError}
@@ -196,7 +199,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         {/* Image */}
         <div className="mb-4">
           <img
-            src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
+            src={getProductImage(product.images?.[0])}
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
             onError={handleImageError}
