@@ -1,27 +1,85 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Car, ChevronRight } from 'lucide-react';
+import { resolveImageUrl } from '../config/api';
+
+const sanitizeFolder = (value = '') =>
+  value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+
+const encodeFolderForUrl = (folder = '') =>
+  folder
+    .split('/')
+    .map(part => encodeURIComponent(part))
+    .join('/');
+
+const stripBrandPrefix = (text = '', brand = '') => {
+  const lowerText = text.toLowerCase();
+  const lowerBrand = brand.toLowerCase();
+  if (lowerText.startsWith(`${lowerBrand} `)) {
+    return text.slice(brand.length).trim();
+  }
+  return text.trim();
+};
 
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
-  const [useFallback, setUseFallback] = useState(false);
-  
-  console.log(`Model Key: ${modelKey}, Model Name: ${modelData.model}`);
+  const [variantIndex, setVariantIndex] = useState(0);
 
-  const getCarImagePath = (type = 'normal', extension = 'png') => {
+  const candidateFolders = useMemo(() => {
     const brandLower = brand.toLowerCase();
-    const modelLower = modelKey.toLowerCase();
-    console.log(`Looking for image: /cars/${brandLower}/${modelLower}/${type}.${extension}`);
-    return `/cars/${brandLower}/${modelLower}/${type}.${extension}`;
+    const candidates = new Set();
+
+    const baseFromKey = sanitizeFolder(
+      stripBrandPrefix(modelKey.replace(/-/g, ' '), brand)
+    );
+    const baseFromModel = sanitizeFolder(
+      stripBrandPrefix(modelData.model || '', brand)
+    );
+    const years = modelData.years ? modelData.years.trim() : '';
+
+    if (baseFromKey) candidates.add(baseFromKey);
+    if (baseFromModel) candidates.add(baseFromModel);
+    if (baseFromKey && years) candidates.add(`${baseFromKey} ${years}`.trim());
+    if (baseFromModel && years) candidates.add(`${baseFromModel} ${years}`.trim());
+
+    // Include original key/model (before removing brand) as last resort
+    const rawKey = sanitizeFolder(modelKey.replace(/-/g, ' '));
+    if (rawKey) candidates.add(rawKey);
+    const rawModel = sanitizeFolder(modelData.model || '');
+    if (rawModel) candidates.add(rawModel);
+
+    return Array.from(candidates).map(folder => ({
+      brand: brandLower,
+      folder
+    }));
+  }, [brand, modelData.model, modelData.years, modelKey]);
+
+  useEffect(() => {
+    setVariantIndex(0);
+    setImageError(false);
+    setImageLoaded(false);
+  }, [brand, modelData.model, modelData.years, modelKey]);
+
+  const buildImagePath = (type = 'normal') => {
+    const variant = candidateFolders[variantIndex];
+    if (!variant) return '';
+    const encodedFolder = encodeFolderForUrl(variant.folder);
+    return resolveImageUrl(`/cars/${variant.brand}/${encodedFolder}/${type}.png`);
   };
 
-  const getCarImagePathFallback = (type = 'normal', extension = 'png') => {
-    // Fallback: try with just the base model name (without years)
-    const brandLower = brand.toLowerCase();
-    const baseModelName = modelData.model.toLowerCase();
-    console.log(`Fallback image search: /cars/${brandLower}/${baseModelName}/${type}.${extension}`);
-    return `/cars/${brandLower}/${baseModelName}/${type}.${extension}`;
+  const handleImageError = () => {
+    if (variantIndex < candidateFolders.length - 1) {
+      setVariantIndex(prev => prev + 1);
+      setImageLoaded(false);
+    } else {
+      setImageError(true);
+    }
   };
 
   const formatYears = (years) => {
@@ -38,21 +96,15 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
         {!imageError ? (
           <div className="relative w-full h-full">
             <img
-              src={useFallback ? getCarImagePathFallback('normal') : getCarImagePath('normal')}
+              src={buildImagePath('normal')}
               alt={`${brand} ${modelData.model}`}
               className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-0"
               onLoad={() => setImageLoaded(true)}
-              onError={() => {
-                if (!useFallback) {
-                  setUseFallback(true);
-                } else {
-                  setImageError(true);
-                }
-              }}
+              onError={handleImageError}
             />
             {imageLoaded && (
               <img
-                src={useFallback ? getCarImagePathFallback('flash') : getCarImagePath('flash')}
+                src={buildImagePath('flash')}
                 alt={`${brand} ${modelData.model} with flash`}
                 className="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 onError={() => {}}
