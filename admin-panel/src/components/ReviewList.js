@@ -55,6 +55,7 @@ import {
   Flag,
   Star
 } from '@mui/icons-material';
+import { buildApiUrl } from '../config/api';
 
 // Custom action buttons component
 const ReviewActionButtons = () => {
@@ -76,7 +77,7 @@ const ReviewActionButtons = () => {
 
   const handleStatusChange = async (newStatus) => {
     try {
-      await fetch(`http://localhost:5001/api/reviews/admin/${record.id}/status`, {
+      await fetch(buildApiUrl(`reviews/admin/${record.id}/status`), {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

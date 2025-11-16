@@ -40,6 +40,7 @@ import {
   Inventory,
   Schedule
 } from '@mui/icons-material';
+import { buildApiUrl } from '../config/api';
 
 // Custom review content display
 const ReviewContent = () => {
@@ -216,7 +217,7 @@ const ReviewAdminActions = () => {
 
   const handleStatusChange = async (newStatus) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/admin/${record.id}/status`, {
+      const response = await fetch(buildApiUrl(`reviews/admin/${record.id}/status`), {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

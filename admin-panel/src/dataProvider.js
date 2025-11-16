@@ -1,14 +1,14 @@
 import { fetchUtils } from 'ra-core';
+import { API_URL, resolveImageUrl, buildApiUrl } from './config/api';
 
-const apiUrl = 'http://localhost:5001/api';
-const baseUrl = 'http://localhost:5001';
+const apiUrl = API_URL;
 
 // Convert relative image URLs to full URLs for admin panel
 const convertImageUrls = (item) => {
   if (item.images && Array.isArray(item.images)) {
     item.images = item.images.map(image => ({
       ...image,
-      url: image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`
+      url: resolveImageUrl(image.url)
     }));
   }
   return item;
@@ -81,8 +81,8 @@ const dataProvider = {
 
   getOne: (resource, params) => {
     const url = resource === 'products' 
-      ? `${apiUrl}/${resource}/id/${params.id}`
-      : `${apiUrl}/${resource}/${params.id}`;
+      ? buildApiUrl(`${resource}/id/${params.id}`)
+      : buildApiUrl(`${resource}/${params.id}`);
     
     return httpClient(url).then(({ json }) => ({
       data: convertImageUrls({ ...json, id: json._id }),
@@ -93,7 +93,7 @@ const dataProvider = {
     const query = {
       filter: JSON.stringify({ id: params.ids }),
     };
-    const url = `${apiUrl}/${resource}?${new URLSearchParams(query).toString()}`;
+    const url = buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`);
     return httpClient(url).then(({ json }) => {
       const data = json.data || json;
       return { data: data.map(item => convertImageUrls({ ...item, id: item._id })) };
@@ -112,7 +112,7 @@ const dataProvider = {
       ...params.filter,
     };
 
-    const url = `${apiUrl}/${resource}?${new URLSearchParams(query).toString()}`;
+    const url = buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`);
 
     return httpClient(url).then(({ json }) => {
       const data = json.data || json;
@@ -125,7 +125,7 @@ const dataProvider = {
 
   create: (resource, params) => {
     const { id, ...data } = params.data;
-    return httpClient(`${apiUrl}/${resource}`, {
+    return httpClient(buildApiUrl(resource), {
       method: 'POST',
       body: JSON.stringify(data),
     }).then(({ json }) => ({
@@ -138,7 +138,7 @@ const dataProvider = {
     
     // Handle order processing actions
     if (resource === 'orders' && action) {
-      return httpClient(`${apiUrl}/${resource}/${params.id}/process`, {
+      return httpClient(buildApiUrl(`${resource}/${params.id}/process`), {
         method: 'PUT',
         body: JSON.stringify({ action }),
       }).then(({ json }) => ({
@@ -147,7 +147,7 @@ const dataProvider = {
     }
     
     // Regular update
-    return httpClient(`${apiUrl}/${resource}/${params.id}`, {
+    return httpClient(buildApiUrl(`${resource}/${params.id}`), {
       method: 'PUT',
       body: JSON.stringify(data),
     }).then(({ json }) => ({
@@ -159,14 +159,14 @@ const dataProvider = {
     const query = {
       filter: JSON.stringify({ id: params.ids }),
     };
-    return httpClient(`${apiUrl}/${resource}?${new URLSearchParams(query).toString()}`, {
+    return httpClient(buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`), {
       method: 'PUT',
       body: JSON.stringify(params.data),
     }).then(({ json }) => ({ data: params.ids }));
   },
 
   delete: (resource, params) =>
-    httpClient(`${apiUrl}/${resource}/${params.id}`, {
+    httpClient(buildApiUrl(`${resource}/${params.id}`), {
       method: 'DELETE',
     }).then(({ json }) => ({ data: convertImageUrls({ ...json, id: json._id }) })),
 
@@ -174,7 +174,7 @@ const dataProvider = {
     const query = {
       filter: JSON.stringify({ id: params.ids }),
     };
-    return httpClient(`${apiUrl}/${resource}?${new URLSearchParams(query).toString()}`, {
+    return httpClient(buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`), {
       method: 'DELETE',
     }).then(({ json }) => ({ data: params.ids }));
   },

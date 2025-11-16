@@ -44,14 +44,12 @@ import {
   Area,
   AreaChart
 } from 'recharts';
-
-// API base URL
-const API_BASE = 'http://localhost:5001/api';
+import { buildApiUrl } from '../config/api';
 
 // Helper function to make authenticated API calls
 const apiCall = async (endpoint) => {
   const token = localStorage.getItem('token');
-  const response = await fetch(`${API_BASE}${endpoint}`, {
+  const response = await fetch(buildApiUrl(endpoint), {
     headers: {
       'Authorization': `Bearer ${token}`,
       'Content-Type': 'application/json'

@@ -1,9 +1,9 @@
-const apiUrl = 'http://localhost:5001/api';
+import { buildApiUrl } from './config/api';
 
 const authProvider = {
   // called when the user attempts to log in
   login: ({ username, password }) => {
-    const request = new Request(`${apiUrl}/auth/login`, {
+    const request = new Request(buildApiUrl('auth/login'), {
       method: 'POST',
       body: JSON.stringify({ email: username, password }),
       headers: new Headers({ 'Content-Type': 'application/json' }),
