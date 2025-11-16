@@ -4,6 +4,7 @@ import { useAuth } from './AuthContext';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
+import { buildApiUrl } from './config/api';
 import {
   Eye, EyeOff, Mail, Lock, ArrowLeft, Phone
 } from 'lucide-react';
@@ -84,7 +85,7 @@ const LoginPage = () => {
     setErrors({});
     
     try {
-      const response = await fetch('http://localhost:5001/api/auth/login', {
+      const response = await fetch(buildApiUrl('auth/login'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -114,11 +115,11 @@ const LoginPage = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5001/api/auth/google';
+    window.location.href = buildApiUrl('auth/google');
   };
 
   const handleFacebookLogin = () => {
-    window.location.href = 'http://localhost:5001/api/auth/facebook';
+    window.location.href = buildApiUrl('auth/facebook');
   };
 
   return (

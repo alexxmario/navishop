@@ -10,6 +10,7 @@ import PageTitle from './components/PageTitle';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
 import ImageSlider360 from './components/ImageSlider360';
+import { buildAssetUrl } from './config/api';
 import {
   ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
   Minus, Plus, ArrowLeft, Wifi, Bluetooth, Smartphone, MapPin, Camera, Zap,
@@ -36,7 +37,7 @@ const ProductPageExperimental = () => {
     // Your actual image files: Navigatie_WV_360-1.jpg to Navigatie_WV_360-17.jpg
     for (let i = 1; i <= 17; i++) {
       testImages.push({
-        url: `http://localhost:5001/test-slider/Navigatie_WV_360-${i}.jpg`,
+        url: buildAssetUrl(`test-slider/Navigatie_WV_360-${i}.jpg`),
         alt: `360° View Frame ${i}`,
         isPrimary: i === 1
       });

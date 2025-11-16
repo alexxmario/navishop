@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
+import { buildApiUrl } from './config/api';
 import {
   Eye, EyeOff, Mail, Lock, ArrowLeft, Phone, UserPlus
 } from 'lucide-react';
@@ -75,7 +76,7 @@ const RegisterPage = () => {
     setErrors({});
     
     try {
-      const response = await fetch('http://localhost:5001/api/auth/register', {
+      const response = await fetch(buildApiUrl('auth/register'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

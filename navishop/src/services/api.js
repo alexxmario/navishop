@@ -1,12 +1,12 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
+import { API_URL, buildApiUrl } from '../config/api';
 
 class ApiService {
   constructor() {
-    this.baseURL = API_BASE_URL;
+    this.baseURL = API_URL;
   }
 
   async request(endpoint, options = {}) {
-    const url = `${this.baseURL}${endpoint}`;
+    const url = buildApiUrl(endpoint);
     const config = {
       headers: {
         'Content-Type': 'application/json',

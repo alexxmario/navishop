@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
+import { buildApiUrl, resolveImageUrl } from '../config/api';
 const FALLBACK_IMAGE = 'https://via.placeholder.com/400x300?text=Navishop';
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
@@ -24,7 +25,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     }
 
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${product._id}`);
+      const response = await fetch(buildApiUrl(`reviews/stats/${product._id}`));
       if (response.ok) {
         const stats = await response.json();
         setReviewStats({
@@ -127,7 +128,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
           {/* Image */}
           <div className="flex-shrink-0 w-48 h-48">
             <img
-              src={product.images?.[0]?.url || '/placeholder-image.jpg'}
+              src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full object-cover rounded-lg"
               onError={handleImageError}
@@ -195,7 +196,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         {/* Image */}
         <div className="mb-4">
           <img
-            src={product.images?.[0]?.url || '/placeholder-image.jpg'}
+            src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
             onError={handleImageError}

@@ -10,11 +10,14 @@ import PageTitle from './components/PageTitle';
 import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
+import { buildApiUrl, resolveImageUrl } from './config/api';
 import {
   Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
   X, ChevronLeft
 } from 'lucide-react';
+
+const FALLBACK_IMAGE = 'https://via.placeholder.com/800x600?text=Navishop';
 
 const ProductPage = () => {
   const { slug } = useParams();
@@ -36,6 +39,9 @@ const ProductPage = () => {
     ratingDistribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }
   });
   const [crossSellProducts, setCrossSellProducts] = useState([]);
+
+  const resolveProductImage = (image) =>
+    resolveImageUrl(image?.url) || FALLBACK_IMAGE;
 
   // Extract car brand and model from product name
   const extractCarBrandModel = (productName) => {
@@ -158,7 +164,7 @@ const ProductPage = () => {
 
   const fetchReviewStats = async (productId) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/reviews/stats/${productId}`);
+      const response = await fetch(buildApiUrl(`reviews/stats/${productId}`));
       if (response.ok) {
         const stats = await response.json();
         setReviewStats(stats);
@@ -170,7 +176,7 @@ const ProductPage = () => {
 
   const fetchCrossSellProducts = async (productId) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/products/${productId}/cross-sell`);
+      const response = await fetch(buildApiUrl(`products/${productId}/cross-sell`));
       if (response.ok) {
         const data = await response.json();
         setCrossSellProducts(data.crossSellProducts || []);
@@ -388,7 +394,7 @@ const ProductPage = () => {
                     className="w-full group relative overflow-hidden rounded-lg"
                   >
                     <img 
-                      src={product.images[selectedImage]?.url || product.images[0].url} 
+                      src={resolveProductImage(product.images[selectedImage] || product.images[0])} 
                       alt={product.images[selectedImage]?.alt || product.name}
                       className="w-full h-80 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />
@@ -417,7 +423,7 @@ const ProductPage = () => {
                       }`}
                     >
                       <img 
-                        src={img.url} 
+                        src={resolveProductImage(img)} 
                         alt={img.alt || product.name}
                         className="w-full h-full object-cover"
                       />
@@ -669,8 +675,8 @@ const ProductPage = () => {
                         >
                           <div className="relative mb-4">
                             {accessory.images && accessory.images.length > 0 ? (
-                              <img
-                                src={accessory.images[0].url}
+                                <img 
+                                  src={resolveProductImage(accessory.images?.[0])}
                                 alt={accessory.images[0].alt || accessory.name}
                                 className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
                               />
@@ -1075,7 +1081,7 @@ const ProductPage = () => {
             {/* Main Image Container */}
             <div className="flex-1 flex items-center justify-center p-4 pt-20 pb-32">
               <img
-                src={product.images[galleryImageIndex]?.url}
+                src={resolveProductImage(product.images[galleryImageIndex])}
                 alt={product.images[galleryImageIndex]?.alt || product.name}
                 className="max-w-full max-h-full object-contain"
                 style={{
@@ -1107,7 +1113,7 @@ const ProductPage = () => {
                         }`}
                       >
                         <img
-                          src={img.url}
+                          src={resolveProductImage(img)}
                           alt={img.alt || product.name}
                           className="w-full h-full object-cover"
                         />

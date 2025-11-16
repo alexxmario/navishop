@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { buildAssetUrl, resolveImageUrl } from '../config/api';
 
 const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,7 +15,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
     const carouselImages = [];
     for (let i = 1; i <= 10; i++) {
       carouselImages.push({
-        url: `http://localhost:5001/test-slider-on/Navigatie_WV_portina_${i}.jpg`,
+        url: buildAssetUrl(`test-slider-on/Navigatie_WV_portina_${i}.jpg`),
         alt: `Screen ON View ${i}`,
         isPrimary: i === 1
       });
@@ -111,9 +112,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
   }
 
   const currentImage = currentImages[currentIndex];
-  const imageUrl = currentImage?.url?.startsWith('http') 
-    ? currentImage.url 
-    : `http://localhost:5001${currentImage?.url}`;
+  const imageUrl = resolveImageUrl(currentImage?.url);
 
   return (
     <div className="relative">
@@ -161,7 +160,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
                     }`}
                   >
                     <img 
-                      src={img.url} 
+                      src={resolveImageUrl(img.url)} 
                       alt={img.alt}
                       className="w-full h-full object-cover"
                     />
