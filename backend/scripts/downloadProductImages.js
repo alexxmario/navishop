@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const http = require('http');
+const FeedParser = require('../services/feedParser');
 
 const connectDB = async () => {
   try {
@@ -46,10 +47,76 @@ const downloadImage = (url, filepath) => {
   });
 };
 
-const getFilenameFromUrl = (url) => {
+const getFilenameFromUrl = (url = '') => {
+  if (!url) return '';
+  const normalized = url.split('?')[0].split('#')[0];
   // Extract filename from URL like: https://cdnmpro.com/815608441/p/raw/1/navigatie-piloton-vw-touran-iii-dupa-2015-2k-8gb-256gb-8-core~85771.jpg
-  const parts = url.split('/');
-  return parts[parts.length - 1]; // Get the last part (filename)
+  const parts = normalized.split('/');
+  return parts[parts.length - 1] || '';
+};
+
+let feedImageMap = null;
+
+const buildFeedImageMap = async () => {
+  if (feedImageMap) return feedImageMap;
+
+  try {
+    console.log('Fetching product feed to map original image URLs...');
+    const parser = new FeedParser();
+    const xmlData = await parser.fetchFeed();
+    const feedData = await parser.parseFeed(xmlData);
+    const entries = feedData.feed.entry || [];
+    const array = Array.isArray(entries) ? entries : [entries];
+
+    feedImageMap = new Map();
+
+    const addUrlToMap = (url) => {
+      if (!url) return;
+      const filename = getFilenameFromUrl(url);
+      if (filename) {
+        feedImageMap.set(filename, url);
+      }
+    };
+
+    for (const entry of array) {
+      addUrlToMap(entry['g:image_link']);
+      const additional = entry['g:additional_image_link'];
+      if (additional) {
+        const urls = Array.isArray(additional) ? additional : [additional];
+        urls.forEach(addUrlToMap);
+      }
+    }
+
+    console.log(`Mapped ${feedImageMap.size} image sources from feed`);
+  } catch (error) {
+    console.error('Unable to build feed image map:', error.message);
+    feedImageMap = new Map();
+  }
+
+  return feedImageMap;
+};
+
+const isAbsoluteUrl = (url = '') => /^https?:\/\//i.test(url);
+
+const isLocalHostUrl = (url = '') => {
+  if (!url) return true;
+  const localHosts = ['localhost', '127.0.0.1'];
+  const additionalHosts = (process.env.LOCAL_IMAGE_HOSTS || '31.14.23.20').split(',');
+  const hosts = [...localHosts, ...additionalHosts.map(h => h.trim()).filter(Boolean)];
+  return hosts.some((host) => url.includes(host));
+};
+
+const resolveSourceUrl = async (imageUrl) => {
+  if (!imageUrl) return null;
+  if (isAbsoluteUrl(imageUrl) && !isLocalHostUrl(imageUrl)) {
+    return imageUrl;
+  }
+
+  const filename = getFilenameFromUrl(imageUrl);
+  if (!filename) return null;
+
+  const map = await buildFeedImageMap();
+  return map.get(filename) || null;
 };
 
 const downloadAllProductImages = async () => {
@@ -100,8 +167,15 @@ const downloadAllProductImages = async () => {
         }
         
         try {
+          const sourceUrl = await resolveSourceUrl(image.url);
+          if (!sourceUrl) {
+            console.warn(`  ✗ No remote URL found for ${filename}, skipping`);
+            failedImages++;
+            continue;
+          }
+
           console.log(`  Downloading: ${filename}`);
-          await downloadImage(image.url, localPath);
+          await downloadImage(sourceUrl, localPath);
           console.log(`  ✓ Downloaded: ${filename}`);
           downloadedImages++;
         } catch (error) {
