@@ -45,6 +45,27 @@ import {
 } from '@mui/icons-material';
 import { buildApiUrl, resolveImageUrl } from '../config/api';
 
+const ProductShowHeading = () => {
+  const record = useRecordContext();
+  if (!record) return null;
+
+  return (
+    <Box sx={{ mb: 3 }}>
+      <Card sx={{ p: 3, bgcolor: 'primary.dark' }}>
+        <Typography variant="overline" color="white" sx={{ letterSpacing: 1 }}>
+          Product
+        </Typography>
+        <Typography variant="h4" color="white" sx={{ mt: 1, fontWeight: 'bold' }}>
+          {record.name}
+        </Typography>
+        <Typography variant="body2" color="rgba(255,255,255,0.8)">
+          SKU: {record.sku} • Category: {record.category}
+        </Typography>
+      </Card>
+    </Box>
+  );
+};
+
 // Cross-Sell Display Component
 const CrossSellDisplay = ({ productId }) => {
   const [crossSellData, setCrossSellData] = useState(null);
@@ -526,15 +547,9 @@ const ProductReviewsTab = () => {
   );
 };
 
-export const ProductShow = () => (
-  <Show
-    sx={{
-      '& .RaShow-card': {
-        borderRadius: 3,
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-      }
-    }}
-  >
+const ProductShowContent = () => (
+  <>
+    <ProductShowHeading />
     <TabbedShowLayout>
       {/* Images Tab */}
       <Tab label="Images">
@@ -734,95 +749,10 @@ export const ProductShow = () => (
         </Card>
       </Tab>
 
-      {/* Technical Specifications Tab */}
-      <Tab label="Technical Specifications">
-        {/* Connectivity Options */}
-        <Card sx={{ mb: 3 }}>
-          <CardContent>
-            <Typography variant="h6" gutterBottom color="primary">
-              Connectivity Options
-            </Typography>
-            <Divider sx={{ mb: 3 }} />
-
-            <FunctionField
-              render={record => (
-                <Box>
-                  {record.connectivityOptions?.length > 0 ? (
-                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                      {record.connectivityOptions.map((option, index) => (
-                        <Chip
-                          key={index}
-                          label={option}
-                          variant="outlined"
-                          color="primary"
-                          sx={{ mb: 1 }}
-                        />
-                      ))}
-                    </Box>
-                  ) : (
-                    <Typography variant="body2" color="textSecondary">
-                      No connectivity options specified
-                    </Typography>
-                  )}
-                </Box>
-              )}
-            />
-          </CardContent>
-        </Card>
-
-
-        {/* Hardware & Display Specs */}
-        <Grid container spacing={3}>
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" gutterBottom color="primary">
-                  Hardware Specifications
-                </Typography>
-                <Divider sx={{ mb: 2 }} />
-
-                <Box sx={{ space: 2 }}>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Processor:</Typography>
-                    <TextField source="detailedSpecs.processor" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">RAM:</Typography>
-                    <TextField source="detailedSpecs.ram" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography variant="body2" color="textSecondary">Storage:</Typography>
-                    <TextField source="detailedSpecs.storage" />
-                  </Box>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" gutterBottom color="primary">
-                  Display Specifications
-                </Typography>
-                <Divider sx={{ mb: 2 }} />
-
-                <Box sx={{ space: 2 }}>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Technology:</Typography>
-                    <TextField source="displaySpecs.technology" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography variant="body2" color="textSecondary">Resolution:</Typography>
-                    <TextField source="displaySpecs.resolution" />
-                  </Box>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
-      </Tab>
-
+const ProductShowContent = () => (
+  <>
+    <ProductShowHeading />
+    <TabbedShowLayout>
       {/* Romanian Specifications Tab */}
       <Tab label="Romanian Specifications">
         {/* Hardware & Display Romanian */}
@@ -1195,6 +1125,19 @@ export const ProductShow = () => (
         </Card>
       </Tab>
     </TabbedShowLayout>
+  </>
+);
+
+export const ProductShow = () => (
+  <Show
+    sx={{
+      '& .RaShow-card': {
+        borderRadius: 3,
+        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+      }
+    }}
+  >
+    <ProductShowContent />
   </Show>
 );
 
