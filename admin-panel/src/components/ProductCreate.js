@@ -164,6 +164,9 @@ const ProductCreateForm = () => {
                     minHeight: '60px'
                   }
                 }}
+                onChange={() => {
+                  slugEditedRef.current = false;
+                }}
               />
             </Grid>
             <Grid item xs={12} md={6}>
@@ -171,7 +174,9 @@ const ProductCreateForm = () => {
                 source="slug"
                 label="URL Slug"
                 helperText="Used in the storefront URL (e.g. /product/your-slug)"
-                onChange={handleSlugChange}
+                onChange={() => {
+                  slugEditedRef.current = true;
+                }}
                 fullWidth
                 required
                 sx={{
