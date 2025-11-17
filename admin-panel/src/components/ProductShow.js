@@ -871,7 +871,7 @@ const ProductShowContent = () => (
                 </Typography>
                 <Divider sx={{ mb: 2 }} />
                 <Box sx={{ space: 1 }}>
-                  <Box sx={{ display: 'flex', justify-content: 'space-between', mb: 1 }}>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
                     <Typography variant="body2" color="textSecondary">Diagonala Display:</Typography>
                     <TextField source="romanianSpecs.display.diagonalaDisplay" />
                   </Box>
