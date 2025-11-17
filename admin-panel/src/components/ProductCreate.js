@@ -24,6 +24,94 @@ const ProductCreateForm = () => {
 
       {/* Tab 2: Pricing & Stock */}
       <FormTab label="Pricing & Stock">
+        {/* Basic Details */}
+        <Card sx={{ p: 3, mb: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Product Details
+          </Typography>
+
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6}>
+              <TextInput
+                source="name"
+                label="Product Name"
+                fullWidth
+                required
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.2rem',
+                    minHeight: '60px'
+                  }
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextInput
+                source="slug"
+                label="URL Slug"
+                helperText="Used in the storefront URL (e.g. /product/your-slug)"
+                fullWidth
+                required
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem',
+                    minHeight: '56px'
+                  }
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <TextInput
+                source="brand"
+                label="Brand"
+                fullWidth
+                required
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem',
+                    minHeight: '56px'
+                  }
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <TextInput
+                source="model"
+                label="Model / Generation"
+                fullWidth
+                required
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem',
+                    minHeight: '56px'
+                  }
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <SelectInput
+                source="category"
+                label="Category"
+                fullWidth
+                choices={[
+                  { id: 'navigatii-gps', name: 'Navigații GPS' },
+                  { id: 'carplay-android', name: 'CarPlay / Android Auto' },
+                  { id: 'camere-marsarier', name: 'Camere Marsarier' },
+                  { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
+                  { id: 'dvr', name: 'DVR' },
+                  { id: 'accesorii', name: 'Accesorii' },
+                ]}
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem',
+                    minHeight: '56px'
+                  }
+                }}
+              />
+            </Grid>
+          </Grid>
+        </Card>
+
         {/* Pricing Section */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
