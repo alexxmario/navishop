@@ -12,15 +12,25 @@ const connectDB = async () => {
   }
 };
 
-const getFilenameFromUrl = (url) => {
-  // Extract filename from URL like: https://cdnmpro.com/815608441/p/raw/1/navigatie-piloton-vw-touran-iii-dupa-2015-2k-8gb-256gb-8-core~85771.jpg
-  const parts = url.split('/');
-  return parts[parts.length - 1]; // Get the last part (filename)
+const getFilenameFromUrl = (url = '') => {
+  if (!url) return '';
+  const normalized = url.split('?')[0].split('#')[0];
+  const parts = normalized.split('/');
+  return parts[parts.length - 1] || '';
 };
 
-const convertToLocalUrl = (remoteUrl) => {
+const shouldConvertToLocal = (url = '') => {
+  if (!url) return false;
+  const lower = url.toLowerCase();
+  return (
+    lower.startsWith('https://cdnmpro.com/') ||
+    lower.includes('/images/products/')
+  );
+};
+
+const convertToLocalUrl = (remoteUrl = '') => {
   const filename = getFilenameFromUrl(remoteUrl);
-  return `/images/products/${filename}`;
+  return filename ? `/images/products/${filename}` : remoteUrl;
 };
 
 const migrateImageUrls = async () => {
@@ -42,7 +52,7 @@ const migrateImageUrls = async () => {
       const newImages = [];
       
       for (const image of product.images) {
-        if (image.url.startsWith('https://cdnmpro.com/')) {
+        if (shouldConvertToLocal(image.url)) {
           // Convert remote URL to local URL
           const localUrl = convertToLocalUrl(image.url);
           newImages.push({
