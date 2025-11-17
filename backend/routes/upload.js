@@ -5,6 +5,43 @@ const fs = require('fs');
 const auth = require('../middleware/auth');
 const router = express.Router();
 
+const parseAllowedOrigins = () => {
+  return (process.env.CORS_ALLOWED_ORIGINS || '')
+    .split(',')
+    .map(origin => origin.trim())
+    .filter(Boolean);
+};
+
+const allowedOrigins = parseAllowedOrigins();
+
+const getPublicBaseUrl = (req) => {
+  if (process.env.PUBLIC_BASE_URL) {
+    return process.env.PUBLIC_BASE_URL.replace(/\/$/, '');
+  }
+  const forwardedProto = req.headers['x-forwarded-proto'];
+  const forwardedHost = req.headers['x-forwarded-host'];
+  const protocol = forwardedProto || req.protocol;
+  const host = forwardedHost || req.get('host');
+  return `${protocol}://${host}`;
+};
+
+router.use((req, res, next) => {
+  const requestOrigin = req.headers.origin;
+  if (requestOrigin && allowedOrigins.includes(requestOrigin)) {
+    res.header('Access-Control-Allow-Origin', requestOrigin);
+  }
+  res.header('Vary', 'Origin');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET,POST,DELETE,OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(204);
+  }
+
+  next();
+});
+
 // Ensure upload directory exists
 const uploadDir = path.join(__dirname, '../../navishop/public/images/products');
 if (!fs.existsSync(uploadDir)) {
@@ -48,10 +85,12 @@ router.post('/image', auth, upload.single('image'), (req, res) => {
       return res.status(400).json({ message: 'No image file provided' });
     }
 
-    const imageUrl = `/images/products/${req.file.filename}`;
-    
+    const relativeUrl = `/images/products/${req.file.filename}`;
+    const absoluteUrl = `${getPublicBaseUrl(req)}${relativeUrl}`;
+
     res.json({
-      url: imageUrl,
+      url: absoluteUrl,
+      relativeUrl,
       filename: req.file.filename,
       originalName: req.file.originalname,
       size: req.file.size
@@ -69,7 +108,8 @@ router.post('/images', auth, upload.array('images', 20), (req, res) => {
     }
 
     const uploadedImages = req.files.map(file => ({
-      url: `/images/products/${file.filename}`,
+      url: `${getPublicBaseUrl(req)}/images/products/${file.filename}`,
+      relativeUrl: `/images/products/${file.filename}`,
       filename: file.filename,
       originalName: file.originalname,
       size: file.size

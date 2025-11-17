@@ -26,6 +26,11 @@ import {
 import { useDropzone } from 'react-dropzone';
 import { buildApiUrl, resolveImageUrl } from '../config/api';
 
+const getImageSource = (image) => {
+  if (!image) return '';
+  return resolveImageUrl(image.url || image.relativeUrl);
+};
+
 const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
   const [uploading, setUploading] = useState(false);
   const [previewOpen, setPreviewOpen] = useState(false);
@@ -50,14 +55,19 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
       body: formData,
     });
 
+    const data = await response.json().catch(() => null);
+
     if (!response.ok) {
-      throw new Error('Failed to upload image');
+      throw new Error(data?.message || 'Failed to upload image');
     }
 
-    return response.json();
+    return data;
   };
 
   const deleteImage = async (imageUrl) => {
+    if (!imageUrl) {
+      throw new Error('Invalid image path');
+    }
     const filename = imageUrl.split('/').pop();
     const token = localStorage.getItem('token');
     
@@ -68,11 +78,13 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
       },
     });
 
+    const data = await response.json().catch(() => null);
+
     if (!response.ok) {
-      throw new Error('Failed to delete image');
+      throw new Error(data?.message || 'Failed to delete image');
     }
 
-    return response.json();
+    return data;
   };
 
   const onDrop = useCallback(async (acceptedFiles) => {
@@ -90,6 +102,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
       
       const newImages = uploadResults.map((result, index) => ({
         url: result.url,
+        relativeUrl: result.relativeUrl || result.url,
         alt: acceptedFiles[index].name,
         isPrimary: images.length === 0 && index === 0, // First image is primary if no images exist
       }));
@@ -113,7 +126,8 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
   const handleRemoveImage = async (index) => {
     try {
       const imageToRemove = images[index];
-      await deleteImage(imageToRemove.url);
+      const sourcePath = imageToRemove.url || imageToRemove.relativeUrl;
+      await deleteImage(sourcePath);
       
       const newImages = images.filter((_, i) => i !== index);
       
@@ -203,7 +217,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
           </Typography>
           {images.length > 0 && (
             <Typography variant="caption" display="block">
-              First image URL: {images[0]?.url}
+              First image URL: {images[0]?.url || images[0]?.relativeUrl}
             </Typography>
           )}
         </Box>
@@ -235,7 +249,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
                       sx={{
                         width: '100%',
                         height: 200,
-                        backgroundImage: `url(${resolveImageUrl(image.url)})`,
+                        backgroundImage: `url(${getImageSource(image)})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -358,7 +372,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
           <DialogContent>
             {previewImage && (
               <img
-                src={resolveImageUrl(previewImage.url)}
+                src={getImageSource(previewImage)}
                 alt={previewImage.alt}
                 style={{
                   width: '100%',
