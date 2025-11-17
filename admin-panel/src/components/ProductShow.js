@@ -637,7 +637,6 @@ const ProductShowContent = () => (
 
       {/* Overview Tab */}
       <Tab label="Overview">
-        {/* Quick Stats */}
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
@@ -646,7 +645,6 @@ const ProductShowContent = () => (
             <Divider sx={{ mb: 3 }} />
 
             <Grid container spacing={3}>
-              {/* Pricing Info */}
               <Grid item xs={12} md={3}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'primary.light', borderRadius: 2 }}>
                   <LocalOffer sx={{ fontSize: 40, color: 'white', mb: 1 }} />
@@ -656,8 +654,6 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">Current Price</Typography>
                 </Box>
               </Grid>
-
-              {/* Stock Info */}
               <Grid item xs={12} md={3}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
                   <Inventory sx={{ fontSize: 40, color: 'white', mb: 1 }} />
@@ -667,8 +663,6 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">In Stock</Typography>
                 </Box>
               </Grid>
-
-              {/* Status */}
               <Grid item xs={12} md={3}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
                   <Visibility sx={{ fontSize: 40, color: 'white', mb: 1 }} />
@@ -678,8 +672,6 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">Status</Typography>
                 </Box>
               </Grid>
-
-              {/* Flags */}
               <Grid item xs={12} md={3}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Star sx={{ fontSize: 40, color: 'white', mb: 1 }} />
@@ -701,21 +693,16 @@ const ProductShowContent = () => (
           </CardContent>
         </Card>
 
-        {/* Rating Overview */}
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
               Customer Reviews Overview
             </Typography>
             <Divider sx={{ mb: 3 }} />
-
-            <FunctionField
-              render={record => <ReviewOverviewStats record={record} />}
-            />
+            <FunctionField render={record => <ReviewOverviewStats record={record} />} />
           </CardContent>
         </Card>
 
-        {/* Quick Edit Actions */}
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -749,149 +736,6 @@ const ProductShowContent = () => (
         </Card>
       </Tab>
 
-const ProductShowContent = () => (
-  <>
-    <ProductShowHeading />
-    <TabbedShowLayout>
-      {/* Images Tab */}
-      <Tab label="Images">
-        {/* Hardware & Display Romanian */}
-        <Grid container spacing={3} sx={{ mb: 3 }}>
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" gutterBottom color="primary">
-                  Specificații Hardware
-                </Typography>
-                <Divider sx={{ mb: 2 }} />
-
-                <Box sx={{ space: 1 }}>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Model Procesor:</Typography>
-                    <TextField source="romanianSpecs.hardware.modelProcesor" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Memorie RAM:</Typography>
-                    <TextField source="romanianSpecs.hardware.memorieRAM" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography variant="body2" color="textSecondary">Capacitate Stocare:</Typography>
-                    <TextField source="romanianSpecs.hardware.capacitateStocare" />
-                  </Box>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} md={6}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" gutterBottom color="primary">
-                  Specificații Display
-                </Typography>
-                <Divider sx={{ mb: 2 }} />
-
-                <Box sx={{ space: 1 }}>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Diagonala Display:</Typography>
-                    <TextField source="romanianSpecs.display.diagonalaDisplay" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
-                    <Typography variant="body2" color="textSecondary">Tehnologie Display:</Typography>
-                    <TextField source="romanianSpecs.display.tehnologieDisplay" />
-                  </Box>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography variant="body2" color="textSecondary">Rezoluție Display:</Typography>
-                    <TextField source="romanianSpecs.display.rezolutieDisplay" />
-                  </Box>
-                </Box>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
-
-        {/* Package & Compatibility */}
-        <Card sx={{ mb: 3 }}>
-          <CardContent>
-            <Typography variant="h6" gutterBottom color="primary">
-              Pachet și Compatibilitate
-            </Typography>
-            <Divider sx={{ mb: 3 }} />
-
-            <Grid container spacing={3}>
-              <Grid item xs={12}>
-                <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
-                  Conținut Pachet:
-                </Typography>
-                <TextField source="romanianSpecs.package.continutPachet" />
-              </Grid>
-
-              <Grid item xs={12} md={6}>
-                <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
-                  Destinat pentru:
-                </Typography>
-                <TextField source="romanianSpecs.compatibility.destinatPentru" />
-              </Grid>
-
-              <Grid item xs={12} md={6}>
-                <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
-                  Tip Montare:
-                </Typography>
-                <TextField source="romanianSpecs.compatibility.tipMontare" />
-              </Grid>
-            </Grid>
-          </CardContent>
-        </Card>
-
-        {/* General Info */}
-        <Card>
-          <CardContent>
-            <Typography variant="h6" gutterBottom color="primary">
-              Informații Generale
-            </Typography>
-            <Divider sx={{ mb: 3 }} />
-
-            <Grid container spacing={3}>
-              <Grid item xs={12} md={3}>
-                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
-                  <Typography variant="body2" color="textSecondary">SKU</Typography>
-                  <Typography variant="h6">
-                    <TextField source="romanianSpecs.general.sku" />
-                  </Typography>
-                </Box>
-              </Grid>
-
-              <Grid item xs={12} md={3}>
-                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
-                  <Typography variant="body2" color="textSecondary">Brand</Typography>
-                  <Typography variant="h6">
-                    <TextField source="romanianSpecs.general.brand" />
-                  </Typography>
-                </Box>
-              </Grid>
-
-              <Grid item xs={12} md={3}>
-                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
-                  <Typography variant="body2" color="textSecondary">Categorii</Typography>
-                  <Typography variant="h6">
-                    <TextField source="romanianSpecs.general.categorii" />
-                  </Typography>
-                </Box>
-              </Grid>
-
-              <Grid item xs={12} md={3}>
-                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
-                  <Typography variant="body2" color="textSecondary">Sistem Operare</Typography>
-                  <Typography variant="h6">
-                    <TextField source="romanianSpecs.general.sistemOperare" />
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </CardContent>
-        </Card>
-      </Tab>
-
       {/* Structured Description Tab */}
       <Tab label="Structured Description">
         <Card sx={{ mb: 3 }}>
@@ -916,89 +760,73 @@ const ProductShowContent = () => (
 
             <FunctionField
               render={record => {
-                console.log('ProductShow - Full record:', record);
-                console.log('ProductShow - structuredDescription:', record.structuredDescription);
-                console.log('ProductShow - sections:', record.structuredDescription?.sections);
-                console.log('ProductShow - sections length:', record.structuredDescription?.sections?.length);
-
-                // Check if sections exist and are an array
                 const sections = record.structuredDescription?.sections;
                 const hasSections = Array.isArray(sections) && sections.length > 0;
-                console.log('ProductShow - hasSections:', hasSections);
-
                 return (
-                <Box>
-
-                  {hasSections ? (
-                    <Box sx={{ space: 3 }}>
-                      {sections.map((section, sectionIndex) => (
-                        <Card key={sectionIndex} sx={{ mb: 3, border: '1px solid #e0e0e0' }}>
-                          <CardContent>
-                            <Typography
-                              variant="h6"
-                              sx={{
-                                color: 'primary.main',
-                                mb: 2,
-                                display: 'flex',
-                                alignItems: 'center'
-                              }}
+                  <Box>
+                    {hasSections ? (
+                      <Box sx={{ space: 3 }}>
+                        {sections.map((section, sectionIndex) => (
+                          <Card key={sectionIndex} sx={{ mb: 3, border: '1px solid #e0e0e0' }}>
+                            <CardContent>
+                              <Typography
+                                variant="h6"
+                                sx={{ color: 'primary.main', mb: 2, display: 'flex', alignItems: 'center' }}
+                              >
+                                <span style={{ fontSize: '1.5rem', marginRight: '12px' }}>
+                                  {section.icon}
+                                </span>
+                                {section.title}
+                              </Typography>
+                              <Box sx={{ space: 2 }}>
+                                {section.points?.map((point, pointIndex) => (
+                                  <Box
+                                    key={pointIndex}
+                                    sx={{ display: 'flex', alignItems: 'flex-start', mb: 2 }}
+                                  >
+                                    <Box
+                                      sx={{
+                                        width: 8,
+                                        height: 8,
+                                        bgcolor: 'primary.main',
+                                        borderRadius: '50%',
+                                        mt: 1,
+                                        mr: 2,
+                                        flexShrink: 0
+                                      }}
+                                    />
+                                    <Typography variant="body1" sx={{ lineHeight: 1.6 }}>
+                                      {point}
+                                    </Typography>
+                                  </Box>
+                                ))}
+                              </Box>
+                            </CardContent>
+                          </Card>
+                        ))}
+                      </Box>
+                    ) : (
+                      <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
+                        <Typography variant="h6" color="textSecondary" gutterBottom>
+                          No Structured Description
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+                          Add a structured description to showcase this product's features beautifully.
+                        </Typography>
+                        <FunctionField
+                          render={record => (
+                            <Button
+                              variant="contained"
+                              startIcon={<Edit />}
+                              onClick={() => window.open(`#/products/${record.id}`, '_blank')}
                             >
-                              <span style={{ fontSize: '1.5rem', marginRight: '12px' }}>
-                                {section.icon}
-                              </span>
-                              {section.title}
-                            </Typography>
-                            <Box sx={{ space: 2 }}>
-                              {section.points?.map((point, pointIndex) => (
-                                <Box
-                                  key={pointIndex}
-                                  sx={{
-                                    display: 'flex',
-                                    alignItems: 'flex-start',
-                                    mb: 2
-                                  }}
-                                >
-                                  <Box sx={{
-                                    width: 8,
-                                    height: 8,
-                                    bgcolor: 'primary.main',
-                                    borderRadius: '50%',
-                                    mt: 1,
-                                    mr: 2,
-                                    flexShrink: 0
-                                  }} />
-                                  <Typography variant="body1" sx={{ lineHeight: 1.6 }}>
-                                    {point}
-                                  </Typography>
-                                </Box>
-                              ))}
-                            </Box>
-                          </CardContent>
-                        </Card>
-                      ))}
-                    </Box>
-                  ) : (
-                    <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
-                      <Typography variant="h6" color="textSecondary" gutterBottom>
-                        No Structured Description
-                      </Typography>
-                      <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-                        Add a structured description to showcase this product's features beautifully.
-                      </Typography>
-                      <FunctionField
-                        render={record => (
-                          <Button
-                            variant="contained"
-                            startIcon={<Edit />}
-                            onClick={() => window.open(`#/products/${record.id}`, '_blank')}
-                          >
-                            Add Structured Description
-                          </Button>
-                        )}
-                      />
-                    </Box>
-                  )}
-                </Box>
+                              Add Structured Description
+                            </Button>
+                          )}
+                        />
+                      </Box>
+                    )}
+                  </Box>
                 );
               }}
             />
@@ -1013,14 +841,12 @@ const ProductShowContent = () => (
 
       {/* SEO & Pricing Tab */}
       <Tab label="SEO & Pricing">
-        {/* Pricing Details */}
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
               Pricing Information
             </Typography>
             <Divider sx={{ mb: 3 }} />
-
             <Grid container spacing={3}>
               <Grid item xs={12} md={4}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'success.light', borderRadius: 2 }}>
@@ -1030,7 +856,6 @@ const ProductShowContent = () => (
                   <Typography variant="body1" color="white">Current Price</Typography>
                 </Box>
               </Grid>
-
               <Grid item xs={12} md={4}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'info.light', borderRadius: 2 }}>
                   <Typography variant="h4" color="white">
@@ -1039,7 +864,6 @@ const ProductShowContent = () => (
                   <Typography variant="body1" color="white">Original Price</Typography>
                 </Box>
               </Grid>
-
               <Grid item xs={12} md={4}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Typography variant="h4" color="white">
@@ -1052,14 +876,12 @@ const ProductShowContent = () => (
           </CardContent>
         </Card>
 
-        {/* SEO Information */}
         <Card>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
               SEO Information
             </Typography>
             <Divider sx={{ mb: 3 }} />
-
             <Box sx={{ space: 3 }}>
               <Box sx={{ mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
@@ -1067,14 +889,12 @@ const ProductShowContent = () => (
                 </Typography>
                 <TextField source="seoTitle" />
               </Box>
-
               <Box sx={{ mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
                   SEO Description:
                 </Typography>
                 <TextField source="seoDescription" />
               </Box>
-
               <Box>
                 <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
                   Tags:
@@ -1085,12 +905,7 @@ const ProductShowContent = () => (
                       {record.tags?.length > 0 ? (
                         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
                           {record.tags.map((tag, index) => (
-                            <Chip
-                              key={index}
-                              label={tag}
-                              variant="outlined"
-                              color="secondary"
-                            />
+                            <Chip key={index} label={tag} variant="outlined" color="secondary" />
                           ))}
                         </Box>
                       ) : (
@@ -1115,18 +930,14 @@ const ProductShowContent = () => (
               Cross-Sell Products (Accesorii compatibile)
             </Typography>
             <Divider sx={{ mb: 3 }} />
-
-            <FunctionField
-              render={record => (
-                <CrossSellDisplay productId={record.id} />
-              )}
-            />
+            <FunctionField render={record => <CrossSellDisplay productId={record.id} />} />
           </CardContent>
         </Card>
       </Tab>
     </TabbedShowLayout>
   </>
 );
+
 
 export const ProductShow = () => (
   <Show
