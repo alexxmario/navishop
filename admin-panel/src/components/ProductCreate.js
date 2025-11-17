@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import {
   Create,
   TextInput,
@@ -10,9 +10,130 @@ import {
   TabbedForm,
   FormTab,
 } from 'react-admin';
+import { useFormContext } from 'react-hook-form';
 import { Box, Typography, Card, Grid } from '@mui/material';
 import ImageField from './ImageField';
 import StructuredDescriptionEditor from './StructuredDescriptionEditor';
+
+const generateSlug = (value = '') =>
+  value
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 120);
+
+const ProductDetailsSection = () => {
+  const { watch, setValue } = useFormContext();
+  const nameValue = watch('name');
+  const slugValue = watch('slug');
+  const slugEditedRef = useRef(false);
+
+  useEffect(() => {
+    if (slugEditedRef.current || !nameValue) return;
+    if (!slugValue || slugValue.length === 0) {
+      setValue('slug', generateSlug(nameValue), { shouldDirty: true });
+    }
+  }, [nameValue, slugValue, setValue]);
+
+  const markSlugEdited = () => {
+    slugEditedRef.current = true;
+  };
+
+  return (
+    <Card sx={{ p: 3, mb: 3 }}>
+      <Typography variant="h6" gutterBottom>
+        Product Details
+      </Typography>
+
+      <Grid container spacing={3}>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="name"
+            label="Product Name"
+            fullWidth
+            required
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.2rem',
+                minHeight: '60px'
+              }
+            }}
+            onChange={() => {
+              slugEditedRef.current = false;
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="slug"
+            label="URL Slug"
+            helperText="Used in the storefront URL (e.g. /product/your-slug)"
+            fullWidth
+            required
+            onChange={markSlugEdited}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <TextInput
+            source="brand"
+            label="Brand"
+            fullWidth
+            required
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <TextInput
+            source="model"
+            label="Model / Generation"
+            fullWidth
+            required
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <SelectInput
+            source="category"
+            label="Category"
+            fullWidth
+            choices={[
+              { id: 'navigatii-gps', name: 'Navigații GPS' },
+              { id: 'carplay-android', name: 'CarPlay / Android Auto' },
+              { id: 'camere-marsarier', name: 'Camere Marsarier' },
+              { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
+              { id: 'dvr', name: 'DVR' },
+              { id: 'accesorii', name: 'Accesorii' },
+            ]}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+      </Grid>
+    </Card>
+  );
+};
 
 const ProductCreateForm = () => {
   return (
@@ -50,6 +171,7 @@ const ProductCreateForm = () => {
                 source="slug"
                 label="URL Slug"
                 helperText="Used in the storefront URL (e.g. /product/your-slug)"
+                onChange={handleSlugChange}
                 fullWidth
                 required
                 sx={{
