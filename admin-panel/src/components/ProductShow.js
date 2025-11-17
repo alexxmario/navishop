@@ -753,8 +753,8 @@ const ProductShowContent = () => (
   <>
     <ProductShowHeading />
     <TabbedShowLayout>
-      {/* Romanian Specifications Tab */}
-      <Tab label="Romanian Specifications">
+      {/* Images Tab */}
+      <Tab label="Images">
         {/* Hardware & Display Romanian */}
         <Grid container spacing={3} sx={{ mb: 3 }}>
           <Grid item xs={12} md={6}>
