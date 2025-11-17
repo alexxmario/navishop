@@ -834,6 +834,136 @@ const ProductShowContent = () => (
         </Card>
       </Tab>
 
+      {/* Romanian Specifications Tab */}
+      <Tab label="Romanian Specifications">
+        {/* Hardware & Display Romanian */}
+        <Grid container spacing={3} sx={{ mb: 3 }}>
+          <Grid item xs={12} md={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h6" gutterBottom color="primary">
+                  Specificații Hardware
+                </Typography>
+                <Divider sx={{ mb: 2 }} />
+                <Box sx={{ space: 1 }}>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                    <Typography variant="body2" color="textSecondary">Model Procesor:</Typography>
+                    <TextField source="romanianSpecs.hardware.modelProcesor" />
+                  </Box>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                    <Typography variant="body2" color="textSecondary">Memorie RAM:</Typography>
+                    <TextField source="romanianSpecs.hardware.memorieRAM" />
+                  </Box>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <Typography variant="body2" color="textSecondary">Capacitate Stocare:</Typography>
+                    <TextField source="romanianSpecs.hardware.capacitateStocare" />
+                  </Box>
+                </Box>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} md={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h6" gutterBottom color="primary">
+                  Specificații Display
+                </Typography>
+                <Divider sx={{ mb: 2 }} />
+                <Box sx={{ space: 1 }}>
+                  <Box sx={{ display: 'flex', justify-content: 'space-between', mb: 1 }}>
+                    <Typography variant="body2" color="textSecondary">Diagonala Display:</Typography>
+                    <TextField source="romanianSpecs.display.diagonalaDisplay" />
+                  </Box>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                    <Typography variant="body2" color="textSecondary">Tehnologie Display:</Typography>
+                    <TextField source="romanianSpecs.display.tehnologieDisplay" />
+                  </Box>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <Typography variant="body2" color="textSecondary">Rezoluție Display:</Typography>
+                    <TextField source="romanianSpecs.display.rezolutieDisplay" />
+                  </Box>
+                </Box>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+
+        {/* Package & Compatibility */}
+        <Card sx={{ mb: 3 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom color="primary">
+              Pachet și Compatibilitate
+            </Typography>
+            <Divider sx={{ mb: 3 }} />
+            <Grid container spacing={3}>
+              <Grid item xs={12}>
+                <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
+                  Conținut Pachet:
+                </Typography>
+                <TextField source="romanianSpecs.package.continutPachet" />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
+                  Destinat pentru:
+                </Typography>
+                <TextField source="romanianSpecs.compatibility.destinatPentru" />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
+                  Tip Montare:
+                </Typography>
+                <TextField source="romanianSpecs.compatibility.tipMontare" />
+              </Grid>
+            </Grid>
+          </CardContent>
+        </Card>
+
+        {/* General Info */}
+        <Card>
+          <CardContent>
+            <Typography variant="h6" gutterBottom color="primary">
+              Informații Generale
+            </Typography>
+            <Divider sx={{ mb: 3 }} />
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={3}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
+                  <Typography variant="body2" color="textSecondary">SKU</Typography>
+                  <Typography variant="h6">
+                    <TextField source="romanianSpecs.general.sku" />
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
+                  <Typography variant="body2" color="textSecondary">Brand</Typography>
+                  <Typography variant="h6">
+                    <TextField source="romanianSpecs.general.brand" />
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
+                  <Typography variant="body2" color="textSecondary">Categorii</Typography>
+                  <Typography variant="h6">
+                    <TextField source="romanianSpecs.general.categorii" />
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
+                  <Typography variant="body2" color="textSecondary">Sistem Operare</Typography>
+                  <Typography variant="h6">
+                    <TextField source="romanianSpecs.general.sistemOperare" />
+                  </Typography>
+                </Box>
+              </Grid>
+            </Grid>
+          </CardContent>
+        </Card>
+      </Tab>
+
       {/* Reviews Tab */}
       <Tab label="Reviews & Ratings">
         <ProductReviewsTab />
