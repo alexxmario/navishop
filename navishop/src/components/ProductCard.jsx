@@ -124,6 +124,31 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
 
   const getProductImage = (image) => resolveImageUrl(image?.url) || FALLBACK_IMAGE;
 
+  const getDescriptionSnippet = () => {
+    if (product.shortDescription) return product.shortDescription;
+
+    const sections = product.structuredDescription?.sections;
+    if (sections && sections.length > 0) {
+      const firstSection = sections[0];
+      if (firstSection.points && firstSection.points.length > 0) {
+        return firstSection.points[0];
+      }
+      if (firstSection.title) {
+        return firstSection.title;
+      }
+    }
+
+    const functii = product.romanianSpecs?.features?.functii;
+    if (functii) {
+      const firstSentence = functii.split(/\.|\n/).find((sentence) => sentence.trim().length > 0);
+      return firstSentence ? firstSentence.trim() : '';
+    }
+
+    return '';
+  };
+
+  const descriptionSnippet = getDescriptionSnippet();
+
   if (viewMode === 'list') {
     return (
       <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
@@ -165,9 +190,11 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             </div>
 
             {/* Description */}
-            <p className="text-gray-600 text-sm line-clamp-3 mb-4">
-              {product.shortDescription || product.description?.substring(0, 150) + '...'}
-            </p>
+            {descriptionSnippet && (
+              <p className="text-gray-600 text-sm line-clamp-3 mb-4">
+                {descriptionSnippet}
+              </p>
+            )}
 
             {/* Actions */}
             <div className="flex items-center gap-3">

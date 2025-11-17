@@ -290,31 +290,35 @@ const ProductPage = () => {
   }
 
 
-  // Create 4 key features (excluding WiFi Integrat and Cameră Marsarier)
+  // Highlight up to 4 selling points using structured description + Romanian specs
   const getProductFeatures = () => {
     const features = [];
+    const combinedText = [
+      product.romanianSpecs?.features?.functii,
+      product.romanianSpecs?.features?.splitScreen,
+      product.romanianSpecs?.connectivity?.conectivitate,
+      product.romanianSpecs?.connectivity?.bluetooth,
+      ...(product.structuredDescription?.sections?.map(section => {
+        const points = section.points?.join(' ') || '';
+        return `${section.title} ${points}`;
+      }) || [])
+    ]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
 
-    // Add connectivity-based features (excluding WiFi)
-    if (product.connectivityOptions) {
-      if (product.connectivityOptions.some(opt => opt.toLowerCase().includes('bluetooth'))) {
-        features.push({ icon: <Bluetooth className="w-5 h-5" />, text: 'Bluetooth' });
+    const addFeature = (icon, text, keywords) => {
+      if (features.length >= 4) return;
+      if (keywords.some(keyword => combinedText.includes(keyword))) {
+        features.push({ icon, text });
       }
-      if (product.connectivityOptions.some(opt => opt.toLowerCase().includes('carplay') || opt.toLowerCase().includes('android auto'))) {
-        features.push({ icon: <Smartphone className="w-5 h-5" />, text: 'CarPlay/Android Auto' });
-      }
-    }
+    };
 
-    // Add tech-based features (excluding Cameră Marsarier)
-    if (product.technicalFeatures) {
-      if (product.technicalFeatures.some(feat => feat.toLowerCase().includes('gps') || feat.toLowerCase().includes('navigation'))) {
-        features.push({ icon: <MapPin className="w-5 h-5" />, text: 'GPS Navigation' });
-      }
-      if (product.technicalFeatures.some(feat => feat.toLowerCase().includes('plug') && feat.toLowerCase().includes('play'))) {
-        features.push({ icon: <Zap className="w-5 h-5" />, text: 'Plug & Play' });
-      }
-    }
+    addFeature(<Bluetooth className="w-5 h-5" />, 'Bluetooth', ['bluetooth']);
+    addFeature(<Smartphone className="w-5 h-5" />, 'CarPlay / Android Auto', ['carplay', 'android auto']);
+    addFeature(<MapPin className="w-5 h-5" />, 'Navigație GPS', ['gps', 'navigație', 'navigatie', 'waze', 'google maps']);
+    addFeature(<Zap className="w-5 h-5" />, 'Plug & Play', ['plug & play', 'plug and play', 'plug-and-play', 'instalare plug']);
 
-    // Fallback to 4 key features (excluding WiFi Integrat and Cameră Marsarier)
     if (features.length === 0) {
       return [
         { icon: <Bluetooth className="w-5 h-5" />, text: 'Bluetooth' },
@@ -324,7 +328,7 @@ const ProductPage = () => {
       ];
     }
 
-    return features.slice(0, 4); // Show max 4 features
+    return features;
   };
 
   const features = getProductFeatures();
@@ -591,74 +595,19 @@ const ProductPage = () => {
                           {section.title.replace(/[📦🚗📱📷🖥️🔊🗺️🎮⚙️]/g, '').trim()}
                         </h4>
                         <div className="space-y-3">
-                          {(() => {
-                            // Filter and combine connectivity-related points
-                            const connectivityKeywords = ['Conectivitate 4G LTE și Wi-Fi 2.4G Hot', 'Oferă o conexiune rapidă și fiabilă 4G LTE', 'cu acoperire largă și performanță constantă', 'funcția Hot', 'Spot Wi-Fi 2.4G asigură'];
-                            const connectivityPoints = [];
-                            const otherPoints = [];
-
-                            section.points.forEach((point) => {
-                              const cleanPoint = point.replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
-                              const isConnectivity = connectivityKeywords.some(keyword => cleanPoint.includes(keyword));
-
-                              if (isConnectivity) {
-                                connectivityPoints.push(cleanPoint);
-                              } else {
-                                otherPoints.push(cleanPoint);
-                              }
-                            });
-
-                            // Combine connectivity points into one
-                            if (connectivityPoints.length > 0) {
-                              const combinedText = "Conectivitate 4G LTE și Wi-Fi 2.4G Hot Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot Spot Wi-Fi 2.4G asigură o experiență online optimizată";
-                              otherPoints.unshift(combinedText);
-                            }
-
-                            return otherPoints.map((point, pointIndex) => (
-                              <div key={pointIndex} className="flex items-start">
-                                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                                <p className="text-gray-700 leading-relaxed">{point}</p>
-                              </div>
-                            ));
-                          })()}
+                          {section.points?.map((point, pointIndex) => (
+                            <div key={pointIndex} className="flex items-start">
+                              <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                              <p className="text-gray-700 leading-relaxed">{point}</p>
+                            </div>
+                          ))}
                         </div>
                       </div>
                     ))}
                   </div>
                 ) : (
-                  /* Fallback to original description format */
-                  <div className="space-y-6">
-                    <p className="text-gray-700 leading-relaxed">
-                      {product.description}
-                    </p>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold mb-3 text-blue-600">Caracteristici principale:</h4>
-                        <ul className="space-y-2 text-gray-700">
-                          {product.technicalFeatures && product.technicalFeatures.length > 0 ?
-                            product.technicalFeatures.slice(0, 10).map((feature, index) => (
-                              <li key={index}>• {feature}</li>
-                            )) :
-                            product.features && product.features.map((feature, index) => (
-                              <li key={index}>• {feature}</li>
-                            ))
-                          }
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold mb-3 text-blue-600">Conectivitate:</h4>
-                        <ul className="space-y-2 text-gray-700">
-                          {product.connectivityOptions && product.connectivityOptions.length > 0 ?
-                            product.connectivityOptions.map((option, index) => (
-                              <li key={index}>• {option}</li>
-                            )) :
-                            product.inTheBox && product.inTheBox.map((item, index) => (
-                              <li key={index}>• {item}</li>
-                            ))
-                          }
-                        </ul>
-                      </div>
-                    </div>
+                  <div className="bg-white border border-dashed border-gray-200 rounded-lg p-6 text-center text-gray-500">
+                    Acest produs nu are încă o descriere structurată. Revino în curând pentru detalii complete.
                   </div>
                 )}
 
