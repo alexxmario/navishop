@@ -999,7 +999,6 @@ const ProductShowContent = () => (
                     </Box>
                   )}
                 </Box>
-                );
               }}
             />
           </CardContent>
