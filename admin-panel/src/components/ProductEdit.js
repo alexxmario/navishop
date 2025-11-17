@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Edit,
   TextInput,
@@ -12,6 +12,7 @@ import {
   useRecordContext,
   useNotify,
   useInput,
+  required,
 } from 'react-admin';
 import {
   Box,
@@ -34,6 +35,7 @@ import { Delete as DeleteIcon, Search as SearchIcon, Add as AddIcon } from '@mui
 import ImageField from './ImageField';
 import StructuredDescriptionEditor from './StructuredDescriptionEditor';
 import { buildApiUrl, resolveImageUrl } from '../config/api';
+import { useFormContext } from 'react-hook-form';
 
 const normalizeImageUrls = (product) => {
   if (!product?.images) return product;
@@ -44,6 +46,167 @@ const normalizeImageUrls = (product) => {
       url: resolveImageUrl(image?.url)
     }))
   };
+};
+
+const generateSlug = (value = '') =>
+  value
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 120);
+
+const requiredField = required();
+const requiredCategory = required('Selectează categoria');
+
+const ProductDetailsSection = () => {
+  const form = useFormContext();
+  const nameValue = form?.watch('name');
+  const slugValue = form?.watch('slug');
+  const slugEditedRef = useRef(false);
+
+  useEffect(() => {
+    if (!form || slugEditedRef.current || !nameValue) return;
+    if (!slugValue || slugValue.length === 0) {
+      form.setValue('slug', generateSlug(nameValue), { shouldDirty: true });
+    }
+  }, [nameValue, slugValue, form]);
+
+  const markSlugEdited = () => {
+    slugEditedRef.current = true;
+  };
+
+  if (!form) return null;
+
+  return (
+    <Card sx={{ p: 3, mb: 3 }}>
+      <Typography variant="h6" gutterBottom>
+        Product Details
+      </Typography>
+
+      <Grid container spacing={3}>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="name"
+            label="Product Name"
+            fullWidth
+            validate={requiredField}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.2rem',
+                minHeight: '60px'
+              }
+            }}
+            onChange={() => {
+              slugEditedRef.current = false;
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="slug"
+            label="URL Slug"
+            helperText="Used in the storefront URL (e.g. /product/your-slug)"
+            fullWidth
+            validate={requiredField}
+            onChange={markSlugEdited}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <TextInput
+            source="brand"
+            label="Brand"
+            fullWidth
+            validate={requiredField}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <TextInput
+            source="model"
+            label="Model / Generation"
+            fullWidth
+            helperText="Optional - shown in admin filters"
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <SelectInput
+            source="category"
+            label="Category"
+            fullWidth
+            validate={requiredCategory}
+            choices={[
+              { id: 'navigatii-gps', name: 'Navigații GPS' },
+              { id: 'carplay-android', name: 'CarPlay / Android Auto' },
+              { id: 'camere-marsarier', name: 'Camere Marsarier' },
+              { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
+              { id: 'dvr', name: 'DVR' },
+              { id: 'accesorii', name: 'Accesorii' },
+            ]}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="sku"
+            label="SKU / Internal Code"
+            fullWidth
+            validate={requiredField}
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+      </Grid>
+    </Card>
+  );
+};
+
+const ProductEditHeading = () => {
+  const record = useRecordContext();
+  if (!record) return null;
+
+  return (
+    <Box sx={{ mb: 3 }}>
+      <Card sx={{ p: 3, bgcolor: 'primary.dark' }}>
+        <Typography variant="overline" color="white" sx={{ letterSpacing: 1 }}>
+          Editing Product
+        </Typography>
+        <Typography variant="h4" color="white" sx={{ mt: 1, fontWeight: 'bold' }}>
+          {record.name}
+        </Typography>
+        <Typography variant="body2" color="rgba(255,255,255,0.8)">
+          SKU: {record.sku} • Category: {record.category}
+        </Typography>
+      </Card>
+    </Box>
+  );
 };
 
 // Cross-Sell Products Manager Component
@@ -333,6 +496,7 @@ const ProductEditForm = () => {
 
       {/* Tab 2: Pricing & Stock */}
       <FormTab label="Pricing & Stock">
+        <ProductDetailsSection />
         {/* Pricing Section */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
@@ -983,6 +1147,13 @@ const ProductEditForm = () => {
   );
 };
 
+const ProductEditWrapper = () => (
+  <>
+    <ProductEditHeading />
+    <ProductEditForm />
+  </>
+);
+
 export const ProductEdit = () => (
   <Edit
     sx={{
@@ -992,7 +1163,7 @@ export const ProductEdit = () => (
       }
     }}
   >
-    <ProductEditForm />
+    <ProductEditWrapper />
   </Edit>
 );
 
