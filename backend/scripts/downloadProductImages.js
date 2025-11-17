@@ -59,8 +59,10 @@ const downloadAllProductImages = async () => {
     
     console.log(`Found ${products.length} products`);
     
-    // Create target directory
-    const imagesDir = '/Users/alexmario/Desktop/site navigatii/navishop/public/images/products';
+    // Create target directory (allow override via env)
+    const imagesDir =
+      process.env.IMAGES_DIR ||
+      path.join(__dirname, '../../navishop/public/images/products');
     if (!fs.existsSync(imagesDir)) {
       fs.mkdirSync(imagesDir, { recursive: true });
     }
