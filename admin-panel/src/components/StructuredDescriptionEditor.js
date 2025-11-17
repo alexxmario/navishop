@@ -104,13 +104,7 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
         </Typography>
 
         <ArrayInput source={source} defaultValue={[]}>
-          <SimpleFormIterator
-            addButton={
-              <Button startIcon={<Add />} variant="contained">
-                Add Section
-              </Button>
-            }
-          >
+          <SimpleFormIterator>
             <Card sx={{ p: 3, mb: 2, bgcolor: 'grey.50' }}>
               <Grid container spacing={3}>
                 {/* Section Title */}
@@ -185,13 +179,7 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
                     Section Content Points
                   </Typography>
                   <ArrayInput source="points" defaultValue={[]}>
-                    <SimpleFormIterator
-                      addButton={
-                        <Button startIcon={<Add />} variant="outlined" size="small">
-                          Add Point
-                        </Button>
-                      }
-                    >
+                    <SimpleFormIterator>
                       <TextInput
                         multiline
                         rows={3}
