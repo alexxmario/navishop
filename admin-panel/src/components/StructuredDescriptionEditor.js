@@ -27,8 +27,8 @@ const commonIcons = [
 const StructuredDescriptionEditor = ({ source = "structuredDescription.sections" }) => {
   const [showPreview, setShowPreview] = useState(false);
   const record = useRecordContext();
-  const { setValue } = formContext || {};
   const formContext = useFormContext();
+  const { setValue } = formContext || {};
 
   const PreviewSection = ({ record }) => {
     if (!record.structuredDescription?.sections) {
