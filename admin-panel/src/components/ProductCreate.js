@@ -130,6 +130,36 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
+        <Grid item xs={12} md={6}>
+          <TextInput
+            source="sku"
+            label="SKU / Internal Code"
+            fullWidth
+            required
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem',
+                minHeight: '56px'
+              }
+            }}
+          />
+        </Grid>
+        <Grid item xs={12}>
+          <TextInput
+            source="description"
+            label="Short Description"
+            multiline
+            rows={4}
+            fullWidth
+            required
+            helperText="Main description that appears at the top of the product page"
+            sx={{
+              '& .MuiOutlinedInput-root': {
+                fontSize: '1.1rem'
+              }
+            }}
+          />
+        </Grid>
       </Grid>
     </Card>
   );
