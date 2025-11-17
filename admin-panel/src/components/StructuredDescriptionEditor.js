@@ -4,6 +4,7 @@ import {
   SimpleFormIterator,
   TextInput,
   useRecordContext,
+  FormDataConsumer,
 } from 'react-admin';
 import {
   Box,
@@ -13,10 +14,10 @@ import {
   Button,
   Grid,
   Divider,
-  IconButton,
   Paper
 } from '@mui/material';
-import { Add, Delete, Visibility, VisibilityOff } from '@mui/icons-material';
+import { Add, Visibility, VisibilityOff } from '@mui/icons-material';
+import { useFormContext } from 'react-hook-form';
 
 const commonIcons = [
   '🔧', '🚗', '📱', '📷', '🖥️', '🔊', '🗺️', '🎮', '⚙️', '📦',
@@ -26,6 +27,8 @@ const commonIcons = [
 const StructuredDescriptionEditor = ({ source = "structuredDescription.sections" }) => {
   const [showPreview, setShowPreview] = useState(false);
   const record = useRecordContext();
+  const { setValue } = formContext || {};
+  const formContext = useFormContext();
 
   const PreviewSection = ({ record }) => {
     if (!record.structuredDescription?.sections) {
@@ -100,8 +103,14 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
           Create structured sections with icons and bullet points that will display beautifully on the product page.
         </Typography>
 
-        <ArrayInput source={source}>
-          <SimpleFormIterator>
+        <ArrayInput source={source} defaultValue={[]}>
+          <SimpleFormIterator
+            addButton={
+              <Button startIcon={<Add />} variant="contained">
+                Add Section
+              </Button>
+            }
+          >
             <Card sx={{ p: 3, mb: 2, bgcolor: 'grey.50' }}>
               <Grid container spacing={3}>
                 {/* Section Title */}
@@ -134,32 +143,40 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
                       }
                     }}
                   />
-                  <Box sx={{ mt: 2 }}>
-                    <Typography variant="caption" display="block" gutterBottom>
-                      Quick select:
-                    </Typography>
-                    <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
-                      {commonIcons.slice(0, 10).map((icon, index) => (
-                        <Button
-                          key={index}
-                          variant="outlined"
-                          size="small"
-                          onClick={() => {
-                            // This would need to be handled by the form context
-                            // For now, it's just visual guidance
-                          }}
-                          sx={{
-                            minWidth: 36,
-                            height: 36,
-                            fontSize: '1.2rem',
-                            p: 0.5
-                          }}
-                        >
-                          {icon}
-                        </Button>
-                      ))}
-                    </Box>
-                  </Box>
+                  <FormDataConsumer>
+                    {({ getSource }) => {
+                      const iconSource = getSource?.('icon');
+                      return (
+                        <Box sx={{ mt: 2 }}>
+                          <Typography variant="caption" display="block" gutterBottom>
+                            Quick select:
+                          </Typography>
+                          <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                            {commonIcons.slice(0, 10).map((icon, index) => (
+                              <Button
+                                key={index}
+                                variant="outlined"
+                                size="small"
+                                onClick={() => {
+                                  if (setValue && iconSource) {
+                                    setValue(iconSource, icon, { shouldDirty: true, shouldValidate: true });
+                                  }
+                                }}
+                                sx={{
+                                  minWidth: 36,
+                                  height: 36,
+                                  fontSize: '1.2rem',
+                                  p: 0.5
+                                }}
+                              >
+                                {icon}
+                              </Button>
+                            ))}
+                          </Box>
+                        </Box>
+                      );
+                    }}
+                  </FormDataConsumer>
                 </Grid>
 
                 {/* Section Points */}
@@ -167,8 +184,14 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
                   <Typography variant="subtitle1" gutterBottom>
                     Section Content Points
                   </Typography>
-                  <ArrayInput source="points">
-                    <SimpleFormIterator>
+                  <ArrayInput source="points" defaultValue={[]}>
+                    <SimpleFormIterator
+                      addButton={
+                        <Button startIcon={<Add />} variant="outlined" size="small">
+                          Add Point
+                        </Button>
+                      }
+                    >
                       <TextInput
                         multiline
                         rows={3}

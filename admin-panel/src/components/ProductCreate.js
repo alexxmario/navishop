@@ -9,6 +9,8 @@ import {
   SimpleFormIterator,
   TabbedForm,
   FormTab,
+  required,
+  minValue,
 } from 'react-admin';
 import { useFormContext } from 'react-hook-form';
 import { Box, Typography, Card, Grid } from '@mui/material';
@@ -23,6 +25,10 @@ const generateSlug = (value = '') =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
     .substring(0, 120);
+
+const requiredField = required();
+const requiredCategory = required('Selectează categoria');
+const requiredNumber = [required(), minValue(0)];
 
 const ProductDetailsSection = () => {
   const { watch, setValue } = useFormContext();
@@ -53,7 +59,7 @@ const ProductDetailsSection = () => {
             source="name"
             label="Product Name"
             fullWidth
-            required
+            validate={requiredField}
             sx={{
               '& .MuiOutlinedInput-root': {
                 fontSize: '1.2rem',
@@ -71,7 +77,7 @@ const ProductDetailsSection = () => {
             label="URL Slug"
             helperText="Used in the storefront URL (e.g. /product/your-slug)"
             fullWidth
-            required
+            validate={requiredField}
             onChange={markSlugEdited}
             sx={{
               '& .MuiOutlinedInput-root': {
@@ -86,7 +92,7 @@ const ProductDetailsSection = () => {
             source="brand"
             label="Brand"
             fullWidth
-            required
+            validate={requiredField}
             sx={{
               '& .MuiOutlinedInput-root': {
                 fontSize: '1.1rem',
@@ -114,6 +120,7 @@ const ProductDetailsSection = () => {
             source="category"
             label="Category"
             fullWidth
+            validate={requiredCategory}
             choices={[
               { id: 'navigatii-gps', name: 'Navigații GPS' },
               { id: 'carplay-android', name: 'CarPlay / Android Auto' },
@@ -135,7 +142,7 @@ const ProductDetailsSection = () => {
             source="sku"
             label="SKU / Internal Code"
             fullWidth
-            required
+            validate={requiredField}
             sx={{
               '& .MuiOutlinedInput-root': {
                 fontSize: '1.1rem',
@@ -147,12 +154,12 @@ const ProductDetailsSection = () => {
         <Grid item xs={12}>
           <TextInput
             source="description"
-            label="Short Description"
+            label="Product Description"
             multiline
             rows={4}
             fullWidth
-            required
-            helperText="Main description that appears at the top of the product page"
+            validate={requiredField}
+            helperText="This is the paragraph shown in the description tab on the product page"
             sx={{
               '& .MuiOutlinedInput-root': {
                 fontSize: '1.1rem'
@@ -190,6 +197,8 @@ const ProductCreateForm = () => {
                 source="price"
                 label="Current Price"
                 fullWidth
+                defaultValue={0}
+                validate={requiredNumber}
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.2rem',
@@ -203,6 +212,8 @@ const ProductCreateForm = () => {
                 source="originalPrice"
                 label="Original Price"
                 fullWidth
+                defaultValue={0}
+                validate={[minValue(0)]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.1rem',
@@ -216,6 +227,8 @@ const ProductCreateForm = () => {
                 source="discount"
                 label="Discount %"
                 fullWidth
+                defaultValue={0}
+                validate={[minValue(0)]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.1rem',
@@ -239,6 +252,8 @@ const ProductCreateForm = () => {
                 source="stock"
                 label="Stock Quantity"
                 fullWidth
+                defaultValue={0}
+                validate={requiredNumber}
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.2rem',
@@ -252,6 +267,8 @@ const ProductCreateForm = () => {
                 source="lowStockThreshold"
                 label="Low Stock Alert"
                 fullWidth
+                defaultValue={5}
+                validate={[minValue(0)]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.1rem',
@@ -265,6 +282,7 @@ const ProductCreateForm = () => {
                 source="status"
                 label="Product Status"
                 fullWidth
+                defaultValue="active"
                 choices={[
                   { id: 'active', name: 'Active' },
                   { id: 'inactive', name: 'Inactive (Hidden from Frontend)' },
