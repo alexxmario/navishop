@@ -3,6 +3,29 @@ const fanCourierService = require('../services/fanCourierService');
 const auth = require('../middleware/auth');
 const router = express.Router();
 
+const DEFAULT_FALLBACK_OPTION = {
+  name: 'Standard',
+  price: 25,
+  estimatedDays: 2,
+  description: 'Tarif estimativ FAN Courier', 
+  service: 'standard'
+};
+
+const buildFallbackQuote = (city, county) => {
+  const option = { ...DEFAULT_FALLBACK_OPTION };
+  return {
+    success: true,
+    services: [option],
+    quote: {
+      ...option,
+      cost: option.price,
+      estimatedDelivery: calculateEstimatedDelivery(option.estimatedDays)
+    },
+    estimatedDelivery: calculateEstimatedDelivery(option.estimatedDays),
+    message: 'Tarif estimativ folosit (nu s-au putut obține tarifele oficiale FAN Courier).'
+  };
+};
+
 // Get shipping quote for a destination
 router.post('/quote', async (req, res) => {
   try {
@@ -14,39 +37,38 @@ router.post('/quote', async (req, res) => {
       });
     }
 
-    // For now, return mock data since getting services requires complex API integration
-    const mockServices = [
-      {
-        name: 'Standard',
-        price: 25.00,
-        estimatedDays: city.toLowerCase().includes('bucuresti') ? 1 : 2,
-        description: 'Livrare standard 1-2 zile lucratoare'
-      }
-    ];
-
-    // Add express option for major cities
-    const majorCities = ['bucuresti', 'cluj', 'timisoara', 'iasi', 'constanta'];
-    if (majorCities.some(majorCity => city.toLowerCase().includes(majorCity))) {
-      mockServices.push({
-        name: 'Express',
-        price: 35.00,
-        estimatedDays: 1,
-        description: 'Livrare express în aceeași zi'
-      });
+    const authResult = await fanCourierService.authenticate();
+    if (!authResult.success) {
+      console.warn('FAN Courier auth failed for quote:', authResult.error);
+      return res.json(buildFallbackQuote(city, county));
     }
+
+    const originCity = process.env.FAN_COURIER_ORIGIN_CITY || 'Bucuresti';
+    const servicesResult = await fanCourierService.getServices(
+      originCity,
+      city,
+      parseFloat(weight) || 1,
+      authResult.token
+    );
+
+    if (!servicesResult.success || !servicesResult.services || servicesResult.services.length === 0) {
+      console.warn('FAN Courier returned no services:', servicesResult.error);
+      return res.json(buildFallbackQuote(city, county));
+    }
+
+    const mappedServices = servicesResult.services.map(mapFanServiceToOption);
+    const selected = mappedServices[0];
 
     res.json({
       success: true,
-      services: mockServices,
-      estimatedDelivery: calculateEstimatedDelivery(city, county)
+      services: mappedServices,
+      quote: selected,
+      estimatedDelivery: selected.estimatedDelivery
     });
 
   } catch (error) {
     console.error('Error getting shipping quote:', error);
-    res.status(500).json({ 
-      message: 'Error getting shipping quote', 
-      error: error.message 
-    });
+    res.json(buildFallbackQuote(req.body?.city, req.body?.county));
   }
 });
 
@@ -178,19 +200,29 @@ router.delete('/awb/:awbNumber', auth, async (req, res) => {
   }
 });
 
-// Helper function to calculate estimated delivery
-function calculateEstimatedDelivery(city, county) {
-  // Basic estimation logic - can be enhanced based on FAN Courier data
-  const majorCities = ['Bucuresti', 'Cluj-Napoca', 'Timisoara', 'Iasi', 'Constanta'];
-  const isMajorCity = majorCities.some(majorCity => 
-    city.toLowerCase().includes(majorCity.toLowerCase())
-  );
+function mapFanServiceToOption(service = {}) {
+  const price = Number(service.total ?? service.tariff ?? service.price ?? service.cost ?? 0);
+  const name = service.service || service.name || 'Standard';
+  const estimatedDays = Number(service.deliveryDays ?? service.estimatedDays ?? service.eta ?? 2) || 2;
 
-  const baseDeliveryDays = isMajorCity ? 1 : 2;
+  return {
+    name,
+    service: service.code || name,
+    price,
+    cost: price,
+    vat: Number(service.vat ?? service.tva ?? 0),
+    currency: service.currency || 'RON',
+    description: service.description || service.details || '',
+    estimatedDays,
+    estimatedDelivery: calculateEstimatedDelivery(estimatedDays)
+  };
+}
+
+// Helper function to calculate estimated delivery date (YYYY-MM-DD)
+function calculateEstimatedDelivery(days = 2) {
   const estimatedDate = new Date();
-  estimatedDate.setDate(estimatedDate.getDate() + baseDeliveryDays);
-  
-  return estimatedDate.toISOString().split('T')[0]; // Return YYYY-MM-DD format
+  estimatedDate.setDate(estimatedDate.getDate() + (Number(days) || 2));
+  return estimatedDate.toISOString().split('T')[0];
 }
 
 module.exports = router;

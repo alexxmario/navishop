@@ -2,6 +2,36 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Truck, Package, Clock, Calculator } from 'lucide-react';
 import apiService from '../services/api';
 
+const calculateEstimatedDeliveryDate = (days = 2) => {
+  const date = new Date();
+  date.setDate(date.getDate() + (Number(days) || 2));
+  return date.toISOString().split('T')[0];
+};
+
+const normalizeService = (service = {}) => {
+  const price = Number(service.price ?? service.cost ?? service.total ?? 0);
+  const name = service.name || service.service || 'Standard';
+  const estimatedDays = Number(service.estimatedDays ?? service.deliveryDays ?? service.eta ?? 2) || 2;
+  return {
+    name,
+    service: service.service || service.code || name,
+    price,
+    cost: price,
+    vat: service.vat ?? service.tva ?? 0,
+    currency: service.currency || 'RON',
+    description: service.description || service.details || '',
+    estimatedDays,
+    estimatedDelivery: service.estimatedDelivery || calculateEstimatedDeliveryDate(estimatedDays)
+  };
+};
+
+const fallbackOption = normalizeService({
+  name: 'Standard FAN Courier',
+  price: 25,
+  description: 'Tarif estimativ FAN Courier',
+  estimatedDays: 2
+});
+
 const ShippingCalculator = ({ 
   shippingAddress, 
   cartWeight = 1, 
@@ -13,19 +43,18 @@ const ShippingCalculator = ({
   const [selectedShipping, setSelectedShipping] = useState(null);
   const [error, setError] = useState('');
 
-  const calculateBasicShipping = useCallback(() => {
-    const basePrice = 25;
-    return {
-      name: 'Standard',
-      price: basePrice,
-      estimatedDays: 1,
-      description: 'Livrare standard 1-2 zile lucratoare',
-      cost: basePrice,
-      service: 'Standard'
-    };
-  }, []);
+  const updateSelection = useCallback((option) => {
+    if (!option) return;
+    setSelectedShipping(option);
+    onShippingUpdate?.({
+      cost: option.price ?? option.cost ?? 0,
+      service: option.name || option.service,
+      estimatedDays: option.estimatedDays,
+      estimatedDelivery: option.estimatedDelivery
+    });
+  }, [onShippingUpdate]);
 
-  const calculateShipping = useCallback(async () => {
+  const fetchShippingQuote = useCallback(async () => {
     if (!shippingAddress?.city || !shippingAddress?.county) {
       return;
     }
@@ -40,56 +69,44 @@ const ShippingCalculator = ({
         weight: cartWeight
       });
 
-      if (response.success && response.services) {
-        setShippingOptions(response.services);
-        
-        // Auto-select first option (usually Standard)
-        if (response.services.length > 0) {
-          const defaultOption = response.services[0];
-          setSelectedShipping(defaultOption);
-          onShippingUpdate?.({
-            cost: defaultOption.price,
-            service: defaultOption.name,
-            estimatedDays: defaultOption.estimatedDays,
-            estimatedDelivery: response.estimatedDelivery
-          });
+      if (response.success) {
+        const rawServices = response.services && response.services.length
+          ? response.services
+          : response.quote
+            ? [response.quote]
+            : [];
+
+        const normalized = rawServices.map(normalizeService);
+
+        if (!normalized.length) {
+          throw new Error('No services returned from FAN Courier');
         }
+
+        setShippingOptions(normalized);
+        const preferred = normalized[0];
+        updateSelection(preferred);
       } else {
-        // Fallback to basic calculation
-        const basicShipping = calculateBasicShipping();
-        setShippingOptions([basicShipping]);
-        setSelectedShipping(basicShipping);
-        onShippingUpdate?.(basicShipping);
+        throw new Error(response.message || 'Unable to fetch FAN Courier tariffs');
       }
-    } catch (error) {
-      console.error('Shipping calculation error:', error);
-      // Fallback to basic calculation
-      const basicShipping = calculateBasicShipping();
-      setShippingOptions([basicShipping]);
-      setSelectedShipping(basicShipping);
-      onShippingUpdate?.(basicShipping);
-      setError('Nu s-a putut calcula costul de livrare. Se folosește tariful standard.');
+    } catch (err) {
+      console.error('FAN Courier shipping quote error:', err);
+      setError('Nu am putut obține tarifele FAN Courier. Se folosește tariful estimativ.');
+      setShippingOptions([fallbackOption]);
+      updateSelection(fallbackOption);
     } finally {
       setLoading(false);
     }
-  }, [shippingAddress, cartWeight, onShippingUpdate, calculateBasicShipping]);
+  }, [shippingAddress?.city, shippingAddress?.county, cartWeight, updateSelection]);
 
-  // Calculate shipping when address changes
   useEffect(() => {
-    if (shippingAddress?.city && shippingAddress?.county) {
-      calculateShipping();
-    }
-  }, [shippingAddress?.city, shippingAddress?.county, cartWeight, calculateShipping]);
+    fetchShippingQuote();
+  }, [fetchShippingQuote]);
 
   const handleShippingSelect = (option) => {
-    setSelectedShipping(option);
-    onShippingUpdate?.({
-      cost: option.price,
-      service: option.name,
-      estimatedDays: option.estimatedDays,
-      estimatedDelivery: option.estimatedDelivery
-    });
+    updateSelection(option);
   };
+
+  const formatPrice = (value) => Number(value ?? 0).toFixed(2);
 
   if (!shippingAddress?.city) {
     return (
@@ -106,11 +123,11 @@ const ShippingCalculator = ({
     <div className={`bg-white border border-gray-200 rounded-lg p-4 ${className}`}>
       <div className="flex items-center mb-4">
         <Truck className="h-5 w-5 text-blue-600 mr-2" />
-        <h3 className="font-semibold text-gray-900">Opțiuni de livrare</h3>
+        <h3 className="font-semibold text-gray-900">Tarife FAN Courier</h3>
         {loading && (
           <div className="ml-auto flex items-center text-blue-600">
             <Calculator className="h-4 w-4 animate-spin mr-1" />
-            <span className="text-sm">Calculez...</span>
+            <span className="text-sm">Calculăm tariful...</span>
           </div>
         )}
       </div>
@@ -143,14 +160,14 @@ const ShippingCalculator = ({
                 />
                 <div className="ml-3">
                   <div className="font-medium text-gray-900">{option.name}</div>
-                  <div className="text-sm text-gray-500 flex items-center">
-                    <Clock className="h-3 w-3 mr-1" />
-                    {option.estimatedDays === 1 
-                      ? 'Livrare în aceeași zi' 
-                      : `${option.estimatedDays} zile lucratoare`}
-                  </div>
-                  {option.description && (
-                    <div className="text-xs text-gray-400 mt-1">
+                <div className="text-sm text-gray-500 flex items-center">
+                  <Clock className="h-3 w-3 mr-1" />
+                  {(option.estimatedDays || 2) === 1 
+                    ? 'Livrare în aceeași zi' 
+                    : `${option.estimatedDays || 2} zile lucrătoare`}
+                </div>
+                {option.description && (
+                  <div className="text-xs text-gray-400 mt-1">
                       {option.description}
                     </div>
                   )}
@@ -158,7 +175,7 @@ const ShippingCalculator = ({
               </div>
               <div className="text-right">
                 <div className="font-semibold text-gray-900">
-                  {option.price.toFixed(2)} RON
+                  {formatPrice(option.price)} RON
                 </div>
                 {option.estimatedDelivery && (
                   <div className="text-xs text-gray-500">
@@ -176,7 +193,7 @@ const ShippingCalculator = ({
           <div className="flex items-center text-green-800">
             <Package className="h-4 w-4 mr-2" />
             <span className="text-sm font-medium">
-              Livrare selectată: {selectedShipping.name} - {selectedShipping.price.toFixed(2)} RON
+              Livrare selectată: {selectedShipping.name} - {formatPrice(selectedShipping.price)} RON
             </span>
           </div>
         </div>
