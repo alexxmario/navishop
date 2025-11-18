@@ -467,7 +467,7 @@ const CheckoutPage = () => {
                         Plată online cu cardul (EuPlătesc)
                       </div>
                       <div className="text-sm text-gray-500">
-                        Plată securizată prin EuPlătesc
+                        Plată securizată
                       </div>
                     </div>
                   </label>

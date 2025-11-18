@@ -97,7 +97,7 @@ router.post('/', async (req, res) => {
     let invoiceData = null;
     let paymentURL = null;
 
-    if (guestOrder.paymentMethod === 'card') {
+    if (guestOrder.paymentMethod === 'card' || guestOrder.paymentMethod === 'smartbill_online') {
       try {
         const baseReturnUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
 
