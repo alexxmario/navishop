@@ -150,6 +150,11 @@ const guestOrderSchema = new mongoose.Schema({
     type: String,
     enum: ['pending', 'completed', 'failed', 'cancelled'],
     default: 'pending'
+  },
+  paymentReference: {
+    rrn: String,
+    approval: String,
+    amount: String
   }
 }, {
   timestamps: true

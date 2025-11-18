@@ -4,6 +4,7 @@ const GuestOrder = require('../models/GuestOrder');
 const Product = require('../models/Product');
 const auth = require('../middleware/auth');
 const smartbillService = require('../services/smartbillServiceCorrect');
+const euplatescService = require('../services/euplatescService');
 const fanCourierService = require('../services/fanCourierService');
 const router = express.Router();
 
@@ -280,6 +281,25 @@ router.post('/', auth, async (req, res) => {
     // Orders are created with pending status for admin review and approval
     let invoiceData = null;
     let paymentURL = null;
+
+    if (order.paymentMethod === 'card') {
+      try {
+        const baseReturnUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
+        const paymentResult = euplatescService.createPayment(order, {
+          description: `Plata pentru comanda ${order.orderNumber}`,
+          returnURL: `${baseReturnUrl}/payment-success?paymentId=:paymentId&orderNumber=:orderNumber`,
+          cancelURL: `${baseReturnUrl}/payment-cancel?paymentId=:paymentId&orderNumber=:orderNumber`
+        });
+
+        order.paymentId = paymentResult.paymentId;
+        order.paymentStatus = 'pending';
+        await order.save();
+
+        paymentURL = paymentResult.paymentURL;
+      } catch (paymentError) {
+        console.error('Failed to initialize EuPlatesc payment for user order:', paymentError);
+      }
+    }
 
     console.log('User order created successfully:', order.orderNumber);
 

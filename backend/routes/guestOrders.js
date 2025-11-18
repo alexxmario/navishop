@@ -2,6 +2,7 @@ const express = require('express');
 const GuestOrder = require('../models/GuestOrder');
 const Product = require('../models/Product');
 const smartbillService = require('../services/smartbillServiceCorrect');
+const euplatescService = require('../services/euplatescService');
 const router = express.Router();
 
 // Create guest order
@@ -95,6 +96,26 @@ router.post('/', async (req, res) => {
     // Guest orders are created with pending status for admin review and approval
     let invoiceData = null;
     let paymentURL = null;
+
+    if (guestOrder.paymentMethod === 'card') {
+      try {
+        const baseReturnUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
+
+        const paymentResult = euplatescService.createPayment(guestOrder, {
+          description: `Plata pentru comanda ${guestOrder.orderNumber}`,
+          returnURL: `${baseReturnUrl}/payment-success?paymentId=:paymentId&orderNumber=:orderNumber`,
+          cancelURL: `${baseReturnUrl}/payment-cancel?paymentId=:paymentId&orderNumber=:orderNumber`
+        });
+
+        guestOrder.paymentId = paymentResult.paymentId;
+        guestOrder.paymentStatus = 'pending';
+        await guestOrder.save();
+
+        paymentURL = paymentResult.paymentURL;
+      } catch (paymentError) {
+        console.error('Failed to initialize EuPlatesc payment for guest order:', paymentError);
+      }
+    }
 
     console.log('Guest order created successfully:', guestOrder.orderNumber);
 

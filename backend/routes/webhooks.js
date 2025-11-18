@@ -121,27 +121,33 @@ router.get('/smartbill/test', async (req, res) => {
 router.get('/payment/:paymentId/status', async (req, res) => {
   try {
     const { paymentId } = req.params;
-    
-    const statusResult = await smartbillService.checkPaymentStatus(paymentId);
-    
-    if (!statusResult.success) {
-      return res.status(500).json({ 
-        message: 'Failed to check payment status', 
-        error: statusResult.error 
+
+    let order = await Order.findOne({ paymentId }).lean();
+    let isGuest = false;
+
+    if (!order) {
+      order = await GuestOrder.findOne({ paymentId }).lean();
+      isGuest = true;
+    }
+
+    if (!order) {
+      return res.status(404).json({
+        message: 'Order not found',
+        paymentId
       });
     }
 
     res.json({
       paymentId,
-      status: statusResult.status,
-      data: statusResult.data
+      status: order.paymentStatus,
+      orderNumber: order.orderNumber,
+      isGuest
     });
-
   } catch (error) {
     console.error('Error checking payment status:', error);
-    res.status(500).json({ 
-      message: 'Error checking payment status', 
-      error: error.message 
+    res.status(500).json({
+      message: 'Error checking payment status',
+      error: error.message
     });
   }
 });
