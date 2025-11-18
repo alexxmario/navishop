@@ -35,7 +35,7 @@ function NavigationModel3D() {
         camera={{ position: [0, 0, 8], fov: 45 }}
         className="cursor-grab active:cursor-grabbing"
       >
-        <color attach="background" args={['#f8fafc']} />
+        <color attach="background" args={['#ffffff']} />
         <ambientLight intensity={0.6} />
         <hemisphereLight skyColor="#ffffff" groundColor="#dbeafe" intensity={0.4} />
         <spotLight position={[10, 10, 10]} angle={0.2} penumbra={1} intensity={0.8} />
