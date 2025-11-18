@@ -8,7 +8,10 @@ class FanCourierService {
     this.clientId = process.env.FAN_COURIER_CLIENT_ID;
     this.username = process.env.FAN_COURIER_USERNAME;
     this.password = process.env.FAN_COURIER_PASSWORD;
-    
+    this.cachedToken = null;
+    this.cachedTokenExpiry = null;
+    this.pendingAuth = null;
+
     if (!this.clientId || !this.username || !this.password) {
       console.warn('FAN Courier credentials not configured. Please set FAN_COURIER_CLIENT_ID, FAN_COURIER_USERNAME, and FAN_COURIER_PASSWORD environment variables.');
     }
@@ -18,29 +21,47 @@ class FanCourierService {
    * Get authentication token from FAN Courier API
    */
   async authenticate() {
-    try {
-      // FAN Courier API v2.0 authentication from Postman collection
-      const response = await axios.post(`${this.baseURL}/login?username=${this.username}&password=${this.password}`);
-
-      if (response.status === 200 && response.data && response.data.data && response.data.data.token) {
-        return {
-          success: true,
-          token: response.data.data.token,
-          expires_at: response.data.data.expires_at
-        };
-      }
-
-      return {
-        success: false,
-        error: 'Authentication failed - no token received'
-      };
-    } catch (error) {
-      console.error('FAN Courier authentication error:', error.response?.data || error.message);
-      return {
-        success: false,
-        error: error.response?.data?.message || error.message
-      };
+    const hasValidCache = this.cachedToken && this.cachedTokenExpiry && Date.now() < this.cachedTokenExpiry - 60000;
+    if (hasValidCache) {
+      return { success: true, token: this.cachedToken, expires_at: this.cachedTokenExpiry };
     }
+
+    if (this.pendingAuth) {
+      return this.pendingAuth;
+    }
+
+    this.pendingAuth = (async () => {
+      try {
+        const response = await axios.post(`${this.baseURL}/login?username=${this.username}&password=${this.password}`);
+
+        if (response.status === 200 && response.data?.data?.token) {
+          this.cachedToken = response.data.data.token;
+          const expiresRaw = response.data.data.expires_at;
+          const expiresAt = expiresRaw ? Date.parse(expiresRaw) : Date.now() + 15 * 60 * 1000;
+          this.cachedTokenExpiry = expiresAt;
+          return {
+            success: true,
+            token: this.cachedToken,
+            expires_at: expiresRaw
+          };
+        }
+
+        return {
+          success: false,
+          error: 'Authentication failed - no token received'
+        };
+      } catch (error) {
+        console.error('FAN Courier authentication error:', error.response?.data || error.message);
+        return {
+          success: false,
+          error: error.response?.data?.message || error.message
+        };
+      } finally {
+        this.pendingAuth = null;
+      }
+    })();
+
+    return this.pendingAuth;
   }
 
   /**
