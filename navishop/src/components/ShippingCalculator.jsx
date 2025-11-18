@@ -13,6 +13,18 @@ const ShippingCalculator = ({
   const [selectedShipping, setSelectedShipping] = useState(null);
   const [error, setError] = useState('');
 
+  const calculateBasicShipping = useCallback(() => {
+    const basePrice = 25;
+    return {
+      name: 'Standard',
+      price: basePrice,
+      estimatedDays: 1,
+      description: 'Livrare standard 1-2 zile lucratoare',
+      cost: basePrice,
+      service: 'Standard'
+    };
+  }, []);
+
   const calculateShipping = useCallback(async () => {
     if (!shippingAddress?.city || !shippingAddress?.county) {
       return;
@@ -68,19 +80,6 @@ const ShippingCalculator = ({
       calculateShipping();
     }
   }, [shippingAddress?.city, shippingAddress?.county, cartWeight, calculateShipping]);
-
-  const calculateBasicShipping = useCallback(() => {
-    // Basic shipping calculation (free over 500 RON, otherwise 25 RON)
-    const basePrice = 25;
-    return {
-      name: 'Standard',
-      price: basePrice,
-      estimatedDays: 1,
-      description: 'Livrare standard 1-2 zile lucratoare',
-      cost: basePrice,
-      service: 'Standard'
-    };
-  }, []);
 
   const handleShippingSelect = (option) => {
     setSelectedShipping(option);
