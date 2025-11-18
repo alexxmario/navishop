@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
@@ -131,9 +131,9 @@ const CheckoutPage = () => {
     return getCartTotal() + calculateShipping();
   };
 
-  const handleShippingUpdate = (shipping) => {
+  const handleShippingUpdate = useCallback((shipping) => {
     setShippingInfo(shipping);
-  };
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
