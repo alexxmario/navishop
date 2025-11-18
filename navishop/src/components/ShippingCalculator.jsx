@@ -13,13 +13,6 @@ const ShippingCalculator = ({
   const [selectedShipping, setSelectedShipping] = useState(null);
   const [error, setError] = useState('');
 
-  // Calculate shipping when address changes
-  useEffect(() => {
-    if (shippingAddress?.city && shippingAddress?.county) {
-      calculateShipping();
-    }
-  }, [shippingAddress?.city, shippingAddress?.county, cartWeight, calculateShipping]);
-
   const calculateShipping = useCallback(async () => {
     if (!shippingAddress?.city || !shippingAddress?.county) {
       return;
@@ -68,6 +61,13 @@ const ShippingCalculator = ({
       setLoading(false);
     }
   }, [shippingAddress, cartWeight, onShippingUpdate, calculateBasicShipping]);
+
+  // Calculate shipping when address changes
+  useEffect(() => {
+    if (shippingAddress?.city && shippingAddress?.county) {
+      calculateShipping();
+    }
+  }, [shippingAddress?.city, shippingAddress?.county, cartWeight, calculateShipping]);
 
   const calculateBasicShipping = useCallback(() => {
     // Basic shipping calculation (free over 500 RON, otherwise 25 RON)
