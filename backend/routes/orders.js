@@ -549,7 +549,7 @@ router.put('/:orderId/process', auth, async (req, res) => {
             };
             
             // Generate payment URL for online payments if needed
-            if (order.paymentMethod === 'smartbill_online') {
+            if (order.paymentMethod === 'card' || order.paymentMethod === 'smartbill_online') {
               const paymentResult = await smartbillService.getPaymentURL(
                 { invoiceNumber: invoiceResult.invoiceNumber, total: order.grandTotal },
                 `${process.env.FRONTEND_URL}/payment/success`,
