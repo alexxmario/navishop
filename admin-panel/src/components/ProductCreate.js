@@ -390,11 +390,7 @@ const ProductCreateForm = () => {
         </Card>
       </FormTab>
 
-      {/* Tab 4: Technical Specifications */}
-      <FormTab label="Technical Specifications">
-      </FormTab>
-
-      {/* Tab 5: Romanian Specifications */}
+      {/* Tab 4: Romanian Specifications */}
       <FormTab label="Romanian Specifications">
         {/* Hardware */}
         <Card sx={{ p: 3, mb: 3 }}>
