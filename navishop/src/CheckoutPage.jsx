@@ -121,15 +121,17 @@ const CheckoutPage = () => {
     return null;
   };
 
-  const calculateShipping = () => {
+  const calculateShipping = useCallback(() => {
     const total = getCartTotal();
-    // Free shipping over 500 RON, otherwise use calculated shipping cost
-    return total >= 500 ? 0 : shippingInfo.cost;
-  };
+    if (total >= 500) {
+      return 0;
+    }
+    return shippingInfo?.cost || 0;
+  }, [getCartTotal, shippingInfo]);
 
-  const calculateGrandTotal = () => {
+  const calculateGrandTotal = useCallback(() => {
     return getCartTotal() + calculateShipping();
-  };
+  }, [getCartTotal, calculateShipping]);
 
   const handleShippingUpdate = useCallback((shipping) => {
     setShippingInfo(shipping);
@@ -162,6 +164,8 @@ const CheckoutPage = () => {
           ? formData.shippingAddress 
           : formData.billingAddress,
         paymentMethod: formData.paymentMethod,
+        shippingOption: shippingInfo,
+        shippingCost: calculateShipping(),
         notes: formData.notes
       };
 

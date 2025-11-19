@@ -63,8 +63,16 @@ router.post('/', async (req, res) => {
       });
     }
 
-    // Calculate shipping cost (free shipping over 500 lei)
-    const shippingCost = orderTotal >= 500 ? 0 : 25;
+    const shippingOption = req.body.shippingOption || req.body.shippingInfo || {};
+    const requestedShippingCost = typeof req.body.shippingCost === 'number'
+      ? req.body.shippingCost
+      : typeof shippingOption.cost === 'number'
+        ? shippingOption.cost
+        : null;
+
+    const shippingCost = requestedShippingCost !== null
+      ? Math.max(0, requestedShippingCost)
+      : orderTotal >= 500 ? 0 : 25;
     const grandTotal = orderTotal + shippingCost;
 
     // Create the order
