@@ -32,6 +32,14 @@ const fallbackOption = normalizeService({
   estimatedDays: 2
 });
 
+const testFreeOption = normalizeService({
+  name: 'Test - Transport gratuit',
+  service: 'fan_test_free',
+  price: 0,
+  description: 'Opțiune doar pentru testarea plăților EuPlătesc',
+  estimatedDays: 2
+});
+
 const ShippingCalculator = ({ 
   shippingAddress, 
   cartWeight = 1, 
@@ -77,13 +85,14 @@ const ShippingCalculator = ({
             : [];
 
         const normalized = rawServices.map(normalizeService);
+        const optionsWithTest = [...normalized, testFreeOption];
 
-        if (!normalized.length) {
+        if (!optionsWithTest.length) {
           throw new Error('No services returned from FAN Courier');
         }
 
-        setShippingOptions(normalized);
-        const preferred = normalized[0];
+        setShippingOptions(optionsWithTest);
+        const preferred = optionsWithTest[0];
         updateSelection(preferred);
       } else {
         throw new Error(response.message || 'Unable to fetch FAN Courier tariffs');
