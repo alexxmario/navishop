@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import {
   Show,
   SimpleShowLayout,
-  TextField,
-  DateField,
-  ReferenceField,
-  NumberField,
   FunctionField,
   TopToolbar,
   EditButton,
@@ -28,7 +24,8 @@ import {
   DialogActions,
   TextField as MuiTextField,
   Divider,
-  Grid
+  Grid,
+  Link as MuiLink
 } from '@mui/material';
 import {
   CheckCircle,
@@ -309,25 +306,43 @@ const ReviewAdminActions = () => {
   );
 };
 
+const ProductInformation = () => {
+  const record = useRecordContext();
+
+  if (!record) return null;
+
+  const productName = record.product?.name || record.productName || 'Produs indisponibil';
+  const productLink = record.productId ? `#/products/${record.productId}` : null;
+
+  return (
+    <Box sx={{ mb: 3 }}>
+      <Card>
+        <CardContent>
+          <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <Inventory />
+            Informații produs
+          </Typography>
+          <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
+            {productName}
+          </Typography>
+          {productLink && (
+            <MuiLink href={productLink} underline="hover" sx={{ fontWeight: 500 }}>
+              Vezi produsul
+            </MuiLink>
+          )}
+        </CardContent>
+      </Card>
+    </Box>
+  );
+};
+
 // Main ReviewShow component
 export const ReviewShow = () => {
   return (
     <Show title="Review Details" actions={<ReviewAdminActions />}>
       <SimpleShowLayout>
         {/* Product Information */}
-        <Box sx={{ mb: 3 }}>
-          <Card>
-            <CardContent>
-              <Typography variant="h6" gutterBottom>
-                <Inventory sx={{ mr: 1, verticalAlign: 'middle' }} />
-                Product Information
-              </Typography>
-              <ReferenceField source="productId" reference="products" link="show">
-                <TextField source="name" />
-              </ReferenceField>
-            </CardContent>
-          </Card>
-        </Box>
+        <FunctionField render={() => <ProductInformation />} />
 
         {/* Review Content */}
         <FunctionField render={() => <ReviewContent />} />
