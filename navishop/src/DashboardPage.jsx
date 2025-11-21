@@ -29,7 +29,10 @@ const DashboardPage = () => {
       setOrdersLoading(true);
       setOrdersError(null);
       const userOrders = await apiService.getUserOrders();
-      setOrders(userOrders);
+      const parsedOrders = Array.isArray(userOrders)
+        ? userOrders
+        : userOrders?.data || [];
+      setOrders(parsedOrders);
     } catch (error) {
       console.error('Failed to load orders:', error);
       setOrdersError('Nu s-au putut încărca comenzile. Încercați din nou.');
