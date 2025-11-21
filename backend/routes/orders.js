@@ -2,6 +2,7 @@ const express = require('express');
 const Order = require('../models/Order');
 const GuestOrder = require('../models/GuestOrder');
 const Product = require('../models/Product');
+const User = require('../models/User');
 const auth = require('../middleware/auth');
 const smartbillService = require('../services/smartbillServiceCorrect');
 const euplatescService = require('../services/euplatescService');
@@ -362,6 +363,209 @@ router.get('/:orderId', auth, async (req, res) => {
     res.status(500).json({ 
       message: 'Error fetching order', 
       error: error.message 
+    });
+  }
+});
+
+// Admin manual order creation (for customers or guests)
+router.post('/admin/manual', auth, async (req, res) => {
+  try {
+    if (req.user.role !== 'admin') {
+      return res.status(403).json({ message: 'Admin access required' });
+    }
+
+    const {
+      customerType = 'guest',
+      userId,
+      guestName,
+      guestEmail,
+      guestPhone,
+      items,
+      shippingAddress,
+      billingAddress,
+      paymentMethod,
+      notes,
+      shippingCost: requestedShippingCost,
+      generateInvoice = false
+    } = req.body;
+
+    if (!items || !Array.isArray(items) || items.length === 0) {
+      return res.status(400).json({ message: 'Order must contain at least one item' });
+    }
+
+    if (!shippingAddress || !shippingAddress.street || !shippingAddress.city || !shippingAddress.county || !shippingAddress.postalCode) {
+      return res.status(400).json({ message: 'Shipping address is incomplete' });
+    }
+
+    if (customerType === 'existing' && !userId) {
+      return res.status(400).json({ message: 'User ID is required for existing customers' });
+    }
+
+    if (customerType === 'guest') {
+      if (!guestName || !guestEmail || !guestPhone) {
+        return res.status(400).json({ message: 'Guest name, email, and phone are required' });
+      }
+    }
+
+    // Validate products and calculate totals
+    let orderTotal = 0;
+    const validatedItems = [];
+
+    for (const item of items) {
+      if (!item.productId || !item.quantity) {
+        return res.status(400).json({ message: 'Each item requires productId and quantity' });
+      }
+
+      const product = await Product.findById(item.productId);
+      if (!product) {
+        return res.status(400).json({ message: `Product with ID ${item.productId} not found` });
+      }
+
+      if (product.stock < item.quantity) {
+        return res.status(400).json({
+          message: `Insufficient stock for ${product.name}. Available: ${product.stock}, Requested: ${item.quantity}`
+        });
+      }
+
+      const itemTotal = product.price * item.quantity;
+      orderTotal += itemTotal;
+
+      validatedItems.push({
+        productId: product._id,
+        name: product.name,
+        price: product.price,
+        quantity: item.quantity,
+        image: item.image || (product.images && product.images[0] ? product.images[0].url : null)
+      });
+    }
+
+    const normalizedShippingCost = typeof requestedShippingCost === 'number'
+      ? Math.max(0, requestedShippingCost)
+      : orderTotal >= 500 ? 0 : 25;
+
+    const grandTotal = orderTotal + normalizedShippingCost;
+
+    let createdOrder = null;
+    let orderType = 'authenticated';
+    let invoiceInfo = null;
+
+    if (customerType === 'existing') {
+      const existingUser = await User.findById(userId);
+      if (!existingUser) {
+        return res.status(404).json({ message: 'User not found' });
+      }
+
+      createdOrder = new Order({
+        userId: existingUser._id,
+        items: validatedItems,
+        shippingAddress,
+        billingAddress: billingAddress || { ...shippingAddress, sameAsShipping: true },
+        orderTotal,
+        shippingCost: normalizedShippingCost,
+        grandTotal,
+        paymentMethod: paymentMethod || 'cash_on_delivery',
+        notes,
+        status: req.body.status || 'pending'
+      });
+
+      await createdOrder.save();
+      orderType = 'authenticated';
+    } else {
+      // guest order
+      createdOrder = new GuestOrder({
+        guestEmail: guestEmail.toLowerCase(),
+        guestPhone,
+        guestName,
+        items: validatedItems,
+        shippingAddress,
+        billingAddress: billingAddress || { ...shippingAddress, sameAsShipping: true },
+        orderTotal,
+        shippingCost: normalizedShippingCost,
+        grandTotal,
+        paymentMethod: paymentMethod || 'cash_on_delivery',
+        notes,
+        status: req.body.status || 'pending'
+      });
+
+      await createdOrder.save();
+      orderType = 'guest';
+    }
+
+    // Update stock
+    for (const item of validatedItems) {
+      await Product.findByIdAndUpdate(
+        item.productId,
+        { $inc: { stock: -item.quantity, purchaseCount: item.quantity } }
+      );
+    }
+
+    if (generateInvoice) {
+      try {
+        let invoicePayload;
+
+        if (orderType === 'guest') {
+          invoicePayload = {
+            orderNumber: createdOrder.orderNumber,
+            guestName,
+            guestEmail: guestEmail.toLowerCase(),
+            guestPhone,
+            items: createdOrder.items,
+            shippingAddress: createdOrder.shippingAddress,
+            billingAddress: createdOrder.billingAddress.sameAsShipping ? createdOrder.shippingAddress : createdOrder.billingAddress,
+            shippingCost: createdOrder.shippingCost,
+            notes: createdOrder.notes
+          };
+        } else {
+          const orderUser = await User.findById(userId);
+          invoicePayload = {
+            orderNumber: createdOrder.orderNumber,
+            guestName: orderUser.name,
+            guestEmail: orderUser.email,
+            guestPhone: orderUser.phone || shippingAddress.phone || '',
+            items: createdOrder.items,
+            shippingAddress: createdOrder.shippingAddress,
+            billingAddress: createdOrder.billingAddress.sameAsShipping ? createdOrder.shippingAddress : createdOrder.billingAddress,
+            shippingCost: createdOrder.shippingCost,
+            notes: createdOrder.notes
+          };
+        }
+
+        const invoiceResult = await smartbillService.createInvoice(invoicePayload);
+        if (invoiceResult.success) {
+          createdOrder.invoice = {
+            invoiceId: invoiceResult.invoiceId,
+            invoiceNumber: invoiceResult.invoiceNumber,
+            createdAt: new Date()
+          };
+          await createdOrder.save();
+          invoiceInfo = invoiceResult;
+        } else {
+          invoiceInfo = { error: invoiceResult.error };
+        }
+      } catch (invoiceError) {
+        console.error('Manual order SmartBill error:', invoiceError);
+        invoiceInfo = { error: invoiceError.message };
+      }
+    }
+
+    const responseOrder = {
+      ...createdOrder.toObject(),
+      orderType,
+      id: createdOrder._id
+    };
+
+    res.status(201).json({
+      message: 'Manual order created successfully',
+      id: createdOrder._id,
+      orderType,
+      order: responseOrder,
+      invoice: invoiceInfo
+    });
+  } catch (error) {
+    console.error('Admin manual order creation error:', error);
+    res.status(500).json({
+      message: 'Failed to create manual order',
+      error: error.message
     });
   }
 });

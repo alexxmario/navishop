@@ -166,6 +166,19 @@ const dataProvider = {
 
   create: (resource, params) => {
     const { id, ...data } = params.data;
+
+    if (resource === 'orders') {
+      return httpClient(buildApiUrl('orders/admin/manual'), {
+        method: 'POST',
+        body: JSON.stringify(data),
+      }).then(({ json }) => {
+        const orderData = json.order
+          ? { ...json.order, id: json.order.id || json.order._id }
+          : { id: json.id };
+        return { data: orderData };
+      });
+    }
+
     return httpClient(buildApiUrl(resource), {
       method: 'POST',
       body: JSON.stringify(data),

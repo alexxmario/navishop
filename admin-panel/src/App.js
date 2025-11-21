@@ -12,6 +12,7 @@ import { ProductEdit } from './components/ProductEdit';
 import { ProductCreate } from './components/ProductCreate';
 import { OrderList } from './components/OrderList';
 import { OrderShow } from './components/OrderShow';
+import OrderCreate from './components/OrderCreate';
 import { UserList } from './components/UserList';
 import { ReviewList } from './components/ReviewList';
 import { ReviewShow } from './components/ReviewShow';
@@ -43,6 +44,7 @@ function App() {
         list={OrderList} 
         edit={EditGuesser} 
         show={OrderShow}
+        create={OrderCreate}
       />
       <Resource
         name="users"
