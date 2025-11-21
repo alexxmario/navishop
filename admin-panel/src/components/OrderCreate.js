@@ -95,8 +95,19 @@ const OrderCreate = () => {
         <FormDataConsumer>
           {({ formData, ...rest }) =>
             formData.customerType === 'existing' ? (
-              <ReferenceInput source="userId" reference="users" perPage={100} {...rest}>
-                <AutocompleteInput label="Client" optionText="name" optionValue="id" fullWidth />
+              <ReferenceInput
+                source="userId"
+                reference="users"
+                perPage={25}
+                filterToQuery={(searchText) => ({ search: searchText })}
+                {...rest}
+              >
+                <AutocompleteInput
+                  label="Client"
+                  optionText={(record) => `${record?.name || ''} – ${record?.email || ''}`}
+                  optionValue="id"
+                  fullWidth
+                />
               </ReferenceInput>
             ) : (
               <Box sx={{ display: 'grid', gridTemplateColumns: { sm: '1fr 1fr' }, gap: 2 }}>
@@ -114,8 +125,18 @@ const OrderCreate = () => {
           </Typography>
           <ArrayInput source="items">
             <SimpleFormIterator inline disableClear disableReordering>
-              <ReferenceInput source="productId" reference="products" perPage={100}>
-                <AutocompleteInput label="Produs" optionText="name" optionValue="id" fullWidth />
+              <ReferenceInput
+                source="productId"
+                reference="products"
+                perPage={25}
+                filterToQuery={(searchText) => ({ search: searchText })}
+              >
+                <AutocompleteInput
+                  label="Produs"
+                  optionText={(record) => `${record?.name || ''}`}
+                  optionValue="id"
+                  fullWidth
+                />
               </ReferenceInput>
               <NumberInput source="quantity" label="Cantitate" min={1} defaultValue={1} />
             </SimpleFormIterator>
