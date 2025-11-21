@@ -140,7 +140,7 @@ router.post('/', auth, async (req, res) => {
     const existingReview = await Review.findOne({ productId, userId });
     if (existingReview) {
       return res.status(400).json({
-        message: 'You have already reviewed this product'
+        message: 'Ai trimis deja o recenzie pentru acest produs'
       });
     }
 
@@ -162,7 +162,7 @@ router.post('/', auth, async (req, res) => {
     await review.populate('userId', 'name avatar');
 
     res.status(201).json({
-      message: 'Review submitted successfully. It will be published after approval.',
+      message: 'Recenzia a fost trimisă cu succes.',
       review: review
     });
   } catch (error) {
@@ -170,7 +170,7 @@ router.post('/', auth, async (req, res) => {
 
     if (error.code === 11000) {
       return res.status(400).json({
-        message: 'You have already reviewed this product'
+        message: 'Ai trimis deja o recenzie pentru acest produs'
       });
     }
 
