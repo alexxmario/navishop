@@ -431,6 +431,35 @@ router.get('/admin/all', auth, async (req, res) => {
   }
 });
 
+// GET /api/reviews/admin/:reviewId - Get single review for admin
+router.get('/admin/:reviewId', auth, async (req, res) => {
+  try {
+    const user = await User.findById(req.userId);
+    if (!user || user.role !== 'admin') {
+      return res.status(403).json({ message: 'Admin access required' });
+    }
+
+    const { reviewId } = req.params;
+
+    if (!mongoose.Types.ObjectId.isValid(reviewId)) {
+      return res.status(400).json({ message: 'Invalid review ID' });
+    }
+
+    const review = await Review.findById(reviewId)
+      .populate('productId', 'name slug')
+      .populate('userId', 'name email');
+
+    if (!review) {
+      return res.status(404).json({ message: 'Review not found' });
+    }
+
+    res.json(review);
+  } catch (error) {
+    console.error('Error fetching admin review:', error);
+    res.status(500).json({ message: 'Server error fetching review' });
+  }
+});
+
 // PUT /api/reviews/admin/:reviewId/status - Update review status (admin only)
 router.put('/admin/:reviewId/status', auth, async (req, res) => {
   try {

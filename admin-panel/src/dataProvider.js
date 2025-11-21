@@ -116,9 +116,14 @@ const dataProvider = {
   },
 
   getOne: (resource, params) => {
-    const url = resource === 'products' 
-      ? buildApiUrl(`${resource}/id/${params.id}`)
-      : buildApiUrl(`${resource}/${params.id}`);
+    let url;
+    if (resource === 'products') {
+      url = buildApiUrl(`${resource}/id/${params.id}`);
+    } else if (resource === 'reviews') {
+      url = buildApiUrl(`${resource}/admin/${params.id}`);
+    } else {
+      url = buildApiUrl(`${resource}/${params.id}`);
+    }
     
     return httpClient(url).then(({ json }) => ({
       data: convertImageUrls({ ...json, id: json._id }),
