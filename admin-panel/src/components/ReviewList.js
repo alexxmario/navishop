@@ -24,7 +24,8 @@ import {
   useUpdate,
   FunctionField,
   WrapperField,
-  useRecordContext
+  useRecordContext,
+  useCreatePath
 } from 'react-admin';
 import {
   Card,
@@ -42,7 +43,8 @@ import {
   Typography,
   Tooltip,
   Menu,
-  MenuItem
+  MenuItem,
+  Link as MuiLink
 } from '@mui/material';
 import {
   CheckCircle,
@@ -56,6 +58,7 @@ import {
   Star
 } from '@mui/icons-material';
 import { buildApiUrl } from '../config/api';
+import { Link as RouterLink } from 'react-router-dom';
 
 // Custom action buttons component
 const ReviewActionButtons = () => {
@@ -234,6 +237,33 @@ const HelpfulVotesDisplay = () => {
   );
 };
 
+// Custom product display with link to product details
+const ReviewProductField = () => {
+  const record = useRecordContext();
+  const createPath = useCreatePath();
+
+  if (!record?.productId) {
+    return <Typography variant="body2" color="text.secondary">Produs indisponibil</Typography>;
+  }
+
+  const productName = record.product?.name || record.productName || 'Produs';
+  const productLink = createPath({ resource: 'products', id: record.productId, type: 'show' });
+
+  return (
+    <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+      <Typography variant="body2" sx={{ fontWeight: 600 }}>{productName}</Typography>
+      <MuiLink
+        component={RouterLink}
+        to={productLink}
+        underline="hover"
+        sx={{ fontSize: '0.8rem', color: 'primary.main', fontWeight: 500 }}
+      >
+        Vezi produs
+      </MuiLink>
+    </Box>
+  );
+};
+
 // Custom filters
 const ReviewFilters = [
   <TextInput source="search" label="Search" alwaysOn />,
@@ -277,14 +307,10 @@ export const ReviewList = () => {
       <Datagrid rowClick="show" bulkActionButtons={<ReviewBulkActions />}>
         <TextField source="userName" label="Customer" />
 
-        <ReferenceField
-          source="productId"
-          reference="products"
-          link="show"
-          label="Product"
-        >
-          <TextField source="name" />
-        </ReferenceField>
+        <FunctionField
+          label="Produs"
+          render={() => <ReviewProductField />}
+        />
 
         <FunctionField
           label="Rating"

@@ -72,9 +72,33 @@ const dataProvider = {
         total = json.total || data.length;
       }
 
+      const normalizedData = data.map(item => {
+        const normalizedItem = convertImageUrls({ ...item, id: item._id });
+
+        if (resource === 'reviews') {
+          if (item.productId && typeof item.productId === 'object') {
+            normalizedItem.product = {
+              ...item.productId,
+              id: item.productId._id
+            };
+            normalizedItem.productId = item.productId._id;
+          }
+
+          if (item.userId && typeof item.userId === 'object') {
+            normalizedItem.user = {
+              ...item.userId,
+              id: item.userId._id
+            };
+            normalizedItem.userId = item.userId._id;
+          }
+        }
+
+        return normalizedItem;
+      });
+
       return {
-        data: data.map(item => convertImageUrls({ ...item, id: item._id })),
-        total: total,
+        data: normalizedData,
+        total
       };
     });
   },
