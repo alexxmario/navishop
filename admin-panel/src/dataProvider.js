@@ -40,6 +40,18 @@ const dataProvider = {
       ...params.filter,
     };
 
+    // Remove undefined/empty filter values so backend defaults work
+    Object.keys(query).forEach((key) => {
+      if (
+        query[key] === undefined ||
+        query[key] === null ||
+        query[key] === '' ||
+        query[key] === 'undefined'
+      ) {
+        delete query[key];
+      }
+    });
+
     // Use admin endpoint for reviews
     let url;
     if (resource === 'reviews') {

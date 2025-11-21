@@ -376,17 +376,20 @@ router.get('/admin/all', auth, async (req, res) => {
       search
     } = req.query;
 
+    const allowedStatuses = ['pending', 'approved', 'rejected'];
+    const normalizedStatus = allowedStatuses.includes(status) ? status : 'all';
+
     let query = {};
 
-    if (status !== 'all') {
-      query.status = status;
+    if (normalizedStatus !== 'all') {
+      query.status = normalizedStatus;
     }
 
     if (productId && mongoose.Types.ObjectId.isValid(productId)) {
       query.productId = new mongoose.Types.ObjectId(productId);
     }
 
-    if (rating) {
+    if (rating && !isNaN(parseInt(rating))) {
       query.rating = parseInt(rating);
     }
 
