@@ -312,7 +312,10 @@ const ProductInformation = () => {
   if (!record) return null;
 
   const productName = record.product?.name || record.productName || 'Produs indisponibil';
-  const productLink = record.productId ? `#/products/${record.productId}` : null;
+  const productId = typeof record.productId === 'object'
+    ? record.productId._id
+    : record.productId;
+  const productLink = productId ? `#/products/${productId}` : null;
 
   return (
     <Box sx={{ mb: 3 }}>
