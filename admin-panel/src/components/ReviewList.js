@@ -16,7 +16,6 @@ import {
   DateInput,
   TopToolbar,
   ExportButton,
-  CreateButton,
   BulkDeleteButton,
   useListContext,
   useNotify,
@@ -282,11 +281,36 @@ const ReviewFilters = [
 ];
 
 // Custom actions toolbar
-const ReviewListActions = () => (
-  <TopToolbar>
-    <ExportButton />
-  </TopToolbar>
-);
+const ReviewListActions = () => {
+  const { filterValues, setFilters } = useListContext();
+  const hasFilters = Object.keys(filterValues).length > 0;
+  const hasProductFilter = Boolean(filterValues.productId);
+
+  const handleResetFilters = () => setFilters({}, []);
+
+  const handleClearProductFilter = () => {
+    const { productId, ...rest } = filterValues;
+    setFilters(rest, []);
+  };
+
+  return (
+    <TopToolbar sx={{ gap: 1 }}>
+      <ExportButton />
+      {hasProductFilter && (
+        <Chip
+          label="Filtru produs activ"
+          onDelete={handleClearProductFilter}
+          sx={{ backgroundColor: '#e3f2fd', color: '#1976d2' }}
+        />
+      )}
+      {hasFilters && (
+        <Button variant="outlined" size="small" onClick={handleResetFilters}>
+          Șterge filtrele
+        </Button>
+      )}
+    </TopToolbar>
+  );
+};
 
 // Custom bulk actions
 const ReviewBulkActions = () => (
