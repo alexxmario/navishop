@@ -10,6 +10,8 @@ import PageTitle from './components/PageTitle';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
 import ImageSlider360 from './components/ImageSlider360';
+import Toast from './components/Toast';
+import { useToast } from './hooks/useToast';
 import { buildAssetUrl } from './config/api';
 import {
   ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
@@ -22,6 +24,7 @@ const ProductPageExperimental = () => {
   const { getCartItemsCount, addToCart } = useCart();
   const { user, isAuthenticated } = useAuth();
   const { addToRecentlyViewed } = useRecentlyViewed();
+  const { toast, showToast } = useToast();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -205,10 +208,10 @@ const ProductPageExperimental = () => {
         slug: product.slug
       });
       console.log('Add to cart successful:', result);
-      alert('Product added to cart successfully!');
+      showToast('Produsul a fost adăugat în coș!', 'success');
     } catch (error) {
       console.error('Failed to add to cart:', error);
-      alert(`Failed to add to cart: ${error.message}`);
+      showToast('Nu am putut adăuga produsul în coș.', 'error');
     }
   };
 
@@ -237,26 +240,32 @@ const ProductPageExperimental = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading product...</p>
+      <>
+        <Toast toast={toast} />
+        <div className="min-h-screen bg-white flex items-center justify-center">
+          <div className="text-center">
+            <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading product...</p>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
   if (error || !product) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h2>
-          <p className="text-gray-600 mb-8">The product you're looking for doesn't exist.</p>
-          <Link to="/" className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
-            Back to Home
-          </Link>
+      <>
+        <Toast toast={toast} />
+        <div className="min-h-screen bg-white flex items-center justify-center">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h2>
+            <p className="text-gray-600 mb-8">The product you're looking for doesn't exist.</p>
+            <Link to="/" className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
+              Back to Home
+            </Link>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
@@ -278,6 +287,7 @@ const ProductPageExperimental = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Toast toast={toast} />
       <PageTitle title={product?.name} />
       <Header />
 

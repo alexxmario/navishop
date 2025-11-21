@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from '../config/api';
+import Toast from './Toast';
+import { useToast } from '../hooks/useToast';
 
 const FALLBACK_IMAGE = placeholderImage(400, 300);
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   const { addToCart } = useCart();
+  const { toast, showToast } = useToast();
   const [reviewStats, setReviewStats] = useState({
     totalReviews: 0,
     averageRating: 0
@@ -68,10 +71,10 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         images: product.images,
         slug: product.slug
       });
-      alert('Product added to cart successfully!');
+      showToast('Produsul a fost adăugat în coș!', 'success');
     } catch (error) {
       console.error('Failed to add to cart:', error);
-      alert(`Failed to add to cart: ${error.message}`);
+      showToast('Nu am putut adăuga produsul în coș.', 'error');
     }
   };
 
@@ -151,7 +154,9 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
 
   if (viewMode === 'list') {
     return (
-      <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
+      <>
+        <Toast toast={toast} />
+        <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
         <Link to={`/product/${product.slug}`} className="flex gap-6">
           {/* Image */}
           <div className="flex-shrink-0 w-48 h-48">
@@ -216,12 +221,15 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             </div>
           </div>
         </Link>
-      </div>
+        </div>
+      </>
     );
   }
 
   return (
-    <div className={`bg-white border border-gray-100 group hover:shadow-lg transition-shadow ${className}`}>
+    <>
+      <Toast toast={toast} />
+      <div className={`bg-white border border-gray-100 group hover:shadow-lg transition-shadow ${className}`}>
       <Link to={`/product/${product.slug}`} className="block p-6">
         {/* Image */}
         <div className="mb-4">
@@ -288,7 +296,8 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
           </button>
         </div>
       </Link>
-    </div>
+      </div>
+    </>
   );
 };
 

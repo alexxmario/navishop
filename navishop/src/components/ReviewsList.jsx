@@ -4,6 +4,8 @@ import ReviewForm from './ReviewForm';
 import { useAuth } from '../AuthContext';
 import { Star, Filter, ChevronDown, MessageSquare } from 'lucide-react';
 import { buildApiUrl } from '../config/api';
+import Toast from './Toast';
+import { useToast } from '../hooks/useToast';
 
 const ReviewsList = ({ productId, onReviewUpdate }) => {
   const { isAuthenticated, getToken } = useAuth();
@@ -26,6 +28,8 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
     { value: 'lowest', label: 'Nota cea mai mică' },
     { value: 'helpful', label: 'Cele mai utile' }
   ];
+
+  const { toast, showToast } = useToast();
 
   const fetchReviews = useCallback(async () => {
     try {
@@ -69,7 +73,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   const handleSubmitReview = async (reviewData) => {
     if (!isAuthenticated()) {
-      alert('Pentru a scrie o recenzie trebuie să fi autentificat');
+      showToast('Trebuie să fii autentificat pentru a scrie o recenzie.', 'error');
       return;
     }
 
@@ -95,7 +99,10 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
         throw new Error(data.message || 'Error submitting review');
       }
 
-      alert(editingReview ? 'Recenzia a fost actualizată cu succes!' : 'Recenzia a fost trimisă cu succes! Va fi publicată după aprobare.');
+      showToast(
+        editingReview ? 'Recenzia a fost actualizată cu succes!' : 'Recenzia a fost trimisă cu succes!',
+        'success'
+      );
 
       setShowForm(false);
       setEditingReview(null);
@@ -110,7 +117,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
       }
 
     } catch (err) {
-      alert(err.message);
+      showToast(err.message, 'error');
       console.error('Error submitting review:', err);
     } finally {
       setSubmitting(false);
@@ -119,7 +126,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   const handleHelpfulVote = async (reviewId, helpful) => {
     if (!isAuthenticated()) {
-      alert('Pentru a vota trebuie să fi autentificat');
+      showToast('Trebuie să fii autentificat pentru a vota.', 'error');
       return;
     }
 
@@ -149,7 +156,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
     } catch (err) {
       console.error('Error voting:', err);
-      alert('Eroare la votare');
+      showToast('Eroare la votare', 'error');
     }
   };
 
@@ -167,7 +174,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
       if (!response.ok) throw new Error('Failed to delete review');
 
-      alert('Recenzia a fost ștearsă cu succes!');
+      showToast('Recenzia a fost ștearsă cu succes!', 'success');
       await fetchReviews();
       await fetchStats();
 
@@ -178,7 +185,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
     } catch (err) {
       console.error('Error deleting review:', err);
-      alert('Eroare la ștergerea recenziei');
+      showToast('Eroare la ștergerea recenziei', 'error');
     }
   };
 
@@ -190,8 +197,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
   const handleFlagReview = async (reviewId) => {
     if (!window.confirm('Vrei să raportezi această recenzie ca fiind nepotrivită?')) return;
 
-    // This would typically send a report to admin
-    alert('Recenzia a fost raportată. Mulțumim!');
+    showToast('Recenzia a fost raportată. Mulțumim!', 'success');
   };
 
   const renderRatingDistribution = () => {
@@ -285,33 +291,41 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
 
   if (loading) {
     return (
-      <div className="text-center py-12">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-        <p className="mt-4 text-gray-600">Se încarcă recenziile...</p>
-      </div>
+      <>
+        <Toast toast={toast} />
+        <div className="text-center py-12">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+          <p className="mt-4 text-gray-600">Se încarcă recenziile...</p>
+        </div>
+      </>
     );
   }
 
   if (error) {
     return (
-      <div className="text-center py-12">
-        <p className="text-red-600">{error}</p>
-        <button
-          onClick={() => {
-            setError(null);
-            setLoading(true);
-            fetchReviews();
-          }}
-          className="mt-4 text-blue-600 hover:text-blue-700"
-        >
-          Încearcă din nou
-        </button>
-      </div>
+      <>
+        <Toast toast={toast} />
+        <div className="text-center py-12">
+          <p className="text-red-600">{error}</p>
+          <button
+            onClick={() => {
+              setError(null);
+              setLoading(true);
+              fetchReviews();
+            }}
+            className="mt-4 text-blue-600 hover:text-blue-700"
+          >
+            Încearcă din nou
+          </button>
+        </div>
+      </>
     );
   }
 
   return (
-    <div className="space-y-6">
+    <>
+      <Toast toast={toast} />
+      <div className="space-y-6">
       {renderSummary()}
 
       {/* Write review button */}
@@ -436,6 +450,7 @@ const ReviewsList = ({ productId, onReviewUpdate }) => {
         </>
       )}
     </div>
+    </>
   );
 };
 
