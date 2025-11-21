@@ -40,6 +40,11 @@ const dataProvider = {
       ...params.filter,
     };
 
+    if (query.q && !query.search) {
+      query.search = query.q;
+      delete query.q;
+    }
+
     // Remove undefined/empty filter values so backend defaults work
     Object.keys(query).forEach((key) => {
       if (
