@@ -506,15 +506,13 @@ const HomePage = () => {
               <p className="text-sm text-gray-600">Pe toate produsele</p>
             </div>
             
-            <div />
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-50 border border-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Check className="w-6 h-6 text-blue-600" />
               </div>
-              <h3 className="font-medium mb-2">Support dedicat</h3>
-              <p className="text-sm text-gray-600">Asistență tehnică 7 zile din 7</p>
+              <h3 className="font-medium mb-2">Asistență tehnică profesională</h3>
+              <p className="text-sm text-gray-600">Specialiști disponibili permanent</p>
             </div>
-            <div />
           </div>
         </div>
       </section>
