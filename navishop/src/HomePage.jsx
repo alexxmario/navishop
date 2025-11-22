@@ -149,6 +149,13 @@ const HomePage = () => {
 
   const years = Array.from({ length: 20 }, (_, i) => 2024 - i);
 
+  const scrollToVehicleSearch = () => {
+    const section = document.getElementById('vehicle-search');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
 
   const brands = [
     { name: 'Volkswagen', logo: '/logos/volkswagen.png' },
@@ -249,9 +256,9 @@ const HomePage = () => {
       }
     };
 
-    const badge = getBadgeText();
+  const badge = getBadgeText();
 
-    return (
+  return (
       <div className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all duration-200 group h-full flex flex-col">
         <div className="relative">
           <Link to={`/product/${product.slug}`} className="block">
@@ -344,7 +351,11 @@ const HomePage = () => {
               <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light">
                 Sisteme dedicate pentru toate mărcile de mașini
               </p>
-              <button className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 transition-colors font-medium">
+              <button
+                type="button"
+                onClick={scrollToVehicleSearch}
+                className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 transition-colors font-medium"
+              >
                 Explorează produsele
               </button>
             </div>
@@ -360,7 +371,7 @@ const HomePage = () => {
       <FeaturedProductsCarousel />
 
       {/* Search Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="vehicle-search" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-light text-center mb-8">Găsește navigația pentru mașina ta</h2>
@@ -495,13 +506,15 @@ const HomePage = () => {
               <p className="text-sm text-gray-600">Pe toate produsele</p>
             </div>
             
+            <div />
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-50 border border-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Check className="w-6 h-6 text-blue-600" />
               </div>
-              <h3 className="font-medium mb-2">Instalare inclusă</h3>
-              <p className="text-sm text-gray-600">Service profesional</p>
+              <h3 className="font-medium mb-2">Support dedicat</h3>
+              <p className="text-sm text-gray-600">Asistență tehnică 7 zile din 7</p>
             </div>
+            <div />
           </div>
         </div>
       </section>
