@@ -48,7 +48,7 @@ const Header = ({
                     <span>Produse</span>
                     <ChevronDown className="w-4 h-4" />
                   </button>
-                  <a href="#" className="text-gray-700 hover:text-blue-600">Reduceri</a>
+                  <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <a href="#" className="text-gray-700 hover:text-blue-600">Service</a>
                   <Link to="/track-order" className="text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
@@ -113,7 +113,7 @@ const Header = ({
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
             <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Produse</a>
-            <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</a>
+            <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</Link>
             <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Service</a>
             <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>
