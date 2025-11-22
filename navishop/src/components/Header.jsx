@@ -4,7 +4,7 @@ import { useAuth } from '../AuthContext';
 import { useCart } from '../CartContext';
 import logoSvg from '../logo.svg';
 import { 
-  Search, Menu, User, ShoppingCart, ChevronDown
+  Search, Menu, User, ShoppingCart
 } from 'lucide-react';
 
 const Header = ({ 
@@ -22,6 +22,19 @@ const Header = ({
     if (searchQuery.trim()) {
       window.location.href = `/search?q=${encodeURIComponent(searchQuery.trim())}`;
     }
+  };
+
+  const handleBrandsClick = (e) => {
+    e.preventDefault();
+    setIsMenuOpen(false);
+    if (window.location.pathname === '/') {
+      const section = document.getElementById('brands-section');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
+    window.location.href = '/#brands-section';
   };
 
   return (
@@ -44,9 +57,11 @@ const Header = ({
             {showNavigation && (
               <div className="nav-container">
                 <nav className="hidden md:flex items-center space-x-8">
-                  <button className="flex items-center space-x-1 text-gray-700 hover:text-blue-600">
-                    <span>Produse</span>
-                    <ChevronDown className="w-4 h-4" />
+                  <button 
+                    onClick={handleBrandsClick}
+                    className="text-gray-700 hover:text-blue-600"
+                  >
+                    Produse
                   </button>
                   <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <a href="#" className="text-gray-700 hover:text-blue-600">Service</a>
@@ -112,7 +127,12 @@ const Header = ({
       {showNavigation && isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
-            <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Produse</a>
+            <button 
+              onClick={handleBrandsClick}
+              className="block py-2 text-left w-full text-gray-700 hover:text-blue-600"
+            >
+              Produse
+            </button>
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</Link>
             <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">Service</a>
             <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>

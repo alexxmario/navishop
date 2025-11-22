@@ -55,7 +55,7 @@ const SalePage = () => {
             Navigații auto <span className="text-red-500 font-semibold">cu reducere</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Produse marcate ca „On Sale” în admin apar automat aici. Profită de reducerile limitate pentru modelele compatibile cu mașina ta.
+            Profită de reducerile limitate pentru modelele compatibile cu mașina ta și prinde cele mai bune prețuri la navigații auto moderne.
           </p>
         </div>
       </section>

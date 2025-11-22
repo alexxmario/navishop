@@ -411,7 +411,7 @@ const HomePage = () => {
       </section>
 
       {/* Brands Section */}
-      <section className="py-16">
+      <section id="brands-section" className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-light text-center mb-12">
             Compatibil cu <span className="text-blue-600">toate mărcile</span>
