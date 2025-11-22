@@ -341,6 +341,8 @@ const ProductPage = () => {
   };
 
   const features = getProductFeatures();
+  const specRowClass =
+    'flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between py-2 border-b border-gray-200';
 
 
   return (
@@ -391,12 +393,12 @@ const ProductPage = () => {
       </div>
 
       {/* Product Section */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-8 sm:py-12">
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Product Images */}
           <div className="space-y-4">
             <motion.div 
-              className="bg-white border border-gray-100 rounded-lg p-8 shadow-sm"
+              className="bg-white border border-gray-100 rounded-lg p-4 sm:p-8 shadow-sm"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
@@ -410,7 +412,7 @@ const ProductPage = () => {
                     <img 
                       src={resolveProductImage(product.images[selectedImage] || product.images[0])} 
                       alt={product.images[selectedImage]?.alt || product.name}
-                      className="w-full h-80 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-64 sm:h-80 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                       <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
@@ -419,18 +421,18 @@ const ProductPage = () => {
                     </div>
                   </button>
                 ) : (
-                  <div className="w-full h-80 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <div className="w-full h-64 sm:h-80 bg-gray-100 rounded-lg flex items-center justify-center">
                     <div className="w-20 h-20 bg-blue-100 rounded border border-blue-200"></div>
                   </div>
                 )}
               </div>
               {product.images && product.images.length > 1 && (
-                <div className="flex justify-center gap-2">
+                <div className="flex flex-wrap justify-center gap-2">
                   {product.images.map((img, index) => (
                     <button
                       key={index}
                       onClick={() => setSelectedImage(index)}
-                      className={`w-16 h-16 rounded border-2 overflow-hidden transition hover:scale-105 ${
+                      className={`w-14 h-14 sm:w-16 sm:h-16 rounded border-2 overflow-hidden transition hover:scale-105 ${
                         selectedImage === index
                           ? 'border-blue-600 bg-blue-50'
                           : 'border-gray-200 hover:border-gray-300'
@@ -449,7 +451,7 @@ const ProductPage = () => {
 
             {/* Features Grid */}
             <motion.div 
-              className="grid grid-cols-2 gap-4"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-4"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -475,13 +477,13 @@ const ProductPage = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
           >
             <div>
-              <h1 className="text-4xl font-bold mb-6 text-gray-900">
+              <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 leading-tight text-center sm:text-left">
                 {product.name}
               </h1>
             </div>
 
             {/* Rating */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <Star
@@ -503,12 +505,12 @@ const ProductPage = () => {
             </div>
 
             {/* Price */}
-            <div className="flex items-center gap-4">
-              <span className="text-4xl font-bold text-gray-900">{product.price} lei</span>
+            <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
+              <span className="text-3xl sm:text-4xl font-bold text-gray-900">{product.price} lei</span>
               {product.originalPrice && product.originalPrice > product.price && (
                 <>
-                  <span className="text-xl text-gray-500 line-through">{product.originalPrice} lei</span>
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="text-lg sm:text-xl text-gray-500 line-through">{product.originalPrice} lei</span>
+                  <span className="inline-flex items-center justify-center bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     -{product.discount}%
                   </span>
                 </>
@@ -516,8 +518,8 @@ const ProductPage = () => {
             </div>
 
             {/* Quantity & Add to Cart */}
-            <div className="flex items-center gap-4">
-              <div className="flex items-center bg-white border border-gray-200 rounded">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <div className="flex items-center bg-white border border-gray-200 rounded w-full sm:w-auto">
                 <button 
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
                   className="p-3 hover:bg-gray-50 transition text-gray-700"
@@ -535,7 +537,7 @@ const ProductPage = () => {
               <button 
                 onClick={handleAddToCart}
                 disabled={product.stock === 0}
-                className={`flex-1 py-3 px-6 rounded font-semibold transition ${
+                className={`w-full sm:flex-1 py-3 px-6 rounded font-semibold transition ${
                   product.stock > 0 
                     ? 'bg-blue-600 text-white hover:bg-blue-700' 
                     : 'bg-gray-100 text-gray-500 cursor-not-allowed'
@@ -544,13 +546,13 @@ const ProductPage = () => {
                 <ShoppingCart className="w-5 h-5 inline mr-2" />
                 {product.stock > 0 ? 'Adaugă în coș' : 'Indisponibil'}
               </button>
-              <button className="p-3 bg-white border border-gray-200 rounded hover:bg-gray-50 transition">
+              <button className="p-3 bg-white border border-gray-200 rounded hover:bg-gray-50 transition w-full sm:w-auto flex items-center justify-center">
                 <Heart className="w-5 h-5 text-gray-700" />
               </button>
             </div>
 
             {/* Quick Info */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="bg-white border border-gray-100 rounded-lg p-4 text-center shadow-sm">
                 <Truck className="w-6 h-6 mx-auto mb-2 text-blue-600" />
                 <p className="text-sm text-gray-600">Livrare gratuită</p>
@@ -569,17 +571,17 @@ const ProductPage = () => {
 
         {/* Product Tabs */}
         <motion.div 
-          className="mt-16"
+          className="mt-10 sm:mt-16"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="flex gap-6 border-b border-gray-200 mb-8">
+          <div className="flex flex-wrap gap-4 sm:gap-6 border-b border-gray-200 mb-8">
             {['description', 'specs', 'reviews'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setSelectedTab(tab)}
-                className={`pb-4 px-2 font-semibold transition ${
+                className={`pb-3 sm:pb-4 px-1 sm:px-2 text-sm sm:text-base font-semibold transition ${
                   selectedTab === tab
                     ? 'text-blue-600 border-b-2 border-blue-600'
                     : 'text-gray-600 hover:text-blue-600'
@@ -592,7 +594,7 @@ const ProductPage = () => {
             ))}
           </div>
 
-          <div className="bg-gray-50 rounded-lg p-8 border border-gray-100">
+          <div className="bg-gray-50 rounded-lg p-4 sm:p-8 border border-gray-100">
             {selectedTab === 'description' && (
               <div className="space-y-6">
                 {/* Display structured description if available */}
@@ -669,7 +671,7 @@ const ProductPage = () => {
                             </span>
                           </div>
 
-                          <div className="flex items-center justify-between">
+                          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                             <div className="flex items-center gap-2">
                               <span className="text-lg font-bold text-gray-900">{accessory.price} lei</span>
                               {accessory.originalPrice && accessory.originalPrice > accessory.price && (
@@ -698,19 +700,19 @@ const ProductPage = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-3">
                         {product.romanianSpecs.hardware?.modelProcesor && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Model Procesor:</span>
                             <span className="text-gray-900">{product.romanianSpecs.hardware.modelProcesor}</span>
                           </div>
                         )}
                         {product.romanianSpecs.hardware?.memorieRAM && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Memorie RAM:</span>
                             <span className="text-gray-900">{product.romanianSpecs.hardware.memorieRAM}</span>
                           </div>
                         )}
                         {product.romanianSpecs.hardware?.capacitateStocare && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Capacitate Stocare:</span>
                             <span className="text-gray-900">{product.romanianSpecs.hardware.capacitateStocare}</span>
                           </div>
@@ -718,19 +720,19 @@ const ProductPage = () => {
                       </div>
                       <div className="space-y-3">
                         {product.romanianSpecs.display?.diagonalaDisplay && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Diagonala Display:</span>
                             <span className="text-gray-900">{product.romanianSpecs.display.diagonalaDisplay}</span>
                           </div>
                         )}
                         {product.romanianSpecs.display?.tehnologieDisplay && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Tehnologie Display:</span>
                             <span className="text-gray-900">{product.romanianSpecs.display.tehnologieDisplay}</span>
                           </div>
                         )}
                         {product.romanianSpecs.display?.rezolutieDisplay && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Rezoluție Display:</span>
                             <span className="text-gray-900">{product.romanianSpecs.display.rezolutieDisplay}</span>
                           </div>
@@ -747,25 +749,25 @@ const ProductPage = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-3">
                         {product.romanianSpecs.features?.functii && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Funcții:</span>
                             <span className="text-gray-900">{product.romanianSpecs.features.functii}</span>
                           </div>
                         )}
                         {product.romanianSpecs.connectivity?.conectivitate && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Conectivitate:</span>
                             <span className="text-gray-900">{product.romanianSpecs.connectivity.conectivitate}</span>
                           </div>
                         )}
                         {product.romanianSpecs.connectivity?.bluetooth && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Bluetooth:</span>
                             <span className="text-gray-900">{product.romanianSpecs.connectivity.bluetooth}</span>
                           </div>
                         )}
                         {product.romanianSpecs.features?.splitScreen && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Split Screen:</span>
                             <span className="text-gray-900">{product.romanianSpecs.features.splitScreen}</span>
                           </div>
@@ -773,19 +775,19 @@ const ProductPage = () => {
                       </div>
                       <div className="space-y-3">
                         {product.romanianSpecs.features?.preluareComenziVolan && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Preluare Comenzi Volan:</span>
                             <span className="text-gray-900">{product.romanianSpecs.features.preluareComenziVolan}</span>
                           </div>
                         )}
                         {product.romanianSpecs.features?.suportAplicatiiAndroid && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Suport Aplicații Android:</span>
                             <span className="text-gray-900">{product.romanianSpecs.features.suportAplicatiiAndroid}</span>
                           </div>
                         )}
                         {product.romanianSpecs.features?.limbiInterfata && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Limbi Interfață:</span>
                             <span className="text-gray-900">{product.romanianSpecs.features.limbiInterfata}</span>
                           </div>
@@ -801,19 +803,19 @@ const ProductPage = () => {
                     <h4 className="text-lg font-semibold text-blue-600 border-b border-blue-100 pb-2">Compatibilitate și Pachet</h4>
                     <div className="space-y-3">
                       {product.romanianSpecs.compatibility?.marca && (
-                        <div className="flex justify-between py-2 border-b border-gray-200">
+                        <div className={specRowClass}>
                           <span className="text-gray-600 font-medium">Marcă:</span>
                           <span className="text-gray-900">{product.romanianSpecs.compatibility.marca}</span>
                         </div>
                       )}
                       {product.romanianSpecs.compatibility?.destinatPentru && (
-                        <div className="flex justify-between py-2 border-b border-gray-200">
+                        <div className={specRowClass}>
                           <span className="text-gray-600 font-medium">Destinat pentru:</span>
                           <span className="text-gray-900">{product.romanianSpecs.compatibility.destinatPentru}</span>
                         </div>
                       )}
                       {product.romanianSpecs.compatibility?.tipMontare && (
-                        <div className="flex justify-between py-2 border-b border-gray-200">
+                        <div className={specRowClass}>
                           <span className="text-gray-600 font-medium">Tip Montare:</span>
                           <span className="text-gray-900">{product.romanianSpecs.compatibility.tipMontare}</span>
                         </div>
@@ -841,19 +843,19 @@ const ProductPage = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-3">
                         {product.romanianSpecs.general.sku && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">SKU:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.sku}</span>
                           </div>
                         )}
                         {product.romanianSpecs.general.categorii && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Categorii:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.categorii}</span>
                           </div>
                         )}
                         {product.romanianSpecs.general.brand && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Brand:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.brand}</span>
                           </div>
@@ -861,24 +863,24 @@ const ProductPage = () => {
                       </div>
                       <div className="space-y-3">
                         {product.romanianSpecs.general.sistemOperare && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Sistem de Operare:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.sistemOperare}</span>
                           </div>
                         )}
                         {product.romanianSpecs.general.harta && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Hartă:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.harta}</span>
                           </div>
                         )}
                         {product.romanianSpecs.general.tmc && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">TMC:</span>
                             <span className="text-gray-900">{product.romanianSpecs.general.tmc}</span>
                           </div>
                         )}
-                        <div className="flex justify-between py-2 border-b border-gray-200">
+                        <div className={specRowClass}>
                           <span className="text-gray-600 font-medium">Garanție:</span>
                           <span className="text-gray-900">{product.warranty} luni</span>
                         </div>
@@ -943,19 +945,19 @@ const ProductPage = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-3">
                         {product.detailedSpecs.processor && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Procesor:</span>
                             <span className="text-gray-900">{product.detailedSpecs.processor}</span>
                           </div>
                         )}
                         {product.detailedSpecs.ram && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">RAM:</span>
                             <span className="text-gray-900">{product.detailedSpecs.ram}</span>
                           </div>
                         )}
                         {product.detailedSpecs.storage && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Stocare:</span>
                             <span className="text-gray-900">{product.detailedSpecs.storage}</span>
                           </div>
@@ -963,19 +965,19 @@ const ProductPage = () => {
                       </div>
                       <div className="space-y-3">
                         {product.displaySpecs?.screenSize && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Mărime ecran:</span>
                             <span className="text-gray-900">{product.displaySpecs.screenSize}</span>
                           </div>
                         )}
                         {product.displaySpecs?.technology && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Tehnologie display:</span>
                             <span className="text-gray-900">{product.displaySpecs.technology}</span>
                           </div>
                         )}
                         {product.displaySpecs?.resolution && (
-                          <div className="flex justify-between py-2 border-b border-gray-200">
+                          <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Rezoluție:</span>
                             <span className="text-gray-900">{product.displaySpecs.resolution}</span>
                           </div>
