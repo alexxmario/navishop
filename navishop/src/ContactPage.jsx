@@ -326,7 +326,7 @@ const ContactPage = () => {
               <div>
                 <h3 className="font-medium mb-2">Oferiți garanție?</h3>
                 <p className="text-gray-600 text-sm">
-                  Da, toate produsele vin cu garanție de 3 ani și service gratuit în primul an.
+                  Da, toate produsele vin cu garanție de 1 an și service gratuit în primul an.
                 </p>
               </div>
               

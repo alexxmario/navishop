@@ -452,7 +452,7 @@ const ProductPageExperimental = () => {
               </div>
               <div className="bg-white border border-gray-100 rounded-lg p-4 text-center shadow-sm">
                 <Shield className="w-6 h-6 mx-auto mb-2 text-blue-600" />
-                <p className="text-sm text-gray-600">3 ani garanție</p>
+                <p className="text-sm text-gray-600">1 an garanție</p>
               </div>
               <div className="bg-white border border-gray-100 rounded-lg p-4 text-center shadow-sm">
                 <Check className="w-6 h-6 mx-auto mb-2 text-blue-600" />

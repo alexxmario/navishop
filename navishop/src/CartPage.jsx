@@ -303,7 +303,7 @@ const CartPage = () => {
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Check className="w-4 h-4 mr-2 text-green-600" />
-                    <span>Garanție 3 ani</span>
+                    <span>Garanție 1 an</span>
                   </div>
                 </div>
               </div>

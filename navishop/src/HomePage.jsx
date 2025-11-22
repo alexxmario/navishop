@@ -491,7 +491,7 @@ const HomePage = () => {
               <div className="w-12 h-12 bg-blue-50 border border-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-6 h-6 text-blue-600" />
               </div>
-              <h3 className="font-medium mb-2">Garanție 3 ani</h3>
+              <h3 className="font-medium mb-2">Garanție 1 an</h3>
               <p className="text-sm text-gray-600">Pe toate produsele</p>
             </div>
             
