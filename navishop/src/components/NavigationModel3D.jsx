@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useGLTF, Float, ContactShadows, OrbitControls } from '@react-three/drei';
+import useMedia from '../hooks/useMedia';
 
 function NavigationModel({ ...props }) {
   const { nodes } = useGLTF('/Navigatie.gltf');
@@ -29,6 +30,7 @@ function NavigationModel({ ...props }) {
 }
 
 function NavigationModel3D() {
+  const isTouchDevice = useMedia('(max-width: 1024px)');
   return (
     <div className="w-full h-96 md:h-[500px]">
       <Canvas
@@ -46,7 +48,7 @@ function NavigationModel3D() {
         <OrbitControls 
           enablePan={false}
           enableZoom={false}
-          enableRotate={true}
+          enableRotate={!isTouchDevice}
           autoRotate={false}
           minPolarAngle={Math.PI / 4}
           maxPolarAngle={Math.PI - Math.PI / 4}
