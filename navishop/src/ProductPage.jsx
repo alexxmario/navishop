@@ -13,6 +13,7 @@ import ReviewsList from './components/ReviewsList';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from './config/api';
 import Toast from './components/Toast';
 import { useToast } from './hooks/useToast';
+import { extractBrandModelInfo } from './utils/carModel';
 import {
   Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
@@ -45,100 +46,6 @@ const ProductPage = () => {
 
   const resolveProductImage = (image) =>
     resolveImageUrl(image?.url) || FALLBACK_IMAGE;
-
-  // Extract car brand and model from product name
-  const extractCarBrandModel = (productName) => {
-    if (!productName) return { carBrand: null, carModel: null };
-    
-    // Remove "Navigatie PilotOn" prefix
-    let cleanName = productName.replace(/^Navigatie\s+PilotOn\s+/i, '');
-    
-    // Common car brands
-    const carBrands = [
-      'Alfa Romeo', 'Audi', 'BMW', 'Mercedes', 'Volkswagen', 'VW', 'Toyota', 
-      'Ford', 'Opel', 'Dacia', 'Renault', 'Peugeot', 'Citroen', 'Honda',
-      'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
-      'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
-      'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Infiniti',
-      'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra'
-    ];
-    
-    // Find the brand
-    let foundBrand = null;
-    let brandPattern = null;
-    
-    for (const brand of carBrands) {
-      const pattern = new RegExp(`^${brand}\\s+`, 'i');
-      if (pattern.test(cleanName)) {
-        foundBrand = brand;
-        brandPattern = pattern;
-        break;
-      }
-    }
-    
-    if (!foundBrand) {
-      return { carBrand: null, carModel: null };
-    }
-    
-    // Normalize VW to Volkswagen
-    if (foundBrand.toUpperCase() === 'VW') {
-      foundBrand = 'Volkswagen';
-    }
-    
-    // Remove brand from the beginning
-    cleanName = cleanName.replace(brandPattern, '');
-    
-    // Extract model WITH years (everything before specs like inch, GB, CORE)
-    const yearPatterns = [
-      /^(.+?)\s+(\d{4}-\d{4})\s+/,  // Model YYYY-YYYY
-      /^(.+?)\s+(dupa\s+\d{4})\s+/, // Model dupa YYYY
-      /^(.+?)\s+(pana\s+\d{4})\s+/, // Model pana YYYY
-      /^(.+?)\s+(\d{4}-prezent)\s+/, // Model YYYY-prezent
-      /^(.+?)\s+(\(\d{4}-\d{4}\))\s+/, // Model (YYYY-YYYY)
-      /^(.+?)\s+(\d{4})\s+/,        // Model YYYY
-    ];
-
-    let model = null;
-
-    for (const pattern of yearPatterns) {
-      const match = cleanName.match(pattern);
-      if (match) {
-        // Include BOTH model and years for complete model name
-        model = `${match[1].trim()} ${match[2].trim()}`;
-        break;
-      }
-    }
-    
-    // If no year pattern found, try to extract model without years
-    if (!model) {
-      const specPatterns = [
-        /^(.+?)\s+\d+\s*inch\s+/i,
-        /^(.+?)\s+\d+GB\s+/i,
-        /^(.+?)\s+\d+K\s+/i,
-        /^(.+?)\s+\d+\s+CORE\s*/i
-      ];
-      
-      for (const pattern of specPatterns) {
-        const match = cleanName.match(pattern);
-        if (match) {
-          model = match[1].trim();
-          break;
-        }
-      }
-    }
-    
-    // Clean up model name
-    if (model) {
-      model = model.replace(/\s+(I{1,3}|IV|V|VI|VII|VIII|IX|X)\s*$/i, '');
-      model = model.replace(/\s+(dupa|pana|facelift|pre-facelift)\s*$/i, '');
-      model = model.trim();
-    }
-    
-    return {
-      carBrand: foundBrand,
-      carModel: model || null
-    };
-  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -360,27 +267,28 @@ const ProductPage = () => {
           </Link>
           <ChevronRight className="w-4 h-4" />
           {(() => {
-            const { carBrand, carModel } = extractCarBrandModel(product.name);
+            const { brandLabel, modelLabel, brandSlug, modelSlug } = extractBrandModelInfo(product.name);
+            const normalizedBrandSlug = brandSlug || brandLabel?.toLowerCase();
             return (
               <>
-                {carBrand && (
+                {brandLabel && normalizedBrandSlug && (
                   <>
                     <Link 
-                      to={`/brand/${encodeURIComponent(carBrand.toLowerCase())}`} 
+                      to={`/brand/${encodeURIComponent(normalizedBrandSlug)}`} 
                       className="hover:text-blue-600 transition-colors"
                     >
-                      {carBrand}
+                      {brandLabel}
                     </Link>
                     <ChevronRight className="w-4 h-4" />
                   </>
                 )}
-                {carModel && (
+                {modelSlug && normalizedBrandSlug && (
                   <>
                     <Link 
-                      to={`/brand/${encodeURIComponent(carBrand.toLowerCase())}/${encodeURIComponent(carModel.toLowerCase())}`} 
+                      to={`/brand/${encodeURIComponent(normalizedBrandSlug)}/${encodeURIComponent(modelSlug)}`} 
                       className="hover:text-blue-600 transition-colors"
                     >
-                      {carModel}
+                      {modelLabel || modelSlug}
                     </Link>
                     <ChevronRight className="w-4 h-4" />
                   </>
