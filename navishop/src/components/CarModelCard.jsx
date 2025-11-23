@@ -27,6 +27,15 @@ const stripBrandPrefix = (text = '', brand = '') => {
   return normalizedText;
 };
 
+const removeYearTokens = (value = '') =>
+  value
+    .replace(/\s*\(?\d{4}(?:\s*[-–]\s*\d{4}|-prezent)?\)?/gi, '')
+    .replace(/\s*(?:dupa|pana)\s+\d{4}/gi, '')
+    .trim();
+
+const removeGenerationTokens = (value = '') =>
+  value.replace(/\s+(?:[ivxlcdm]+|\d{1,2})$/i, '').trim();
+
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -52,18 +61,35 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
       }
     };
 
+    const addModelVariants = (value) => {
+      if (!value) return;
+      addWithYears(value);
+      const withoutYears = removeYearTokens(value);
+      if (withoutYears && withoutYears !== value) {
+        addWithYears(withoutYears);
+      }
+      const withoutGenerations = removeGenerationTokens(withoutYears);
+      if (
+        withoutGenerations &&
+        withoutGenerations !== value &&
+        withoutGenerations !== withoutYears
+      ) {
+        addWithYears(withoutGenerations);
+      }
+    };
+
     // Primary: model name as returned by API (preserves case and hyphens)
-    addWithYears(stripBrandPrefix(modelData.model || '', brand));
+    addModelVariants(stripBrandPrefix(modelData.model || '', brand));
 
     // Secondary: try slug-based model key (replace hyphens that separate words but keep numeric ranges)
     const slugModel = stripBrandPrefix(
       modelKey.replace(/-(?=[a-z])/gi, ' '),
       brand
     );
-    addWithYears(slugModel);
+    addModelVariants(slugModel);
 
     // Fallback: raw slug without stripping brand
-    addWithYears(modelKey.replace(/-(?=[a-z])/gi, ' '));
+    addModelVariants(modelKey.replace(/-(?=[a-z])/gi, ' '));
 
     return Array.from(candidates)
       .filter(Boolean)
