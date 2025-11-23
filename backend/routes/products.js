@@ -30,8 +30,11 @@ router.get('/', async (req, res) => {
     if (brand) query.brand = new RegExp(brand, 'i');
     if (featured !== undefined) query.featured = featured === 'true';
     if (onSale !== undefined) query.onSale = onSale === 'true';
-    if (inStock !== undefined && inStock === 'true') query.stock = { $gt: 0 };
-    if (outOfStock !== undefined && outOfStock === 'true') query.stock = 0;
+    if (outOfStock !== undefined && outOfStock === 'true') {
+      query.stock = 0;
+    } else if (inStock !== undefined && inStock === 'true') {
+      query.stock = { $gt: 0 };
+    }
     if (lowStock !== undefined && lowStock === 'true') {
       query.$expr = { 
         $and: [
