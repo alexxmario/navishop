@@ -93,6 +93,7 @@ const ProductFilters = [
   <BooleanInput source="featured" label="Featured" />,
   <BooleanInput source="onSale" label="On Sale" />,
   <BooleanInput source="inStock" label="In Stock" />,
+  <BooleanInput source="outOfStock" label="Out of Stock" />,
 ];
 
 const ProductSidebar = () => (
@@ -190,9 +191,9 @@ const ProductSidebar = () => (
           }
         }}
       >
-      <FilterListItem label="In Stock" value={{ inStock: true }} />
-      <FilterListItem label="Out of Stock" value={{ outOfStock: true }} />
-      <FilterListItem label="Low Stock" value={{ lowStock: true }} />
+        <FilterListItem label="In Stock" value={{ inStock: 'true', outOfStock: undefined }} />
+        <FilterListItem label="Out of Stock" value={{ outOfStock: 'true', inStock: undefined }} />
+        <FilterListItem label="Low Stock" value={{ lowStock: 'true' }} />
       <FilterListItem label="Featured" value={{ featured: true }} />
       <FilterListItem label="On Sale" value={{ onSale: true }} />
       </FilterList>
