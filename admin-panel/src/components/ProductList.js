@@ -190,10 +190,11 @@ const ProductSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="In Stock" value={{ inStock: true }} />
-        <FilterListItem label="Low Stock" value={{ lowStock: true }} />
-        <FilterListItem label="Featured" value={{ featured: true }} />
-        <FilterListItem label="On Sale" value={{ onSale: true }} />
+      <FilterListItem label="In Stock" value={{ inStock: true }} />
+      <FilterListItem label="Out of Stock" value={{ outOfStock: true }} />
+      <FilterListItem label="Low Stock" value={{ lowStock: true }} />
+      <FilterListItem label="Featured" value={{ featured: true }} />
+      <FilterListItem label="On Sale" value={{ onSale: true }} />
       </FilterList>
     </CardContent>
   </Card>

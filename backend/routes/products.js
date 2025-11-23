@@ -19,7 +19,8 @@ router.get('/', async (req, res) => {
       featured,
       onSale,
       inStock,
-      lowStock
+      lowStock,
+      outOfStock
     } = req.query;
 
     const query = { status: 'active' };
@@ -30,6 +31,7 @@ router.get('/', async (req, res) => {
     if (featured !== undefined) query.featured = featured === 'true';
     if (onSale !== undefined) query.onSale = onSale === 'true';
     if (inStock !== undefined && inStock === 'true') query.stock = { $gt: 0 };
+    if (outOfStock !== undefined && outOfStock === 'true') query.stock = 0;
     if (lowStock !== undefined && lowStock === 'true') {
       query.$expr = { 
         $and: [
