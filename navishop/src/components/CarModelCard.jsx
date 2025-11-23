@@ -36,6 +36,19 @@ const removeYearTokens = (value = '') =>
 const removeGenerationTokens = (value = '') =>
   value.replace(/\s+(?:[ivxlcdm]+|\d{1,2})$/i, '').trim();
 
+const formatFolderCase = (value = '') =>
+  value
+    .split(' ')
+    .map(word => {
+      if (!word) return word;
+      const isRomanNumeral = /^[ivxlcdm]+$/i.test(word);
+      if (isRomanNumeral) {
+        return word.toUpperCase();
+      }
+      return word.charAt(0).toLowerCase() + word.slice(1);
+    })
+    .join(' ');
+
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -63,19 +76,27 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
 
     const addModelVariants = (value) => {
       if (!value) return;
-      addWithYears(value);
+      const variants = new Set();
+      variants.add(value);
+      variants.add(formatFolderCase(value));
+
       const withoutYears = removeYearTokens(value);
-      if (withoutYears && withoutYears !== value) {
-        addWithYears(withoutYears);
+      if (withoutYears) {
+        variants.add(withoutYears);
+        variants.add(formatFolderCase(withoutYears));
       }
+
       const withoutGenerations = removeGenerationTokens(withoutYears);
-      if (
-        withoutGenerations &&
-        withoutGenerations !== value &&
-        withoutGenerations !== withoutYears
-      ) {
-        addWithYears(withoutGenerations);
+      if (withoutGenerations) {
+        variants.add(withoutGenerations);
+        variants.add(formatFolderCase(withoutGenerations));
       }
+
+      variants.forEach(variant => {
+        if (variant) {
+          addWithYears(variant);
+        }
+      });
     };
 
     // Primary: model name as returned by API (preserves case and hyphens)
