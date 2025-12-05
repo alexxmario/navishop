@@ -141,8 +141,14 @@ const dataProvider = {
     };
     const url = buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`);
     return httpClient(url).then(({ json }) => {
-      const data = json.data || json;
-      return { data: data.map(item => convertImageUrls({ ...item, id: item._id })) };
+      const data = json.products || json.data || json;
+      const items = Array.isArray(data)
+        ? data
+        : Array.isArray(json.products)
+          ? json.products
+          : [];
+
+      return { data: items.map(item => convertImageUrls({ ...item, id: item._id })) };
     });
   },
 
@@ -161,10 +167,15 @@ const dataProvider = {
     const url = buildApiUrl(`${resource}?${new URLSearchParams(query).toString()}`);
 
     return httpClient(url).then(({ json }) => {
-      const data = json.data || json;
+      const data = json.products || json.data || json;
+      const items = Array.isArray(data)
+        ? data
+        : Array.isArray(json.products)
+          ? json.products
+          : [];
       return {
-        data: data.map(item => convertImageUrls({ ...item, id: item._id })),
-        total: json.total || data.length,
+        data: items.map(item => convertImageUrls({ ...item, id: item._id })),
+        total: json.total || items.length,
       };
     });
   },
