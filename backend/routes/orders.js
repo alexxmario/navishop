@@ -923,4 +923,61 @@ router.get('/:orderId/status', auth, async (req, res) => {
   }
 });
 
+// Get invoice PDF for an order (admin only)
+router.get('/:orderId/invoice-pdf', auth, async (req, res) => {
+  try {
+    // Only allow admin users to view invoices
+    if (req.user.role !== 'admin') {
+      return res.status(403).json({ message: 'Access denied. Admin privileges required.' });
+    }
+
+    let order = null;
+    let isGuestOrder = false;
+
+    // Try to find in regular orders first
+    order = await Order.findById(req.params.orderId);
+
+    if (!order) {
+      // Try guest orders
+      const guestOrder = await GuestOrder.findById(req.params.orderId);
+
+      if (guestOrder) {
+        order = guestOrder;
+        isGuestOrder = true;
+      }
+    }
+
+    if (!order) {
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Check if invoice exists
+    if (!order.invoice || !order.invoice.invoiceNumber) {
+      return res.status(404).json({ message: 'Invoice not yet generated for this order' });
+    }
+
+    // Fetch PDF from SmartBill
+    const pdfResult = await smartbillService.getInvoicePDF(order.invoice.invoiceNumber);
+
+    if (!pdfResult.success) {
+      return res.status(500).json({
+        message: 'Failed to retrieve invoice PDF',
+        error: pdfResult.error
+      });
+    }
+
+    // Send PDF as response
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', `inline; filename="factura-${order.invoice.invoiceNumber}.pdf"`);
+    res.send(Buffer.from(pdfResult.pdf));
+
+  } catch (error) {
+    console.error('Error fetching invoice PDF:', error);
+    res.status(500).json({
+      message: 'Error fetching invoice PDF',
+      error: error.message
+    });
+  }
+});
+
 module.exports = router;
