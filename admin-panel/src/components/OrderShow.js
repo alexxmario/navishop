@@ -496,6 +496,61 @@ export const OrderShow = () => (
                 />
               </Grid>
             </Grid>
+
+            {/* Invoice PDF Viewer */}
+            <FunctionField
+              render={record => {
+                if (record.invoice && record.invoice.invoiceNumber) {
+                  const apiUrl = localStorage.getItem('apiUrl') || 'http://localhost:5000';
+                  const pdfUrl = `${apiUrl}/api/orders/${record.id}/invoice-pdf`;
+
+                  return (
+                    <Box sx={{ mt: 3 }}>
+                      <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
+                        SmartBill Invoice Preview
+                      </Typography>
+                      <Box
+                        sx={{
+                          border: '2px solid #e0e0e0',
+                          borderRadius: 2,
+                          overflow: 'hidden',
+                          bgcolor: '#f5f5f5'
+                        }}
+                      >
+                        <iframe
+                          src={pdfUrl}
+                          style={{
+                            width: '100%',
+                            height: '800px',
+                            border: 'none',
+                            display: 'block'
+                          }}
+                          title="SmartBill Invoice PDF"
+                        />
+                      </Box>
+                      <Box sx={{ mt: 2 }}>
+                        <Button
+                          variant="contained"
+                          href={pdfUrl}
+                          download={`factura-${record.invoice.invoiceNumber}.pdf`}
+                          target="_blank"
+                          startIcon={<InvoiceIcon />}
+                        >
+                          Download Invoice PDF
+                        </Button>
+                      </Box>
+                    </Box>
+                  );
+                }
+                return (
+                  <Alert severity="info" sx={{ mt: 2 }}>
+                    <Typography variant="body2">
+                      Invoice not yet generated. Click "PROCESS → SmartBill" to generate the invoice.
+                    </Typography>
+                  </Alert>
+                );
+              }}
+            />
           </CardContent>
         </Card>
 
