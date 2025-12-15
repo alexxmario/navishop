@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Show,
   TextField,
@@ -61,6 +61,100 @@ const getPaymentStatusColor = (status) => {
     case 'cancelled': return 'default';
     default: return 'default';
   }
+};
+
+const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
+  const [pdfUrl, setPdfUrl] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchPDF = async () => {
+      try {
+        const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+        const token = localStorage.getItem('token');
+
+        const response = await fetch(`${apiUrl}/api/orders/${orderId}/invoice-pdf`, {
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch invoice PDF');
+        }
+
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        setPdfUrl(url);
+        setLoading(false);
+      } catch (err) {
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchPDF();
+
+    return () => {
+      if (pdfUrl) {
+        URL.revokeObjectURL(pdfUrl);
+      }
+    };
+  }, [orderId]);
+
+  if (loading) {
+    return (
+      <Box sx={{ mt: 3, textAlign: 'center', py: 4 }}>
+        <Typography>Loading invoice PDF...</Typography>
+      </Box>
+    );
+  }
+
+  if (error) {
+    return (
+      <Alert severity="error" sx={{ mt: 2 }}>
+        <Typography variant="body2">Failed to load invoice: {error}</Typography>
+      </Alert>
+    );
+  }
+
+  return (
+    <Box sx={{ mt: 3 }}>
+      <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
+        SmartBill Invoice Preview
+      </Typography>
+      <Box
+        sx={{
+          border: '2px solid #e0e0e0',
+          borderRadius: 2,
+          overflow: 'hidden',
+          bgcolor: '#f5f5f5'
+        }}
+      >
+        <iframe
+          src={pdfUrl}
+          style={{
+            width: '100%',
+            height: '800px',
+            border: 'none',
+            display: 'block'
+          }}
+          title="SmartBill Invoice PDF"
+        />
+      </Box>
+      <Box sx={{ mt: 2 }}>
+        <Button
+          variant="contained"
+          href={pdfUrl}
+          download={`factura-${invoiceNumber}.pdf`}
+          startIcon={<InvoiceIcon />}
+        >
+          Download Invoice PDF
+        </Button>
+      </Box>
+    </Box>
+  );
 };
 
 const OrderActions = () => {
@@ -501,46 +595,11 @@ export const OrderShow = () => (
             <FunctionField
               render={record => {
                 if (record.invoice && record.invoice.invoiceNumber) {
-                  // Use the same origin as the admin panel for the API (remove port)
-                  const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
-                  const pdfUrl = `${apiUrl}/api/orders/${record.id}/invoice-pdf`;
-
                   return (
-                    <Box sx={{ mt: 3 }}>
-                      <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
-                        SmartBill Invoice Preview
-                      </Typography>
-                      <Box
-                        sx={{
-                          border: '2px solid #e0e0e0',
-                          borderRadius: 2,
-                          overflow: 'hidden',
-                          bgcolor: '#f5f5f5'
-                        }}
-                      >
-                        <iframe
-                          src={pdfUrl}
-                          style={{
-                            width: '100%',
-                            height: '800px',
-                            border: 'none',
-                            display: 'block'
-                          }}
-                          title="SmartBill Invoice PDF"
-                        />
-                      </Box>
-                      <Box sx={{ mt: 2 }}>
-                        <Button
-                          variant="contained"
-                          href={pdfUrl}
-                          download={`factura-${record.invoice.invoiceNumber}.pdf`}
-                          target="_blank"
-                          startIcon={<InvoiceIcon />}
-                        >
-                          Download Invoice PDF
-                        </Button>
-                      </Box>
-                    </Box>
+                    <InvoicePDFViewer
+                      orderId={record.id}
+                      invoiceNumber={record.invoice.invoiceNumber}
+                    />
                   );
                 }
                 return (
