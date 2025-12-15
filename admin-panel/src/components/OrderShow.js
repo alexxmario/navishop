@@ -501,7 +501,8 @@ export const OrderShow = () => (
             <FunctionField
               render={record => {
                 if (record.invoice && record.invoice.invoiceNumber) {
-                  const apiUrl = localStorage.getItem('apiUrl') || 'http://localhost:5000';
+                  // Use the same origin as the admin panel for the API (remove port)
+                  const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
                   const pdfUrl = `${apiUrl}/api/orders/${record.id}/invoice-pdf`;
 
                   return (
