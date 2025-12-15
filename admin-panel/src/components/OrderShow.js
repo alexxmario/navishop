@@ -157,6 +157,100 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
   );
 };
 
+const AWBLabelViewer = ({ orderId, awbNumber }) => {
+  const [pdfUrl, setPdfUrl] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchPDF = async () => {
+      try {
+        const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+        const token = localStorage.getItem('token');
+
+        const response = await fetch(`${apiUrl}/api/orders/${orderId}/awb-pdf`, {
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch AWB label PDF');
+        }
+
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        setPdfUrl(url);
+        setLoading(false);
+      } catch (err) {
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchPDF();
+
+    return () => {
+      if (pdfUrl) {
+        URL.revokeObjectURL(pdfUrl);
+      }
+    };
+  }, [orderId]);
+
+  if (loading) {
+    return (
+      <Box sx={{ mt: 3, textAlign: 'center', py: 4 }}>
+        <Typography>Loading AWB label PDF...</Typography>
+      </Box>
+    );
+  }
+
+  if (error) {
+    return (
+      <Alert severity="error" sx={{ mt: 2 }}>
+        <Typography variant="body2">Failed to load AWB label: {error}</Typography>
+      </Alert>
+    );
+  }
+
+  return (
+    <Box sx={{ mt: 3 }}>
+      <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
+        Fan Courier AWB Label Preview
+      </Typography>
+      <Box
+        sx={{
+          border: '2px solid #e0e0e0',
+          borderRadius: 2,
+          overflow: 'hidden',
+          bgcolor: '#f5f5f5'
+        }}
+      >
+        <iframe
+          src={pdfUrl}
+          style={{
+            width: '100%',
+            height: '800px',
+            border: 'none',
+            display: 'block'
+          }}
+          title="Fan Courier AWB Label PDF"
+        />
+      </Box>
+      <Box sx={{ mt: 2 }}>
+        <Button
+          variant="contained"
+          href={pdfUrl}
+          download={`awb-${awbNumber}.pdf`}
+          startIcon={<ShipIcon />}
+        >
+          Download AWB Label PDF
+        </Button>
+      </Box>
+    </Box>
+  );
+};
+
 const OrderActions = () => {
   const { record } = useShowController();
   const [update] = useUpdate();
@@ -562,6 +656,27 @@ export const OrderShow = () => (
                 <NumberField source="shipping.cost" options={{ style: 'currency', currency: 'RON' }} label="Shipping Cost" />
               </Grid>
             </Grid>
+
+            {/* AWB Label PDF Viewer */}
+            <FunctionField
+              render={record => {
+                if (record.shipping && record.shipping.awbNumber) {
+                  return (
+                    <AWBLabelViewer
+                      orderId={record.id}
+                      awbNumber={record.shipping.awbNumber}
+                    />
+                  );
+                }
+                return (
+                  <Alert severity="info" sx={{ mt: 2 }}>
+                    <Typography variant="body2">
+                      AWB label not yet generated. Click "Ship Order" to generate the AWB and shipping label.
+                    </Typography>
+                  </Alert>
+                );
+              }}
+            />
           </CardContent>
         </Card>
       </Tab>

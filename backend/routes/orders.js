@@ -808,59 +808,39 @@ router.put('/:orderId/process', auth, async (req, res) => {
           return res.status(400).json({ message: 'Order can only be shipped from processing status' });
         }
         order.status = 'shipped';
-        
-        // Generate Fan Courier AWB
+
+        // Generate Fan Courier AWB using correct API
         try {
-          let customerName, customerPhone;
-          
-          if (isGuestOrder) {
-            customerName = order.guestName;
-            customerPhone = order.guestPhone || order.shippingAddress.phone || '0700000000';
-          } else {
-            customerName = order.userId.name;
-            customerPhone = order.shippingAddress.phone || '0700000000';
-          }
-          
-          const awbResult = await fanCourierService.generateAWB({
-            orderId: order._id,
-            orderNumber: order.orderNumber,
-            customerName: customerName,
-            customerPhone: customerPhone,
-            shippingAddress: order.shippingAddress,
-            items: order.items,
-            totalValue: order.grandTotal,
-            paymentType: order.paymentMethod === 'cash_on_delivery' ? 'ramburs' : 'expeditor'
-          });
+          const awbResult = await fanCourierService.createShipment(order);
 
           if (awbResult.success) {
             // Initialize shipping object if it doesn't exist
             if (!order.shipping) {
               order.shipping = {};
             }
-            
+
             order.shipping.awbNumber = awbResult.awbNumber;
-            order.shipping.pdfLink = awbResult.pdfLink;
-            order.shipping.estimatedDelivery = awbResult.estimatedDelivery;
-            
-            // Generate tracking code
+            order.shipping.cost = awbResult.cost;
+            order.shipping.trackingCode = awbResult.trackingCode;
+
+            // Set tracking code on order
             if (!order.trackingCode) {
-              const random = Math.floor(Math.random() * 100000000).toString().padStart(8, '0');
-              order.trackingCode = `TRK${random}`;
+              order.trackingCode = awbResult.trackingCode;
             }
-            
+
             responseData.shipping = awbResult;
             responseData.message = 'Order shipped and AWB generated';
           } else {
-            return res.status(500).json({ 
-              message: 'Failed to generate AWB', 
-              error: awbResult.error 
+            return res.status(500).json({
+              message: 'Failed to generate AWB',
+              error: awbResult.error
             });
           }
         } catch (shippingError) {
           console.error('AWB generation error:', shippingError);
-          return res.status(500).json({ 
-            message: 'Failed to generate AWB', 
-            error: shippingError.message 
+          return res.status(500).json({
+            message: 'Failed to generate AWB',
+            error: shippingError.message
           });
         }
         break;
@@ -972,6 +952,62 @@ router.get('/:orderId/invoice-pdf', auth, async (req, res) => {
     console.error('Error fetching invoice PDF:', error);
     res.status(500).json({
       message: 'Error fetching invoice PDF',
+      error: error.message
+    });
+  }
+});
+
+// Get AWB label PDF for an order (admin only)
+router.get('/:orderId/awb-pdf', auth, async (req, res) => {
+  try {
+    // Only allow admin users to view AWB labels
+    if (req.user.role !== 'admin') {
+      return res.status(403).json({ message: 'Access denied. Admin privileges required.' });
+    }
+
+    let order = null;
+
+    // Try to find in regular orders first
+    order = await Order.findById(req.params.orderId);
+
+    if (!order) {
+      // Try guest orders
+      const guestOrder = await GuestOrder.findById(req.params.orderId);
+      if (guestOrder) {
+        order = guestOrder;
+      }
+    }
+
+    if (!order) {
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Check if order has AWB number
+    if (!order.shipping?.awbNumber) {
+      return res.status(400).json({
+        message: 'No AWB number found for this order. Order must be shipped first.'
+      });
+    }
+
+    // Get AWB label PDF from Fan Courier
+    const pdfResult = await fanCourierService.getAWBLabelPDF(order.shipping.awbNumber);
+
+    if (!pdfResult.success) {
+      return res.status(500).json({
+        message: 'Failed to retrieve AWB label',
+        error: pdfResult.error
+      });
+    }
+
+    // Send PDF as response
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', `inline; filename="awb-${order.shipping.awbNumber}.pdf"`);
+    res.send(Buffer.from(pdfResult.pdf));
+
+  } catch (error) {
+    console.error('Error fetching AWB label PDF:', error);
+    res.status(500).json({
+      message: 'Error fetching AWB label PDF',
       error: error.message
     });
   }

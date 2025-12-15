@@ -374,6 +374,47 @@ class FanCourierService {
 
     return statusMapping[fanCourierStatus] || 'processing';
   }
+
+  /**
+   * Get AWB label PDF
+   */
+  async getAWBLabelPDF(awbNumber) {
+    try {
+      const authResult = await this.authenticate();
+      if (!authResult.success) {
+        return {
+          success: false,
+          error: `Authentication failed: ${authResult.error}`
+        };
+      }
+
+      const response = await axios.get(`${this.reportsURL}/awb/label`, {
+        params: {
+          clientId: this.clientId,
+          'awbs[]': awbNumber,
+          pdf: 1,
+          dpi: 300
+        },
+        headers: {
+          'Authorization': `Bearer ${authResult.token}`,
+          'Accept': 'application/pdf'
+        },
+        responseType: 'arraybuffer',
+        timeout: 30000
+      });
+
+      return {
+        success: true,
+        pdf: response.data
+      };
+    } catch (error) {
+      console.error('Error retrieving AWB label PDF:', error.response?.data || error.message);
+      return {
+        success: false,
+        error: error.response?.data?.message || error.message
+      };
+    }
+  }
 }
 
 module.exports = new FanCourierService();
