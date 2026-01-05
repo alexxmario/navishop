@@ -57,6 +57,13 @@ const Header = ({
             {showNavigation && (
               <div className="nav-container">
                 <nav className="hidden md:flex items-center space-x-8">
+                  <button
+                    onClick={handleBrandsClick}
+                    className="text-gray-700 hover:text-blue-600"
+                  >
+                    Produse
+                  </button>
+                  <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <Link
                     to="/category/gps"
                     className="relative inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-110 transition-all duration-500"
@@ -70,13 +77,6 @@ const Header = ({
                     <span className="relative z-10 tracking-wide">GPS</span>
                     <span className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></span>
                   </Link>
-                  <button
-                    onClick={handleBrandsClick}
-                    className="text-gray-700 hover:text-blue-600"
-                  >
-                    Produse
-                  </button>
-                  <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <Link to="/track-order" className="text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
                 </nav>
@@ -139,15 +139,6 @@ const Header = ({
       {showNavigation && isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
-            <Link
-              to="/category/gps"
-              className="block py-3 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold rounded-lg shadow-lg text-center"
-              style={{
-                boxShadow: '0 0 20px rgba(37, 99, 235, 0.5)'
-              }}
-            >
-              🎯 GPS PORTABILE
-            </Link>
             <button
               onClick={handleBrandsClick}
               className="block py-2 text-left w-full text-gray-700 hover:text-blue-600"
@@ -155,6 +146,16 @@ const Header = ({
               Produse
             </button>
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</Link>
+            <Link
+              to="/category/gps"
+              className="block py-3 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold rounded-lg shadow-lg text-center"
+              style={{
+                boxShadow: '0 0 20px rgba(37, 99, 235, 0.5)'
+              }}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              🎯 GPS PORTABILE
+            </Link>
             <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>
           </div>
