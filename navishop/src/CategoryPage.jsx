@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
 import logoSvg from './logo.svg';
@@ -13,6 +13,7 @@ import {
 
 const CategoryPage = () => {
   const { category } = useParams();
+  const [searchParams] = useSearchParams();
   const { getCartItemsCount } = useCart();
   const { user, isAuthenticated } = useAuth();
   const [sortBy, setSortBy] = useState('popular');
@@ -20,12 +21,19 @@ const CategoryPage = () => {
   const [filters, setFilters] = useState({
     priceRange: '',
     brand: '',
-    inStock: false
+    inStock: false,
+    subcategory: ''
   });
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [category]);
+
+    // Read subcategory from URL parameter
+    const subcategoryParam = searchParams.get('subcategory');
+    if (subcategoryParam) {
+      setFilters(prev => ({ ...prev, subcategory: subcategoryParam }));
+    }
+  }, [category, searchParams]);
 
   const categoryData = {
     'navigatii-gps': {
@@ -140,6 +148,7 @@ const CategoryPage = () => {
   const filteredProducts = products.filter(product => {
     if (category && category !== 'toate' && product.category !== category) return false;
     if (filters.brand && product.brand !== filters.brand) return false;
+    if (filters.subcategory && product.subcategory !== filters.subcategory) return false;
     if (filters.inStock && !product.inStock) return false;
     if (filters.priceRange) {
       const [min, max] = filters.priceRange.split('-').map(Number);
@@ -290,7 +299,7 @@ const CategoryPage = () => {
               {/* Brand */}
               <div className="mb-6">
                 <label className="block text-sm font-medium mb-2">Marcă</label>
-                <select 
+                <select
                   className="w-full p-2 border border-gray-200 text-sm focus:outline-none focus:border-blue-600"
                   value={filters.brand}
                   onChange={(e) => setFilters({...filters, brand: e.target.value})}
@@ -301,6 +310,24 @@ const CategoryPage = () => {
                   ))}
                 </select>
               </div>
+
+              {/* Screen Size Filter - GPS category only */}
+              {category === 'navigatii-gps' && (
+                <div className="mb-6">
+                  <label className="block text-sm font-medium mb-2">Mărime ecran</label>
+                  <select
+                    className="w-full p-2 border border-gray-200 text-sm focus:outline-none focus:border-blue-600"
+                    value={filters.subcategory}
+                    onChange={(e) => setFilters({...filters, subcategory: e.target.value})}
+                  >
+                    <option value="">Toate mărimile</option>
+                    <option value="5-inch">5 inch</option>
+                    <option value="7-inch">7 inch</option>
+                    <option value="9-inch">9 inch</option>
+                    <option value="android">Android</option>
+                  </select>
+                </div>
+              )}
 
               {/* In Stock */}
               <div className="mb-6">
@@ -316,8 +343,8 @@ const CategoryPage = () => {
               </div>
 
               {/* Clear Filters */}
-              <button 
-                onClick={() => setFilters({priceRange: '', brand: '', inStock: false})}
+              <button
+                onClick={() => setFilters({priceRange: '', brand: '', inStock: false, subcategory: ''})}
                 className="w-full py-2 text-sm text-gray-600 border border-gray-200 hover:bg-gray-50 transition-colors"
               >
                 Șterge filtrele
@@ -372,8 +399,8 @@ const CategoryPage = () => {
             ) : (
               <div className="text-center py-12">
                 <p className="text-gray-500">Nu au fost găsite produse care să corespundă criteriilor selectate.</p>
-                <button 
-                  onClick={() => setFilters({priceRange: '', brand: '', inStock: false})}
+                <button
+                  onClick={() => setFilters({priceRange: '', brand: '', inStock: false, subcategory: ''})}
                   className="mt-4 text-blue-600 hover:text-blue-700"
                 >
                   Șterge toate filtrele

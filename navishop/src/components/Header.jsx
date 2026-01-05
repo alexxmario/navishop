@@ -57,7 +57,10 @@ const Header = ({
             {showNavigation && (
               <div className="nav-container">
                 <nav className="hidden md:flex items-center space-x-8">
-                  <button 
+                  <Link to="/category/navigatii-gps" className="text-gray-700 hover:text-blue-600 font-medium">
+                    GPS
+                  </Link>
+                  <button
                     onClick={handleBrandsClick}
                     className="text-gray-700 hover:text-blue-600"
                   >
@@ -126,7 +129,10 @@ const Header = ({
       {showNavigation && isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
-            <button 
+            <Link to="/category/navigatii-gps" className="block py-2 text-gray-700 hover:text-blue-600 font-medium">
+              GPS
+            </Link>
+            <button
               onClick={handleBrandsClick}
               className="block py-2 text-left w-full text-gray-700 hover:text-blue-600"
             >

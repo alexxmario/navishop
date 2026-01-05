@@ -351,18 +351,89 @@ const HomePage = () => {
               <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light">
                 Sisteme dedicate pentru toate mărcile de mașini
               </p>
-              <button
-                type="button"
-                onClick={scrollToVehicleSearch}
-                className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 transition-colors font-medium"
-              >
-                Explorează produsele
-              </button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Link
+                  to="/category/navigatii-gps"
+                  className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 transition-colors font-medium text-center"
+                >
+                  Vezi navigații GPS
+                </Link>
+                <button
+                  type="button"
+                  onClick={scrollToVehicleSearch}
+                  className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 hover:bg-blue-50 transition-colors font-medium"
+                >
+                  Caută pentru mașina ta
+                </button>
+              </div>
             </div>
             <div className="relative">
               <NavigationModel3D />
               <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent pointer-events-none"></div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GPS Navigation Section */}
+      <section className="py-16 bg-blue-50 border-y border-blue-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-light mb-4">
+              Navigații GPS <span className="text-blue-600">Profesionale</span>
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Sisteme GPS dedicate pentru TIR, camioane și autoturisme.
+              Ecrane mari (5", 7", 9"), hărți actualizate și funcții premium.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-8">
+            {/* 5 inch GPS */}
+            <Link
+              to="/category/navigatii-gps?subcategory=5-inch"
+              className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
+            >
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
+                <span className="text-2xl font-bold text-blue-600 group-hover:text-white">5"</span>
+              </div>
+              <h3 className="font-medium text-center mb-2">GPS 5 Inch</h3>
+              <p className="text-sm text-gray-600 text-center">Compact și portabil</p>
+            </Link>
+
+            {/* 7 inch GPS */}
+            <Link
+              to="/category/navigatii-gps?subcategory=7-inch"
+              className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
+            >
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
+                <span className="text-2xl font-bold text-blue-600 group-hover:text-white">7"</span>
+              </div>
+              <h3 className="font-medium text-center mb-2">GPS 7 Inch</h3>
+              <p className="text-sm text-gray-600 text-center">Perfect pentru orice vehicul</p>
+            </Link>
+
+            {/* 9 inch GPS */}
+            <Link
+              to="/category/navigatii-gps?subcategory=9-inch"
+              className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
+            >
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
+                <span className="text-2xl font-bold text-blue-600 group-hover:text-white">9"</span>
+              </div>
+              <h3 className="font-medium text-center mb-2">GPS 9 Inch</h3>
+              <p className="text-sm text-gray-600 text-center">Ecran mare pentru TIR</p>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link
+              to="/category/navigatii-gps"
+              className="inline-flex items-center bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors font-medium"
+            >
+              Vezi toate navigațiile GPS
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
           </div>
         </div>
       </section>
@@ -544,7 +615,7 @@ const HomePage = () => {
       {/* Footer */}
       <footer className="bg-white border-t border-gray-100 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <Link to="/" className="logo-link inline-block mb-4">
                 <img 
@@ -559,9 +630,18 @@ const HomePage = () => {
             </div>
 
             <div>
+              <h3 className="font-medium mb-4">Navigații GPS</h3>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li><Link to="/category/navigatii-gps?subcategory=5-inch" className="hover:text-blue-600">GPS 5 inch</Link></li>
+                <li><Link to="/category/navigatii-gps?subcategory=7-inch" className="hover:text-blue-600">GPS 7 inch</Link></li>
+                <li><Link to="/category/navigatii-gps?subcategory=9-inch" className="hover:text-blue-600">GPS 9 inch</Link></li>
+                <li><Link to="/category/navigatii-gps" className="hover:text-blue-600">Toate navigațiile</Link></li>
+              </ul>
+            </div>
+
+            <div>
               <h3 className="font-medium mb-4">Produse</h3>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link to="/category/navigatii-gps" className="hover:text-blue-600">Navigații GPS</Link></li>
                 <li><Link to="/category/carplay-android" className="hover:text-blue-600">CarPlay/Android Auto</Link></li>
                 <li><Link to="/category/camere-marsarier" className="hover:text-blue-600">Camere marsarier</Link></li>
                 <li><Link to="/category/accesorii" className="hover:text-blue-600">Accesorii</Link></li>
