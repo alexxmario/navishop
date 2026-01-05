@@ -245,6 +245,20 @@ async function downloadProductImages(product, imageUrls) {
   for (let i = 0; i < Math.min(imageUrls.length, 4); i++) {
     let imageUrl = imageUrls[i];
 
+    // Handle different image URL formats (string or object)
+    if (typeof imageUrl === 'object' && imageUrl !== null) {
+      // If it's an object, try common properties
+      imageUrl = imageUrl.url || imageUrl.contentUrl || imageUrl['@id'] || '';
+    }
+
+    // Convert to string and trim
+    imageUrl = String(imageUrl).trim();
+
+    if (!imageUrl) {
+      console.warn(`  ⚠️  Empty image URL at index ${i}, skipping...`);
+      continue;
+    }
+
     // Make sure URL is absolute
     if (!imageUrl.startsWith('http')) {
       imageUrl = imageUrl.startsWith('/')
