@@ -243,12 +243,20 @@ async function downloadProductImages(product, imageUrls) {
   const downloadedImages = [];
 
   for (let i = 0; i < Math.min(imageUrls.length, 4); i++) {
-    const imageUrl = imageUrls[i];
-    const ext = path.extname(new URL(imageUrl).pathname) || '.jpg';
-    const filename = `${product.sku}-${i}${ext}`;
-    const filepath = path.join(IMAGE_DIR, filename);
+    let imageUrl = imageUrls[i];
+
+    // Make sure URL is absolute
+    if (!imageUrl.startsWith('http')) {
+      imageUrl = imageUrl.startsWith('/')
+        ? `http://www.piloton.ro${imageUrl}`
+        : `http://www.piloton.ro/${imageUrl}`;
+    }
 
     try {
+      const ext = path.extname(new URL(imageUrl).pathname) || '.jpg';
+      const filename = `${product.sku.replace(/\s+/g, '-')}-${i}${ext}`;
+      const filepath = path.join(IMAGE_DIR, filename);
+
       const response = await axios.get(imageUrl, {
         responseType: 'arraybuffer',
         timeout: 10000
