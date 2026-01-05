@@ -36,6 +36,11 @@ const CategoryPage = () => {
   }, [category, searchParams]);
 
   const categoryData = {
+    'gps': {
+      name: 'GPS Portabile',
+      description: 'Sisteme GPS portabile pentru TIR, camioane și autoturisme. Ecrane 5", 7", 9" și Android.',
+      count: 15
+    },
     'navigatii-gps': {
       name: 'Navigații GPS',
       description: 'Sisteme de navigație GPS moderne și fiabile pentru toate mărcile de mașini',
@@ -312,7 +317,7 @@ const CategoryPage = () => {
               </div>
 
               {/* Screen Size Filter - GPS category only */}
-              {category === 'navigatii-gps' && (
+              {category === 'gps' && (
                 <div className="mb-6">
                   <label className="block text-sm font-medium mb-2">Mărime ecran</label>
                   <select

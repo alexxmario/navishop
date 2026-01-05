@@ -381,7 +381,7 @@ function mapToProductSchema(scrapedData, downloadedImages) {
     slug: baseSlug, // Will be made unique before insertion
     description: scrapedData.description,
     shortDescription: scrapedData.name.substring(0, 200),
-    category: 'navigatii-gps',
+    category: 'gps',
     subcategory: scrapedData.subcategory,
     brand: 'PilotOn',
     model: scrapedData.sku,

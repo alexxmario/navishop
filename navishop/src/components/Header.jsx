@@ -57,8 +57,18 @@ const Header = ({
             {showNavigation && (
               <div className="nav-container">
                 <nav className="hidden md:flex items-center space-x-8">
-                  <Link to="/category/navigatii-gps" className="text-gray-700 hover:text-blue-600 font-medium">
-                    GPS
+                  <Link
+                    to="/category/gps"
+                    className="relative inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-110 transition-all duration-500"
+                    style={{
+                      boxShadow: '0 0 25px rgba(37, 99, 235, 0.6), 0 0 50px rgba(37, 99, 235, 0.4), inset 0 0 20px rgba(255, 255, 255, 0.1)',
+                      backgroundSize: '200% 100%',
+                      animation: 'shine 3s ease-in-out infinite, pulse 2s ease-in-out infinite'
+                    }}
+                  >
+                    <span className="text-lg">🎯</span>
+                    <span className="relative z-10 tracking-wide">GPS</span>
+                    <span className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></span>
                   </Link>
                   <button
                     onClick={handleBrandsClick}
@@ -129,8 +139,14 @@ const Header = ({
       {showNavigation && isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
-            <Link to="/category/navigatii-gps" className="block py-2 text-gray-700 hover:text-blue-600 font-medium">
-              GPS
+            <Link
+              to="/category/gps"
+              className="block py-3 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold rounded-lg shadow-lg text-center"
+              style={{
+                boxShadow: '0 0 20px rgba(37, 99, 235, 0.5)'
+              }}
+            >
+              🎯 GPS PORTABILE
             </Link>
             <button
               onClick={handleBrandsClick}

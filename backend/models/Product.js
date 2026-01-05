@@ -94,6 +94,7 @@ const productSchema = new mongoose.Schema({
     required: true,
     enum: [
       'navigatii-gps',
+      'gps',
       'carplay-android',
       'camere-marsarier',
       'sisteme-multimedia',
