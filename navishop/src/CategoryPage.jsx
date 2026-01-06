@@ -43,7 +43,8 @@ const CategoryPage = () => {
     try {
       setLoading(true);
       const data = await apiService.getProducts({ category, status: 'active' });
-      setProducts(data);
+      // API returns { products, pagination, filters } - extract the products array
+      setProducts(data.products || data || []);
     } catch (error) {
       console.error('Failed to load products:', error);
       setProducts([]);
