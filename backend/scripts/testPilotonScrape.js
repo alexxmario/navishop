@@ -4,11 +4,11 @@ const cheerio = require('cheerio');
 
 // Test scraping one product to see what we get
 async function testScrape() {
-  // Try a known product URL
+  // Try a known product URL - actual format from piloton.ro
   const testUrls = [
-    'http://www.piloton.ro/gps-a9xl-9-inch.html',
-    'http://www.piloton.ro/gps-p5-5-inch.html',
-    'http://www.piloton.ro/gps-m9plus-9-inch.html'
+    'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-m14xl.html',
+    'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-a9xl.html',
+    'https://www.piloton.ro/gps-5-inch/sistem-de-navigatie-piloton-p5.html'
   ];
 
   for (const url of testUrls) {
