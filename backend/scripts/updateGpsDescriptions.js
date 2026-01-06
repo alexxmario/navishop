@@ -514,13 +514,18 @@ async function main() {
     // Connect to database
     await connectDB();
 
-    // Find all GPS products that need descriptions
+    // Find all GPS products that need detailed descriptions
+    // Include products with short descriptions or missing structured data
     const gpsProducts = await Product.find({
       category: 'gps',
       $or: [
         { description: { $exists: false } },
         { description: '' },
-        { description: null }
+        { description: null },
+        { structuredDescription: { $exists: false } },
+        { 'structuredDescription.sections': { $size: 0 } },
+        { specifications: { $size: 0 } },
+        { specifications: { $exists: false } }
       ]
     });
 
