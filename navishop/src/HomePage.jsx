@@ -391,7 +391,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-8">
             {/* 5 inch GPS */}
             <Link
-              to="/category/navigatii-gps?subcategory=5-inch"
+              to="/category/gps?subcategory=5-inch"
               className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
             >
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
@@ -403,7 +403,7 @@ const HomePage = () => {
 
             {/* 7 inch GPS */}
             <Link
-              to="/category/navigatii-gps?subcategory=7-inch"
+              to="/category/gps?subcategory=7-inch"
               className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
             >
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
@@ -415,7 +415,7 @@ const HomePage = () => {
 
             {/* 9 inch GPS */}
             <Link
-              to="/category/navigatii-gps?subcategory=9-inch"
+              to="/category/gps?subcategory=9-inch"
               className="bg-white p-6 border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all group"
             >
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
@@ -428,10 +428,10 @@ const HomePage = () => {
 
           <div className="text-center">
             <Link
-              to="/category/navigatii-gps"
+              to="/category/gps"
               className="inline-flex items-center bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors font-medium"
             >
-              Vezi toate navigațiile GPS
+              Vezi toate GPS-urile
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
           </div>
@@ -630,12 +630,12 @@ const HomePage = () => {
             </div>
 
             <div>
-              <h3 className="font-medium mb-4">Navigații GPS</h3>
+              <h3 className="font-medium mb-4">GPS</h3>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><Link to="/category/navigatii-gps?subcategory=5-inch" className="hover:text-blue-600">GPS 5 inch</Link></li>
-                <li><Link to="/category/navigatii-gps?subcategory=7-inch" className="hover:text-blue-600">GPS 7 inch</Link></li>
-                <li><Link to="/category/navigatii-gps?subcategory=9-inch" className="hover:text-blue-600">GPS 9 inch</Link></li>
-                <li><Link to="/category/navigatii-gps" className="hover:text-blue-600">Toate navigațiile</Link></li>
+                <li><Link to="/category/gps?subcategory=5-inch" className="hover:text-blue-600">GPS 5 inch</Link></li>
+                <li><Link to="/category/gps?subcategory=7-inch" className="hover:text-blue-600">GPS 7 inch</Link></li>
+                <li><Link to="/category/gps?subcategory=9-inch" className="hover:text-blue-600">GPS 9 inch</Link></li>
+                <li><Link to="/category/gps" className="hover:text-blue-600">Toate GPS-urile</Link></li>
               </ul>
             </div>
 
