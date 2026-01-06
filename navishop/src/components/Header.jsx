@@ -66,16 +66,18 @@ const Header = ({
                   <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <Link
                     to="/category/gps"
-                    className="relative inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-600 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold rounded-full shadow-lg hover:shadow-2xl transform hover:scale-110 transition-all duration-500"
+                    className="relative inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-black rounded-full shadow-2xl hover:shadow-[0_0_60px_rgba(251,191,36,0.8)] transform hover:scale-125 transition-all duration-300 border-2 border-yellow-300"
                     style={{
-                      boxShadow: '0 0 25px rgba(37, 99, 235, 0.6), 0 0 50px rgba(37, 99, 235, 0.4), inset 0 0 20px rgba(255, 255, 255, 0.1)',
+                      boxShadow: '0 0 30px rgba(251, 191, 36, 0.8), 0 0 60px rgba(249, 115, 22, 0.6), 0 0 90px rgba(239, 68, 68, 0.4), inset 0 0 25px rgba(255, 255, 255, 0.3)',
                       backgroundSize: '200% 100%',
-                      animation: 'shine 3s ease-in-out infinite, pulse 2s ease-in-out infinite'
+                      animation: 'gps-shine 2s ease-in-out infinite, gps-pulse 1.5s ease-in-out infinite, gps-sparkle 3s linear infinite',
+                      textShadow: '0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(251, 191, 36, 0.6)'
                     }}
                   >
-                    <span className="text-lg">🎯</span>
-                    <span className="relative z-10 tracking-wide">GPS</span>
-                    <span className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></span>
+                    <span className="text-xl animate-bounce">📍</span>
+                    <span className="relative z-10 tracking-wider text-lg">GPS</span>
+                    <span className="absolute -inset-2 bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 rounded-full blur-md opacity-60 animate-pulse"></span>
+                    <span className="absolute -inset-4 bg-gradient-to-r from-yellow-200 via-orange-300 to-red-300 rounded-full blur-xl opacity-30"></span>
                   </Link>
                   <Link to="/track-order" className="text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
@@ -148,13 +150,15 @@ const Header = ({
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</Link>
             <Link
               to="/category/gps"
-              className="block py-3 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold rounded-lg shadow-lg text-center"
+              className="block py-4 px-6 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-black rounded-xl shadow-2xl text-center border-2 border-yellow-300"
               style={{
-                boxShadow: '0 0 20px rgba(37, 99, 235, 0.5)'
+                boxShadow: '0 0 30px rgba(251, 191, 36, 0.8), 0 0 50px rgba(249, 115, 22, 0.6)',
+                animation: 'gps-pulse 1.5s ease-in-out infinite',
+                textShadow: '0 0 10px rgba(255, 255, 255, 0.8)'
               }}
               onClick={() => setIsMenuOpen(false)}
             >
-              🎯 GPS PORTABILE
+              📍 GPS PORTABILE
             </Link>
             <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>
