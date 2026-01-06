@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
+import apiService from './services/api';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
@@ -14,10 +15,12 @@ import {
 const CategoryPage = () => {
   const { category } = useParams();
   const [searchParams] = useSearchParams();
-  const { getCartItemsCount } = useCart();
+  const { getCartItemsCount, addToCart } = useCart();
   const { user, isAuthenticated } = useAuth();
   const [sortBy, setSortBy] = useState('popular');
   const [viewMode, setViewMode] = useState('grid');
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState({
     priceRange: '',
     brand: '',
@@ -27,6 +30,7 @@ const CategoryPage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    loadProducts();
 
     // Read subcategory from URL parameter
     const subcategoryParam = searchParams.get('subcategory');
@@ -34,6 +38,19 @@ const CategoryPage = () => {
       setFilters(prev => ({ ...prev, subcategory: subcategoryParam }));
     }
   }, [category, searchParams]);
+
+  const loadProducts = async () => {
+    try {
+      setLoading(true);
+      const data = await apiService.getProducts({ category, status: 'active' });
+      setProducts(data);
+    } catch (error) {
+      console.error('Failed to load products:', error);
+      setProducts([]);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const categoryData = {
     'gps': {
@@ -63,86 +80,6 @@ const CategoryPage = () => {
     }
   };
 
-  const products = [
-    {
-      id: 1,
-      name: 'Navigație GPS Android 2024 Pro',
-      compatibility: 'Universal - Toate mărcile',
-      price: 1299,
-      oldPrice: 1599,
-      rating: 4.8,
-      reviews: 156,
-      badge: 'Bestseller',
-      inStock: true,
-      category: 'navigatii-gps',
-      brand: 'TechAuto'
-    },
-    {
-      id: 2,
-      name: 'Sistem Multimedia CarPlay Premium',
-      compatibility: 'BMW, Audi, Mercedes',
-      price: 2199,
-      oldPrice: 2499,
-      rating: 4.9,
-      reviews: 89,
-      badge: 'Nou',
-      inStock: true,
-      category: 'carplay-android',
-      brand: 'ProNav'
-    },
-    {
-      id: 3,
-      name: 'Navigație Touchscreen 7" HD',
-      compatibility: 'Volkswagen, Skoda, Seat',
-      price: 899,
-      oldPrice: 1099,
-      rating: 4.7,
-      reviews: 203,
-      badge: '-20%',
-      inStock: false,
-      category: 'navigatii-gps',
-      brand: 'AutoTech'
-    },
-    {
-      id: 4,
-      name: 'GPS Premium cu Camere Integrate',
-      compatibility: 'Toyota, Honda, Mazda',
-      price: 1799,
-      oldPrice: 2199,
-      rating: 4.6,
-      reviews: 124,
-      badge: 'Reducere',
-      inStock: true,
-      category: 'navigatii-gps',
-      brand: 'NaviPro'
-    },
-    {
-      id: 5,
-      name: 'Cameră Marsarier HD Wireless',
-      compatibility: 'Universal',
-      price: 349,
-      oldPrice: 449,
-      rating: 4.5,
-      reviews: 78,
-      badge: null,
-      inStock: true,
-      category: 'camere-marsarier',
-      brand: 'CamTech'
-    },
-    {
-      id: 6,
-      name: 'Sistem CarPlay Wireless',
-      compatibility: 'iPhone compatibil',
-      price: 1599,
-      oldPrice: 1899,
-      rating: 4.8,
-      reviews: 145,
-      badge: 'Popular',
-      inStock: true,
-      category: 'carplay-android',
-      brand: 'WirelessTech'
-    }
-  ];
 
   const currentCategory = categoryData[category] || {
     name: 'Produse',
@@ -151,10 +88,9 @@ const CategoryPage = () => {
   };
 
   const filteredProducts = products.filter(product => {
-    if (category && category !== 'toate' && product.category !== category) return false;
     if (filters.brand && product.brand !== filters.brand) return false;
     if (filters.subcategory && product.subcategory !== filters.subcategory) return false;
-    if (filters.inStock && !product.inStock) return false;
+    if (filters.inStock && product.stock <= 0) return false;
     if (filters.priceRange) {
       const [min, max] = filters.priceRange.split('-').map(Number);
       if (product.price < min || (max && product.price > max)) return false;
@@ -166,83 +102,94 @@ const CategoryPage = () => {
     switch (sortBy) {
       case 'price-low': return a.price - b.price;
       case 'price-high': return b.price - a.price;
-      case 'rating': return b.rating - a.rating;
-      case 'newest': return b.id - a.id;
-      default: return b.reviews - a.reviews; // popular
+      case 'rating': return (b.averageRating || 0) - (a.averageRating || 0);
+      case 'newest': return new Date(b.createdAt) - new Date(a.createdAt);
+      default: return (b.totalReviews || 0) - (a.totalReviews || 0); // popular
     }
   });
 
   const brands = [...new Set(products.map(p => p.brand))];
 
-  const ProductCard = ({ product }) => (
-    <div className={`bg-white border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all duration-200 group ${
-      viewMode === 'list' ? 'flex' : ''
-    }`}>
-      <div className={`relative ${viewMode === 'list' ? 'w-48 flex-shrink-0' : ''}`}>
-        <Link to={`/product/${product.id}`} className="block">
-          <div className={`bg-gray-50 flex items-center justify-center ${
-            viewMode === 'list' ? 'w-48 h-32' : 'w-full h-48'
-          }`}>
-            <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
-          </div>
-        </Link>
-        {product.badge && (
-          <div className="absolute top-3 left-3">
-            <span className={`px-2 py-1 text-xs font-medium ${
-              product.badge === 'Bestseller' ? 'bg-blue-600 text-white' :
-              product.badge === 'Nou' ? 'bg-black text-white' :
-              product.badge === 'Popular' ? 'bg-green-600 text-white' :
-              'bg-blue-600 text-white'
+  const ProductCard = ({ product }) => {
+    const primaryImage = product.images?.find(img => img.isPrimary)?.url || product.images?.[0]?.url;
+    const isInStock = product.stock > 0;
+    const showBadge = product.onSale || product.featured || product.newProduct;
+    const badge = product.onSale ? `-${product.discount}%` : product.featured ? 'Bestseller' : product.newProduct ? 'Nou' : null;
+
+    return (
+      <div className={`bg-white border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all duration-200 group ${
+        viewMode === 'list' ? 'flex' : ''
+      }`}>
+        <div className={`relative ${viewMode === 'list' ? 'w-48 flex-shrink-0' : ''}`}>
+          <Link to={`/product/${product.slug}`} className="block">
+            <div className={`bg-gray-50 flex items-center justify-center overflow-hidden ${
+              viewMode === 'list' ? 'w-48 h-32' : 'w-full h-48'
             }`}>
-              {product.badge}
+              {primaryImage ? (
+                <img src={primaryImage} alt={product.name} className="w-full h-full object-contain" />
+              ) : (
+                <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
+              )}
+            </div>
+          </Link>
+          {showBadge && badge && (
+            <div className="absolute top-3 left-3">
+              <span className={`px-2 py-1 text-xs font-medium ${
+                product.onSale ? 'bg-red-600 text-white' :
+                product.featured ? 'bg-blue-600 text-white' :
+                'bg-black text-white'
+              }`}>
+                {badge}
+              </span>
+            </div>
+          )}
+          <button className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <Heart className="w-5 h-5 text-gray-400 hover:text-blue-600" />
+          </button>
+        </div>
+
+        <div className="p-4 flex-1">
+          <Link to={`/product/${product.slug}`} className="block">
+            <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600 transition-colors">{product.name}</h3>
+            <p className="text-sm text-gray-600 mb-3">{product.brand}</p>
+          </Link>
+
+          <div className="flex items-center mb-3">
+            <div className="flex items-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className={`w-3 h-3 ${i < Math.floor(product.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`} />
+              ))}
+            </div>
+            <span className="text-xs text-gray-600 ml-2">({product.totalReviews || 0})</span>
+          </div>
+
+          <div className={`flex items-center justify-between mb-4 ${viewMode === 'list' ? 'flex-col items-start space-y-2' : ''}`}>
+            <div className="flex items-center space-x-2">
+              <span className="font-semibold text-gray-900">{product.price.toFixed(2)} RON</span>
+              {product.originalPrice && (
+                <span className="text-sm text-gray-500 line-through">{product.originalPrice.toFixed(2)} RON</span>
+              )}
+            </div>
+            <span className={`text-xs ${isInStock ? 'text-blue-600' : 'text-red-600'}`}>
+              {isInStock ? 'În stoc' : 'Stoc epuizat'}
             </span>
           </div>
-        )}
-        <button className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <Heart className="w-5 h-5 text-gray-400 hover:text-blue-600" />
-        </button>
-      </div>
-      
-      <div className="p-4 flex-1">
-        <Link to={`/product/${product.id}`} className="block">
-          <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600 transition-colors">{product.name}</h3>
-          <p className="text-sm text-gray-600 mb-3">{product.compatibility}</p>
-        </Link>
-        
-        <div className="flex items-center mb-3">
-          <div className="flex items-center">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className={`w-3 h-3 ${i < Math.floor(product.rating) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`} />
-            ))}
-          </div>
-          <span className="text-xs text-gray-600 ml-2">({product.reviews})</span>
+
+          <button
+            onClick={() => isInStock && addToCart(product)}
+            className={`w-full py-2 text-sm font-medium transition-colors ${
+              isInStock
+                ? 'bg-blue-600 text-white hover:bg-blue-700'
+                : 'bg-gray-100 text-gray-500 cursor-not-allowed'
+            }`}
+            disabled={!isInStock}
+          >
+            {isInStock ? 'Adaugă în coș' : 'Indisponibil'}
+          </button>
         </div>
-        
-        <div className={`flex items-center justify-between mb-4 ${viewMode === 'list' ? 'flex-col items-start space-y-2' : ''}`}>
-          <div className="flex items-center space-x-2">
-            <span className="font-semibold text-gray-900">{product.price} lei</span>
-            {product.oldPrice && (
-              <span className="text-sm text-gray-500 line-through">{product.oldPrice} lei</span>
-            )}
-          </div>
-          <span className={`text-xs ${product.inStock ? 'text-blue-600' : 'text-red-600'}`}>
-            {product.inStock ? 'În stoc' : 'Stoc epuizat'}
-          </span>
-        </div>
-        
-        <button 
-          className={`w-full py-2 text-sm font-medium transition-colors ${
-            product.inStock 
-              ? 'bg-blue-600 text-white hover:bg-blue-700' 
-              : 'bg-gray-100 text-gray-500 cursor-not-allowed'
-          }`}
-          disabled={!product.inStock}
-        >
-          {product.inStock ? 'Adaugă în coș' : 'Indisponibil'}
-        </button>
       </div>
-    </div>
-  );
+    );
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -392,13 +339,17 @@ const CategoryPage = () => {
             </div>
 
             {/* Products Grid/List */}
-            {sortedProducts.length > 0 ? (
-              <div className={viewMode === 'grid' 
-                ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' 
+            {loading ? (
+              <div className="text-center py-12">
+                <p className="text-gray-500">Se încarcă produsele...</p>
+              </div>
+            ) : sortedProducts.length > 0 ? (
+              <div className={viewMode === 'grid'
+                ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'
                 : 'space-y-4'
               }>
                 {sortedProducts.map(product => (
-                  <ProductCard key={product.id} product={product} />
+                  <ProductCard key={product._id} product={product} />
                 ))}
               </div>
             ) : (
