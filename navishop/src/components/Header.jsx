@@ -158,7 +158,7 @@ const Header = ({
               }}
               onClick={() => setIsMenuOpen(false)}
             >
-              📍 GPS PORTABILE
+              📍 GPS
             </Link>
             <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>

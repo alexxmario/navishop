@@ -37,7 +37,7 @@ const CategoryPage = () => {
 
   const categoryData = {
     'gps': {
-      name: 'GPS Portabile',
+      name: 'GPS',
       description: 'Sisteme GPS portabile pentru TIR, camioane și autoturisme. Ecrane 5", 7", 9" și Android.',
       count: 15
     },
