@@ -98,7 +98,6 @@ Restart the backend:
 ```bash
 pm2 restart backend
 ```
-
 ---
 
 ## Step 5: Update Admin Panel .env and Rebuild
