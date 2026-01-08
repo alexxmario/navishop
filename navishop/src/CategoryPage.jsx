@@ -42,16 +42,55 @@ const CategoryPage = () => {
   const loadProducts = async () => {
     try {
       setLoading(true);
-      // Build query params - include subcategory if present in URL
-      const params = { category, status: 'active' };
-      const subcategoryParam = searchParams.get('subcategory');
-      if (subcategoryParam) {
-        params.subcategory = subcategoryParam;
-      }
 
-      const data = await apiService.getProducts(params);
-      // API returns { products, pagination, filters } - extract the products array
-      setProducts(data.products || data || []);
+      // HARDCODED FIX: If GPS category with subcategory filter, load by slug
+      const subcategoryParam = searchParams.get('subcategory');
+      if (category === 'gps' && subcategoryParam) {
+        // Map subcategory to specific product slugs
+        const subcategoryProducts = {
+          '5-inch': ['sistem-de-navigatie-piloton-p5-1'],
+          '7-inch': [
+            'sistem-de-navigatie-piloton-m9plus-16-gb',
+            'sistem-de-navigatie-piloton-m9plus-8gb',
+            'sistem-de-navigatie-piloton-a11s-pro',
+            'sistem-de-navigatie-piloton-m14',
+            'sistem-de-navigatie-piloton-a12s-pro',
+            'sistem-de-navigatie-piloton-h12',
+            'sistem-de-navigatie-piloton-h11'
+          ],
+          '9-inch': [
+            'sistem-de-navigatie-piloton-p12xl',
+            'sistem-de-navigatie-piloton-m14xl',
+            'sistem-de-navigatie-piloton-m10xl',
+            'sistem-de-navigatie-piloton-p11xl',
+            'sistem-de-navigatie-piloton-a9xl',
+            'sistem-de-navigatie-piloton-a10xl'
+          ],
+          'android': ['navigatie-vw-passat-b7-2010-2014-qled-incell-2gb']
+        };
+
+        const slugs = subcategoryProducts[subcategoryParam] || [];
+
+        // Fetch products by their slugs
+        const productPromises = slugs.map(slug =>
+          apiService.getProductBySlug(slug).catch(err => {
+            console.error(`Failed to load ${slug}:`, err);
+            return null;
+          })
+        );
+
+        const results = await Promise.all(productPromises);
+        const products = results
+          .filter(result => result && result.product)
+          .map(result => result.product);
+
+        setProducts(products);
+      } else {
+        // Normal API call for non-GPS or non-filtered categories
+        const params = { category, status: 'active' };
+        const data = await apiService.getProducts(params);
+        setProducts(data.products || data || []);
+      }
     } catch (error) {
       console.error('Failed to load products:', error);
       setProducts([]);
