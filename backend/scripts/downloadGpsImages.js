@@ -9,20 +9,20 @@ const https = require('https');
 
 // Map of SKU to piloton.ro URLs
 const productUrls = {
-  'P5': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-5-inch-256-ram-8gb-p5.html',
-  'M9Plus': 'https://www.piloton.ro/gps-camioane/gps-camion-navigatie-ecran-7-inch-16gb-bluetooth-av-in-m9plus.html',
-  'M9Plus-9837': 'https://www.piloton.ro/gps-camioane/gps-camion-navigatie-ecran-7-inch-8gb-bluetooth-av-in-m9plus.html',
-  'A11S Pro': 'https://www.piloton.ro/gps-camioane/gps-camion-ecran-7-inch-android-2gb-ram-16gb-a11s-pro.html',
-  'M14': 'https://www.piloton.ro/gps-camioane/gps-camion-navigatie-ecran-7-inch-16gb-bluetooth-av-in-m14.html',
-  'A12S Pro': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-camion-ecran-7-inch-android-2gb-ram-16gb-a12s-pro.html',
-  'H12': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-7-inch-16gb-h12.html',
-  'H11': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-7-inch-16gb-h11.html',
-  'P12XL': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camion-ecran-9-inch-16gb-p12xl.html',
-  'M14XL': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-9-inch-16gb-m14xl.html',
-  'M10XL': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-9-inch-16gb-m10xl.html',
-  'P11XL': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-9-inch-16gb-p11xl.html',
-  'A9XL': 'https://www.piloton.ro/gps-camioane/gps-camion-ecran-9-inch-android-2gb-ram-16gb-a9xl.html',
-  'A10XL': 'https://www.piloton.ro/gps-camioane/sistem-navigatie-gps-auto-camioane-ecran-9-inch-16gb-a10xl.html',
+  'P5': 'https://www.piloton.ro/gps-5-inch/sistem-de-navigatie-piloton-p5.html',
+  'M9Plus': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-m9plus.html',
+  'M9Plus-9837': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-m9plus.html', // Same as 16GB version
+  'A11S Pro': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-a11s-pro.html',
+  'M14': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-m14.html',
+  'A12S Pro': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-a12s-pro.html',
+  'H12': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-h12.html',
+  'H11': 'https://www.piloton.ro/gps-7-inch/sistem-de-navigatie-piloton-h11.html',
+  'P12XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-p12xl.html',
+  'M14XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-m14xl.html',
+  'M10XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-m10xl.html',
+  'P11XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-p11xl.html',
+  'A9XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-a9xl.html',
+  'A10XL': 'https://www.piloton.ro/gps-9-inch/sistem-de-navigatie-piloton-a10xl.html',
   'M8B7': null // This is a car navigation, not on piloton.ro GPS section
 };
 
