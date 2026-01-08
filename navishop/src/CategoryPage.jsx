@@ -42,7 +42,14 @@ const CategoryPage = () => {
   const loadProducts = async () => {
     try {
       setLoading(true);
-      const data = await apiService.getProducts({ category, status: 'active' });
+      // Build query params - include subcategory if present in URL
+      const params = { category, status: 'active' };
+      const subcategoryParam = searchParams.get('subcategory');
+      if (subcategoryParam) {
+        params.subcategory = subcategoryParam;
+      }
+
+      const data = await apiService.getProducts(params);
       // API returns { products, pagination, filters } - extract the products array
       setProducts(data.products || data || []);
     } catch (error) {
