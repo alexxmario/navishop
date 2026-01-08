@@ -61,40 +61,67 @@ async function scrapeProductImages(url) {
     const $ = cheerio.load(response.data);
     const images = [];
 
-    // Try different selectors for product images
-    const selectors = [
-      '.product-image-gallery img',
-      '.fotorama__stage img',
-      '.gallery-placeholder img',
-      '.product.media img',
-      'img[data-zoom-image]',
-      '.MagicToolboxContainer img'
-    ];
+    // Find all images and log for debugging
+    console.log('   Searching for images...');
 
-    for (const selector of selectors) {
-      $(selector).each((i, elem) => {
-        let imgUrl = $(elem).attr('src') || $(elem).attr('data-src') || $(elem).attr('data-zoom-image');
-        if (imgUrl) {
-          // Make URL absolute
+    // Look for product gallery images - piloton.ro uses a specific structure
+    $('.product-gallery img, .product-image img, .gallery img').each((i, elem) => {
+      const $img = $(elem);
+      let imgUrl = $img.attr('src') || $img.attr('data-src') || $img.attr('data-lazy');
+
+      if (imgUrl) {
+        // Make URL absolute
+        if (imgUrl.startsWith('//')) {
+          imgUrl = 'https:' + imgUrl;
+        } else if (imgUrl.startsWith('/')) {
+          imgUrl = 'https://www.piloton.ro' + imgUrl;
+        } else if (!imgUrl.startsWith('http')) {
+          imgUrl = 'https://www.piloton.ro/' + imgUrl;
+        }
+
+        // Avoid duplicates, thumbnails, and placeholders
+        if (!images.includes(imgUrl) &&
+            !imgUrl.includes('placeholder') &&
+            !imgUrl.includes('loading') &&
+            imgUrl.includes('/media/')) {
+          images.push(imgUrl);
+          console.log(`      Found: ${imgUrl.split('/').pop()}`);
+        }
+      }
+    });
+
+    // If no images found, try a broader search
+    if (images.length === 0) {
+      $('img').each((i, elem) => {
+        const $img = $(elem);
+        const imgUrl = $img.attr('src') || $img.attr('data-src');
+        const alt = $img.attr('alt') || '';
+
+        // Only include images that look like product images
+        if (imgUrl &&
+            (imgUrl.includes('/media/catalog/product') ||
+             imgUrl.includes('/pub/media/') ||
+             alt.toLowerCase().includes('piloton') ||
+             alt.toLowerCase().includes('navigatie'))) {
+
+          let fullUrl = imgUrl;
           if (imgUrl.startsWith('//')) {
-            imgUrl = 'https:' + imgUrl;
+            fullUrl = 'https:' + imgUrl;
           } else if (imgUrl.startsWith('/')) {
-            imgUrl = 'https://www.piloton.ro' + imgUrl;
+            fullUrl = 'https://www.piloton.ro' + imgUrl;
           }
 
-          // Avoid duplicates and thumbnails
-          if (!images.includes(imgUrl) && !imgUrl.includes('/thumbnail/') && !imgUrl.includes('_thumb')) {
-            images.push(imgUrl);
+          if (!images.includes(fullUrl) && !fullUrl.includes('placeholder')) {
+            images.push(fullUrl);
+            console.log(`      Found (broad): ${fullUrl.split('/').pop()}`);
           }
         }
       });
-
-      if (images.length > 0) break;
     }
 
     return images;
   } catch (error) {
-    console.error(`Error scraping ${url}:`, error.message);
+    console.error(`   Error scraping ${url}:`, error.message);
     return [];
   }
 }
