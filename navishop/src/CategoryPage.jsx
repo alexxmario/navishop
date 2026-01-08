@@ -95,12 +95,9 @@ const CategoryPage = () => {
     count: products.length
   };
 
-  // Read subcategory directly from URL to avoid race condition with state
-  const subcategoryParam = searchParams.get('subcategory');
-
+  // Backend already filters by subcategory, so we only filter by client-side filters
   const filteredProducts = products.filter(product => {
     if (filters.brand && product.brand !== filters.brand) return false;
-    if (subcategoryParam && product.subcategory !== subcategoryParam) return false;
     if (filters.inStock && product.stock <= 0) return false;
     if (filters.priceRange) {
       const [min, max] = filters.priceRange.split('-').map(Number);
