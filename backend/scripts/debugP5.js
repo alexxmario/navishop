@@ -1,9 +1,10 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const Product = require('../models/Product');
 
 async function debugP5() {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/piloton');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/piloton');
     console.log('Connected to MongoDB');
 
     // Check P5 product
