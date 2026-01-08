@@ -111,7 +111,12 @@ async function scrapeProductImages(url) {
             fullUrl = 'https://www.piloton.ro' + imgUrl;
           }
 
-          if (!images.includes(fullUrl) && !fullUrl.includes('placeholder')) {
+          // Skip logo and common site images
+          if (!images.includes(fullUrl) &&
+              !fullUrl.includes('placeholder') &&
+              !fullUrl.includes('logo') &&
+              !fullUrl.includes('banner') &&
+              !fullUrl.includes('header')) {
             images.push(fullUrl);
             console.log(`      Found (broad): ${fullUrl.split('/').pop()}`);
           }
@@ -119,7 +124,11 @@ async function scrapeProductImages(url) {
       });
     }
 
-    return images;
+    // Skip first 2 images (usually logo/site images) and return only product images
+    const productImages = images.slice(2);
+    console.log(`   Total product images (after skipping first 2): ${productImages.length}`);
+
+    return productImages;
   } catch (error) {
     console.error(`   Error scraping ${url}:`, error.message);
     return [];
