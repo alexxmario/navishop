@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
 import apiService from './services/api';
@@ -15,6 +15,7 @@ import {
 const CategoryPage = () => {
   const { category } = useParams();
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const { getCartItemsCount, addToCart } = useCart();
   const { user, isAuthenticated } = useAuth();
   const [sortBy, setSortBy] = useState('popular');
@@ -278,8 +279,15 @@ const CategoryPage = () => {
                   <label className="block text-sm font-medium mb-2">Mărime ecran</label>
                   <select
                     className="w-full p-2 border border-gray-200 text-sm focus:outline-none focus:border-blue-600"
-                    value={filters.subcategory}
-                    onChange={(e) => setFilters({...filters, subcategory: e.target.value})}
+                    value={searchParams.get('subcategory') || ''}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      if (value) {
+                        navigate(`/category/${category}?subcategory=${value}`);
+                      } else {
+                        navigate(`/category/${category}`);
+                      }
+                    }}
                   >
                     <option value="">Toate mărimile</option>
                     <option value="5-inch">5 inch</option>
