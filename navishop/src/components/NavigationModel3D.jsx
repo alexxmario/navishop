@@ -33,7 +33,7 @@ function NavigationModel3D() {
     <div className="w-full h-96 md:h-[500px]">
       <Canvas
         camera={{ position: [0, 0, 8], fov: 45 }}
-        className="cursor-grab active:cursor-grabbing touch-none"
+        className="cursor-grab active:cursor-grabbing"
       >
         <color attach="background" args={['#ffffff']} />
         <ambientLight intensity={0.6} />
@@ -50,10 +50,10 @@ function NavigationModel3D() {
           autoRotate={false}
           minPolarAngle={Math.PI / 4}
           maxPolarAngle={Math.PI - Math.PI / 4}
-          touches={{
-            ONE: 2, // TOUCH.ROTATE
-            TWO: 0  // Disable two-finger gestures
-          }}
+          enableDamping={true}
+          dampingFactor={0.05}
+          rotateSpeed={1}
+          touchAction="none"
         />
 
         <ContactShadows
