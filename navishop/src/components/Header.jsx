@@ -105,8 +105,8 @@ const Header = ({
                     <Search className="w-5 h-5" />
                   </button>
                 )}
-                <Link 
-                  to={isAuthenticated() ? "/dashboard" : "/login"} 
+                <Link
+                  to={isAuthenticated() ? "/dashboard" : "/login"}
                   className={`${isAuthenticated() ? "text-blue-600 hover:text-blue-700" : "text-gray-700 hover:text-blue-600"}`}
                 >
                   <User className="w-5 h-5" />
@@ -119,8 +119,22 @@ const Header = ({
                     </span>
                   )}
                 </Link>
+                {/* Mobile GPS Button - visible only on mobile */}
                 {showNavigation && (
-                  <button 
+                  <Link
+                    to="/category/gps"
+                    className="md:hidden inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+                    style={{
+                      boxShadow: '0 0 10px rgba(251, 191, 36, 0.4)',
+                      animation: 'gps-shine 3s ease-in-out infinite'
+                    }}
+                  >
+                    <span className="text-sm">📍</span>
+                    <span className="text-xs tracking-wide">GPS</span>
+                  </Link>
+                )}
+                {showNavigation && (
+                  <button
                     className="text-gray-700 hover:text-blue-600 md:hidden"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
@@ -143,20 +157,9 @@ const Header = ({
             >
               Produse
             </button>
-            <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600">Reduceri</Link>
-            <Link
-              to="/category/gps"
-              className="block py-3 px-5 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold rounded-lg shadow-lg text-center"
-              style={{
-                boxShadow: '0 0 15px rgba(251, 191, 36, 0.5)',
-                animation: 'gps-shine 3s ease-in-out infinite'
-              }}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              📍 GPS
-            </Link>
-            <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
-            <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>
+            <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
+            <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Urmărește comanda</Link>
+            <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Contact</Link>
           </div>
         </div>
       )}
