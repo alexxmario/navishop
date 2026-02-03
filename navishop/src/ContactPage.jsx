@@ -310,42 +310,6 @@ const ContactPage = () => {
           </div>
         </div>
 
-        {/* FAQ Section */}
-        <div className="mt-16">
-          <div className="bg-white p-8 border border-gray-100">
-            <h2 className="text-2xl font-light mb-8 text-center">Întrebări frecvente</h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="font-medium mb-2">Cât durează instalarea?</h3>
-                <p className="text-gray-600 text-sm">
-                  Instalarea unei navigații durează în medie 2-4 ore, în funcție de complexitatea sistemului și vehiculul dvs.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="font-medium mb-2">Oferiți garanție?</h3>
-                <p className="text-gray-600 text-sm">
-                  Da, toate produsele vin cu garanție de 1 an și service gratuit în primul an.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="font-medium mb-2">Pot programa o instalare?</h3>
-                <p className="text-gray-600 text-sm">
-                  Desigur! Vă puteți programa o instalare prin telefon sau completând formularul de contact.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="font-medium mb-2">Acceptați plata în rate?</h3>
-                <p className="text-gray-600 text-sm">
-                  Da, acceptăm plata în rate prin partenerii noștri financiari, fără dobândă pentru 12 luni.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Recently Viewed */}

@@ -93,79 +93,67 @@ router.get('/profile', auth, async (req, res) => {
   }
 });
 
+const getFrontendUrl = () => process.env.FRONTEND_URL || 'http://localhost:3000';
+
 // Google OAuth routes
 router.get('/google', (req, res, next) => {
   if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
-    return res.redirect('http://localhost:3000/login?error=google_not_configured');
+    return res.redirect(`${getFrontendUrl()}/login?error=google_not_configured`);
   }
   passport.authenticate('google', { scope: ['profile', 'email'] })(req, res, next);
 });
 
 router.get('/google/callback', (req, res, next) => {
   if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
-    return res.redirect('http://localhost:3000/login?error=google_not_configured');
+    return res.redirect(`${getFrontendUrl()}/login?error=google_not_configured`);
   }
-  
-  passport.authenticate('google', { 
-    failureRedirect: 'http://localhost:3000/login?error=auth_failed' 
+
+  passport.authenticate('google', {
+    failureRedirect: `${getFrontendUrl()}/login?error=auth_failed`
   })(req, res, next);
 }, async (req, res) => {
   try {
-    console.log('Google OAuth callback - req.user:', req.user);
-    console.log('Google OAuth callback - req.user._id:', req.user._id);
-    console.log('Google OAuth callback - req.user.id:', req.user.id);
-    
     const token = jwt.sign(
-      { userId: req.user._id }, 
-      process.env.JWT_SECRET, 
+      { userId: req.user._id },
+      process.env.JWT_SECRET,
       { expiresIn: '7d' }
     );
-    
-    console.log('Generated JWT token for Google user');
-    
-    // Redirect to frontend home page with token
-    res.redirect(`http://localhost:3000/?token=${token}&user=${encodeURIComponent(JSON.stringify(req.user))}`);
+
+    res.redirect(`${getFrontendUrl()}/?token=${token}&user=${encodeURIComponent(JSON.stringify(req.user))}`);
   } catch (error) {
     console.error('Google callback error:', error);
-    res.redirect('http://localhost:3000/login?error=auth_failed');
+    res.redirect(`${getFrontendUrl()}/login?error=auth_failed`);
   }
 });
 
 // Facebook OAuth routes
 router.get('/facebook', (req, res, next) => {
   if (!process.env.FACEBOOK_APP_ID || !process.env.FACEBOOK_APP_SECRET) {
-    return res.redirect('http://localhost:3000/login?error=facebook_not_configured');
+    return res.redirect(`${getFrontendUrl()}/login?error=facebook_not_configured`);
   }
   passport.authenticate('facebook', { scope: ['email'] })(req, res, next);
 });
 
 router.get('/facebook/callback', (req, res, next) => {
   if (!process.env.FACEBOOK_APP_ID || !process.env.FACEBOOK_APP_SECRET) {
-    return res.redirect('http://localhost:3000/login?error=facebook_not_configured');
+    return res.redirect(`${getFrontendUrl()}/login?error=facebook_not_configured`);
   }
-  
-  passport.authenticate('facebook', { 
-    failureRedirect: 'http://localhost:3000/login?error=auth_failed' 
+
+  passport.authenticate('facebook', {
+    failureRedirect: `${getFrontendUrl()}/login?error=auth_failed`
   })(req, res, next);
 }, async (req, res) => {
   try {
-    console.log('Facebook OAuth callback - req.user:', req.user);
-    console.log('Facebook OAuth callback - req.user._id:', req.user._id);
-    console.log('Facebook OAuth callback - req.user.id:', req.user.id);
-    
     const token = jwt.sign(
-      { userId: req.user._id }, 
-      process.env.JWT_SECRET, 
+      { userId: req.user._id },
+      process.env.JWT_SECRET,
       { expiresIn: '7d' }
     );
-    
-    console.log('Generated JWT token for Facebook user');
-    
-    // Redirect to frontend home page with token
-    res.redirect(`http://localhost:3000/?token=${token}&user=${encodeURIComponent(JSON.stringify(req.user))}`);
+
+    res.redirect(`${getFrontendUrl()}/?token=${token}&user=${encodeURIComponent(JSON.stringify(req.user))}`);
   } catch (error) {
     console.error('Facebook callback error:', error);
-    res.redirect('http://localhost:3000/login?error=auth_failed');
+    res.redirect(`${getFrontendUrl()}/login?error=auth_failed`);
   }
 });
 
