@@ -1,11 +1,11 @@
 #!/bin/bash
-# VPS Setup Script for junsun.ro domain
+# VPS Setup Script for navi.piloton.ro domain
 # Run this script on your VPS at 31.14.23.20
 
 set -e  # Exit on any error
 
 echo "=========================================="
-echo "VPS Setup for junsun.ro"
+echo "VPS Setup for navi.piloton.ro"
 echo "=========================================="
 echo ""
 
@@ -17,9 +17,9 @@ cd /var/www/navishop/backend
 cp .env .env.backup.$(date +%Y%m%d_%H%M%S)
 
 # Update .env variables
-sed -i 's|FRONTEND_URL=.*|FRONTEND_URL=https://junsun.ro|' .env
-sed -i 's|CORS_ALLOWED_ORIGINS=.*|CORS_ALLOWED_ORIGINS=https://junsun.ro,https://www.junsun.ro,https://admin.junsun.ro,https://api.junsun.ro|' .env
-sed -i 's|EUPLATESC_MERCHANT_URL=.*|EUPLATESC_MERCHANT_URL=https://junsun.ro|' .env
+sed -i 's|FRONTEND_URL=.*|FRONTEND_URL=https://navi.piloton.ro|' .env
+sed -i 's|CORS_ALLOWED_ORIGINS=.*|CORS_ALLOWED_ORIGINS=https://navi.piloton.ro,https://admin.navi.piloton.ro,https://api.navi.piloton.ro|' .env
+sed -i 's|EUPLATESC_MERCHANT_URL=.*|EUPLATESC_MERCHANT_URL=https://navi.piloton.ro|' .env
 
 echo "✓ Backend .env updated"
 echo ""
@@ -40,7 +40,10 @@ if [ -f .env ]; then
 fi
 
 # Create new .env
-echo "REACT_APP_API_URL=https://api.junsun.ro" > .env
+cat > .env << EOF
+REACT_APP_API_URL=https://api.navi.piloton.ro/api
+REACT_APP_BASE_URL=https://api.navi.piloton.ro
+EOF
 
 echo "✓ Admin panel .env updated"
 echo ""

@@ -75,7 +75,6 @@ const Header = ({
                     <span className="text-lg">📍</span>
                     <span className="relative z-10 tracking-wide">GPS</span>
                   </Link>
-                  <Link to="/track-order" className="text-gray-700 hover:text-blue-600">Urmărește comanda</Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
                 </nav>
 
@@ -158,7 +157,6 @@ const Header = ({
               Produse
             </button>
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
-            <Link to="/track-order" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Urmărește comanda</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Contact</Link>
           </div>
         </div>

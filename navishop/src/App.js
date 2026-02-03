@@ -16,7 +16,6 @@ import DashboardPage from './DashboardPage';
 import ProtectedRoute from './ProtectedRoute';
 import CartPage from './CartPage';
 import CheckoutPage from './CheckoutPage';
-import TrackOrderPage from './TrackOrderPage';
 import BrandPage from './BrandPage';
 import ModelPage from './ModelPage';
 import PaymentSuccessPage from './PaymentSuccessPage';
@@ -48,7 +47,6 @@ function App() {
             } />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
-            <Route path="/track-order" element={<TrackOrderPage />} />
             <Route path="/payment/success" element={<PaymentSuccessPage />} />
             <Route path="/payment/cancel" element={<PaymentCancelPage />} />
             <Route path="/fan-courier-test" element={<FanCourierTestPage />} />

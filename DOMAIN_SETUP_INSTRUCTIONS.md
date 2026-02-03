@@ -1,27 +1,22 @@
-# Domain Setup Instructions for junsun.ro
+# Domain Setup Instructions for navi.piloton.ro
 
-## Step 1: Configure DNS Records in CyberFolks
+## Step 1: Configure DNS Records for piloton.ro
 
-Log into CyberFolks and add these DNS records for **junsun.ro**:
+Log into your DNS provider for **piloton.ro** and add these DNS records:
 
 ```
 Type: A
-Host: @
+Host: navi
 Points to: 31.14.23.20
 TTL: 3600
 
 Type: A
-Host: www
+Host: admin.navi
 Points to: 31.14.23.20
 TTL: 3600
 
 Type: A
-Host: admin
-Points to: 31.14.23.20
-TTL: 3600
-
-Type: A
-Host: api
+Host: api.navi
 Points to: 31.14.23.20
 TTL: 3600
 ```
@@ -36,26 +31,26 @@ Upload the three nginx config files to your VPS:
 
 ```bash
 # From your local machine
-scp nginx-configs/junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
-scp nginx-configs/admin.junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
-scp nginx-configs/api.junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
-```
+scp nginx-configs/navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
+scp nginx-configs/admin.navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
+scp nginx-configs/api.navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
 
-Then SSH into your VPS and enable the sites:
-
-```bash
-ssh root@31.14.23.20
+# Then SSH in and move them (requires sudo)
+ssh deploy@31.14.23.20
+sudo mv /tmp/navi.piloton.ro.conf /etc/nginx/sites-available/
+sudo mv /tmp/admin.navi.piloton.ro.conf /etc/nginx/sites-available/
+sudo mv /tmp/api.navi.piloton.ro.conf /etc/nginx/sites-available/
 
 # Enable the nginx configurations
-ln -s /etc/nginx/sites-available/junsun.ro.conf /etc/nginx/sites-enabled/
-ln -s /etc/nginx/sites-available/admin.junsun.ro.conf /etc/nginx/sites-enabled/
-ln -s /etc/nginx/sites-available/api.junsun.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/navi.piloton.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/admin.navi.piloton.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/api.navi.piloton.ro.conf /etc/nginx/sites-enabled/
 
 # Test nginx configuration
-nginx -t
+sudo nginx -t
 
 # Reload nginx
-systemctl reload nginx
+sudo systemctl reload nginx
 ```
 
 ---
@@ -64,13 +59,13 @@ systemctl reload nginx
 
 ```bash
 # Install certbot if not already installed
-apt update
-apt install certbot python3-certbot-nginx -y
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
 
 # Get SSL certificates for all domains
-certbot --nginx -d junsun.ro -d www.junsun.ro
-certbot --nginx -d admin.junsun.ro
-certbot --nginx -d api.junsun.ro
+sudo certbot --nginx -d navi.piloton.ro
+sudo certbot --nginx -d admin.navi.piloton.ro
+sudo certbot --nginx -d api.navi.piloton.ro
 
 # Certbot will automatically update your nginx configs with SSL
 ```
@@ -88,9 +83,9 @@ nano /var/www/navishop/backend/.env
 Update these lines:
 
 ```bash
-FRONTEND_URL=https://junsun.ro
-CORS_ALLOWED_ORIGINS=https://junsun.ro,https://www.junsun.ro,https://admin.junsun.ro,https://api.junsun.ro
-EUPLATESC_MERCHANT_URL=https://junsun.ro
+FRONTEND_URL=https://navi.piloton.ro
+CORS_ALLOWED_ORIGINS=https://navi.piloton.ro,https://admin.navi.piloton.ro,https://api.navi.piloton.ro
+EUPLATESC_MERCHANT_URL=https://navi.piloton.ro
 ```
 
 Restart the backend:
@@ -112,24 +107,29 @@ cd admin-panel
 
 # Create production .env file
 cat > .env << EOF
-REACT_APP_API_URL=https://api.junsun.ro
+REACT_APP_API_URL=https://api.navi.piloton.ro/api
+REACT_APP_BASE_URL=https://api.navi.piloton.ro
 EOF
 
 # Build
 npm run build
 
 # Upload to VPS
-scp -r build/* root@31.14.23.20:/var/www/admin-panel/
+scp -r build/* deploy@31.14.23.20:/tmp/admin-build/
+ssh deploy@31.14.23.20 "sudo cp -r /tmp/admin-build/* /var/www/admin-panel/"
 ```
 
 ### Option B: Build on VPS
 ```bash
-ssh root@31.14.23.20
+ssh deploy@31.14.23.20
 
 cd /var/www/navishop/admin-panel
 
 # Update .env
-echo "REACT_APP_API_URL=https://api.junsun.ro" > .env
+cat > .env << EOF
+REACT_APP_API_URL=https://api.navi.piloton.ro/api
+REACT_APP_BASE_URL=https://api.navi.piloton.ro
+EOF
 
 # Install dependencies if needed
 npm install
@@ -148,7 +148,8 @@ If you have a main e-commerce frontend, update its API URL:
 
 ```bash
 # Update frontend .env
-REACT_APP_API_URL=https://api.junsun.ro
+REACT_APP_API_URL=https://api.navi.piloton.ro/api
+REACT_APP_ASSET_BASE_URL=https://api.navi.piloton.ro
 
 # Rebuild and deploy
 npm run build
@@ -160,10 +161,9 @@ npm run build
 
 Test all domains:
 
-- https://junsun.ro - Main site
-- https://www.junsun.ro - Main site (www)
-- https://admin.junsun.ro - Admin panel
-- https://api.junsun.ro - API (should show "PilotOn API is running!")
+- https://navi.piloton.ro - Main site
+- https://admin.navi.piloton.ro - Admin panel
+- https://api.navi.piloton.ro - API (should show "PilotOn API is running!")
 
 ---
 
@@ -190,18 +190,18 @@ pm2 status
 ### If SSL doesn't work:
 ```bash
 # Check certificate status
-certbot certificates
+sudo certbot certificates
 
 # Renew if needed
-certbot renew --dry-run
+sudo certbot renew --dry-run
 ```
 
 ---
 
 ## Summary of URLs After Setup
 
-- **Main Website**: https://junsun.ro or https://www.junsun.ro
-- **Admin Panel**: https://admin.junsun.ro (internally proxied to port 81)
-- **API Backend**: https://api.junsun.ro (internally proxied to port 5001)
+- **Main Website**: https://navi.piloton.ro
+- **Admin Panel**: https://admin.navi.piloton.ro (internally proxied to port 81)
+- **API Backend**: https://api.navi.piloton.ro (internally proxied to port 5001)
 
 All traffic goes through nginx on ports 80/443, then gets routed internally to the correct ports.

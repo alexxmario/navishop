@@ -249,12 +249,6 @@ const CheckoutPage = () => {
             
             <div className="space-y-3">
               <Link
-                to="/track-order"
-                className="block w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                Urmărește comanda
-              </Link>
-              <Link
                 to="/"
                 className="block w-full bg-gray-100 text-gray-700 py-3 px-6 rounded-lg hover:bg-gray-200 transition-colors"
               >

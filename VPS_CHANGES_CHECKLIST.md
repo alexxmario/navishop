@@ -1,17 +1,17 @@
-# VPS Changes Checklist for junsun.ro
+# VPS Changes Checklist for navi.piloton.ro
 
 ## Option 1: Automated Script (Recommended)
 
 ### Step 1: Upload the script to VPS
 ```bash
-scp vps-setup-script.sh root@31.14.23.20:/root/
+scp vps-setup-script.sh deploy@31.14.23.20:/tmp/
 ```
 
 ### Step 2: SSH into VPS and run the script
 ```bash
-ssh root@31.14.23.20
-chmod +x vps-setup-script.sh
-./vps-setup-script.sh
+ssh deploy@31.14.23.20
+chmod +x /tmp/vps-setup-script.sh
+/tmp/vps-setup-script.sh
 ```
 
 ---
@@ -23,16 +23,16 @@ If you prefer to do it manually, follow these steps:
 ### 1. Update Backend .env File
 
 ```bash
-ssh root@31.14.23.20
+ssh deploy@31.14.23.20
 cd /var/www/navishop/backend
 nano .env
 ```
 
 **Change these 3 lines:**
 ```bash
-FRONTEND_URL=https://junsun.ro
-CORS_ALLOWED_ORIGINS=https://junsun.ro,https://www.junsun.ro,https://admin.junsun.ro,https://api.junsun.ro
-EUPLATESC_MERCHANT_URL=https://junsun.ro
+FRONTEND_URL=https://navi.piloton.ro
+CORS_ALLOWED_ORIGINS=https://navi.piloton.ro,https://admin.navi.piloton.ro,https://api.navi.piloton.ro
+EUPLATESC_MERCHANT_URL=https://navi.piloton.ro
 ```
 
 Save with `Ctrl+O`, `Enter`, then exit with `Ctrl+X`
@@ -48,7 +48,10 @@ pm2 restart backend
 
 ```bash
 cd /var/www/navishop/admin-panel
-echo "REACT_APP_API_URL=https://api.junsun.ro" > .env
+cat > .env << EOF
+REACT_APP_API_URL=https://api.navi.piloton.ro/api
+REACT_APP_BASE_URL=https://api.navi.piloton.ro
+EOF
 ```
 
 **Rebuild admin panel:**
@@ -70,9 +73,9 @@ pm2 restart all
 
 **From your local machine:**
 ```bash
-scp nginx-configs/junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
-scp nginx-configs/admin.junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
-scp nginx-configs/api.junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available/
+scp nginx-configs/navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
+scp nginx-configs/admin.navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
+scp nginx-configs/api.navi.piloton.ro.conf deploy@31.14.23.20:/tmp/
 ```
 
 ---
@@ -81,18 +84,23 @@ scp nginx-configs/api.junsun.ro.conf root@31.14.23.20:/etc/nginx/sites-available
 
 **SSH into VPS:**
 ```bash
-ssh root@31.14.23.20
+ssh deploy@31.14.23.20
+
+# Move configs to nginx directory
+sudo mv /tmp/navi.piloton.ro.conf /etc/nginx/sites-available/
+sudo mv /tmp/admin.navi.piloton.ro.conf /etc/nginx/sites-available/
+sudo mv /tmp/api.navi.piloton.ro.conf /etc/nginx/sites-available/
 
 # Enable the nginx configurations
-ln -s /etc/nginx/sites-available/junsun.ro.conf /etc/nginx/sites-enabled/
-ln -s /etc/nginx/sites-available/admin.junsun.ro.conf /etc/nginx/sites-enabled/
-ln -s /etc/nginx/sites-available/api.junsun.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/navi.piloton.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/admin.navi.piloton.ro.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/api.navi.piloton.ro.conf /etc/nginx/sites-enabled/
 
 # Test nginx configuration
-nginx -t
+sudo nginx -t
 
 # If test passes, reload nginx
-systemctl reload nginx
+sudo systemctl reload nginx
 ```
 
 ---
@@ -102,13 +110,13 @@ systemctl reload nginx
 **Still in SSH:**
 ```bash
 # Install certbot if not already installed
-apt update
-apt install certbot python3-certbot-nginx -y
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
 
 # Get SSL certificates for all domains
-certbot --nginx -d junsun.ro -d www.junsun.ro
-certbot --nginx -d admin.junsun.ro
-certbot --nginx -d api.junsun.ro
+sudo certbot --nginx -d navi.piloton.ro
+sudo certbot --nginx -d admin.navi.piloton.ro
+sudo certbot --nginx -d api.navi.piloton.ro
 ```
 
 **Follow the prompts:**
@@ -121,10 +129,9 @@ certbot --nginx -d api.junsun.ro
 ### 6. Verify Everything Works
 
 **Test all domains in your browser:**
-- https://junsun.ro
-- https://www.junsun.ro
-- https://admin.junsun.ro (should show your admin panel)
-- https://api.junsun.ro (should show "PilotOn API is running!")
+- https://navi.piloton.ro
+- https://admin.navi.piloton.ro (should show your admin panel)
+- https://api.navi.piloton.ro (should show "PilotOn API is running!")
 
 ---
 
@@ -133,7 +140,7 @@ certbot --nginx -d api.junsun.ro
 ### If nginx test fails:
 ```bash
 # Check for syntax errors
-nginx -t
+sudo nginx -t
 
 # View error details
 tail -f /var/log/nginx/error.log
@@ -169,12 +176,12 @@ pm2 logs admin
 ### If SSL fails:
 ```bash
 # Make sure DNS is propagated first
-nslookup junsun.ro
-nslookup admin.junsun.ro
-nslookup api.junsun.ro
+nslookup navi.piloton.ro
+nslookup admin.navi.piloton.ro
+nslookup api.navi.piloton.ro
 
 # Try certbot again
-certbot --nginx -d junsun.ro -d www.junsun.ro
+sudo certbot --nginx -d navi.piloton.ro
 ```
 
 ---
@@ -184,9 +191,9 @@ certbot --nginx -d junsun.ro -d www.junsun.ro
 ### Files Modified on VPS:
 1. `/var/www/navishop/backend/.env` - 3 lines changed
 2. `/var/www/navishop/admin-panel/.env` - created/updated
-3. `/etc/nginx/sites-available/junsun.ro.conf` - new file
-4. `/etc/nginx/sites-available/admin.junsun.ro.conf` - new file
-5. `/etc/nginx/sites-available/api.junsun.ro.conf` - new file
+3. `/etc/nginx/sites-available/navi.piloton.ro.conf` - new file
+4. `/etc/nginx/sites-available/admin.navi.piloton.ro.conf` - new file
+5. `/etc/nginx/sites-available/api.navi.piloton.ro.conf` - new file
 6. `/etc/nginx/sites-enabled/` - 3 new symlinks
 
 ### Services Restarted:
@@ -203,6 +210,6 @@ certbot --nginx -d junsun.ro -d www.junsun.ro
 - API: http://31.14.23.20:5001
 
 **After domain setup:**
-- Admin: https://admin.junsun.ro
-- API: https://api.junsun.ro
-- Main site: https://junsun.ro
+- Admin: https://admin.navi.piloton.ro
+- API: https://api.navi.piloton.ro
+- Main site: https://navi.piloton.ro
