@@ -305,8 +305,8 @@ router.post('/', auth, async (req, res) => {
         const baseReturnUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
         const paymentResult = euplatescService.createPayment(order, {
           description: `Plata pentru comanda ${order.orderNumber}`,
-          returnURL: `${baseReturnUrl}/payment-success?paymentId=:paymentId&orderNumber=:orderNumber`,
-          cancelURL: `${baseReturnUrl}/payment-cancel?paymentId=:paymentId&orderNumber=:orderNumber`
+          returnURL: `${baseReturnUrl}/payment/success?paymentId=:paymentId&orderNumber=:orderNumber`,
+          cancelURL: `${baseReturnUrl}/payment/cancel?paymentId=:paymentId&orderNumber=:orderNumber`
         });
 
         order.paymentId = paymentResult.paymentId;

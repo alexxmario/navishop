@@ -111,8 +111,8 @@ router.post('/', async (req, res) => {
 
         const paymentResult = euplatescService.createPayment(guestOrder, {
           description: `Plata pentru comanda ${guestOrder.orderNumber}`,
-          returnURL: `${baseReturnUrl}/payment-success?paymentId=:paymentId&orderNumber=:orderNumber`,
-          cancelURL: `${baseReturnUrl}/payment-cancel?paymentId=:paymentId&orderNumber=:orderNumber`
+          returnURL: `${baseReturnUrl}/payment/success?paymentId=:paymentId&orderNumber=:orderNumber`,
+          cancelURL: `${baseReturnUrl}/payment/cancel?paymentId=:paymentId&orderNumber=:orderNumber`
         });
 
         guestOrder.paymentId = paymentResult.paymentId;
