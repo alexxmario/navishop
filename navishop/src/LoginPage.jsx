@@ -34,8 +34,6 @@ const LoginPage = () => {
       setErrors({ general: 'Autentificarea a eșuat. Încercați din nou.' });
     } else if (error === 'google_not_configured') {
       setErrors({ general: 'Autentificarea cu Google nu este configurată momentan.' });
-    } else if (error === 'facebook_not_configured') {
-      setErrors({ general: 'Autentificarea cu Facebook nu este configurată momentan.' });
     }
   }, []);
 

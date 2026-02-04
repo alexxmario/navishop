@@ -126,35 +126,4 @@ router.get('/google/callback', (req, res, next) => {
   }
 });
 
-// Facebook OAuth routes
-router.get('/facebook', (req, res, next) => {
-  if (!process.env.FACEBOOK_APP_ID || !process.env.FACEBOOK_APP_SECRET) {
-    return res.redirect(`${getFrontendUrl()}/login?error=facebook_not_configured`);
-  }
-  passport.authenticate('facebook', { scope: ['email'] })(req, res, next);
-});
-
-router.get('/facebook/callback', (req, res, next) => {
-  if (!process.env.FACEBOOK_APP_ID || !process.env.FACEBOOK_APP_SECRET) {
-    return res.redirect(`${getFrontendUrl()}/login?error=facebook_not_configured`);
-  }
-
-  passport.authenticate('facebook', {
-    failureRedirect: `${getFrontendUrl()}/login?error=auth_failed`
-  })(req, res, next);
-}, async (req, res) => {
-  try {
-    const token = jwt.sign(
-      { userId: req.user._id },
-      process.env.JWT_SECRET,
-      { expiresIn: '7d' }
-    );
-
-    res.redirect(`${getFrontendUrl()}/?token=${token}&user=${encodeURIComponent(JSON.stringify(req.user))}`);
-  } catch (error) {
-    console.error('Facebook callback error:', error);
-    res.redirect(`${getFrontendUrl()}/login?error=auth_failed`);
-  }
-});
-
 module.exports = router;
