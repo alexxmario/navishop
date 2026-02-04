@@ -281,6 +281,7 @@ const OrderActions = () => {
   };
 
   const openDialog = (type) => {
+    window.alert('DEBUG: openDialog called with type=' + type);
     setActionType(type);
     setDialogOpen(true);
   };
