@@ -1,9 +1,11 @@
 import React from 'react';
 import { Admin, Resource, EditGuesser, ShowGuesser } from 'react-admin';
 import { ThemeProvider } from '@mui/material/styles';
+import polyglotI18nProvider from 'ra-i18n-polyglot';
 import dataProvider from './dataProvider';
 import authProvider from './authProvider';
 import pilotOnTheme from './theme';
+import romanianMessages from './romanianMessages';
 
 // Import custom components
 import { ProductList } from './components/ProductList';
@@ -20,12 +22,15 @@ import Dashboard from './components/Dashboard';
 import CustomLayout from './components/Layout';
 import LoginPage from './components/LoginPage';
 
+const i18nProvider = polyglotI18nProvider(() => romanianMessages, 'ro');
+
 function App() {
   return (
     <ThemeProvider theme={pilotOnTheme}>
-      <Admin 
-        dataProvider={dataProvider} 
+      <Admin
+        dataProvider={dataProvider}
         authProvider={authProvider}
+        i18nProvider={i18nProvider}
         title="PilotOn Admin"
         dashboard={Dashboard}
         layout={CustomLayout}

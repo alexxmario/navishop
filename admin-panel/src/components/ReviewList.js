@@ -142,21 +142,21 @@ const ReviewActionButtons = () => {
             {record.status !== 'approved' && (
               <MenuItem onClick={() => handleStatusChange('approved')}>
                 <CheckCircle sx={{ mr: 1, color: 'success.main' }} />
-                Approve
+                Aprobă
               </MenuItem>
             )}
 
             {record.status !== 'rejected' && (
               <MenuItem onClick={() => setAdminDialog(true)}>
                 <Cancel sx={{ mr: 1, color: 'error.main' }} />
-                Reject
+                Respinge
               </MenuItem>
             )}
 
             {record.status !== 'pending' && (
               <MenuItem onClick={() => handleStatusChange('pending')}>
                 <Pending sx={{ mr: 1, color: 'warning.main' }} />
-                Set Pending
+                Setează în așteptare
               </MenuItem>
             )}
           </Menu>
@@ -165,10 +165,10 @@ const ReviewActionButtons = () => {
 
       {/* Admin Notes Dialog */}
       <Dialog open={adminDialog} onClose={() => setAdminDialog(false)}>
-        <DialogTitle>Reject Review</DialogTitle>
+        <DialogTitle>Respinge recenzia</DialogTitle>
         <DialogContent>
           <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-            Optionally provide a reason for rejecting this review:
+            Opțional, specificați motivul respingerii:
           </Typography>
           <MuiTextField
             fullWidth
@@ -176,13 +176,13 @@ const ReviewActionButtons = () => {
             rows={3}
             value={adminNotes}
             onChange={(e) => setAdminNotes(e.target.value)}
-            placeholder="Reason for rejection (optional)"
+            placeholder="Motivul respingerii (opțional)"
           />
         </DialogContent>
         <DialogActions>
-          <Button onClick={() => setAdminDialog(false)}>Cancel</Button>
+          <Button onClick={() => setAdminDialog(false)}>Anulează</Button>
           <Button onClick={() => handleStatusChange('rejected')} color="error">
-            Reject Review
+            Respinge recenzia
           </Button>
         </DialogActions>
       </Dialog>
@@ -265,18 +265,18 @@ const ReviewProductField = () => {
 
 // Custom filters
 const ReviewFilters = [
-  <TextInput source="search" label="Search" alwaysOn />,
+  <TextInput source="search" label="Caută" alwaysOn />,
   <SelectInput source="status" label="Status" choices={[
-    { id: 'pending', name: 'Pending' },
-    { id: 'approved', name: 'Approved' },
-    { id: 'rejected', name: 'Rejected' },
+    { id: 'pending', name: 'În așteptare' },
+    { id: 'approved', name: 'Aprobată' },
+    { id: 'rejected', name: 'Respinsă' },
   ]} />,
-  <SelectInput source="rating" label="Rating" choices={[
-    { id: '5', name: '5 Stars' },
-    { id: '4', name: '4 Stars' },
-    { id: '3', name: '3 Stars' },
-    { id: '2', name: '2 Stars' },
-    { id: '1', name: '1 Star' },
+  <SelectInput source="rating" label="Evaluare" choices={[
+    { id: '5', name: '5 Stele' },
+    { id: '4', name: '4 Stele' },
+    { id: '3', name: '3 Stele' },
+    { id: '2', name: '2 Stele' },
+    { id: '1', name: '1 Stea' },
   ]} />,
 ];
 
@@ -321,7 +321,7 @@ const ReviewBulkActions = () => (
 export const ReviewList = () => {
   return (
     <List
-      title="Review Management"
+      title="Gestionare recenzii"
       filters={<FilterForm filters={ReviewFilters} />}
       actions={<ReviewListActions />}
       bulkActionButtons={<ReviewBulkActions />}
@@ -329,7 +329,7 @@ export const ReviewList = () => {
       sort={{ field: 'createdAt', order: 'DESC' }}
     >
       <Datagrid rowClick="show" bulkActionButtons={<ReviewBulkActions />}>
-        <TextField source="userName" label="Customer" />
+        <TextField source="userName" label="Client" />
 
         <FunctionField
           label="Produs"
@@ -342,16 +342,16 @@ export const ReviewList = () => {
         />
 
         <FunctionField
-          label="Review"
+          label="Recenzie"
           render={() => <ReviewPreview />}
         />
 
         <FunctionField
-          label="Helpful Votes"
+          label="Voturi utile"
           render={() => <HelpfulVotesDisplay />}
         />
 
-        <DateField source="createdAt" label="Date" />
+        <DateField source="createdAt" label="Data" />
 
         <FunctionField
           label="Status"

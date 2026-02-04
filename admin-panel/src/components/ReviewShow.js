@@ -91,13 +91,13 @@ const ReviewContent = () => {
               <Typography variant="h6">({record.rating}/5)</Typography>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, ml: 2 }}>
                 <ThumbUp sx={{ fontSize: 16 }} />
-                <Typography variant="body2">{record.helpfulVotes} helpful votes</Typography>
+                <Typography variant="body2">{record.helpfulVotes} voturi utile</Typography>
               </Box>
             </Box>
 
             <Typography variant="body2" color="textSecondary">
               <Schedule sx={{ fontSize: 16, mr: 1, verticalAlign: 'middle' }} />
-              Submitted on {new Date(record.createdAt).toLocaleDateString('ro-RO', {
+              Trimisă pe {new Date(record.createdAt).toLocaleDateString('ro-RO', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -113,7 +113,7 @@ const ReviewContent = () => {
       <Grid item xs={12}>
         <Card>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Review Title</Typography>
+            <Typography variant="h6" gutterBottom>Titlu recenzie</Typography>
             <Typography variant="h5" sx={{ fontWeight: 'bold', color: 'primary.main' }}>
               {record.title}
             </Typography>
@@ -125,7 +125,7 @@ const ReviewContent = () => {
       <Grid item xs={12}>
         <Card>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Review Content</Typography>
+            <Typography variant="h6" gutterBottom>Conținut recenzie</Typography>
             <Typography
               variant="body1"
               sx={{
@@ -150,10 +150,10 @@ const ReviewContent = () => {
           <Card>
             <CardContent>
               <Typography variant="h6" gutterBottom color="error">
-                Admin Notes
+                Note admin
               </Typography>
               <Typography variant="body1">
-                {record.adminNotes || 'No admin notes provided.'}
+                {record.adminNotes || 'Nu au fost adăugate note de admin.'}
               </Typography>
             </CardContent>
           </Card>
@@ -165,7 +165,7 @@ const ReviewContent = () => {
         <Grid item xs={12}>
           <Card>
             <CardContent>
-              <Typography variant="h6" gutterBottom>Review Images</Typography>
+              <Typography variant="h6" gutterBottom>Imagini recenzie</Typography>
               <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
                 {record.images.map((image, index) => (
                   <img
@@ -191,9 +191,9 @@ const ReviewContent = () => {
       <Grid item xs={12}>
         <Card>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Verification Status</Typography>
+            <Typography variant="h6" gutterBottom>Status verificare</Typography>
             <Chip
-              label={record.verified ? 'Verified Purchase' : 'Unverified'}
+              label={record.verified ? 'Achiziție verificată' : 'Neverificată'}
               color={record.verified ? 'success' : 'default'}
               variant={record.verified ? 'filled' : 'outlined'}
             />
@@ -248,7 +248,7 @@ const ReviewAdminActions = () => {
             startIcon={<CheckCircle />}
             onClick={() => handleStatusChange('approved')}
           >
-            Approve
+            Aprobă
           </Button>
         )}
 
@@ -259,7 +259,7 @@ const ReviewAdminActions = () => {
             startIcon={<Cancel />}
             onClick={() => setAdminDialog(true)}
           >
-            Reject
+            Respinge
           </Button>
         )}
 
@@ -270,7 +270,7 @@ const ReviewAdminActions = () => {
             startIcon={<Pending />}
             onClick={() => handleStatusChange('pending')}
           >
-            Set Pending
+            Setează în așteptare
           </Button>
         )}
       </Box>
@@ -280,10 +280,10 @@ const ReviewAdminActions = () => {
 
       {/* Admin Notes Dialog */}
       <Dialog open={adminDialog} onClose={() => setAdminDialog(false)} maxWidth="sm" fullWidth>
-        <DialogTitle>Reject Review</DialogTitle>
+        <DialogTitle>Respinge recenzia</DialogTitle>
         <DialogContent>
           <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-            Optionally provide a reason for rejecting this review:
+            Opțional, specificați motivul respingerii:
           </Typography>
           <MuiTextField
             fullWidth
@@ -291,14 +291,14 @@ const ReviewAdminActions = () => {
             rows={4}
             value={adminNotes}
             onChange={(e) => setAdminNotes(e.target.value)}
-            placeholder="Reason for rejection (optional)"
+            placeholder="Motivul respingerii (opțional)"
             variant="outlined"
           />
         </DialogContent>
         <DialogActions>
-          <Button onClick={() => setAdminDialog(false)}>Cancel</Button>
+          <Button onClick={() => setAdminDialog(false)}>Anulează</Button>
           <Button onClick={() => handleStatusChange('rejected')} color="error" variant="contained">
-            Reject Review
+            Respinge recenzia
           </Button>
         </DialogActions>
       </Dialog>
@@ -342,7 +342,7 @@ const ProductInformation = () => {
 // Main ReviewShow component
 export const ReviewShow = () => {
   return (
-    <Show title="Review Details" actions={<ReviewAdminActions />}>
+    <Show title="Detalii recenzie" actions={<ReviewAdminActions />}>
       <SimpleShowLayout>
         {/* Product Information */}
         <FunctionField render={() => <ProductInformation />} />

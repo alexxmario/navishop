@@ -19,31 +19,31 @@ import { Box, Typography, Chip, Card, CardContent, Avatar } from '@mui/material'
 import { ShoppingBag, Person, Payment, LocalShipping } from '@mui/icons-material';
 
 const OrderFilters = [
-  <TextInput source="orderNumber" placeholder="Order Number" alwaysOn />,
+  <TextInput source="orderNumber" placeholder="Număr comandă" alwaysOn />,
   <SelectInput
     source="status"
     choices={[
-      { id: 'pending', name: 'Pending' },
-      { id: 'confirmed', name: 'Confirmed' },
-      { id: 'processing', name: 'Processing' },
-      { id: 'shipped', name: 'Shipped' },
-      { id: 'delivered', name: 'Delivered' },
-      { id: 'cancelled', name: 'Cancelled' },
+      { id: 'pending', name: 'În așteptare' },
+      { id: 'confirmed', name: 'Confirmată' },
+      { id: 'processing', name: 'În procesare' },
+      { id: 'shipped', name: 'Expediată' },
+      { id: 'delivered', name: 'Livrată' },
+      { id: 'cancelled', name: 'Anulată' },
     ]}
     alwaysOn
   />,
   <SelectInput
     source="paymentMethod"
     choices={[
-      { id: 'cash_on_delivery', name: 'Cash on Delivery' },
-      { id: 'bank_transfer', name: 'Bank Transfer' },
+      { id: 'cash_on_delivery', name: 'Ramburs' },
+      { id: 'bank_transfer', name: 'Transfer bancar' },
       { id: 'card', name: 'Card' },
       { id: 'smartbill_online', name: 'SmartBill Online' },
       { id: 'smartbill_transfer', name: 'SmartBill Transfer' },
     ]}
   />,
-  <DateInput source="createdFrom" label="From Date" />,
-  <DateInput source="createdTo" label="To Date" />,
+  <DateInput source="createdFrom" label="De la data" />,
+  <DateInput source="createdTo" label="Până la data" />,
 ];
 
 const OrderSidebar = () => (
@@ -68,12 +68,12 @@ const OrderSidebar = () => (
           <ShoppingBag />
         </Avatar>
         <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-          Filter Orders
+          Filtrează comenzi
         </Typography>
       </Box>
       
       <FilterList 
-        label="Order Status" 
+        label="Status comandă" 
         icon={<ShoppingBag sx={{ fontSize: 20 }} />}
         sx={{
           '& .MuiCollapse-root': {
@@ -89,16 +89,16 @@ const OrderSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="Pending" value={{ status: 'pending' }} />
-        <FilterListItem label="Confirmed" value={{ status: 'confirmed' }} />
-        <FilterListItem label="Processing" value={{ status: 'processing' }} />
-        <FilterListItem label="Shipped" value={{ status: 'shipped' }} />
-        <FilterListItem label="Delivered" value={{ status: 'delivered' }} />
-        <FilterListItem label="Cancelled" value={{ status: 'cancelled' }} />
+        <FilterListItem label="În așteptare" value={{ status: 'pending' }} />
+        <FilterListItem label="Confirmată" value={{ status: 'confirmed' }} />
+        <FilterListItem label="În procesare" value={{ status: 'processing' }} />
+        <FilterListItem label="Expediată" value={{ status: 'shipped' }} />
+        <FilterListItem label="Livrată" value={{ status: 'delivered' }} />
+        <FilterListItem label="Anulată" value={{ status: 'cancelled' }} />
       </FilterList>
       
       <FilterList 
-        label="Payment Status" 
+        label="Status plată" 
         icon={<Payment sx={{ fontSize: 20 }} />}
         sx={{
           mt: 2,
@@ -115,9 +115,9 @@ const OrderSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="Pending Payment" value={{ paymentStatus: 'pending' }} />
-        <FilterListItem label="Payment Completed" value={{ paymentStatus: 'completed' }} />
-        <FilterListItem label="Payment Failed" value={{ paymentStatus: 'failed' }} />
+        <FilterListItem label="Plată în așteptare" value={{ paymentStatus: 'pending' }} />
+        <FilterListItem label="Plată finalizată" value={{ paymentStatus: 'completed' }} />
+        <FilterListItem label="Plată eșuată" value={{ paymentStatus: 'failed' }} />
       </FilterList>
     </CardContent>
   </Card>
@@ -178,7 +178,7 @@ export const OrderList = () => (
       <TextField source="orderNumber" />
       
       <FunctionField
-        label="Customer"
+        label="Client"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
             <Avatar sx={{ 
@@ -195,7 +195,7 @@ export const OrderList = () => (
                 </Typography>
                 {record.orderType === 'guest' && (
                   <Chip 
-                    label="Guest" 
+                    label="Vizitator" 
                     size="small" 
                     sx={{ 
                       fontSize: '0.6rem', 
@@ -216,10 +216,10 @@ export const OrderList = () => (
       />
       
       <FunctionField
-        label="Items"
+        label="Produse"
         render={record => (
           <Typography variant="body2">
-            {record.items?.length || 0} items
+            {record.items?.length || 0} produse
           </Typography>
         )}
       />
@@ -238,7 +238,7 @@ export const OrderList = () => (
       />
       
       <FunctionField
-        label="Payment"
+        label="Plată"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <Payment sx={{ fontSize: 16, color: 'text.secondary' }} />
@@ -258,7 +258,7 @@ export const OrderList = () => (
       />
       
       <FunctionField
-        label="Shipping"
+        label="Livrare"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <LocalShipping sx={{ fontSize: 16, color: 'text.secondary' }} />
@@ -269,7 +269,7 @@ export const OrderList = () => (
                 </Typography>
               ) : (
                 <Typography variant="body2" color="textSecondary">
-                  Not shipped
+                  Neexpediat
                 </Typography>
               )}
               {record.trackingCode && (

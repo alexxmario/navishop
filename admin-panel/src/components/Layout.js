@@ -36,7 +36,7 @@ const CustomAppBar = () => (
             marginTop: '-2px'
           }}
         >
-          Navigation Systems Admin
+          Administrare Sisteme de Navigație
         </Typography>
       </Box>
     </Box>
@@ -69,7 +69,7 @@ const CustomSidebar = () => (
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Business sx={{ color: '#1976d2', fontSize: 20 }} />
         <Typography variant="body2" sx={{ fontWeight: 600, color: '#333' }}>
-          Admin Panel
+          Panou de Administrare
         </Typography>
       </Box>
     </Box>

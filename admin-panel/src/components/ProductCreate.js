@@ -50,14 +50,14 @@ const ProductDetailsSection = () => {
   return (
     <Card sx={{ p: 3, mb: 3 }}>
       <Typography variant="h6" gutterBottom>
-        Product Details
+        Detalii produs
       </Typography>
 
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <TextInput
             source="name"
-            label="Product Name"
+            label="Nume produs"
             fullWidth
             validate={requiredField}
             sx={{
@@ -74,8 +74,8 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={6}>
           <TextInput
             source="slug"
-            label="URL Slug"
-            helperText="Used in the storefront URL (e.g. /product/your-slug)"
+            label="Slug URL"
+            helperText="Folosit în URL-ul magazinului (ex: /product/slug-ul-dvs)"
             fullWidth
             validate={requiredField}
             onChange={markSlugEdited}
@@ -104,7 +104,7 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={4}>
           <TextInput
             source="model"
-            label="Model / Generation"
+            label="Model / Generație"
             fullWidth
             required
             sx={{
@@ -118,7 +118,7 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={4}>
           <SelectInput
             source="category"
-            label="Category"
+            label="Categorie"
             fullWidth
             validate={requiredCategory}
             choices={[
@@ -140,7 +140,7 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={6}>
           <TextInput
             source="sku"
-            label="SKU / Internal Code"
+            label="SKU / Cod intern"
             fullWidth
             validate={requiredField}
             sx={{
@@ -160,26 +160,26 @@ const ProductCreateForm = () => {
   return (
     <TabbedForm>
       {/* Tab 1: Images */}
-      <FormTab label="Images">
+      <FormTab label="Imagini">
         <ImageField source="images" maxImages={20} />
       </FormTab>
 
       {/* Tab 2: Pricing & Stock */}
-      <FormTab label="Pricing & Stock">
+      <FormTab label="Prețuri și Stoc">
         {/* Basic Details */}
         <ProductDetailsSection />
 
         {/* Pricing Section */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Pricing Information
+            Informații prețuri
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="price"
-                label="Current Price"
+                label="Preț curent"
                 fullWidth
                 defaultValue={0}
                 validate={requiredNumber}
@@ -194,7 +194,7 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="originalPrice"
-                label="Original Price"
+                label="Preț original"
                 fullWidth
                 defaultValue={0}
                 validate={[minValue(0)]}
@@ -209,7 +209,7 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="discount"
-                label="Discount %"
+                label="Reducere %"
                 fullWidth
                 defaultValue={0}
                 validate={[minValue(0)]}
@@ -227,14 +227,14 @@ const ProductCreateForm = () => {
         {/* Stock Management */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Stock Management
+            Gestionare stoc
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="stock"
-                label="Stock Quantity"
+                label="Cantitate în stoc"
                 fullWidth
                 defaultValue={0}
                 validate={requiredNumber}
@@ -249,7 +249,7 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="lowStockThreshold"
-                label="Low Stock Alert"
+                label="Alertă stoc redus"
                 fullWidth
                 defaultValue={5}
                 validate={[minValue(0)]}
@@ -264,13 +264,13 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <SelectInput
                 source="status"
-                label="Product Status"
+                label="Status produs"
                 fullWidth
                 defaultValue="active"
                 choices={[
-                  { id: 'active', name: 'Active' },
-                  { id: 'inactive', name: 'Inactive (Hidden from Frontend)' },
-                  { id: 'discontinued', name: 'Discontinued' },
+                  { id: 'active', name: 'Activ' },
+                  { id: 'inactive', name: 'Inactiv (Ascuns din magazin)' },
+                  { id: 'discontinued', name: 'Întrerupt' },
                 ]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -286,14 +286,14 @@ const ProductCreateForm = () => {
         {/* Product Flags */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Product Flags
+            Etichete produs
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="featured"
-                label="Featured Product"
+                label="Produs recomandat"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -307,7 +307,7 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="newProduct"
-                label="New Product"
+                label="Produs nou"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -321,7 +321,7 @@ const ProductCreateForm = () => {
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="onSale"
-                label="On Sale"
+                label="La reducere"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -337,16 +337,16 @@ const ProductCreateForm = () => {
       </FormTab>
 
       {/* Tab 3: SEO & Tags */}
-      <FormTab label="SEO & Tags">
+      <FormTab label="SEO și Etichete">
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            SEO Information
+            Informații SEO
           </Typography>
 
           <TextInput
             source="seoTitle"
             fullWidth
-            label="SEO Title"
+            label="Titlu SEO"
             sx={{
               mb: 3,
               '& .MuiOutlinedInput-root': {
@@ -361,7 +361,7 @@ const ProductCreateForm = () => {
             multiline
             rows={4}
             fullWidth
-            label="SEO Description"
+            label="Descriere SEO"
             sx={{
               mb: 3,
               '& .MuiOutlinedInput-root': {
@@ -377,7 +377,7 @@ const ProductCreateForm = () => {
             <SimpleFormIterator>
               <TextInput
                 fullWidth
-                label="Tag"
+                label="Etichetă"
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.1rem',
@@ -391,7 +391,7 @@ const ProductCreateForm = () => {
       </FormTab>
 
       {/* Tab 4: Romanian Specifications */}
-      <FormTab label="Romanian Specifications">
+      <FormTab label="Specificații">
         {/* Hardware */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
@@ -695,7 +695,7 @@ const ProductCreateForm = () => {
       </FormTab>
 
       {/* Tab 6: Structured Description */}
-      <FormTab label="Structured Description">
+      <FormTab label="Descriere structurată">
         <StructuredDescriptionEditor source="structuredDescription.sections" />
       </FormTab>
     </TabbedForm>

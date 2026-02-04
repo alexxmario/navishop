@@ -119,7 +119,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
       <Card>
         <CardContent>
           <Typography variant="body2" color="text.secondary" align="center">
-            No 360° images available
+            Nu sunt disponibile imagini 360°
           </Typography>
         </CardContent>
       </Card>
@@ -189,7 +189,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
           >
             <ThreeSixty sx={{ fontSize: 16 }} />
             <Typography variant="caption" fontWeight="bold">
-              360° VIEW
+              VIZUALIZARE 360°
             </Typography>
           </Paper>
 
@@ -228,7 +228,7 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
               }}
             >
               <Typography variant="caption">
-                🖱️ Drag to rotate or use controls below
+                Trageți pentru a roti sau folosiți controalele
               </Typography>
             </Paper>
           )}
@@ -257,13 +257,13 @@ const ImageSlider360 = ({ images = [], productName = 'Product' }) => {
         <CardContent>
           {/* Rotation Controls */}
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
-            <Tooltip title="Rotate Left">
+            <Tooltip title="Rotește la stânga">
               <IconButton onClick={rotateLeft} size="large">
                 <RotateLeft />
               </IconButton>
             </Tooltip>
             
-            <Tooltip title={isAutoRotating ? "Pause Auto-Rotation" : "Start Auto-Rotation"}>
+            <Tooltip title={isAutoRotating ? "Oprește rotirea automată" : "Pornește rotirea automată"}>
               <IconButton 
                 onClick={toggleAutoRotate} 
                 size="large"

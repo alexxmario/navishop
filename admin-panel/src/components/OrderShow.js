@@ -10,7 +10,6 @@ import {
   useShowController,
   useUpdate,
   useNotify,
-  Button,
   TopToolbar,
   EditButton,
 } from 'react-admin';
@@ -33,6 +32,7 @@ import {
   DialogTitle,
   DialogContent,
   DialogActions,
+  Button,
 } from '@mui/material';
 import {
   CheckCircle as ConfirmIcon,
@@ -106,7 +106,7 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
   if (loading) {
     return (
       <Box sx={{ mt: 3, textAlign: 'center', py: 4 }}>
-        <Typography>Loading invoice PDF...</Typography>
+        <Typography>Se încarcă factura PDF...</Typography>
       </Box>
     );
   }
@@ -114,7 +114,7 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
   if (error) {
     return (
       <Alert severity="error" sx={{ mt: 2 }}>
-        <Typography variant="body2">Failed to load invoice: {error}</Typography>
+        <Typography variant="body2">Eroare la încărcarea facturii: {error}</Typography>
       </Alert>
     );
   }
@@ -122,7 +122,7 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
   return (
     <Box sx={{ mt: 3 }}>
       <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
-        SmartBill Invoice Preview
+        Previzualizare factură SmartBill
       </Typography>
       <Box
         sx={{
@@ -146,11 +146,12 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
       <Box sx={{ mt: 2 }}>
         <Button
           variant="contained"
+          component="a"
           href={pdfUrl}
           download={`factura-${invoiceNumber}.pdf`}
           startIcon={<InvoiceIcon />}
         >
-          Download Invoice PDF
+          Descarcă factura PDF
         </Button>
       </Box>
     </Box>
@@ -200,7 +201,7 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
   if (loading) {
     return (
       <Box sx={{ mt: 3, textAlign: 'center', py: 4 }}>
-        <Typography>Loading AWB label PDF...</Typography>
+        <Typography>Se încarcă eticheta AWB...</Typography>
       </Box>
     );
   }
@@ -208,7 +209,7 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
   if (error) {
     return (
       <Alert severity="error" sx={{ mt: 2 }}>
-        <Typography variant="body2">Failed to load AWB label: {error}</Typography>
+        <Typography variant="body2">Eroare la încărcarea etichetei AWB: {error}</Typography>
       </Alert>
     );
   }
@@ -216,7 +217,7 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
   return (
     <Box sx={{ mt: 3 }}>
       <Typography variant="subtitle1" gutterBottom sx={{ fontWeight: 600 }}>
-        Fan Courier AWB Label Preview
+        Previzualizare etichetă AWB Fan Courier
       </Typography>
       <Box
         sx={{
@@ -240,11 +241,12 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
       <Box sx={{ mt: 2 }}>
         <Button
           variant="contained"
+          component="a"
           href={pdfUrl}
           download={`awb-${awbNumber}.pdf`}
           startIcon={<ShipIcon />}
         >
-          Download AWB Label PDF
+          Descarcă eticheta AWB
         </Button>
       </Box>
     </Box>
@@ -296,130 +298,134 @@ const OrderActions = () => {
         <EditButton />
         {canConfirm && (
           <Button
-            label="Confirm Order"
             onClick={() => openDialog('confirm')}
             startIcon={<ConfirmIcon />}
             variant="contained"
             color="primary"
             sx={{ ml: 1 }}
-          />
+          >
+            Confirmă comanda
+          </Button>
         )}
         {canProcess && (
           <Button
-            label="PROCESS → SmartBill"
             onClick={() => openDialog('process')}
             startIcon={<InvoiceIcon />}
             variant="contained"
             color="secondary"
             sx={{ ml: 1, fontWeight: 'bold' }}
-          />
+          >
+            PROCESEAZĂ → SmartBill
+          </Button>
         )}
         {canShip && (
           <Button
-            label="Ship Order"
             onClick={() => openDialog('ship')}
             startIcon={<ShipIcon />}
             variant="contained"
             color="success"
             sx={{ ml: 1 }}
-          />
+          >
+            Expediază comanda
+          </Button>
         )}
         {canCancel && (
           <Button
-            label="Cancel Order"
             onClick={() => openDialog('cancel')}
             startIcon={<CancelIcon />}
             variant="outlined"
             color="error"
             sx={{ ml: 1 }}
-          />
+          >
+            Anulează comanda
+          </Button>
         )}
       </TopToolbar>
 
       <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)} maxWidth="sm" fullWidth>
         <DialogTitle sx={{ bgcolor: 'primary.main', color: 'white' }}>
-          {actionType === 'confirm' && 'Confirm Order'}
-          {actionType === 'process' && 'Process Order & Generate Invoice'}
-          {actionType === 'ship' && 'Ship Order & Generate AWB'}
-          {actionType === 'cancel' && 'Cancel Order'}
+          {actionType === 'confirm' && 'Confirmă comanda'}
+          {actionType === 'process' && 'Procesează comanda și generează factura'}
+          {actionType === 'ship' && 'Expediază comanda și generează AWB'}
+          {actionType === 'cancel' && 'Anulează comanda'}
         </DialogTitle>
         <DialogContent sx={{ pt: 3 }}>
           {actionType === 'confirm' && (
             <Alert severity="info" sx={{ mb: 2 }}>
               <Typography variant="body2">
-                This will confirm the order and notify the customer. The order status will change to <strong>"Confirmed"</strong>.
+                Aceasta va confirma comanda și va notifica clientul. Statusul comenzii se va schimba în <strong>"Confirmată"</strong>.
               </Typography>
             </Alert>
           )}
           {actionType === 'process' && (
             <Alert severity="warning" sx={{ mb: 2 }}>
               <Typography variant="body2" gutterBottom>
-                <strong>⚡ Manual SmartBill Processing</strong>
+                <strong>⚡ Procesare manuală SmartBill</strong>
               </Typography>
               <Typography variant="body2" gutterBottom>
-                This will:
+                Aceasta va:
               </Typography>
               <ul style={{ margin: 0, paddingLeft: '20px' }}>
-                <li><strong>Generate SmartBill invoice</strong> (this is now done manually by admin)</li>
-                <li>Change order status to "Processing"</li>
-                <li>Send invoice to customer via email</li>
-                <li>Generate payment URL if payment method is SmartBill Online</li>
+                <li><strong>Genera factura SmartBill</strong> (acum se face manual de admin)</li>
+                <li>Schimba statusul comenzii în "În procesare"</li>
+                <li>Trimite factura clientului prin email</li>
+                <li>Genera URL de plată dacă metoda de plată este SmartBill Online</li>
               </ul>
             </Alert>
           )}
           {actionType === 'ship' && (
             <Alert severity="info" sx={{ mb: 2 }}>
               <Typography variant="body2" gutterBottom>
-                This will:
+                Aceasta va:
               </Typography>
               <ul style={{ margin: 0, paddingLeft: '20px' }}>
-                <li>Generate Fan Courier AWB</li>
-                <li>Change status to "Shipped"</li>
-                <li>Send tracking information to customer</li>
+                <li>Genera AWB Fan Courier</li>
+                <li>Schimba statusul în "Expediată"</li>
+                <li>Trimite informațiile de urmărire clientului</li>
               </ul>
             </Alert>
           )}
           {actionType === 'cancel' && (
             <Alert severity="error" sx={{ mb: 2 }}>
               <Typography variant="body2">
-                This will cancel the order and notify the customer. <strong>This action cannot be undone.</strong>
+                Aceasta va anula comanda și va notifica clientul. <strong>Această acțiune nu poate fi anulată.</strong>
               </Typography>
             </Alert>
           )}
           
           <Box sx={{ mt: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
             <Typography variant="subtitle2" gutterBottom>
-              Order Details:
+              Detalii comandă:
             </Typography>
             <Typography variant="body2" color="textSecondary">
               Order #{record.orderNumber} - {record.grandTotal} RON
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              Customer: {record.shippingAddress?.firstName} {record.shippingAddress?.lastName}
+              Client: {record.shippingAddress?.firstName} {record.shippingAddress?.lastName}
             </Typography>
           </Box>
         </DialogContent>
         <DialogActions sx={{ p: 3 }}>
-          <Button onClick={() => setDialogOpen(false)} disabled={loading}>
-            Cancel
+          <Button onClick={() => setDialogOpen(false)} disabled={loading} variant="text">
+            Anulează
           </Button>
           <Button
             onClick={() => handleAction(actionType)}
             variant="contained"
             color={actionType === 'cancel' ? 'error' : 'primary'}
             disabled={loading}
-            startIcon={loading ? null : 
+            startIcon={loading ? null :
               actionType === 'confirm' ? <ConfirmIcon /> :
               actionType === 'process' ? <InvoiceIcon /> :
               actionType === 'ship' ? <ShipIcon /> :
               <CancelIcon />
             }
           >
-            {loading ? 'Processing...' : 
-             actionType === 'confirm' ? 'Confirm Order' :
-             actionType === 'process' ? 'Process & Invoice' :
-             actionType === 'ship' ? 'Ship Order' :
-             'Cancel Order'
+            {loading ? 'Se procesează...' :
+             actionType === 'confirm' ? 'Confirmă comanda' :
+             actionType === 'process' ? 'Procesează și facturează' :
+             actionType === 'ship' ? 'Expediază comanda' :
+             'Anulează comanda'
             }
           </Button>
         </DialogActions>
@@ -433,7 +439,7 @@ const OrderStatusSection = ({ record }) => {
     return (
       <Alert severity="error" sx={{ mb: 3 }}>
         <Typography variant="body2">
-          Order was cancelled on {new Date(record.updatedAt).toLocaleDateString()}
+          Comanda a fost anulată la {new Date(record.updatedAt).toLocaleDateString()}
         </Typography>
       </Alert>
     );
@@ -445,7 +451,7 @@ const OrderStatusSection = ({ record }) => {
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box>
             <Typography variant="h6" gutterBottom>
-              Order Status
+              Status comandă
             </Typography>
             <Chip 
               label={record.status}
@@ -461,7 +467,7 @@ const OrderStatusSection = ({ record }) => {
           </Box>
           <Box sx={{ textAlign: 'right' }}>
             <Typography variant="body2" color="textSecondary" gutterBottom>
-              Last Updated
+              Ultima actualizare
             </Typography>
             <Typography variant="body2">
               {new Date(record.updatedAt).toLocaleDateString()}
@@ -472,12 +478,12 @@ const OrderStatusSection = ({ record }) => {
         {/* Quick Action Hints */}
         <Box sx={{ mt: 2, p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
           <Typography variant="body2" sx={{ color: 'white', fontWeight: 500 }}>
-            💡 Next Action: 
-            {record.status === 'pending' && ' Confirm this order to proceed with processing'}
-            {record.status === 'confirmed' && ' 🔥 PROCESS order to manually generate SmartBill invoice'}
-            {record.status === 'processing' && ' Ship order to generate Fan Courier AWB'}
-            {record.status === 'shipped' && ' Order is on its way to customer'}
-            {record.status === 'delivered' && ' Order completed successfully'}
+            💡 Acțiunea următoare:
+            {record.status === 'pending' && ' Confirmați comanda pentru a continua'}
+            {record.status === 'confirmed' && ' 🔥 PROCESAȚI comanda pentru a genera factura SmartBill'}
+            {record.status === 'processing' && ' Expediați comanda pentru a genera AWB Fan Courier'}
+            {record.status === 'shipped' && ' Comanda este pe drum spre client'}
+            {record.status === 'delivered' && ' Comanda a fost finalizată cu succes'}
           </Typography>
         </Box>
       </CardContent>
@@ -488,7 +494,7 @@ const OrderStatusSection = ({ record }) => {
 export const OrderShow = () => (
   <Show actions={<OrderActions />}>
     <TabbedShowLayout>
-      <Tab label="Order Details">
+      <Tab label="Detalii comandă">
         <FunctionField
           render={record => <OrderStatusSection record={record} />}
         />
@@ -496,11 +502,11 @@ export const OrderShow = () => (
         {/* Order Summary */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Order Summary</Typography>
+            <Typography variant="h6" gutterBottom>Sumar comandă</Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
-                <TextField source="orderNumber" label="Order Number" />
-                <DateField source="createdAt" label="Order Date" />
+                <TextField source="orderNumber" label="Nr. comandă" />
+                <DateField source="createdAt" label="Data comenzii" />
                 <FunctionField
                   label="Status"
                   render={record => (
@@ -514,7 +520,7 @@ export const OrderShow = () => (
               </Grid>
               <Grid item xs={12} md={6}>
                 <NumberField source="orderTotal" options={{ style: 'currency', currency: 'RON' }} label="Subtotal" />
-                <NumberField source="shippingCost" options={{ style: 'currency', currency: 'RON' }} label="Shipping" />
+                <NumberField source="shippingCost" options={{ style: 'currency', currency: 'RON' }} label="Livrare" />
                 <NumberField source="grandTotal" options={{ style: 'currency', currency: 'RON' }} label="Total" />
               </Grid>
             </Grid>
@@ -524,11 +530,11 @@ export const OrderShow = () => (
         {/* Customer Information */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Customer Information</Typography>
+            <Typography variant="h6" gutterBottom>Informații client</Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
                 <FunctionField
-                  label="Customer"
+                  label="Client"
                   render={record => (
                     <Box>
                       <Typography variant="body1">{record.userId?.name}</Typography>
@@ -539,7 +545,7 @@ export const OrderShow = () => (
               </Grid>
               <Grid item xs={12} md={6}>
                 <FunctionField
-                  label="Payment"
+                  label="Plată"
                   render={record => (
                     <Box>
                       <Typography variant="body2">{record.paymentMethod?.replace('_', ' ')}</Typography>
@@ -559,16 +565,16 @@ export const OrderShow = () => (
         {/* Items */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Order Items</Typography>
+            <Typography variant="h6" gutterBottom>Produse comandate</Typography>
             <FunctionField
               render={record => (
                 <TableContainer component={Paper} variant="outlined">
                   <Table>
                     <TableHead>
                       <TableRow>
-                        <TableCell>Product</TableCell>
-                        <TableCell align="center">Quantity</TableCell>
-                        <TableCell align="right">Price</TableCell>
+                        <TableCell>Produs</TableCell>
+                        <TableCell align="center">Cantitate</TableCell>
+                        <TableCell align="right">Preț</TableCell>
                         <TableCell align="right">Total</TableCell>
                       </TableRow>
                     </TableHead>
@@ -601,11 +607,11 @@ export const OrderShow = () => (
         </Card>
       </Tab>
 
-      <Tab label="Shipping & Addresses">
+      <Tab label="Livrare și Adrese">
         {/* Shipping Address */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Shipping Address</Typography>
+            <Typography variant="h6" gutterBottom>Adresă de livrare</Typography>
             <FunctionField
               render={record => (
                 <Box>
@@ -621,12 +627,12 @@ export const OrderShow = () => (
         {/* Billing Address */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Billing Address</Typography>
+            <Typography variant="h6" gutterBottom>Adresă de facturare</Typography>
             <FunctionField
               render={record => (
                 <Box>
                   {record.billingAddress?.sameAsShipping ? (
-                    <Typography color="textSecondary">Same as shipping address</Typography>
+                    <Typography color="textSecondary">Aceeași cu adresa de livrare</Typography>
                   ) : (
                     <>
                       <Typography>{record.billingAddress?.street}</Typography>
@@ -643,17 +649,17 @@ export const OrderShow = () => (
         {/* Shipping Information */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Shipping Information</Typography>
+            <Typography variant="h6" gutterBottom>Informații livrare</Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
-                <TextField source="shipping.provider" label="Provider" />
-                <TextField source="shipping.awbNumber" label="AWB Number" />
-                <TextField source="trackingCode" label="Tracking Code" />
+                <TextField source="shipping.provider" label="Furnizor" />
+                <TextField source="shipping.awbNumber" label="Număr AWB" />
+                <TextField source="trackingCode" label="Cod urmărire" />
               </Grid>
               <Grid item xs={12} md={6}>
-                <DateField source="shipping.estimatedDelivery" label="Est. Delivery" />
-                <DateField source="shipping.actualDelivery" label="Actual Delivery" />
-                <NumberField source="shipping.cost" options={{ style: 'currency', currency: 'RON' }} label="Shipping Cost" />
+                <DateField source="shipping.estimatedDelivery" label="Livrare estimată" />
+                <DateField source="shipping.actualDelivery" label="Livrare efectivă" />
+                <NumberField source="shipping.cost" options={{ style: 'currency', currency: 'RON' }} label="Cost livrare" />
               </Grid>
             </Grid>
 
@@ -671,7 +677,7 @@ export const OrderShow = () => (
                 return (
                   <Alert severity="info" sx={{ mt: 2 }}>
                     <Typography variant="body2">
-                      AWB label not yet generated. Click "Ship Order" to generate the AWB and shipping label.
+                      Eticheta AWB nu a fost încă generată. Apăsați "Expediază comanda" pentru a genera AWB-ul.
                     </Typography>
                   </Alert>
                 );
@@ -681,20 +687,20 @@ export const OrderShow = () => (
         </Card>
       </Tab>
 
-      <Tab label="Invoice & Payment">
+      <Tab label="Factură și Plată">
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Invoice Information</Typography>
+            <Typography variant="h6" gutterBottom>Informații factură</Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
-                <TextField source="invoice.invoiceId" label="Invoice ID" />
-                <TextField source="invoice.invoiceNumber" label="Invoice Number" />
-                <DateField source="invoice.createdAt" label="Invoice Date" />
+                <TextField source="invoice.invoiceId" label="ID Factură" />
+                <TextField source="invoice.invoiceNumber" label="Nr. factură" />
+                <DateField source="invoice.createdAt" label="Data facturii" />
               </Grid>
               <Grid item xs={12} md={6}>
-                <TextField source="paymentId" label="Payment ID" />
+                <TextField source="paymentId" label="ID Plată" />
                 <FunctionField
-                  label="Payment Status"
+                  label="Status plată"
                   render={record => (
                     <Chip 
                       label={record.paymentStatus} 
@@ -720,7 +726,7 @@ export const OrderShow = () => (
                 return (
                   <Alert severity="info" sx={{ mt: 2 }}>
                     <Typography variant="body2">
-                      Invoice not yet generated. Click "PROCESS → SmartBill" to generate the invoice.
+                      Factura nu a fost încă generată. Apăsați "PROCESEAZĂ → SmartBill" pentru a genera factura.
                     </Typography>
                   </Alert>
                 );
@@ -732,8 +738,8 @@ export const OrderShow = () => (
         {/* Notes */}
         <Card>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Notes</Typography>
-            <TextField source="notes" label="Customer Notes" multiline />
+            <Typography variant="h6" gutterBottom>Notițe</Typography>
+            <TextField source="notes" label="Notițe client" multiline />
           </CardContent>
         </Card>
       </Tab>

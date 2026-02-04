@@ -82,14 +82,14 @@ const ProductDetailsSection = () => {
   return (
     <Card sx={{ p: 3, mb: 3 }}>
       <Typography variant="h6" gutterBottom>
-        Product Details
+        Detalii produs
       </Typography>
 
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <TextInput
             source="name"
-            label="Product Name"
+            label="Nume produs"
             fullWidth
             validate={requiredField}
             sx={{
@@ -106,8 +106,8 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={6}>
           <TextInput
             source="slug"
-            label="URL Slug"
-            helperText="Used in the storefront URL (e.g. /product/your-slug)"
+            label="Slug URL"
+            helperText="Folosit în URL-ul magazinului (ex: /product/slug-ul-dvs)"
             fullWidth
             validate={requiredField}
             onChange={markSlugEdited}
@@ -136,9 +136,9 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={4}>
           <TextInput
             source="model"
-            label="Model / Generation"
+            label="Model / Generație"
             fullWidth
-            helperText="Optional - shown in admin filters"
+            helperText="Opțional - afișat în filtrele admin"
             sx={{
               '& .MuiOutlinedInput-root': {
                 fontSize: '1.1rem',
@@ -150,7 +150,7 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={4}>
           <SelectInput
             source="category"
-            label="Category"
+            label="Categorie"
             fullWidth
             validate={requiredCategory}
             choices={[
@@ -172,7 +172,7 @@ const ProductDetailsSection = () => {
         <Grid item xs={12} md={6}>
           <TextInput
             source="sku"
-            label="SKU / Internal Code"
+            label="SKU / Cod intern"
             fullWidth
             validate={requiredField}
             sx={{
@@ -196,13 +196,13 @@ const ProductEditHeading = () => {
     <Box sx={{ mb: 3 }}>
       <Card sx={{ p: 3, bgcolor: 'primary.dark' }}>
         <Typography variant="overline" color="white" sx={{ letterSpacing: 1 }}>
-          Editing Product
+          Editare produs
         </Typography>
         <Typography variant="h4" color="white" sx={{ mt: 1, fontWeight: 'bold' }}>
           {record.name}
         </Typography>
         <Typography variant="body2" color="rgba(255,255,255,0.8)">
-          SKU: {record.sku} • Category: {record.category}
+          SKU: {record.sku} • Categorie: {record.category}
         </Typography>
       </Card>
     </Box>
@@ -279,7 +279,7 @@ const CrossSellManager = () => {
       }
     } catch (error) {
       console.error('Failed to search products:', error);
-      notify('Failed to search products', { type: 'error' });
+      notify('Căutare produse eșuată', { type: 'error' });
     } finally {
       setIsSearching(false);
     }
@@ -305,7 +305,7 @@ const CrossSellManager = () => {
     // Remove from search results
     setSearchResults(prev => prev.filter(p => p._id !== product._id));
 
-    notify('Cross-sell product added successfully', { type: 'success' });
+    notify('Produs asociat adăugat cu succes', { type: 'success' });
   };
 
   const handleRemoveProduct = (productId) => {
@@ -316,23 +316,23 @@ const CrossSellManager = () => {
     const productIds = newCrossSellProducts.map(p => p._id);
     onChange(productIds);
 
-    notify('Cross-sell product removed successfully', { type: 'success' });
+    notify('Produs asociat eliminat cu succes', { type: 'success' });
   };
 
   return (
     <Card sx={{ p: 3 }}>
       <Typography variant="h6" gutterBottom color="primary">
-        Cross-Sell Products Management
+        Gestionare produse asociate
       </Typography>
       <Typography variant="body2" color="textSecondary" sx={{ mb: 3 }}>
-        Search and add compatible accessories that will be shown as "Accesorii compatibile" on the product page.
+        Caută și adaugă accesorii compatibile care vor fi afișate pe pagina produsului.
       </Typography>
 
       {/* Search Bar */}
       <Box sx={{ mb: 3 }}>
         <TextField
           fullWidth
-          placeholder="Search products by name, brand, or category..."
+          placeholder="Caută produse după nume, brand sau categorie..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           InputProps={{
@@ -355,7 +355,7 @@ const CrossSellManager = () => {
       {hasSearched && (
         <Box sx={{ mb: 4 }}>
           <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
-            Search Results ({searchResults.length})
+            Rezultate căutare ({searchResults.length})
           </Typography>
 
           {searchResults.length > 0 ? (
@@ -382,11 +382,11 @@ const CrossSellManager = () => {
                     secondary={
                       <Box>
                         <Typography variant="body2" color="textSecondary">
-                          {product.brand} • {product.price} lei • Stock: {product.stock}
+                          {product.brand} • {product.price} lei • Stoc: {product.stock}
                         </Typography>
                         <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
                           <Chip label={product.category} size="small" variant="outlined" />
-                          {product.featured && <Chip label="Featured" size="small" color="primary" />}
+                          {product.featured && <Chip label="Recomandat" size="small" color="primary" />}
                           {product.stock > 0 ? (
                             <Chip label="În stoc" size="small" color="success" />
                           ) : (
@@ -403,7 +403,7 @@ const CrossSellManager = () => {
                       startIcon={<AddIcon />}
                       onClick={() => handleAddProduct(product)}
                     >
-                      Add
+                      Adaugă
                     </Button>
                   </ListItemSecondaryAction>
                 </ListItem>
@@ -411,7 +411,7 @@ const CrossSellManager = () => {
             </List>
           ) : (
             <Alert severity="info">
-              No products found for "{searchQuery}". Try different search terms.
+              Nu s-au găsit produse pentru "{searchQuery}". Încercați alți termeni.
             </Alert>
           )}
         </Box>
@@ -420,7 +420,7 @@ const CrossSellManager = () => {
       {/* Selected Cross-Sell Products */}
       <Box>
         <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
-          Selected Cross-Sell Products ({crossSellProducts.length})
+          Produse asociate selectate ({crossSellProducts.length})
         </Typography>
 
         {crossSellProducts.length > 0 ? (
@@ -450,7 +450,7 @@ const CrossSellManager = () => {
                   secondary={
                     <Box>
                       <Typography variant="body2" color="textSecondary">
-                        {product.brand} • {product.price} lei • Stock: {product.stock}
+                        {product.brand} • {product.price} lei • Stoc: {product.stock}
                       </Typography>
                       <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
                         <Chip label={product.category} size="small" variant="outlined" />
@@ -467,7 +467,7 @@ const CrossSellManager = () => {
                   <IconButton
                     color="error"
                     onClick={() => handleRemoveProduct(product._id)}
-                    title="Remove cross-sell product"
+                    title="Elimină produs asociat"
                   >
                     <DeleteIcon />
                   </IconButton>
@@ -477,7 +477,7 @@ const CrossSellManager = () => {
           </List>
         ) : (
           <Alert severity="info">
-            No cross-sell products selected. Use the search bar above to find and add compatible accessories.
+            Nu sunt produse asociate selectate. Folosiți bara de căutare pentru a găsi și adăuga accesorii compatibile.
           </Alert>
         )}
       </Box>
@@ -490,24 +490,24 @@ const ProductEditForm = () => {
   return (
     <TabbedForm>
       {/* Tab 1: Images */}
-      <FormTab label="Images">
+      <FormTab label="Imagini">
         <ImageField source="images" maxImages={20} />
       </FormTab>
 
       {/* Tab 2: Pricing & Stock */}
-      <FormTab label="Pricing & Stock">
+      <FormTab label="Prețuri și Stoc">
         <ProductDetailsSection />
         {/* Pricing Section */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Pricing Information
+            Informații prețuri
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="price"
-                label="Current Price"
+                label="Preț curent"
                 fullWidth
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -520,7 +520,7 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="originalPrice"
-                label="Original Price"
+                label="Preț original"
                 fullWidth
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -533,7 +533,7 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="discount"
-                label="Discount %"
+                label="Reducere %"
                 fullWidth
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -549,17 +549,17 @@ const ProductEditForm = () => {
         {/* Stock Management */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Stock Management
+            Gestionare stoc
           </Typography>
           <Typography variant="body2" color="textSecondary" sx={{ mb: 3 }}>
-            To mark a product as out-of-stock (but keep it visible): Set Status to "Active" and Stock Quantity to 0
+            Pentru a marca un produs ca indisponibil (dar vizibil): Setați Status pe "Activ" și Cantitatea pe 0
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="stock"
-                label="Stock Quantity"
+                label="Cantitate în stoc"
                 fullWidth
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -572,7 +572,7 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <NumberInput
                 source="lowStockThreshold"
-                label="Low Stock Alert"
+                label="Alertă stoc redus"
                 fullWidth
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -585,12 +585,12 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <SelectInput
                 source="status"
-                label="Product Status"
+                label="Status produs"
                 fullWidth
                 choices={[
-                  { id: 'active', name: 'Active' },
-                  { id: 'inactive', name: 'Inactive (Hidden from Frontend)' },
-                  { id: 'discontinued', name: 'Discontinued' },
+                  { id: 'active', name: 'Activ' },
+                  { id: 'inactive', name: 'Inactiv (Ascuns din magazin)' },
+                  { id: 'discontinued', name: 'Întrerupt' },
                 ]}
                 sx={{
                   '& .MuiOutlinedInput-root': {
@@ -606,14 +606,14 @@ const ProductEditForm = () => {
         {/* Product Flags */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            Product Flags
+            Etichete produs
           </Typography>
 
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="featured"
-                label="Featured Product"
+                label="Produs recomandat"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -627,7 +627,7 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="newProduct"
-                label="New Product"
+                label="Produs nou"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -641,7 +641,7 @@ const ProductEditForm = () => {
             <Grid item xs={12} md={4}>
               <BooleanInput
                 source="onSale"
-                label="On Sale"
+                label="La reducere"
                 sx={{
                   '& .MuiFormControlLabel-root': {
                     fontSize: '1.1rem'
@@ -657,16 +657,16 @@ const ProductEditForm = () => {
       </FormTab>
 
       {/* Tab 3: SEO & Tags */}
-      <FormTab label="SEO & Tags">
+      <FormTab label="SEO și Etichete">
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
-            SEO Information
+            Informații SEO
           </Typography>
 
           <TextInput
             source="seoTitle"
             fullWidth
-            label="SEO Title"
+            label="Titlu SEO"
             sx={{
               mb: 3,
               '& .MuiOutlinedInput-root': {
@@ -681,7 +681,7 @@ const ProductEditForm = () => {
             multiline
             rows={4}
             fullWidth
-            label="SEO Description"
+            label="Descriere SEO"
             sx={{
               mb: 3,
               '& .MuiOutlinedInput-root': {
@@ -697,7 +697,7 @@ const ProductEditForm = () => {
             <SimpleFormIterator>
               <TextInput
                 fullWidth
-                label="Tag"
+                label="Etichetă"
                 sx={{
                   '& .MuiOutlinedInput-root': {
                     fontSize: '1.1rem',
@@ -711,7 +711,7 @@ const ProductEditForm = () => {
       </FormTab>
 
       {/* Tab 4: Romanian Specifications */}
-      <FormTab label="Romanian Specifications">
+      <FormTab label="Specificații">
         {/* Hardware */}
         <Card sx={{ p: 3, mb: 3 }}>
           <Typography variant="h6" gutterBottom>
@@ -1015,12 +1015,12 @@ const ProductEditForm = () => {
       </FormTab>
 
       {/* Tab 6: Structured Description */}
-      <FormTab label="Structured Description">
+      <FormTab label="Descriere structurată">
         <StructuredDescriptionEditor source="structuredDescription.sections" />
       </FormTab>
 
       {/* Tab 7: Cross-Sell */}
-      <FormTab label="Cross-Sell">
+      <FormTab label="Produse asociate">
         <CrossSellManager />
       </FormTab>
     </TabbedForm>

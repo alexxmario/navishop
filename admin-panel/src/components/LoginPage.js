@@ -53,13 +53,13 @@ const LoginPage = () => (
           </Typography>
           
           <Typography variant="body1" sx={{ opacity: 0.9, mb: 1 }}>
-            Navigation Systems
+            Sisteme de Navigație
           </Typography>
           
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
             <AdminPanelSettings sx={{ fontSize: 20 }} />
             <Typography variant="h6" sx={{ fontWeight: 500 }}>
-              Admin Panel
+              Panou de Administrare
             </Typography>
           </Box>
         </Box>
@@ -67,10 +67,10 @@ const LoginPage = () => (
         <CardContent sx={{ padding: 4 }}>
           <Box sx={{ mb: 3, textAlign: 'center' }}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 600, color: '#333' }}>
-              Welcome Back
+              Bine ați revenit
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              Sign in to manage your navigation systems business
+              Autentificați-vă pentru a gestiona afacerea
             </Typography>
           </Box>
           
@@ -104,7 +104,7 @@ const LoginPage = () => (
           
           <Box sx={{ mt: 3, textAlign: 'center' }}>
             <Typography variant="body2" color="textSecondary">
-              Demo Credentials: <strong>admin</strong> / <strong>admin123456</strong>
+              Date de acces demo: <strong>admin</strong> / <strong>admin123456</strong>
             </Typography>
           </Box>
         </CardContent>
@@ -112,7 +112,7 @@ const LoginPage = () => (
       
       <Box sx={{ textAlign: 'center', mt: 3, color: 'rgba(255, 255, 255, 0.8)' }}>
         <Typography variant="body2">
-          © 2025 PilotOn Navigation Systems. Professional admin panel for order processing.
+          © 2025 PilotOn Sisteme de Navigație. Panou profesional de administrare comenzi.
         </Typography>
       </Box>
     </Container>

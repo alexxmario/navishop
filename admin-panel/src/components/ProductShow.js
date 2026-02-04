@@ -53,13 +53,13 @@ const ProductShowHeading = () => {
     <Box sx={{ mb: 3 }}>
       <Card sx={{ p: 3, bgcolor: 'primary.dark' }}>
         <Typography variant="overline" color="white" sx={{ letterSpacing: 1 }}>
-          Product
+          Produs
         </Typography>
         <Typography variant="h4" color="white" sx={{ mt: 1, fontWeight: 'bold' }}>
           {record.name}
         </Typography>
         <Typography variant="body2" color="rgba(255,255,255,0.8)">
-          SKU: {record.sku} • Category: {record.category}
+          SKU: {record.sku} • Categorie: {record.category}
         </Typography>
       </Card>
     </Box>
@@ -91,7 +91,7 @@ const CrossSellDisplay = ({ productId }) => {
   if (!crossSellData) {
     return (
       <Box sx={{ textAlign: 'center', p: 2 }}>
-        <Typography>Loading cross-sell data...</Typography>
+        <Typography>Se încarcă datele...</Typography>
       </Box>
     );
   }
@@ -102,10 +102,10 @@ const CrossSellDisplay = ({ productId }) => {
         <Box>
           <Box sx={{ mb: 2 }}>
             <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
-              All Compatible Accessories ({crossSellData.totalCrossSells})
+              Toate accesoriile compatibile ({crossSellData.totalCrossSells})
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              {crossSellData.directCrossSells} direct cross-sells + {crossSellData.reverseCrossSells} reverse relationships
+              {crossSellData.directCrossSells} asocieri directe + {crossSellData.reverseCrossSells} asocieri inverse
             </Typography>
           </Box>
           <Grid container spacing={2}>
@@ -152,17 +152,17 @@ const CrossSellDisplay = ({ productId }) => {
       ) : (
         <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
           <Typography variant="h6" color="textSecondary" gutterBottom>
-            No Cross-Sell Products
+            Fără produse asociate
           </Typography>
           <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-            This product doesn't have any compatible accessories configured yet.
+            Acest produs nu are accesorii compatibile configurate.
           </Typography>
           <Button
             variant="contained"
             startIcon={<Edit />}
             onClick={() => window.open(`#/products/${productId}`, '_blank')}
           >
-            Add Cross-Sell Products
+            Adaugă produse asociate
           </Button>
         </Box>
       )}
@@ -200,7 +200,7 @@ const ReviewOverviewStats = ({ record }) => {
           <Typography variant="h4" color="white">
             {reviewStats?.averageRating?.toFixed(1) || '0.0'}
           </Typography>
-          <Typography variant="body2" color="white">Average Rating</Typography>
+          <Typography variant="body2" color="white">Evaluare medie</Typography>
         </Box>
       </Grid>
 
@@ -209,7 +209,7 @@ const ReviewOverviewStats = ({ record }) => {
           <Typography variant="h4" color="white">
             {reviewStats?.totalReviews || 0}
           </Typography>
-          <Typography variant="body2" color="white">Total Reviews</Typography>
+          <Typography variant="body2" color="white">Total recenzii</Typography>
         </Box>
       </Grid>
 
@@ -218,7 +218,7 @@ const ReviewOverviewStats = ({ record }) => {
           <Typography variant="h4" color="white">
             {reviewStats?.ratingDistribution?.[5] || 0}
           </Typography>
-          <Typography variant="body2" color="white">5-Star Reviews</Typography>
+          <Typography variant="body2" color="white">Recenzii cu 5 stele</Typography>
         </Box>
       </Grid>
     </Grid>
@@ -280,7 +280,7 @@ const ProductReviewsTab = () => {
       });
 
       if (response.ok) {
-        notify(`Review ${newStatus} successfully`, { type: 'success' });
+        notify(`Recenzia a fost ${newStatus === 'approved' ? 'aprobată' : 'respinsă'} cu succes`, { type: 'success' });
         fetchReviews();
         fetchReviewStats();
         refresh();
@@ -288,7 +288,7 @@ const ProductReviewsTab = () => {
         throw new Error('Failed to update review status');
       }
     } catch (error) {
-      notify('Error updating review status', { type: 'error' });
+      notify('Eroare la actualizarea statusului recenziei', { type: 'error' });
     }
   };
 
@@ -302,7 +302,7 @@ const ProductReviewsTab = () => {
       });
 
       if (response.ok) {
-        notify('Review deleted successfully', { type: 'success' });
+        notify('Recenzia a fost ștearsă cu succes', { type: 'success' });
         fetchReviews();
         fetchReviewStats();
         refresh();
@@ -310,7 +310,7 @@ const ProductReviewsTab = () => {
         throw new Error('Failed to delete review');
       }
     } catch (error) {
-      notify('Error deleting review', { type: 'error' });
+      notify('Eroare la ștergerea recenziei', { type: 'error' });
     } finally {
       setDeleteDialog({ open: false, reviewId: null });
     }
@@ -328,7 +328,7 @@ const ProductReviewsTab = () => {
   if (loading) {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', p: 3 }}>
-        <Typography>Loading reviews...</Typography>
+        <Typography>Se încarcă recenziile...</Typography>
       </Box>
     );
   }
@@ -339,7 +339,7 @@ const ProductReviewsTab = () => {
       <Card sx={{ mb: 3 }}>
         <CardContent>
           <Typography variant="h6" gutterBottom color="primary">
-            Review Statistics
+            Statistici recenzii
           </Typography>
           <Divider sx={{ mb: 3 }} />
 
@@ -350,7 +350,7 @@ const ProductReviewsTab = () => {
                 <Typography variant="h4" color="white">
                   {reviewStats?.averageRating?.toFixed(1) || '0.0'}
                 </Typography>
-                <Typography variant="body2" color="white">Average Rating</Typography>
+                <Typography variant="body2" color="white">Evaluare medie</Typography>
               </Box>
             </Grid>
 
@@ -359,7 +359,7 @@ const ProductReviewsTab = () => {
                 <Typography variant="h4" color="white">
                   {reviewStats?.totalReviews || 0}
                 </Typography>
-                <Typography variant="body2" color="white">Total Reviews</Typography>
+                <Typography variant="body2" color="white">Total recenzii</Typography>
               </Box>
             </Grid>
 
@@ -369,7 +369,7 @@ const ProductReviewsTab = () => {
                 <Typography variant="h4" color="white">
                   {reviews.filter(r => r.status === 'pending').length}
                 </Typography>
-                <Typography variant="body2" color="white">Pending</Typography>
+                <Typography variant="body2" color="white">În așteptare</Typography>
               </Box>
             </Grid>
 
@@ -379,7 +379,7 @@ const ProductReviewsTab = () => {
                 <Typography variant="h4" color="white">
                   {reviews.filter(r => r.status === 'approved').length}
                 </Typography>
-                <Typography variant="body2" color="white">Approved</Typography>
+                <Typography variant="body2" color="white">Aprobate</Typography>
               </Box>
             </Grid>
           </Grid>
@@ -391,14 +391,14 @@ const ProductReviewsTab = () => {
         <CardContent>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
             <Typography variant="h6" color="primary">
-              Product Reviews ({reviews.length})
+              Recenzii produs ({reviews.length})
             </Typography>
             <Button
               variant="outlined"
               startIcon={<Star />}
               onClick={() => window.open(`#/reviews?filter=%7B"productId":"${record.id}"%7D`, '_blank')}
             >
-              Manage All Reviews
+              Gestionează recenziile
             </Button>
           </Box>
           <Divider sx={{ mb: 3 }} />
@@ -407,10 +407,10 @@ const ProductReviewsTab = () => {
             <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
               <Star sx={{ fontSize: 48, color: 'text.secondary', mb: 2 }} />
               <Typography variant="h6" color="textSecondary" gutterBottom>
-                No Reviews Yet
+                Nu există recenzii
               </Typography>
               <Typography variant="body2" color="textSecondary">
-                This product hasn't received any reviews from customers yet.
+                Acest produs nu a primit încă recenzii.
               </Typography>
             </Box>
           ) : (
@@ -427,7 +427,7 @@ const ProductReviewsTab = () => {
                           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 0.5 }}>
                             <Rating value={review.rating} size="small" readOnly />
                             <Typography variant="body2" color="textSecondary">
-                              by {review.userName}
+                              de {review.userName}
                             </Typography>
                             <Chip
                               label={review.status}
@@ -446,7 +446,7 @@ const ProductReviewsTab = () => {
                         </Typography>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                           <ThumbUp sx={{ fontSize: 14 }} />
-                          <Typography variant="caption">{review.helpfulVotes} helpful</Typography>
+                          <Typography variant="caption">{review.helpfulVotes} utile</Typography>
                           <Typography variant="caption" color="textSecondary">
                             • {new Date(review.createdAt).toLocaleDateString()}
                           </Typography>
@@ -461,14 +461,14 @@ const ProductReviewsTab = () => {
                           <IconButton
                             color="success"
                             onClick={() => handleStatusChange(review._id, 'approved')}
-                            title="Approve Review"
+                            title="Aprobă recenzia"
                           >
                             <CheckCircle />
                           </IconButton>
                           <IconButton
                             color="error"
                             onClick={() => handleStatusChange(review._id, 'rejected')}
-                            title="Reject Review"
+                            title="Respinge recenzia"
                           >
                             <Cancel />
                           </IconButton>
@@ -478,7 +478,7 @@ const ProductReviewsTab = () => {
                         <IconButton
                           color="success"
                           onClick={() => handleStatusChange(review._id, 'approved')}
-                          title="Approve Review"
+                          title="Aprobă recenzia"
                         >
                           <CheckCircle />
                         </IconButton>
@@ -487,7 +487,7 @@ const ProductReviewsTab = () => {
                         <IconButton
                           color="warning"
                           onClick={() => handleStatusChange(review._id, 'pending')}
-                          title="Set Pending"
+                          title="Setează în așteptare"
                         >
                           <Pending />
                         </IconButton>
@@ -495,14 +495,14 @@ const ProductReviewsTab = () => {
                       <IconButton
                         color="error"
                         onClick={() => setDeleteDialog({ open: true, reviewId: review._id })}
-                        title="Delete Review"
+                        title="Șterge recenzia"
                       >
                         <Delete />
                       </IconButton>
                       <IconButton
                         color="primary"
                         onClick={() => window.open(`#/reviews/${review._id}/show`, '_blank')}
-                        title="View Full Review"
+                        title="Vezi recenzia"
                       >
                         <Visibility />
                       </IconButton>
@@ -516,7 +516,7 @@ const ProductReviewsTab = () => {
           {reviews.length > 10 && (
             <Box sx={{ textAlign: 'center', mt: 3 }}>
               <Alert severity="info">
-                Showing first 10 reviews. Click "Manage All Reviews" to see all {reviews.length} reviews.
+                Se afișează primele 10 recenzii. Apasă "Gestionează recenziile" pentru a vedea toate cele {reviews.length} recenzii.
               </Alert>
             </Box>
           )}
@@ -528,18 +528,18 @@ const ProductReviewsTab = () => {
         open={deleteDialog.open}
         onClose={() => setDeleteDialog({ open: false, reviewId: null })}
       >
-        <DialogTitle>Delete Review</DialogTitle>
+        <DialogTitle>Șterge recenzia</DialogTitle>
         <DialogContent>
           <Typography>
-            Are you sure you want to permanently delete this review? This action cannot be undone.
+            Sunteți sigur că doriți să ștergeți definitiv această recenzie? Această acțiune nu poate fi anulată.
           </Typography>
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setDeleteDialog({ open: false, reviewId: null })}>
-            Cancel
+            Anulează
           </Button>
           <Button onClick={handleDeleteReview} color="error" variant="contained">
-            Delete
+            Șterge
           </Button>
         </DialogActions>
       </Dialog>
@@ -552,11 +552,11 @@ const ProductShowContent = () => (
     <ProductShowHeading />
     <TabbedShowLayout>
       {/* Images Tab */}
-      <Tab label="Images">
+      <Tab label="Imagini">
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              Product Images
+              Imagini produs
             </Typography>
             <Divider sx={{ mb: 3 }} />
 
@@ -580,7 +580,7 @@ const ProductShowContent = () => (
                               />
                               {image.isPrimary && (
                                 <Chip
-                                  label="Primary"
+                                  label="Principală"
                                   color="primary"
                                   size="small"
                                   sx={{
@@ -595,7 +595,7 @@ const ProductShowContent = () => (
                             </Box>
                             <CardContent sx={{ p: 2 }}>
                               <Typography variant="body2" color="textSecondary">
-                                Image {index + 1}
+                                Imagine {index + 1}
                               </Typography>
                               {image.alt && (
                                 <Typography variant="caption" display="block">
@@ -610,10 +610,10 @@ const ProductShowContent = () => (
                   ) : (
                     <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
                       <Typography variant="h6" color="textSecondary" gutterBottom>
-                        No Images
+                        Fără imagini
                       </Typography>
                       <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-                        This product doesn't have any images uploaded yet.
+                        Acest produs nu are imagini încărcate.
                       </Typography>
                       <FunctionField
                         render={record => (
@@ -622,7 +622,7 @@ const ProductShowContent = () => (
                             startIcon={<Edit />}
                             onClick={() => window.open(`#/products/${record.id}`, '_blank')}
                           >
-                            Add Images
+                            Adaugă imagini
                           </Button>
                         )}
                       />
@@ -636,11 +636,11 @@ const ProductShowContent = () => (
       </Tab>
 
       {/* Overview Tab */}
-      <Tab label="Overview">
+      <Tab label="Prezentare">
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              Product Overview
+              Prezentare produs
             </Typography>
             <Divider sx={{ mb: 3 }} />
 
@@ -651,7 +651,7 @@ const ProductShowContent = () => (
                   <Typography variant="h5" color="white">
                     <NumberField source="price" />
                   </Typography>
-                  <Typography variant="body2" color="white">Current Price</Typography>
+                  <Typography variant="body2" color="white">Preț curent</Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={3}>
@@ -660,7 +660,7 @@ const ProductShowContent = () => (
                   <Typography variant="h5" color="white">
                     <NumberField source="stock" />
                   </Typography>
-                  <Typography variant="body2" color="white">In Stock</Typography>
+                  <Typography variant="body2" color="white">În stoc</Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={3}>
@@ -679,14 +679,14 @@ const ProductShowContent = () => (
                     <FunctionField
                       render={record => (
                         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, justifyContent: 'center' }}>
-                          {record.featured && <Chip label="Featured" size="small" color="primary" />}
-                          {record.newProduct && <Chip label="New" size="small" color="success" />}
-                          {record.onSale && <Chip label="On Sale" size="small" color="error" />}
+                          {record.featured && <Chip label="Recomandat" size="small" color="primary" />}
+                          {record.newProduct && <Chip label="Nou" size="small" color="success" />}
+                          {record.onSale && <Chip label="La reducere" size="small" color="error" />}
                         </Box>
                       )}
                     />
                   </Box>
-                  <Typography variant="body2" color="white">Product Flags</Typography>
+                  <Typography variant="body2" color="white">Etichete produs</Typography>
                 </Box>
               </Grid>
             </Grid>
@@ -696,7 +696,7 @@ const ProductShowContent = () => (
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              Customer Reviews Overview
+              Prezentare recenzii
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <FunctionField render={record => <ReviewOverviewStats record={record} />} />
@@ -706,7 +706,7 @@ const ProductShowContent = () => (
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <Typography variant="h6">Quick Actions</Typography>
+              <Typography variant="h6">Acțiuni rapide</Typography>
               <Box sx={{ display: 'flex', gap: 2 }}>
                 <FunctionField
                   render={record => (
@@ -715,7 +715,7 @@ const ProductShowContent = () => (
                       startIcon={<Edit />}
                       onClick={() => window.open(`#/products/${record.id}`, '_blank')}
                     >
-                      Edit Product
+                      Editează produs
                     </Button>
                   )}
                 />
@@ -726,7 +726,7 @@ const ProductShowContent = () => (
                       startIcon={<Visibility />}
                       onClick={() => window.open(`/product/${record.slug}`, '_blank')}
                     >
-                      View on Frontend
+                      Vezi în magazin
                     </Button>
                   )}
                 />
@@ -737,11 +737,11 @@ const ProductShowContent = () => (
       </Tab>
 
       {/* Structured Description Tab */}
-      <Tab label="Structured Description">
+      <Tab label="Descriere structurată">
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
-              <Typography variant="h6">Product Description</Typography>
+              <Typography variant="h6">Descriere produs</Typography>
               <FunctionField
                 render={record => (
                   <Button
@@ -751,7 +751,7 @@ const ProductShowContent = () => (
                     onClick={() => window.open(`#/products/${record.id}`, '_blank')}
                     sx={{ ml: 2 }}
                   >
-                    Edit Structure
+                    Editează structura
                   </Button>
                 )}
               />
@@ -808,10 +808,10 @@ const ProductShowContent = () => (
                     ) : (
                       <Box sx={{ textAlign: 'center', p: 4, bgcolor: 'grey.50', borderRadius: 2 }}>
                         <Typography variant="h6" color="textSecondary" gutterBottom>
-                          No Structured Description
+                          Fără descriere structurată
                         </Typography>
                         <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-                          Add a structured description to showcase this product's features beautifully.
+                          Adaugă o descriere structurată pentru a prezenta caracteristicile produsului.
                         </Typography>
                         <FunctionField
                           render={record => (
@@ -820,7 +820,7 @@ const ProductShowContent = () => (
                               startIcon={<Edit />}
                               onClick={() => window.open(`#/products/${record.id}`, '_blank')}
                             >
-                              Add Structured Description
+                              Adaugă descriere structurată
                             </Button>
                           )}
                         />
@@ -835,7 +835,7 @@ const ProductShowContent = () => (
       </Tab>
 
       {/* Romanian Specifications Tab */}
-      <Tab label="Romanian Specifications">
+      <Tab label="Specificații">
         {/* Hardware & Display Romanian */}
         <Grid container spacing={3} sx={{ mb: 3 }}>
           <Grid item xs={12} md={6}>
@@ -965,16 +965,16 @@ const ProductShowContent = () => (
       </Tab>
 
       {/* Reviews Tab */}
-      <Tab label="Reviews & Ratings">
+      <Tab label="Recenzii și Evaluări">
         <ProductReviewsTab />
       </Tab>
 
       {/* SEO & Pricing Tab */}
-      <Tab label="SEO & Pricing">
+      <Tab label="SEO și Prețuri">
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              Pricing Information
+              Informații prețuri
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <Grid container spacing={3}>
@@ -983,7 +983,7 @@ const ProductShowContent = () => (
                   <Typography variant="h4" color="white">
                     <NumberField source="price" />
                   </Typography>
-                  <Typography variant="body1" color="white">Current Price</Typography>
+                  <Typography variant="body1" color="white">Preț curent</Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
@@ -991,7 +991,7 @@ const ProductShowContent = () => (
                   <Typography variant="h4" color="white">
                     <NumberField source="originalPrice" />
                   </Typography>
-                  <Typography variant="body1" color="white">Original Price</Typography>
+                  <Typography variant="body1" color="white">Preț original</Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={4}>
@@ -999,7 +999,7 @@ const ProductShowContent = () => (
                   <Typography variant="h4" color="white">
                     <NumberField source="discount" />%
                   </Typography>
-                  <Typography variant="body1" color="white">Discount</Typography>
+                  <Typography variant="body1" color="white">Reducere</Typography>
                 </Box>
               </Grid>
             </Grid>
@@ -1009,25 +1009,25 @@ const ProductShowContent = () => (
         <Card>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              SEO Information
+              Informații SEO
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <Box sx={{ space: 3 }}>
               <Box sx={{ mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
-                  SEO Title:
+                  Titlu SEO:
                 </Typography>
                 <TextField source="seoTitle" />
               </Box>
               <Box sx={{ mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
-                  SEO Description:
+                  Descriere SEO:
                 </Typography>
                 <TextField source="seoDescription" />
               </Box>
               <Box>
                 <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
-                  Tags:
+                  Etichete:
                 </Typography>
                 <FunctionField
                   render={record => (
@@ -1040,7 +1040,7 @@ const ProductShowContent = () => (
                         </Box>
                       ) : (
                         <Typography variant="body2" color="textSecondary">
-                          No tags specified
+                          Nu au fost specificate etichete
                         </Typography>
                       )}
                     </Box>
@@ -1053,11 +1053,11 @@ const ProductShowContent = () => (
       </Tab>
 
       {/* Cross-Sell Tab */}
-      <Tab label="Cross-Sell">
+      <Tab label="Produse asociate">
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom color="primary">
-              Cross-Sell Products (Accesorii compatibile)
+              Produse asociate (Accesorii compatibile)
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <FunctionField render={record => <CrossSellDisplay productId={record.id} />} />

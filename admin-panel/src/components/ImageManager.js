@@ -58,7 +58,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
     const data = await response.json().catch(() => null);
 
     if (!response.ok) {
-      throw new Error(data?.message || 'Failed to upload image');
+      throw new Error(data?.message || 'Eroare la încărcarea imaginii');
     }
 
     return data;
@@ -81,7 +81,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
     const data = await response.json().catch(() => null);
 
     if (!response.ok) {
-      throw new Error(data?.message || 'Failed to delete image');
+      throw new Error(data?.message || 'Eroare la ștergerea imaginii');
     }
 
     return data;
@@ -89,7 +89,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
 
   const onDrop = useCallback(async (acceptedFiles) => {
     if (images.length + acceptedFiles.length > maxImages) {
-      setError(`Maximum ${maxImages} images allowed`);
+      setError(`Maxim ${maxImages} imagini permise`);
       return;
     }
 
@@ -109,7 +109,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
 
       onChange([...images, ...newImages]);
     } catch (err) {
-      setError('Failed to upload images: ' + err.message);
+      setError('Eroare la încărcarea imaginilor: ' + err.message);
     } finally {
       setUploading(false);
     }
@@ -138,7 +138,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
       
       onChange(newImages);
     } catch (err) {
-      setError('Failed to delete image: ' + err.message);
+      setError('Eroare la ștergerea imaginii: ' + err.message);
     }
   };
 
@@ -160,7 +160,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
       <CardContent sx={{ p: 3 }}>
         <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <CloudUpload />
-          Product Images ({images.length}/{maxImages})
+          Imagini produs ({images.length}/{maxImages})
         </Typography>
         
         {error && (
@@ -192,19 +192,19 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
           {uploading ? (
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
               <CircularProgress />
-              <Typography>Uploading images...</Typography>
+              <Typography>Se încarcă imaginile...</Typography>
             </Box>
           ) : (
             <Box>
               <CloudUpload sx={{ fontSize: 48, color: 'primary.main', mb: 1 }} />
               <Typography variant="h6" gutterBottom>
-                {isDragActive ? 'Drop images here' : 'Drag & drop images here'}
+                {isDragActive ? 'Plasați imaginile aici' : 'Trageți și plasați imaginile aici'}
               </Typography>
               <Typography variant="body2" color="textSecondary" gutterBottom>
-                or click to select files
+                sau apăsați pentru a selecta
               </Typography>
               <Typography variant="caption" color="textSecondary">
-                Supported: JPEG, PNG, GIF, WebP (max 5MB each)
+                Acceptate: JPEG, PNG, GIF, WebP (max 5MB fiecare)
               </Typography>
             </Box>
           )}
@@ -226,7 +226,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
         {images.length > 0 && (
           <Box>
             <Typography variant="subtitle1" gutterBottom>
-              Current Images ({images.length})
+              Imagini curente ({images.length})
             </Typography>
             <Grid container spacing={2}>
               {images.map((image, index) => (
@@ -275,8 +275,8 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
                         {/* Top controls */}
                         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                           {image.isPrimary && (
-                            <Chip 
-                              label="Primary" 
+                            <Chip
+                              label="Principală"
                               size="small" 
                               color="primary" 
                               icon={<Star />}
@@ -315,7 +315,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
                               textShadow: '1px 1px 2px rgba(0,0,0,0.8)'
                             }}
                           >
-                            Image {index + 1}
+                            Imagine {index + 1}
                           </Typography>
                           <Box sx={{ display: 'flex', gap: 1 }}>
                             <IconButton
@@ -368,7 +368,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
           maxWidth="md"
           fullWidth
         >
-          <DialogTitle>Image Preview</DialogTitle>
+          <DialogTitle>Previzualizare imagine</DialogTitle>
           <DialogContent>
             {previewImage && (
               <img
@@ -388,7 +388,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
             )}
           </DialogContent>
           <DialogActions>
-            <Button onClick={() => setPreviewOpen(false)}>Close</Button>
+            <Button onClick={() => setPreviewOpen(false)}>Închide</Button>
           </DialogActions>
         </Dialog>
       </CardContent>

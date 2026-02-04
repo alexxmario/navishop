@@ -18,11 +18,11 @@ import { Avatar, Chip, Card, CardContent, Box, Typography } from '@mui/material'
 import { Person, AdminPanelSettings, Google, Facebook, Email } from '@mui/icons-material';
 
 const UserFilters = [
-  <TextInput source="search" placeholder="Search users..." alwaysOn />,
+  <TextInput source="search" placeholder="Caută utilizatori..." alwaysOn />,
   <SelectInput
     source="role"
     choices={[
-      { id: 'user', name: 'User' },
+      { id: 'user', name: 'Utilizator' },
       { id: 'admin', name: 'Admin' },
     ]}
     alwaysOn
@@ -51,12 +51,12 @@ const UserSidebar = () => (
           <Person />
         </Avatar>
         <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-          Filter Users
+          Filtrează utilizatori
         </Typography>
       </Box>
       
       <FilterList 
-        label="User Role" 
+        label="Rol utilizator"
         icon={<AdminPanelSettings sx={{ fontSize: 20 }} />}
         sx={{
           '& .MuiCollapse-root': {
@@ -72,12 +72,12 @@ const UserSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="Customers" value={{ role: 'user' }} />
-        <FilterListItem label="Admins" value={{ role: 'admin' }} />
+        <FilterListItem label="Clienți" value={{ role: 'user' }} />
+        <FilterListItem label="Administratori" value={{ role: 'admin' }} />
       </FilterList>
       
       <FilterList 
-        label="Registration Type" 
+        label="Tip înregistrare"
         icon={<Email sx={{ fontSize: 20 }} />}
         sx={{
           mt: 2,
@@ -94,7 +94,7 @@ const UserSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="Email Registration" value={{ googleId: '{"$exists":false}', facebookId: '{"$exists":false}' }} />
+        <FilterListItem label="Înregistrare Email" value={{ googleId: '{"$exists":false}', facebookId: '{"$exists":false}' }} />
         <FilterListItem label="Google OAuth" value={{ googleId: '{"$exists":true}' }} />
         <FilterListItem label="Facebook OAuth" value={{ facebookId: '{"$exists":true}' }} />
       </FilterList>
@@ -143,7 +143,7 @@ export const UserList = () => (
       }}
     >
       <FunctionField
-        label="User"
+        label="Utilizator"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, minWidth: 200 }}>
             <Avatar
@@ -158,7 +158,7 @@ export const UserList = () => (
             </Avatar>
             <Box sx={{ minWidth: 0 }}>
               <Typography variant="body2" sx={{ fontWeight: 500, mb: 0.5 }}>
-                {record.name || 'Unknown User'}
+                {record.name || 'Utilizator necunoscut'}
               </Typography>
               <Typography variant="caption" color="textSecondary" sx={{ wordBreak: 'break-word' }}>
                 {record.email}
@@ -169,7 +169,7 @@ export const UserList = () => (
       />
       
       <FunctionField
-        label="Role"
+        label="Rol"
         render={record => (
           <Chip 
             label={record.role} 
@@ -183,7 +183,7 @@ export const UserList = () => (
       />
       
       <FunctionField
-        label="Registration"
+        label="Înregistrare"
         render={record => {
           if (record.googleId) {
             return (

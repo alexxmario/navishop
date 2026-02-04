@@ -48,7 +48,7 @@ const RatingColumn = ({ record }) => {
   if (loading) {
     return (
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-        <Typography variant="caption" color="textSecondary">Loading...</Typography>
+        <Typography variant="caption" color="textSecondary">Se încarcă...</Typography>
       </Box>
     );
   }
@@ -74,7 +74,7 @@ const RatingColumn = ({ record }) => {
 };
 
 const ProductFilters = [
-  <TextInput source="search" placeholder="Search products..." alwaysOn />,
+  <TextInput source="search" placeholder="Caută produse..." alwaysOn />,
   <SelectInput
     source="category"
     choices={[
@@ -88,11 +88,11 @@ const ProductFilters = [
     alwaysOn
   />,
   <TextInput source="brand" placeholder="Brand" />,
-  <NumberInput source="minPrice" placeholder="Min Price" />,
-  <NumberInput source="maxPrice" placeholder="Max Price" />,
-  <BooleanInput source="featured" label="Featured" />,
-  <BooleanInput source="onSale" label="On Sale" />,
-  <BooleanInput source="inStock" label="In Stock" />,
+  <NumberInput source="minPrice" placeholder="Preț minim" />,
+  <NumberInput source="maxPrice" placeholder="Preț maxim" />,
+  <BooleanInput source="featured" label="Recomandat" />,
+  <BooleanInput source="onSale" label="La reducere" />,
+  <BooleanInput source="inStock" label="În stoc" />,
 ];
 
 const ProductSidebar = () => (
@@ -117,12 +117,12 @@ const ProductSidebar = () => (
           <Inventory />
         </Avatar>
         <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
-          Filter Products
+          Filtrează produse
         </Typography>
       </Box>
       
       <FilterList 
-        label="Categories" 
+        label="Categorii"
         icon={<Category sx={{ fontSize: 20 }} />}
         sx={{
           '& .MuiCollapse-root': {
@@ -138,16 +138,16 @@ const ProductSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="GPS Navigation" value={{ category: 'navigatii-gps' }} />
+        <FilterListItem label="Navigații GPS" value={{ category: 'navigatii-gps' }} />
         <FilterListItem label="CarPlay/Android" value={{ category: 'carplay-android' }} />
-        <FilterListItem label="Backup Cameras" value={{ category: 'camere-marsarier' }} />
+        <FilterListItem label="Camere marsarier" value={{ category: 'camere-marsarier' }} />
         <FilterListItem label="Multimedia" value={{ category: 'sisteme-multimedia' }} />
         <FilterListItem label="DVR" value={{ category: 'dvr' }} />
-        <FilterListItem label="Accessories" value={{ category: 'accesorii' }} />
+        <FilterListItem label="Accesorii" value={{ category: 'accesorii' }} />
       </FilterList>
 
       <FilterList
-        label="Romanian Specs"
+        label="Specificații"
         icon={<Inventory sx={{ fontSize: 20 }} />}
         sx={{
           mt: 2,
@@ -166,10 +166,10 @@ const ProductSidebar = () => (
       >
         <FilterListItem label="2GB RAM" value={{ 'romanianSpecs.hardware.memorieRAM': '2 GB' }} />
         <FilterListItem label="4GB RAM" value={{ 'romanianSpecs.hardware.memorieRAM': '4 GB' }} />
-        <FilterListItem label="32GB Storage" value={{ 'romanianSpecs.hardware.capacitateStocare': '32 GB' }} />
-        <FilterListItem label="64GB Storage" value={{ 'romanianSpecs.hardware.capacitateStocare': '64 GB' }} />
-        <FilterListItem label="9 Inch Display" value={{ 'romanianSpecs.display.diagonalaDisplay': '9 Inch' }} />
-        <FilterListItem label="10 Inch Display" value={{ 'romanianSpecs.display.diagonalaDisplay': '10 Inch' }} />
+        <FilterListItem label="32GB Stocare" value={{ 'romanianSpecs.hardware.capacitateStocare': '32 GB' }} />
+        <FilterListItem label="64GB Stocare" value={{ 'romanianSpecs.hardware.capacitateStocare': '64 GB' }} />
+        <FilterListItem label="Ecran 9 Inch" value={{ 'romanianSpecs.display.diagonalaDisplay': '9 Inch' }} />
+        <FilterListItem label="Ecran 10 Inch" value={{ 'romanianSpecs.display.diagonalaDisplay': '10 Inch' }} />
       </FilterList>
       
       <FilterList 
@@ -190,11 +190,11 @@ const ProductSidebar = () => (
           }
         }}
       >
-        <FilterListItem label="In Stock" value={{ inStock: true, outOfStock: undefined }} />
-        <FilterListItem label="Out of Stock" value={{ outOfStock: true, inStock: undefined }} />
-        <FilterListItem label="Low Stock" value={{ lowStock: true }} />
-      <FilterListItem label="Featured" value={{ featured: true }} />
-      <FilterListItem label="On Sale" value={{ onSale: true }} />
+        <FilterListItem label="În stoc" value={{ inStock: true, outOfStock: undefined }} />
+        <FilterListItem label="Stoc epuizat" value={{ outOfStock: true, inStock: undefined }} />
+        <FilterListItem label="Stoc redus" value={{ lowStock: true }} />
+      <FilterListItem label="Recomandat" value={{ featured: true }} />
+      <FilterListItem label="La reducere" value={{ onSale: true }} />
       </FilterList>
     </CardContent>
   </Card>
@@ -241,7 +241,7 @@ export const ProductList = () => (
       }}
     >
       <FunctionField
-        label="Product"
+        label="Produs"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, minWidth: 200 }}>
             <Box sx={{ width: 50, height: 50, borderRadius: 2, overflow: 'hidden', flexShrink: 0 }}>
@@ -276,7 +276,7 @@ export const ProductList = () => (
         )}
       />
       <FunctionField
-        label="Category"
+        label="Categorie"
         render={record => (
           <Chip 
             label={record.category?.replace('-', ' ')}
@@ -299,7 +299,7 @@ export const ProductList = () => (
         )}
       />
       <FunctionField
-        label="Romanian Specs"
+        label="Specificații"
         render={record => (
           <Box sx={{ minWidth: 120 }}>
             {record.romanianSpecs?.hardware?.memorieRAM && (
@@ -309,12 +309,12 @@ export const ProductList = () => (
             )}
             {record.romanianSpecs?.hardware?.capacitateStocare && (
               <Typography variant="caption" display="block" color="textSecondary">
-                Storage: {record.romanianSpecs.hardware.capacitateStocare}
+                Stocare: {record.romanianSpecs.hardware.capacitateStocare}
               </Typography>
             )}
             {record.romanianSpecs?.display?.diagonalaDisplay && (
               <Typography variant="caption" display="block" color="textSecondary">
-                Display: {record.romanianSpecs.display.diagonalaDisplay}
+                Ecran: {record.romanianSpecs.display.diagonalaDisplay}
               </Typography>
             )}
           </Box>
@@ -322,7 +322,7 @@ export const ProductList = () => (
       />
       <NumberField source="price" options={{ style: 'currency', currency: 'RON' }} />
       <FunctionField
-        label="Stock"
+        label="Stoc"
         render={record => (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <ShoppingCart sx={{ 
@@ -349,7 +349,7 @@ export const ProductList = () => (
           <Box sx={{ display: 'flex', gap: 0.5, flexWrap: 'wrap' }}>
             {record.featured && (
               <Chip 
-                label="Featured" 
+                label="Recomandat"
                 icon={<Star sx={{ fontSize: 14 }} />}
                 size="small" 
                 color="primary" 
@@ -359,7 +359,7 @@ export const ProductList = () => (
             )}
             {record.onSale && (
               <Chip 
-                label="Sale" 
+                label="Reducere"
                 icon={<LocalOffer sx={{ fontSize: 14 }} />}
                 size="small" 
                 color="error" 
@@ -376,7 +376,7 @@ export const ProductList = () => (
         )}
       />
       <FunctionField
-        label="Rating"
+        label="Evaluare"
         render={record => <RatingColumn record={record} />}
       />
       <DateField source="createdAt" />

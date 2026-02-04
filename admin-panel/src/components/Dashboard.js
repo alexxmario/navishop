@@ -208,7 +208,7 @@ export const Dashboard = () => {
         alignItems: 'center',
         minHeight: '50vh'
       }}>
-        <Typography variant="h6">Loading dashboard data...</Typography>
+        <Typography variant="h6">Se încarcă datele...</Typography>
       </Box>
     );
   }
@@ -217,10 +217,10 @@ export const Dashboard = () => {
     return (
       <Box sx={{ p: 4 }}>
         <Typography variant="h6" color="error" gutterBottom>
-          Error loading dashboard: {error}
+          Eroare la încărcarea panoului: {error}
         </Typography>
         <Button variant="contained" onClick={fetchDashboardData}>
-          Retry
+          Reîncearcă
         </Button>
       </Box>
     );
@@ -244,17 +244,17 @@ export const Dashboard = () => {
             WebkitTextFillColor: 'transparent',
           }}
         >
-          PilotOn Admin Dashboard
+          PilotOn Panou de Administrare
         </Typography>
         
         <Typography variant="h6" color="textSecondary" sx={{ mb: 1 }}>
-          Navigation Systems Management
+          Administrare Sisteme de Navigație
         </Typography>
         
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           <Assessment sx={{ color: '#1976d2' }} />
           <Typography variant="body1" color="textSecondary">
-            Order Processing & Business Analytics
+            Procesare Comenzi și Analiză Business
           </Typography>
         </Box>
       </Box>
@@ -262,45 +262,45 @@ export const Dashboard = () => {
       <Grid container spacing={3} sx={{ mb: 4 }}>
         <Grid item xs={12} md={6} lg={3}>
           <StatCard
-            title="Pending Orders"
-            subtitle="Awaiting confirmation"
+            title="Comenzi în așteptare"
+            subtitle="Așteaptă confirmarea"
             value={stats?.orders?.pending?.toString() || '0'}
             icon={<ShoppingCart sx={{ fontSize: 32 }} />}
             color="warning"
-            trend={refreshing ? 'Updating...' : 'Live data'}
+            trend={refreshing ? 'Se actualizează...' : 'Date live'}
           />
         </Grid>
 
         <Grid item xs={12} md={6} lg={3}>
           <StatCard
-            title="Processing Orders"
-            subtitle="Being prepared"
+            title="Comenzi în procesare"
+            subtitle="Se pregătesc"
             value={stats?.orders?.processing?.toString() || '0'}
             icon={<Speed sx={{ fontSize: 32 }} />}
             color="info"
-            trend={refreshing ? 'Updating...' : 'Live data'}
+            trend={refreshing ? 'Se actualizează...' : 'Date live'}
           />
         </Grid>
 
         <Grid item xs={12} md={6} lg={3}>
           <StatCard
-            title="Shipped Orders"
-            subtitle="In transit"
+            title="Comenzi expediate"
+            subtitle="În tranzit"
             value={stats?.orders?.shipped?.toString() || '0'}
             icon={<LocalShipping sx={{ fontSize: 32 }} />}
             color="success"
-            trend={refreshing ? 'Updating...' : 'Live data'}
+            trend={refreshing ? 'Se actualizează...' : 'Date live'}
           />
         </Grid>
 
         <Grid item xs={12} md={6} lg={3}>
           <StatCard
-            title="Active Products"
-            subtitle="Available in stock"
+            title="Produse active"
+            subtitle="Disponibile în stoc"
             value={stats?.products?.active?.toString() || '0'}
             icon={<Inventory sx={{ fontSize: 32 }} />}
             color="primary"
-            trend={stats?.products?.lowStock ? `${stats.products.lowStock} low stock` : 'All stocked'}
+            trend={stats?.products?.lowStock ? `${stats.products.lowStock} stoc redus` : 'Stoc complet'}
           />
         </Grid>
       </Grid>
@@ -309,7 +309,7 @@ export const Dashboard = () => {
       <Grid container spacing={3} sx={{ mb: 4 }}>
         <Grid item xs={12} md={8}>
           <ChartCard 
-            title="Sales & Orders Overview" 
+            title="Sumar Vânzări și Comenzi" 
             icon={<BarChartIcon />}
             height={400}
           >
@@ -328,7 +328,7 @@ export const Dashboard = () => {
                   stackId="1"
                   stroke="#8884d8"
                   fill="#8884d8"
-                  name="Orders"
+                  name="Comenzi"
                 />
                 <Area
                   yAxisId="right"
@@ -337,7 +337,7 @@ export const Dashboard = () => {
                   stackId="2"
                   stroke="#82ca9d"
                   fill="#82ca9d"
-                  name="Revenue (RON)"
+                  name="Venituri (RON)"
                 />
               </AreaChart>
             </ResponsiveContainer>
@@ -346,7 +346,7 @@ export const Dashboard = () => {
         
         <Grid item xs={12} md={4}>
           <ChartCard 
-            title="Product Distribution" 
+            title="Distribuție Produse" 
             icon={<PieChartIcon />}
             height={400}
           >
@@ -383,7 +383,7 @@ export const Dashboard = () => {
                   <Timeline />
                 </Avatar>
                 <Typography variant="h6" component="div">
-                  Quick Stats
+                  Statistici rapide
                 </Typography>
               </Box>
 
@@ -393,7 +393,7 @@ export const Dashboard = () => {
                     <Typography variant="h5" color="white">
                       {stats?.revenue?.thisMonth?.toLocaleString() || '0'} RON
                     </Typography>
-                    <Typography variant="body2" color="white">This Month</Typography>
+                    <Typography variant="body2" color="white">Luna aceasta</Typography>
                   </Box>
                 </Grid>
                 <Grid item xs={6}>
@@ -401,7 +401,7 @@ export const Dashboard = () => {
                     <Typography variant="h5" color="white">
                       {stats?.revenue?.total?.toLocaleString() || '0'} RON
                     </Typography>
-                    <Typography variant="body2" color="white">Total Revenue</Typography>
+                    <Typography variant="body2" color="white">Venit total</Typography>
                   </Box>
                 </Grid>
                 <Grid item xs={6}>
@@ -409,7 +409,7 @@ export const Dashboard = () => {
                     <Typography variant="h5" color="white">
                       {stats?.users?.total || '0'}
                     </Typography>
-                    <Typography variant="body2" color="white">Registered Users</Typography>
+                    <Typography variant="body2" color="white">Utilizatori înregistrați</Typography>
                   </Box>
                 </Grid>
                 <Grid item xs={6}>
@@ -417,7 +417,7 @@ export const Dashboard = () => {
                     <Typography variant="h5" color="white">
                       {stats?.products?.lowStock || '0'}
                     </Typography>
-                    <Typography variant="body2" color="white">Low Stock Items</Typography>
+                    <Typography variant="body2" color="white">Produse cu stoc redus</Typography>
                   </Box>
                 </Grid>
               </Grid>
@@ -433,16 +433,16 @@ export const Dashboard = () => {
                   <Assessment />
                 </Avatar>
                 <Typography variant="h6" component="div">
-                  Recent Orders
+                  Comenzi recente
                 </Typography>
               </Box>
               <TableContainer component={Paper} sx={{ maxHeight: 240 }}>
                 <Table stickyHeader size="small">
                   <TableHead>
                     <TableRow>
-                      <TableCell>Order ID</TableCell>
-                      <TableCell>Customer</TableCell>
-                      <TableCell>Amount</TableCell>
+                      <TableCell>ID Comandă</TableCell>
+                      <TableCell>Client</TableCell>
+                      <TableCell>Sumă</TableCell>
                       <TableCell>Status</TableCell>
                     </TableRow>
                   </TableHead>
@@ -454,7 +454,7 @@ export const Dashboard = () => {
                             {order.orderNumber}
                           </Typography>
                           {order.orderType === 'guest' && (
-                            <Chip label="Guest" size="small" variant="outlined" />
+                            <Chip label="Vizitator" size="small" variant="outlined" />
                           )}
                         </TableCell>
                         <TableCell>
@@ -491,7 +491,7 @@ export const Dashboard = () => {
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <ChartCard 
-            title="Monthly Revenue Breakdown" 
+            title="Defalcare venituri lunare" 
             icon={<BarChartIcon />}
             height={350}
           >
@@ -503,12 +503,12 @@ export const Dashboard = () => {
                 <Tooltip 
                   formatter={(value, name) => [
                     name === 'revenue' ? `${value.toLocaleString()} RON` : value,
-                    name === 'revenue' ? 'Revenue' : 'Orders'
+                    name === 'revenue' ? 'Venituri' : 'Comenzi'
                   ]}
                 />
                 <Legend />
-                <Bar dataKey="orders" fill="#8884d8" name="Orders" />
-                <Bar dataKey="revenue" fill="#82ca9d" name="Revenue (RON)" />
+                <Bar dataKey="orders" fill="#8884d8" name="Comenzi" />
+                <Bar dataKey="revenue" fill="#82ca9d" name="Venituri (RON)" />
               </BarChart>
             </ResponsiveContainer>
           </ChartCard>
