@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import {
   Show,
   TextField,
@@ -281,7 +282,6 @@ const OrderActions = () => {
   };
 
   const openDialog = (type) => {
-    window.alert('DEBUG: openDialog called with type=' + type);
     setActionType(type);
     setDialogOpen(true);
   };
@@ -343,94 +343,97 @@ const OrderActions = () => {
         )}
       </TopToolbar>
 
-      <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)} maxWidth="sm" fullWidth>
-        <DialogTitle sx={{ bgcolor: 'primary.main', color: 'white' }}>
-          {actionType === 'confirm' && 'Confirmă comanda'}
-          {actionType === 'process' && 'Procesează comanda și generează factura'}
-          {actionType === 'ship' && 'Expediază comanda și generează AWB'}
-          {actionType === 'cancel' && 'Anulează comanda'}
-        </DialogTitle>
-        <DialogContent sx={{ pt: 3 }}>
-          {actionType === 'confirm' && (
-            <Alert severity="info" sx={{ mb: 2 }}>
-              <Typography variant="body2">
-                Aceasta va confirma comanda și va notifica clientul. Statusul comenzii se va schimba în <strong>"Confirmată"</strong>.
+      {createPortal(
+        <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)} maxWidth="sm" fullWidth>
+          <DialogTitle sx={{ bgcolor: 'primary.main', color: 'white' }}>
+            {actionType === 'confirm' && 'Confirmă comanda'}
+            {actionType === 'process' && 'Procesează comanda și generează factura'}
+            {actionType === 'ship' && 'Expediază comanda și generează AWB'}
+            {actionType === 'cancel' && 'Anulează comanda'}
+          </DialogTitle>
+          <DialogContent sx={{ pt: 3 }}>
+            {actionType === 'confirm' && (
+              <Alert severity="info" sx={{ mb: 2 }}>
+                <Typography variant="body2">
+                  Aceasta va confirma comanda și va notifica clientul. Statusul comenzii se va schimba în <strong>"Confirmată"</strong>.
+                </Typography>
+              </Alert>
+            )}
+            {actionType === 'process' && (
+              <Alert severity="warning" sx={{ mb: 2 }}>
+                <Typography variant="body2" gutterBottom>
+                  <strong>⚡ Procesare manuală SmartBill</strong>
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                  Aceasta va:
+                </Typography>
+                <ul style={{ margin: 0, paddingLeft: '20px' }}>
+                  <li><strong>Genera factura SmartBill</strong> (acum se face manual de admin)</li>
+                  <li>Schimba statusul comenzii în "În procesare"</li>
+                  <li>Trimite factura clientului prin email</li>
+                  <li>Genera URL de plată dacă metoda de plată este SmartBill Online</li>
+                </ul>
+              </Alert>
+            )}
+            {actionType === 'ship' && (
+              <Alert severity="info" sx={{ mb: 2 }}>
+                <Typography variant="body2" gutterBottom>
+                  Aceasta va:
+                </Typography>
+                <ul style={{ margin: 0, paddingLeft: '20px' }}>
+                  <li>Genera AWB Fan Courier</li>
+                  <li>Schimba statusul în "Expediată"</li>
+                  <li>Trimite informațiile de urmărire clientului</li>
+                </ul>
+              </Alert>
+            )}
+            {actionType === 'cancel' && (
+              <Alert severity="error" sx={{ mb: 2 }}>
+                <Typography variant="body2">
+                  Aceasta va anula comanda și va notifica clientul. <strong>Această acțiune nu poate fi anulată.</strong>
+                </Typography>
+              </Alert>
+            )}
+
+            <Box sx={{ mt: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
+              <Typography variant="subtitle2" gutterBottom>
+                Detalii comandă:
               </Typography>
-            </Alert>
-          )}
-          {actionType === 'process' && (
-            <Alert severity="warning" sx={{ mb: 2 }}>
-              <Typography variant="body2" gutterBottom>
-                <strong>⚡ Procesare manuală SmartBill</strong>
+              <Typography variant="body2" color="textSecondary">
+                Order #{record.orderNumber} - {record.grandTotal} RON
               </Typography>
-              <Typography variant="body2" gutterBottom>
-                Aceasta va:
+              <Typography variant="body2" color="textSecondary">
+                Client: {record.shippingAddress?.firstName} {record.shippingAddress?.lastName}
               </Typography>
-              <ul style={{ margin: 0, paddingLeft: '20px' }}>
-                <li><strong>Genera factura SmartBill</strong> (acum se face manual de admin)</li>
-                <li>Schimba statusul comenzii în "În procesare"</li>
-                <li>Trimite factura clientului prin email</li>
-                <li>Genera URL de plată dacă metoda de plată este SmartBill Online</li>
-              </ul>
-            </Alert>
-          )}
-          {actionType === 'ship' && (
-            <Alert severity="info" sx={{ mb: 2 }}>
-              <Typography variant="body2" gutterBottom>
-                Aceasta va:
-              </Typography>
-              <ul style={{ margin: 0, paddingLeft: '20px' }}>
-                <li>Genera AWB Fan Courier</li>
-                <li>Schimba statusul în "Expediată"</li>
-                <li>Trimite informațiile de urmărire clientului</li>
-              </ul>
-            </Alert>
-          )}
-          {actionType === 'cancel' && (
-            <Alert severity="error" sx={{ mb: 2 }}>
-              <Typography variant="body2">
-                Aceasta va anula comanda și va notifica clientul. <strong>Această acțiune nu poate fi anulată.</strong>
-              </Typography>
-            </Alert>
-          )}
-          
-          <Box sx={{ mt: 2, p: 2, bgcolor: 'grey.50', borderRadius: 1 }}>
-            <Typography variant="subtitle2" gutterBottom>
-              Detalii comandă:
-            </Typography>
-            <Typography variant="body2" color="textSecondary">
-              Order #{record.orderNumber} - {record.grandTotal} RON
-            </Typography>
-            <Typography variant="body2" color="textSecondary">
-              Client: {record.shippingAddress?.firstName} {record.shippingAddress?.lastName}
-            </Typography>
-          </Box>
-        </DialogContent>
-        <DialogActions sx={{ p: 3 }}>
-          <Button onClick={() => setDialogOpen(false)} disabled={loading} variant="text">
-            Anulează
-          </Button>
-          <Button
-            onClick={() => handleAction(actionType)}
-            variant="contained"
-            color={actionType === 'cancel' ? 'error' : 'primary'}
-            disabled={loading}
-            startIcon={loading ? null :
-              actionType === 'confirm' ? <ConfirmIcon /> :
-              actionType === 'process' ? <InvoiceIcon /> :
-              actionType === 'ship' ? <ShipIcon /> :
-              <CancelIcon />
-            }
-          >
-            {loading ? 'Se procesează...' :
-             actionType === 'confirm' ? 'Confirmă comanda' :
-             actionType === 'process' ? 'Procesează și facturează' :
-             actionType === 'ship' ? 'Expediază comanda' :
-             'Anulează comanda'
-            }
-          </Button>
-        </DialogActions>
-      </Dialog>
+            </Box>
+          </DialogContent>
+          <DialogActions sx={{ p: 3 }}>
+            <Button onClick={() => setDialogOpen(false)} disabled={loading} variant="text">
+              Anulează
+            </Button>
+            <Button
+              onClick={() => handleAction(actionType)}
+              variant="contained"
+              color={actionType === 'cancel' ? 'error' : 'primary'}
+              disabled={loading}
+              startIcon={loading ? null :
+                actionType === 'confirm' ? <ConfirmIcon /> :
+                actionType === 'process' ? <InvoiceIcon /> :
+                actionType === 'ship' ? <ShipIcon /> :
+                <CancelIcon />
+              }
+            >
+              {loading ? 'Se procesează...' :
+               actionType === 'confirm' ? 'Confirmă comanda' :
+               actionType === 'process' ? 'Procesează și facturează' :
+               actionType === 'ship' ? 'Expediază comanda' :
+               'Anulează comanda'
+              }
+            </Button>
+          </DialogActions>
+        </Dialog>,
+        document.body
+      )}
     </>
   );
 };
