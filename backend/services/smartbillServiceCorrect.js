@@ -223,7 +223,7 @@ class SmartBillService {
           },
           headers: {
             'Authorization': this.getAuthHeader(),
-            'Accept': 'application/pdf'
+            'Accept': 'application/octet-stream'
           },
           responseType: 'arraybuffer',
           timeout: 30000
