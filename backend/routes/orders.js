@@ -743,15 +743,12 @@ router.put('/:orderId/process', auth, async (req, res) => {
               notes: order.notes
             };
           } else {
-            // For authenticated user orders
-            const User = require('../models/User');
-            const user = await User.findById(order.userId);
-            
+            // For authenticated user orders - userId is already populated with name/email
             orderForInvoice = {
               orderNumber: order.orderNumber,
-              guestName: user.name,
-              guestEmail: user.email,
-              guestPhone: user.phone || '',
+              guestName: order.userId?.name || order.shippingAddress?.name || 'Client',
+              guestEmail: order.userId?.email || '',
+              guestPhone: order.shippingAddress?.phone || '',
               items: order.items,
               shippingAddress: order.shippingAddress,
               billingAddress: order.billingAddress.sameAsShipping ? order.shippingAddress : order.billingAddress,
