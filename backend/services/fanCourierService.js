@@ -85,8 +85,8 @@ class FanCourierService {
               cod: orderData.cashOnDelivery || 0,
               declaredValue: orderData.declaredValue || 0,
               payment: orderData.cashOnDelivery > 0 ? 'recipient' : 'sender',
-              refund: null,
-              returnPayment: null,
+              refund: orderData.cashOnDelivery > 0 ? 'bank' : null,
+              returnPayment: 'sender',
               observation: `Comanda: ${orderData.orderNumber}`,
               content: orderData.contents || `Comanda #${orderData.orderNumber}`,
               dimensions: {
