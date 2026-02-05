@@ -265,8 +265,15 @@ class FanCourierService {
    */
   async createShipment(order) {
     try {
+      console.log('=== FAN Courier createShipment START ===');
+      console.log('Order ID:', order._id);
+      console.log('Order Number:', order.orderNumber);
+      console.log('Shipping Address:', JSON.stringify(order.shippingAddress, null, 2));
+
       // Authenticate first
       const authResult = await this.authenticate();
+      console.log('Auth result:', authResult.success ? 'SUCCESS' : 'FAILED - ' + authResult.error);
+
       if (!authResult.success) {
         return {
           success: false,
@@ -277,22 +284,25 @@ class FanCourierService {
       // Prepare order data for AWB creation with correct FAN Courier format
       const orderData = {
         orderNumber: order.orderNumber,
-        recipientName: order.shippingAddress.name || 'Necunoscut',
-        recipientPhone: order.shippingAddress.phone || '0700000000',
-        recipientEmail: order.shippingAddress.email || '',
-        city: order.shippingAddress.city,
-        county: order.shippingAddress.county,
-        street: order.shippingAddress.street,
-        streetNumber: order.shippingAddress.streetNumber || '1',
-        postalCode: order.shippingAddress.postalCode || '000000',
+        recipientName: order.shippingAddress?.name || 'Necunoscut',
+        recipientPhone: order.shippingAddress?.phone || '0700000000',
+        recipientEmail: order.shippingAddress?.email || '',
+        city: order.shippingAddress?.city,
+        county: order.shippingAddress?.county,
+        street: order.shippingAddress?.street,
+        streetNumber: order.shippingAddress?.streetNumber || '1',
+        postalCode: order.shippingAddress?.postalCode || '000000',
         weight: this.calculateOrderWeight(order),
         declaredValue: order.grandTotal,
         cashOnDelivery: order.paymentMethod === 'cash_on_delivery' ? order.grandTotal : 0,
         contents: this.generateContentsDescription(order.items)
       };
 
+      console.log('Prepared orderData for AWB:', JSON.stringify(orderData, null, 2));
+
       // Create AWB
       const awbResult = await this.createAWB(orderData, authResult.token);
+      console.log('AWB Result:', JSON.stringify(awbResult, null, 2));
       
       if (awbResult.success) {
         return {
