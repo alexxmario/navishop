@@ -8,7 +8,6 @@ import {
   TabbedShowLayout,
   Tab,
   useShowController,
-  useUpdate,
   useNotify,
   TopToolbar,
   EditButton,
@@ -258,7 +257,6 @@ const confirmMessages = {
 
 const OrderActions = () => {
   const { record } = useShowController();
-  const [update] = useUpdate();
   const notify = useNotify();
 
   const handleAction = async (action) => {
@@ -266,12 +264,25 @@ const OrderActions = () => {
     if (!window.confirm(message)) return;
 
     try {
-      await update('orders', {
-        id: record.id,
-        data: { action },
-        previousData: record,
+      const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+      const token = localStorage.getItem('token');
+
+      const response = await fetch(`${apiUrl}/api/orders/${record.id}/process`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ action })
       });
-      notify(`Comanda a fost actualizată cu succes`, { type: 'success' });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || data.error || 'Request failed');
+      }
+
+      notify(data.message || `Comanda a fost actualizată cu succes`, { type: 'success' });
       window.location.reload();
     } catch (error) {
       notify(`Eroare: ${error.message}`, { type: 'error' });
