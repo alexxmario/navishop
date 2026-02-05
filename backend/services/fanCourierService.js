@@ -282,9 +282,12 @@ class FanCourierService {
       }
 
       // Get recipient name - check multiple possible field locations
+      // For authenticated orders: order.userId is populated with { name, email }
+      // For guest orders: use guestName
       const recipientName =
         order.guestName ||  // Guest orders have guestName
-        order.shippingAddress?.name ||  // Direct name field
+        order.userId?.name ||  // Authenticated users - populated userId
+        order.shippingAddress?.name ||  // Direct name field in shippingAddress
         (order.shippingAddress?.firstName && order.shippingAddress?.lastName
           ? `${order.shippingAddress.firstName} ${order.shippingAddress.lastName}`.trim()
           : null) ||  // firstName + lastName combined
@@ -292,15 +295,18 @@ class FanCourierService {
         'Necunoscut';
 
       // Get recipient phone - check multiple possible field locations
+      // Note: User model doesn't have phone, so it should be in shippingAddress
       const recipientPhone =
         order.guestPhone ||  // Guest orders have guestPhone
-        order.shippingAddress?.phone ||  // Direct phone field
+        order.shippingAddress?.phone ||  // Direct phone field in shippingAddress
         order.shippingAddress?.phoneNumber ||  // Alternative field name
+        order.userId?.phone ||  // In case phone is added to User model later
         '0700000000';
 
       // Get recipient email
       const recipientEmail =
         order.guestEmail ||  // Guest orders have guestEmail
+        order.userId?.email ||  // Authenticated users - populated userId
         order.shippingAddress?.email ||
         '';
 
