@@ -47,14 +47,16 @@ const OrderFilters = [
 ];
 
 const OrderSidebar = () => (
-  <Card sx={{ 
-    order: -1, 
-    mr: 2, 
-    mt: 9, 
+  <Card sx={{
+    order: -1,
+    mr: 2,
+    mt: 9,
     width: 220,
     borderRadius: 3,
     boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-    background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)'
+    background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)',
+    // Hide sidebar on mobile/tablet - use top filter bar instead
+    display: { xs: 'none', sm: 'none', md: 'block' }
   }}>
     <CardContent sx={{ p: 3 }}>
       <Box sx={{ mb: 3, textAlign: 'center' }}>
