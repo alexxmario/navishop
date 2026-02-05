@@ -114,9 +114,10 @@ const CheckoutPage = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(guestEmail)) return 'Email-ul nu este valid';
     
-    // Phone validation - exactly 10 digits (Romanian format: 07xxxxxxxx)
-    const cleanPhone = guestPhone.replace(/\s/g, '').replace(/^\+?4?0?/, '0');
-    if (!/^0\d{9}$/.test(cleanPhone)) return 'Telefonul trebuie să aibă exact 10 cifre (ex: 0712345678)';
+    // Phone validation - STRICT: exactly 10 digits starting with 0 (Romanian format: 07xxxxxxxx)
+    // Only allow spaces to be removed, no normalization of +40 prefix
+    const cleanPhone = guestPhone.replace(/\s/g, '');
+    if (!/^0\d{9}$/.test(cleanPhone)) return 'Telefonul trebuie să aibă exact 10 cifre începând cu 0 (ex: 0712345678)';
     
     return null;
   };
@@ -329,15 +330,20 @@ const CheckoutPage = () => {
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       Telefon *
                     </label>
-                    <input
-                      type="tel"
-                      name="guestPhone"
-                      value={formData.guestPhone}
-                      onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="+40 712 345 678"
-                      required
-                    />
+                    <div className="flex">
+                      <span className="inline-flex items-center px-3 text-gray-500 bg-gray-100 border border-r-0 border-gray-300 rounded-l-lg">
+                        +4
+                      </span>
+                      <input
+                        type="tel"
+                        name="guestPhone"
+                        value={formData.guestPhone}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-r-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="0712345678"
+                        required
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
