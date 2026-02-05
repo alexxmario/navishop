@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../AuthContext';
 import { useCart } from '../CartContext';
 import logoSvg from '../logo.svg';
-import { 
+import {
   Search, Menu, User, ShoppingCart
 } from 'lucide-react';
 
@@ -15,7 +15,6 @@ const Header = ({
   const { isAuthenticated } = useAuth();
   const { getCartItemsCount } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearchSubmit = (e) => {
@@ -46,8 +45,8 @@ const Header = ({
             {/* Logo */}
             <div className="logo-container">
               <Link to="/" className="logo-link">
-                <img 
-                  src={logoSvg} 
+                <img
+                  src={logoSvg}
                   alt="PilotOn - Navigații auto moderne"
                   className="logo-header"
                 />
@@ -79,7 +78,7 @@ const Header = ({
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
                 </nav>
 
-                {/* Search Bar */}
+                {/* Desktop Search Bar */}
                 {showSearch && (
                   <div className="hidden md:flex flex-1 max-w-md mx-8">
                     <form onSubmit={handleSearchSubmit} className="relative w-full">
@@ -100,14 +99,6 @@ const Header = ({
             {/* User Actions */}
             <div className="actions-container">
               <div className="flex items-center space-x-4">
-                {showSearch && (
-                  <button
-                    className="text-gray-700 hover:text-blue-600 md:hidden"
-                    onClick={() => setIsMobileSearchOpen(!isMobileSearchOpen)}
-                  >
-                    <Search className="w-5 h-5" />
-                  </button>
-                )}
                 <Link
                   to={isAuthenticated() ? "/dashboard" : "/login"}
                   className={`${isAuthenticated() ? "text-blue-600 hover:text-blue-700" : "text-gray-700 hover:text-blue-600"}`}
@@ -147,33 +138,30 @@ const Header = ({
               </div>
             </div>
           </div>
+
+          {/* Mobile Search Bar - Always visible on mobile/tablet */}
+          {showSearch && (
+            <div className="md:hidden pb-3">
+              <form onSubmit={handleSearchSubmit} className="relative w-full">
+                <input
+                  type="text"
+                  placeholder="Caută navigații auto..."
+                  className="w-full pl-10 pr-20 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 text-sm"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
+                <button
+                  type="submit"
+                  className="absolute right-1.5 top-1.5 px-3 py-1.5 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700 transition-colors"
+                >
+                  Caută
+                </button>
+              </form>
+            </div>
+          )}
         </div>
       </header>
-
-      {/* Mobile Search Bar */}
-      {showSearch && isMobileSearchOpen && (
-        <div className="md:hidden bg-white border-b border-gray-100 shadow-sm">
-          <div className="px-4 py-3">
-            <form onSubmit={handleSearchSubmit} className="relative w-full">
-              <input
-                type="text"
-                placeholder="Caută navigații auto..."
-                className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                autoFocus
-              />
-              <Search className="absolute left-3 top-3.5 h-5 w-5 text-gray-400" />
-              <button
-                type="submit"
-                className="absolute right-2 top-2 px-4 py-1.5 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-              >
-                Caută
-              </button>
-            </form>
-          </div>
-        </div>
-      )}
 
       {/* Mobile Menu */}
       {showNavigation && isMenuOpen && (
