@@ -126,9 +126,18 @@ class FanCourierService {
       if (response.data && response.data.response && response.data.response.length > 0) {
         const awbResult = response.data.response[0];
         if (awbResult.errors) {
+          // Handle errors - can be array, object, or string
+          let errorMessage;
+          if (Array.isArray(awbResult.errors)) {
+            errorMessage = awbResult.errors.join(', ');
+          } else if (typeof awbResult.errors === 'object') {
+            errorMessage = JSON.stringify(awbResult.errors);
+          } else {
+            errorMessage = String(awbResult.errors);
+          }
           return {
             success: false,
-            error: `AWB creation failed: ${awbResult.errors.join(', ')}`
+            error: `AWB creation failed: ${errorMessage}`
           };
         }
         
