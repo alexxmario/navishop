@@ -402,8 +402,8 @@ class FanCourierService {
         };
       }
 
-      // Build URL with query params (FAN Courier expects awb[] not awbs[])
-      const url = `${this.reportsURL}/awb/label?clientId=${this.clientId}&awb[]=${awbNumber}&pdf=1&dpi=300`;
+      // Build URL with query params - use baseURL not reportsURL per Postman collection
+      const url = `${this.baseURL}/awb/label?clientId=${this.clientId}&awbs[]=${awbNumber}&pdf=1&dpi=300`;
       console.log('Request URL:', url);
 
       const response = await axios.get(url, {
