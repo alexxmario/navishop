@@ -281,12 +281,37 @@ class FanCourierService {
         };
       }
 
+      // Get recipient name - check multiple possible field locations
+      const recipientName =
+        order.guestName ||  // Guest orders have guestName
+        order.shippingAddress?.name ||  // Direct name field
+        (order.shippingAddress?.firstName && order.shippingAddress?.lastName
+          ? `${order.shippingAddress.firstName} ${order.shippingAddress.lastName}`.trim()
+          : null) ||  // firstName + lastName combined
+        order.shippingAddress?.firstName ||  // Just firstName if no lastName
+        'Necunoscut';
+
+      // Get recipient phone - check multiple possible field locations
+      const recipientPhone =
+        order.guestPhone ||  // Guest orders have guestPhone
+        order.shippingAddress?.phone ||  // Direct phone field
+        order.shippingAddress?.phoneNumber ||  // Alternative field name
+        '0700000000';
+
+      // Get recipient email
+      const recipientEmail =
+        order.guestEmail ||  // Guest orders have guestEmail
+        order.shippingAddress?.email ||
+        '';
+
+      console.log('Resolved recipient:', { recipientName, recipientPhone, recipientEmail });
+
       // Prepare order data for AWB creation with correct FAN Courier format
       const orderData = {
         orderNumber: order.orderNumber,
-        recipientName: order.shippingAddress?.name || 'Necunoscut',
-        recipientPhone: order.shippingAddress?.phone || '0700000000',
-        recipientEmail: order.shippingAddress?.email || '',
+        recipientName,
+        recipientPhone,
+        recipientEmail,
         city: order.shippingAddress?.city,
         county: order.shippingAddress?.county,
         street: order.shippingAddress?.street,
