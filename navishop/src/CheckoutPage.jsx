@@ -114,9 +114,9 @@ const CheckoutPage = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(guestEmail)) return 'Email-ul nu este valid';
     
-    // Phone validation (Romanian format)
-    const phoneRegex = /^(\+4|4|0)\d{8,9}$/;
-    if (!phoneRegex.test(guestPhone.replace(/\s/g, ''))) return 'Telefonul nu este valid';
+    // Phone validation - exactly 10 digits (Romanian format: 07xxxxxxxx)
+    const cleanPhone = guestPhone.replace(/\s/g, '').replace(/^\+?4?0?/, '0');
+    if (!/^0\d{9}$/.test(cleanPhone)) return 'Telefonul trebuie să aibă exact 10 cifre (ex: 0712345678)';
     
     return null;
   };
@@ -150,6 +150,16 @@ const CheckoutPage = () => {
     setError('');
 
     try {
+      // Normalize phone to 10 digits (07xxxxxxxx format)
+      const normalizedPhone = formData.guestPhone.replace(/\s/g, '').replace(/^\+?4?0?/, '0');
+
+      // Include name and phone in shippingAddress for FAN Courier AWB
+      const shippingAddressWithContact = {
+        ...formData.shippingAddress,
+        name: formData.guestName,
+        phone: normalizedPhone
+      };
+
       // Prepare common order data
       const baseOrderData = {
         items: cartItems.map(item => ({
@@ -159,9 +169,9 @@ const CheckoutPage = () => {
           quantity: item.quantity,
           image: item.image
         })),
-        shippingAddress: formData.shippingAddress,
-        billingAddress: formData.billingAddress.sameAsShipping 
-          ? formData.shippingAddress 
+        shippingAddress: shippingAddressWithContact,
+        billingAddress: formData.billingAddress.sameAsShipping
+          ? shippingAddressWithContact
           : formData.billingAddress,
         paymentMethod: formData.paymentMethod,
         shippingOption: shippingInfo,
@@ -174,7 +184,7 @@ const CheckoutPage = () => {
         ...baseOrderData,
         guestName: formData.guestName,
         guestEmail: formData.guestEmail,
-        guestPhone: formData.guestPhone
+        guestPhone: normalizedPhone
       };
 
       console.log('Submitting order:', orderData);
