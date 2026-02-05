@@ -390,6 +390,10 @@ class FanCourierService {
    */
   async getAWBLabelPDF(awbNumber) {
     try {
+      console.log('=== getAWBLabelPDF START ===');
+      console.log('AWB Number:', awbNumber);
+      console.log('Client ID:', this.clientId);
+
       const authResult = await this.authenticate();
       if (!authResult.success) {
         return {
@@ -398,13 +402,11 @@ class FanCourierService {
         };
       }
 
-      const response = await axios.get(`${this.reportsURL}/awb/label`, {
-        params: {
-          clientId: this.clientId,
-          'awbs[]': awbNumber,
-          pdf: 1,
-          dpi: 300
-        },
+      // Build URL with query params (FAN Courier expects awb[] not awbs[])
+      const url = `${this.reportsURL}/awb/label?clientId=${this.clientId}&awb[]=${awbNumber}&pdf=1&dpi=300`;
+      console.log('Request URL:', url);
+
+      const response = await axios.get(url, {
         headers: {
           'Authorization': `Bearer ${authResult.token}`,
           'Accept': 'application/pdf'
@@ -413,15 +415,21 @@ class FanCourierService {
         timeout: 30000
       });
 
+      console.log('Response status:', response.status);
+      console.log('Response content-type:', response.headers['content-type']);
+
       return {
         success: true,
         pdf: response.data
       };
     } catch (error) {
-      console.error('Error retrieving AWB label PDF:', error.response?.data || error.message);
+      const errorData = error.response?.data;
+      // If it's a buffer, convert to string for logging
+      const errorMessage = Buffer.isBuffer(errorData) ? errorData.toString('utf8') : errorData;
+      console.error('Error retrieving AWB label PDF:', errorMessage || error.message);
       return {
         success: false,
-        error: error.response?.data?.message || error.message
+        error: typeof errorMessage === 'string' ? errorMessage : (error.response?.data?.message || error.message)
       };
     }
   }
