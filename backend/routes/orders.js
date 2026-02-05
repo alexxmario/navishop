@@ -808,7 +808,10 @@ router.put('/:orderId/process', auth, async (req, res) => {
 
         // Generate Fan Courier AWB using correct API
         try {
-          const awbResult = await fanCourierService.createShipment(order);
+          // Get AWB options from request body (sent from admin panel)
+          const awbOptions = req.body.awbOptions || {};
+
+          const awbResult = await fanCourierService.createShipment(order, awbOptions);
 
           if (awbResult.success) {
             // Initialize shipping object if it doesn't exist

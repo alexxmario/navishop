@@ -66,36 +66,63 @@ class FanCourierService {
 
   /**
    * Create AWB (shipping label) for an order using FAN Courier API format
+   * @param {Object} orderData - Order data
+   * @param {string} authToken - Authentication token
+   * @param {Object} awbOptions - Custom AWB options from admin panel
    */
-  async createAWB(orderData, authToken) {
+  async createAWB(orderData, authToken, awbOptions = {}) {
     try {
+      // Build options array based on awbOptions
+      const options = [];
+      if (awbOptions.openOnDelivery) options.push('A');  // Deschidere la livrare
+      if (awbOptions.oPOD) options.push('X');  // oPOD
+      if (awbOptions.saturdayDelivery) options.push('S');  // Livrare sambata
+      if (awbOptions.pickupPrealert) options.push('P');  // Pick-up Prealert
+      if (awbOptions.returnFromRecipient) options.push('R');  // AWB cu preluare de la destinatar
+
+      // Determine service type
+      const serviceType = awbOptions.serviceType || 'Standard';
+
+      // Determine payment (who pays for shipping)
+      const payment = awbOptions.paymentBy || (orderData.cashOnDelivery > 0 ? 'recipient' : 'sender');
+
+      // Determine refund type (for Cont Colector services)
+      let refund = null;
+      if (serviceType.includes('Cont Colector') && awbOptions.refund) {
+        refund = awbOptions.refund;
+      }
+
+      // Determine packages (parcel vs envelope)
+      const isEnvelope = awbOptions.isEnvelope || false;
+      const numberOfPackages = parseInt(awbOptions.numberOfPackages) || 1;
+
       const awbData = {
         clientId: parseInt(this.clientId),
         shipments: [
           {
             info: {
-              service: 'Standard',
+              service: serviceType,
               bank: '',
               bankAccount: '',
               packages: {
-                parcel: 1,
-                envelope: 0
+                parcel: isEnvelope ? 0 : numberOfPackages,
+                envelope: isEnvelope ? numberOfPackages : 0
               },
-              weight: orderData.weight || 1,
-              cod: orderData.cashOnDelivery || 0,
-              declaredValue: orderData.declaredValue || 0,
-              payment: orderData.cashOnDelivery > 0 ? 'recipient' : 'sender',
-              refund: null,
+              weight: parseFloat(awbOptions.weight) || orderData.weight || 1,
+              cod: parseFloat(awbOptions.codValue) || orderData.cashOnDelivery || 0,
+              declaredValue: parseFloat(awbOptions.declaredValue) || orderData.declaredValue || 0,
+              payment: payment,
+              refund: refund,
               returnPayment: 'sender',
-              observation: `Comanda: ${orderData.orderNumber}`,
-              content: orderData.contents || `Comanda #${orderData.orderNumber}`,
+              observation: awbOptions.observations || `Comanda: ${orderData.orderNumber}`,
+              content: awbOptions.contents || orderData.contents || `Comanda #${orderData.orderNumber}`,
               dimensions: {
-                length: orderData.length || 10,
-                height: orderData.height || 10,
-                width: orderData.width || 10
+                length: parseInt(awbOptions.length) || orderData.length || 10,
+                height: parseInt(awbOptions.height) || orderData.height || 10,
+                width: parseInt(awbOptions.width) || orderData.width || 10
               },
               costCenter: null,
-              options: []
+              options: options
             },
             recipient: {
               name: orderData.recipientName,
@@ -107,7 +134,7 @@ class FanCourierService {
                 locality: orderData.city,
                 street: orderData.street,
                 streetNo: orderData.streetNumber || '',
-                zipCode: orderData.postalCode
+                zipCode: awbOptions.postalCode || orderData.postalCode
               }
             }
           }
@@ -271,13 +298,16 @@ class FanCourierService {
 
   /**
    * High-level method to create shipment for an order
+   * @param {Object} order - The order document
+   * @param {Object} awbOptions - Custom AWB options from admin panel
    */
-  async createShipment(order) {
+  async createShipment(order, awbOptions = {}) {
     try {
       console.log('=== FAN Courier createShipment START ===');
       console.log('Order ID:', order._id);
       console.log('Order Number:', order.orderNumber);
       console.log('Shipping Address:', JSON.stringify(order.shippingAddress, null, 2));
+      console.log('AWB Options:', JSON.stringify(awbOptions, null, 2));
 
       // Authenticate first
       const authResult = await this.authenticate();
@@ -340,10 +370,10 @@ class FanCourierService {
 
       console.log('Prepared orderData for AWB:', JSON.stringify(orderData, null, 2));
 
-      // Create AWB
-      const awbResult = await this.createAWB(orderData, authResult.token);
+      // Create AWB with custom options
+      const awbResult = await this.createAWB(orderData, authResult.token, awbOptions);
       console.log('AWB Result:', JSON.stringify(awbResult, null, 2));
-      
+
       if (awbResult.success) {
         return {
           success: true,
