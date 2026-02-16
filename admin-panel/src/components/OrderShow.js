@@ -869,25 +869,40 @@ export const OrderShow = () => (
           <CardContent>
             <Typography variant="h6" gutterBottom>Informații client</Typography>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={4}>
                 <FunctionField
                   label="Client"
-                  render={record => (
-                    <Box>
-                      <Typography variant="body1">{record.userId?.name}</Typography>
-                      <Typography variant="body2" color="textSecondary">{record.userId?.email}</Typography>
-                    </Box>
-                  )}
+                  render={record => {
+                    const name = record.guestName || record.userId?.name || '-';
+                    const email = record.guestEmail || record.userId?.email || '-';
+                    return (
+                      <Box>
+                        <Typography variant="body1">{name}</Typography>
+                        <Typography variant="body2" color="textSecondary">{email}</Typography>
+                      </Box>
+                    );
+                  }}
                 />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={4}>
+                <FunctionField
+                  label="Telefon"
+                  render={record => {
+                    const phone = record.guestPhone || record.shippingAddress?.phone || '-';
+                    return (
+                      <Typography variant="body1">{phone}</Typography>
+                    );
+                  }}
+                />
+              </Grid>
+              <Grid item xs={12} md={4}>
                 <FunctionField
                   label="Plată"
                   render={record => (
                     <Box>
                       <Typography variant="body2">{record.paymentMethod?.replace('_', ' ')}</Typography>
-                      <Chip 
-                        label={record.paymentStatus} 
+                      <Chip
+                        label={record.paymentStatus}
                         color={getPaymentStatusColor(record.paymentStatus)}
                         size="small"
                       />
