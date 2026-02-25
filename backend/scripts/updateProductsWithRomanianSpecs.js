@@ -40,7 +40,7 @@ const sampleRomanianSpecs = {
       sku: "X3E8303118GB2KPO",
       categorii: "X3 E83 (2003-2011)",
       brand: "PilotOn",
-      sistemOperare: "Android",
+      sistemOperare: "Android 14",
       harta: "Europa",
       tmc: "DA"
     },
@@ -62,7 +62,7 @@ const sampleRomanianSpecs = {
       "Preluare Comenzi Volan": "Da, vei putea folosi in continuare comenzile de pe volan cu noua navigatie",
       "Continut Pachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android",
       "Formate media suportate": "AVI, JPEG, MP3, MP4, MPEG1, MPEG2, MPEG4, PNG, WAV, WMA, WMV",
-      "Sistem de Operare": "Android",
+      "Sistem de Operare": "Android 14",
       "Tip Slot Memorie": "2 Porturi USB",
       "Conexiuni Externe": "Jack antena GPS, Jack antena radio, Port camera auto",
       "Harta": "Europa",
@@ -160,11 +160,11 @@ function generateRomanianSpecsFromProduct(product) {
 
   // General information
   romanianSpecs.general.brand = "PilotOn";
-  romanianSpecs.general.sistemOperare = "Android";
+  romanianSpecs.general.sistemOperare = "Android 14";
   romanianSpecs.general.harta = "Europa";
   romanianSpecs.general.tmc = "DA";
   romanianSpecs.rawDetails["Brand"] = "PilotOn";
-  romanianSpecs.rawDetails["Sistem de Operare"] = "Android";
+  romanianSpecs.rawDetails["Sistem de Operare"] = "Android 14";
   romanianSpecs.rawDetails["Harta"] = "Europa";
   romanianSpecs.rawDetails["TMC"] = "DA";
 

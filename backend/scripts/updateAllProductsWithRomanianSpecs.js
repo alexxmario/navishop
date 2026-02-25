@@ -102,11 +102,11 @@ function generateRomanianSpecsFromProduct(product) {
 
   // General information
   romanianSpecs.general.brand = "PilotOn";
-  romanianSpecs.general.sistemOperare = "Android";
+  romanianSpecs.general.sistemOperare = "Android 14";
   romanianSpecs.general.harta = "Europa";
   romanianSpecs.general.tmc = "DA";
   romanianSpecs.rawDetails["Brand"] = "PilotOn";
-  romanianSpecs.rawDetails["Sistem de Operare"] = "Android";
+  romanianSpecs.rawDetails["Sistem de Operare"] = "Android 14";
   romanianSpecs.rawDetails["Harta"] = "Europa";
   romanianSpecs.rawDetails["TMC"] = "DA";
 
