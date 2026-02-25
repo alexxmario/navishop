@@ -121,6 +121,10 @@ const FALLBACK_BRAND_MODELS = {
   chevrolet: {
     brand: 'Chevrolet',
     models: []
+  },
+  porsche: {
+    brand: 'Porsche',
+    models: ['Cayenne']
   }
 };
 
