@@ -185,7 +185,10 @@ const HomePage = () => {
     { name: 'Seat', logo: '/logos/seat.png' },
     { name: 'Fiat', logo: '/logos/fiat.png' },
     { name: 'Jeep', logo: '/logos/jeep.png' },
-    { name: 'Chevrolet', logo: '/logos/chevrolet.png' }
+    { name: 'Chevrolet', logo: '/logos/chevrolet.png' },
+    { name: 'Smart', logo: '/logos/smart.png' },
+    { name: 'Land Rover', logo: '/logos/land-rover.png' },
+    { name: 'Mini', logo: '/logos/mini.png' }
   ];
 
 

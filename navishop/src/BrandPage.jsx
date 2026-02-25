@@ -125,6 +125,18 @@ const FALLBACK_BRAND_MODELS = {
   porsche: {
     brand: 'Porsche',
     models: ['Cayenne']
+  },
+  smart: {
+    brand: 'Smart',
+    models: ['Fortwo', 'Forfour']
+  },
+  'land rover': {
+    brand: 'Land Rover',
+    models: ['Freelander', 'Discovery', 'Range Rover', 'Defender']
+  },
+  mini: {
+    brand: 'Mini',
+    models: ['Cooper', 'Clubman', 'Countryman']
   }
 };
 
