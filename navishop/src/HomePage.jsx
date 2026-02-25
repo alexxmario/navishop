@@ -162,6 +162,7 @@ const HomePage = () => {
     { name: 'BMW', logo: '/logos/bmw.png' },
     { name: 'Mercedes', logo: '/logos/mercedes.png' },
     { name: 'Audi', logo: '/logos/audi.png' },
+    { name: 'Porsche', logo: '/logos/porsche.png' },
     { name: 'Ford', logo: '/logos/ford.png' },
     { name: 'Opel', logo: '/logos/opel.png' },
     { name: 'Dacia', logo: '/logos/dacia.png' },
