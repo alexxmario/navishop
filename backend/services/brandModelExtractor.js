@@ -41,14 +41,14 @@ class BrandModelExtractor {
     // Pattern: MODEL GENERATION YEARS SPECS
     // Example: "CRV 1 2002-2006 2K 8GB 256GB 8 CORE" -> model: "CRV 2002-2006"
     // Example: "Duster 2 2012-2017 2K 4GB 64GB 8 CORE" -> model: "Duster 2012-2017"
-    
+
     const yearPatterns = [
-      /^(.+?)\s+(\d{4}-\d{4})\s+/,  // Model YYYY-YYYY
-      /^(.+?)\s+(dupa\s+\d{4})\s+/, // Model dupa YYYY  
-      /^(.+?)\s+(pana\s+\d{4})\s+/, // Model pana YYYY
-      /^(.+?)\s+(\d{4}-prezent)\s+/, // Model YYYY-prezent
-      /^(.+?)\s+(\(\d{4}-\d{4}\))\s+/, // Model (YYYY-YYYY)
-      /^(.+?)\s+(\d{4})\s+/,        // Model YYYY
+      /^(.+?)\s+(\d{4}-\d{4})(?:\s+|$)/,  // Model YYYY-YYYY (with or without trailing content)
+      /^(.+?)\s+(dupa\s+\d{4})(?:\s+|$)/, // Model dupa YYYY
+      /^(.+?)\s+(pana\s+\d{4})(?:\s+|$)/, // Model pana YYYY
+      /^(.+?)\s+(\d{4}-prezent)(?:\s+|$)/, // Model YYYY-prezent
+      /^(.+?)\s+(\(\d{4}-\d{4}\))(?:\s+|$)/, // Model (YYYY-YYYY)
+      /^(.+?)\s+(\d{4})(?:\s+|$)/,        // Model YYYY
     ];
     
     let model = null;
