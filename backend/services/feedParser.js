@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 const Product = require('../models/Product');
 
 class FeedParser {
-  constructor() {
-    this.feedUrl = 'https://www.navi-abc.ro/feed/google_xml/0dd00d87fcaef80b64aa73135f2c480c';
+  constructor(feedUrl = null) {
+    this.feedUrl = feedUrl || 'https://www.navi-abc.ro/feed/google_xml/0dd00d87fcaef80b64aa73135f2c480c';
   }
 
   async fetchFeed() {
