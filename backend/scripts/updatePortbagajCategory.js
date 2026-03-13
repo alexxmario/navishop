@@ -3,17 +3,17 @@ require('dotenv').config();
 
 const Product = require('../models/Product');
 
-async function updateLuminiCategory() {
+async function updatePortbagajCategory() {
   try {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB');
 
-    // Find all products with "lumini" in the name (case insensitive)
+    // Find all products with "portbagaj electric" in the name (case insensitive)
     const products = await Product.find({
-      name: { $regex: /lumini/i }
+      name: { $regex: /portbagaj electric/i }
     });
 
-    console.log(`Found ${products.length} products with "lumini" in name:`);
+    console.log(`Found ${products.length} products with "portbagaj electric" in name:`);
 
     for (const product of products) {
       console.log(`- ${product.name} (current category: ${product.category})`);
@@ -27,11 +27,11 @@ async function updateLuminiCategory() {
 
     // Update all products
     const result = await Product.updateMany(
-      { name: { $regex: /lumini/i } },
-      { $set: { category: 'lumini-ambientale' } }
+      { name: { $regex: /portbagaj electric/i } },
+      { $set: { category: 'portbagaj-electric' } }
     );
 
-    console.log(`\nUpdated ${result.modifiedCount} products to category "lumini-ambientale"`);
+    console.log(`\nUpdated ${result.modifiedCount} products to category "portbagaj-electric"`);
 
     await mongoose.connection.close();
     console.log('Done!');
@@ -42,4 +42,4 @@ async function updateLuminiCategory() {
   }
 }
 
-updateLuminiCategory();
+updatePortbagajCategory();
