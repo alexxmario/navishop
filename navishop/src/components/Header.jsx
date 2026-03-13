@@ -1,11 +1,23 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../AuthContext';
 import { useCart } from '../CartContext';
 import logoSvg from '../logo.svg';
 import {
-  Search, Menu, User, ShoppingCart
+  Search, Menu, User, ShoppingCart, ChevronDown
 } from 'lucide-react';
+
+const categories = [
+  { id: 'navigatii-gps', name: 'Navigații GPS', icon: '🧭' },
+  { id: 'carplay-android', name: 'CarPlay / Android Auto', icon: '📱' },
+  { id: 'module-carplay', name: 'Module CarPlay', icon: '🔌' },
+  { id: 'camere-marsarier', name: 'Camere Marsarier', icon: '📷' },
+  { id: 'dvr', name: 'DVR', icon: '🎥' },
+  { id: 'sisteme-multimedia', name: 'Sisteme Multimedia', icon: '🎵' },
+  { id: 'portbagaj-electric', name: 'Portbagaj Electric', icon: '🚗' },
+  { id: 'lumini-ambientale', name: 'Lumini Ambientale', icon: '💡' },
+  { id: 'accesorii', name: 'Accesorii', icon: '🔧' },
+];
 
 const Header = ({
   showNavigation = true,
@@ -15,26 +27,26 @@ const Header = ({
   const { isAuthenticated } = useAuth();
   const { getCartItemsCount } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsProductsDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       window.location.href = `/search?q=${encodeURIComponent(searchQuery.trim())}`;
     }
-  };
-
-  const handleBrandsClick = (e) => {
-    e.preventDefault();
-    setIsMenuOpen(false);
-    if (window.location.pathname === '/') {
-      const section = document.getElementById('brands-section');
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        return;
-      }
-    }
-    window.location.href = '/#brands-section';
   };
 
   return (
@@ -57,12 +69,32 @@ const Header = ({
             {showNavigation && (
               <div className="nav-container">
                 <nav className="hidden md:flex items-center space-x-8">
-                  <button
-                    onClick={handleBrandsClick}
-                    className="text-gray-700 hover:text-blue-600"
-                  >
-                    Produse
-                  </button>
+                  {/* Products Dropdown */}
+                  <div className="relative" ref={dropdownRef}>
+                    <button
+                      onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
+                      className="flex items-center gap-1 text-gray-700 hover:text-blue-600"
+                    >
+                      Produse
+                      <ChevronDown className={`w-4 h-4 transition-transform ${isProductsDropdownOpen ? 'rotate-180' : ''}`} />
+                    </button>
+
+                    {isProductsDropdownOpen && (
+                      <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-gray-200 shadow-lg rounded-lg py-2 z-50">
+                        {categories.map((category) => (
+                          <Link
+                            key={category.id}
+                            to={`/category/${category.id}`}
+                            className="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                            onClick={() => setIsProductsDropdownOpen(false)}
+                          >
+                            <span className="text-lg">{category.icon}</span>
+                            <span>{category.name}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                   <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <Link
                     to="/category/gps"
@@ -167,12 +199,31 @@ const Header = ({
       {showNavigation && isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-2 space-y-2">
-            <button
-              onClick={handleBrandsClick}
-              className="block py-2 text-left w-full text-gray-700 hover:text-blue-600"
-            >
-              Produse
-            </button>
+            {/* Mobile Products Dropdown */}
+            <div>
+              <button
+                onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
+                className="flex items-center justify-between py-2 text-left w-full text-gray-700 hover:text-blue-600"
+              >
+                <span>Produse</span>
+                <ChevronDown className={`w-4 h-4 transition-transform ${isProductsDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {isProductsDropdownOpen && (
+                <div className="pl-4 pb-2 space-y-1">
+                  {categories.map((category) => (
+                    <Link
+                      key={category.id}
+                      to={`/category/${category.id}`}
+                      className="flex items-center gap-2 py-2 text-gray-600 hover:text-blue-600"
+                      onClick={() => { setIsMenuOpen(false); setIsProductsDropdownOpen(false); }}
+                    >
+                      <span>{category.icon}</span>
+                      <span className="text-sm">{category.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Contact</Link>
           </div>
