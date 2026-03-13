@@ -8,12 +8,12 @@ async function updateBrandName() {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB');
 
-    // Find all products with brand "Navi ABC"
+    // Find all products with brand "NAVI ABC"
     const products = await Product.find({
-      brand: 'Navi ABC'
+      brand: 'NAVI ABC'
     });
 
-    console.log(`Found ${products.length} products with brand "Navi ABC":`);
+    console.log(`Found ${products.length} products with brand "NAVI ABC":`);
 
     for (const product of products) {
       console.log(`- ${product.name}`);
@@ -27,7 +27,7 @@ async function updateBrandName() {
 
     // Update all products
     const result = await Product.updateMany(
-      { brand: 'Navi ABC' },
+      { brand: 'NAVI ABC' },
       { $set: { brand: 'PilotOn' } }
     );
 
