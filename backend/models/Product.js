@@ -99,7 +99,10 @@ const productSchema = new mongoose.Schema({
       'camere-marsarier',
       'sisteme-multimedia',
       'dvr',
-      'accesorii'
+      'accesorii',
+      'module-carplay',
+      'portbagaj-electric',
+      'lumini-ambientale'
     ]
   },
   subcategory: {

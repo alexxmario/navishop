@@ -84,6 +84,9 @@ const ProductFilters = [
       { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
       { id: 'dvr', name: 'DVR' },
       { id: 'accesorii', name: 'Accesorii' },
+      { id: 'module-carplay', name: 'Module CarPlay' },
+      { id: 'portbagaj-electric', name: 'Portbagaj Electric' },
+      { id: 'lumini-ambientale', name: 'Lumini Ambientale' },
     ]}
     alwaysOn
   />,
@@ -146,6 +149,9 @@ const ProductSidebar = () => (
         <FilterListItem label="Multimedia" value={{ category: 'sisteme-multimedia' }} />
         <FilterListItem label="DVR" value={{ category: 'dvr' }} />
         <FilterListItem label="Accesorii" value={{ category: 'accesorii' }} />
+        <FilterListItem label="Module CarPlay" value={{ category: 'module-carplay' }} />
+        <FilterListItem label="Portbagaj Electric" value={{ category: 'portbagaj-electric' }} />
+        <FilterListItem label="Lumini Ambientale" value={{ category: 'lumini-ambientale' }} />
       </FilterList>
 
       <FilterList

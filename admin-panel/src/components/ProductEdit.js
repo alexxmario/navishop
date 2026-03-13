@@ -160,6 +160,9 @@ const ProductDetailsSection = () => {
               { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
               { id: 'dvr', name: 'DVR' },
               { id: 'accesorii', name: 'Accesorii' },
+              { id: 'module-carplay', name: 'Module CarPlay' },
+              { id: 'portbagaj-electric', name: 'Portbagaj Electric' },
+              { id: 'lumini-ambientale', name: 'Lumini Ambientale' },
             ]}
             sx={{
               '& .MuiOutlinedInput-root': {
