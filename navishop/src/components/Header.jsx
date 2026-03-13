@@ -104,7 +104,6 @@ const Header = ({
                       animation: 'gps-shine 3s ease-in-out infinite'
                     }}
                   >
-                    <span className="text-lg">🚛</span>
                     <span className="relative z-10 tracking-wide">GPS Camion</span>
                   </Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
@@ -155,7 +154,6 @@ const Header = ({
                       animation: 'gps-shine 3s ease-in-out infinite'
                     }}
                   >
-                    <span className="text-sm">🚛</span>
                     <span className="text-xs tracking-wide">GPS Camion</span>
                   </Link>
                 )}
