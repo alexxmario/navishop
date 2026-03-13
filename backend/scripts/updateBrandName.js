@@ -3,20 +3,20 @@ require('dotenv').config();
 
 const Product = require('../models/Product');
 
-async function updateModulCategory() {
+async function updateBrandName() {
   try {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB');
 
-    // Find all products with "modul" in the name (case insensitive)
+    // Find all products with brand "Navi ABC"
     const products = await Product.find({
-      name: { $regex: /modul/i }
+      brand: 'Navi ABC'
     });
 
-    console.log(`Found ${products.length} products with "modul" in name:`);
+    console.log(`Found ${products.length} products with brand "Navi ABC":`);
 
     for (const product of products) {
-      console.log(`- ${product.name} (current category: ${product.category})`);
+      console.log(`- ${product.name}`);
     }
 
     if (products.length === 0) {
@@ -27,11 +27,11 @@ async function updateModulCategory() {
 
     // Update all products
     const result = await Product.updateMany(
-      { name: { $regex: /modul/i } },
-      { $set: { category: 'module-carplay' } }
+      { brand: 'Navi ABC' },
+      { $set: { brand: 'PilotOn' } }
     );
 
-    console.log(`\nUpdated ${result.modifiedCount} products to category "module-carplay"`);
+    console.log(`\nUpdated ${result.modifiedCount} products to brand "PilotOn"`);
 
     await mongoose.connection.close();
     console.log('Done!');
@@ -42,4 +42,4 @@ async function updateModulCategory() {
   }
 }
 
-updateModulCategory();
+updateBrandName();
