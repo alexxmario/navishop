@@ -125,8 +125,6 @@ const ProductDetailsSection = () => {
               { id: 'navigatii-gps', name: 'Navigații GPS' },
               { id: 'carplay-android', name: 'CarPlay / Android Auto' },
               { id: 'camere-marsarier', name: 'Camere Marsarier' },
-              { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
-              { id: 'dvr', name: 'DVR' },
               { id: 'accesorii', name: 'Accesorii' },
               { id: 'module-carplay', name: 'Module CarPlay' },
               { id: 'portbagaj-electric', name: 'Portbagaj Electric' },

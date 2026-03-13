@@ -97,8 +97,6 @@ const productSchema = new mongoose.Schema({
       'gps',
       'carplay-android',
       'camere-marsarier',
-      'sisteme-multimedia',
-      'dvr',
       'accesorii',
       'module-carplay',
       'portbagaj-electric',

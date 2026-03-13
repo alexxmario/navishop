@@ -81,8 +81,6 @@ const ProductFilters = [
       { id: 'navigatii-gps', name: 'Navigații GPS' },
       { id: 'carplay-android', name: 'CarPlay/Android' },
       { id: 'camere-marsarier', name: 'Camere Marsarier' },
-      { id: 'sisteme-multimedia', name: 'Sisteme Multimedia' },
-      { id: 'dvr', name: 'DVR' },
       { id: 'accesorii', name: 'Accesorii' },
       { id: 'module-carplay', name: 'Module CarPlay' },
       { id: 'portbagaj-electric', name: 'Portbagaj Electric' },
@@ -146,8 +144,6 @@ const ProductSidebar = () => (
         <FilterListItem label="Navigații GPS" value={{ category: 'navigatii-gps' }} />
         <FilterListItem label="CarPlay/Android" value={{ category: 'carplay-android' }} />
         <FilterListItem label="Camere marsarier" value={{ category: 'camere-marsarier' }} />
-        <FilterListItem label="Multimedia" value={{ category: 'sisteme-multimedia' }} />
-        <FilterListItem label="DVR" value={{ category: 'dvr' }} />
         <FilterListItem label="Accesorii" value={{ category: 'accesorii' }} />
         <FilterListItem label="Module CarPlay" value={{ category: 'module-carplay' }} />
         <FilterListItem label="Portbagaj Electric" value={{ category: 'portbagaj-electric' }} />

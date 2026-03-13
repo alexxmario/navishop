@@ -12,8 +12,6 @@ const categories = [
   { id: 'carplay-android', name: 'CarPlay / Android Auto', icon: '📱' },
   { id: 'module-carplay', name: 'Module CarPlay', icon: '🔌' },
   { id: 'camere-marsarier', name: 'Camere Marsarier', icon: '📷' },
-  { id: 'dvr', name: 'DVR', icon: '🎥' },
-  { id: 'sisteme-multimedia', name: 'Sisteme Multimedia', icon: '🎵' },
   { id: 'portbagaj-electric', name: 'Portbagaj Electric', icon: '🚗' },
   { id: 'lumini-ambientale', name: 'Lumini Ambientale', icon: '💡' },
   { id: 'accesorii', name: 'Accesorii', icon: '🔧' },
