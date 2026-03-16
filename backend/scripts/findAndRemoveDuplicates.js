@@ -24,11 +24,15 @@ async function findAndRemoveDuplicates() {
         // Remove hyphens from model names (CR-V -> CRV, HR-V -> HRV)
         .replace(/([a-z])-([a-z])/gi, '$1$2')
         // Roman numerals to Arabic (must be done in order: longest first)
+        .replace(/\bxii\b/g, '12')   // XII -> 12
+        .replace(/\bxi\b/g, '11')    // XI -> 11
+        .replace(/\bix\b/g, '9')     // IX -> 9
+        .replace(/\bx\b/g, '10')     // X -> 10 (must be after XI, XII, IX)
         .replace(/\bviii\b/g, '8')   // VIII -> 8
         .replace(/\bvii\b/g, '7')    // VII -> 7
         .replace(/\bvi\b/g, '6')     // VI -> 6
         .replace(/\biv\b/g, '4')     // IV -> 4
-        .replace(/\bv\b/g, '5')      // V -> 5 (must be after IV)
+        .replace(/\bv\b/g, '5')      // V -> 5 (must be after IV, VII, VIII)
         .replace(/\biii\b/g, '3')    // III -> 3
         .replace(/\bii\b/g, '2')     // II -> 2
         .replace(/\bi\b/g, '1')      // I -> 1 (must be last)

@@ -19,14 +19,18 @@ class BrandModelExtractor {
 
     return modelName
       // Convert Roman numerals to Arabic (longest first to avoid partial matches)
+      .replace(/\bXII\b/gi, '12')
+      .replace(/\bXI\b/gi, '11')
+      .replace(/\bIX\b/gi, '9')
+      .replace(/\bX\b/gi, '10')    // Must be after XI, XII, IX
       .replace(/\bVIII\b/gi, '8')
       .replace(/\bVII\b/gi, '7')
       .replace(/\bVI\b/gi, '6')
       .replace(/\bIV\b/gi, '4')
-      .replace(/\bV\b/gi, '5')
+      .replace(/\bV\b/gi, '5')     // Must be after IV, VII, VIII
       .replace(/\bIII\b/gi, '3')
       .replace(/\bII\b/gi, '2')
-      .replace(/\bI\b/gi, '1')
+      .replace(/\bI\b/gi, '1')     // Must be last
       // Remove hyphens from model names (CR-V -> CRV)
       .replace(/([A-Za-z])-([A-Za-z])/g, '$1$2')
       .trim();
