@@ -4,13 +4,32 @@ class BrandModelExtractor {
   constructor() {
     // Common car brands to look for in product names
     this.carBrands = [
-      'Alfa Romeo', 'Audi', 'BMW', 'Mercedes', 'Volkswagen', 'VW', 'Toyota', 
+      'Alfa Romeo', 'Audi', 'BMW', 'Mercedes', 'Volkswagen', 'VW', 'Toyota',
       'Ford', 'Opel', 'Dacia', 'Renault', 'Peugeot', 'Citroen', 'Honda',
       'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
       'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
       'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Infiniti',
       'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra'
     ];
+  }
+
+  // Normalize model name: convert Roman numerals to Arabic, remove hyphens
+  normalizeModelName(modelName) {
+    if (!modelName) return modelName;
+
+    return modelName
+      // Convert Roman numerals to Arabic (longest first to avoid partial matches)
+      .replace(/\bVIII\b/gi, '8')
+      .replace(/\bVII\b/gi, '7')
+      .replace(/\bVI\b/gi, '6')
+      .replace(/\bIV\b/gi, '4')
+      .replace(/\bV\b/gi, '5')
+      .replace(/\bIII\b/gi, '3')
+      .replace(/\bII\b/gi, '2')
+      .replace(/\bI\b/gi, '1')
+      // Remove hyphens from model names (CR-V -> CRV)
+      .replace(/([A-Za-z])-([A-Za-z])/g, '$1$2')
+      .trim();
   }
 
   extractBrandModelFromName(productName) {
@@ -247,14 +266,15 @@ class BrandModelExtractor {
           }
           
           const brandData = brandModelMap.get(brandKey);
-          // Create a unique key that includes years for separate models, removing "dupa" from key
-          const cleanModelForKey = extracted.model.replace(/\s*dupa\s*/gi, '').trim();
-          const uniqueModelKey = `${cleanModelForKey.toLowerCase()} ${extracted.years || 'unknown'}`;
-          
+          // Create a unique key that includes years for separate models
+          // Normalize the model name to avoid duplicates like "Civic VIII" vs "Civic 8"
+          const cleanModel = extracted.model.replace(/\s*dupa\s*/gi, '').trim();
+          const normalizedModel = this.normalizeModelName(cleanModel);
+          const uniqueModelKey = `${normalizedModel.toLowerCase()} ${extracted.years || 'unknown'}`;
+
           if (!brandData.models.has(uniqueModelKey)) {
-            const cleanModel = extracted.model.replace(/\s*dupa\s*/gi, '').trim();
             brandData.models.set(uniqueModelKey, {
-              model: cleanModel, // Clean model name without "dupa"
+              model: normalizedModel, // Normalized model name (VIII -> 8, CR-V -> CRV)
               years: extracted.years, // Production years
               productCount: 0
             });
@@ -345,28 +365,27 @@ class BrandModelExtractor {
           return false;
         }
         
-        // Simple approach: recreate the same modelKey that was generated in getAllBrandsWithModels
-        // and compare with the search model
-        const cleanModelForKey = extracted.model.replace(/\s*dupa\s*/gi, '').trim();
-        const productModelKey = `${cleanModelForKey.toLowerCase()} ${extracted.years || 'unknown'}`;
+        // Recreate the same normalized modelKey that was generated in getAllBrandsWithModels
+        const cleanModel = extracted.model.replace(/\s*dupa\s*/gi, '').trim();
+        const normalizedModel = this.normalizeModelName(cleanModel);
+        const productModelKey = `${normalizedModel.toLowerCase()} ${extracted.years || 'unknown'}`;
 
-        // Handle both exact match and partial match for base model names
-        // Example: search "seria 3" should match "seria 3 2004-2013" and "seria 3 1999-2006"
-        const searchModel = model.toLowerCase().trim();
+        // Normalize the search model too
+        const normalizedSearchModel = this.normalizeModelName(model).toLowerCase().trim();
 
         // Check exact match first
-        if (productModelKey === searchModel) {
+        if (productModelKey === normalizedSearchModel) {
           return true;
         }
 
         // Check if the search model is a prefix of the product model key
-        // This handles cases like "seria 3" matching "seria 3 2004-2013"
-        if (productModelKey.startsWith(searchModel + ' ')) {
+        // This handles cases like "civic 8" matching "civic 8 2006-2011"
+        if (productModelKey.startsWith(normalizedSearchModel + ' ')) {
           return true;
         }
 
         // Also check if the extracted base model (without years) matches the search
-        if (cleanModelForKey.toLowerCase() === searchModel) {
+        if (normalizedModel.toLowerCase() === normalizedSearchModel) {
           return true;
         }
 
