@@ -224,7 +224,8 @@ class BrandModelExtractor {
 
   async getAllBrandsWithModels() {
     try {
-      const products = await Product.find({}, 'name').lean();
+      // Only get active products
+      const products = await Product.find({ status: 'active' }, 'name').lean();
       const brandModelMap = new Map();
       
       for (const product of products) {
@@ -319,7 +320,8 @@ class BrandModelExtractor {
         query = { name: { $regex: brandPatterns[0] } };
       }
       
-      // Get all products matching brand variants
+      // Get all products matching brand variants (only active)
+      query.status = 'active';
       let products = await Product.find(query).lean();
       
       // Filter by model - use simple base model matching 
