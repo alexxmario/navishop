@@ -18,14 +18,25 @@ async function findAndRemoveDuplicates() {
     const normalizedGroups = {};
 
     allProducts.forEach(product => {
-      // Normalize the name: replace Roman numerals with Arabic, lowercase
-      const normalized = product.name
+      // Normalize the name for comparison
+      let normalized = product.name
         .toLowerCase()
-        .replace(/\bi\b/g, '1')      // Tiguan I -> Tiguan 1
-        .replace(/\bii\b/g, '2')     // Tiguan II -> Tiguan 2
-        .replace(/\biii\b/g, '3')    // Tiguan III -> Tiguan 3
-        .replace(/\biv\b/g, '4')     // Tiguan IV -> Tiguan 4
-        .replace(/\s+/g, ' ')        // Multiple spaces to single
+        // Remove hyphens from model names (CR-V -> CRV, HR-V -> HRV)
+        .replace(/([a-z])-([a-z])/gi, '$1$2')
+        // Roman numerals to Arabic (must be done in order: longest first)
+        .replace(/\bviii\b/g, '8')   // VIII -> 8
+        .replace(/\bvii\b/g, '7')    // VII -> 7
+        .replace(/\bvi\b/g, '6')     // VI -> 6
+        .replace(/\biv\b/g, '4')     // IV -> 4
+        .replace(/\bv\b/g, '5')      // V -> 5 (must be after IV)
+        .replace(/\biii\b/g, '3')    // III -> 3
+        .replace(/\bii\b/g, '2')     // II -> 2
+        .replace(/\bi\b/g, '1')      // I -> 1 (must be last)
+        // Remove generation numbers at the end of model names before specs
+        // "crv 1 2002-2006" and "crv 2002-2006" should match
+        .replace(/(\b(?:crv|hrv|rav4|duster|sandero|logan|tiguan|golf|polo|clio|megane)\b)\s+\d+\s+(\d{4})/gi, '$1 $2')
+        // Multiple spaces to single
+        .replace(/\s+/g, ' ')
         .trim();
 
       if (!normalizedGroups[normalized]) {
