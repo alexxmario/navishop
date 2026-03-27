@@ -98,7 +98,51 @@ const sendB2BApplicationConfirmation = async (application) => {
   }
 };
 
+// Send approval email with credentials
+const sendB2BApplicationApproval = async (application, temporaryPassword, user) => {
+  try {
+    const transporter = createTransporter();
+
+    const mailOptions = {
+      from: `"PilotOn" <${process.env.EMAIL_USER}>`,
+      to: application.email,
+      subject: 'Cont B2B Aprobat - Credențialele tale PilotOn',
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <h2 style="color: #2563eb;">Cont B2B Aprobat!</h2>
+
+          <p>Bună ziua ${application.contactName},</p>
+
+          <p>Cererea dumneavoastră pentru cont B2B a fost aprobată!</p>
+
+          <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h3 style="margin-top: 0; color: #1f2937;">Credențialele tale de autentificare:</h3>
+            <p><strong>Email:</strong> ${application.email}</p>
+            <p><strong>Parolă:</strong> <span style="font-family: monospace; background-color: #fff; padding: 4px 8px; border-radius: 4px;">${temporaryPassword}</span></p>
+          </div>
+
+          <p>Poți să te autentifici acum pe <a href="https://navi.piloton.ro">navi.piloton.ro</a> și vei beneficia automat de reducere 20% la toate produsele.</p>
+
+          <p style="color: #6b7280; font-size: 14px; margin-top: 30px;">
+            Recomandăm să îți schimbi parola după prima autentificare.
+          </p>
+
+          <p>O zi bună!</p>
+        </div>
+      `,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    console.log('B2B application approval sent:', info.messageId);
+    return { success: true, messageId: info.messageId };
+  } catch (error) {
+    console.error('Error sending B2B application approval:', error);
+    return { success: false, error: error.message };
+  }
+};
+
 module.exports = {
   sendB2BApplicationNotification,
   sendB2BApplicationConfirmation,
+  sendB2BApplicationApproval,
 };

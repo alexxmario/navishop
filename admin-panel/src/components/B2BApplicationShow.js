@@ -370,6 +370,42 @@ export const B2BApplicationShow = () => (
                         ) : null
                       )}
                     />
+                    <FunctionField
+                      render={record => (
+                        record.temporaryPassword ? (
+                          <Grid item xs={12}>
+                            <Typography variant="caption" color="textSecondary">
+                              Parolă Generată
+                            </Typography>
+                            <Box sx={{
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: 1,
+                              bgcolor: 'grey.100',
+                              p: 1.5,
+                              borderRadius: 1,
+                              mt: 1
+                            }}>
+                              <Typography
+                                variant="body1"
+                                sx={{ fontFamily: 'monospace', fontWeight: 600 }}
+                              >
+                                {record.temporaryPassword}
+                              </Typography>
+                              <Button
+                                size="small"
+                                startIcon={<ContentCopy />}
+                                onClick={() => {
+                                  navigator.clipboard.writeText(record.temporaryPassword);
+                                }}
+                              >
+                                Copiază
+                              </Button>
+                            </Box>
+                          </Grid>
+                        ) : null
+                      )}
+                    />
                   </Grid>
                 </CardContent>
               </Card>

@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const B2BApplication = require('../models/B2BApplication');
 const User = require('../models/User');
 const auth = require('../middleware/auth');
-const { sendB2BApplicationNotification, sendB2BApplicationConfirmation } = require('../services/emailService');
+const { sendB2BApplicationNotification, sendB2BApplicationConfirmation, sendB2BApplicationApproval } = require('../services/emailService');
 const router = express.Router();
 
 // Generate secure random password
@@ -266,6 +266,11 @@ router.put('/:id/approve', auth, async (req, res) => {
       application.createdUserId = user._id;
       application.temporaryPassword = temporaryPassword;
       await application.save();
+
+      // Send approval email with credentials (non-blocking)
+      sendB2BApplicationApproval(application, temporaryPassword, user).catch(err => {
+        console.error('Error sending B2B approval email:', err);
+      });
 
       res.json({
         message: 'Contul B2B a fost creat cu succes',
