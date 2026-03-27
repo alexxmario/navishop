@@ -101,7 +101,7 @@ router.post('/image', auth, upload.single('image'), (req, res) => {
 });
 
 // Upload multiple images
-router.post('/images', auth, upload.array('images', 25), (req, res) => {
+router.post('/images', auth, upload.array('images', 30), (req, res) => {
   try {
     if (!req.files || req.files.length === 0) {
       return res.status(400).json({ message: 'No image files provided' });
