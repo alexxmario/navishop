@@ -3,6 +3,7 @@ const crypto = require('crypto');
 const B2BApplication = require('../models/B2BApplication');
 const User = require('../models/User');
 const auth = require('../middleware/auth');
+const { sendB2BApplicationNotification, sendB2BApplicationConfirmation } = require('../services/emailService');
 const router = express.Router();
 
 // Generate secure random password
@@ -70,6 +71,15 @@ router.post('/', async (req, res) => {
     });
 
     await application.save();
+
+    // Send email notifications (don't wait for completion, don't block response)
+    Promise.all([
+      sendB2BApplicationNotification(application),
+      sendB2BApplicationConfirmation(application)
+    ]).catch(err => {
+      console.error('Error sending B2B application emails:', err);
+      // Email errors shouldn't fail the application submission
+    });
 
     res.status(201).json({
       message: 'Cererea a fost trimisa cu succes. Veti fi contactat in cel mai scurt timp.',
