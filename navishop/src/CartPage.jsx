@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
+import { useB2BPricing } from './hooks/useB2BPricing';
+import { resolveImageUrl } from './config/api';
 import {
   ShoppingCart, ArrowLeft, Plus, Minus, Trash2, Heart,
   Truck, Shield, Check, Phone, Mail, CreditCard, Tag
@@ -38,46 +40,51 @@ const CartPage = () => {
   const shipping = subtotal >= 500 ? 0 : 29;
   const total = subtotal + shipping;
 
-  const CartItem = ({ item }) => (
-    <div className="flex flex-col md:flex-row bg-white border border-gray-100 p-6 space-y-4 md:space-y-0">
-      {/* Product Image */}
-      <div className="w-full md:w-32 h-32 bg-gray-50 border border-gray-200 flex items-center justify-center flex-shrink-0">
-        <Link to={`/product/${item.slug || item.productId}`} className="w-full h-full flex items-center justify-center">
-          {item.images && item.images.length > 0 ? (
-            <img 
-              src={item.images[0].url} 
-              alt={item.images[0].alt || item.name}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
-            />
-          ) : (
-            <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200 flex items-center justify-center">
-              <ShoppingCart className="w-8 h-8 text-blue-600" />
-            </div>
-          )}
-        </Link>
-      </div>
+  const CartItem = ({ item }) => {
+    const { calculatePrice, hasDiscount } = useB2BPricing();
+    const displayPrice = calculatePrice(item.price);
+    const displayOldPrice = item.oldPrice ? calculatePrice(item.oldPrice) : null;
 
-      {/* Product Info */}
-      <div className="flex-1 md:ml-6">
-        <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="flex-1">
-            <Link to={`/product/${item.slug || item.productId}`} className="hover:text-blue-600 transition-colors">
-              <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600">{item.name}</h3>
-            </Link>
-            <p className="text-sm text-gray-600 mb-2">{item.compatibility}</p>
-            <div className="flex items-center space-x-2 mb-4">
-              <span className="font-semibold text-gray-900">{item.price} lei</span>
-              {item.oldPrice && (
-                <span className="text-sm text-gray-500 line-through">{item.oldPrice} lei</span>
-              )}
-              {item.oldPrice && (
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
-                  Economii: {item.oldPrice - item.price} lei
-                </span>
-              )}
+    return (
+      <div className="flex flex-col md:flex-row bg-white border border-gray-100 p-6 space-y-4 md:space-y-0">
+        {/* Product Image */}
+        <div className="w-full md:w-32 h-32 bg-gray-50 border border-gray-200 flex items-center justify-center flex-shrink-0">
+          <Link to={`/product/${item.slug || item.productId}`} className="w-full h-full flex items-center justify-center">
+            {item.images && item.images.length > 0 ? (
+              <img
+                src={resolveImageUrl(item.images[0].url)}
+                alt={item.images[0].alt || item.name}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
+              />
+            ) : (
+              <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200 flex items-center justify-center">
+                <ShoppingCart className="w-8 h-8 text-blue-600" />
+              </div>
+            )}
+          </Link>
+        </div>
+
+        {/* Product Info */}
+        <div className="flex-1 md:ml-6">
+          <div className="flex flex-col md:flex-row md:justify-between">
+            <div className="flex-1">
+              <Link to={`/product/${item.slug || item.productId}`} className="hover:text-blue-600 transition-colors">
+                <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600">{item.name}</h3>
+              </Link>
+              <p className="text-sm text-gray-600 mb-2">{item.compatibility}</p>
+              <div className="flex items-center space-x-2 mb-4">
+                <span className="font-semibold text-gray-900">{displayPrice} lei</span>
+                {displayOldPrice && (
+                  <span className="text-sm text-gray-500 line-through">{displayOldPrice} lei</span>
+                )}
+                {displayOldPrice && (
+                  <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
+                    Economii: {displayOldPrice - displayPrice} lei
+                  </span>
+                )}
+              </div>
+              <p className="text-sm text-blue-600">În stoc</p>
             </div>
-            <p className="text-sm text-blue-600">În stoc</p>
-          </div>
 
           {/* Quantity and Actions */}
           <div className="flex flex-col md:items-end space-y-4 mt-4 md:mt-0">
@@ -104,10 +111,10 @@ const CartPage = () => {
 
             {/* Item Total */}
             <div className="text-right">
-              <p className="font-semibold text-lg">{item.price * item.quantity} lei</p>
-              {item.oldPrice && (
+              <p className="font-semibold text-lg">{displayPrice * item.quantity} lei</p>
+              {displayOldPrice && (
                 <p className="text-sm text-gray-500 line-through">
-                  {item.oldPrice * item.quantity} lei
+                  {displayOldPrice * item.quantity} lei
                 </p>
               )}
             </div>
@@ -132,8 +139,8 @@ const CartPage = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
