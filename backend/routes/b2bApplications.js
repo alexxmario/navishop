@@ -30,9 +30,22 @@ router.post('/', async (req, res) => {
     } = req.body;
 
     // Validate required fields
-    if (!contactName || !email || !phone || !companyName || !vatNumber || !companyAddress) {
+    if (!contactName || !email || !phone || !companyName || !vatNumber) {
       return res.status(400).json({
         message: 'Toate campurile obligatorii trebuie completate'
+      });
+    }
+
+    // Validate companyAddress and its nested fields
+    if (!companyAddress || typeof companyAddress !== 'object') {
+      return res.status(400).json({
+        message: 'Adresa companiei este obligatorie'
+      });
+    }
+
+    if (!companyAddress.street || !companyAddress.city || !companyAddress.county || !companyAddress.postalCode) {
+      return res.status(400).json({
+        message: 'Toate campurile adresei sunt obligatorii'
       });
     }
 
