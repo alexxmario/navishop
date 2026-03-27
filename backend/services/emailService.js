@@ -80,32 +80,11 @@ const sendB2BApplicationConfirmation = async (application) => {
       subject: 'Cererea ta pentru Cont B2B a fost primită',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #2563eb;">Bună ziua, ${application.contactName}!</h2>
-
           <p>Mulțumim pentru interesul acordat contului B2B PilotOn.</p>
 
-          <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
-            <p style="margin: 0;">
-              Am primit cererea dumneavoastră și o vom procesa în cel mai scurt timp posibil.
-              Veți fi contactat în curând cu detaliile contului B2B.
-            </p>
-          </div>
+          <p>Am primit cererea dumneavoastră și o vom procesa în cel mai scurt timp posibil. Veți fi contactat în curând cu detaliile contului B2B.</p>
 
-          <div style="background-color: #eff6ff; border-left: 4px solid #2563eb; padding: 15px; margin: 20px 0;">
-            <p style="margin: 0;"><strong>Beneficiile contului B2B:</strong></p>
-            <ul style="margin: 10px 0;">
-              <li>Reducere 20% la toate produsele</li>
-              <li>Prețuri speciale pentru comenzi mari</li>
-              <li>Suport prioritar</li>
-            </ul>
-          </div>
-
-          <p>Dacă aveți întrebări, nu ezitați să ne contactați.</p>
-
-          <p style="color: #6b7280; font-size: 14px; margin-top: 30px;">
-            Cu stimă,<br>
-            Echipa PilotOn
-          </p>
+          <p>O zi buna!</p>
         </div>
       `,
     };
