@@ -141,11 +141,8 @@ const B2BApplicationPage = () => {
             <div className="bg-white border border-gray-100 p-8">
               <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
               <h1 className="text-2xl font-light text-gray-900 mb-4">Cererea a fost trimisa!</h1>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-8">
                 Multumim pentru interesul acordat. Cererea dumneavoastra va fi procesata in cel mai scurt timp si veti fi contactat la adresa de email furnizata.
-              </p>
-              <p className="text-sm text-gray-500 mb-8">
-                Conturile B2B beneficiaza de reducere 20% la toate produsele.
               </p>
               <Link
                 to="/"
@@ -180,18 +177,8 @@ const B2BApplicationPage = () => {
             <div className="text-center mb-8">
               <h1 className="text-2xl font-light text-gray-900 mb-2">Solicita cont B2B</h1>
               <p className="text-gray-600 text-sm">
-                Completeaza formularul pentru a solicita un cont de partener cu reducere 20% la toate produsele
+                Completeaza formularul pentru a solicita un cont de partener
               </p>
-            </div>
-
-            {/* Benefits */}
-            <div className="bg-blue-50 border border-blue-100 p-4 mb-8">
-              <h3 className="font-medium text-blue-900 mb-2">Beneficii cont B2B:</h3>
-              <ul className="text-sm text-blue-800 space-y-1">
-                <li>• Reducere 20% la toate produsele</li>
-                <li>• Acces la preturi speciale pentru comenzi mari</li>
-                <li>• Suport dedicat pentru parteneri</li>
-              </ul>
             </div>
 
             {errors.general && (
