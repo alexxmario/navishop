@@ -31,7 +31,7 @@ const getImageSource = (image) => {
   return resolveImageUrl(image.url || image.relativeUrl);
 };
 
-const ImageManager = ({ images = [], onChange, maxImages = 10 }) => {
+const ImageManager = ({ images = [], onChange, maxImages = 25 }) => {
   const [uploading, setUploading] = useState(false);
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState(null);

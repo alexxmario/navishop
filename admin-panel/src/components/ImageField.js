@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useInput, useRecordContext } from 'react-admin';
 import ImageManager from './ImageManager';
 
-const ImageField = ({ source = 'images', maxImages = 20, ...props }) => {
+const ImageField = ({ source = 'images', maxImages = 25, ...props }) => {
   const {
     field: { value, onChange },
     fieldState: { error }

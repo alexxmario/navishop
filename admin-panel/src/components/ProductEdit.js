@@ -492,7 +492,7 @@ const ProductEditForm = () => {
     <TabbedForm>
       {/* Tab 1: Images */}
       <FormTab label="Imagini">
-        <ImageField source="images" maxImages={20} />
+        <ImageField source="images" maxImages={25} />
       </FormTab>
 
       {/* Tab 2: Pricing & Stock */}
