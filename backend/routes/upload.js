@@ -129,15 +129,17 @@ router.delete('/image/:filename', auth, (req, res) => {
   try {
     const filename = req.params.filename;
     const filePath = path.join(uploadDir, filename);
-    
-    // Check if file exists
+
+    // Check if file exists locally
     if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ message: 'Image not found' });
+      // File doesn't exist locally - it might be an external CDN image
+      // Return success so the image reference can still be removed from the product
+      return res.json({ message: 'Image reference removed', external: true });
     }
-    
-    // Delete the file
+
+    // Delete the local file
     fs.unlinkSync(filePath);
-    
+
     res.json({ message: 'Image deleted successfully' });
   } catch (error) {
     res.status(500).json({ message: 'Error deleting image', error: error.message });
