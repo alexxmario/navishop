@@ -18,6 +18,8 @@ import OrderCreate from './components/OrderCreate';
 import { UserList } from './components/UserList';
 import { ReviewList } from './components/ReviewList';
 import { ReviewShow } from './components/ReviewShow';
+import { B2BApplicationList } from './components/B2BApplicationList';
+import { B2BApplicationShow } from './components/B2BApplicationShow';
 import Dashboard from './components/Dashboard';
 import CustomLayout from './components/Layout';
 import LoginPage from './components/LoginPage';
@@ -61,6 +63,12 @@ function App() {
         name="reviews"
         list={ReviewList}
         show={ReviewShow}
+      />
+      <Resource
+        name="b2b-applications"
+        list={B2BApplicationList}
+        show={B2BApplicationShow}
+        options={{ label: 'Cereri B2B' }}
       />
       </Admin>
     </ThemeProvider>

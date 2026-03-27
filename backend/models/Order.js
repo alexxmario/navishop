@@ -14,6 +14,9 @@ const orderItemSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  originalPrice: {
+    type: Number
+  },
   quantity: {
     type: Number,
     required: true,
@@ -21,6 +24,10 @@ const orderItemSchema = new mongoose.Schema({
   },
   image: {
     type: String
+  },
+  b2bDiscountApplied: {
+    type: Boolean,
+    default: false
   }
 }, { _id: false });
 
@@ -177,6 +184,14 @@ const orderSchema = new mongoose.Schema({
     rrn: String,
     approval: String,
     amount: String
+  },
+  isB2BOrder: {
+    type: Boolean,
+    default: false
+  },
+  b2bDiscountRate: {
+    type: Number,
+    default: 0
   }
 }, {
   timestamps: true

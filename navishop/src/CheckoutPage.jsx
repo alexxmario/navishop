@@ -5,6 +5,7 @@ import { useAuth } from './AuthContext';
 import apiService from './services/api';
 import PageTitle from './components/PageTitle';
 import ShippingCalculator from './components/ShippingCalculator';
+import { useB2BPricing } from './hooks/useB2BPricing';
 import {
   ArrowLeft, CreditCard, Truck, Shield, MapPin, User,
   CheckCircle, AlertCircle, Clock
@@ -14,6 +15,7 @@ const CheckoutPage = () => {
   const navigate = useNavigate();
   const { cartItems, clearCart, getCartTotal } = useCart();
   const { user } = useAuth();
+  const { isBusinessAccount, calculateCartTotal, calculateB2BSavings, discountPercent } = useB2BPricing();
   
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -123,16 +125,17 @@ const CheckoutPage = () => {
   };
 
   const calculateShipping = useCallback(() => {
-    const total = getCartTotal();
+    const total = isBusinessAccount ? calculateCartTotal(cartItems) : getCartTotal();
     if (total >= 500) {
       return 0;
     }
     return shippingInfo?.cost || 0;
-  }, [getCartTotal, shippingInfo]);
+  }, [isBusinessAccount, calculateCartTotal, cartItems, getCartTotal, shippingInfo]);
 
   const calculateGrandTotal = useCallback(() => {
-    return getCartTotal() + calculateShipping();
-  }, [getCartTotal, calculateShipping]);
+    const orderTotal = isBusinessAccount ? calculateCartTotal(cartItems) : getCartTotal();
+    return orderTotal + calculateShipping();
+  }, [isBusinessAccount, calculateCartTotal, cartItems, getCartTotal, calculateShipping]);
 
   const handleShippingUpdate = useCallback((shipping) => {
     setShippingInfo(shipping);
@@ -568,37 +571,69 @@ const CheckoutPage = () => {
               </h2>
               
               <div className="space-y-4 mb-6">
-                {cartItems.map((item) => (
-                  <div key={item.productId || item._id} className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gray-100 rounded flex-shrink-0">
-                      {item.image && (
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                          className="w-full h-full object-cover rounded"
-                        />
-                      )}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-gray-900 truncate">
-                        {item.name}
+                {cartItems.map((item) => {
+                  const { formatPriceDisplay } = { formatPriceDisplay: (price) => {
+                    if (!isBusinessAccount || !price) return { currentPrice: price };
+                    const discountRate = discountPercent / 100;
+                    const discountedPrice = price * (1 - discountRate);
+                    return { currentPrice: Math.round(discountedPrice * 100) / 100 };
+                  }};
+                  const priceInfo = formatPriceDisplay(item.price);
+                  const displayPrice = isBusinessAccount ? priceInfo.currentPrice : item.price;
+
+                  return (
+                    <div key={item.productId || item._id} className="flex items-center space-x-3">
+                      <div className="w-12 h-12 bg-gray-100 rounded flex-shrink-0">
+                        {item.image && (
+                          <img
+                            src={item.image}
+                            alt={item.name}
+                            className="w-full h-full object-cover rounded"
+                          />
+                        )}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-medium text-gray-900 truncate">
+                          {item.name}
+                        </p>
+                        <p className="text-sm text-gray-500">
+                          {item.quantity} x {displayPrice} lei
+                          {isBusinessAccount && (
+                            <span className="ml-1 text-xs text-blue-600">(B2B)</span>
+                          )}
+                        </p>
+                      </div>
+                      <p className="text-sm font-medium text-gray-900">
+                        {(displayPrice * item.quantity).toFixed(2)} lei
                       </p>
-                      <p className="text-sm text-gray-500">
-                        {item.quantity} x {item.price} lei
-                      </p>
                     </div>
-                    <p className="text-sm font-medium text-gray-900">
-                      {item.price * item.quantity} lei
-                    </p>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
               
               <div className="border-t border-gray-200 pt-4 space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span>Subtotal:</span>
-                  <span>{getCartTotal()} lei</span>
-                </div>
+                {!isBusinessAccount && (
+                  <div className="flex justify-between text-sm">
+                    <span>Subtotal:</span>
+                    <span>{getCartTotal().toFixed(2)} lei</span>
+                  </div>
+                )}
+                {isBusinessAccount && (
+                  <>
+                    <div className="flex justify-between text-sm">
+                      <span>Subtotal (preț standard):</span>
+                      <span className="line-through text-gray-500">{getCartTotal().toFixed(2)} lei</span>
+                    </div>
+                    <div className="flex justify-between text-sm text-green-600">
+                      <span>Reducere B2B ({discountPercent}%):</span>
+                      <span>-{calculateB2BSavings(cartItems).toFixed(2)} lei</span>
+                    </div>
+                    <div className="flex justify-between text-sm font-medium">
+                      <span>Subtotal B2B:</span>
+                      <span>{calculateCartTotal(cartItems).toFixed(2)} lei</span>
+                    </div>
+                  </>
+                )}
                 <div className="flex justify-between text-sm">
                   <span>Livrare ({shippingInfo.service}):</span>
                   <span>{calculateShipping().toFixed(2)} lei</span>
@@ -616,8 +651,13 @@ const CheckoutPage = () => {
                 )}
                 <div className="flex justify-between text-lg font-semibold border-t pt-2">
                   <span>Total:</span>
-                  <span>{calculateGrandTotal()} lei</span>
+                  <span>{calculateGrandTotal().toFixed(2)} lei</span>
                 </div>
+                {isBusinessAccount && (
+                  <div className="text-xs text-blue-600 flex items-center justify-end">
+                    <span className="bg-blue-100 px-2 py-1 rounded">Preț B2B aplicat</span>
+                  </div>
+                )}
               </div>
               
               <div className="mt-6 space-y-3 text-sm text-gray-600">

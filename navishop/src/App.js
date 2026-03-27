@@ -22,6 +22,7 @@ import PaymentSuccessPage from './PaymentSuccessPage';
 import PaymentCancelPage from './PaymentCancelPage';
 import FanCourierTestPage from './FanCourierTestPage';
 import SalePage from './SalePage';
+import B2BApplicationPage from './B2BApplicationPage';
 import CookieBanner from './components/CookieBanner';
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
             <Route path="/fan-courier-test" element={<FanCourierTestPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/reduceri" element={<SalePage />} />
+            <Route path="/b2b" element={<B2BApplicationPage />} />
           </Routes>
           <CookieBanner />
           </Router>

@@ -21,6 +21,7 @@ const testFanCourierRoutes = require('./routes/test-fan-courier-integration');
 const uploadRoutes = require('./routes/upload');
 const dashboardRoutes = require('./routes/dashboard');
 const reviewRoutes = require('./routes/reviews');
+const b2bApplicationRoutes = require('./routes/b2bApplications');
 require('./config/passport');
 
 const app = express();
@@ -93,6 +94,7 @@ app.use('/api/fan-courier-test', testFanCourierRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/reviews', reviewRoutes);
+app.use('/api/b2b-applications', b2bApplicationRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'PilotOn API is running!' });

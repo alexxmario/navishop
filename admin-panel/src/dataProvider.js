@@ -205,7 +205,7 @@ const dataProvider = {
 
   update: (resource, params) => {
     const { id, action, ...data } = params.data;
-    
+
     // Handle order processing actions
     if (resource === 'orders' && action) {
       return httpClient(buildApiUrl(`${resource}/${params.id}/process`), {
@@ -215,7 +215,17 @@ const dataProvider = {
         data: { ...json.order, id: json.order._id },
       }));
     }
-    
+
+    // Handle B2B application actions (approve/reject)
+    if (resource === 'b2b-applications' && action) {
+      return httpClient(buildApiUrl(`${resource}/${params.id}/${action}`), {
+        method: 'PUT',
+        body: JSON.stringify(data),
+      }).then(({ json }) => ({
+        data: { ...json.application, id: json.application._id, temporaryPassword: json.temporaryPassword, existingAccount: json.existingAccount },
+      }));
+    }
+
     // Regular update
     return httpClient(buildApiUrl(`${resource}/${params.id}`), {
       method: 'PUT',

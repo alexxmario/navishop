@@ -5,12 +5,15 @@ import { useCart } from '../CartContext';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from '../config/api';
 import Toast from './Toast';
 import { useToast } from '../hooks/useToast';
+import { useB2BPricing } from '../hooks/useB2BPricing';
 
 const FALLBACK_IMAGE = placeholderImage(400, 300);
 
 const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   const { addToCart } = useCart();
   const { toast, showToast } = useToast();
+  const { isBusinessAccount, formatPriceDisplay } = useB2BPricing();
+  const priceInfo = formatPriceDisplay(product?.price);
   const [reviewStats, setReviewStats] = useState({
     totalReviews: 0,
     averageRating: 0
@@ -179,9 +182,19 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-gray-900">
-                  {product.price} lei
+                  {priceInfo.currentPrice} lei
                 </span>
-                {product.originalPrice && product.originalPrice > product.price && (
+                {isBusinessAccount && (
+                  <>
+                    <span className="text-lg text-gray-500 line-through">
+                      {product.price} lei
+                    </span>
+                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                      B2B -{priceInfo.discountPercent}%
+                    </span>
+                  </>
+                )}
+                {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
                   <span className="text-lg text-gray-500 line-through">
                     {product.originalPrice} lei
                   </span>
@@ -251,11 +264,23 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
 
         {/* Price */}
         <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <span className="text-xl font-bold text-gray-900">
-              {product.price} lei
-            </span>
-            {product.originalPrice && product.originalPrice > product.price && (
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2">
+              <span className="text-xl font-bold text-gray-900">
+                {priceInfo.currentPrice} lei
+              </span>
+              {isBusinessAccount && (
+                <span className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded">
+                  B2B
+                </span>
+              )}
+            </div>
+            {isBusinessAccount && (
+              <span className="text-sm text-gray-500 line-through">
+                {product.price} lei
+              </span>
+            )}
+            {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
               <span className="text-sm text-gray-500 line-through">
                 {product.originalPrice} lei
               </span>

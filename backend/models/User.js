@@ -37,6 +37,33 @@ const userSchema = new mongoose.Schema({
     enum: ['user', 'admin'],
     default: 'user'
   },
+  accountType: {
+    type: String,
+    enum: ['personal', 'business'],
+    default: 'personal'
+  },
+  businessDetails: {
+    companyName: {
+      type: String,
+      trim: true
+    },
+    vatNumber: {
+      type: String,
+      trim: true
+    },
+    companyAddress: {
+      street: String,
+      city: String,
+      county: String,
+      postalCode: String
+    }
+  },
+  b2bDiscount: {
+    type: Number,
+    default: 20,
+    min: 0,
+    max: 100
+  },
   createdAt: {
     type: Date,
     default: Date.now

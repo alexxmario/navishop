@@ -220,34 +220,50 @@ router.post('/', auth, async (req, res) => {
       return res.status(400).json({ message: 'Order must contain at least one item' });
     }
 
+    // Check if user has a business account for B2B pricing
+    const user = await User.findById(req.userId);
+    const isBusinessAccount = user && user.accountType === 'business';
+    const b2bDiscountRate = isBusinessAccount ? (user.b2bDiscount || 20) / 100 : 0;
+
     // Validate products exist and calculate totals
     let orderTotal = 0;
     const validatedItems = [];
 
     for (const item of items) {
       const product = await Product.findById(item.productId);
-      
+
       if (!product) {
-        return res.status(400).json({ 
-          message: `Product ${item.name} not found` 
+        return res.status(400).json({
+          message: `Product ${item.name} not found`
         });
       }
 
       if (product.stock < item.quantity) {
-        return res.status(400).json({ 
-          message: `Insufficient stock for ${product.name}. Available: ${product.stock}, Requested: ${item.quantity}` 
+        return res.status(400).json({
+          message: `Insufficient stock for ${product.name}. Available: ${product.stock}, Requested: ${item.quantity}`
         });
       }
 
-      const itemTotal = product.price * item.quantity;
+      // Apply B2B discount if applicable
+      let itemPrice = product.price;
+      const originalPrice = product.price;
+
+      if (isBusinessAccount) {
+        itemPrice = itemPrice * (1 - b2bDiscountRate);
+        itemPrice = Math.round(itemPrice * 100) / 100; // Round to 2 decimals
+      }
+
+      const itemTotal = itemPrice * item.quantity;
       orderTotal += itemTotal;
 
       validatedItems.push({
         productId: product._id,
         name: product.name,
-        price: product.price,
+        price: itemPrice,
+        originalPrice: isBusinessAccount ? originalPrice : undefined,
         quantity: item.quantity,
-        image: item.image || (product.images && product.images[0] ? product.images[0].url : null)
+        image: item.image || (product.images && product.images[0] ? product.images[0].url : null),
+        b2bDiscountApplied: isBusinessAccount
       });
     }
 
@@ -273,7 +289,9 @@ router.post('/', auth, async (req, res) => {
       shippingCost,
       grandTotal,
       paymentMethod: paymentMethod || 'cash_on_delivery',
-      notes
+      notes,
+      isB2BOrder: isBusinessAccount,
+      b2bDiscountRate: isBusinessAccount ? b2bDiscountRate * 100 : 0
     });
 
     if (shippingOption && (shippingOption.name || shippingOption.service)) {

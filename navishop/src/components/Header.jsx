@@ -105,6 +105,7 @@ const Header = ({
                     <span className="relative z-10 tracking-wide">GPS Camion</span>
                   </Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+                  <Link to="/b2b" className="text-gray-700 hover:text-blue-600">Cont B2B</Link>
                 </nav>
 
                 {/* Desktop Search Bar */}
@@ -222,6 +223,7 @@ const Header = ({
             </div>
             <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
             <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+            <Link to="/b2b" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Cont B2B</Link>
           </div>
         </div>
       )}
