@@ -15,9 +15,14 @@ import {
   BooleanInput,
   FunctionField,
   Pagination,
+  useDataProvider,
+  useNotify,
+  useRedirect,
+  useRefresh,
+  Button,
 } from 'react-admin';
-import { Box, Typography, Card, CardContent, Avatar, Chip, Rating } from '@mui/material';
-import { Inventory, Category, Star, ShoppingCart, LocalOffer } from '@mui/icons-material';
+import { Box, Typography, Card, CardContent, Avatar, Chip, Rating, CircularProgress } from '@mui/material';
+import { Inventory, Category, Star, ShoppingCart, LocalOffer, FileCopy } from '@mui/icons-material';
 import { buildApiUrl } from '../config/api';
 
 // Rating Column Component
@@ -70,6 +75,66 @@ const RatingColumn = ({ record }) => {
         </Typography>
       </Box>
     </Box>
+  );
+};
+
+// Duplicate Button Component
+const DuplicateButton = ({ record }) => {
+  const dataProvider = useDataProvider();
+  const notify = useNotify();
+  const redirect = useRedirect();
+  const refresh = useRefresh();
+  const [loading, setLoading] = useState(false);
+
+  const handleDuplicate = async (e) => {
+    e.stopPropagation(); // Prevent row click
+
+    if (!record) return;
+
+    setLoading(true);
+    try {
+      // Create a copy of the product without the id and with modified name/sku
+      const { id, _id, createdAt, updatedAt, ...productData } = record;
+
+      const duplicatedProduct = {
+        ...productData,
+        name: `${record.name} (Copie)`,
+        sku: `${record.sku}-COPY-${Date.now().toString().slice(-6)}`,
+        slug: `${record.slug}-copie-${Date.now().toString().slice(-6)}`,
+      };
+
+      const { data } = await dataProvider.create('products', { data: duplicatedProduct });
+
+      notify('Produsul a fost duplicat cu succes!', { type: 'success' });
+      refresh();
+      redirect('edit', 'products', data.id);
+    } catch (error) {
+      console.error('Failed to duplicate product:', error);
+      notify('Eroare la duplicarea produsului', { type: 'error' });
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <Button
+      label="Dublează"
+      onClick={handleDuplicate}
+      disabled={loading}
+      sx={{
+        minWidth: 'auto',
+        padding: '4px 8px',
+        '& .MuiButton-startIcon': {
+          marginRight: '4px'
+        }
+      }}
+    >
+      {loading ? (
+        <CircularProgress size={18} />
+      ) : (
+        <FileCopy sx={{ fontSize: 18 }} />
+      )}
+    </Button>
   );
 };
 
@@ -384,6 +449,14 @@ export const ProductList = () => (
         render={record => <RatingColumn record={record} />}
       />
       <DateField source="createdAt" />
+      <FunctionField
+        label="Acțiuni"
+        render={record => (
+          <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}>
+            <DuplicateButton record={record} />
+          </Box>
+        )}
+      />
       <EditButton />
       <ShowButton />
       <DeleteButton />
