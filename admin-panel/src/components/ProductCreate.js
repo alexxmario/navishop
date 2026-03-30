@@ -415,6 +415,19 @@ const ProductCreateForm = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <TextInput
+                source="romanianSpecs.hardware.frecventa"
+                label="Frecvență"
+                fullWidth
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem',
+                    minHeight: '56px'
+                  }
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <TextInput
                 source="romanianSpecs.hardware.memorieRAM"
                 label="Memorie RAM"
                 fullWidth

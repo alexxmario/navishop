@@ -622,6 +622,12 @@ const ProductPage = () => {
                             <span className="text-gray-900">{product.romanianSpecs.hardware.modelProcesor}</span>
                           </div>
                         )}
+                        {product.romanianSpecs.hardware?.frecventa && (
+                          <div className={specRowClass}>
+                            <span className="text-gray-600 font-medium">Frecvență:</span>
+                            <span className="text-gray-900">{product.romanianSpecs.hardware.frecventa}</span>
+                          </div>
+                        )}
                         {product.romanianSpecs.hardware?.memorieRAM && (
                           <div className={specRowClass}>
                             <span className="text-gray-600 font-medium">Memorie RAM:</span>

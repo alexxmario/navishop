@@ -851,6 +851,10 @@ const ProductShowContent = () => (
                     <TextField source="romanianSpecs.hardware.modelProcesor" />
                   </Box>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                    <Typography variant="body2" color="textSecondary">Frecvență:</Typography>
+                    <TextField source="romanianSpecs.hardware.frecventa" />
+                  </Box>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
                     <Typography variant="body2" color="textSecondary">Memorie RAM:</Typography>
                     <TextField source="romanianSpecs.hardware.memorieRAM" />
                   </Box>

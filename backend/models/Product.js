@@ -223,6 +223,10 @@ const productSchema = new mongoose.Schema({
       modelProcesor: {
         type: String,
         trim: true
+      },
+      frecventa: {
+        type: String,
+        trim: true
       }
     },
     display: {
