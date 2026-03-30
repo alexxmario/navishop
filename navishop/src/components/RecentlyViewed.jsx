@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import { useRecentlyViewed } from '../RecentlyViewedContext';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { resolveImageUrl, placeholderImage } from '../config/api';
+import { useB2BPricing } from '../hooks/useB2BPricing';
 
 const FALLBACK_IMAGE = placeholderImage(160, 120);
 
 const RecentlyViewed = () => {
   const { recentlyViewed, clearRecentlyViewed } = useRecentlyViewed();
+  const { calculateB2BPrice, isBusinessAccount } = useB2BPricing();
 
   if (recentlyViewed.length === 0) {
     return null;
@@ -74,8 +76,13 @@ const RecentlyViewed = () => {
                     {product.name}
                   </p>
                   <p className="text-xs font-medium text-gray-900">
-                    {product.price} lei
+                    {calculateB2BPrice(product.price)} lei
                   </p>
+                  {isBusinessAccount && (
+                    <p className="text-xs text-gray-500 line-through">
+                      {product.price} lei
+                    </p>
+                  )}
                 </Link>
               ))}
             </div>
