@@ -41,9 +41,9 @@ const CartPage = () => {
   const total = subtotal + shipping;
 
   const CartItem = ({ item }) => {
-    const { calculatePrice, hasDiscount } = useB2BPricing();
-    const displayPrice = calculatePrice(item.price);
-    const displayOldPrice = item.oldPrice ? calculatePrice(item.oldPrice) : null;
+    const { calculateB2BPrice, isBusinessAccount } = useB2BPricing();
+    const displayPrice = calculateB2BPrice(item.price);
+    const displayOldPrice = item.oldPrice ? calculateB2BPrice(item.oldPrice) : null;
 
     return (
       <div className="flex flex-col md:flex-row bg-white border border-gray-100 p-6 space-y-4 md:space-y-0">
