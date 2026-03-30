@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
 import { useRecentlyViewed } from './RecentlyViewedContext';
+import { useB2BPricing } from './hooks/useB2BPricing';
 import apiService from './services/api';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
@@ -28,6 +29,7 @@ const ProductPage = () => {
   const { user, isAuthenticated } = useAuth();
   const { addToRecentlyViewed } = useRecentlyViewed();
   const { toast, showToast } = useToast();
+  const { calculateB2BPrice, isBusinessAccount, discountPercent } = useB2BPricing();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -414,8 +416,16 @@ const ProductPage = () => {
 
             {/* Price */}
             <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
-              <span className="text-3xl sm:text-4xl font-bold text-gray-900">{product.price} lei</span>
-              {product.originalPrice && product.originalPrice > product.price && (
+              <span className="text-3xl sm:text-4xl font-bold text-gray-900">{calculateB2BPrice(product.price)} lei</span>
+              {isBusinessAccount && (
+                <>
+                  <span className="text-lg sm:text-xl text-gray-500 line-through">{product.price} lei</span>
+                  <span className="inline-flex items-center justify-center bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                    B2B -{discountPercent}%
+                  </span>
+                </>
+              )}
+              {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
                 <>
                   <span className="text-lg sm:text-xl text-gray-500 line-through">{product.originalPrice} lei</span>
                   <span className="inline-flex items-center justify-center bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -577,8 +587,11 @@ const ProductPage = () => {
 
                           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                             <div className="flex items-center gap-2">
-                              <span className="text-lg font-bold text-gray-900">{accessory.price} lei</span>
-                              {accessory.originalPrice && accessory.originalPrice > accessory.price && (
+                              <span className="text-lg font-bold text-gray-900">{calculateB2BPrice(accessory.price)} lei</span>
+                              {isBusinessAccount && (
+                                <span className="text-sm text-gray-500 line-through">{accessory.price} lei</span>
+                              )}
+                              {!isBusinessAccount && accessory.originalPrice && accessory.originalPrice > accessory.price && (
                                 <span className="text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
                               )}
                             </div>
