@@ -206,7 +206,8 @@ router.post('/', auth, async (req, res) => {
       shippingAddress,
       billingAddress,
       paymentMethod,
-      notes
+      notes,
+      invoiceData
     } = req.body;
 
     // Validate required fields
@@ -285,6 +286,7 @@ router.post('/', auth, async (req, res) => {
       items: validatedItems,
       shippingAddress,
       billingAddress: billingAddress || { ...shippingAddress, sameAsShipping: true },
+      invoiceData: invoiceData || { invoiceType: 'person' },
       orderTotal,
       shippingCost,
       grandTotal,

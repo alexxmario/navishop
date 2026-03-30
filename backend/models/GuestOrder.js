@@ -155,6 +155,35 @@ const guestOrderSchema = new mongoose.Schema({
     rrn: String,
     approval: String,
     amount: String
+  },
+  invoiceData: {
+    invoiceType: {
+      type: String,
+      enum: ['person', 'company'],
+      default: 'person'
+    },
+    companyDetails: {
+      companyName: {
+        type: String,
+        trim: true
+      },
+      cui: {
+        type: String,
+        trim: true
+      },
+      regCom: {
+        type: String,
+        trim: true
+      },
+      bank: {
+        type: String,
+        trim: true
+      },
+      bankAccount: {
+        type: String,
+        trim: true
+      }
+    }
   }
 }, {
   timestamps: true

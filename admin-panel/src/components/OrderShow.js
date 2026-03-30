@@ -1040,9 +1040,67 @@ export const OrderShow = () => (
       </Tab>
 
       <Tab label="Factură și Plată">
+        {/* Invoice Type Section */}
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Informații factură</Typography>
+            <Typography variant="h6" gutterBottom>Date facturare</Typography>
+            <FunctionField
+              render={record => {
+                const invoiceType = record.invoiceData?.invoiceType || 'person';
+                const isCompany = invoiceType === 'company';
+                const companyDetails = record.invoiceData?.companyDetails;
+
+                return (
+                  <Box>
+                    <Box sx={{ mb: 2 }}>
+                      <Typography variant="subtitle2" color="textSecondary">Tip factură</Typography>
+                      <Chip
+                        label={isCompany ? 'Persoană juridică' : 'Persoană fizică'}
+                        color={isCompany ? 'primary' : 'default'}
+                        sx={{ mt: 0.5 }}
+                      />
+                    </Box>
+
+                    {isCompany && companyDetails && (
+                      <Grid container spacing={2}>
+                        <Grid item xs={12} md={6}>
+                          <Box sx={{ mb: 2 }}>
+                            <Typography variant="subtitle2" color="textSecondary">Denumire firmă</Typography>
+                            <Typography variant="body1">{companyDetails.companyName || '-'}</Typography>
+                          </Box>
+                          <Box sx={{ mb: 2 }}>
+                            <Typography variant="subtitle2" color="textSecondary">CUI/CIF</Typography>
+                            <Typography variant="body1">{companyDetails.cui || '-'}</Typography>
+                          </Box>
+                          <Box sx={{ mb: 2 }}>
+                            <Typography variant="subtitle2" color="textSecondary">Nr. Reg. Comerțului</Typography>
+                            <Typography variant="body1">{companyDetails.regCom || '-'}</Typography>
+                          </Box>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                          <Box sx={{ mb: 2 }}>
+                            <Typography variant="subtitle2" color="textSecondary">Bancă</Typography>
+                            <Typography variant="body1">{companyDetails.bank || '-'}</Typography>
+                          </Box>
+                          <Box sx={{ mb: 2 }}>
+                            <Typography variant="subtitle2" color="textSecondary">Cont bancar (IBAN)</Typography>
+                            <Typography variant="body1" sx={{ fontFamily: 'monospace' }}>
+                              {companyDetails.bankAccount || '-'}
+                            </Typography>
+                          </Box>
+                        </Grid>
+                      </Grid>
+                    )}
+                  </Box>
+                );
+              }}
+            />
+          </CardContent>
+        </Card>
+
+        <Card sx={{ mb: 2 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom>Informații factură SmartBill</Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
                 <TextField source="invoice.invoiceId" label="ID Factură" />
@@ -1054,8 +1112,8 @@ export const OrderShow = () => (
                 <FunctionField
                   label="Status plată"
                   render={record => (
-                    <Chip 
-                      label={record.paymentStatus} 
+                    <Chip
+                      label={record.paymentStatus}
                       color={getPaymentStatusColor(record.paymentStatus)}
                       size="small"
                     />

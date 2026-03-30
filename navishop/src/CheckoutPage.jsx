@@ -33,7 +33,19 @@ const CheckoutPage = () => {
     guestName: user?.name || '',
     guestEmail: user?.email || '',
     guestPhone: user?.phone || '',
-    
+
+    // Invoice type: 'person' or 'company'
+    invoiceType: isBusinessAccount ? 'company' : 'person',
+
+    // Company details (for invoiceType === 'company')
+    companyDetails: {
+      companyName: user?.businessDetails?.companyName || '',
+      cui: user?.businessDetails?.vatNumber || '',
+      regCom: '',
+      bank: '',
+      bankAccount: ''
+    },
+
     // Shipping address
     shippingAddress: {
       street: '',
@@ -42,7 +54,7 @@ const CheckoutPage = () => {
       postalCode: '',
       country: 'România'
     },
-    
+
     // Billing address
     billingAddress: {
       street: '',
@@ -52,7 +64,7 @@ const CheckoutPage = () => {
       country: 'România',
       sameAsShipping: true
     },
-    
+
     paymentMethod: 'cash_on_delivery',
     notes: ''
   });
@@ -65,7 +77,7 @@ const CheckoutPage = () => {
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
-    
+
     if (name.startsWith('shipping.')) {
       const field = name.split('.')[1];
       setFormData(prev => ({
@@ -81,6 +93,15 @@ const CheckoutPage = () => {
         ...prev,
         billingAddress: {
           ...prev.billingAddress,
+          [field]: value
+        }
+      }));
+    } else if (name.startsWith('company.')) {
+      const field = name.split('.')[1];
+      setFormData(prev => ({
+        ...prev,
+        companyDetails: {
+          ...prev.companyDetails,
           [field]: value
         }
       }));
@@ -102,8 +123,8 @@ const CheckoutPage = () => {
   };
 
   const validateForm = () => {
-    const { guestName, guestEmail, guestPhone, shippingAddress } = formData;
-    
+    const { guestName, guestEmail, guestPhone, shippingAddress, invoiceType, companyDetails } = formData;
+
     if (!guestName.trim()) return 'Numele este obligatoriu';
     if (!guestEmail.trim()) return 'Email-ul este obligatoriu';
     if (!guestPhone.trim()) return 'Telefonul este obligatoriu';
@@ -111,16 +132,21 @@ const CheckoutPage = () => {
     if (!shippingAddress.city.trim()) return 'Orașul este obligatoriu';
     if (!shippingAddress.county.trim()) return 'Județul este obligatoriu';
     if (!shippingAddress.postalCode.trim()) return 'Codul poștal este obligatoriu';
-    
+
     // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(guestEmail)) return 'Email-ul nu este valid';
-    
+
     // Phone validation - STRICT: exactly 10 digits starting with 0 (Romanian format: 07xxxxxxxx)
-    // Only allow spaces to be removed, no normalization of +40 prefix
     const cleanPhone = guestPhone.replace(/\s/g, '');
     if (!/^0\d{9}$/.test(cleanPhone)) return 'Telefonul trebuie să aibă exact 10 cifre începând cu 0 (ex: 0712345678)';
-    
+
+    // Company validation for invoiceType === 'company'
+    if (invoiceType === 'company') {
+      if (!companyDetails.companyName.trim()) return 'Numele firmei este obligatoriu';
+      if (!companyDetails.cui.trim()) return 'CUI/CIF este obligatoriu';
+    }
+
     return null;
   };
 
@@ -164,6 +190,20 @@ const CheckoutPage = () => {
         phone: normalizedPhone
       };
 
+      // Prepare invoice data
+      const invoiceData = {
+        invoiceType: formData.invoiceType,
+        ...(formData.invoiceType === 'company' && {
+          companyDetails: {
+            companyName: formData.companyDetails.companyName,
+            cui: formData.companyDetails.cui,
+            regCom: formData.companyDetails.regCom || '',
+            bank: formData.companyDetails.bank || '',
+            bankAccount: formData.companyDetails.bankAccount || ''
+          }
+        })
+      };
+
       // Prepare common order data
       const baseOrderData = {
         items: cartItems.map(item => ({
@@ -180,7 +220,8 @@ const CheckoutPage = () => {
         paymentMethod: formData.paymentMethod,
         shippingOption: shippingInfo,
         shippingCost: calculateShipping(),
-        notes: formData.notes
+        notes: formData.notes,
+        invoiceData
       };
 
       // Add guest information only for guest orders
@@ -349,6 +390,138 @@ const CheckoutPage = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+
+              {/* Invoice Type */}
+              <div className="bg-white rounded-lg shadow-sm p-6">
+                <h2 className="text-xl font-semibold text-gray-900 mb-6 flex items-center">
+                  <CreditCard className="w-5 h-5 mr-2" />
+                  Factură pe
+                </h2>
+
+                <div className="flex gap-4 mb-6">
+                  <label className={`flex-1 p-4 border rounded-lg cursor-pointer transition-all ${
+                    formData.invoiceType === 'person'
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-gray-200 hover:border-gray-300'
+                  } ${isBusinessAccount ? 'opacity-50 cursor-not-allowed' : ''}`}>
+                    <input
+                      type="radio"
+                      name="invoiceType"
+                      value="person"
+                      checked={formData.invoiceType === 'person'}
+                      onChange={handleInputChange}
+                      disabled={isBusinessAccount}
+                      className="sr-only"
+                    />
+                    <div className="flex items-center justify-center">
+                      <User className="w-5 h-5 mr-2" />
+                      <span className="font-medium">Persoană fizică</span>
+                    </div>
+                  </label>
+
+                  <label className={`flex-1 p-4 border rounded-lg cursor-pointer transition-all ${
+                    formData.invoiceType === 'company'
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-gray-200 hover:border-gray-300'
+                  }`}>
+                    <input
+                      type="radio"
+                      name="invoiceType"
+                      value="company"
+                      checked={formData.invoiceType === 'company'}
+                      onChange={handleInputChange}
+                      className="sr-only"
+                    />
+                    <div className="flex items-center justify-center">
+                      <CreditCard className="w-5 h-5 mr-2" />
+                      <span className="font-medium">Persoană juridică</span>
+                    </div>
+                  </label>
+                </div>
+
+                {isBusinessAccount && (
+                  <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-lg text-sm text-green-800">
+                    Contul tău B2B necesită factură pe persoană juridică.
+                  </div>
+                )}
+
+                {/* Company Details */}
+                {formData.invoiceType === 'company' && (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-gray-200">
+                    <div className="md:col-span-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Denumire firmă *
+                      </label>
+                      <input
+                        type="text"
+                        name="company.companyName"
+                        value={formData.companyDetails.companyName}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="SC Exemplu SRL"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        CUI / CIF *
+                      </label>
+                      <input
+                        type="text"
+                        name="company.cui"
+                        value={formData.companyDetails.cui}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="RO12345678"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Nr. Reg. Comerțului
+                      </label>
+                      <input
+                        type="text"
+                        name="company.regCom"
+                        value={formData.companyDetails.regCom}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="J40/1234/2020"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Bancă
+                      </label>
+                      <input
+                        type="text"
+                        name="company.bank"
+                        value={formData.companyDetails.bank}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Banca Transilvania"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Cont bancar (IBAN)
+                      </label>
+                      <input
+                        type="text"
+                        name="company.bankAccount"
+                        value={formData.companyDetails.bankAccount}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="RO49AAAA1B31007593840000"
+                      />
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Shipping Address */}
