@@ -15,6 +15,7 @@ import {
 const CartPage = () => {
   const { cartItems, updateQuantity, removeFromCart, getCartItemsCount, getCartTotal } = useCart();
   const { user, isAuthenticated } = useAuth();
+  const { calculateB2BPrice, isBusinessAccount } = useB2BPricing();
   const [promoCode, setPromoCode] = useState('');
 
   const removeItem = async (id) => {
@@ -30,10 +31,16 @@ const CartPage = () => {
     removeItem(id);
   };
 
-  const subtotal = getCartTotal();
+  // Calculate subtotal with B2B pricing applied
+  const subtotal = cartItems.reduce((sum, item) => {
+    const price = calculateB2BPrice(item.price);
+    return sum + (price * item.quantity);
+  }, 0);
   const savings = cartItems.reduce((sum, item) => {
     if (item.oldPrice) {
-      return sum + ((item.oldPrice - item.price) * item.quantity);
+      const b2bPrice = calculateB2BPrice(item.price);
+      const b2bOldPrice = calculateB2BPrice(item.oldPrice);
+      return sum + ((b2bOldPrice - b2bPrice) * item.quantity);
     }
     return sum;
   }, 0);
@@ -41,7 +48,6 @@ const CartPage = () => {
   const total = subtotal + shipping;
 
   const CartItem = ({ item }) => {
-    const { calculateB2BPrice, isBusinessAccount } = useB2BPricing();
     const displayPrice = calculateB2BPrice(item.price);
     const displayOldPrice = item.oldPrice ? calculateB2BPrice(item.oldPrice) : null;
 
@@ -50,17 +56,31 @@ const CartPage = () => {
         {/* Product Image */}
         <div className="w-full md:w-32 h-32 bg-gray-50 border border-gray-200 flex items-center justify-center flex-shrink-0">
           <Link to={`/product/${item.slug || item.productId}`} className="w-full h-full flex items-center justify-center">
-            {item.images && item.images.length > 0 ? (
-              <img
-                src={resolveImageUrl(item.images[0].url)}
-                alt={item.images[0].alt || item.name}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
-              />
-            ) : (
-              <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200 flex items-center justify-center">
-                <ShoppingCart className="w-8 h-8 text-blue-600" />
-              </div>
-            )}
+            {(() => {
+              // Try different image sources
+              let imageUrl = null;
+              if (item.images && item.images.length > 0) {
+                const firstImage = item.images[0];
+                imageUrl = typeof firstImage === 'string' ? firstImage : firstImage?.url;
+              } else if (item.image) {
+                imageUrl = item.image;
+              }
+
+              if (imageUrl) {
+                return (
+                  <img
+                    src={resolveImageUrl(imageUrl)}
+                    alt={item.name}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-200"
+                  />
+                );
+              }
+              return (
+                <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200 flex items-center justify-center">
+                  <ShoppingCart className="w-8 h-8 text-blue-600" />
+                </div>
+              );
+            })()}
           </Link>
         </div>
 
