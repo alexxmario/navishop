@@ -104,7 +104,7 @@ router.post('/', async (req, res) => {
 
     // Note: SmartBill invoice generation is now handled manually in admin panel
     // Guest orders are created with pending status for admin review and approval
-    let invoiceData = null;
+    let invoiceResult = null;
     let paymentURL = null;
 
     if (guestOrder.paymentMethod === 'card' || guestOrder.paymentMethod === 'smartbill_online') {
@@ -140,7 +140,7 @@ router.post('/', async (req, res) => {
         grandTotal: guestOrder.grandTotal,
         status: guestOrder.status,
         createdAt: guestOrder.createdAt,
-        invoice: invoiceData,
+        invoice: invoiceResult,
         paymentURL: paymentURL
       }
     });
