@@ -17,12 +17,21 @@ async function populateFrecventa() {
     await mongoose.connect(MONGODB_URI);
     console.log('Connected to MongoDB');
 
-    // Find all Octa Core products that don't have 2K in the processor model
+    // Find all Octa Core / 8 Core products that don't have 2K in the processor model
+    // Match: "Octa Core", "OctaCore", "8 Core", "8-Core", "8Core"
     const query = {
-      'romanianSpecs.hardware.modelProcesor': {
-        $regex: /octa\s*core/i,  // Contains "Octa Core" (case insensitive)
-        $not: /2k/i              // Does NOT contain "2K"
-      }
+      $and: [
+        {
+          'romanianSpecs.hardware.modelProcesor': {
+            $regex: /(octa\s*core|8[\s-]*core)/i  // Contains "Octa Core" or "8 Core" variations
+          }
+        },
+        {
+          'romanianSpecs.hardware.modelProcesor': {
+            $not: /2k/i  // Does NOT contain "2K"
+          }
+        }
+      ]
     };
 
     // First, let's see what products match
