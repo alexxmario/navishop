@@ -22,6 +22,7 @@ async function populateFrecventa() {
 
     // ========================================
     // RULE 1: Octa Core WITHOUT 2K -> 1.6 Ghz
+    // (Check for 2K in product name, not processor field)
     // ========================================
     const queryWithout2K = {
       $and: [
@@ -31,8 +32,8 @@ async function populateFrecventa() {
           }
         },
         {
-          'romanianSpecs.hardware.modelProcesor': {
-            $not: /2k/i
+          name: {
+            $not: /2k/i  // Does NOT contain "2K" in product name
           }
         }
       ]
@@ -65,6 +66,7 @@ async function populateFrecventa() {
 
     // ========================================
     // RULE 2: Octa Core WITH 2K -> 2.0 Ghz + Model Procesor
+    // (Check for 2K in product name, not processor field)
     // ========================================
     const queryWith2K = {
       $and: [
@@ -74,8 +76,8 @@ async function populateFrecventa() {
           }
         },
         {
-          'romanianSpecs.hardware.modelProcesor': {
-            $regex: /2k/i
+          name: {
+            $regex: /2k/i  // Contains "2K" in product name
           }
         }
       ]
