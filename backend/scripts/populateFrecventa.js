@@ -1,6 +1,9 @@
 /**
- * Script to populate the frecventa field for products
- * Rule: All Octa Core products WITHOUT 2K -> Frecventa 1.6 Ghz
+ * Script to populate the frecventa and modelProcesor fields for products
+ *
+ * Rules:
+ * 1. Octa Core / 8 Core WITHOUT 2K -> Frecventa 1.6 Ghz
+ * 2. Octa Core / 8 Core WITH 2K -> Model procesor "Octa Core 8667 MTK" AND Frecventa "2.0 Ghz"
  *
  * Usage: node scripts/populateFrecventa.js
  */
@@ -17,58 +20,111 @@ async function populateFrecventa() {
     await mongoose.connect(MONGODB_URI);
     console.log('Connected to MongoDB');
 
-    // Find all Octa Core / 8 Core products that don't have 2K in the processor model
-    // Match: "Octa Core", "OctaCore", "8 Core", "8-Core", "8Core"
-    const query = {
+    // ========================================
+    // RULE 1: Octa Core WITHOUT 2K -> 1.6 Ghz
+    // ========================================
+    const queryWithout2K = {
       $and: [
         {
           'romanianSpecs.hardware.modelProcesor': {
-            $regex: /(octa\s*core|8[\s-]*core)/i  // Contains "Octa Core" or "8 Core" variations
+            $regex: /(octa\s*core|8[\s-]*core)/i
           }
         },
         {
           'romanianSpecs.hardware.modelProcesor': {
-            $not: /2k/i  // Does NOT contain "2K"
+            $not: /2k/i
           }
         }
       ]
     };
 
-    // First, let's see what products match
-    const matchingProducts = await Product.find(query).select('name romanianSpecs.hardware.modelProcesor romanianSpecs.hardware.frecventa');
+    const productsWithout2K = await Product.find(queryWithout2K).select('name romanianSpecs.hardware.modelProcesor romanianSpecs.hardware.frecventa');
 
-    console.log(`\nFound ${matchingProducts.length} Octa Core products without 2K:\n`);
+    console.log('\n========================================');
+    console.log('RULE 1: Octa Core WITHOUT 2K -> 1.6 Ghz');
+    console.log('========================================');
+    console.log(`Found ${productsWithout2K.length} products:\n`);
 
-    matchingProducts.forEach((product, index) => {
+    productsWithout2K.forEach((product, index) => {
       console.log(`${index + 1}. ${product.name}`);
       console.log(`   Procesor: ${product.romanianSpecs?.hardware?.modelProcesor || 'N/A'}`);
       console.log(`   Frecventa actuală: ${product.romanianSpecs?.hardware?.frecventa || 'N/A'}`);
-      console.log('');
     });
 
-    if (matchingProducts.length === 0) {
-      console.log('No products found matching the criteria.');
-      await mongoose.disconnect();
-      return;
+    if (productsWithout2K.length > 0) {
+      const result1 = await Product.updateMany(
+        queryWithout2K,
+        {
+          $set: {
+            'romanianSpecs.hardware.frecventa': '1.6 Ghz'
+          }
+        }
+      );
+      console.log(`\n✅ Updated ${result1.modifiedCount} products with frecventa: 1.6 Ghz`);
     }
 
-    // Update all matching products
-    const result = await Product.updateMany(
-      query,
-      {
-        $set: {
-          'romanianSpecs.hardware.frecventa': '1.6 Ghz'
+    // ========================================
+    // RULE 2: Octa Core WITH 2K -> 2.0 Ghz + Model Procesor
+    // ========================================
+    const queryWith2K = {
+      $and: [
+        {
+          'romanianSpecs.hardware.modelProcesor': {
+            $regex: /(octa\s*core|8[\s-]*core)/i
+          }
+        },
+        {
+          'romanianSpecs.hardware.modelProcesor': {
+            $regex: /2k/i
+          }
         }
-      }
-    );
+      ]
+    };
 
-    console.log(`\n✅ Updated ${result.modifiedCount} products with frecventa: 1.6 Ghz`);
+    const productsWith2K = await Product.find(queryWith2K).select('name romanianSpecs.hardware.modelProcesor romanianSpecs.hardware.frecventa');
 
-    // Verify the update
-    const verifyProducts = await Product.find(query).select('name romanianSpecs.hardware.frecventa');
-    console.log('\nVerification - Updated products:');
-    verifyProducts.forEach((product, index) => {
-      console.log(`${index + 1}. ${product.name} -> ${product.romanianSpecs?.hardware?.frecventa}`);
+    console.log('\n========================================');
+    console.log('RULE 2: Octa Core WITH 2K -> Octa Core 8667 MTK + 2.0 Ghz');
+    console.log('========================================');
+    console.log(`Found ${productsWith2K.length} products:\n`);
+
+    productsWith2K.forEach((product, index) => {
+      console.log(`${index + 1}. ${product.name}`);
+      console.log(`   Procesor actual: ${product.romanianSpecs?.hardware?.modelProcesor || 'N/A'}`);
+      console.log(`   Frecventa actuală: ${product.romanianSpecs?.hardware?.frecventa || 'N/A'}`);
+    });
+
+    if (productsWith2K.length > 0) {
+      const result2 = await Product.updateMany(
+        queryWith2K,
+        {
+          $set: {
+            'romanianSpecs.hardware.modelProcesor': 'Octa Core 8667 MTK',
+            'romanianSpecs.hardware.frecventa': '2.0 Ghz'
+          }
+        }
+      );
+      console.log(`\n✅ Updated ${result2.modifiedCount} products with:`);
+      console.log('   - Model Procesor: Octa Core 8667 MTK');
+      console.log('   - Frecventa: 2.0 Ghz');
+    }
+
+    // ========================================
+    // VERIFICATION
+    // ========================================
+    console.log('\n========================================');
+    console.log('VERIFICATION');
+    console.log('========================================');
+
+    const allUpdated = await Product.find({
+      'romanianSpecs.hardware.frecventa': { $exists: true, $ne: '' }
+    }).select('name romanianSpecs.hardware.modelProcesor romanianSpecs.hardware.frecventa');
+
+    console.log(`\nTotal products with frecventa set: ${allUpdated.length}\n`);
+    allUpdated.forEach((product, index) => {
+      console.log(`${index + 1}. ${product.name}`);
+      console.log(`   Procesor: ${product.romanianSpecs?.hardware?.modelProcesor}`);
+      console.log(`   Frecventa: ${product.romanianSpecs?.hardware?.frecventa}`);
     });
 
     await mongoose.disconnect();
