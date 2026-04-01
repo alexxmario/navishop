@@ -51,11 +51,12 @@ async function addPilotOnToNavigatie() {
 
     // Update each product
     let updatedCount = 0;
+    let skippedCount = 0;
     for (const product of productsToUpdate) {
       const newName = product.name.replace(/^(Navigatie)\s+/i, '$1 PilotOn ');
 
-      // Also update the slug
-      const newSlug = newName
+      // Generate base slug
+      let baseSlug = newName
         .toLowerCase()
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
@@ -63,22 +64,41 @@ async function addPilotOnToNavigatie() {
         .replace(/^-+|-+$/g, '')
         .substring(0, 120);
 
-      await Product.updateOne(
-        { _id: product._id },
-        {
-          $set: {
-            name: newName,
-            slug: newSlug
+      // Check if slug already exists (for another product)
+      let newSlug = baseSlug;
+      let slugExists = await Product.findOne({ slug: newSlug, _id: { $ne: product._id } });
+
+      if (slugExists) {
+        // Add unique suffix
+        const suffix = Date.now().toString().slice(-6);
+        newSlug = `${baseSlug}-${suffix}`.substring(0, 120);
+        console.log(`⚠️  Slug conflict for "${product.name}", using: ${newSlug}`);
+      }
+
+      try {
+        await Product.updateOne(
+          { _id: product._id },
+          {
+            $set: {
+              name: newName,
+              slug: newSlug
+            }
           }
-        }
-      );
-      updatedCount++;
+        );
+        updatedCount++;
+      } catch (err) {
+        console.log(`❌ Skipped "${product.name}": ${err.message}`);
+        skippedCount++;
+      }
     }
 
     console.log('========================================');
     console.log('SUMMARY');
     console.log('========================================');
     console.log(`✅ Updated ${updatedCount} products`);
+    if (skippedCount > 0) {
+      console.log(`⚠️  Skipped ${skippedCount} products due to errors`);
+    }
 
     // Verification
     console.log('\n========================================');
