@@ -14,6 +14,12 @@ import {
   Chip,
   Alert,
   CircularProgress,
+  TextField,
+  InputAdornment,
+  List,
+  ListItem,
+  ListItemText,
+  ListItemSecondaryAction,
 } from '@mui/material';
 import {
   CloudUpload,
@@ -22,6 +28,8 @@ import {
   StarBorder,
   Edit,
   Visibility,
+  ContentCopy,
+  Search as SearchIcon,
 } from '@mui/icons-material';
 import { useDropzone } from 'react-dropzone';
 import { buildApiUrl, resolveImageUrl } from '../config/api';
@@ -37,10 +45,89 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
   const [previewImage, setPreviewImage] = useState(null);
   const [error, setError] = useState('');
 
+  // Copy images from product state
+  const [copyDialogOpen, setCopyDialogOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
+
   // Debug logging
   useEffect(() => {
     console.log('ImageManager received images:', images);
   }, [images]);
+
+  // Search products for copying images
+  const searchProducts = async (query) => {
+    if (!query.trim()) {
+      setSearchResults([]);
+      setHasSearched(false);
+      return;
+    }
+
+    setIsSearching(true);
+    try {
+      const response = await fetch(
+        buildApiUrl(`products?search=${encodeURIComponent(query)}&limit=20`)
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+        // Only show products that have images
+        const productsWithImages = data.products.filter(
+          product => product.images && product.images.length > 0
+        );
+        setSearchResults(productsWithImages);
+        setHasSearched(true);
+      }
+    } catch (error) {
+      console.error('Failed to search products:', error);
+      setError('Căutare produse eșuată');
+    } finally {
+      setIsSearching(false);
+    }
+  };
+
+  // Handle search input change with debounce
+  useEffect(() => {
+    if (!copyDialogOpen) return;
+    const timeoutId = setTimeout(() => {
+      searchProducts(searchQuery);
+    }, 300);
+
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery, copyDialogOpen]);
+
+  // Copy images from selected product
+  const handleCopyImages = (product) => {
+    if (!product.images || product.images.length === 0) {
+      setError('Produsul selectat nu are imagini');
+      return;
+    }
+
+    // Copy images array, resetting isPrimary based on position
+    const copiedImages = product.images.map((img, index) => ({
+      url: img.url,
+      relativeUrl: img.relativeUrl || img.url,
+      alt: img.alt || product.name,
+      isPrimary: images.length === 0 && index === 0, // First image is primary only if no existing images
+    }));
+
+    // Combine with existing images
+    const newImages = [...images, ...copiedImages];
+
+    // Check max limit
+    if (newImages.length > maxImages) {
+      setError(`Prea multe imagini. Maxim ${maxImages} imagini permise. Aveți ${images.length}, încercați să copiați ${copiedImages.length}.`);
+      return;
+    }
+
+    onChange(newImages);
+    setCopyDialogOpen(false);
+    setSearchQuery('');
+    setSearchResults([]);
+    setHasSearched(false);
+  };
 
   const uploadImage = async (file) => {
     const formData = new FormData();
@@ -158,10 +245,20 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
   return (
     <Card sx={{ mb: 3 }}>
       <CardContent sx={{ p: 3 }}>
-        <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-          <CloudUpload />
-          Imagini produs ({images.length}/{maxImages})
-        </Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+          <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <CloudUpload />
+            Imagini produs ({images.length}/{maxImages})
+          </Typography>
+          <Button
+            variant="outlined"
+            startIcon={<ContentCopy />}
+            onClick={() => setCopyDialogOpen(true)}
+            size="small"
+          >
+            Copiază de la alt produs
+          </Button>
+        </Box>
         
         {error && (
           <Alert severity="error" sx={{ mb: 2 }} onClose={() => setError('')}>
@@ -389,6 +486,131 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
           </DialogContent>
           <DialogActions>
             <Button onClick={() => setPreviewOpen(false)}>Închide</Button>
+          </DialogActions>
+        </Dialog>
+
+        {/* Copy Images Dialog */}
+        <Dialog
+          open={copyDialogOpen}
+          onClose={() => {
+            setCopyDialogOpen(false);
+            setSearchQuery('');
+            setSearchResults([]);
+            setHasSearched(false);
+          }}
+          maxWidth="md"
+          fullWidth
+        >
+          <DialogTitle>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <ContentCopy />
+              Copiază imagini de la alt produs
+            </Box>
+          </DialogTitle>
+          <DialogContent>
+            <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+              Caută un produs și copiază toate imaginile lui în produsul curent.
+            </Typography>
+
+            {/* Search Bar */}
+            <TextField
+              fullWidth
+              placeholder="Caută produse după nume..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              autoFocus
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    {isSearching ? <CircularProgress size={20} /> : <SearchIcon />}
+                  </InputAdornment>
+                ),
+              }}
+              sx={{ mb: 2 }}
+            />
+
+            {/* Search Results */}
+            {hasSearched && (
+              <Box>
+                <Typography variant="subtitle2" sx={{ mb: 1 }}>
+                  Rezultate ({searchResults.length})
+                </Typography>
+
+                {searchResults.length > 0 ? (
+                  <List sx={{ maxHeight: 400, overflowY: 'auto', border: '1px solid #e0e0e0', borderRadius: 1 }}>
+                    {searchResults.map((product) => (
+                      <ListItem
+                        key={product._id}
+                        sx={{
+                          borderBottom: '1px solid #f0f0f0',
+                          '&:last-child': { borderBottom: 'none' },
+                          '&:hover': { bgcolor: 'grey.50' }
+                        }}
+                      >
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mr: 2 }}>
+                          {product.images?.[0]?.url && (
+                            <img
+                              src={resolveImageUrl(product.images[0].url)}
+                              alt={product.name}
+                              style={{
+                                width: 60,
+                                height: 60,
+                                objectFit: 'cover',
+                                borderRadius: 4,
+                                border: '1px solid #ddd'
+                              }}
+                              onError={(e) => {
+                                e.target.style.display = 'none';
+                              }}
+                            />
+                          )}
+                        </Box>
+                        <ListItemText
+                          primary={product.name}
+                          secondary={
+                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 0.5 }}>
+                              <Chip
+                                label={`${product.images?.length || 0} imagini`}
+                                size="small"
+                                color="primary"
+                                variant="outlined"
+                              />
+                              <Typography variant="caption" color="textSecondary">
+                                {product.brand} • {product.category}
+                              </Typography>
+                            </Box>
+                          }
+                        />
+                        <ListItemSecondaryAction>
+                          <Button
+                            variant="contained"
+                            size="small"
+                            startIcon={<ContentCopy />}
+                            onClick={() => handleCopyImages(product)}
+                          >
+                            Copiază
+                          </Button>
+                        </ListItemSecondaryAction>
+                      </ListItem>
+                    ))}
+                  </List>
+                ) : (
+                  <Alert severity="info">
+                    Nu s-au găsit produse cu imagini pentru "{searchQuery}"
+                  </Alert>
+                )}
+              </Box>
+            )}
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => {
+              setCopyDialogOpen(false);
+              setSearchQuery('');
+              setSearchResults([]);
+              setHasSearched(false);
+            }}>
+              Anulează
+            </Button>
           </DialogActions>
         </Dialog>
       </CardContent>
