@@ -11,6 +11,46 @@ class BrandModelExtractor {
       'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Infiniti',
       'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra'
     ];
+
+    // Head unit / infotainment system identifiers to ignore in model names
+    // These are technical specs, not model identifiers
+    this.headUnitIdentifiers = [
+      'CCC',   // BMW Car Communication Computer
+      'CIC',   // BMW Car Information Computer
+      'NBT',   // BMW Next Big Thing
+      'EVO',   // BMW Evolution
+      'NBTEVO', // Combined NBT EVO
+      'ID4',   // VW ID4 infotainment
+      'ID5',   // VW ID5 infotainment
+      'ID6',   // VW ID6 infotainment
+      'ID7',   // VW ID7 infotainment
+      'ID8',   // VW ID8 infotainment
+      'MIB',   // VW Modular Infotainment Matrix
+      'MIB2',  // VW MIB2
+      'MIB3',  // VW MIB3
+      'RNS',   // VW Radio Navigation System
+      'RCD',   // VW Radio CD
+      'MMI',   // Audi Multi Media Interface
+      'MHI',   // Audi Media High Interface
+      'COMAND', // Mercedes Command
+      'NTG',   // Mercedes NTG
+      'MBUX',  // Mercedes MBUX
+    ];
+  }
+
+  // Remove head unit identifiers from model name
+  removeHeadUnitIdentifiers(modelName) {
+    if (!modelName) return modelName;
+
+    let cleaned = modelName;
+    for (const identifier of this.headUnitIdentifiers) {
+      // Remove identifier as whole word (case insensitive)
+      const pattern = new RegExp(`\\b${identifier}\\b`, 'gi');
+      cleaned = cleaned.replace(pattern, '');
+    }
+
+    // Clean up extra spaces
+    return cleaned.replace(/\s+/g, ' ').trim();
   }
 
   // Normalize model name: convert Roman numerals to Arabic, remove hyphens
@@ -109,6 +149,8 @@ class BrandModelExtractor {
     if (model) {
       // Remove "dupa" from model names - it should only be in years
       model = model.replace(/\s*dupa\s*/gi, '').trim();
+      // Remove head unit identifiers (CCC, CIC, NBT, EVO, etc.)
+      model = this.removeHeadUnitIdentifiers(model);
     }
     
     // Create final model name without years - keep years separate
@@ -223,10 +265,11 @@ class BrandModelExtractor {
     for (const pattern of yearPatterns) {
       const match = cleanName.match(pattern);
       if (match) {
-        return match[1].trim(); // Return the model name with generation number before the years
+        // Return the model name with generation number before the years, cleaned of head unit identifiers
+        return this.removeHeadUnitIdentifiers(match[1].trim());
       }
     }
-    
+
     // If no year pattern, try spec patterns
     const specPatterns = [
       /^(.+?)\s+\d+\s*inch\s+/i,
@@ -234,15 +277,15 @@ class BrandModelExtractor {
       /^(.+?)\s+\d+K\s+/i,
       /^(.+?)\s+\d+\s+CORE\s*/i
     ];
-    
+
     for (const pattern of specPatterns) {
       const match = cleanName.match(pattern);
       if (match) {
-        return match[1].trim();
+        return this.removeHeadUnitIdentifiers(match[1].trim());
       }
     }
-    
-    return cleanName.trim();
+
+    return this.removeHeadUnitIdentifiers(cleanName.trim());
   }
 
   async getAllBrandsWithModels() {
