@@ -24,6 +24,7 @@ import {
 import {
   CloudUpload,
   Delete,
+  DeleteSweep,
   Star,
   StarBorder,
   Edit,
@@ -51,6 +52,9 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
   const [searchResults, setSearchResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
+
+  // Delete all images confirmation
+  const [deleteAllDialogOpen, setDeleteAllDialogOpen] = useState(false);
 
   // Debug logging
   useEffect(() => {
@@ -99,6 +103,12 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
   }, [searchQuery, copyDialogOpen]);
 
   // Copy images from selected product
+  // Delete all images
+  const handleDeleteAllImages = () => {
+    onChange([]);
+    setDeleteAllDialogOpen(false);
+  };
+
   const handleCopyImages = (product) => {
     if (!product.images || product.images.length === 0) {
       setError('Produsul selectat nu are imagini');
@@ -250,14 +260,27 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
             <CloudUpload />
             Imagini produs ({images.length}/{maxImages})
           </Typography>
-          <Button
-            variant="outlined"
-            startIcon={<ContentCopy />}
-            onClick={() => setCopyDialogOpen(true)}
-            size="small"
-          >
-            Copiază de la alt produs
-          </Button>
+          <Box sx={{ display: 'flex', gap: 1 }}>
+            <Button
+              variant="outlined"
+              startIcon={<ContentCopy />}
+              onClick={() => setCopyDialogOpen(true)}
+              size="small"
+            >
+              Copiază de la alt produs
+            </Button>
+            {images.length > 0 && (
+              <Button
+                variant="outlined"
+                color="error"
+                startIcon={<DeleteSweep />}
+                onClick={() => setDeleteAllDialogOpen(true)}
+                size="small"
+              >
+                Șterge toate
+              </Button>
+            )}
+          </Box>
         </Box>
         
         {error && (
@@ -610,6 +633,40 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
               setHasSearched(false);
             }}>
               Anulează
+            </Button>
+          </DialogActions>
+        </Dialog>
+
+        {/* Delete All Images Confirmation Dialog */}
+        <Dialog
+          open={deleteAllDialogOpen}
+          onClose={() => setDeleteAllDialogOpen(false)}
+        >
+          <DialogTitle>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, color: 'error.main' }}>
+              <DeleteSweep />
+              Șterge toate imaginile?
+            </Box>
+          </DialogTitle>
+          <DialogContent>
+            <Typography>
+              Ești sigur că vrei să ștergi toate cele {images.length} imagini?
+            </Typography>
+            <Typography variant="body2" color="textSecondary" sx={{ mt: 1 }}>
+              Această acțiune nu poate fi anulată.
+            </Typography>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setDeleteAllDialogOpen(false)}>
+              Anulează
+            </Button>
+            <Button
+              variant="contained"
+              color="error"
+              onClick={handleDeleteAllImages}
+              startIcon={<DeleteSweep />}
+            >
+              Șterge toate
             </Button>
           </DialogActions>
         </Dialog>
