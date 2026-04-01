@@ -130,6 +130,15 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
 
   const getProductImage = (image) => resolveImageUrl(image?.url) || FALLBACK_IMAGE;
 
+  // Extract screen diameter from product name (e.g., "10.25 Inch" -> "10.25")
+  const getScreenSize = () => {
+    if (!product?.name) return null;
+    const match = product.name.match(/(\d+(?:\.\d+)?)\s*inch/i);
+    return match ? match[1] : null;
+  };
+
+  const screenSize = getScreenSize();
+
   const getDescriptionSnippet = () => {
     if (product.shortDescription) return product.shortDescription;
 
@@ -162,13 +171,19 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
         <Link to={`/product/${product.slug}`} className="flex gap-6">
           {/* Image */}
-          <div className="flex-shrink-0 w-48 h-48">
+          <div className="flex-shrink-0 w-48 h-48 relative">
             <img
               src={getProductImage(product.images?.[0])}
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full object-cover rounded-lg"
               onError={handleImageError}
             />
+            {/* Screen Size Badge */}
+            {screenSize && (
+              <div className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-md">
+                {screenSize}"
+              </div>
+            )}
           </div>
 
           {/* Content */}
@@ -245,13 +260,19 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
       <div className={`bg-white border border-gray-100 group hover:shadow-lg transition-shadow ${className}`}>
       <Link to={`/product/${product.slug}`} className="block p-6">
         {/* Image */}
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <img
             src={getProductImage(product.images?.[0])}
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
             onError={handleImageError}
           />
+          {/* Screen Size Badge */}
+          {screenSize && (
+            <div className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-md">
+              {screenSize}"
+            </div>
+          )}
         </div>
 
         {/* Title */}
