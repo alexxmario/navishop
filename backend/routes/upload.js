@@ -79,23 +79,49 @@ const upload = multer({
 });
 
 // Upload single image
-router.post('/image', auth, upload.single('image'), (req, res) => {
+router.post('/image', auth, upload.single('image'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ message: 'No image file provided' });
     }
 
+    // Verify file was actually written to disk
+    const filePath = path.join(uploadDir, req.file.filename);
+    if (!fs.existsSync(filePath)) {
+      console.error(`Upload verification failed: File not found at ${filePath}`);
+      return res.status(500).json({
+        message: 'Upload failed - file not saved to disk',
+        error: 'FILE_NOT_WRITTEN'
+      });
+    }
+
+    // Verify file size matches
+    const stats = fs.statSync(filePath);
+    if (stats.size !== req.file.size) {
+      console.error(`Upload verification failed: Size mismatch. Expected ${req.file.size}, got ${stats.size}`);
+      // Delete corrupted file
+      fs.unlinkSync(filePath);
+      return res.status(500).json({
+        message: 'Upload failed - file corrupted during transfer',
+        error: 'SIZE_MISMATCH'
+      });
+    }
+
     const relativeUrl = `/images/products/${req.file.filename}`;
     const absoluteUrl = `${getPublicBaseUrl(req)}${relativeUrl}`;
+
+    console.log(`Image uploaded successfully: ${req.file.filename} (${stats.size} bytes)`);
 
     res.json({
       url: absoluteUrl,
       relativeUrl,
       filename: req.file.filename,
       originalName: req.file.originalname,
-      size: req.file.size
+      size: req.file.size,
+      verified: true
     });
   } catch (error) {
+    console.error('Upload error:', error);
     res.status(500).json({ message: 'Error uploading image', error: error.message });
   }
 });

@@ -144,21 +144,47 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
     formData.append('image', file);
 
     const token = localStorage.getItem('token');
-    const response = await fetch(buildApiUrl('upload/image'), {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-      },
-      body: formData,
-    });
 
-    const data = await response.json().catch(() => null);
+    // Create abort controller for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
 
-    if (!response.ok) {
-      throw new Error(data?.message || 'Eroare la încărcarea imaginii');
+    try {
+      const response = await fetch(buildApiUrl('upload/image'), {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+        body: formData,
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+
+      const data = await response.json().catch(() => null);
+
+      if (!response.ok) {
+        const errorMsg = data?.error === 'FILE_NOT_WRITTEN'
+          ? 'Fișierul nu a fost salvat pe server - verificați conexiunea'
+          : data?.error === 'SIZE_MISMATCH'
+          ? 'Fișierul a fost corupt în timpul transferului - încercați din nou'
+          : data?.message || 'Eroare la încărcarea imaginii';
+        throw new Error(errorMsg);
+      }
+
+      // Verify we got a valid response
+      if (!data?.url) {
+        throw new Error('Răspuns invalid de la server - încercați din nou');
+      }
+
+      return data;
+    } catch (err) {
+      clearTimeout(timeoutId);
+      if (err.name === 'AbortError') {
+        throw new Error('Încărcarea a expirat - conexiune prea lentă sau întreruptă');
+      }
+      throw err;
     }
-
-    return data;
   };
 
   const deleteImage = async (imageUrl) => {
