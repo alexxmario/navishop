@@ -1,5 +1,5 @@
 const CAR_BRANDS = [
-  'Alfa Romeo', 'Audi', 'BMW', 'Mercedes', 'Volkswagen', 'VW', 'Toyota',
+  'Alfa Romeo', 'Audi', 'BMW', 'Mercedes Benz', 'Mercedes', 'Volkswagen', 'VW', 'Toyota',
   'Ford', 'Opel', 'Dacia', 'Renault', 'Peugeot', 'Citroen', 'Honda',
   'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
   'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
@@ -30,7 +30,9 @@ const stripPrefix = (text = '', prefix = '') =>
 
 const normalizeBrand = (brand) => {
   if (!brand) return null;
-  return brand.toUpperCase() === 'VW' ? 'Volkswagen' : brand;
+  if (brand.toUpperCase() === 'VW') return 'Volkswagen';
+  if (brand.toLowerCase() === 'mercedes') return 'Mercedes Benz';
+  return brand;
 };
 
 export const extractBrandModelInfo = (productName = '') => {
