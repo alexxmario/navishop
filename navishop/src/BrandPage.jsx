@@ -22,8 +22,8 @@ const FALLBACK_BRAND_MODELS = {
     brand: 'BMW',
     models: ['Seria 1', 'Seria 3', 'Seria 5', 'X1', 'X3', 'X5']
   },
-  mercedes: {
-    brand: 'Mercedes',
+  'mercedes benz': {
+    brand: 'Mercedes Benz',
     models: ['A Class', 'B Class', 'C Class', 'E Class', 'CLS', 'ML', 'Sprinter', 'Viano', 'Vito']
   },
   volkswagen: {

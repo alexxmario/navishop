@@ -88,7 +88,7 @@ const HomePage = () => {
   const carBrands = [
     { id: 'audi', name: 'Audi' },
     { id: 'bmw', name: 'BMW' },
-    { id: 'mercedes', name: 'Mercedes' },
+    { id: 'mercedes benz', name: 'Mercedes Benz' },
     { id: 'volkswagen', name: 'Volkswagen' },
     { id: 'vw', name: 'VW' },
     { id: 'toyota', name: 'Toyota' },
@@ -119,7 +119,7 @@ const HomePage = () => {
   const carModels = {
     audi: ['A3', 'A4', 'A6', 'Q3', 'Q5', 'Q7', 'TT'],
     bmw: ['Seria 1', 'Seria 3', 'Seria 5', 'X1', 'X3', 'X5'],
-    mercedes: ['A Class', 'B Class', 'C Class', 'E Class', 'CLS', 'ML', 'Sprinter', 'Viano', 'Vito'],
+    'mercedes benz': ['A Class', 'B Class', 'C Class', 'E Class', 'CLS', 'ML', 'Sprinter', 'Viano', 'Vito'],
     volkswagen: ['Golf', 'Passat', 'Polo', 'Tiguan', 'Touran', 'Jetta', 'Amarok', 'Arteon', 'Sharan', 'Touareg', 'T-Cross', 'T-Roc', 'Scirocco', 'Taigo', 'Transporter', 'Caravelle', 'Multivan', 'Crafter'],
     vw: ['Golf', 'Passat', 'Polo', 'Tiguan', 'Touran', 'Jetta', 'Amarok', 'Arteon', 'Sharan', 'Touareg', 'T-Cross', 'T-Roc', 'Scirocco', 'Taigo', 'Transporter', 'Caravelle', 'Multivan', 'Crafter'],
     toyota: ['Auris', 'Avensis', 'Aygo', 'Corolla', 'CHR', 'Hilux', 'Land Cruiser', 'Prius', 'Proace', 'Rav4', 'Yaris'],
@@ -160,7 +160,7 @@ const HomePage = () => {
   const brands = [
     { name: 'Volkswagen', logo: '/logos/volkswagen.png' },
     { name: 'BMW', logo: '/logos/bmw.png' },
-    { name: 'Mercedes', logo: '/logos/mercedes.png' },
+    { name: 'Mercedes Benz', logo: '/logos/mercedes benz.png' },
     { name: 'Audi', logo: '/logos/audi.png' },
     { name: 'Porsche', logo: '/logos/porsche.png' },
     { name: 'Ford', logo: '/logos/ford.png' },
