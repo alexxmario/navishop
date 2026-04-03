@@ -4,7 +4,7 @@ class BrandModelExtractor {
   constructor() {
     // Common car brands to look for in product names
     this.carBrands = [
-      'Alfa Romeo', 'Audi', 'BMW', 'Mercedes', 'Volkswagen', 'VW', 'Toyota',
+      'Alfa Romeo', 'Audi', 'BMW', 'Mercedes Benz', 'Mercedes', 'Volkswagen', 'VW', 'Toyota',
       'Ford', 'Opel', 'Dacia', 'Renault', 'Peugeot', 'Citroen', 'Honda',
       'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
       'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
@@ -170,6 +170,11 @@ class BrandModelExtractor {
     if (foundBrand && foundBrand.toUpperCase() === 'VW') {
       foundBrand = 'Volkswagen';
     }
+
+    // Normalize Mercedes to Mercedes Benz
+    if (foundBrand && foundBrand.toLowerCase() === 'mercedes') {
+      foundBrand = 'Mercedes Benz';
+    }
     
     return {
       brand: foundBrand,
@@ -200,7 +205,7 @@ class BrandModelExtractor {
       // Create distinct model names for each generation
       const model = `C Class W203 ${foundYears}`;
       return {
-        brand: 'Mercedes',
+        brand: 'Mercedes Benz',
         model: model,
         years: foundYears,
         generation: null // No sub-generations for these separate models
@@ -209,7 +214,7 @@ class BrandModelExtractor {
     
     // Fallback to original logic if no specific years found
     return {
-      brand: 'Mercedes',
+      brand: 'Mercedes Benz',
       model: 'C Class W203',
       years: null,
       generation: null
@@ -297,10 +302,13 @@ class BrandModelExtractor {
       for (const product of products) {
         const extracted = this.extractBrandModelFromName(product.name);
         if (extracted && extracted.brand && extracted.model) {
-          // Normalize VW to Volkswagen for consistency
+          // Normalize VW to Volkswagen and Mercedes to Mercedes Benz for consistency
           let normalizedBrand = extracted.brand;
           if (normalizedBrand.toUpperCase() === 'VW') {
             normalizedBrand = 'Volkswagen';
+          }
+          if (normalizedBrand.toLowerCase() === 'mercedes') {
+            normalizedBrand = 'Mercedes Benz';
           }
           
           const brandKey = normalizedBrand.toLowerCase();
@@ -359,12 +367,14 @@ class BrandModelExtractor {
 
   async getProductsByBrandModel(brand, model, generation = null) {
     try {
-      // Handle VW/Volkswagen aliases
+      // Handle VW/Volkswagen and Mercedes/Mercedes Benz aliases
       const brandVariants = [];
       if (brand.toLowerCase() === 'volkswagen') {
         brandVariants.push('Volkswagen', 'VW');
       } else if (brand.toUpperCase() === 'VW') {
         brandVariants.push('Volkswagen', 'VW');
+      } else if (brand.toLowerCase() === 'mercedes benz' || brand.toLowerCase() === 'mercedes') {
+        brandVariants.push('Mercedes Benz', 'Mercedes');
       } else {
         brandVariants.push(brand);
       }
@@ -396,15 +406,21 @@ class BrandModelExtractor {
         const extracted = this.extractBrandModelFromName(product.name);
         if (!extracted) return false;
         
-        // Normalize brand for comparison (VW -> Volkswagen)
+        // Normalize brand for comparison (VW -> Volkswagen, Mercedes -> Mercedes Benz)
         let normalizedExtractedBrand = extracted.brand;
         if (normalizedExtractedBrand.toUpperCase() === 'VW') {
           normalizedExtractedBrand = 'Volkswagen';
         }
-        
+        if (normalizedExtractedBrand.toLowerCase() === 'mercedes') {
+          normalizedExtractedBrand = 'Mercedes Benz';
+        }
+
         let normalizedSearchBrand = brand;
         if (normalizedSearchBrand.toUpperCase() === 'VW') {
           normalizedSearchBrand = 'Volkswagen';
+        }
+        if (normalizedSearchBrand.toLowerCase() === 'mercedes') {
+          normalizedSearchBrand = 'Mercedes Benz';
         }
         
         // Check if brands match
