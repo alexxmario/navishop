@@ -67,7 +67,7 @@ class BrandModelExtractor {
       .replace(/\bVII\b/gi, '7')
       .replace(/\bVI\b/gi, '6')
       .replace(/\bIV\b/gi, '4')
-      .replace(/\bV\b/gi, '5')     // Must be after IV, VII, VIII
+      .replace(/\bV\b(?!\s*class)/gi, '5')     // Must be after IV, VII, VIII (exclude Mercedes V Class)
       .replace(/\bIII\b/gi, '3')
       .replace(/\bII\b/gi, '2')
       .replace(/\bI\b/gi, '1')     // Must be last
