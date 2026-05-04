@@ -223,7 +223,8 @@ async function main() {
   const existingSlugs = new Set(existing.map(p => p.slug));
   const existingSkus = new Set(existing.map(p => p.sku));
 
-  let checkCount = 0;
+  const toInsert = [];
+  let skippedCount = 0;
   for (const clone of allClones) {
     const nameConflict = existingNames.has(clone.name);
     const slugConflict = existingSlugs.has(clone.slug);
@@ -235,40 +236,45 @@ async function main() {
       if (slugConflict) reasons.push('slug');
       if (skuConflict) reasons.push('sku');
 
-      console.log(`  [CHECK] ${clone.name} (conflict: ${reasons.join(', ')})`);
-      clone.name = clone.name + ' CHECK';
-      clone.slug = clone.slug + '-check';
-      clone.sku = clone.sku + '-CHECK';
-      checkCount++;
+      console.log(`  [SKIP] ${clone.name} (already exists: ${reasons.join(', ')})`);
+      skippedCount++;
+    } else {
+      toInsert.push(clone);
     }
   }
 
-  if (checkCount > 0) {
-    console.log(`\n${checkCount} products had conflicts and were marked with CHECK\n`);
+  if (skippedCount > 0) {
+    console.log(`\n${skippedCount} products already exist and were skipped\n`);
   }
 
   // 4. Print summary
   console.log('--- Summary ---');
   console.log(`  Source products: ${sourceProducts.length}`);
-  console.log(`  Total to insert: ${allClones.length}`);
-  console.log(`  Marked CHECK: ${checkCount}`);
-  console.log(`  Clean inserts: ${allClones.length - checkCount}`);
+  console.log(`  Generated: ${allClones.length}`);
+  console.log(`  Skipped (already exist): ${skippedCount}`);
+  console.log(`  To insert: ${toInsert.length}`);
   console.log();
 
+  if (toInsert.length === 0) {
+    console.log('\nNothing new to insert. All products already exist.');
+    await mongoose.disconnect();
+    return;
+  }
+
   // Print a few sample SKUs
-  console.log('Sample new products:');
-  const samples = allClones.slice(0, 5);
+  console.log('\nSample new products:');
+  const samples = toInsert.slice(0, 5);
   for (const s of samples) {
     console.log(`  ${s.name} [${s.sku}]`);
   }
-  if (allClones.length > 5) console.log(`  ... and ${allClones.length - 5} more`);
+  if (toInsert.length > 5) console.log(`  ... and ${toInsert.length - 5} more`);
   console.log();
 
   // 5. Insert if --execute
   if (executeMode) {
     console.log('Inserting into database...');
     try {
-      const result = await Product.insertMany(allClones, { ordered: false });
+      const result = await Product.insertMany(toInsert, { ordered: false });
       console.log(`Successfully inserted ${result.length} products.`);
     } catch (err) {
       if (err.name === 'BulkWriteError' || err.name === 'MongoBulkWriteError') {
