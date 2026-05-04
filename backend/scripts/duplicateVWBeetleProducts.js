@@ -222,36 +222,56 @@ async function main() {
   const existingNames = new Set(existing.map(p => p.name));
   const existingSlugs = new Set(existing.map(p => p.slug));
   const existingSkus = new Set(existing.map(p => p.sku));
+  // Build a set of "name+slug+sku" keys to detect exact duplicates from previous runs
+  const existingKeys = new Set(existing.map(p => `${p.name}|||${p.slug}|||${p.sku}`));
 
   const toInsert = [];
   let skippedCount = 0;
+  let checkCount = 0;
   for (const clone of allClones) {
+    const exactDuplicate = existingKeys.has(`${clone.name}|||${clone.slug}|||${clone.sku}`);
+
+    if (exactDuplicate) {
+      // Exact same product from a previous run — skip entirely
+      console.log(`  [SKIP] ${clone.name} [${clone.sku}] (exact duplicate)`);
+      skippedCount++;
+      continue;
+    }
+
     const nameConflict = existingNames.has(clone.name);
     const slugConflict = existingSlugs.has(clone.slug);
     const skuConflict = existingSkus.has(clone.sku);
 
     if (nameConflict || slugConflict || skuConflict) {
+      // Partial conflict — different product but overlapping name/slug/sku
       const reasons = [];
       if (nameConflict) reasons.push('name');
       if (slugConflict) reasons.push('slug');
       if (skuConflict) reasons.push('sku');
 
-      console.log(`  [SKIP] ${clone.name} (already exists: ${reasons.join(', ')})`);
-      skippedCount++;
-    } else {
-      toInsert.push(clone);
+      console.log(`  [CHECK] ${clone.name} [${clone.sku}] (conflict: ${reasons.join(', ')})`);
+      clone.name = clone.name + ' CHECK';
+      clone.slug = clone.slug + '-check';
+      clone.sku = clone.sku + '-CHECK';
+      checkCount++;
     }
+
+    toInsert.push(clone);
   }
 
   if (skippedCount > 0) {
-    console.log(`\n${skippedCount} products already exist and were skipped\n`);
+    console.log(`\n${skippedCount} exact duplicates skipped (already inserted)`);
+  }
+  if (checkCount > 0) {
+    console.log(`${checkCount} products had conflicts and were marked with CHECK`);
   }
 
   // 4. Print summary
   console.log('--- Summary ---');
   console.log(`  Source products: ${sourceProducts.length}`);
   console.log(`  Generated: ${allClones.length}`);
-  console.log(`  Skipped (already exist): ${skippedCount}`);
+  console.log(`  Skipped (exact duplicates): ${skippedCount}`);
+  console.log(`  Marked CHECK (conflicts): ${checkCount}`);
   console.log(`  To insert: ${toInsert.length}`);
   console.log();
 
