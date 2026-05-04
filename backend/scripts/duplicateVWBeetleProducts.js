@@ -207,43 +207,51 @@ async function main() {
   console.log(`Generated ${allClones.length} new products (${sourceProducts.length} sources x ${TARGET_MODELS.length} models)\n`);
 
   // 3. Check for existing duplicates by name, slug, or SKU
+  //    Also check for CHECK-suffixed versions (from previous runs)
   const allNames = allClones.map(p => p.name);
   const allSlugs = allClones.map(p => p.slug);
   const allSkus = allClones.map(p => p.sku);
+  const allCheckNames = allClones.map(p => p.name + ' CHECK');
+  const allCheckSlugs = allClones.map(p => p.slug + '-check');
+  const allCheckSkus = allClones.map(p => p.sku + '-CHECK');
 
   const existing = await Product.find({
     $or: [
-      { name: { $in: allNames } },
-      { slug: { $in: allSlugs } },
-      { sku: { $in: allSkus } }
+      { name: { $in: [...allNames, ...allCheckNames] } },
+      { slug: { $in: [...allSlugs, ...allCheckSlugs] } },
+      { sku: { $in: [...allSkus, ...allCheckSkus] } }
     ]
   }).lean();
 
   const existingNames = new Set(existing.map(p => p.name));
   const existingSlugs = new Set(existing.map(p => p.slug));
   const existingSkus = new Set(existing.map(p => p.sku));
-  // Build a set of "name+slug+sku" keys to detect exact duplicates from previous runs
-  const existingKeys = new Set(existing.map(p => `${p.name}|||${p.slug}|||${p.sku}`));
+
+  // Track what we're inserting in this batch to avoid intra-batch collisions
+  const batchNames = new Set();
+  const batchSlugs = new Set();
+  const batchSkus = new Set();
 
   const toInsert = [];
   let skippedCount = 0;
   let checkCount = 0;
   for (const clone of allClones) {
-    const exactDuplicate = existingKeys.has(`${clone.name}|||${clone.slug}|||${clone.sku}`);
+    // Check if this exact product (or its CHECK version) already exists in DB
+    const alreadyInDb = (existingNames.has(clone.name) && existingSlugs.has(clone.slug) && existingSkus.has(clone.sku));
+    const checkAlreadyInDb = (existingNames.has(clone.name + ' CHECK') || existingSlugs.has(clone.slug + '-check') || existingSkus.has(clone.sku + '-CHECK'));
 
-    if (exactDuplicate) {
-      // Exact same product from a previous run — skip entirely
-      console.log(`  [SKIP] ${clone.name} [${clone.sku}] (exact duplicate)`);
+    if (alreadyInDb || checkAlreadyInDb) {
+      const reason = alreadyInDb ? 'exact duplicate' : 'CHECK version already exists';
+      console.log(`  [SKIP] ${clone.name} [${clone.sku}] (${reason})`);
       skippedCount++;
       continue;
     }
 
-    const nameConflict = existingNames.has(clone.name);
-    const slugConflict = existingSlugs.has(clone.slug);
-    const skuConflict = existingSkus.has(clone.sku);
+    const nameConflict = existingNames.has(clone.name) || batchNames.has(clone.name);
+    const slugConflict = existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug);
+    const skuConflict = existingSkus.has(clone.sku) || batchSkus.has(clone.sku);
 
     if (nameConflict || slugConflict || skuConflict) {
-      // Partial conflict — different product but overlapping name/slug/sku
       const reasons = [];
       if (nameConflict) reasons.push('name');
       if (slugConflict) reasons.push('slug');
@@ -253,14 +261,26 @@ async function main() {
       clone.name = clone.name + ' CHECK';
       clone.slug = clone.slug + '-check';
       clone.sku = clone.sku + '-CHECK';
+
+      // Check again if the CHECK version also collides (with DB or batch)
+      if (existingNames.has(clone.name) || batchNames.has(clone.name) ||
+          existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug) ||
+          existingSkus.has(clone.sku) || batchSkus.has(clone.sku)) {
+        console.log(`    [SKIP] CHECK version also conflicts, skipping`);
+        skippedCount++;
+        continue;
+      }
       checkCount++;
     }
 
+    batchNames.add(clone.name);
+    batchSlugs.add(clone.slug);
+    batchSkus.add(clone.sku);
     toInsert.push(clone);
   }
 
   if (skippedCount > 0) {
-    console.log(`\n${skippedCount} exact duplicates skipped (already inserted)`);
+    console.log(`\n${skippedCount} products skipped (already exist or CHECK version exists)`);
   }
   if (checkCount > 0) {
     console.log(`${checkCount} products had conflicts and were marked with CHECK`);
@@ -298,10 +318,11 @@ async function main() {
       console.log(`Successfully inserted ${result.length} products.`);
     } catch (err) {
       if (err.name === 'BulkWriteError' || err.name === 'MongoBulkWriteError') {
-        const inserted = err.insertedDocs?.length || err.result?.nInserted || 0;
-        console.log(`Inserted ${inserted} products. ${err.writeErrors?.length || 0} failed due to conflicts.`);
-        for (const we of (err.writeErrors || [])) {
-          console.log(`  [ERROR] ${we.errmsg}`);
+        const inserted = err.insertedDocs?.length || err.result?.nInserted || err.result?.result?.nInserted || 0;
+        const writeErrors = err.writeErrors || err.result?.writeErrors || [];
+        console.log(`Inserted ${inserted} products. ${writeErrors.length} failed due to conflicts.`);
+        for (const we of writeErrors) {
+          console.log(`  [ERROR] ${we.errmsg || we.err?.errmsg || JSON.stringify(we)}`);
         }
       } else {
         throw err;
