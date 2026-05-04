@@ -34,11 +34,16 @@ const generateSlug = (name = '') => {
     .replace(/^-|-$/g, '');
 };
 
-const SOURCE_SKU_PREFIX = 'BEETLE1119';
+// Both prefixes found in the DB: "BEETLE1119..." and "VWBEETLE1119..."
+const SOURCE_SKU_PREFIXES = ['VWBEETLE1119', 'BEETLE1119'];
 
 function parseSourceSku(sku) {
-  if (!sku.startsWith(SOURCE_SKU_PREFIX)) return null;
-  return sku.substring(SOURCE_SKU_PREFIX.length); // e.g. '2GBQPO'
+  for (const prefix of SOURCE_SKU_PREFIXES) {
+    if (sku.startsWith(prefix)) {
+      return { prefix, remainder: sku.substring(prefix.length) };
+    }
+  }
+  return null;
 }
 
 function buildSkuModelPart(modelName) {
@@ -49,8 +54,10 @@ function buildSkuYearPart(yearFrom, yearTo) {
   return String(yearFrom).slice(2) + String(yearTo).slice(2);
 }
 
-function buildNewSku(skuRemainder, target) {
-  return buildSkuModelPart(target.name) + buildSkuYearPart(target.yearFrom, target.yearTo) + skuRemainder;
+function buildNewSku(parsed, target) {
+  // Keep the VW prefix if the source had it
+  const vwPrefix = parsed.prefix.startsWith('VW') ? 'VW' : '';
+  return vwPrefix + buildSkuModelPart(target.name) + buildSkuYearPart(target.yearFrom, target.yearTo) + parsed.remainder;
 }
 
 function replaceModelRefs(text, target) {
@@ -72,12 +79,12 @@ function cloneProduct(source, target) {
   );
   const newSlug = generateSlug(newName);
 
-  const skuRemainder = parseSourceSku(source.sku);
-  if (!skuRemainder) {
-    console.log(`  [WARN] SKU "${source.sku}" doesn't start with ${SOURCE_SKU_PREFIX}, skipping for ${target.name}`);
+  const parsed = parseSourceSku(source.sku);
+  if (!parsed) {
+    console.log(`  [WARN] SKU "${source.sku}" doesn't match any known Beetle prefix, skipping for ${target.name}`);
     return null;
   }
-  const newSku = buildNewSku(skuRemainder, target);
+  const newSku = buildNewSku(parsed, target);
 
   // Deep clone via JSON round-trip
   const clone = JSON.parse(JSON.stringify(source));
