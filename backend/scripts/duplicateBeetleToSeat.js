@@ -240,10 +240,20 @@ async function main() {
   const existingSlugs = new Set(existing.map(p => p.slug));
   const existingSkus = new Set(existing.map(p => p.sku));
 
+  // Build lookup maps so we can show WHAT is conflicting
+  const existingByName = {};
+  const existingBySku = {};
+  for (const p of existing) {
+    existingByName[p.name] = p;
+    existingBySku[p.sku] = p;
+  }
+
   // Track what we're inserting in this batch to avoid intra-batch collisions
   const batchNames = new Set();
   const batchSlugs = new Set();
   const batchSkus = new Set();
+  const batchByName = {};
+  const batchBySku = {};
 
   const toInsert = [];
   let skippedCount = 0;
@@ -259,9 +269,14 @@ async function main() {
       continue;
     }
 
-    const nameConflict = existingNames.has(clone.name) || batchNames.has(clone.name);
+    const nameConflictDb = existingNames.has(clone.name);
+    const nameConflictBatch = batchNames.has(clone.name);
     const slugConflict = existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug);
-    const skuConflict = existingSkus.has(clone.sku) || batchSkus.has(clone.sku);
+    const skuConflictDb = existingSkus.has(clone.sku);
+    const skuConflictBatch = batchSkus.has(clone.sku);
+
+    const nameConflict = nameConflictDb || nameConflictBatch;
+    const skuConflict = skuConflictDb || skuConflictBatch;
 
     if (nameConflict || slugConflict || skuConflict) {
       const reasons = [];
@@ -270,6 +285,17 @@ async function main() {
       if (skuConflict) reasons.push('sku');
 
       console.log(`  [CHECK] ${clone.name} [${clone.sku}] (conflict: ${reasons.join(', ')})`);
+      // Show what it conflicts with
+      if (nameConflictDb) {
+        const c = existingByName[clone.name];
+        console.log(`    ↳ DB name match: "${c.name}" [${c.sku}]`);
+      }
+      if (nameConflictBatch) console.log(`    ↳ batch name match: "${batchByName[clone.name]?.sku}"`);
+      if (skuConflictDb) {
+        const c = existingBySku[clone.sku];
+        console.log(`    ↳ DB sku match: "${c.name}" [${c.sku}]`);
+      }
+      if (skuConflictBatch) console.log(`    ↳ batch sku match: "${batchBySku[clone.sku]?.name}"`);
       clone.name = clone.name + ' CHECK';
       clone.slug = clone.slug + '-check';
       clone.sku = clone.sku + '-CHECK';
@@ -287,6 +313,8 @@ async function main() {
     batchNames.add(clone.name);
     batchSlugs.add(clone.slug);
     batchSkus.add(clone.sku);
+    batchByName[clone.name] = clone;
+    batchBySku[clone.sku] = clone;
     toInsert.push(clone);
   }
 
