@@ -258,6 +258,7 @@ async function main() {
   const toInsert = [];
   let skippedCount = 0;
   let checkCount = 0;
+  let skuFixCount = 0;
   for (const clone of allClones) {
     const alreadyInDb = (existingNames.has(clone.name) && existingSlugs.has(clone.slug) && existingSkus.has(clone.sku));
     const checkAlreadyInDb = (existingNames.has(clone.name + ' CHECK') || existingSlugs.has(clone.slug + '-check') || existingSkus.has(clone.sku + '-CHECK'));
@@ -279,35 +280,56 @@ async function main() {
     const skuConflict = skuConflictDb || skuConflictBatch;
 
     if (nameConflict || slugConflict || skuConflict) {
-      const reasons = [];
-      if (nameConflict) reasons.push('name');
-      if (slugConflict) reasons.push('slug');
-      if (skuConflict) reasons.push('sku');
+      if (skuConflict && !nameConflict && !slugConflict) {
+        // Only SKU conflicts — name and slug are unique, just tweak the SKU
+        const oldSku = clone.sku;
+        let suffix = 2;
+        while (existingSkus.has(clone.sku) || batchSkus.has(clone.sku)) {
+          clone.sku = oldSku + '-V' + suffix;
+          suffix++;
+        }
+        // Also update romanianSpecs.general.sku if present
+        if (clone.romanianSpecs?.general?.sku) {
+          clone.romanianSpecs.general.sku = clone.sku;
+        }
+        console.log(`  [SKU FIX] ${clone.name} [${oldSku} → ${clone.sku}]`);
+        if (skuConflictDb) {
+          const c = existingBySku[oldSku];
+          console.log(`    ↳ DB sku was: "${c.name}" [${c.sku}]`);
+        }
+        if (skuConflictBatch) console.log(`    ↳ batch sku was: "${batchBySku[oldSku]?.name}"`);
+        skuFixCount++;
+      } else {
+        // Name or slug conflicts — use CHECK
+        const reasons = [];
+        if (nameConflict) reasons.push('name');
+        if (slugConflict) reasons.push('slug');
+        if (skuConflict) reasons.push('sku');
 
-      console.log(`  [CHECK] ${clone.name} [${clone.sku}] (conflict: ${reasons.join(', ')})`);
-      // Show what it conflicts with
-      if (nameConflictDb) {
-        const c = existingByName[clone.name];
-        console.log(`    ↳ DB name match: "${c.name}" [${c.sku}]`);
-      }
-      if (nameConflictBatch) console.log(`    ↳ batch name match: "${batchByName[clone.name]?.sku}"`);
-      if (skuConflictDb) {
-        const c = existingBySku[clone.sku];
-        console.log(`    ↳ DB sku match: "${c.name}" [${c.sku}]`);
-      }
-      if (skuConflictBatch) console.log(`    ↳ batch sku match: "${batchBySku[clone.sku]?.name}"`);
-      clone.name = clone.name + ' CHECK';
-      clone.slug = clone.slug + '-check';
-      clone.sku = clone.sku + '-CHECK';
+        console.log(`  [CHECK] ${clone.name} [${clone.sku}] (conflict: ${reasons.join(', ')})`);
+        if (nameConflictDb) {
+          const c = existingByName[clone.name];
+          console.log(`    ↳ DB name match: "${c.name}" [${c.sku}]`);
+        }
+        if (nameConflictBatch) console.log(`    ↳ batch name match: "${batchByName[clone.name]?.sku}"`);
+        if (skuConflictDb) {
+          const c = existingBySku[clone.sku];
+          console.log(`    ↳ DB sku match: "${c.name}" [${c.sku}]`);
+        }
+        if (skuConflictBatch) console.log(`    ↳ batch sku match: "${batchBySku[clone.sku]?.name}"`);
+        clone.name = clone.name + ' CHECK';
+        clone.slug = clone.slug + '-check';
+        clone.sku = clone.sku + '-CHECK';
 
-      if (existingNames.has(clone.name) || batchNames.has(clone.name) ||
-          existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug) ||
-          existingSkus.has(clone.sku) || batchSkus.has(clone.sku)) {
-        console.log(`    [SKIP] CHECK version also conflicts, skipping`);
-        skippedCount++;
-        continue;
+        if (existingNames.has(clone.name) || batchNames.has(clone.name) ||
+            existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug) ||
+            existingSkus.has(clone.sku) || batchSkus.has(clone.sku)) {
+          console.log(`    [SKIP] CHECK version also conflicts, skipping`);
+          skippedCount++;
+          continue;
+        }
+        checkCount++;
       }
-      checkCount++;
     }
 
     batchNames.add(clone.name);
@@ -321,8 +343,11 @@ async function main() {
   if (skippedCount > 0) {
     console.log(`\n${skippedCount} products skipped (already exist or CHECK version exists)`);
   }
+  if (skuFixCount > 0) {
+    console.log(`${skuFixCount} products had SKU tweaked (name/slug unique, only SKU conflicted)`);
+  }
   if (checkCount > 0) {
-    console.log(`${checkCount} products had conflicts and were marked with CHECK`);
+    console.log(`${checkCount} products had name/slug conflicts and were marked with CHECK`);
   }
 
   // 4. Print summary
@@ -330,6 +355,7 @@ async function main() {
   console.log(`  Source products: ${sourceProducts.length}`);
   console.log(`  Generated: ${allClones.length}`);
   console.log(`  Skipped: ${skippedCount}`);
+  console.log(`  SKU fixed: ${skuFixCount}`);
   console.log(`  Marked CHECK: ${checkCount}`);
   console.log(`  To insert: ${toInsert.length}`);
   console.log();
