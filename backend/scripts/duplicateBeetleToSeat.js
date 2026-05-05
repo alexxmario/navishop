@@ -164,6 +164,9 @@ function cloneProduct(source, target) {
     if (clone.romanianSpecs.general.brand) {
       clone.romanianSpecs.general.brand = TARGET_BRAND;
     }
+    if (clone.romanianSpecs.general.categorii) {
+      clone.romanianSpecs.general.categorii = `${target.name} (${target.yearFrom}-${target.yearTo})`;
+    }
   }
 
   // Update SEO fields

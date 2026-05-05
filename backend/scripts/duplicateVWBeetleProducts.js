@@ -151,6 +151,9 @@ function cloneProduct(source, target) {
   if (clone.romanianSpecs?.general?.sku) {
     clone.romanianSpecs.general.sku = newSku;
   }
+  if (clone.romanianSpecs?.general?.categorii) {
+    clone.romanianSpecs.general.categorii = `${target.name} (${target.yearFrom}-${target.yearTo})`;
+  }
 
   // Update SEO fields
   if (clone.seoTitle) clone.seoTitle = replaceModelRefs(source.seoTitle, target);
