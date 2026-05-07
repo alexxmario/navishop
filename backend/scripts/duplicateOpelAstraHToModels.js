@@ -5,7 +5,6 @@ const Product = require('../models/Product');
 // ─── Source: Opel Astra H 2004-2014, 7 inch ────────────────────────────────
 
 const TARGET_MODELS = [
-  { name: 'Astra H', yearFrom: 2004, yearTo: 2009 },
   { name: 'Corsa C', yearFrom: 2000, yearTo: 2006 },
   { name: 'Meriva', yearFrom: 2003, yearTo: 2010 },
   { name: 'Vectra C', yearFrom: 2002, yearTo: 2009 },
