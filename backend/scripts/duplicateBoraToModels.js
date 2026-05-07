@@ -55,16 +55,14 @@ const generateSlug = (name = '') => {
     .replace(/^-|-$/g, '');
 };
 
-// Detect all possible Bora SKU prefixes
-const SOURCE_SKU_PREFIXES = ['VWBORA9806', 'BORA9806'];
+// Match the actual Bora SKU prefix pattern: VWBORA9813... or BORA9813...
+const SOURCE_SKU_REGEX = /^(VW)?BORA9813/i;
 
 function parseSourceSku(sku) {
-  for (const prefix of SOURCE_SKU_PREFIXES) {
-    if (sku.startsWith(prefix)) {
-      return { prefix, remainder: sku.substring(prefix.length), hadVwPrefix: prefix.startsWith('VW') };
-    }
-  }
-  return null;
+  const match = sku.match(SOURCE_SKU_REGEX);
+  if (!match) return null;
+  const prefix = match[0]; // e.g. "VWBORA9813" or "BORA9813"
+  return { prefix, remainder: sku.substring(prefix.length), hadVwPrefix: !!match[1] };
 }
 
 function buildSkuModelPart(modelName) {
@@ -78,15 +76,14 @@ function buildSkuYearPart(yearFrom, yearTo) {
 function buildNewSku(parsed, target) {
   const modelPart = buildSkuModelPart(target.name);
   const yearPart = buildSkuYearPart(target.yearFrom, target.yearTo);
-  // Add extra dash separator between model-year and remainder for uniqueness
-  const remainder = parsed.remainder;
+  const remainder = parsed.remainder; // e.g. "72Q", "74", "72Q-4-64"
 
   if (target.brand === 'VW') {
     const vwPrefix = parsed.hadVwPrefix ? 'VW' : '';
-    return vwPrefix + modelPart + '-' + yearPart + '-' + remainder;
+    return vwPrefix + modelPart + yearPart + '-' + remainder;
   }
   // For Seat/Skoda, use brand prefix
-  return target.skuPrefix + '-' + modelPart + '-' + yearPart + '-' + remainder;
+  return target.skuPrefix + modelPart + yearPart + '-' + remainder;
 }
 
 // Normalize "4 Core" → "4Core", "8 Core" → "8Core" to avoid conflicts
