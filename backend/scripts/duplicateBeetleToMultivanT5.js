@@ -18,6 +18,7 @@ const generateSlug = (name = '') => {
     .replace(/^-|-$/g, '');
 };
 
+// Some source SKUs use non-standard formats — handle them all
 const SOURCE_SKU_PREFIXES = ['VWBEETLE1119', 'BEETLE1119'];
 
 function parseSourceSku(sku) {
@@ -53,10 +54,12 @@ function replaceModelRefs(text, target) {
 // ─── Clone a single product for a target model ──────────────────────────────
 
 function cloneProduct(source, target) {
-  const newName = source.name.replace(
+  let newName = source.name.replace(
     /Beetle\s+2011[\s–-]+2019/i,
     `${target.name} ${target.yearFrom}-${target.yearTo}`
   );
+  // Normalize "4 Core" → "4Core", "8 Core" → "8Core" to avoid conflicts
+  newName = newName.replace(/(\d)\s+Core/g, '$1Core');
   const newSlug = generateSlug(newName);
 
   const parsed = parseSourceSku(source.sku);
@@ -177,120 +180,16 @@ async function main() {
 
   console.log(`Generated ${allClones.length} new products\n`);
 
-  const allNames = allClones.map(p => p.name);
-  const allSlugs = allClones.map(p => p.slug);
-  const allSkus = allClones.map(p => p.sku);
-  const allCheckNames = allClones.map(p => p.name + ' CHECK');
-  const allCheckSlugs = allClones.map(p => p.slug + '-check');
-  const allCheckSkus = allClones.map(p => p.sku + '-CHECK');
-
-  const existing = await Product.find({
-    $or: [
-      { name: { $in: [...allNames, ...allCheckNames] } },
-      { slug: { $in: [...allSlugs, ...allCheckSlugs] } },
-      { sku: { $in: [...allSkus, ...allCheckSkus] } }
-    ]
-  }).lean();
-
-  const existingNames = new Set(existing.map(p => p.name));
-  const existingSlugs = new Set(existing.map(p => p.slug));
-  const existingSkus = new Set(existing.map(p => p.sku));
-
-  const batchNames = new Set();
-  const batchSlugs = new Set();
-  const batchSkus = new Set();
-
-  const toInsert = [];
-  let skippedCount = 0;
-  let checkCount = 0;
-  for (const clone of allClones) {
-    const alreadyInDb = (existingNames.has(clone.name) && existingSlugs.has(clone.slug) && existingSkus.has(clone.sku));
-    const checkAlreadyInDb = (existingNames.has(clone.name + ' CHECK') || existingSlugs.has(clone.slug + '-check') || existingSkus.has(clone.sku + '-CHECK'));
-
-    if (alreadyInDb || checkAlreadyInDb) {
-      const reason = alreadyInDb ? 'exact duplicate' : 'CHECK version already exists';
-      console.log(`  [SKIP] ${clone.name} [${clone.sku}] (${reason})`);
-      skippedCount++;
-      continue;
-    }
-
-    const nameConflict = existingNames.has(clone.name) || batchNames.has(clone.name);
-    const slugConflict = existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug);
-    const skuConflict = existingSkus.has(clone.sku) || batchSkus.has(clone.sku);
-
-    if (nameConflict || slugConflict || skuConflict) {
-      const reasons = [];
-      if (nameConflict) reasons.push('name');
-      if (slugConflict) reasons.push('slug');
-      if (skuConflict) reasons.push('sku');
-
-      console.log(`  [CHECK] ${clone.name} [${clone.sku}] (conflict: ${reasons.join(', ')})`);
-      clone.name = clone.name + ' CHECK';
-      clone.slug = clone.slug + '-check';
-      clone.sku = clone.sku + '-CHECK';
-
-      if (existingNames.has(clone.name) || batchNames.has(clone.name) ||
-          existingSlugs.has(clone.slug) || batchSlugs.has(clone.slug) ||
-          existingSkus.has(clone.sku) || batchSkus.has(clone.sku)) {
-        console.log(`    [SKIP] CHECK version also conflicts, skipping`);
-        skippedCount++;
-        continue;
-      }
-      checkCount++;
-    }
-
-    batchNames.add(clone.name);
-    batchSlugs.add(clone.slug);
-    batchSkus.add(clone.sku);
-    toInsert.push(clone);
+  console.log('Products to insert:');
+  for (const p of allClones) {
+    console.log(`  ${p.name} [${p.sku}]`);
   }
-
-  if (skippedCount > 0) {
-    console.log(`\n${skippedCount} products skipped (already exist or CHECK version exists)`);
-  }
-  if (checkCount > 0) {
-    console.log(`${checkCount} products had conflicts and were marked with CHECK`);
-  }
-
-  console.log('\n--- Summary ---');
-  console.log(`  Source products: ${sourceProducts.length}`);
-  console.log(`  Generated: ${allClones.length}`);
-  console.log(`  Skipped (exact duplicates): ${skippedCount}`);
-  console.log(`  Marked CHECK (conflicts): ${checkCount}`);
-  console.log(`  To insert: ${toInsert.length}`);
-  console.log();
-
-  if (toInsert.length === 0) {
-    console.log('\nNothing new to insert. All products already exist.');
-    await mongoose.disconnect();
-    return;
-  }
-
-  console.log('Sample new products:');
-  const samples = toInsert.slice(0, 5);
-  for (const s of samples) {
-    console.log(`  ${s.name} [${s.sku}]`);
-  }
-  if (toInsert.length > 5) console.log(`  ... and ${toInsert.length - 5} more`);
   console.log();
 
   if (executeMode) {
-    console.log('Inserting into database...');
-    try {
-      const result = await Product.insertMany(toInsert, { ordered: false });
-      console.log(`Successfully inserted ${result.length} products.`);
-    } catch (err) {
-      if (err.name === 'BulkWriteError' || err.name === 'MongoBulkWriteError') {
-        const inserted = err.insertedDocs?.length || err.result?.nInserted || err.result?.result?.nInserted || 0;
-        const writeErrors = err.writeErrors || err.result?.writeErrors || [];
-        console.log(`Inserted ${inserted} products. ${writeErrors.length} failed due to conflicts.`);
-        for (const we of writeErrors) {
-          console.log(`  [ERROR] ${we.errmsg || we.err?.errmsg || JSON.stringify(we)}`);
-        }
-      } else {
-        throw err;
-      }
-    }
+    console.log('\nInserting into database...');
+    const result = await Product.insertMany(allClones);
+    console.log(`Successfully inserted ${result.length} products.`);
   } else {
     console.log('DRY RUN complete. Run with --execute to insert products.');
   }
