@@ -40,16 +40,7 @@ async function main() {
     console.log(`  → "${newName}"\n`);
 
     if (executeMode) {
-      // Check if a product with the target slug already exists
-      const existing = await Product.findOne({ slug: newSlug, _id: { $ne: p._id } });
-      if (existing) {
-        console.log(`  ⚠ Slug "${newSlug}" already exists — deleting old "T5 Transporter" product\n`);
-        await Product.deleteOne({ _id: p._id });
-        continue;
-      }
-
       p.name = newName;
-      p.slug = newSlug;
       p.model = newModel;
 
       if (p.description) p.description = replaceT5Transporter(p.description);
