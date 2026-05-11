@@ -40,7 +40,8 @@ function buildSkuYearPart(yearFrom, yearTo) {
 
 function buildNewSku(parsed, target) {
   const vwPrefix = parsed.prefix.startsWith('VW') ? 'VW' : '';
-  return vwPrefix + buildSkuModelPart(target.name) + buildSkuYearPart(target.yearFrom, target.yearTo) + parsed.remainder;
+  // Use SHRN to avoid collision with existing SHARAN SKUs
+  return vwPrefix + 'SHRN' + buildSkuYearPart(target.yearFrom, target.yearTo) + parsed.remainder;
 }
 
 function replaceModelRefs(text, target) {
