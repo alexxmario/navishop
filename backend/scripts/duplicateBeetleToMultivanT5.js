@@ -2,9 +2,9 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const Product = require('../models/Product');
 
-// ─── Single target: Volkswagen Multivan T5 ─────────────────────────────────
+// ─── Single target: Volkswagen Sharan ───────────────────────────────────────
 const TARGET_MODELS = [
-  { name: 'Multivan T5', yearFrom: 2010, yearTo: 2015 },
+  { name: 'Sharan', yearFrom: 2010, yearTo: 2022 },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -40,8 +40,7 @@ function buildSkuYearPart(yearFrom, yearTo) {
 
 function buildNewSku(parsed, target) {
   const vwPrefix = parsed.prefix.startsWith('VW') ? 'VW' : '';
-  // Use MVT5 to avoid collision with existing T5MULTIVAN SKUs from previous script
-  return vwPrefix + 'MVT5' + buildSkuYearPart(target.yearFrom, target.yearTo) + parsed.remainder;
+  return vwPrefix + buildSkuModelPart(target.name) + buildSkuYearPart(target.yearFrom, target.yearTo) + parsed.remainder;
 }
 
 function replaceModelRefs(text, target) {
@@ -148,7 +147,7 @@ function cloneProduct(source, target) {
 async function main() {
   const executeMode = process.argv.includes('--execute');
 
-  console.log('=== VW Beetle → Multivan T5 2010-2015 Duplication ===');
+  console.log('=== VW Beetle → Sharan 2010-2022 Duplication ===');
   console.log(`Mode: ${executeMode ? 'EXECUTE (will insert into DB)' : 'DRY RUN (use --execute to insert)'}\n`);
 
   await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
