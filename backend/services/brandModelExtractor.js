@@ -53,24 +53,40 @@ class BrandModelExtractor {
     return cleaned.replace(/\s+/g, ' ').trim();
   }
 
+  // Models where Roman numeral-like letters are part of the actual name
+  // and should NOT be converted to numbers
+  romanNumeralExceptions = ['X-Trail', 'X Trail', 'XTrail', '500 X', '500X'];
+
   // Normalize model name: convert Roman numerals to Arabic, remove hyphens
   normalizeModelName(modelName) {
     if (!modelName) return modelName;
 
-    return modelName
-      // Convert Roman numerals to Arabic (longest first to avoid partial matches)
-      .replace(/\bXII\b/gi, '12')
-      .replace(/\bXI\b/gi, '11')
-      .replace(/\bIX\b/gi, '9')
-      .replace(/\bX\b/gi, '10')    // Must be after XI, XII, IX
-      .replace(/\bVIII\b/gi, '8')
-      .replace(/\bVII\b/gi, '7')
-      .replace(/\bVI\b/gi, '6')
-      .replace(/\bIV\b/gi, '4')
-      .replace(/\bV\b(?!\s*class)/gi, '5')     // Must be after IV, VII, VIII (exclude Mercedes V Class)
-      .replace(/\bIII\b/gi, '3')
-      .replace(/\bII\b/gi, '2')
-      .replace(/\bI\b/gi, '1')     // Must be last
+    // Check if the model name contains any exception — skip Roman numeral conversion if so
+    const upperName = modelName.toUpperCase();
+    const hasException = this.romanNumeralExceptions.some(
+      ex => upperName.includes(ex.toUpperCase())
+    );
+
+    let result = modelName;
+
+    if (!hasException) {
+      result = result
+        // Convert Roman numerals to Arabic (longest first to avoid partial matches)
+        .replace(/\bXII\b/gi, '12')
+        .replace(/\bXI\b/gi, '11')
+        .replace(/\bIX\b/gi, '9')
+        .replace(/\bX\b/gi, '10')    // Must be after XI, XII, IX
+        .replace(/\bVIII\b/gi, '8')
+        .replace(/\bVII\b/gi, '7')
+        .replace(/\bVI\b/gi, '6')
+        .replace(/\bIV\b/gi, '4')
+        .replace(/\bV\b(?!\s*class)/gi, '5')     // Must be after IV, VII, VIII (exclude Mercedes V Class)
+        .replace(/\bIII\b/gi, '3')
+        .replace(/\bII\b/gi, '2')
+        .replace(/\bI\b/gi, '1');     // Must be last
+    }
+
+    return result
       // Remove hyphens from model names (CR-V -> CRV)
       .replace(/([A-Za-z])-([A-Za-z])/g, '$1$2')
       .trim();
