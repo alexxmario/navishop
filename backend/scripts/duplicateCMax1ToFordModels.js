@@ -16,8 +16,8 @@ const TARGET_MODELS = [
   { name: 'Fiesta', yearFrom: 2002, yearTo: 2008, skuPrefix: 'FIESTA' },
   { name: 'Focus', yearFrom: 2004, yearTo: 2011, skuPrefix: 'FOCUS' },
   { name: 'Galaxy 2', yearFrom: 2006, yearTo: 2015, skuPrefix: 'GALAXY2' },
-  { name: 'Mondeo', yearFrom: 2004, yearTo: 2007, skuPrefix: 'MONDEO0407' },
-  { name: 'Mondeo', yearFrom: 2007, yearTo: 2014, skuPrefix: 'MONDEO0714' },
+  { name: 'Mondeo', yearFrom: 2004, yearTo: 2007, skuPrefix: 'MONDEO3' },
+  { name: 'Mondeo', yearFrom: 2007, yearTo: 2014, skuPrefix: 'MONDEO4' },
   { name: 'Fusion', yearFrom: 2002, yearTo: 2012, skuPrefix: 'FUSION' },
   { name: 'Kuga', yearFrom: 2008, yearTo: 2012, skuPrefix: 'KUGA' },
   { name: 'S-Max 1', yearFrom: 2006, yearTo: 2015, skuPrefix: 'SMAX1' },
@@ -46,13 +46,18 @@ function buildSkuYearPart(yearFrom, yearTo) {
 }
 
 function buildNewSku(oldSku, target) {
-  // Replace CMAX prefix with target prefix + year part
-  // CMAX103101QSQUARE-SILVER → TRANSIT0514-01QSQUARE-SILVER
-  const remainder = oldSku.replace(/^CMAX\d*/, (match) => {
-    // Keep only the non-CMAX, non-year digits that are part of the variant
-    return '';
-  });
-  return target.skuPrefix + buildSkuYearPart(target.yearFrom, target.yearTo) + remainder;
+  // Strip "CMAX" + "10310" (model 1 + year 0310) keeping variant digits
+  // CMAX103101QSQUARE-SILVER → remainder: 1QSQUARE-SILVER
+  // CMAX103102QSQUARE-SILVER → remainder: 2QSQUARE-SILVER
+  // CMAX103104OSQUARE-SILVER → remainder: 4OSQUARE-SILVER
+  // CMAX2151Q2GB32-4648-SILVER → remainder: 2151Q2GB32-4648-SILVER
+  let remainder;
+  if (oldSku.startsWith('CMAX10310')) {
+    remainder = oldSku.substring('CMAX10310'.length);
+  } else {
+    remainder = oldSku.substring('CMAX'.length);
+  }
+  return target.skuPrefix + '-' + buildSkuYearPart(target.yearFrom, target.yearTo) + '-' + remainder;
 }
 
 function replaceModelRefs(text, target) {
