@@ -51,7 +51,7 @@ const formatFolderCase = (value = '') =>
 
 // Manual folder overrides: normalized model name (lowercase) → actual folder name
 const FOLDER_OVERRIDES = {
-  'cmax 2': 'c max 2',
+  'cmax 2': 'cmax 2 grand cmax',
 };
 
 const CarModelCard = ({ brand, modelData, modelKey }) => {
