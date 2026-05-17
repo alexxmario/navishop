@@ -49,6 +49,11 @@ const formatFolderCase = (value = '') =>
     })
     .join(' ');
 
+// Manual folder overrides: normalized model name (lowercase) → actual folder name
+const FOLDER_OVERRIDES = {
+  'cmax 2': 'c max 2',
+};
+
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -112,7 +117,17 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
     // Fallback: raw slug without stripping brand
     addModelVariants(modelKey.replace(/-(?=[a-z])/gi, ' '));
 
-    return Array.from(candidates)
+    // Add folder overrides for candidates that have a manual mapping
+    const expanded = new Set(candidates);
+    for (const candidate of candidates) {
+      const override = FOLDER_OVERRIDES[candidate.toLowerCase()];
+      if (override) {
+        expanded.add(override);
+        if (years) expanded.add(`${override} ${years}`);
+      }
+    }
+
+    return Array.from(expanded)
       .filter(Boolean)
       .map((folder) => ({
         brand: brandLower,
