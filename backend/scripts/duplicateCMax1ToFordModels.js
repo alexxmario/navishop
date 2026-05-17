@@ -2,12 +2,14 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const Product = require('../models/Product');
 
-// ─── Source SKUs (Ford C MAX 1 2003-2010 SILVER) ────────────────────────────
+// ─── Source SKUs (Ford C MAX 1 2003-2010) ───────────────────────────────────
 const SOURCE_SKUS = [
+  'CMAX103104OSQUARE',
+  'CMAX103102QSQUARE',
+  'CMAX103101QSQUARE',
   'CMAX103101QSQUARE-SILVER',
   'CMAX103102QSQUARE-SILVER',
   'CMAX103104OSQUARE-SILVER',
-  'CMAX2151Q2GB32-4648-SILVER',
 ];
 
 // ─── Target models ──────────────────────────────────────────────────────────
