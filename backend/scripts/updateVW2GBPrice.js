@@ -28,27 +28,14 @@ async function updateVWGroupPrices() {
 
     for (const product of vwProducts) {
       const imageCount = product.images ? product.images.length : 0;
+      // Only check the product name — spec fields have inconsistent data
       const name = product.name || '';
-      const ram = (product.detailedSpecs && product.detailedSpecs.ram) || '';
-      const memorieRAM = (product.romanianSpecs && product.romanianSpecs.hardware && product.romanianSpecs.hardware.memorieRAM) || '';
 
-      const is2GB =
-        /\b2\s*GB\b/i.test(name) ||
-        /\b2\s*GB\b/i.test(ram) ||
-        /\b2\s*GB\b/i.test(memorieRAM);
-
-      const is4GB =
-        /\b4\s*GB\b/i.test(name) ||
-        /\b4\s*GB\b/i.test(ram) ||
-        /\b4\s*GB\b/i.test(memorieRAM);
-
+      const is2GB   = /\b2\s*GB\b/i.test(name);
+      const is4GB   = /\b4\s*GB\b/i.test(name);
+      const is6GB   = /\b6\s*GB\b/i.test(name);
       const is4Core = /\b4\s*Core\b/i.test(name);
       const is8Core = /\b8\s*Core\b/i.test(name);
-
-      const is6GB =
-        /\b6\s*GB\b/i.test(name) ||
-        /\b6\s*GB\b/i.test(ram) ||
-        /\b6\s*GB\b/i.test(memorieRAM);
 
       const qualifies8Core = (is4GB || is6GB) && is8Core;
 
