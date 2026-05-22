@@ -22,6 +22,7 @@ const SPEC_PRICES = {
 const HIGH_MODELS = [
   'New Beetle 2004-2010',
   'Sprinter 2018-2022',
+  'Q3 2011-2018',
 ];
 
 const LOW_MODELS = [
@@ -76,11 +77,12 @@ async function updatePriceByRama() {
         { brand: { $regex: /^BMW$/i } },
         { brand: { $regex: /^Mercedes$/i } },
         { brand: { $regex: /^Mercedes-Benz$/i } },
-        { name:  { $regex: /VW|Volkswagen|BMW|Mercedes/i } },
+        { brand: { $regex: /^Audi$/i } },
+        { name:  { $regex: /VW|Volkswagen|BMW|Mercedes|Audi/i } },
       ]
     });
 
-    console.log(`Found ${products.length} VW/Volkswagen/BMW/Mercedes products total`);
+    console.log(`Found ${products.length} VW/Volkswagen/BMW/Mercedes/Audi products total`);
 
     const results = { low: 0, mid: 0, high: 0, skipped: 0, unknown: 0 };
 
