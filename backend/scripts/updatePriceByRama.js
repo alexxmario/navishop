@@ -14,75 +14,34 @@ const SPEC_PRICES = {
   '2k_8gb_256gb_8core':  { low: 2799, mid: 2849, high: 2899 },
 };
 
-// ─── MODEL CONFIGS ───────────────────────────────────────────────────────────
-// search : substring matched against product name (case-insensitive)
-// spec   : key from SPEC_PRICES above — you define which tier each model uses
-// rama   : 'low' (<100) | 'mid' (100-200) | 'high' (>200)
-//
-// A model can appear multiple times if it has products in different spec tiers.
-const MODEL_CONFIGS = [
-  // ── HIGH ────────────────────────────────────────────────────────────────────
-  { search: 'New Beetle 2004-2010', spec: 'std_2gb_32gb_4core',  rama: 'high' },
-  { search: 'New Beetle 2004-2010', spec: 'std_4gb_64gb_4core',  rama: 'high' },
-  { search: 'New Beetle 2004-2010', spec: 'std_4gb_64gb_8core',  rama: 'high' },
-  { search: 'New Beetle 2004-2010', spec: 'std_6gb_128gb_8core', rama: 'high' },
-  { search: 'New Beetle 2004-2010', spec: '2k_4gb_64gb_8core',   rama: 'high' },
-  { search: 'New Beetle 2004-2010', spec: '2k_8gb_256gb_8core',  rama: 'high' },
+// ─── EXPLICIT MODEL OVERRIDES ────────────────────────────────────────────────
+// Only list models that are NOT mid tier.
+// Any VW/Volkswagen product not matching these defaults to 'mid'.
+// 'search' is matched case-insensitively against the product name.
 
-  // ── LOW ─────────────────────────────────────────────────────────────────────
-  { search: 'Passat B6',      spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Passat B6',      spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Passat B6',      spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Passat B6',      spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Passat B6',      spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Passat B6',      spec: '2k_8gb_256gb_8core',  rama: 'low' },
-
-  { search: 'Polo 2009-2018', spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Polo 2009-2018', spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Polo 2009-2018', spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Polo 2009-2018', spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Polo 2009-2018', spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Polo 2009-2018', spec: '2k_8gb_256gb_8core',  rama: 'low' },
-
-  { search: 'Tiguan 2016-2020', spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Tiguan 2016-2020', spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Tiguan 2016-2020', spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Tiguan 2016-2020', spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Tiguan 2016-2020', spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Tiguan 2016-2020', spec: '2k_8gb_256gb_8core',  rama: 'low' },
-
-  { search: 'Passat B7',      spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Passat B7',      spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Passat B7',      spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Passat B7',      spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Passat B7',      spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Passat B7',      spec: '2k_8gb_256gb_8core',  rama: 'low' },
-
-  { search: 'Golf 2008-2014', spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Golf 2008-2014', spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Golf 2008-2014', spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Golf 2008-2014', spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Golf 2008-2014', spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Golf 2008-2014', spec: '2k_8gb_256gb_8core',  rama: 'low' },
-
-  { search: 'Tiguan 2007-2018', spec: 'std_2gb_32gb_4core',  rama: 'low' },
-  { search: 'Tiguan 2007-2018', spec: 'std_4gb_64gb_4core',  rama: 'low' },
-  { search: 'Tiguan 2007-2018', spec: 'std_4gb_64gb_8core',  rama: 'low' },
-  { search: 'Tiguan 2007-2018', spec: 'std_6gb_128gb_8core', rama: 'low' },
-  { search: 'Tiguan 2007-2018', spec: '2k_4gb_64gb_8core',   rama: 'low' },
-  { search: 'Tiguan 2007-2018', spec: '2k_8gb_256gb_8core',  rama: 'low' },
+const HIGH_MODELS = [
+  'New Beetle 2004-2010',
 ];
 
-// ─── SPEC KEY → NAME PATTERNS ────────────────────────────────────────────────
-// Used only to identify which product variant a name belongs to within a model.
-// Ordered most-specific first to avoid false matches.
+const LOW_MODELS = [
+  'Passat B6',
+  'Polo 2009-2018',
+  'Polo 6R 2009-2018',
+  'Tiguan 2016-2020',
+  'Passat B7',
+  'Golf 6 2008-2014',
+  'Golf 2008-2014',
+  'Tiguan 2007-2018',
+];
+
+// ─── SPEC DETECTION ──────────────────────────────────────────────────────────
 const SPEC_PATTERNS = [
-  { key: '2k_8gb_256gb_8core',   test: n => /\b2K\b/i.test(n) && /\b8\s*GB\b/i.test(n) && /\b256\s*GB\b/i.test(n) && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
-  { key: '2k_4gb_64gb_8core',    test: n => /\b2K\b/i.test(n) && /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
-  { key: 'std_6gb_128gb_8core',  test: n => /\b6\s*GB\b/i.test(n) && /\b128\s*GB\b/i.test(n) && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
-  { key: 'std_4gb_64gb_8core',   test: n => !/\b2K\b/i.test(n) && /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
-  { key: 'std_4gb_64gb_4core',   test: n => /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b4\s*Core\b/i.test(n) || /\bQuad[\s-]*Core\b/i.test(n)) },
-  { key: 'std_2gb_32gb_4core',   test: n => /\b2\s*GB\b/i.test(n) && /\b32\s*GB\b/i.test(n)  && (/\b4\s*Core\b/i.test(n) || /\bQuad[\s-]*Core\b/i.test(n)) },
+  { key: '2k_8gb_256gb_8core',  test: n => /\b2K\b/i.test(n) && /\b8\s*GB\b/i.test(n) && /\b256\s*GB\b/i.test(n) && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
+  { key: '2k_4gb_64gb_8core',   test: n => /\b2K\b/i.test(n) && /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
+  { key: 'std_6gb_128gb_8core', test: n => /\b6\s*GB\b/i.test(n) && /\b128\s*GB\b/i.test(n) && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
+  { key: 'std_4gb_64gb_8core',  test: n => !/\b2K\b/i.test(n) && /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b8\s*Core\b/i.test(n) || /\bOcta[\s-]*Core\b/i.test(n)) },
+  { key: 'std_4gb_64gb_4core',  test: n => /\b4\s*GB\b/i.test(n) && /\b64\s*GB\b/i.test(n)  && (/\b4\s*Core\b/i.test(n) || /\bQuad[\s-]*Core\b/i.test(n)) },
+  { key: 'std_2gb_32gb_4core',  test: n => /\b2\s*GB\b/i.test(n) && /\b32\s*GB\b/i.test(n)  && (/\b4\s*Core\b/i.test(n) || /\bQuad[\s-]*Core\b/i.test(n)) },
 ];
 
 function detectSpecKey(name) {
@@ -92,55 +51,66 @@ function detectSpecKey(name) {
   return null;
 }
 
+function getRamaForProduct(name) {
+  for (const search of HIGH_MODELS) {
+    if (name.toLowerCase().includes(search.toLowerCase())) return 'high';
+  }
+  for (const search of LOW_MODELS) {
+    if (name.toLowerCase().includes(search.toLowerCase())) return 'low';
+  }
+  return 'mid'; // default for all other VW models
+}
+
 // ─── MAIN ────────────────────────────────────────────────────────────────────
 async function updatePriceByRama() {
   try {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB\n');
 
-    // Group configs by search string so we only query each model once
-    const bySearch = {};
-    for (const config of MODEL_CONFIGS) {
-      if (!bySearch[config.search]) bySearch[config.search] = [];
-      bySearch[config.search].push(config);
-    }
+    // Fetch all VW/Volkswagen products with under 18 images
+    const products = await Product.find({
+      $or: [
+        { brand: { $regex: /^VW$/i } },
+        { brand: { $regex: /^Volkswagen$/i } },
+        { name:  { $regex: /VW|Volkswagen/i } },
+      ]
+    });
 
-    for (const [search, configs] of Object.entries(bySearch)) {
-      console.log(`\n>>> Model: "${search}"`);
+    console.log(`Found ${products.length} VW/Volkswagen products total`);
 
-      const products = await Product.find({
-        name: { $regex: search, $options: 'i' }
-      });
+    const results = { low: 0, mid: 0, high: 0, skipped: 0, unknown: 0 };
 
-      console.log(`    Found ${products.length} products`);
+    for (const product of products) {
+      const imageCount = product.images ? product.images.length : 0;
 
-      let updated = 0, skipped = 0, unmatched = 0;
-
-      for (const product of products) {
-        const imageCount = product.images ? product.images.length : 0;
-
-        if (imageCount >= 18) {
-          skipped++;
-          continue;
-        }
-
-        const detectedSpec = detectSpecKey(product.name || '');
-        const config = configs.find(c => c.spec === detectedSpec);
-
-        if (!config) {
-          console.log(`    UNMATCHED: "${product.name}" (detected: ${detectedSpec || 'none'})`);
-          unmatched++;
-          continue;
-        }
-
-        const newPrice = SPEC_PRICES[config.spec][config.rama];
-        await Product.updateOne({ _id: product._id }, { $set: { price: newPrice } });
-        console.log(`    [${newPrice} RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
-        updated++;
+      if (imageCount >= 18) {
+        results.skipped++;
+        continue;
       }
 
-      console.log(`    Done — updated: ${updated} | skipped (18+ images): ${skipped} | unmatched spec: ${unmatched}`);
+      const name    = product.name || '';
+      const specKey = detectSpecKey(name);
+
+      if (!specKey) {
+        console.log(`UNKNOWN SPEC: "${name}"`);
+        results.unknown++;
+        continue;
+      }
+
+      const rama     = getRamaForProduct(name);
+      const newPrice = SPEC_PRICES[specKey][rama];
+
+      await Product.updateOne({ _id: product._id }, { $set: { price: newPrice } });
+      console.log(`[${rama.toUpperCase()} / ${newPrice} RON] "${name}" | was ${product.price} RON | images: ${imageCount}`);
+      results[rama]++;
     }
+
+    console.log('\n=== SUMMARY ===');
+    console.log(`High tier updated : ${results.high}`);
+    console.log(`Mid  tier updated : ${results.mid}`);
+    console.log(`Low  tier updated : ${results.low}`);
+    console.log(`Skipped (18+ imgs): ${results.skipped}`);
+    console.log(`Unknown spec      : ${results.unknown}`);
 
     await mongoose.disconnect();
     console.log('\nDisconnected from MongoDB');
