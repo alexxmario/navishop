@@ -58,7 +58,7 @@ function getRamaForProduct(name) {
   for (const search of LOW_MODELS) {
     if (name.toLowerCase().includes(search.toLowerCase())) return 'low';
   }
-  return 'mid'; // default for all other VW models
+  return 'mid'; // default for all other VW/BMW models
 }
 
 // ─── MAIN ────────────────────────────────────────────────────────────────────
@@ -67,16 +67,17 @@ async function updatePriceByRama() {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB\n');
 
-    // Fetch all VW/Volkswagen products with under 18 images
+    // Fetch all VW/Volkswagen/BMW products with under 18 images
     const products = await Product.find({
       $or: [
         { brand: { $regex: /^VW$/i } },
         { brand: { $regex: /^Volkswagen$/i } },
-        { name:  { $regex: /VW|Volkswagen/i } },
+        { brand: { $regex: /^BMW$/i } },
+        { name:  { $regex: /VW|Volkswagen|BMW/i } },
       ]
     });
 
-    console.log(`Found ${products.length} VW/Volkswagen products total`);
+    console.log(`Found ${products.length} VW/Volkswagen/BMW products total`);
 
     const results = { low: 0, mid: 0, high: 0, skipped: 0, unknown: 0 };
 
