@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-100 py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div>
             <Link to="/" className="logo-link inline-block mb-4">
-              <img 
-                src={logoSvg} 
+              <img
+                src={logoSvg}
                 alt="PilotOn - Navigații auto moderne"
                 className="logo-footer"
               />
@@ -21,10 +21,20 @@ const Footer = () => {
           </div>
 
           <div>
+            <h3 className="font-medium mb-4">GPS</h3>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li><Link to="/category/gps?subcategory=5-inch" className="hover:text-blue-600">GPS 5 inch</Link></li>
+              <li><Link to="/category/gps?subcategory=7-inch" className="hover:text-blue-600">GPS 7 inch</Link></li>
+              <li><Link to="/category/gps?subcategory=9-inch" className="hover:text-blue-600">GPS 9 inch</Link></li>
+              <li><Link to="/category/gps" className="hover:text-blue-600">Toate GPS-urile</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h3 className="font-medium mb-4">Produse</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li><Link to="/category/navigatii-gps" className="hover:text-blue-600">Navigații GPS</Link></li>
-              <li><Link to="/category/carplay-android" className="hover:text-blue-600">CarPlay/Android Auto</Link></li>
+              <li><Link to="/category/carplay-android" className="hover:text-blue-600">CarPlay / Android Auto</Link></li>
               <li><Link to="/category/camere-marsarier" className="hover:text-blue-600">Camere marsarier</Link></li>
               <li><Link to="/category/accesorii" className="hover:text-blue-600">Accesorii</Link></li>
             </ul>
@@ -56,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-          <p>© 2024 PilotOn. Toate drepturile rezervate.</p>
+          <p>© 2026 PilotOn. Toate drepturile rezervate.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-blue-600">Termeni</a>
             <a href="#" className="hover:text-blue-600">Confidențialitate</a>
