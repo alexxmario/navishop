@@ -21,6 +21,7 @@ const SPEC_PRICES = {
 
 const HIGH_MODELS = [
   'New Beetle 2004-2010',
+  'Sprinter 2018-2022',
 ];
 
 const LOW_MODELS = [
@@ -67,17 +68,19 @@ async function updatePriceByRama() {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB\n');
 
-    // Fetch all VW/Volkswagen/BMW products with under 18 images
+    // Fetch all VW/Volkswagen/BMW/Mercedes products with under 18 images
     const products = await Product.find({
       $or: [
         { brand: { $regex: /^VW$/i } },
         { brand: { $regex: /^Volkswagen$/i } },
         { brand: { $regex: /^BMW$/i } },
-        { name:  { $regex: /VW|Volkswagen|BMW/i } },
+        { brand: { $regex: /^Mercedes$/i } },
+        { brand: { $regex: /^Mercedes-Benz$/i } },
+        { name:  { $regex: /VW|Volkswagen|BMW|Mercedes/i } },
       ]
     });
 
-    console.log(`Found ${products.length} VW/Volkswagen/BMW products total`);
+    console.log(`Found ${products.length} VW/Volkswagen/BMW/Mercedes products total`);
 
     const results = { low: 0, mid: 0, high: 0, skipped: 0, unknown: 0 };
 
