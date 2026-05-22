@@ -61,8 +61,12 @@ async function updateVWGroupPrices() {
         continue;
       }
 
-      // Priority: 8 Core (highest) > 4GB+4Core > 2GB
-      if (qualifies8Core) {
+      // 2GB always takes priority — checked first regardless of core count
+      if (is2GB) {
+        await Product.updateOne({ _id: product._id }, { $set: { price: 799 } });
+        updated2GB.push({ name: product.name, oldPrice: product.price, imageCount });
+        console.log(`[799 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
+      } else if (qualifies8Core) {
         await Product.updateOne({ _id: product._id }, { $set: { price: 1499 } });
         updated8Core.push({ name: product.name, oldPrice: product.price, imageCount });
         console.log(`[1499 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
@@ -70,10 +74,6 @@ async function updateVWGroupPrices() {
         await Product.updateOne({ _id: product._id }, { $set: { price: 999 } });
         updated4GB4Core.push({ name: product.name, oldPrice: product.price, imageCount });
         console.log(`[999 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
-      } else if (is2GB) {
-        await Product.updateOne({ _id: product._id }, { $set: { price: 799 } });
-        updated2GB.push({ name: product.name, oldPrice: product.price, imageCount });
-        console.log(`[799 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
       }
     }
 
