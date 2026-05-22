@@ -3,24 +3,27 @@ const Product = require('../models/Product');
 
 require('dotenv').config();
 
-async function updateVWPrices() {
+async function updateVWGroupPrices() {
   try {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/piloton');
     console.log('Connected to MongoDB');
 
-    // Find all VW/Volkswagen products
+    // Find all VW/Volkswagen/Seat/Skoda products
     const vwProducts = await Product.find({
       $or: [
         { brand: { $regex: /^VW$/i } },
         { brand: { $regex: /^Volkswagen$/i } },
-        { name: { $regex: /VW|Volkswagen/i } }
+        { brand: { $regex: /^Seat$/i } },
+        { brand: { $regex: /^Skoda$/i } },
+        { name: { $regex: /VW|Volkswagen|Seat|Skoda/i } }
       ]
     });
 
-    console.log(`Found ${vwProducts.length} VW/Volkswagen products total`);
+    console.log(`Found ${vwProducts.length} VW/Volkswagen/Seat/Skoda products total`);
 
     const updated2GB = [];
     const updated4GB4Core = [];
+    const updated8Core = [];
     const skipped = [];
 
     for (const product of vwProducts) {
@@ -40,8 +43,16 @@ async function updateVWPrices() {
         /\b4\s*GB\b/i.test(memorieRAM);
 
       const is4Core = /\b4\s*Core\b/i.test(name);
+      const is8Core = /\b8\s*Core\b/i.test(name);
 
-      if (!is2GB && !(is4GB && is4Core)) {
+      const is6GB =
+        /\b6\s*GB\b/i.test(name) ||
+        /\b6\s*GB\b/i.test(ram) ||
+        /\b6\s*GB\b/i.test(memorieRAM);
+
+      const qualifies8Core = (is4GB || is6GB) && is8Core;
+
+      if (!is2GB && !(is4GB && is4Core) && !qualifies8Core) {
         continue; // not a target product
       }
 
@@ -50,8 +61,12 @@ async function updateVWPrices() {
         continue;
       }
 
-      // 4GB + 4 Core takes priority if both match
-      if (is4GB && is4Core) {
+      // Priority: 8 Core (highest) > 4GB+4Core > 2GB
+      if (qualifies8Core) {
+        await Product.updateOne({ _id: product._id }, { $set: { price: 1499 } });
+        updated8Core.push({ name: product.name, oldPrice: product.price, imageCount });
+        console.log(`[1499 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
+      } else if (is4GB && is4Core) {
         await Product.updateOne({ _id: product._id }, { $set: { price: 999 } });
         updated4GB4Core.push({ name: product.name, oldPrice: product.price, imageCount });
         console.log(`[999 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
@@ -69,6 +84,9 @@ async function updateVWPrices() {
     console.log(`\n4GB + 4 Core products updated to 999 RON: ${updated4GB4Core.length}`);
     updated4GB4Core.forEach(p => console.log(`  ✓ ${p.name} (was ${p.oldPrice} RON, ${p.imageCount} images)`));
 
+    console.log(`\n(4GB or 6GB) + 8 Core products updated to 1499 RON: ${updated8Core.length}`);
+    updated8Core.forEach(p => console.log(`  ✓ ${p.name} (was ${p.oldPrice} RON, ${p.imageCount} images)`));
+
     if (skipped.length > 0) {
       console.log(`\nSkipped (not enough images): ${skipped.length}`);
       skipped.forEach(p => console.log(`  - ${p.name} — ${p.reason}`));
@@ -82,4 +100,4 @@ async function updateVWPrices() {
   }
 }
 
-updateVWPrices();
+updateVWGroupPrices();
