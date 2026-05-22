@@ -398,20 +398,6 @@ const ProductPage = () => {
               </span>
             </div>
 
-            {/* Compatibility */}
-            {(product.romanianSpecs?.compatibility?.destinatPentru ||
-              (product.compatibility && product.compatibility.length > 0)) && (
-              <div className="flex items-start gap-2 py-3 border-t border-b border-gray-100 text-sm">
-                <span className="text-gray-500 shrink-0 mt-0.5">Compatibil cu:</span>
-                <span className="font-medium text-gray-900">
-                  {product.romanianSpecs?.compatibility?.destinatPentru ||
-                    product.compatibility
-                      .map(c => [c.brand, c.model, c.yearFrom ? `${c.yearFrom}–${c.yearTo || ''}` : ''].filter(Boolean).join(' '))
-                      .join(', ')}
-                </span>
-              </div>
-            )}
-
             {/* Price */}
             <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
               <span className="text-3xl sm:text-4xl font-bold text-gray-900">{calculateB2BPrice(product.price)} lei</span>
