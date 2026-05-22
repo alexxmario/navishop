@@ -23,7 +23,7 @@ async function updateNonVW2GB7InchPrice() {
       const name       = product.name || '';
       const imageCount = product.images ? product.images.length : 0;
 
-      const is2GB   = /\b2\s*GB\b/i.test(name);
+      const is2GB   = /\b4\s*GB\b/i.test(name);
       const is7inch = /\b7[\s-]*inch\b/i.test(name);
 
       if (!is2GB || !is7inch) continue;
@@ -33,9 +33,9 @@ async function updateNonVW2GB7InchPrice() {
         continue;
       }
 
-      await Product.updateOne({ _id: product._id }, { $set: { price: 849 } });
+      await Product.updateOne({ _id: product._id }, { $set: { price: 1049 } });
       updated.push({ name: product.name, oldPrice: product.price, imageCount });
-      console.log(`[849 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
+      console.log(`[1049 RON] "${product.name}" | was ${product.price} RON | images: ${imageCount}`);
     }
 
     console.log('\n=== SUMMARY ===');
