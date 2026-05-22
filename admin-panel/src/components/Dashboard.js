@@ -14,20 +14,20 @@ import {
   TableRow,
   Chip,
   Button,
-  Divider,
 } from '@mui/material';
 import {
   ShoppingCart,
   LocalShipping,
   Inventory,
   Speed,
-  BarChart as BarChartIcon,
+  TrendingUp,
+  Assessment,
+  Timeline,
   PieChart as PieChartIcon,
+  BarChart as BarChartIcon,
   Refresh,
 } from '@mui/icons-material';
 import {
-  AreaChart,
-  Area,
   BarChart,
   Bar,
   XAxis,
@@ -39,6 +39,8 @@ import {
   Pie,
   Cell,
   ResponsiveContainer,
+  AreaChart,
+  Area,
 } from 'recharts';
 import { buildApiUrl } from '../config/api';
 
@@ -54,42 +56,32 @@ const apiCall = async (endpoint) => {
   return response.json();
 };
 
-const ICON_PALETTE = {
-  primary: { bg: '#eff6ff', color: '#2563eb' },
-  success:  { bg: '#f0fdf4', color: '#16a34a' },
-  warning:  { bg: '#fffbeb', color: '#d97706' },
-  info:     { bg: '#f0f9ff', color: '#0ea5e9' },
-  error:    { bg: '#fef2f2', color: '#dc2626' },
+// Solid color backgrounds — no gradient, no pseudo-element decorations
+const CARD_COLORS = {
+  primary: '#1565c0',
+  success:  '#2e7d32',
+  warning:  '#e65100',
+  info:     '#0277bd',
 };
 
 const StatCard = ({ title, value, icon, color = 'primary', subtitle }) => {
-  const c = ICON_PALETTE[color] || ICON_PALETTE.primary;
+  const bg = CARD_COLORS[color] || CARD_COLORS.primary;
   return (
-    <Card>
+    <Card sx={{ height: '100%', bgcolor: bg, color: 'white' }}>
       <CardContent sx={{ p: 3 }}>
-        <Box
-          sx={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: 38,
-            height: 38,
-            borderRadius: 1.5,
-            bgcolor: c.bg,
-            color: c.color,
-            mb: 2,
-          }}
-        >
-          {React.cloneElement(icon, { sx: { fontSize: 19 } })}
+        <Box sx={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', mb: 2 }}>
+          <Typography variant="h4" sx={{ fontWeight: 700 }}>
+            {value}
+          </Typography>
+          <Box sx={{ bgcolor: 'rgba(255,255,255,0.18)', borderRadius: 1.5, p: 1, display: 'flex' }}>
+            {React.cloneElement(icon, { sx: { fontSize: 26, color: 'white' } })}
+          </Box>
         </Box>
-        <Typography sx={{ fontSize: '1.625rem', fontWeight: 700, lineHeight: 1, color: 'text.primary', mb: 0.5 }}>
-          {value}
-        </Typography>
-        <Typography variant="body2" sx={{ fontWeight: 500, color: 'text.primary' }}>
+        <Typography variant="body1" sx={{ fontWeight: 500, opacity: 0.95 }}>
           {title}
         </Typography>
         {subtitle && (
-          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 0.25 }}>
+          <Typography variant="body2" sx={{ opacity: 0.7, mt: 0.5 }}>
             {subtitle}
           </Typography>
         )}
@@ -98,12 +90,14 @@ const StatCard = ({ title, value, icon, color = 'primary', subtitle }) => {
   );
 };
 
-const ChartCard = ({ title, children, height = 300, action }) => (
+const ChartCard = ({ title, icon, children, height = 300 }) => (
   <Card sx={{ height: '100%' }}>
     <CardContent sx={{ p: 3 }}>
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 3 }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2.5 }}>
+        <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
+          {React.cloneElement(icon, { sx: { fontSize: 18 } })}
+        </Box>
         <Typography variant="h6">{title}</Typography>
-        {action}
       </Box>
       <Box sx={{ height }}>{children}</Box>
     </CardContent>
@@ -160,7 +154,7 @@ export const Dashboard = () => {
   if (loading && !stats) {
     return (
       <Box sx={{ p: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '50vh' }}>
-        <Typography variant="body1" color="text.secondary">Se încarcă datele...</Typography>
+        <Typography variant="h6" color="text.secondary">Se încarcă datele...</Typography>
       </Box>
     );
   }
@@ -168,34 +162,25 @@ export const Dashboard = () => {
   if (error && !stats) {
     return (
       <Box sx={{ p: 4 }}>
-        <Typography variant="body1" color="error" sx={{ mb: 2 }}>
+        <Typography variant="h6" color="error" gutterBottom>
           Eroare la încărcarea panoului: {error}
         </Typography>
-        <Button variant="outlined" size="small" onClick={fetchDashboardData}>
-          Reîncearcă
-        </Button>
+        <Button variant="contained" onClick={fetchDashboardData}>Reîncearcă</Button>
       </Box>
     );
   }
 
-  const today = new Date().toLocaleDateString('ro-RO', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-
   return (
-    <Box sx={{ p: { xs: 2, md: 4 }, bgcolor: 'background.default', minHeight: '100vh' }}>
+    <Box sx={{ p: 4, bgcolor: '#f5f5f5', minHeight: '100vh' }}>
 
-      {/* Header */}
-      <Box sx={{ mb: 4, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between' }}>
+      {/* Header — no gradient text */}
+      <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <Box>
-          <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.primary' }}>
+          <Typography variant="h4" sx={{ fontWeight: 700, color: 'text.primary' }}>
             Panou de Administrare
           </Typography>
-          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 0.5, textTransform: 'capitalize' }}>
-            {today}
+          <Typography variant="body1" color="text.secondary" sx={{ mt: 0.5 }}>
+            Administrare Sisteme de Navigație · Procesare Comenzi și Analiză Business
           </Typography>
         </Box>
         <Button
@@ -204,15 +189,14 @@ export const Dashboard = () => {
           startIcon={<Refresh sx={{ fontSize: 16 }} />}
           onClick={fetchDashboardData}
           disabled={refreshing}
-          sx={{ color: 'text.secondary', borderColor: 'divider' }}
         >
-          {refreshing ? 'Actualizare...' : 'Actualizează'}
+          {refreshing ? 'Se actualizează...' : 'Actualizează'}
         </Button>
       </Box>
 
       {/* Stat Cards */}
-      <Grid container spacing={2.5} sx={{ mb: 4 }}>
-        <Grid item xs={12} sm={6} lg={3}>
+      <Grid container spacing={3} sx={{ mb: 4 }}>
+        <Grid item xs={12} sm={6} xl={3}>
           <StatCard
             title="Comenzi în așteptare"
             subtitle="Așteaptă confirmarea"
@@ -221,7 +205,7 @@ export const Dashboard = () => {
             color="warning"
           />
         </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <StatCard
             title="Comenzi în procesare"
             subtitle="Se pregătesc"
@@ -230,7 +214,7 @@ export const Dashboard = () => {
             color="info"
           />
         </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <StatCard
             title="Comenzi expediate"
             subtitle="În tranzit"
@@ -239,10 +223,10 @@ export const Dashboard = () => {
             color="success"
           />
         </Grid>
-        <Grid item xs={12} sm={6} lg={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <StatCard
             title="Produse active"
-            subtitle={stats?.products?.lowStock ? `${stats.products.lowStock} cu stoc redus` : 'Stoc complet'}
+            subtitle={stats?.products?.lowStock ? `${stats.products.lowStock} stoc redus` : 'Stoc complet'}
             value={stats?.products?.active?.toString() ?? '0'}
             icon={<Inventory />}
             color="primary"
@@ -251,47 +235,36 @@ export const Dashboard = () => {
       </Grid>
 
       {/* Charts */}
-      <Grid container spacing={2.5} sx={{ mb: 4 }}>
+      <Grid container spacing={3} sx={{ mb: 4 }}>
         <Grid item xs={12} md={8}>
-          <ChartCard title="Vânzări și comenzi" height={360}>
+          <ChartCard title="Sumar Vânzări și Comenzi" icon={<BarChartIcon />} height={380}>
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={sales} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="colorOrders" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#2563eb" stopOpacity={0.15} />
-                    <stop offset="95%" stopColor="#2563eb" stopOpacity={0} />
-                  </linearGradient>
-                  <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#16a34a" stopOpacity={0.15} />
-                    <stop offset="95%" stopColor="#16a34a" stopOpacity={0} />
-                  </linearGradient>
-                </defs>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
-                <XAxis dataKey="month" tick={{ fontSize: 12, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
-                <YAxis yAxisId="left" tick={{ fontSize: 12, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
-                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 12, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#eeeeee" vertical={false} />
+                <XAxis dataKey="month" tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
+                <YAxis yAxisId="left" tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
+                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
                 <Tooltip
-                  contentStyle={{ border: '1px solid #e2e8f0', borderRadius: 6, fontSize: 13, boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
-                  labelStyle={{ color: '#0f172a', fontWeight: 600 }}
+                  contentStyle={{ borderRadius: 8, fontSize: 13, border: '1px solid #e0e0e0', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
                 />
-                <Legend wrapperStyle={{ fontSize: 13, paddingTop: 12 }} />
-                <Area yAxisId="left"  type="monotone" dataKey="orders"  stroke="#2563eb" fill="url(#colorOrders)"  strokeWidth={2} name="Comenzi" dot={false} />
-                <Area yAxisId="right" type="monotone" dataKey="revenue" stroke="#16a34a" fill="url(#colorRevenue)" strokeWidth={2} name="Venituri (RON)" dot={false} />
+                <Legend wrapperStyle={{ fontSize: 13, paddingTop: 8 }} />
+                <Area yAxisId="left"  type="monotone" dataKey="orders"  stroke="#1976d2" fill="rgba(25,118,210,0.12)" strokeWidth={2} name="Comenzi" dot={false} />
+                <Area yAxisId="right" type="monotone" dataKey="revenue" stroke="#4caf50" fill="rgba(76,175,80,0.12)"  strokeWidth={2} name="Venituri (RON)" dot={false} />
               </AreaChart>
             </ResponsiveContainer>
           </ChartCard>
         </Grid>
 
         <Grid item xs={12} md={4}>
-          <ChartCard title="Distribuție produse" height={360}>
+          <ChartCard title="Distribuție Produse" icon={<PieChartIcon />} height={380}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
                   data={productDistribution}
                   cx="50%"
                   cy="46%"
-                  outerRadius={100}
-                  innerRadius={52}
+                  outerRadius={110}
+                  innerRadius={55}
                   dataKey="value"
                   paddingAngle={2}
                   label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
@@ -301,9 +274,7 @@ export const Dashboard = () => {
                     <Cell key={`cell-${index}`} fill={entry.color} strokeWidth={0} />
                   ))}
                 </Pie>
-                <Tooltip
-                  contentStyle={{ border: '1px solid #e2e8f0', borderRadius: 6, fontSize: 13, boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
-                />
+                <Tooltip contentStyle={{ borderRadius: 8, fontSize: 13 }} />
               </PieChart>
             </ResponsiveContainer>
           </ChartCard>
@@ -311,24 +282,30 @@ export const Dashboard = () => {
       </Grid>
 
       {/* Quick Stats + Recent Orders */}
-      <Grid container spacing={2.5} sx={{ mb: 4 }}>
+      <Grid container spacing={3} sx={{ mb: 4 }}>
+        {/* Financial stats — full-width labels so values never get cut off */}
         <Grid item xs={12} md={5}>
           <Card sx={{ height: '100%' }}>
             <CardContent sx={{ p: 3 }}>
-              <Typography variant="h6" sx={{ mb: 3 }}>Rezumat financiar</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 3 }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 3 }}>
+                <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
+                  <Timeline sx={{ fontSize: 18 }} />
+                </Box>
+                <Typography variant="h6">Statistici rapide</Typography>
+              </Box>
+
+              {/* Full-width rows — values never truncate */}
+              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                 {[
-                  { label: 'Venit luna aceasta', value: `${(stats?.revenue?.thisMonth || 0).toLocaleString()} RON`, color: '#16a34a' },
-                  { label: 'Venit total', value: `${(stats?.revenue?.total || 0).toLocaleString()} RON`, color: '#2563eb' },
-                  { label: 'Utilizatori înregistrați', value: stats?.users?.total?.toString() || '0', color: '#0f172a' },
-                  { label: 'Produse stoc redus', value: stats?.products?.lowStock?.toString() || '0', color: '#d97706' },
+                  { label: 'Venit luna aceasta', value: `${(stats?.revenue?.thisMonth || 0).toLocaleString()} RON`, color: 'success.main' },
+                  { label: 'Venit total',         value: `${(stats?.revenue?.total || 0).toLocaleString()} RON`,     color: 'primary.main' },
+                  { label: 'Utilizatori înregistrați', value: (stats?.users?.total || 0).toString(),                 color: 'text.primary' },
+                  { label: 'Produse cu stoc redus',    value: (stats?.products?.lowStock || 0).toString(),           color: 'warning.main' },
                 ].map(({ label, value, color }) => (
-                  <Box key={label}>
-                    <Typography sx={{ fontSize: '1.25rem', fontWeight: 700, color, lineHeight: 1, mb: 0.5 }}>
+                  <Box key={label} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Typography variant="body2" color="text.secondary">{label}</Typography>
+                    <Typography variant="body1" sx={{ fontWeight: 600, color, textAlign: 'right', ml: 2 }}>
                       {value}
-                    </Typography>
-                    <Typography variant="caption" color="text.secondary">
-                      {label}
                     </Typography>
                   </Box>
                 ))}
@@ -339,13 +316,18 @@ export const Dashboard = () => {
 
         <Grid item xs={12} md={7}>
           <Card sx={{ height: '100%' }}>
-            <CardContent sx={{ p: 3, pb: '24px !important' }}>
-              <Typography variant="h6" sx={{ mb: 2 }}>Comenzi recente</Typography>
+            <CardContent sx={{ p: 3 }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2 }}>
+                <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
+                  <Assessment sx={{ fontSize: 18 }} />
+                </Box>
+                <Typography variant="h6">Comenzi recente</Typography>
+              </Box>
               <TableContainer>
                 <Table size="small">
                   <TableHead>
                     <TableRow>
-                      <TableCell>Comandă</TableCell>
+                      <TableCell>ID Comandă</TableCell>
                       <TableCell>Client</TableCell>
                       <TableCell>Sumă</TableCell>
                       <TableCell>Status</TableCell>
@@ -353,13 +335,11 @@ export const Dashboard = () => {
                   </TableHead>
                   <TableBody>
                     {recentOrders.map((order) => (
-                      <TableRow key={order.id}>
+                      <TableRow key={order.id} hover>
                         <TableCell>
-                          <Typography variant="body2" sx={{ fontWeight: 500 }}>
-                            {order.orderNumber}
-                          </Typography>
+                          <Typography variant="body2" fontWeight="medium">{order.orderNumber}</Typography>
                           {order.orderType === 'guest' && (
-                            <Typography variant="caption" color="text.secondary">Vizitator</Typography>
+                            <Chip label="Vizitator" size="small" variant="outlined" />
                           )}
                         </TableCell>
                         <TableCell>
@@ -367,7 +347,7 @@ export const Dashboard = () => {
                           <Typography variant="caption" color="text.secondary">{order.product}</Typography>
                         </TableCell>
                         <TableCell>
-                          <Typography variant="body2" sx={{ fontWeight: 500 }}>{order.amount}</Typography>
+                          <Typography variant="body2" fontWeight="medium">{order.amount}</Typography>
                         </TableCell>
                         <TableCell>
                           <Chip label={order.status} color={getStatusColor(order.status)} size="small" />
@@ -383,24 +363,24 @@ export const Dashboard = () => {
       </Grid>
 
       {/* Monthly Revenue Bar Chart */}
-      <Grid container spacing={2.5}>
+      <Grid container spacing={3}>
         <Grid item xs={12}>
-          <ChartCard title="Venituri lunare" height={320}>
+          <ChartCard title="Defalcare Venituri Lunare" icon={<BarChartIcon />} height={320}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={sales} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
-                <XAxis dataKey="month" tick={{ fontSize: 12, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
-                <YAxis tick={{ fontSize: 12, fill: '#94a3b8' }} axisLine={false} tickLine={false} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#eeeeee" vertical={false} />
+                <XAxis dataKey="month" tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
+                <YAxis tick={{ fontSize: 12 }} axisLine={false} tickLine={false} />
                 <Tooltip
-                  contentStyle={{ border: '1px solid #e2e8f0', borderRadius: 6, fontSize: 13, boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
+                  contentStyle={{ borderRadius: 8, fontSize: 13, border: '1px solid #e0e0e0', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
                   formatter={(value, name) => [
                     name === 'revenue' ? `${value.toLocaleString()} RON` : value,
                     name === 'revenue' ? 'Venituri' : 'Comenzi',
                   ]}
                 />
-                <Legend wrapperStyle={{ fontSize: 13, paddingTop: 12 }} />
-                <Bar dataKey="orders"  fill="#2563eb" name="Comenzi"       radius={[4, 4, 0, 0]} maxBarSize={40} />
-                <Bar dataKey="revenue" fill="#16a34a" name="Venituri (RON)" radius={[4, 4, 0, 0]} maxBarSize={40} />
+                <Legend wrapperStyle={{ fontSize: 13, paddingTop: 8 }} />
+                <Bar dataKey="orders"  fill="#1976d2" name="Comenzi"       radius={[4,4,0,0]} maxBarSize={48} />
+                <Bar dataKey="revenue" fill="#4caf50" name="Venituri (RON)" radius={[4,4,0,0]} maxBarSize={48} />
               </BarChart>
             </ResponsiveContainer>
           </ChartCard>

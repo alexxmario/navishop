@@ -1,37 +1,36 @@
 import React from 'react';
 import { Layout as RALayout, AppBar, Menu, Sidebar } from 'react-admin';
-import { Box, Typography, Divider } from '@mui/material';
-import logoSvg from '../logo.svg';
+import { Box, Typography } from '@mui/material';
+import { Navigation } from '@mui/icons-material';
 
-// Custom AppBar
+// Custom AppBar — solid blue, no gradient
 const CustomAppBar = () => (
   <AppBar
     sx={{
       '& .MuiToolbar-root': {
-        backgroundColor: '#18181b',
-        minHeight: '56px',
-        px: 2,
+        backgroundColor: '#1565c0',
+        minHeight: '64px',
       }
     }}
   >
-    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, flex: 1 }}>
-      <img
-        src={logoSvg}
-        alt="PilotOn"
-        style={{ height: 24, filter: 'brightness(0) invert(1)' }}
-      />
-      <Typography
-        variant="body2"
-        sx={{ color: 'rgba(255,255,255,0.3)', fontWeight: 400, fontSize: '0.8rem' }}
-      >
-        /
-      </Typography>
-      <Typography
-        variant="body2"
-        sx={{ color: 'rgba(255,255,255,0.7)', fontWeight: 500, fontSize: '0.8rem' }}
-      >
-        Admin
-      </Typography>
+    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flex: 1 }}>
+      <Navigation sx={{ fontSize: 28, color: 'white' }} />
+      <Box>
+        <Typography
+          variant="h6"
+          component="div"
+          sx={{ fontWeight: 700, color: 'white', letterSpacing: '0.5px' }}
+        >
+          PilotOn
+        </Typography>
+        <Typography
+          variant="caption"
+          component="div"
+          sx={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.7rem', mt: '-2px' }}
+        >
+          Administrare Sisteme de Navigație
+        </Typography>
+      </Box>
     </Box>
   </AppBar>
 );
@@ -48,20 +47,17 @@ const CustomMenu = () => (
   </Menu>
 );
 
-// Custom Sidebar
+// White sidebar — no gradient, proper MUI defaults apply
 const CustomSidebar = () => (
   <Sidebar
     sx={{
       '& .MuiDrawer-paper': {
-        backgroundColor: '#18181b',
-        backgroundImage: 'none',
-        borderRight: 'none',
-        width: 220,
-        pt: 1,
+        background: '#ffffff',
+        borderRight: '1px solid #e0e0e0',
+        width: 240,
       }
     }}
   >
-    <Divider sx={{ borderColor: 'rgba(255,255,255,0.06)', mb: 0.5 }} />
     <CustomMenu />
   </Sidebar>
 );
@@ -74,7 +70,7 @@ export const CustomLayout = ({ children, ...props }) => (
     sidebar={CustomSidebar}
     sx={{
       '& .RaLayout-content': {
-        backgroundColor: '#f8fafc',
+        background: '#f5f5f5',
         minHeight: '100vh',
       }
     }}
