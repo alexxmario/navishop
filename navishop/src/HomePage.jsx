@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
-import { useCart } from './CartContext';
 import apiService from './services/api';
 import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
@@ -10,19 +9,22 @@ import NavigationModel3D from './components/NavigationModel3D';
 import FeaturedProductsCarousel from './components/FeaturedProductsCarousel';
 import ReviewsCarousel from './components/ReviewsCarousel';
 import Header from './components/Header';
+import ProductCard from './components/ProductCard';
 import {
-  Star, Heart, Check, Truck,
+  Check, Truck,
   Shield, Phone, Mail, ArrowRight
 } from 'lucide-react';
 
 const HomePage = () => {
   const { isAuthenticated, login } = useAuth();
-  const { getCartItemsCount } = useCart();
   const navigate = useNavigate();
   const [featuredProducts, setFeaturedProducts] = useState([]);
   const [selectedBrand, setSelectedBrand] = useState('');
   const [selectedModel, setSelectedModel] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
+  const [searchError, setSearchError] = useState('');
+  const [newsletterEmail, setNewsletterEmail] = useState('');
+  const [newsletterStatus, setNewsletterStatus] = useState('idle'); // 'idle' | 'success'
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -74,11 +76,12 @@ const HomePage = () => {
       searchTerms.push(selectedYear);
     }
     
-    // If no selections made, show error or redirect to general search
+    // If no selections made, show inline error
     if (searchTerms.length === 0) {
-      alert('Te rog să selectezi cel puțin marca mașinii pentru a găsi navigații compatibile.');
+      setSearchError('Te rog să selectezi cel puțin marca mașinii.');
       return;
     }
+    setSearchError('');
     
     // Create search query and navigate to search results
     const searchQuery = searchTerms.join(' ');
@@ -192,153 +195,6 @@ const HomePage = () => {
   ];
 
 
-  const ProductCard = ({ product }) => {
-    const { addToCart } = useCart();
-
-    const getBadgeText = () => {
-      if (product.featured) return 'Bestseller';
-      if (product.newProduct) return 'Nou';
-      if (product.onSale && product.discount > 0) return `-${product.discount}%`;
-      return null;
-    };
-
-    const getCompatibilityText = () => {
-      if (product.compatibility && product.compatibility.length > 0) {
-        const brands = product.compatibility.map(comp => comp.brand).join(', ');
-        return brands;
-      }
-      return product.category.replace('-', ' ').toUpperCase();
-    };
-
-    const handleAddToCart = async (e) => {
-      e.preventDefault(); // Prevent navigation if button is inside a link
-      e.stopPropagation();
-      
-      if (!product || product.stock === 0) return;
-      
-      // Get the button element for visual feedback
-      const button = e.target;
-      const originalText = button.textContent;
-      
-      try {
-        // Show loading state
-        button.textContent = 'Se adaugă...';
-        button.disabled = true;
-        
-        await addToCart({
-          _id: product._id,
-          name: product.name,
-          price: product.price,
-          quantity: 1,
-          images: product.images
-        });
-        
-        // Show success state
-        button.textContent = 'Adăugat!';
-        button.className = button.className.replace('bg-blue-600', 'bg-green-600');
-        
-        // Reset after 2 seconds
-        setTimeout(() => {
-          button.textContent = originalText;
-          button.className = button.className.replace('bg-green-600', 'bg-blue-600');
-          button.disabled = false;
-        }, 2000);
-        
-      } catch (error) {
-        console.error('Failed to add to cart:', error);
-        
-        // Show error state
-        button.textContent = 'Eroare!';
-        button.className = button.className.replace('bg-blue-600', 'bg-red-600');
-        
-        // Reset after 2 seconds
-        setTimeout(() => {
-          button.textContent = originalText;
-          button.className = button.className.replace('bg-red-600', 'bg-blue-600');
-          button.disabled = false;
-        }, 2000);
-      }
-    };
-
-  const badge = getBadgeText();
-
-  return (
-      <div className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all duration-200 group h-full flex flex-col">
-        <div className="relative">
-          <Link to={`/product/${product.slug}`} className="block">
-            <div className="w-full h-48 bg-gray-50 flex items-center justify-center">
-              {product.images && product.images.length > 0 ? (
-                <img 
-                  src={product.images[0].url} 
-                  alt={product.images[0].alt || product.name}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
-              )}
-            </div>
-          </Link>
-          {badge && (
-            <div className="absolute top-3 left-3">
-              <span className={`px-2 py-1 text-xs font-medium ${
-                badge === 'Bestseller' ? 'bg-blue-600 text-white' :
-                badge === 'Nou' ? 'bg-black text-white' :
-                'bg-blue-600 text-white'
-              }`}>
-                {badge}
-              </span>
-            </div>
-          )}
-          <button className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-            <Heart className="w-5 h-5 text-gray-400 hover:text-blue-600" />
-          </button>
-        </div>
-        
-        <div className="p-4 flex flex-col flex-grow">
-          <Link to={`/product/${product.slug}`} className="block">
-            <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600 transition-colors h-12 overflow-hidden" style={{display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical'}}>{product.name}</h3>
-            <p className="text-sm text-gray-600 mb-3 truncate">{getCompatibilityText()}</p>
-          </Link>
-          
-          <div className="flex items-center mb-3">
-            <div className="flex items-center">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className={`w-3 h-3 ${i < Math.floor(product.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`} />
-              ))}
-            </div>
-            <span className="text-xs text-gray-600 ml-2">({product.totalReviews || 0})</span>
-          </div>
-          
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-2">
-              <span className="font-semibold text-gray-900">{product.price} lei</span>
-              {product.originalPrice && product.originalPrice > product.price && (
-                <span className="text-sm text-gray-500 line-through">{product.originalPrice} lei</span>
-              )}
-            </div>
-            <span className={`text-xs ${product.stock > 0 ? 'text-blue-600' : 'text-red-600'}`}>
-              {product.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
-            </span>
-          </div>
-          
-          <div className="mt-auto">
-            <button 
-              onClick={handleAddToCart}
-              className={`w-full py-2 text-sm font-medium transition-colors ${
-                product.stock > 0 
-                  ? 'bg-blue-600 text-white hover:bg-blue-700' 
-                  : 'bg-gray-100 text-gray-500 cursor-not-allowed'
-              }`}
-              disabled={product.stock === 0}
-            >
-              {product.stock > 0 ? 'Adaugă în coș' : 'Indisponibil'}
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  };
-
   return (
     <div className="min-h-screen bg-white">
       <PageTitle />
@@ -349,11 +205,11 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
-              <h1 className="text-4xl md:text-6xl font-light mb-6 text-gray-900">
-                Navigații auto <span className="text-blue-600">moderne</span>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">
+                Navigații auto <span className="text-blue-600">dedicate</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light">
-                Sisteme dedicate pentru toate mărcile de mașini
+              <p className="text-lg md:text-xl text-gray-600 mb-12">
+                Plug &amp; play pentru toate mărcile. Garanție 1 an pe fiecare produs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
@@ -422,13 +278,16 @@ const HomePage = () => {
                 ))}
               </select>
               
-              <button 
+              <button
                 onClick={handleCarSearch}
                 className="w-full bg-blue-600 text-white py-3 hover:bg-blue-700 transition-colors font-medium"
               >
                 Caută
               </button>
             </div>
+            {searchError && (
+              <p className="mt-3 text-sm text-red-600 text-center">{searchError}</p>
+            )}
           </div>
         </div>
       </section>
@@ -467,15 +326,6 @@ const HomePage = () => {
               </Link>
             ))}
             
-            {/* Coming Soon Placeholder */}
-            <div className="text-center group cursor-default">
-              <div className="w-20 h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-gray-100 transition-all duration-200">
-                <div className="text-center">
-                  <div className="text-gray-400 text-lg mb-1">+</div>
-                </div>
-              </div>
-              <p className="text-sm text-gray-500">Mai multe<br />curând</p>
-            </div>
           </div>
         </div>
       </section>
@@ -492,7 +342,7 @@ const HomePage = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredProducts.map(product => (
-              <ProductCard key={product._id} product={product} />
+              <ProductCard key={product._id} product={product} className="h-full" />
             ))}
           </div>
         </div>
@@ -535,18 +385,39 @@ const HomePage = () => {
       {/* Newsletter */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl font-light mb-4">Rămâi la curent</h2>
-          <p className="text-blue-100 mb-8">Primește noutăți și oferte exclusive</p>
-          <div className="max-w-md mx-auto flex space-x-4">
-            <input
-              type="email"
-              placeholder="Email"
-              className="flex-1 px-4 py-3 bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-300"
-            />
-            <button className="bg-black text-white px-6 py-3 hover:bg-gray-800 transition-colors font-medium">
-              Abonează-te
-            </button>
-          </div>
+          {newsletterStatus === 'success' ? (
+            <div>
+              <h2 className="text-2xl font-semibold mb-2">Mulțumim!</h2>
+              <p className="text-blue-100">Te-ai abonat cu succes. Vei primi reducerea în curând.</p>
+            </div>
+          ) : (
+            <>
+              <h2 className="text-2xl font-semibold mb-4">Reduceri exclusive în inbox</h2>
+              <p className="text-blue-100 mb-8">Abonează-te și primești 10% reducere la prima comandă.</p>
+              <form
+                className="max-w-md mx-auto flex space-x-3"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  if (newsletterEmail.trim()) setNewsletterStatus('success');
+                }}
+              >
+                <input
+                  type="email"
+                  required
+                  placeholder="Adresa ta de email"
+                  value={newsletterEmail}
+                  onChange={(e) => setNewsletterEmail(e.target.value)}
+                  className="flex-1 px-4 py-3 bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                />
+                <button
+                  type="submit"
+                  className="bg-gray-900 text-white px-6 py-3 hover:bg-gray-800 transition-colors font-medium whitespace-nowrap"
+                >
+                  Abonează-te
+                </button>
+              </form>
+            </>
+          )}
         </div>
       </section>
 
@@ -615,7 +486,7 @@ const HomePage = () => {
           </div>
 
           <div className="border-t border-gray-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-            <p>© 2024 PilotOn. Toate drepturile rezervate.</p>
+            <p>© 2026 PilotOn. Toate drepturile rezervate.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-blue-600">Termeni</a>
               <a href="#" className="hover:text-blue-600">Confidențialitate</a>

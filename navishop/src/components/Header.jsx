@@ -96,13 +96,9 @@ const Header = ({
                   <Link to="/reduceri" className="text-gray-700 hover:text-blue-600">Reduceri</Link>
                   <Link
                     to="/category/gps"
-                    className="relative inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300"
-                    style={{
-                      boxShadow: '0 0 15px rgba(251, 191, 36, 0.5), 0 0 25px rgba(249, 115, 22, 0.3)',
-                      animation: 'gps-shine 3s ease-in-out infinite'
-                    }}
+                    className="inline-flex items-center px-4 py-2 bg-gray-900 text-white text-sm font-semibold hover:bg-gray-700 transition-colors"
                   >
-                    <span className="relative z-10 tracking-wide">GPS Camion</span>
+                    GPS Camion
                   </Link>
                   <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
                   <Link to="/b2b" className="text-gray-700 hover:text-blue-600">Cont B2B</Link>
@@ -147,13 +143,9 @@ const Header = ({
                 {showNavigation && (
                   <Link
                     to="/category/gps"
-                    className="md:hidden inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
-                    style={{
-                      boxShadow: '0 0 10px rgba(251, 191, 36, 0.4)',
-                      animation: 'gps-shine 3s ease-in-out infinite'
-                    }}
+                    className="md:hidden inline-flex items-center px-3 py-1.5 bg-gray-900 text-white text-xs font-semibold hover:bg-gray-700 transition-colors"
                   >
-                    <span className="text-xs tracking-wide">GPS Camion</span>
+                    GPS Camion
                   </Link>
                 )}
                 {showNavigation && (

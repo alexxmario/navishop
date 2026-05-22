@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useCart } from './CartContext';
-import { useAuth } from './AuthContext';
 import { useRecentlyViewed } from './RecentlyViewedContext';
 import { useB2BPricing } from './hooks/useB2BPricing';
 import apiService from './services/api';
@@ -16,7 +15,7 @@ import Toast from './components/Toast';
 import { useToast } from './hooks/useToast';
 import { extractBrandModelInfo } from './utils/carModel';
 import {
-  Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Check, Phone, Mail,
+  Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield, Phone, Mail,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
   X, ChevronLeft
 } from 'lucide-react';
@@ -26,7 +25,6 @@ const FALLBACK_IMAGE = placeholderImage(800, 600);
 const ProductPage = () => {
   const { slug } = useParams();
   const { addToCart } = useCart();
-  const { user, isAuthenticated } = useAuth();
   const { addToRecentlyViewed } = useRecentlyViewed();
   const { toast, showToast } = useToast();
   const { calculateB2BPrice, isBusinessAccount, discountPercent } = useB2BPricing();
@@ -36,7 +34,7 @@ const ProductPage = () => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedTab, setSelectedTab] = useState('description');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
   const [showImageGallery, setShowImageGallery] = useState(false);
   const [galleryImageIndex, setGalleryImageIndex] = useState(0);
   const [reviewStats, setReviewStats] = useState({
@@ -92,11 +90,6 @@ const ProductPage = () => {
       if (response.ok) {
         const data = await response.json();
         setCrossSellProducts(data.crossSellProducts || []);
-
-        // Log the bidirectional relationships for debugging
-        if (data.directCrossSells > 0 || data.reverseCrossSells > 0) {
-          console.log(`Cross-sell relationships: ${data.directCrossSells} direct + ${data.reverseCrossSells} reverse = ${data.totalCrossSells} total`);
-        }
       }
     } catch (error) {
       console.error('Failed to fetch cross-sell products:', error);
@@ -126,18 +119,10 @@ const ProductPage = () => {
   };
 
   const handleAddToCart = async () => {
-    console.log('Add to cart clicked!');
-    console.log('Product:', product);
-    console.log('Quantity:', quantity);
-    
-    if (!product) {
-      console.error('No product found');
-      return;
-    }
-    
+    if (!product || isAddingToCart) return;
+    setIsAddingToCart(true);
     try {
-      console.log('Calling addToCart...');
-      const result = await addToCart({
+      await addToCart({
         _id: product._id,
         name: product.name,
         price: product.price,
@@ -145,11 +130,12 @@ const ProductPage = () => {
         images: product.images,
         slug: product.slug
       });
-      console.log('Add to cart successful:', result);
       showToast('Produsul a fost adăugat în coș!', 'success');
     } catch (error) {
       console.error('Failed to add to cart:', error);
       showToast('Nu am putut adăuga produsul în coș.', 'error');
+    } finally {
+      setIsAddingToCart(false);
     }
   };
 
@@ -183,7 +169,7 @@ const ProductPage = () => {
         <div className="min-h-screen bg-white flex items-center justify-center">
           <div className="text-center">
             <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading product...</p>
+            <p className="text-gray-600">Se încarcă produsul...</p>
           </div>
         </div>
       </>
@@ -196,10 +182,10 @@ const ProductPage = () => {
         <Toast toast={toast} />
         <div className="min-h-screen bg-white flex items-center justify-center">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h2>
-            <p className="text-gray-600 mb-8">The product you're looking for doesn't exist.</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Produs negăsit</h2>
+            <p className="text-gray-600 mb-8">Produsul pe care îl cauți nu există sau nu mai este disponibil.</p>
             <Link to="/" className="bg-blue-600 text-white px-6 py-3 hover:bg-blue-700 transition-colors">
-              Back to Home
+              Înapoi la pagina principală
             </Link>
           </div>
         </div>
@@ -241,7 +227,7 @@ const ProductPage = () => {
       return [
         { icon: <Bluetooth className="w-5 h-5" />, text: 'Bluetooth' },
         { icon: <Smartphone className="w-5 h-5" />, text: 'Android Auto' },
-        { icon: <MapPin className="w-5 h-5" />, text: 'GPS Navigation' },
+        { icon: <MapPin className="w-5 h-5" />, text: 'Navigație GPS' },
         { icon: <Zap className="w-5 h-5" />, text: 'Instalare Rapidă' },
       ];
     }
@@ -386,11 +372,9 @@ const ProductPage = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            <div>
-              <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 leading-tight text-center sm:text-left">
-                {product.name}
-              </h1>
-            </div>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-gray-900 leading-tight text-center sm:text-left break-words">
+              {product.name}
+            </h1>
 
             {/* Rating */}
             <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
@@ -413,6 +397,20 @@ const ProductPage = () => {
                 {product.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
               </span>
             </div>
+
+            {/* Compatibility */}
+            {(product.romanianSpecs?.compatibility?.destinatPentru ||
+              (product.compatibility && product.compatibility.length > 0)) && (
+              <div className="flex items-start gap-2 py-3 border-t border-b border-gray-100 text-sm">
+                <span className="text-gray-500 shrink-0 mt-0.5">Compatibil cu:</span>
+                <span className="font-medium text-gray-900">
+                  {product.romanianSpecs?.compatibility?.destinatPentru ||
+                    product.compatibility
+                      .map(c => [c.brand, c.model, c.yearFrom ? `${c.yearFrom}–${c.yearTo || ''}` : ''].filter(Boolean).join(' '))
+                      .join(', ')}
+                </span>
+              </div>
+            )}
 
             {/* Price */}
             <div className="flex flex-col gap-2 text-center sm:text-left sm:flex-row sm:items-center sm:gap-4">
@@ -438,46 +436,59 @@ const ProductPage = () => {
             {/* Quantity & Add to Cart */}
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <div className="flex items-center bg-white border border-gray-200 rounded w-full sm:w-auto">
-                <button 
+                <button
+                  aria-label="Scade cantitatea"
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  className="p-3 hover:bg-gray-50 transition text-gray-700"
+                  disabled={quantity <= 1}
+                  className="p-3 hover:bg-gray-50 transition text-gray-700 disabled:text-gray-300 disabled:cursor-default"
                 >
                   <Minus className="w-4 h-4" />
                 </button>
-                <span className="px-4 py-2 font-semibold text-gray-900">{quantity}</span>
-                <button 
+                <span className="px-4 py-2 font-semibold text-gray-900 min-w-[2rem] text-center">{quantity}</span>
+                <button
+                  aria-label="Crește cantitatea"
                   onClick={() => setQuantity(quantity + 1)}
                   className="p-3 hover:bg-gray-50 transition text-gray-700"
                 >
                   <Plus className="w-4 h-4" />
                 </button>
               </div>
-              <button 
+              <button
                 onClick={handleAddToCart}
-                disabled={product.stock === 0}
-                className={`w-full sm:flex-1 py-3 px-6 rounded font-semibold transition ${
-                  product.stock > 0 
-                    ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                disabled={product.stock === 0 || isAddingToCart}
+                className={`w-full sm:flex-1 py-3 px-6 rounded font-semibold transition-colors ${
+                  product.stock > 0 && !isAddingToCart
+                    ? 'bg-blue-600 text-white hover:bg-blue-700'
                     : 'bg-gray-100 text-gray-500 cursor-not-allowed'
                 }`}
               >
                 <ShoppingCart className="w-5 h-5 inline mr-2" />
-                {product.stock > 0 ? 'Adaugă în coș' : 'Indisponibil'}
+                {product.stock === 0
+                  ? 'Stoc epuizat'
+                  : isAddingToCart
+                  ? 'Se adaugă...'
+                  : 'Adaugă în coș'}
               </button>
-              <button className="p-3 bg-white border border-gray-200 rounded hover:bg-gray-50 transition w-full sm:w-auto flex items-center justify-center">
-                <Heart className="w-5 h-5 text-gray-700" />
+              <button
+                aria-label="Adaugă la favorite"
+                title="Favorite — în curând"
+                className="p-3 bg-white border border-gray-200 rounded hover:bg-gray-50 transition w-full sm:w-auto flex items-center justify-center"
+              >
+                <Heart className="w-5 h-5 text-gray-400" />
               </button>
             </div>
 
             {/* Quick Info */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 gap-4">
               <div className="bg-white border border-gray-100 rounded-lg p-4 text-center shadow-sm">
                 <Truck className="w-6 h-6 mx-auto mb-2 text-blue-600" />
-                <p className="text-sm text-gray-600">Livrare gratuită</p>
+                <p className="text-sm font-medium text-gray-900">Livrare gratuită</p>
+                <p className="text-xs text-gray-500 mt-0.5">La comenzi peste 500 lei</p>
               </div>
               <div className="bg-white border border-gray-100 rounded-lg p-4 text-center shadow-sm">
                 <Shield className="w-6 h-6 mx-auto mb-2 text-blue-600" />
-                <p className="text-sm text-gray-600">1 an garanție</p>
+                <p className="text-sm font-medium text-gray-900">Garanție 1 an</p>
+                <p className="text-xs text-gray-500 mt-0.5">Pe toate produsele</p>
               </div>
             </div>
           </motion.div>
@@ -490,22 +501,25 @@ const ProductPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="flex flex-wrap gap-4 sm:gap-6 border-b border-gray-200 mb-8">
-            {['description', 'specs', 'reviews'].map((tab) => (
-              <button
-                key={tab}
-                onClick={() => setSelectedTab(tab)}
-                className={`pb-3 sm:pb-4 px-1 sm:px-2 text-sm sm:text-base font-semibold transition ${
-                  selectedTab === tab
-                    ? 'text-blue-600 border-b-2 border-blue-600'
-                    : 'text-gray-600 hover:text-blue-600'
-                }`}
-              >
-                {tab === 'description' && 'Descriere'}
-                {tab === 'specs' && 'Specificații'}
-                {tab === 'reviews' && 'Recenzii'}
-              </button>
-            ))}
+          <div role="tablist" className="flex flex-wrap gap-4 sm:gap-6 border-b border-gray-200 mb-8">
+            {['description', 'specs', 'reviews'].map((tab) => {
+              const labels = { description: 'Descriere', specs: 'Specificații', reviews: 'Recenzii' };
+              return (
+                <button
+                  key={tab}
+                  role="tab"
+                  aria-selected={selectedTab === tab}
+                  onClick={() => setSelectedTab(tab)}
+                  className={`pb-3 sm:pb-4 px-1 sm:px-2 text-sm sm:text-base font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 ${
+                    selectedTab === tab
+                      ? 'text-blue-600 border-b-2 border-blue-600'
+                      : 'text-gray-600 hover:text-blue-600'
+                  }`}
+                >
+                  {labels[tab]}
+                </button>
+              );
+            })}
           </div>
 
           <div className="bg-gray-50 rounded-lg p-4 sm:p-8 border border-gray-100">
@@ -537,73 +551,6 @@ const ProductPage = () => {
                   </div>
                 )}
 
-                {/* Accesorii compatibile section */}
-                {crossSellProducts.length > 0 && (
-                  <div className="mt-12">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-6">Accesorii compatibile</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {crossSellProducts.map((accessory) => (
-                        <Link
-                          key={accessory._id}
-                          to={`/product/${accessory.slug}`}
-                          className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-all duration-200 group"
-                        >
-                          <div className="relative mb-4">
-                            {accessory.images && accessory.images.length > 0 ? (
-                                <img 
-                                  src={resolveProductImage(accessory.images?.[0])}
-                                alt={accessory.images[0].alt || accessory.name}
-                                className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
-                              />
-                            ) : (
-                              <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center">
-                                <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
-                              </div>
-                            )}
-                            {accessory.discount > 0 && (
-                              <span className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded text-sm font-semibold">
-                                -{accessory.discount}%
-                              </span>
-                            )}
-                          </div>
-
-                          <h4 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
-                            {accessory.name}
-                          </h4>
-
-                          <div className="flex items-center gap-2 mb-2">
-                            <div className="flex items-center gap-1">
-                              {[...Array(5)].map((_, i) => (
-                                <Star
-                                  key={i}
-                                  className={`w-4 h-4 ${i < Math.floor(accessory.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`}
-                                />
-                              ))}
-                            </div>
-                            <span className="text-sm text-gray-600">
-                              ({accessory.totalReviews || 0})
-                            </span>
-                          </div>
-
-                          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                            <div className="flex items-center gap-2">
-                              <span className="text-lg font-bold text-gray-900">{calculateB2BPrice(accessory.price)} lei</span>
-                              {isBusinessAccount && (
-                                <span className="text-sm text-gray-500 line-through">{accessory.price} lei</span>
-                              )}
-                              {!isBusinessAccount && accessory.originalPrice && accessory.originalPrice > accessory.price && (
-                                <span className="text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
-                              )}
-                            </div>
-                            <span className={`text-sm font-medium ${accessory.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                              {accessory.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
-                            </span>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </div>
             )}
 
@@ -819,41 +766,31 @@ const ProductPage = () => {
                     <div className="space-y-3">
                       {product.romanianSpecs.additional.limitari && (
                         <div className="py-2 border-b border-gray-200">
-                          <span className="text-gray-600 font-medium">
-                            <strong>Limitări:</strong>
-                          </span>
+                          <span className="text-gray-600 font-medium">Limitări:</span>
                           <p className="text-gray-900 mt-1">{product.romanianSpecs.additional.limitari}</p>
                         </div>
                       )}
                       {product.romanianSpecs.additional.garantie && (
                         <div className="py-2 border-b border-gray-200">
-                          <span className="text-gray-600 font-medium">
-                            <strong>Garanție:</strong>
-                          </span>
+                          <span className="text-gray-600 font-medium">Garanție:</span>
                           <p className="text-gray-900 mt-1">{product.romanianSpecs.additional.garantie}</p>
                         </div>
                       )}
                       {product.romanianSpecs.additional.observatii && (
                         <div className="py-2 border-b border-gray-200">
-                          <span className="text-gray-600 font-medium">
-                            <strong>Observații:</strong>
-                          </span>
+                          <span className="text-gray-600 font-medium">Observații:</span>
                           <p className="text-gray-900 mt-1">{product.romanianSpecs.additional.observatii}</p>
                         </div>
                       )}
                       {product.romanianSpecs.additional.note && (
                         <div className="py-2 border-b border-gray-200">
-                          <span className="text-gray-600 font-medium">
-                            <strong>Note:</strong>
-                          </span>
+                          <span className="text-gray-600 font-medium">Note:</span>
                           <p className="text-gray-900 mt-1">{product.romanianSpecs.additional.note}</p>
                         </div>
                       )}
                       {product.romanianSpecs.additional.mentiuni && (
                         <div className="py-2 border-b border-gray-200">
-                          <span className="text-gray-600 font-medium">
-                            <strong>Mențiuni:</strong>
-                          </span>
+                          <span className="text-gray-600 font-medium">Mențiuni:</span>
                           <p className="text-gray-900 mt-1">{product.romanianSpecs.additional.mentiuni}</p>
                         </div>
                       )}
@@ -922,100 +859,173 @@ const ProductPage = () => {
             )}
           </div>
         </motion.div>
+        {/* Accesorii compatibile */}
+        {crossSellProducts.length > 0 && (
+          <div className="mt-16 border-t border-gray-100 pt-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Accesorii compatibile</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {crossSellProducts.map((accessory) => (
+                <Link
+                  key={accessory._id}
+                  to={`/product/${accessory.slug}`}
+                  className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-all duration-200 group"
+                >
+                  <div className="relative mb-4">
+                    {accessory.images && accessory.images.length > 0 ? (
+                      <img
+                        src={resolveProductImage(accessory.images?.[0])}
+                        alt={accessory.images[0].alt || accessory.name}
+                        className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
+                      />
+                    ) : (
+                      <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center">
+                        <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
+                      </div>
+                    )}
+                    {accessory.discount > 0 && (
+                      <span className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded text-sm font-semibold">
+                        -{accessory.discount}%
+                      </span>
+                    )}
+                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                    {accessory.name}
+                  </h4>
+                  <div className="flex items-center gap-2 mb-3">
+                    <div className="flex items-center gap-1">
+                      {[...Array(5)].map((_, i) => (
+                        <Star
+                          key={i}
+                          className={`w-4 h-4 ${i < Math.floor(accessory.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`}
+                        />
+                      ))}
+                    </div>
+                    <span className="text-sm text-gray-600">({accessory.totalReviews || 0})</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg font-bold text-gray-900">{calculateB2BPrice(accessory.price)} lei</span>
+                      {isBusinessAccount && (
+                        <span className="text-sm text-gray-500 line-through">{accessory.price} lei</span>
+                      )}
+                      {!isBusinessAccount && accessory.originalPrice && accessory.originalPrice > accessory.price && (
+                        <span className="text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
+                      )}
+                    </div>
+                    <span className={`text-sm font-medium ${accessory.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
+                      {accessory.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Image Gallery Modal */}
-      {showImageGallery && product.images && product.images.length > 0 && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center">
-          <div className="relative w-full h-full flex flex-col">
-            {/* Top Control Bar */}
-            <div className="absolute top-0 left-0 right-0 z-20 flex justify-between items-center p-4">
-              <div className="text-white text-lg font-medium">
-                {product.name}
-              </div>
+      <AnimatePresence>
+        {showImageGallery && product.images && product.images.length > 0 && (
+          <motion.div
+            className="fixed inset-0 z-50 flex flex-col bg-black/88"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={closeImageGallery}
+          >
+            {/* Top bar: counter + close */}
+            <div
+              className="flex items-center justify-between px-6 py-4 z-20"
+              onClick={e => e.stopPropagation()}
+            >
+              <span className="text-white/40 text-sm tabular-nums select-none">
+                {product.images.length > 1
+                  ? `${galleryImageIndex + 1} / ${product.images.length}`
+                  : null}
+              </span>
               <button
                 onClick={closeImageGallery}
-                className="bg-black bg-opacity-50 hover:bg-opacity-70 text-white rounded-full p-3 transition-colors flex-shrink-0"
-                title="Close Gallery (Esc)"
+                aria-label="Închide galeria (Esc)"
+                className="text-white/50 hover:text-white transition-colors duration-150 p-1 -mr-1"
               >
                 <X className="w-6 h-6" />
               </button>
             </div>
 
-            {/* Navigation Arrows */}
-            {product.images.length > 1 && (
-              <>
-                <button
-                  onClick={() => navigateGallery('prev')}
-                  className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-black bg-opacity-50 hover:bg-opacity-70 text-white rounded-full p-3 transition-colors"
-                  title="Previous Image (←)"
-                >
-                  <ChevronLeft className="w-6 h-6" />
-                </button>
-                <button
-                  onClick={() => navigateGallery('next')}
-                  className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-black bg-opacity-50 hover:bg-opacity-70 text-white rounded-full p-3 transition-colors"
-                  title="Next Image (→)"
-                >
-                  <ChevronRight className="w-6 h-6" />
-                </button>
-              </>
-            )}
-
-            {/* Main Image Container */}
-            <div className="flex-1 flex items-center justify-center p-4 pt-20 pb-32">
-              <img
-                src={resolveProductImage(product.images[galleryImageIndex])}
-                alt={product.images[galleryImageIndex]?.alt || product.name}
-                className="max-w-full max-h-full object-contain"
-                style={{
-                  maxHeight: 'calc(100vh - 200px)',
-                  maxWidth: 'calc(100vw - 32px)'
-                }}
-              />
-            </div>
-
-            {/* Bottom Control Bar */}
-            <div className="absolute bottom-0 left-0 right-0 z-20 bg-black bg-opacity-80 p-4">
-              {/* Image Counter */}
-              <div className="text-center text-white text-sm mb-4">
-                {galleryImageIndex + 1} of {product.images.length}
-              </div>
-
-              {/* Thumbnail Navigation */}
+            {/* Image area with nav arrows */}
+            <div
+              className="flex-1 relative flex items-center justify-center px-14 py-2"
+              onClick={e => e.stopPropagation()}
+            >
               {product.images.length > 1 && (
-                <div className="flex justify-center">
-                  <div className="flex space-x-2 overflow-x-auto max-w-full px-2">
-                    {product.images.map((img, index) => (
-                      <button
-                        key={index}
-                        onClick={() => setGalleryImageIndex(index)}
-                        className={`flex-shrink-0 w-16 h-16 rounded border-2 overflow-hidden transition ${
-                          galleryImageIndex === index
-                            ? 'border-white'
-                            : 'border-gray-500 opacity-60 hover:opacity-80 hover:border-gray-300'
-                        }`}
-                      >
-                        <img
-                          src={resolveProductImage(img)}
-                          alt={img.alt || product.name}
-                          className="w-full h-full object-cover"
-                        />
-                      </button>
-                    ))}
-                  </div>
-                </div>
+                <>
+                  <button
+                    onClick={() => navigateGallery('prev')}
+                    aria-label="Imaginea anterioară"
+                    className="absolute left-3 text-white/40 hover:text-white transition-colors duration-150 p-2"
+                  >
+                    <ChevronLeft className="w-8 h-8" />
+                  </button>
+                  <button
+                    onClick={() => navigateGallery('next')}
+                    aria-label="Imaginea următoare"
+                    className="absolute right-3 text-white/40 hover:text-white transition-colors duration-150 p-2"
+                  >
+                    <ChevronRight className="w-8 h-8" />
+                  </button>
+                </>
               )}
+
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={galleryImageIndex}
+                  src={resolveProductImage(product.images[galleryImageIndex])}
+                  alt={product.images[galleryImageIndex]?.alt || product.name}
+                  className="max-w-full max-h-full object-contain select-none"
+                  style={{
+                    maxHeight: 'calc(100vh - 180px)',
+                    maxWidth: 'calc(100vw - 112px)'
+                  }}
+                  draggable={false}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.18 }}
+                />
+              </AnimatePresence>
             </div>
 
-            {/* Click outside to close */}
-            <div 
-              className="absolute inset-0 z-0"
-              onClick={closeImageGallery}
-            />
-          </div>
-        </div>
-      )}
+            {/* Thumbnail strip */}
+            {product.images.length > 1 && (
+              <div
+                className="flex justify-center gap-2 px-6 pb-7 pt-3 z-20"
+                onClick={e => e.stopPropagation()}
+              >
+                {product.images.map((img, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setGalleryImageIndex(index)}
+                    aria-label={`Imaginea ${index + 1}`}
+                    className={`flex-shrink-0 w-14 h-14 rounded overflow-hidden transition-all duration-200 ${
+                      galleryImageIndex === index
+                        ? 'opacity-100 ring-2 ring-white ring-offset-2 ring-offset-black'
+                        : 'opacity-35 hover:opacity-65'
+                    }`}
+                  >
+                    <img
+                      src={resolveProductImage(img)}
+                      alt={img.alt || product.name}
+                      className="w-full h-full object-cover"
+                      draggable={false}
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Recently Viewed */}
       <RecentlyViewed />
@@ -1073,7 +1083,7 @@ const ProductPage = () => {
           </div>
 
           <div className="border-t border-gray-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-            <p>© 2024 PilotOn. Toate drepturile rezervate.</p>
+            <p>© 2026 PilotOn. Toate drepturile rezervate.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-blue-600">Termeni</a>
               <a href="#" className="hover:text-blue-600">Confidențialitate</a>
