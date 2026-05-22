@@ -34,8 +34,8 @@ async function updateVWGroupPrices() {
       const is2GB   = /\b2\s*GB\b/i.test(name);
       const is4GB   = /\b4\s*GB\b/i.test(name);
       const is6GB   = /\b6\s*GB\b/i.test(name);
-      const is4Core = /\b4\s*Core\b/i.test(name);
-      const is8Core = /\b8\s*Core\b/i.test(name);
+      const is4Core = /\b4\s*Core\b/i.test(name) || /\bQuad[\s-]*Core\b/i.test(name);
+      const is8Core = /\b8\s*Core\b/i.test(name) || /\bOcta[\s-]*Core\b/i.test(name);
 
       const qualifies8Core = (is4GB || is6GB) && is8Core;
 
