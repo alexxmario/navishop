@@ -21,12 +21,56 @@ const SPEC_PRICES = {
 //
 // A model can appear multiple times if it has products in different spec tiers.
 const MODEL_CONFIGS = [
+  // ── HIGH ────────────────────────────────────────────────────────────────────
   { search: 'New Beetle 2004-2010', spec: 'std_2gb_32gb_4core',  rama: 'high' },
   { search: 'New Beetle 2004-2010', spec: 'std_4gb_64gb_4core',  rama: 'high' },
   { search: 'New Beetle 2004-2010', spec: 'std_4gb_64gb_8core',  rama: 'high' },
   { search: 'New Beetle 2004-2010', spec: 'std_6gb_128gb_8core', rama: 'high' },
   { search: 'New Beetle 2004-2010', spec: '2k_4gb_64gb_8core',   rama: 'high' },
   { search: 'New Beetle 2004-2010', spec: '2k_8gb_256gb_8core',  rama: 'high' },
+
+  // ── LOW ─────────────────────────────────────────────────────────────────────
+  { search: 'Passat B6',      spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Passat B6',      spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Passat B6',      spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Passat B6',      spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Passat B6',      spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Passat B6',      spec: '2k_8gb_256gb_8core',  rama: 'low' },
+
+  { search: 'Polo 2009-2018', spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Polo 2009-2018', spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Polo 2009-2018', spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Polo 2009-2018', spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Polo 2009-2018', spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Polo 2009-2018', spec: '2k_8gb_256gb_8core',  rama: 'low' },
+
+  { search: 'Tiguan 2016-2020', spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Tiguan 2016-2020', spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Tiguan 2016-2020', spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Tiguan 2016-2020', spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Tiguan 2016-2020', spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Tiguan 2016-2020', spec: '2k_8gb_256gb_8core',  rama: 'low' },
+
+  { search: 'Passat B7',      spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Passat B7',      spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Passat B7',      spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Passat B7',      spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Passat B7',      spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Passat B7',      spec: '2k_8gb_256gb_8core',  rama: 'low' },
+
+  { search: 'Golf 2008-2014', spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Golf 2008-2014', spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Golf 2008-2014', spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Golf 2008-2014', spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Golf 2008-2014', spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Golf 2008-2014', spec: '2k_8gb_256gb_8core',  rama: 'low' },
+
+  { search: 'Tiguan 2007-2018', spec: 'std_2gb_32gb_4core',  rama: 'low' },
+  { search: 'Tiguan 2007-2018', spec: 'std_4gb_64gb_4core',  rama: 'low' },
+  { search: 'Tiguan 2007-2018', spec: 'std_4gb_64gb_8core',  rama: 'low' },
+  { search: 'Tiguan 2007-2018', spec: 'std_6gb_128gb_8core', rama: 'low' },
+  { search: 'Tiguan 2007-2018', spec: '2k_4gb_64gb_8core',   rama: 'low' },
+  { search: 'Tiguan 2007-2018', spec: '2k_8gb_256gb_8core',  rama: 'low' },
 ];
 
 // ─── SPEC KEY → NAME PATTERNS ────────────────────────────────────────────────
