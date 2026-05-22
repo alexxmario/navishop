@@ -939,7 +939,7 @@ const ProductPage = () => {
               className="flex items-center justify-between px-6 py-4 z-20"
               onClick={e => e.stopPropagation()}
             >
-              <span className="text-white/40 text-sm tabular-nums select-none">
+              <span className="text-white/70 text-sm tabular-nums select-none">
                 {product.images.length > 1
                   ? `${galleryImageIndex + 1} / ${product.images.length}`
                   : null}
@@ -947,9 +947,9 @@ const ProductPage = () => {
               <button
                 onClick={closeImageGallery}
                 aria-label="Închide galeria (Esc)"
-                className="text-white/50 hover:text-white transition-colors duration-150 p-1 -mr-1"
+                className="bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-150"
               >
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
@@ -963,16 +963,16 @@ const ProductPage = () => {
                   <button
                     onClick={() => navigateGallery('prev')}
                     aria-label="Imaginea anterioară"
-                    className="absolute left-3 text-white/40 hover:text-white transition-colors duration-150 p-2"
+                    className="absolute left-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-3 transition-colors duration-150"
                   >
-                    <ChevronLeft className="w-8 h-8" />
+                    <ChevronLeft className="w-6 h-6" />
                   </button>
                   <button
                     onClick={() => navigateGallery('next')}
                     aria-label="Imaginea următoare"
-                    className="absolute right-3 text-white/40 hover:text-white transition-colors duration-150 p-2"
+                    className="absolute right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-3 transition-colors duration-150"
                   >
-                    <ChevronRight className="w-8 h-8" />
+                    <ChevronRight className="w-6 h-6" />
                   </button>
                 </>
               )}
