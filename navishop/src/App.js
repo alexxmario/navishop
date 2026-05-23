@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './AuthContext';
 import { CartProvider } from './CartContext';
 import { RecentlyViewedProvider } from './RecentlyViewedContext';
 import './styles/logo.css';
-import HomePage from './HomePage';
-import ProductPage from './ProductPage';
-import ProductPageExperimental from './ProductPageExperimental';
-import ContactPage from './ContactPage';
-import CategoryPage from './CategoryPage';
-import SearchResultsPage from './SearchResultsPage';
-import LoginPage from './LoginPage';
-import RegisterPage from './RegisterPage';
-import DashboardPage from './DashboardPage';
 import ProtectedRoute from './ProtectedRoute';
-import CartPage from './CartPage';
-import CheckoutPage from './CheckoutPage';
-import BrandPage from './BrandPage';
-import ModelPage from './ModelPage';
-import PaymentSuccessPage from './PaymentSuccessPage';
-import PaymentCancelPage from './PaymentCancelPage';
-import FanCourierTestPage from './FanCourierTestPage';
-import SalePage from './SalePage';
-import B2BApplicationPage from './B2BApplicationPage';
 import CookieBanner from './components/CookieBanner';
+
+const HomePage = lazy(() => import('./HomePage'));
+const ProductPage = lazy(() => import('./ProductPage'));
+const ProductPageExperimental = lazy(() => import('./ProductPageExperimental'));
+const ContactPage = lazy(() => import('./ContactPage'));
+const CategoryPage = lazy(() => import('./CategoryPage'));
+const SearchResultsPage = lazy(() => import('./SearchResultsPage'));
+const LoginPage = lazy(() => import('./LoginPage'));
+const RegisterPage = lazy(() => import('./RegisterPage'));
+const DashboardPage = lazy(() => import('./DashboardPage'));
+const CartPage = lazy(() => import('./CartPage'));
+const CheckoutPage = lazy(() => import('./CheckoutPage'));
+const BrandPage = lazy(() => import('./BrandPage'));
+const ModelPage = lazy(() => import('./ModelPage'));
+const PaymentSuccessPage = lazy(() => import('./PaymentSuccessPage'));
+const PaymentCancelPage = lazy(() => import('./PaymentCancelPage'));
+const FanCourierTestPage = lazy(() => import('./FanCourierTestPage'));
+const SalePage = lazy(() => import('./SalePage'));
+const B2BApplicationPage = lazy(() => import('./B2BApplicationPage'));
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <CartProvider>
         <RecentlyViewedProvider>
           <Router>
+          <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/product/:slug" element={<ProductPage />} />
@@ -55,6 +57,7 @@ function App() {
             <Route path="/reduceri" element={<SalePage />} />
             <Route path="/b2b" element={<B2BApplicationPage />} />
           </Routes>
+          </Suspense>
           <CookieBanner />
           </Router>
         </RecentlyViewedProvider>

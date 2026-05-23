@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import apiService from './services/api';
 import Footer from './components/Footer';
 import PageTitle from './components/PageTitle';
 import RecentlyViewed from './components/RecentlyViewed';
-import NavigationModel3D from './components/NavigationModel3D';
 import FeaturedProductsCarousel from './components/FeaturedProductsCarousel';
 import ReviewsCarousel from './components/ReviewsCarousel';
 import Header from './components/Header';
@@ -14,6 +13,8 @@ import {
   Check, Truck,
   Shield, ArrowRight
 } from 'lucide-react';
+
+const NavigationModel3D = lazy(() => import('./components/NavigationModel3D'));
 
 const HomePage = () => {
   const { isAuthenticated, login } = useAuth();
@@ -228,7 +229,9 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative">
-              <NavigationModel3D />
+              <Suspense fallback={<div className="w-full h-96 md:h-[500px]" />}>
+                <NavigationModel3D />
+              </Suspense>
               <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent pointer-events-none"></div>
             </div>
           </div>

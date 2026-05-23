@@ -177,6 +177,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full object-cover rounded-lg"
               onError={handleImageError}
+              loading="lazy"
             />
             {/* Screen Size Badge */}
             {screenSize && (
@@ -266,6 +267,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
             onError={handleImageError}
+            loading="lazy"
           />
           {/* Screen Size Badge */}
           {screenSize && (

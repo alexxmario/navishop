@@ -73,10 +73,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Serve static images from frontend public directory
-app.use('/images', express.static(path.join(__dirname, '../navishop/public/images')));
-app.use('/cars', express.static(path.join(__dirname, '../navishop/public/cars')));
-app.use('/test-slider', express.static(path.join(__dirname, '../navishop/public/test slider')));
-app.use('/test-slider-on', express.static(path.join(__dirname, '../navishop/public/test slider ON')));
+const imageCache = { maxAge: '7d' };
+app.use('/images', express.static(path.join(__dirname, '../navishop/public/images'), imageCache));
+app.use('/cars', express.static(path.join(__dirname, '../navishop/public/cars'), { maxAge: '30d' }));
+app.use('/test-slider', express.static(path.join(__dirname, '../navishop/public/test slider'), imageCache));
+app.use('/test-slider-on', express.static(path.join(__dirname, '../navishop/public/test slider ON'), imageCache));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/cart', cartRoutes);
