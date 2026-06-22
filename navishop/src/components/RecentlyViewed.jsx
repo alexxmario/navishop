@@ -65,7 +65,7 @@ const RecentlyViewed = () => {
                     <img
                       src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
                       alt={product.images?.[0]?.alt || product.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                      className="w-full h-full object-cover object-center scale-[1.3] group-hover:scale-[1.36] transition-transform duration-200"
                       onError={(event) => {
                         event.currentTarget.onerror = null;
                         event.currentTarget.src = FALLBACK_IMAGE;

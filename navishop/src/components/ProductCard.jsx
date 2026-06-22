@@ -171,11 +171,11 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
         <Link to={`/product/${product.slug}`} className="flex gap-6">
           {/* Image */}
-          <div className="flex-shrink-0 w-48 h-48 relative">
+          <div className="flex-shrink-0 w-48 h-48 relative overflow-hidden rounded-lg">
             <img
               src={getProductImage(product.images?.[0])}
               alt={product.images?.[0]?.alt || product.name}
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover object-center rounded-lg scale-[1.3]"
               onError={handleImageError}
               loading="lazy"
             />
@@ -261,11 +261,11 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
       <div className={`bg-white border border-gray-100 group hover:shadow-lg transition-shadow ${className}`}>
       <Link to={`/product/${product.slug}`} className="block p-6">
         {/* Image */}
-        <div className="mb-4 relative">
+        <div className="mb-4 relative overflow-hidden rounded-lg">
           <img
             src={getProductImage(product.images?.[0])}
             alt={product.images?.[0]?.alt || product.name}
-            className="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-48 object-cover object-center rounded-lg scale-[1.3] group-hover:scale-[1.36] transition-transform duration-300"
             onError={handleImageError}
             loading="lazy"
           />
