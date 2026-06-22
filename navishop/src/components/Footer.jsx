@@ -68,9 +68,9 @@ const Footer = () => {
         <div className="border-t border-gray-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
           <p>© 2026 PilotOn. Toate drepturile rezervate.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-blue-600">Termeni</a>
-            <a href="#" className="hover:text-blue-600">Confidențialitate</a>
-            <a href="#" className="hover:text-blue-600">Cookies</a>
+            <Link to="/termeni" className="hover:text-blue-600">Termeni</Link>
+            <Link to="/confidentialitate" className="hover:text-blue-600">Confidențialitate</Link>
+            <Link to="/cookies" className="hover:text-blue-600">Cookies</Link>
           </div>
         </div>
       </div>

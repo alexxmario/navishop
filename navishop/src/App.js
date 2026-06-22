@@ -25,6 +25,9 @@ const PaymentCancelPage = lazy(() => import('./PaymentCancelPage'));
 const FanCourierTestPage = lazy(() => import('./FanCourierTestPage'));
 const SalePage = lazy(() => import('./SalePage'));
 const B2BApplicationPage = lazy(() => import('./B2BApplicationPage'));
+const TermeniPage = lazy(() => import('./TermeniPage'));
+const ConfidentialitatePage = lazy(() => import('./ConfidentialitatePage'));
+const CookiesPage = lazy(() => import('./CookiesPage'));
 
 function App() {
   return (
@@ -56,6 +59,9 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/reduceri" element={<SalePage />} />
             <Route path="/b2b" element={<B2BApplicationPage />} />
+            <Route path="/termeni" element={<TermeniPage />} />
+            <Route path="/confidentialitate" element={<ConfidentialitatePage />} />
+            <Route path="/cookies" element={<CookiesPage />} />
           </Routes>
           </Suspense>
           <CookieBanner />
