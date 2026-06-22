@@ -8,13 +8,13 @@ import {
 } from 'lucide-react';
 
 const categories = [
-  { id: 'navigatii-gps', name: 'Navigații GPS', icon: '🧭' },
-  { id: 'carplay-android', name: 'CarPlay / Android Auto', icon: '📱' },
-  { id: 'module-carplay', name: 'Module CarPlay', icon: '🔌' },
-  { id: 'camere-marsarier', name: 'Camere Marsarier', icon: '📷' },
-  { id: 'portbagaj-electric', name: 'Portbagaj Electric', icon: '🚗' },
-  { id: 'lumini-ambientale', name: 'Lumini Ambientale', icon: '💡' },
-  { id: 'accesorii', name: 'Accesorii', icon: '🔧' },
+  { id: 'navigatii-gps', name: 'Navigații GPS' },
+  { id: 'carplay-android', name: 'CarPlay / Android Auto' },
+  { id: 'module-carplay', name: 'Module CarPlay' },
+  { id: 'camere-marsarier', name: 'Camere Marsarier' },
+  { id: 'portbagaj-electric', name: 'Portbagaj Electric' },
+  { id: 'lumini-ambientale', name: 'Lumini Ambientale' },
+  { id: 'accesorii', name: 'Accesorii' },
 ];
 
 const Header = ({
@@ -86,7 +86,6 @@ const Header = ({
                             className="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                             onClick={() => setIsProductsDropdownOpen(false)}
                           >
-                            <span className="text-lg">{category.icon}</span>
                             <span>{category.name}</span>
                           </Link>
                         ))}
@@ -206,7 +205,6 @@ const Header = ({
                       className="flex items-center gap-2 py-2 text-gray-600 hover:text-blue-600"
                       onClick={() => { setIsMenuOpen(false); setIsProductsDropdownOpen(false); }}
                     >
-                      <span>{category.icon}</span>
                       <span className="text-sm">{category.name}</span>
                     </Link>
                   ))}
