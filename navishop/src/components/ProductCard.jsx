@@ -175,7 +175,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             <img
               src={getProductImage(product.images?.[0])}
               alt={product.images?.[0]?.alt || product.name}
-              className="w-full h-full object-cover object-center rounded-lg scale-[1.3]"
+              className="w-full h-full object-cover object-center rounded-lg scale-[1.5]"
               onError={handleImageError}
               loading="lazy"
             />
@@ -265,7 +265,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
           <img
             src={getProductImage(product.images?.[0])}
             alt={product.images?.[0]?.alt || product.name}
-            className="w-full h-48 object-cover object-center rounded-lg scale-[1.3] group-hover:scale-[1.36] transition-transform duration-300"
+            className="w-full h-48 object-cover object-center rounded-lg scale-[1.5] group-hover:scale-[1.56] transition-transform duration-300"
             onError={handleImageError}
             loading="lazy"
           />
