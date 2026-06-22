@@ -1,29 +1,37 @@
-const { Resend } = require('resend');
+const nodemailer = require('nodemailer');
 
-// Default "from" address. Must use a domain verified in your Resend account.
-const DEFAULT_FROM = process.env.EMAIL_FROM || 'PilotOn <noreply@piloton.ro>';
+// Default "from" address shown to recipients
+const DEFAULT_FROM = process.env.EMAIL_FROM || `PilotOn <${process.env.EMAIL_USER}>`;
 
-// Lazily create a single Resend client (only if an API key is configured)
-let resendClient = null;
-const getResend = () => {
-  if (!process.env.RESEND_API_KEY) {
+// Lazily create a single SMTP transporter (only if credentials are configured)
+let transporter = null;
+const getTransporter = () => {
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASSWORD) {
     return null;
   }
-  if (!resendClient) {
-    resendClient = new Resend(process.env.RESEND_API_KEY);
+  if (!transporter) {
+    transporter = nodemailer.createTransport({
+      host: process.env.EMAIL_HOST || 'smtp.gmail.com',
+      port: process.env.EMAIL_PORT || 587,
+      secure: false, // true for 465, false for other ports
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    });
   }
-  return resendClient;
+  return transporter;
 };
 
 // Shared helper used by every email function below
 const sendEmail = async ({ from = DEFAULT_FROM, to, subject, html, replyTo }) => {
-  const resend = getResend();
-  if (!resend) {
-    console.warn(`Skipping email "${subject}" — RESEND_API_KEY is not configured.`);
-    return { success: false, error: 'RESEND_API_KEY not configured' };
+  const mailer = getTransporter();
+  if (!mailer) {
+    console.warn(`Skipping email "${subject}" — EMAIL_USER/EMAIL_PASSWORD not configured.`);
+    return { success: false, error: 'SMTP credentials not configured' };
   }
 
-  const { data, error } = await resend.emails.send({
+  const info = await mailer.sendMail({
     from,
     to,
     subject,
@@ -31,11 +39,7 @@ const sendEmail = async ({ from = DEFAULT_FROM, to, subject, html, replyTo }) =>
     ...(replyTo ? { replyTo } : {}),
   });
 
-  if (error) {
-    throw new Error(error.message || 'Resend API error');
-  }
-
-  return { success: true, messageId: data?.id };
+  return { success: true, messageId: info.messageId };
 };
 
 // Send email notification for new B2B application
