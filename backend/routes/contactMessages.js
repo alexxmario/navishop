@@ -1,6 +1,7 @@
 const express = require('express');
 const ContactMessage = require('../models/ContactMessage');
 const auth = require('../middleware/auth');
+const { sendContactMessageNotification } = require('../services/emailService');
 const router = express.Router();
 
 // Submit a new contact message (public endpoint)
@@ -35,6 +36,11 @@ router.post('/', async (req, res) => {
     });
 
     await contactMessage.save();
+
+    // Notify admin by email (non-blocking — email errors shouldn't fail the submission)
+    sendContactMessageNotification(contactMessage).catch(err => {
+      console.error('Error sending contact message notification:', err);
+    });
 
     res.status(201).json({
       message: 'Mesajul a fost trimis cu succes. Îți vom răspunde în cel mai scurt timp.',

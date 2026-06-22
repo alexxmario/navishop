@@ -1,28 +1,51 @@
-const nodemailer = require('nodemailer');
+const { Resend } = require('resend');
 
-// Create reusable transporter
-const createTransporter = () => {
-  return nodemailer.createTransport({
-    host: process.env.EMAIL_HOST || 'smtp.gmail.com',
-    port: process.env.EMAIL_PORT || 587,
-    secure: false, // true for 465, false for other ports
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASSWORD,
-    },
+// Default "from" address. Must use a domain verified in your Resend account.
+const DEFAULT_FROM = process.env.EMAIL_FROM || 'PilotOn <noreply@piloton.ro>';
+
+// Lazily create a single Resend client (only if an API key is configured)
+let resendClient = null;
+const getResend = () => {
+  if (!process.env.RESEND_API_KEY) {
+    return null;
+  }
+  if (!resendClient) {
+    resendClient = new Resend(process.env.RESEND_API_KEY);
+  }
+  return resendClient;
+};
+
+// Shared helper used by every email function below
+const sendEmail = async ({ from = DEFAULT_FROM, to, subject, html, replyTo }) => {
+  const resend = getResend();
+  if (!resend) {
+    console.warn(`Skipping email "${subject}" — RESEND_API_KEY is not configured.`);
+    return { success: false, error: 'RESEND_API_KEY not configured' };
+  }
+
+  const { data, error } = await resend.emails.send({
+    from,
+    to,
+    subject,
+    html,
+    ...(replyTo ? { replyTo } : {}),
   });
+
+  if (error) {
+    throw new Error(error.message || 'Resend API error');
+  }
+
+  return { success: true, messageId: data?.id };
 };
 
 // Send email notification for new B2B application
 const sendB2BApplicationNotification = async (application) => {
   try {
-    const transporter = createTransporter();
+    const adminEmail = process.env.ADMIN_EMAIL || process.env.EMAIL_FROM;
 
-    const adminEmail = process.env.ADMIN_EMAIL || process.env.EMAIL_USER;
-
-    const mailOptions = {
-      from: `"PilotOn B2B" <${process.env.EMAIL_USER}>`,
+    return await sendEmail({
       to: adminEmail,
+      replyTo: application.email,
       subject: `Cerere Nouă Cont B2B - ${application.companyName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -58,11 +81,7 @@ const sendB2BApplicationNotification = async (application) => {
           </p>
         </div>
       `,
-    };
-
-    const info = await transporter.sendMail(mailOptions);
-    console.log('B2B application notification sent:', info.messageId);
-    return { success: true, messageId: info.messageId };
+    });
   } catch (error) {
     console.error('Error sending B2B application notification:', error);
     return { success: false, error: error.message };
@@ -72,10 +91,7 @@ const sendB2BApplicationNotification = async (application) => {
 // Send confirmation email to applicant
 const sendB2BApplicationConfirmation = async (application) => {
   try {
-    const transporter = createTransporter();
-
-    const mailOptions = {
-      from: `"PilotOn" <${process.env.EMAIL_USER}>`,
+    return await sendEmail({
       to: application.email,
       subject: 'Cererea ta pentru Cont B2B a fost primită',
       html: `
@@ -87,11 +103,7 @@ const sendB2BApplicationConfirmation = async (application) => {
           <p>O zi buna!</p>
         </div>
       `,
-    };
-
-    const info = await transporter.sendMail(mailOptions);
-    console.log('B2B application confirmation sent:', info.messageId);
-    return { success: true, messageId: info.messageId };
+    });
   } catch (error) {
     console.error('Error sending B2B application confirmation:', error);
     return { success: false, error: error.message };
@@ -101,10 +113,7 @@ const sendB2BApplicationConfirmation = async (application) => {
 // Send approval email with credentials
 const sendB2BApplicationApproval = async (application, temporaryPassword, user) => {
   try {
-    const transporter = createTransporter();
-
-    const mailOptions = {
-      from: `"PilotOn" <${process.env.EMAIL_USER}>`,
+    return await sendEmail({
       to: application.email,
       subject: 'Cont B2B Aprobat - Credențialele tale PilotOn',
       html: `
@@ -130,13 +139,64 @@ const sendB2BApplicationApproval = async (application, temporaryPassword, user) 
           <p>O zi bună!</p>
         </div>
       `,
-    };
-
-    const info = await transporter.sendMail(mailOptions);
-    console.log('B2B application approval sent:', info.messageId);
-    return { success: true, messageId: info.messageId };
+    });
   } catch (error) {
     console.error('Error sending B2B application approval:', error);
+    return { success: false, error: error.message };
+  }
+};
+
+// Notify admin about a new contact form message
+const sendContactMessageNotification = async (contactMessage) => {
+  try {
+    const adminEmail = process.env.ADMIN_EMAIL || process.env.EMAIL_FROM;
+
+    const vehicleDetails = (contactMessage.carBrand || contactMessage.carModel || contactMessage.year)
+      ? `
+          <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h3 style="margin-top: 0; color: #1f2937;">Vehicul</h3>
+            <p><strong>Marca:</strong> ${contactMessage.carBrand || '-'}</p>
+            <p><strong>Model:</strong> ${contactMessage.carModel || '-'}</p>
+            <p><strong>An:</strong> ${contactMessage.year || '-'}</p>
+          </div>`
+      : '';
+
+    return await sendEmail({
+      to: adminEmail,
+      replyTo: contactMessage.email,
+      subject: `Mesaj nou de contact - ${contactMessage.subject}`,
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <h2 style="color: #2563eb;">Mesaj nou de contact</h2>
+
+          <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h3 style="margin-top: 0; color: #1f2937;">Expeditor</h3>
+            <p><strong>Nume:</strong> ${contactMessage.name}</p>
+            <p><strong>Email:</strong> ${contactMessage.email}</p>
+            <p><strong>Telefon:</strong> ${contactMessage.phone || '-'}</p>
+          </div>
+          ${vehicleDetails}
+          <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h3 style="margin-top: 0; color: #1f2937;">Mesaj</h3>
+            <p><strong>Subiect:</strong> ${contactMessage.subject}</p>
+            <p style="white-space: pre-wrap;">${contactMessage.message}</p>
+          </div>
+
+          <div style="margin: 30px 0;">
+            <a href="${process.env.ADMIN_PANEL_URL || 'http://localhost:3002'}/admin/#/contact-messages/${contactMessage._id}/show"
+               style="background-color: #2563eb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; display: inline-block;">
+              Vezi Mesajul în Panoul Admin
+            </a>
+          </div>
+
+          <p style="color: #6b7280; font-size: 14px; margin-top: 30px;">
+            Acest email a fost generat automat de sistemul PilotOn.
+          </p>
+        </div>
+      `,
+    });
+  } catch (error) {
+    console.error('Error sending contact message notification:', error);
     return { success: false, error: error.message };
   }
 };
@@ -145,4 +205,5 @@ module.exports = {
   sendB2BApplicationNotification,
   sendB2BApplicationConfirmation,
   sendB2BApplicationApproval,
+  sendContactMessageNotification,
 };
