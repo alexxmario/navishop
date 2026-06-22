@@ -141,7 +141,7 @@ router.get('/', async (req, res) => {
         }
         
         // Apply pagination to filtered results
-        const total = searchProducts.length;
+        total = searchProducts.length;
         products = searchProducts.slice(skip, skip + parseInt(limit));
       } else {
         // Single term search: use simple name or brand matching with aliases
