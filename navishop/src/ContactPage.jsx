@@ -6,6 +6,7 @@ import logoSvg from './logo.svg';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
+import { buildApiUrl } from './config/api';
 import {
   Phone, Mail, MapPin, Clock, Send, MessageCircle,
   User, Car, Calendar, CheckCircle
@@ -26,6 +27,8 @@ const ContactPage = () => {
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -35,10 +38,40 @@ const ContactPage = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
+    setIsSubmitting(true);
+    setSubmitError('');
+
+    try {
+      const response = await fetch(buildApiUrl('/contact-messages'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        throw new Error(data.message || 'Eroare la trimiterea mesajului');
+      }
+
+      setIsSubmitted(true);
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        carBrand: '',
+        carModel: '',
+        year: '',
+        subject: '',
+        message: ''
+      });
+      setTimeout(() => setIsSubmitted(false), 5000);
+    } catch (error) {
+      setSubmitError(error.message || 'A apărut o eroare. Te rugăm să încerci din nou.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const carBrands = [
@@ -297,12 +330,19 @@ const ContactPage = () => {
                     ></textarea>
                   </div>
 
+                  {submitError && (
+                    <div className="bg-red-50 border border-red-200 text-red-600 text-sm p-3 rounded">
+                      {submitError}
+                    </div>
+                  )}
+
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-3 px-6 hover:bg-blue-700 transition-colors font-medium flex items-center justify-center space-x-2"
+                    disabled={isSubmitting}
+                    className="w-full bg-blue-600 text-white py-3 px-6 hover:bg-blue-700 transition-colors font-medium flex items-center justify-center space-x-2 disabled:opacity-60 disabled:cursor-not-allowed"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Trimite mesajul</span>
+                    <span>{isSubmitting ? 'Se trimite...' : 'Trimite mesajul'}</span>
                   </button>
                 </form>
               )}

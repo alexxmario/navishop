@@ -20,6 +20,8 @@ import { ReviewList } from './components/ReviewList';
 import { ReviewShow } from './components/ReviewShow';
 import B2BApplicationList from './components/B2BApplicationList';
 import B2BApplicationShow from './components/B2BApplicationShow';
+import ContactMessageList from './components/ContactMessageList';
+import ContactMessageShow from './components/ContactMessageShow';
 import Dashboard from './components/Dashboard';
 import CustomLayout from './components/Layout';
 import LoginPage from './components/LoginPage';
@@ -69,6 +71,12 @@ function App() {
         list={B2BApplicationList}
         show={B2BApplicationShow}
         options={{ label: 'Cereri B2B' }}
+      />
+      <Resource
+        name="contact-messages"
+        list={ContactMessageList}
+        show={ContactMessageShow}
+        options={{ label: 'Mesaje Contact' }}
       />
       </Admin>
     </ThemeProvider>

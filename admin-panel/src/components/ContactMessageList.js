@@ -1,0 +1,204 @@
+import React from 'react';
+import {
+  List,
+  Datagrid,
+  TextField,
+  DateField,
+  ShowButton,
+  FunctionField,
+  TextInput,
+  SelectInput,
+  Pagination,
+  FilterList,
+  FilterListItem,
+  useNotify,
+  useRefresh,
+  useDataProvider
+} from 'react-admin';
+import { Chip, Card, CardContent, Box, Typography, Button } from '@mui/material';
+import { Email, MarkEmailRead, MarkEmailUnread, CheckCircle } from '@mui/icons-material';
+
+const ContactMessageFilters = [
+  <TextInput source="search" placeholder="Caută mesaje..." alwaysOn key="search" />,
+  <SelectInput
+    source="status"
+    choices={[
+      { id: 'new', name: 'Noi' },
+      { id: 'read', name: 'Citite' },
+      { id: 'resolved', name: 'Rezolvate' },
+    ]}
+    alwaysOn
+    key="status"
+  />,
+];
+
+const ContactMessageSidebar = () => (
+  <Card sx={{
+    order: -1,
+    mr: 2,
+    mt: 9,
+    width: 220,
+    borderRadius: 3,
+    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+    background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)'
+  }}>
+    <CardContent sx={{ p: 3 }}>
+      <Box sx={{ mb: 3, textAlign: 'center' }}>
+        <Email sx={{ fontSize: 48, color: 'primary.main', mb: 1 }} />
+        <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
+          Mesaje Contact
+        </Typography>
+      </Box>
+
+      <FilterList
+        label="Status"
+        icon={<MarkEmailUnread sx={{ fontSize: 20 }} />}
+      >
+        <FilterListItem label="Noi" value={{ status: 'new' }} />
+        <FilterListItem label="Citite" value={{ status: 'read' }} />
+        <FilterListItem label="Rezolvate" value={{ status: 'resolved' }} />
+      </FilterList>
+    </CardContent>
+  </Card>
+);
+
+const ContactMessagePagination = () => <Pagination rowsPerPageOptions={[10, 25, 50]} />;
+
+const statusConfig = {
+  new: { label: 'Nou', color: 'warning', icon: <MarkEmailUnread sx={{ fontSize: 16 }} /> },
+  read: { label: 'Citit', color: 'info', icon: <MarkEmailRead sx={{ fontSize: 16 }} /> },
+  resolved: { label: 'Rezolvat', color: 'success', icon: <CheckCircle sx={{ fontSize: 16 }} /> }
+};
+
+export const ContactMessageList = () => {
+  const notify = useNotify();
+  const refresh = useRefresh();
+  const dataProvider = useDataProvider();
+
+  const handleResolve = async (id, e) => {
+    e.stopPropagation();
+    try {
+      await dataProvider.update('contact-messages', {
+        id,
+        data: { status: 'resolved' },
+        previousData: {}
+      });
+      notify('Mesaj marcat ca rezolvat', { type: 'success' });
+      refresh();
+    } catch (error) {
+      notify('Eroare la actualizare', { type: 'error' });
+    }
+  };
+
+  return (
+    <List
+      filters={ContactMessageFilters}
+      aside={<ContactMessageSidebar />}
+      pagination={<ContactMessagePagination />}
+      sort={{ field: 'createdAt', order: 'DESC' }}
+      sx={{
+        '& .MuiPaper-root': {
+          borderRadius: 3,
+          boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+        }
+      }}
+    >
+      <Datagrid
+        rowClick="show"
+        optimized
+        sx={{
+          '& .RaDatagrid-headerRow': {
+            backgroundColor: '#f8f9fa',
+            '& .MuiTableCell-head': {
+              fontWeight: 600,
+              color: '#333',
+              borderBottom: '2px solid #e0e0e0'
+            }
+          },
+          '& .RaDatagrid-row': {
+            '&:hover': {
+              backgroundColor: 'rgba(25, 118, 210, 0.04)',
+              cursor: 'pointer'
+            }
+          }
+        }}
+      >
+        <FunctionField
+          label="Expeditor"
+          render={record => (
+            <Box>
+              <Typography
+                variant="body2"
+                sx={{ fontWeight: record.status === 'new' ? 700 : 500 }}
+              >
+                {record.name}
+              </Typography>
+              <Typography variant="caption" color="textSecondary">
+                {record.email}
+              </Typography>
+            </Box>
+          )}
+        />
+
+        <TextField source="subject" label="Subiect" />
+
+        <FunctionField
+          label="Mesaj"
+          render={record => (
+            <Typography
+              variant="body2"
+              sx={{
+                maxWidth: 280,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+                color: 'text.secondary'
+              }}
+            >
+              {record.message}
+            </Typography>
+          )}
+        />
+
+        <FunctionField
+          label="Status"
+          render={record => {
+            const config = statusConfig[record.status] || statusConfig.new;
+            return (
+              <Chip
+                label={config.label}
+                icon={config.icon}
+                color={config.color}
+                size="small"
+                sx={{ fontWeight: 500 }}
+              />
+            );
+          }}
+        />
+
+        <DateField source="createdAt" label="Data" showTime />
+
+        <FunctionField
+          label="Acțiuni"
+          render={record => (
+            record.status !== 'resolved' ? (
+              <Button
+                size="small"
+                variant="contained"
+                color="success"
+                onClick={(e) => handleResolve(record.id, e)}
+                sx={{ minWidth: 110 }}
+              >
+                Rezolvă
+              </Button>
+            ) : null
+          )}
+        />
+
+        <ShowButton />
+      </Datagrid>
+    </List>
+  );
+};
+
+export default ContactMessageList;

@@ -209,6 +209,18 @@ const romanianMessages = {
         title: 'Titlu',
       },
     },
+    'contact-messages': {
+      name: 'Mesaj contact |||| Mesaje contact',
+      fields: {
+        name: 'Nume',
+        email: 'Email',
+        phone: 'Telefon',
+        subject: 'Subiect',
+        message: 'Mesaj',
+        status: 'Status',
+        createdAt: 'Data',
+      },
+    },
   },
 };
 
