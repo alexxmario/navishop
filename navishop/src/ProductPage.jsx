@@ -309,7 +309,7 @@ const ProductPage = () => {
                     <img
                       src={resolveProductImage(product.images[selectedImage] || product.images[0])}
                       alt={product.images[selectedImage]?.alt || product.name}
-                      className="w-full aspect-[3/2] object-cover object-center rounded-lg scale-[1.55] group-hover:scale-[1.62] transition-transform duration-300"
+                      className={`w-full rounded-lg object-center transition-transform duration-300 ${product.images?.length > 20 ? 'aspect-[3/2] object-cover scale-[1.55] group-hover:scale-[1.62]' : 'h-64 sm:h-80 object-contain group-hover:scale-105'}`}
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                       <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
@@ -318,7 +318,7 @@ const ProductPage = () => {
                     </div>
                   </button>
                 ) : (
-                  <div className="w-full aspect-[3/2] bg-gray-100 rounded-lg flex items-center justify-center">
+                  <div className="w-full h-64 sm:h-80 bg-gray-100 rounded-lg flex items-center justify-center">
                     <div className="w-20 h-20 bg-blue-100 rounded border border-blue-200"></div>
                   </div>
                 )}
@@ -338,7 +338,7 @@ const ProductPage = () => {
                       <img
                         src={resolveProductImage(img)}
                         alt={img.alt || product.name}
-                        className="w-full h-full object-cover object-center scale-[1.5]"
+                        className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover scale-[1.5]' : 'object-contain'}`}
                       />
                     </button>
                   ))}

@@ -135,7 +135,7 @@ const CategoryPage = () => {
               viewMode === 'list' ? 'w-48 h-32' : 'w-full h-48'
             }`}>
               {primaryImage ? (
-                <img src={primaryImage} alt={product.name} className="w-full h-full object-cover object-center scale-[1.5]" />
+                <img src={primaryImage} alt={product.name} className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover scale-[1.5]' : 'object-contain'}`} />
               ) : (
                 <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
               )}

@@ -104,7 +104,7 @@ const ProductDescription = ({ product }) => {
               src={showcaseUrl}
               alt={gen.showcase.image.alt || gen.headline}
               loading="lazy"
-              className="h-full w-full object-cover object-center aspect-[3/2] scale-[1.5]"
+              className={`h-full w-full object-cover object-center aspect-[3/2] ${product.images?.length > 20 ? 'scale-[1.5]' : ''}`}
             />
           </div>
           <ul className="space-y-3">
