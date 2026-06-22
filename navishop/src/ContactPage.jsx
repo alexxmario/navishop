@@ -111,7 +111,7 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-medium mb-1">Adresă</h3>
                     <p className="text-gray-600">
-                      Str. Principală nr. 123<br />
+                      Str. Nicolae Nicoleanu nr. 31<br />
                       Sector 1, București<br />
                       România
                     </p>

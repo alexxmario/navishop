@@ -17,7 +17,7 @@ const ConfidentialitatePage = () => {
       <LegalSection title="1. Operatorul de date">
         <p>
           Operatorul datelor cu caracter personal este PilotOn, cu sediul în Str.
-          Principală nr. 123, Sector 1, București, România. Pentru orice solicitare
+          Nicolae Nicoleanu nr. 31, Sector 1, București, România. Pentru orice solicitare
           legată de protecția datelor ne poți contacta la{' '}
           <a href="mailto:contact@piloton.ro" className="text-blue-600 hover:underline">
             contact@piloton.ro

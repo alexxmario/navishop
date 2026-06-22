@@ -17,8 +17,8 @@ const TermeniPage = () => {
       <LegalSection title="1. Informații generale">
         <p>
           Site-ul PilotOn (denumit în continuare „Site-ul”) este administrat de
-          PilotOn, cu sediul în Str. Principală nr. 123, Sector 1, București,
-          România. Pentru orice întrebări ne poți contacta la adresa de e-mail{' '}
+          PilotOn, cu sediul în Str. Nicolae Nicoleanu nr. 31, Sector 1,
+          București, România. Pentru orice întrebări ne poți contacta la adresa de e-mail{' '}
           <a href="mailto:contact@piloton.ro" className="text-blue-600 hover:underline">
             contact@piloton.ro
           </a>{' '}
