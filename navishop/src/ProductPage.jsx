@@ -10,6 +10,7 @@ import PageTitle from './components/PageTitle';
 import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
+import ProductDescription from './components/ProductDescription';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from './config/api';
 import Toast from './components/Toast';
 import { useToast } from './hooks/useToast';
@@ -510,34 +511,7 @@ const ProductPage = () => {
 
           <div className="bg-gray-50 rounded-lg p-4 sm:p-8 border border-gray-100">
             {selectedTab === 'description' && (
-              <div className="space-y-6">
-                {/* Display structured description if available */}
-                {product.structuredDescription && product.structuredDescription.sections && product.structuredDescription.sections.length > 0 ? (
-                  <div className="space-y-8">
-                    {product.structuredDescription.sections.map((section, sectionIndex) => (
-                      <div key={sectionIndex} className="bg-white border border-gray-100 rounded-lg p-6 shadow-sm">
-                        <h4 className="text-lg font-semibold text-blue-600 mb-4 flex items-center">
-                          <span className="text-2xl mr-3">{section.icon}</span>
-                          {section.title.replace(/[📦🚗📱📷🖥️🔊🗺️🎮⚙️]/g, '').trim()}
-                        </h4>
-                        <div className="space-y-3">
-                          {section.points?.map((point, pointIndex) => (
-                            <div key={pointIndex} className="flex items-start">
-                              <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                              <p className="text-gray-700 leading-relaxed">{point}</p>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="bg-white border border-dashed border-gray-200 rounded-lg p-6 text-center text-gray-500">
-                    Acest produs nu are încă o descriere structurată. Revino în curând pentru detalii complete.
-                  </div>
-                )}
-
-              </div>
+              <ProductDescription product={product} />
             )}
 
             {selectedTab === 'specs' && (
