@@ -285,7 +285,7 @@ const ProductPage = () => {
               </>
             );
           })()}
-          <span className="text-blue-600">{product.name}</span>
+          <span className="text-blue-600 basis-full break-words">{product.name}</span>
         </div>
       </div>
 
@@ -293,10 +293,10 @@ const ProductPage = () => {
       <div className="container mx-auto px-4 py-8 sm:py-12">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           {/* Product Images */}
-          <div className="space-y-4">
+          <div className="space-y-4 min-w-0">
             <motion.div
               className="bg-white border border-gray-100 rounded-lg p-4 sm:p-6 shadow-sm"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
@@ -349,7 +349,7 @@ const ProductPage = () => {
             {/* Features Grid */}
             <motion.div 
               className="grid grid-cols-1 sm:grid-cols-2 gap-4"
-              initial={{ opacity: 0, y: 50 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
@@ -368,8 +368,8 @@ const ProductPage = () => {
 
           {/* Product Info */}
           <motion.div
-            className="space-y-6"
-            initial={{ opacity: 0, y: 20 }}
+            className="space-y-6 min-w-0"
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
@@ -484,7 +484,7 @@ const ProductPage = () => {
         {/* Product Tabs */}
         <motion.div 
           className="mt-10 sm:mt-16"
-          initial={{ opacity: 0, y: 50 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
