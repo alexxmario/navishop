@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import { useCart } from './CartContext';
 import logoSvg from './logo.svg';
@@ -15,6 +15,7 @@ import {
 const ContactPage = () => {
   const { isAuthenticated } = useAuth();
   const { getCartItemsCount } = useCart();
+  const [searchParams] = useSearchParams();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -86,9 +87,20 @@ const ContactPage = () => {
     'Programare instalare',
     'Service și garanție',
     'Suport tehnic',
+    'Retur',
     'Reclamație',
     'Altele'
   ];
+
+  // Allow other pages (e.g. the footer "Retur" link) to pre-select a subject
+  // via ?subject=... as long as it matches one of the available options.
+  useEffect(() => {
+    const requestedSubject = searchParams.get('subject');
+    if (requestedSubject && subjects.includes(requestedSubject)) {
+      setFormData(prev => ({ ...prev, subject: requestedSubject }));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
 
   return (
     <div className="min-h-screen bg-gray-50">
