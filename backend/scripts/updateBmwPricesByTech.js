@@ -25,6 +25,11 @@ require('dotenv').config();
 
 const APPLY = process.argv.includes('--apply');
 
+// Only ever reprice actual head units ("Navigatie ..."). This deliberately
+// excludes CarPlay modules ("Modul Wireless Carplay ...") and anything else
+// that happens to carry a tech token. Applies to every brand below.
+const REQUIRE_IN_NAME = /navigatie/i;
+
 // ---- Brand configuration -------------------------------------------------
 // Each brand defines:
 //   match:      how to find candidate products (Mongo query)
@@ -100,6 +105,8 @@ async function run() {
 
     for (const product of products) {
       const name = product.name || '';
+
+      if (!REQUIRE_IN_NAME.test(name)) continue; // not a "Navigatie" head unit -> out of scope
 
       const tech = matchOne(name, brand.techGroups);
       if (!tech) continue; // no tech token -> not in scope at all
