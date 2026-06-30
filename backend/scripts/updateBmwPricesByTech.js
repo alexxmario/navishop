@@ -43,12 +43,15 @@ const BMW = {
   match: {
     $or: [{ brand: /bmw/i }, { name: /bmw/i }],
   },
+  // Ordered low -> high precedence. When a name carries tokens from more than
+  // one group (e.g. "NBT EVO"), the LAST matching group wins -> treated as EVO.
   techGroups: [
     { id: 'nbt', label: 'NBT/CIC/CCC', regex: /\b(NBT|CIC|CCC)\b/i },
     { id: 'evo', label: 'EVO/NOS',     regex: /\b(EVO|NOS)\b/i },
   ],
   inches: [
     { id: '10.25', regex: /\b10[.,]25(?!\d)/ },
+    { id: '10.25', regex: /\b8[.,]9(?!\d)/ }, // 8.9" priced the same as 10.25"
     { id: '12.3',  regex: /\b12[.,]3(?!\d)/ },
     { id: '12.9',  regex: /\b12[.,]9(?!\d)/ },
   ],
@@ -80,12 +83,24 @@ const BRANDS = [BMW];
 
 // Return the single id whose regex matches `name`, or:
 //   null      -> no match
-//   '__multi' -> more than one matched (ambiguous)
+//   '__multi' -> more than one DISTINCT id matched (ambiguous)
+// Note: several defs may share an id (aliases, e.g. 8.9" -> 10.25"); that is
+// not ambiguous.
 function matchOne(name, defs) {
-  const hits = defs.filter((d) => d.regex.test(name)).map((d) => d.id);
+  const hits = [...new Set(defs.filter((d) => d.regex.test(name)).map((d) => d.id))];
   if (hits.length === 0) return null;
   if (hits.length > 1) return '__multi';
   return hits[0];
+}
+
+// Resolve the tech group. Groups are ordered low -> high precedence, so when a
+// name matches more than one (e.g. "NBT EVO") the last match wins.
+function resolveTech(name, groups) {
+  let chosen = null;
+  for (const g of groups) {
+    if (g.regex.test(name)) chosen = g.id;
+  }
+  return chosen;
 }
 
 async function run() {
@@ -108,14 +123,14 @@ async function run() {
 
       if (!REQUIRE_IN_NAME.test(name)) continue; // not a "Navigatie" head unit -> out of scope
 
-      const tech = matchOne(name, brand.techGroups);
+      const tech = resolveTech(name, brand.techGroups);
       if (!tech) continue; // no tech token -> not in scope at all
 
       const inch = matchOne(name, brand.inches);
       const ram = matchOne(name, brand.rams);
 
-      if (tech === '__multi' || inch === '__multi' || ram === '__multi') {
-        skipped.push({ name, price: product.price, reason: 'ambiguous (multiple tech/inch/RAM tokens)' });
+      if (inch === '__multi' || ram === '__multi') {
+        skipped.push({ name, price: product.price, reason: 'ambiguous (multiple inch/RAM tokens)' });
         continue;
       }
       if (!inch) {
