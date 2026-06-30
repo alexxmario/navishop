@@ -45,7 +45,7 @@ const CategoryPage = () => {
       setLoading(true);
 
       // Build query params - include subcategory if present in URL
-      const params = { category, status: 'active' };
+      const params = { category, status: 'active', limit: 200 };
       const subcategoryParam = searchParams.get('subcategory');
       if (subcategoryParam) {
         params.subcategory = subcategoryParam;

@@ -38,7 +38,7 @@ const SearchResultsPage = () => {
   const searchProducts = async (searchQuery) => {
     try {
       setLoading(true);
-      const response = await apiService.getProducts({ search: searchQuery });
+      const response = await apiService.getProducts({ search: searchQuery, limit: 200 });
       const searchResults = response.products || response || [];
       setProducts(searchResults);
       
