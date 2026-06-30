@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import PageTitle from './components/PageTitle';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
+import ZoomImage from './components/ZoomImage';
 import {
   Star, Heart, Filter, Grid, List, ArrowLeft, X, SlidersHorizontal
 } from 'lucide-react';
@@ -136,7 +137,14 @@ const CategoryPage = () => {
               viewMode === 'list' ? 'w-28 h-28 sm:w-48 sm:h-32' : 'w-full h-40 sm:h-48'
             }`}>
               {primaryImage ? (
-                <img src={primaryImage} alt={product.name} className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover scale-[1.5]' : 'object-contain'}`} />
+                <ZoomImage
+                  src={primaryImage}
+                  imageCount={product.images?.length}
+                  alt={product.name}
+                  className="w-full h-full object-center"
+                  zoomClass="object-cover scale-[1.5]"
+                  noZoomClass="object-contain"
+                />
               ) : (
                 <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
               )}

@@ -4,6 +4,7 @@ import { Star, Heart, ShoppingCart } from 'lucide-react';
 import { useCart } from '../CartContext';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from '../config/api';
 import Toast from './Toast';
+import ZoomImage from './ZoomImage';
 import { useToast } from '../hooks/useToast';
 import { useB2BPricing } from '../hooks/useB2BPricing';
 
@@ -172,10 +173,13 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         <Link to={`/product/${product.slug}`} className="flex gap-3 sm:gap-6">
           {/* Image */}
           <div className="flex-shrink-0 w-28 h-28 sm:w-48 sm:h-48 relative overflow-hidden rounded-lg bg-gray-50">
-            <img
+            <ZoomImage
               src={getProductImage(product.images?.[0])}
+              imageCount={product.images?.length}
               alt={product.images?.[0]?.alt || product.name}
-              className={`w-full h-full object-cover object-center rounded-lg ${product.images?.length > 20 ? 'scale-[1.5]' : ''}`}
+              className="w-full h-full object-center rounded-lg"
+              zoomClass="object-cover scale-[1.5]"
+              noZoomClass="object-contain"
               onError={handleImageError}
               loading="lazy"
             />
@@ -262,10 +266,13 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
       <Link to={`/product/${product.slug}`} className="flex flex-col flex-1 p-3 sm:p-5">
         {/* Image */}
         <div className="mb-3 sm:mb-4 relative overflow-hidden rounded-lg bg-gray-50">
-          <img
+          <ZoomImage
             src={getProductImage(product.images?.[0])}
+            imageCount={product.images?.length}
             alt={product.images?.[0]?.alt || product.name}
-            className={`w-full h-40 sm:h-48 object-cover object-center rounded-lg transition-transform duration-300 ${product.images?.length > 20 ? 'scale-[1.5] group-hover:scale-[1.56]' : 'group-hover:scale-105'}`}
+            className="w-full h-40 sm:h-48 object-center rounded-lg transition-transform duration-300"
+            zoomClass="object-cover scale-[1.5] group-hover:scale-[1.56]"
+            noZoomClass="object-contain group-hover:scale-105"
             onError={handleImageError}
             loading="lazy"
           />

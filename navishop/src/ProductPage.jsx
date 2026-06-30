@@ -11,6 +11,7 @@ import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
 import ProductDescription from './components/ProductDescription';
+import ZoomImage from './components/ZoomImage';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from './config/api';
 import Toast from './components/Toast';
 import { useToast } from './hooks/useToast';
@@ -306,10 +307,13 @@ const ProductPage = () => {
                     onClick={() => openImageGallery(selectedImage)}
                     className="w-full group relative overflow-hidden rounded-lg"
                   >
-                    <img
+                    <ZoomImage
                       src={resolveProductImage(product.images[selectedImage] || product.images[0])}
+                      imageCount={product.images?.length}
                       alt={product.images[selectedImage]?.alt || product.name}
-                      className={`w-full rounded-lg object-center transition-transform duration-300 ${product.images?.length > 20 ? 'h-64 sm:h-72 object-cover lg:h-auto lg:aspect-[3/2] lg:scale-[1.55] group-hover:scale-105 lg:group-hover:scale-[1.62]' : 'h-64 sm:h-72 lg:h-80 object-contain group-hover:scale-105'}`}
+                      className="w-full rounded-lg object-center transition-transform duration-300"
+                      zoomClass="h-64 sm:h-72 object-cover lg:h-auto lg:aspect-[3/2] lg:scale-[1.55] group-hover:scale-105 lg:group-hover:scale-[1.62]"
+                      noZoomClass="h-64 sm:h-72 lg:h-80 object-contain group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                       <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
@@ -335,10 +339,13 @@ const ProductPage = () => {
                           : 'border-gray-200 hover:border-gray-300'
                       }`}
                     >
-                      <img
+                      <ZoomImage
                         src={resolveProductImage(img)}
+                        imageCount={product.images?.length}
                         alt={img.alt || product.name}
-                        className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover lg:scale-[1.5]' : 'object-contain'}`}
+                        className="w-full h-full object-center"
+                        zoomClass="object-cover lg:scale-[1.5]"
+                        noZoomClass="object-contain"
                       />
                     </button>
                   ))}

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useRecentlyViewed } from '../RecentlyViewedContext';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { resolveImageUrl, placeholderImage } from '../config/api';
+import ZoomImage from './ZoomImage';
 import { useB2BPricing } from '../hooks/useB2BPricing';
 
 const FALLBACK_IMAGE = placeholderImage(160, 120);
@@ -62,10 +63,13 @@ const RecentlyViewed = () => {
                   className="flex-shrink-0 group"
                 >
                   <div className="w-24 h-20 bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-                    <img
+                    <ZoomImage
                       src={resolveImageUrl(product.images?.[0]?.url) || FALLBACK_IMAGE}
+                      imageCount={product.images?.length}
                       alt={product.images?.[0]?.alt || product.name}
-                      className={`w-full h-full object-cover object-center transition-transform duration-200 ${product.images?.length > 20 ? 'scale-[1.5] group-hover:scale-[1.56]' : 'group-hover:scale-105'}`}
+                      className="w-full h-full object-center transition-transform duration-200"
+                      zoomClass="object-cover scale-[1.5] group-hover:scale-[1.56]"
+                      noZoomClass="object-contain group-hover:scale-105"
                       onError={(event) => {
                         event.currentTarget.onerror = null;
                         event.currentTarget.src = FALLBACK_IMAGE;

@@ -3,6 +3,7 @@ import {
   Smartphone, Monitor, Wifi, Cpu, Bluetooth, Check, ShieldCheck,
 } from 'lucide-react';
 import { resolveImageUrl, placeholderImage } from '../config/api';
+import ZoomImage from './ZoomImage';
 import {
   buildGeneratedDescription,
   getManualSections,
@@ -100,11 +101,14 @@ const ProductDescription = ({ product }) => {
           className="grid gap-6 lg:grid-cols-2 lg:items-center"
         >
           <div className="overflow-hidden rounded-2xl bg-slate-100">
-            <img
+            <ZoomImage
               src={showcaseUrl}
+              imageCount={product.images?.length}
               alt={gen.showcase.image.alt || gen.headline}
               loading="lazy"
-              className={`h-full w-full object-cover object-center aspect-[3/2] ${product.images?.length > 20 ? 'scale-[1.5]' : ''}`}
+              className="h-full w-full object-center aspect-[3/2]"
+              zoomClass="object-cover scale-[1.5]"
+              noZoomClass="object-contain"
             />
           </div>
           <ul className="space-y-3">
