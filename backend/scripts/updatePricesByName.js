@@ -32,6 +32,7 @@ const INCH = {
   '9': /\b9\s*(?:inch|")/i, // 9" needs the word/symbol so stray 9s don't match
   '10.25': /\b10[.,]25(?!\d)/,
   '12.3': /\b12[.,]3(?!\d)/,
+  '12.9': /\b12[.,]9(?!\d)/,
 };
 // RAM. \b stops storage (64GB/128GB/256GB) from being read as RAM.
 const RAM = {
@@ -44,6 +45,8 @@ const MODEL = {
   audiQ5: /\bQ5\b/i,
   audiQ3: /\bQ3\b/i,
 };
+// Mercedes infotainment generations we price (4.0 / 4.5 / 5.0; not 5.1, 6.0…).
+const MERC_NTG = /\bNTG\s*(?:4[.,]0|4[.,]5|5[.,]0)\b/i;
 
 // ---- Audi: price = f(model, inch, ram), no tech token --------------------
 // Specific models first, then generic Audi.
@@ -67,7 +70,23 @@ const AUDI = {
   ],
 };
 
-let BRANDS = [AUDI];
+// ---- Mercedes: price = f(inch, ram), gated on an NTG 4.0/4.5/5.0 token ----
+const MERCEDES = {
+  name: 'Mercedes',
+  match: { $or: [{ brand: /mercedes/i }, { name: /mercedes/i }] },
+  // Only NTG 4.0/4.5/5.0 units are in scope; other Mercedes navs are ignored.
+  scope: MERC_NTG,
+  rules: [
+    { label: 'NTG 10.25 4GB', when: [MERC_NTG, INCH['10.25'], RAM['4GB']], price: 2475 },
+    { label: 'NTG 10.25 8GB', when: [MERC_NTG, INCH['10.25'], RAM['8GB']], price: 2795 },
+    { label: 'NTG 12.3 4GB',  when: [MERC_NTG, INCH['12.3'],  RAM['4GB']], price: 2795 },
+    { label: 'NTG 12.3 8GB',  when: [MERC_NTG, INCH['12.3'],  RAM['8GB']], price: 3115 },
+    { label: 'NTG 12.9 4GB',  when: [MERC_NTG, INCH['12.9'],  RAM['4GB']], price: 3295 },
+    { label: 'NTG 12.9 8GB',  when: [MERC_NTG, INCH['12.9'],  RAM['8GB']], price: 3615 },
+  ],
+};
+
+let BRANDS = [AUDI, MERCEDES];
 if (ONLY_BRAND) {
   BRANDS = BRANDS.filter((b) => b.name.toLowerCase() === ONLY_BRAND.toLowerCase());
 }
