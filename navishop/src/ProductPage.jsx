@@ -311,9 +311,7 @@ const ProductPage = () => {
                       src={resolveProductImage(product.images[selectedImage] || product.images[0])}
                       imageCount={product.images?.length}
                       alt={product.images[selectedImage]?.alt || product.name}
-                      className="w-full rounded-lg object-center transition-transform duration-300"
-                      zoomClass="h-64 sm:h-72 object-cover lg:h-auto lg:aspect-[3/2] lg:scale-[1.55] group-hover:scale-105 lg:group-hover:scale-[1.62]"
-                      noZoomClass="h-64 sm:h-72 lg:h-80 object-contain group-hover:scale-105"
+                      className="w-full h-64 sm:h-72 lg:h-80 rounded-lg"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                       <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
@@ -343,9 +341,8 @@ const ProductPage = () => {
                         src={resolveProductImage(img)}
                         imageCount={product.images?.length}
                         alt={img.alt || product.name}
-                        className="w-full h-full object-center"
-                        zoomClass="object-cover lg:scale-[1.5]"
-                        noZoomClass="object-contain"
+                        className="w-full h-full"
+                        hover={false}
                       />
                     </button>
                   ))}
@@ -417,7 +414,7 @@ const ProductPage = () => {
                   </span>
                 </>
               )}
-              {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
+              {!isBusinessAccount && product.originalPrice > product.price && (
                 <>
                   <span className="text-lg sm:text-xl text-gray-500 line-through">{product.originalPrice} lei</span>
                   <span className="inline-flex items-center justify-center bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -875,7 +872,7 @@ const ProductPage = () => {
                       {isBusinessAccount && (
                         <span className="text-xs sm:text-sm text-gray-500 line-through">{accessory.price} lei</span>
                       )}
-                      {!isBusinessAccount && accessory.originalPrice && accessory.originalPrice > accessory.price && (
+                      {!isBusinessAccount && accessory.originalPrice > accessory.price && (
                         <span className="text-xs sm:text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
                       )}
                     </div>

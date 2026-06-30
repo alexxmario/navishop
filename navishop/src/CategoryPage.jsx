@@ -141,9 +141,7 @@ const CategoryPage = () => {
                   src={primaryImage}
                   imageCount={product.images?.length}
                   alt={product.name}
-                  className="w-full h-full object-center"
-                  zoomClass="object-cover scale-[1.5]"
-                  noZoomClass="object-contain"
+                  className="w-full h-full"
                 />
               ) : (
                 <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
@@ -184,7 +182,7 @@ const CategoryPage = () => {
           <div className={`mt-auto flex items-end justify-between gap-2 mb-3 sm:mb-4 ${viewMode === 'list' ? 'sm:flex-col sm:items-start sm:gap-2' : ''}`}>
             <div className="flex items-center gap-1.5 flex-wrap min-w-0">
               <span className="text-sm sm:text-base font-semibold text-gray-900">{product.price.toFixed(2)} RON</span>
-              {product.originalPrice && (
+              {product.originalPrice > product.price && (
                 <span className="text-xs text-gray-500 line-through">{product.originalPrice.toFixed(2)} RON</span>
               )}
             </div>

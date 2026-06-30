@@ -311,7 +311,7 @@ const ProductPageExperimental = () => {
             {/* Price */}
             <div className="flex items-center gap-4">
               <span className="text-4xl font-bold text-gray-900">{product.price} lei</span>
-              {product.originalPrice && product.originalPrice > product.price && (
+              {product.originalPrice > product.price && (
                 <>
                   <span className="text-xl text-gray-500 line-through">{product.originalPrice} lei</span>
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">

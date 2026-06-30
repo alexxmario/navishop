@@ -106,9 +106,7 @@ const ProductDescription = ({ product }) => {
               imageCount={product.images?.length}
               alt={gen.showcase.image.alt || gen.headline}
               loading="lazy"
-              className="h-full w-full object-center aspect-[3/2]"
-              zoomClass="object-cover scale-[1.5]"
-              noZoomClass="object-contain"
+              className="h-full w-full aspect-[3/2]"
             />
           </div>
           <ul className="space-y-3">

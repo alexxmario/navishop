@@ -1,30 +1,41 @@
 import React from 'react';
-import { shouldConsiderZoom, useSafeZoom } from '../utils/imageZoom';
+import { shouldConsiderZoom, useZoomScale } from '../utils/imageZoom';
 
 /**
- * Product <img> that center-zooms only when it is safe to do so.
+ * Product <img> that zooms in as far as the photo's white padding safely
+ * allows, and never crops the product.
  *
- * Zoom is applied when the product has enough images (>= ZOOM_MIN_IMAGES) AND
- * the photo has enough white margin that the crop won't cut off the product.
- * Otherwise the image falls back to its uncropped framing.
+ * It always uses object-contain (whole product visible) and applies a center
+ * transform scale computed from the image's white margins: well-padded photos
+ * zoom in to fill the frame, tightly-shot photos zoom little or not at all.
+ * Zoom is only considered when the product has enough images (>= ZOOM_MIN_IMAGES).
  *
- * - `className`   base classes always applied
- * - `zoomClass`   classes applied when the zoom is safe
- * - `noZoomClass` classes applied when zoom is disabled or unsafe
+ * - `className` base classes always applied (sizing, rounding, etc.)
+ * - `hover`     when true (default) the image nudges a little larger on hover
  */
 const ZoomImage = ({
   src,
   alt = '',
   imageCount = 0,
   className = '',
-  zoomClass = '',
-  noZoomClass = '',
+  hover = true,
+  style,
   ...rest
 }) => {
-  const zoom = useSafeZoom(src, shouldConsiderZoom(imageCount));
-  const classes = `${className} ${zoom ? zoomClass : noZoomClass}`.trim();
+  const scale = useZoomScale(src, shouldConsiderZoom(imageCount));
+  const hoverScale = hover ? Number((scale * 1.04).toFixed(3)) : scale;
 
-  return <img src={src} alt={alt} className={classes} {...rest} />;
+  return (
+    <img
+      src={src}
+      alt={alt}
+      style={{ '--zoom': scale, '--zoom-hover': hoverScale, ...style }}
+      className={`${className} object-contain transition-transform duration-300 [transform:scale(var(--zoom))] ${
+        hover ? 'group-hover:[transform:scale(var(--zoom-hover))]' : ''
+      }`.trim()}
+      {...rest}
+    />
+  );
 };
 
 export default ZoomImage;

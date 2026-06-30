@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
-// Products are only worth center-zooming when they carry the newer large,
+// Products are only worth zooming when they carry the newer large,
 // white-padded photo sets. Anything with fewer images keeps its original
-// (uncropped) framing.
+// (un-zoomed) framing.
 export const ZOOM_MIN_IMAGES = 20;
 
 // A pixel counts as "background" when it is near-white (or fully transparent).
@@ -10,28 +10,40 @@ export const ZOOM_MIN_IMAGES = 20;
 // product itself.
 const WHITE_THRESHOLD = 245;
 
-// The center-zoom enlarges the image ~1.5x and crops from the center, which
-// removes roughly 1/6 (~16.7%) off each edge. We require at least this much
-// uniform white margin on every side before allowing the zoom, otherwise the
-// crop would slice into the product.
-const SAFE_MARGIN = 0.14;
-
 // Downscale before sampling so the analysis stays cheap regardless of the
 // original resolution.
 const SAMPLE_MAX = 160;
 
+// Never zoom past this, no matter how much white padding there is.
+const MAX_SCALE = 1.5;
+
+// How much of the theoretical "just touches the object" zoom we actually use.
+// < 1 means we always stop a little short of the object, never on it.
+const ZOOM_BACKOFF = 0.85;
+
 export const shouldConsiderZoom = (imageCount) =>
   (imageCount || 0) >= ZOOM_MIN_IMAGES;
 
-// src -> Promise<{ safe: boolean, margins: object | null }>
-const analysisCache = new Map();
+// Turn the smallest white margin into a zoom factor. With object-contain, a
+// center scale of S crops (1 - 1/S)/2 off each side, so the largest scale that
+// just reaches the object is 1 / (1 - 2 * margin). We back off from that so the
+// crop always stops short of the product.
+const marginToScale = (minMargin) => {
+  if (!minMargin || minMargin <= 0) return 1;
+  const justTouches = 1 / (1 - 2 * minMargin);
+  const scale = 1 + ZOOM_BACKOFF * (justTouches - 1);
+  return Math.min(MAX_SCALE, Math.max(1, Number(scale.toFixed(3))));
+};
 
-const analyzeWhitespace = (src) => {
+// src -> Promise<number | null>  (smallest white margin as a fraction)
+const marginCache = new Map();
+
+const measureWhitespace = (src) => {
   if (!src || typeof document === 'undefined') {
-    return Promise.resolve({ safe: false, margins: null });
+    return Promise.resolve(null);
   }
-  if (analysisCache.has(src)) {
-    return analysisCache.get(src);
+  if (marginCache.has(src)) {
+    return marginCache.get(src);
   }
 
   const promise = new Promise((resolve) => {
@@ -76,63 +88,57 @@ const analyzeWhitespace = (src) => {
         }
 
         if (maxX < 0) {
-          // Entirely white — nothing to protect, but nothing to show either.
-          resolve({ safe: false, margins: null });
+          // Entirely white — nothing to zoom into.
+          resolve(null);
           return;
         }
 
-        const margins = {
-          left: minX / w,
-          right: (w - 1 - maxX) / w,
-          top: minY / h,
-          bottom: (h - 1 - maxY) / h,
-        };
         const minMargin = Math.min(
-          margins.left,
-          margins.right,
-          margins.top,
-          margins.bottom
+          minX / w,
+          (w - 1 - maxX) / w,
+          minY / h,
+          (h - 1 - maxY) / h
         );
-
-        resolve({ safe: minMargin >= SAFE_MARGIN, margins });
+        resolve(minMargin);
       } catch (error) {
         // Tainted canvas (cross-origin without CORS) or any read failure:
-        // err on the side of not cropping.
-        resolve({ safe: false, margins: null });
+        // err on the side of not zooming.
+        resolve(null);
       }
     };
 
-    img.onerror = () => resolve({ safe: false, margins: null });
+    img.onerror = () => resolve(null);
     img.src = src;
   });
 
-  analysisCache.set(src, promise);
+  marginCache.set(src, promise);
   return promise;
 };
 
 /**
- * Decide whether a product image can be safely center-zoomed.
+ * Returns the largest scale a product image can be zoomed to without cropping
+ * the product, backed off slightly so it always stops short of the object.
  *
- * Returns true only when zooming is enabled (enough images) AND the image has
- * enough white padding on every side that the crop won't cut off the product.
+ * Returns 1 (no zoom) when zooming is disabled (too few images) or the image
+ * has no usable white margin / can't be analyzed.
  */
-export const useSafeZoom = (src, enabled = true) => {
-  const [safe, setSafe] = useState(false);
+export const useZoomScale = (src, enabled = true) => {
+  const [scale, setScale] = useState(1);
 
   useEffect(() => {
     if (!enabled || !src) {
-      setSafe(false);
+      setScale(1);
       return undefined;
     }
 
     let active = true;
-    analyzeWhitespace(src).then((result) => {
-      if (active) setSafe(result.safe);
+    measureWhitespace(src).then((minMargin) => {
+      if (active) setScale(marginToScale(minMargin));
     });
     return () => {
       active = false;
     };
   }, [src, enabled]);
 
-  return safe;
+  return scale;
 };

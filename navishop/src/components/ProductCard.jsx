@@ -177,9 +177,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
               src={getProductImage(product.images?.[0])}
               imageCount={product.images?.length}
               alt={product.images?.[0]?.alt || product.name}
-              className="w-full h-full object-center rounded-lg"
-              zoomClass="object-cover scale-[1.5]"
-              noZoomClass="object-contain"
+              className="w-full h-full rounded-lg"
               onError={handleImageError}
               loading="lazy"
             />
@@ -214,7 +212,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
                     </span>
                   </>
                 )}
-                {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
+                {!isBusinessAccount && product.originalPrice > product.price && (
                   <span className="text-lg text-gray-500 line-through">
                     {product.originalPrice} lei
                   </span>
@@ -270,9 +268,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             src={getProductImage(product.images?.[0])}
             imageCount={product.images?.length}
             alt={product.images?.[0]?.alt || product.name}
-            className="w-full h-40 sm:h-48 object-center rounded-lg transition-transform duration-300"
-            zoomClass="object-cover scale-[1.5] group-hover:scale-[1.56]"
-            noZoomClass="object-contain group-hover:scale-105"
+            className="w-full h-40 sm:h-48 rounded-lg"
             onError={handleImageError}
             loading="lazy"
           />
@@ -318,7 +314,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
                 {product.price} lei
               </span>
             )}
-            {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
+            {!isBusinessAccount && product.originalPrice > product.price && (
               <span className="text-xs text-gray-500 line-through">
                 {product.originalPrice} lei
               </span>
