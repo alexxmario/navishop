@@ -296,9 +296,9 @@ const ProductPage = () => {
           <div className="space-y-4">
             <motion.div
               className="bg-white border border-gray-100 rounded-lg p-4 sm:p-6 shadow-sm"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
             >
               <div className="text-center mb-4">
                 {product.images && product.images.length > 0 ? (
@@ -367,10 +367,10 @@ const ProductPage = () => {
           </div>
 
           {/* Product Info */}
-          <motion.div 
+          <motion.div
             className="space-y-6"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
             <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-gray-900 leading-tight text-center sm:text-left break-words">
