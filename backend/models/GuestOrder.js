@@ -138,6 +138,19 @@ const guestOrderSchema = new mongoose.Schema({
     invoiceNumber: {
       type: String
     },
+    // Which billing company this invoice was issued under (SmartBill).
+    companyId: {
+      type: String
+    },
+    companyName: {
+      type: String
+    },
+    companyCif: {
+      type: String
+    },
+    companySeries: {
+      type: String
+    },
     createdAt: {
       type: Date,
       default: Date.now

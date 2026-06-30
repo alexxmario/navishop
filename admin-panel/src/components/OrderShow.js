@@ -267,6 +267,83 @@ const confirmMessages = {
   cancel: 'ANULEAZĂ comanda?\n\nAceastă acțiune NU poate fi anulată!',
 };
 
+// Process Dialog Component — lets the admin pick which company to invoice under
+const ProcessCompanyDialog = ({ open, onClose, onSubmit }) => {
+  const [companies, setCompanies] = useState([]);
+  const [selected, setSelected] = useState('');
+  const [loading, setLoading] = useState(false);
+  const notify = useNotify();
+
+  useEffect(() => {
+    if (!open) return;
+    const fetchCompanies = async () => {
+      try {
+        const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+        const token = localStorage.getItem('token');
+        const response = await fetch(`${apiUrl}/api/orders/billing-companies`, {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.message || 'Nu s-au putut încărca companiile');
+        setCompanies(data.companies || []);
+        if (data.companies?.length) setSelected(data.companies[0].id);
+      } catch (error) {
+        notify(`Eroare: ${error.message}`, { type: 'error' });
+      }
+    };
+    fetchCompanies();
+  }, [open, notify]);
+
+  const handleConfirm = async () => {
+    if (!selected) return;
+    setLoading(true);
+    try {
+      await onSubmit(selected);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <Dialog open={open} onClose={onClose} maxWidth="sm" fullWidth>
+      <DialogTitle>Procesează comanda → SmartBill</DialogTitle>
+      <DialogContent>
+        <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
+          Alegeți compania pe care se va emite factura. Aceasta va genera factura
+          SmartBill și va schimba statusul comenzii în „În procesare".
+        </Typography>
+        <FormControl fullWidth>
+          <InputLabel id="billing-company-label">Companie facturare</InputLabel>
+          <Select
+            labelId="billing-company-label"
+            label="Companie facturare"
+            value={selected}
+            onChange={(e) => setSelected(e.target.value)}
+          >
+            {companies.map((c) => (
+              <MenuItem key={c.id} value={c.id}>
+                {c.name} (CIF {c.cif})
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={onClose} disabled={loading}>Anulează</Button>
+        <Button
+          onClick={handleConfirm}
+          variant="contained"
+          color="secondary"
+          disabled={loading || !selected}
+          startIcon={loading ? <CircularProgress size={18} /> : <InvoiceIcon />}
+        >
+          {loading ? 'Se procesează...' : 'Generează factura'}
+        </Button>
+      </DialogActions>
+    </Dialog>
+  );
+};
+
 // AWB Options Dialog Component
 const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
   const [loading, setLoading] = useState(false);
@@ -638,10 +715,16 @@ const OrderActions = () => {
   const { record } = useShowController();
   const notify = useNotify();
   const [awbDialogOpen, setAwbDialogOpen] = useState(false);
+  const [processDialogOpen, setProcessDialogOpen] = useState(false);
 
   const handleAction = async (action, additionalData = {}) => {
     if (action === 'ship') {
       setAwbDialogOpen(true);
+      return;
+    }
+
+    if (action === 'process') {
+      setProcessDialogOpen(true);
       return;
     }
 
@@ -668,6 +751,35 @@ const OrderActions = () => {
       }
 
       notify(data.message || `Comanda a fost actualizată cu succes`, { type: 'success' });
+      window.location.reload();
+    } catch (error) {
+      notify(`Eroare: ${error.message}`, { type: 'error' });
+      window.alert(`Eroare la procesarea comenzii:\n${error.message}`);
+    }
+  };
+
+  const handleProcessWithCompany = async (company) => {
+    try {
+      const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+      const token = localStorage.getItem('token');
+
+      const response = await fetch(`${apiUrl}/api/orders/${record.id}/process`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ action: 'process', company })
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || data.error || 'Request failed');
+      }
+
+      notify(data.message || 'Comanda a fost procesată cu succes', { type: 'success' });
+      setProcessDialogOpen(false);
       window.location.reload();
     } catch (error) {
       notify(`Eroare: ${error.message}`, { type: 'error' });
@@ -760,6 +872,12 @@ const OrderActions = () => {
           </Button>
         )}
       </TopToolbar>
+
+      <ProcessCompanyDialog
+        open={processDialogOpen}
+        onClose={() => setProcessDialogOpen(false)}
+        onSubmit={handleProcessWithCompany}
+      />
 
       <AWBOptionsDialog
         open={awbDialogOpen}

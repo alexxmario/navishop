@@ -20,13 +20,15 @@ class SmartBillService {
     return `Basic ${Buffer.from(credentials).toString('base64')}`;
   }
 
-  // Create invoice using EXACT SmartBill API specification
-  async createInvoice(orderData) {
+  // Create invoice using EXACT SmartBill API specification.
+  // `company` (optional) = { cif, series } selects which company to invoice
+  // under; falls back to the SMARTBILL_CIF / SMARTBILL_SERIES env defaults.
+  async createInvoice(orderData, company = null) {
     try {
       // Validate configuration first
       this.validateConfig();
-      
-      const invoiceData = this.formatInvoiceDataExact(orderData);
+
+      const invoiceData = this.formatInvoiceDataExact(orderData, company);
       
       console.log('SmartBill invoice data (EXACT FORMAT):', JSON.stringify(invoiceData, null, 2));
       console.log('SmartBill auth header:', this.getAuthHeader());
@@ -66,10 +68,10 @@ class SmartBillService {
   }
 
   // Format order data using EXACT SmartBill API specification
-  formatInvoiceDataExact(orderData) {
+  formatInvoiceDataExact(orderData, company = null) {
     return {
       // REQUIRED: Company VAT code
-      companyVatCode: process.env.SMARTBILL_CIF,
+      companyVatCode: company?.cif || process.env.SMARTBILL_CIF,
       
       // REQUIRED: Client data
       client: {
@@ -87,7 +89,7 @@ class SmartBillService {
       
       // Invoice data - using defaults from documentation
       issueDate: new Date().toISOString().split('T')[0],
-      seriesName: process.env.SMARTBILL_SERIES || 'FACT',
+      seriesName: company?.series || process.env.SMARTBILL_SERIES || 'FACT',
       isDraft: false,
       currency: 'RON',
       precision: 2,
@@ -210,15 +212,16 @@ class SmartBillService {
     }
   }
 
-  // Get invoice PDF
-  async getInvoicePDF(invoiceId) {
+  // Get invoice PDF. `company` (optional) = { cif, series } must match the
+  // company the invoice was issued under; falls back to the env defaults.
+  async getInvoicePDF(invoiceId, company = null) {
     try {
       const response = await axios.get(
         `${this.baseURL}/invoice/pdf`,
         {
           params: {
-            cif: process.env.SMARTBILL_CIF,
-            seriesname: process.env.SMARTBILL_SERIES,
+            cif: company?.cif || process.env.SMARTBILL_CIF,
+            seriesname: company?.series || process.env.SMARTBILL_SERIES,
             number: invoiceId
           },
           headers: {

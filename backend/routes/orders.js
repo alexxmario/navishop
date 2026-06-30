@@ -7,6 +7,7 @@ const auth = require('../middleware/auth');
 const smartbillService = require('../services/smartbillServiceCorrect');
 const euplatescService = require('../services/euplatescService');
 const fanCourierService = require('../services/fanCourierService');
+const { getBillingCompany, listBillingCompanies } = require('../config/billingCompanies');
 const router = express.Router();
 
 // Get user's orders
@@ -127,6 +128,15 @@ router.get('/', auth, async (req, res) => {
       error: error.message 
     });
   }
+});
+
+// List billing companies available for invoicing (admin only).
+// Registered before '/:id' so the static path isn't captured as an order id.
+router.get('/billing-companies', auth, async (req, res) => {
+  if (req.user.role !== 'admin') {
+    return res.status(403).json({ message: 'Access denied. Admin privileges required.' });
+  }
+  res.json({ companies: listBillingCompanies() });
 });
 
 // Get single order by ID (admin only)
@@ -739,12 +749,22 @@ router.put('/:orderId/process', auth, async (req, res) => {
         responseData.message = 'Order confirmed successfully';
         break;
 
-      case 'process':
+      case 'process': {
         if (order.status !== 'confirmed') {
           return res.status(400).json({ message: 'Order can only be processed from confirmed status' });
         }
+
+        // Admin must pick which company to invoice under (per-order choice).
+        const billingCompany = getBillingCompany(req.body.company);
+        if (!billingCompany) {
+          return res.status(400).json({ message: 'Selectați compania pentru facturare (parametrul "company" lipsește sau este invalid).' });
+        }
+        if (!billingCompany.series) {
+          return res.status(400).json({ message: `Seria de facturare nu este configurată pentru ${billingCompany.name}. Setați variabila de mediu pe server.` });
+        }
+
         order.status = 'processing';
-        
+
         // Generate SmartBill invoice - this is now done manually by admin
         try {
           let orderForInvoice;
@@ -777,12 +797,16 @@ router.put('/:orderId/process', auth, async (req, res) => {
             };
           }
 
-          const invoiceResult = await smartbillService.createInvoice(orderForInvoice);
+          const invoiceResult = await smartbillService.createInvoice(orderForInvoice, billingCompany);
 
           if (invoiceResult.success) {
             order.invoice = {
               invoiceId: invoiceResult.invoiceId,
               invoiceNumber: invoiceResult.invoiceNumber,
+              companyId: billingCompany.id,
+              companyName: billingCompany.name,
+              companyCif: billingCompany.cif,
+              companySeries: billingCompany.series,
               createdAt: new Date()
             };
             
@@ -804,7 +828,7 @@ router.put('/:orderId/process', auth, async (req, res) => {
             }
             
             responseData.invoice = invoiceResult;
-            responseData.message = 'Order moved to processing and SmartBill invoice generated';
+            responseData.message = `Comandă procesată și factură SmartBill generată pentru ${billingCompany.name}`;
           } else {
             return res.status(500).json({ 
               message: 'Failed to generate SmartBill invoice', 
@@ -819,6 +843,7 @@ router.put('/:orderId/process', auth, async (req, res) => {
           });
         }
         break;
+      }
 
       case 'ship':
         if (order.status !== 'processing') {
@@ -953,8 +978,12 @@ router.get('/:orderId/invoice-pdf', auth, async (req, res) => {
       return res.status(404).json({ message: 'Invoice not yet generated for this order' });
     }
 
-    // Fetch PDF from SmartBill
-    const pdfResult = await smartbillService.getInvoicePDF(order.invoice.invoiceNumber);
+    // Fetch PDF from SmartBill using the company the invoice was issued under.
+    // Older invoices have no stored company -> getInvoicePDF falls back to env defaults.
+    const invoiceCompany = order.invoice.companyCif
+      ? { cif: order.invoice.companyCif, series: order.invoice.companySeries }
+      : null;
+    const pdfResult = await smartbillService.getInvoicePDF(order.invoice.invoiceNumber, invoiceCompany);
 
     if (!pdfResult.success) {
       return res.status(500).json({
