@@ -4,7 +4,7 @@ import { useAuth } from '../AuthContext';
 import { useCart } from '../CartContext';
 import logoSvg from '../logo.svg';
 import {
-  Search, Menu, User, ShoppingCart, ChevronDown
+  Search, Menu, User, ShoppingCart, ChevronDown, X, Truck
 } from 'lucide-react';
 
 const categories = [
@@ -123,36 +123,33 @@ const Header = ({
 
             {/* User Actions */}
             <div className="actions-container">
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center gap-1 sm:gap-2">
                 <Link
                   to={isAuthenticated() ? "/dashboard" : "/login"}
-                  className={`${isAuthenticated() ? "text-blue-600 hover:text-blue-700" : "text-gray-700 hover:text-blue-600"}`}
+                  aria-label="Contul meu"
+                  className={`p-2 rounded-lg transition-colors ${isAuthenticated() ? "text-blue-600 hover:bg-blue-50" : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"}`}
                 >
                   <User className="w-5 h-5" />
                 </Link>
-                <Link to="/cart" className="relative text-gray-700 hover:text-blue-600">
+                <Link
+                  to="/cart"
+                  aria-label="Coșul de cumpărături"
+                  className="relative p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors"
+                >
                   <ShoppingCart className="w-5 h-5" />
                   {getCartItemsCount() > 0 && (
-                    <span className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                    <span className="absolute top-0 right-0 bg-blue-600 text-white text-[10px] font-semibold rounded-full min-w-[1.1rem] h-[1.1rem] px-1 flex items-center justify-center">
                       {getCartItemsCount()}
                     </span>
                   )}
                 </Link>
-                {/* Mobile GPS Button - visible only on mobile */}
-                {showNavigation && (
-                  <Link
-                    to="/category/gps"
-                    className="md:hidden inline-flex items-center px-3 py-1.5 bg-gray-900 text-white text-xs font-semibold hover:bg-gray-700 transition-colors"
-                  >
-                    GPS Camion
-                  </Link>
-                )}
                 {showNavigation && (
                   <button
-                    className="text-gray-700 hover:text-blue-600 md:hidden"
+                    aria-label="Meniu"
+                    className="p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors md:hidden"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
-                    <Menu className="w-5 h-5" />
+                    {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
                   </button>
                 )}
               </div>
@@ -166,14 +163,14 @@ const Header = ({
                 <input
                   type="text"
                   placeholder="Caută navigații auto..."
-                  className="w-full pl-10 pr-20 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 text-sm"
+                  className="w-full pl-11 pr-20 py-2.5 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:bg-white focus:border-blue-600 focus:ring-1 focus:ring-blue-600 text-sm transition-colors"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
-                <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
+                <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <button
                   type="submit"
-                  className="absolute right-1.5 top-1.5 px-3 py-1.5 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700 transition-colors"
+                  className="absolute right-1.5 top-1/2 -translate-y-1/2 px-3.5 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   Caută
                 </button>
@@ -185,36 +182,36 @@ const Header = ({
 
       {/* Mobile Menu */}
       {showNavigation && isMenuOpen && (
-        <div className="md:hidden bg-white border-b border-gray-100">
-          <div className="px-4 py-2 space-y-2">
-            {/* Mobile Products Dropdown */}
-            <div>
-              <button
-                onClick={() => setIsProductsDropdownOpen(!isProductsDropdownOpen)}
-                className="flex items-center justify-between py-2 text-left w-full text-gray-700 hover:text-blue-600"
+        <div className="md:hidden bg-white border-b border-gray-100 shadow-lg">
+          <nav className="px-4 py-3 space-y-1">
+              {/* Categories */}
+              <p className="px-1 pt-1 pb-2 text-xs font-semibold uppercase tracking-wide text-gray-400">Categorii</p>
+              {categories.map((category) => (
+                <Link
+                  key={category.id}
+                  to={`/category/${category.id}`}
+                  className="block px-3 py-2.5 rounded-lg text-[15px] text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {category.name}
+                </Link>
+              ))}
+
+              <div className="h-px bg-gray-100 my-2" />
+
+              <Link to="/reduceri" className="block px-3 py-2.5 rounded-lg text-[15px] text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
+              <Link to="/contact" className="block px-3 py-2.5 rounded-lg text-[15px] text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+              <Link to="/b2b" className="block px-3 py-2.5 rounded-lg text-[15px] text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors" onClick={() => setIsMenuOpen(false)}>Cont B2B</Link>
+
+              <Link
+                to="/category/gps"
+                className="mt-2 flex items-center justify-center gap-2 px-4 py-3 bg-gray-900 text-white text-sm font-semibold rounded-xl hover:bg-gray-800 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
-                <span>Produse</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${isProductsDropdownOpen ? 'rotate-180' : ''}`} />
-              </button>
-              {isProductsDropdownOpen && (
-                <div className="pl-4 pb-2 space-y-1">
-                  {categories.map((category) => (
-                    <Link
-                      key={category.id}
-                      to={`/category/${category.id}`}
-                      className="flex items-center gap-2 py-2 text-gray-600 hover:text-blue-600"
-                      onClick={() => { setIsMenuOpen(false); setIsProductsDropdownOpen(false); }}
-                    >
-                      <span className="text-sm">{category.name}</span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-            <Link to="/reduceri" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Reduceri</Link>
-            <Link to="/contact" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Contact</Link>
-            <Link to="/b2b" className="block py-2 text-gray-700 hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Cont B2B</Link>
-          </div>
+                <Truck className="w-4 h-4" />
+                GPS Camion
+              </Link>
+          </nav>
         </div>
       )}
     </>

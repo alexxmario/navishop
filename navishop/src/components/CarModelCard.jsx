@@ -165,7 +165,7 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
   return (
     <Link
       to={`/brand/${encodeURIComponent(brand)}/${encodeURIComponent(modelKey)}`}
-      className="bg-white border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
+      className="bg-white border border-gray-100 rounded-xl hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
     >
       <div className="aspect-video bg-white flex items-center justify-center relative overflow-hidden">
         {!imageError ? (
@@ -194,15 +194,15 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
         )}
       </div>
       
-      <div className="p-6">
-        <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+      <div className="p-4 sm:p-6">
+        <h3 className="text-sm sm:text-base font-medium text-gray-900 mb-1 sm:mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
           {brand} {modelData.model}
         </h3>
-        
-        <div className="text-sm text-gray-600 mb-3">
+
+        <div className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
           {formatYears(modelData.years)}
         </div>
-        
+
         <div className="flex items-center justify-between">
           <span className="text-sm text-blue-600 font-medium">
             {modelData.productCount} {modelData.productCount === 1 ? 'produs' : 'produse'}

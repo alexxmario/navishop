@@ -324,12 +324,12 @@ const ProductPage = () => {
                 )}
               </div>
               {product.images && product.images.length > 1 && (
-                <div className="flex flex-wrap justify-center gap-2">
+                <div className="flex flex-nowrap gap-2 overflow-x-auto scrollbar-hide pb-1 sm:flex-wrap sm:justify-center sm:overflow-visible">
                   {product.images.map((img, index) => (
                     <button
                       key={index}
                       onClick={() => setSelectedImage(index)}
-                      className={`w-14 h-14 sm:w-16 sm:h-16 rounded border-2 overflow-hidden transition hover:scale-105 ${
+                      className={`flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded border-2 overflow-hidden transition hover:scale-105 ${
                         selectedImage === index
                           ? 'border-blue-600 bg-blue-50'
                           : 'border-gray-200 hover:border-gray-300'
@@ -959,7 +959,7 @@ const ProductPage = () => {
             {/* Thumbnail strip */}
             {product.images.length > 1 && (
               <div
-                className="flex justify-center gap-2 px-6 pb-7 pt-3 z-20"
+                className="flex justify-start sm:justify-center gap-2 px-6 pb-7 pt-3 z-20 overflow-x-auto scrollbar-hide"
                 onClick={e => e.stopPropagation()}
               >
                 {product.images.map((img, index) => (

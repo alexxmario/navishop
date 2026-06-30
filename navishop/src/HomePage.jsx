@@ -202,37 +202,38 @@ const HomePage = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32 overflow-hidden">
+      <section className="py-12 sm:py-20 md:py-32 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* 3D model first on mobile so the hero leads with the product */}
+            <div className="relative order-first lg:order-last">
+              <Suspense fallback={<div className="w-full h-64 sm:h-96 md:h-[500px]" />}>
+                <NavigationModel3D />
+              </Suspense>
+              <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent pointer-events-none"></div>
+            </div>
             <div className="text-center lg:text-left">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 text-gray-900 leading-tight">
                 Navigații auto <span className="text-blue-600">dedicate</span>
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 mb-12">
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 sm:mb-12">
                 Plug &amp; play pentru toate mărcile. Garanție 1 an pe fiecare produs.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                 <Link
                   to="/category/navigatii-gps"
-                  className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 transition-colors font-medium text-center"
+                  className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium text-center"
                 >
                   Vezi navigații GPS
                 </Link>
                 <button
                   type="button"
                   onClick={scrollToVehicleSearch}
-                  className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 hover:bg-blue-50 transition-colors font-medium"
+                  className="bg-white text-blue-600 border-2 border-blue-600 px-6 sm:px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors font-medium"
                 >
                   Caută pentru mașina ta
                 </button>
               </div>
-            </div>
-            <div className="relative">
-              <Suspense fallback={<div className="w-full h-96 md:h-[500px]" />}>
-                <NavigationModel3D />
-              </Suspense>
-              <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent pointer-events-none"></div>
             </div>
           </div>
         </div>
@@ -242,11 +243,11 @@ const HomePage = () => {
       <FeaturedProductsCarousel />
 
       {/* Search Section */}
-      <section id="vehicle-search" className="py-16 bg-gray-50">
+      <section id="vehicle-search" className="py-12 sm:py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-light text-center mb-8">Găsește navigația pentru mașina ta</h2>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <h2 className="text-xl sm:text-2xl font-light text-center mb-6 sm:mb-8">Găsește navigația pentru mașina ta</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
               <select 
                 className="w-full p-3 border border-gray-200 bg-white focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                 value={selectedBrand}
@@ -296,20 +297,20 @@ const HomePage = () => {
       </section>
 
       {/* Brands Section */}
-      <section id="brands-section" className="py-16">
+      <section id="brands-section" className="py-12 sm:py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-light text-center mb-12">
+          <h2 className="text-xl sm:text-2xl font-light text-center mb-8 sm:mb-12">
             Compatibil cu <span className="text-blue-600">toate mărcile</span>
           </h2>
-          
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-8">
+
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-8">
             {brands.map((brand, index) => (
-              <Link 
-                key={index} 
+              <Link
+                key={index}
                 to={`/brand/${encodeURIComponent(brand.name.toLowerCase())}`}
                 className="text-center group cursor-pointer"
               >
-                <div className="w-20 h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-50 group-hover:border-blue-200 transition-all duration-200 shadow-sm group-hover:shadow-md">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3 group-hover:bg-blue-50 group-hover:border-blue-200 transition-all duration-200 shadow-sm group-hover:shadow-md">
                   <img 
                     src={brand.logo} 
                     alt={`${brand.name} logo`}
@@ -334,16 +335,16 @@ const HomePage = () => {
       </section>
 
       {/* Featured Products */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-12">
-            <h2 className="text-2xl font-light">Produse <span className="text-blue-600">populare</span></h2>
-            <button className="flex items-center text-sm hover:text-blue-600 text-gray-600">
+          <div className="flex items-center justify-between mb-6 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-light">Produse <span className="text-blue-600">populare</span></h2>
+            <Link to="/category/navigatii-gps" className="flex items-center text-sm hover:text-blue-600 text-gray-600 shrink-0">
               Vezi toate
               <ArrowRight className="w-4 h-4 ml-1" />
-            </button>
+            </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             {featuredProducts.map(product => (
               <ProductCard key={product._id} product={product} className="h-full" />
             ))}
@@ -352,9 +353,9 @@ const HomePage = () => {
       </section>
 
       {/* Features */}
-      <section className="py-16">
+      <section className="py-12 sm:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-50 border border-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Truck className="w-6 h-6 text-blue-600" />
@@ -386,19 +387,19 @@ const HomePage = () => {
       <ReviewsCarousel />
 
       {/* Newsletter */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-12 sm:py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           {newsletterStatus === 'success' ? (
             <div>
-              <h2 className="text-2xl font-semibold mb-2">Mulțumim!</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold mb-2">Mulțumim!</h2>
               <p className="text-blue-100">Te-ai abonat cu succes. Vei primi reducerea în curând.</p>
             </div>
           ) : (
             <>
-              <h2 className="text-2xl font-semibold mb-4">Reduceri exclusive în inbox</h2>
-              <p className="text-blue-100 mb-8">Abonează-te și primești 10% reducere la prima comandă.</p>
+              <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Reduceri exclusive în inbox</h2>
+              <p className="text-blue-100 mb-6 sm:mb-8">Abonează-te și primești 10% reducere la prima comandă.</p>
               <form
-                className="max-w-md mx-auto flex space-x-3"
+                className="max-w-md mx-auto flex flex-col sm:flex-row gap-3"
                 onSubmit={(e) => {
                   e.preventDefault();
                   if (newsletterEmail.trim()) setNewsletterStatus('success');
@@ -410,11 +411,11 @@ const HomePage = () => {
                   placeholder="Adresa ta de email"
                   value={newsletterEmail}
                   onChange={(e) => setNewsletterEmail(e.target.value)}
-                  className="flex-1 px-4 py-3 bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                  className="flex-1 px-4 py-3 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
                 />
                 <button
                   type="submit"
-                  className="bg-gray-900 text-white px-6 py-3 hover:bg-gray-800 transition-colors font-medium whitespace-nowrap"
+                  className="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors font-medium whitespace-nowrap"
                 >
                   Abonează-te
                 </button>

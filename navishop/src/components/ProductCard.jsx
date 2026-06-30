@@ -168,10 +168,10 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
     return (
       <>
         <Toast toast={toast} />
-        <div className={`bg-white border border-gray-100 p-6 hover:shadow-lg transition-shadow ${className}`}>
-        <Link to={`/product/${product.slug}`} className="flex gap-6">
+        <div className={`bg-white border border-gray-100 rounded-xl p-3 sm:p-6 hover:shadow-lg transition-shadow ${className}`}>
+        <Link to={`/product/${product.slug}`} className="flex gap-3 sm:gap-6">
           {/* Image */}
-          <div className="flex-shrink-0 w-48 h-48 relative overflow-hidden rounded-lg">
+          <div className="flex-shrink-0 w-28 h-28 sm:w-48 sm:h-48 relative overflow-hidden rounded-lg bg-gray-50">
             <img
               src={getProductImage(product.images?.[0])}
               alt={product.images?.[0]?.alt || product.name}
@@ -181,7 +181,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
             />
             {/* Screen Size Badge */}
             {screenSize && (
-              <div className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-md">
+              <div className="absolute top-2 left-2 bg-blue-600 text-white text-[10px] sm:text-xs font-bold px-1.5 py-0.5 sm:px-2 sm:py-1 rounded-md shadow-md">
                 {screenSize}"
               </div>
             )}
@@ -189,15 +189,15 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
 
           {/* Content */}
           <div className="flex-1 min-w-0">
-            <h3 className="text-lg font-semibold mb-2 text-gray-900 line-clamp-2">
+            <h3 className="text-sm sm:text-lg font-semibold mb-2 text-gray-900 line-clamp-2">
               {product.name}
             </h3>
 
-            {renderRating()}
+            <div className="hidden sm:block">{renderRating()}</div>
 
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold text-gray-900">
+            <div className="flex items-center justify-between gap-2 mb-3 sm:mb-4">
+              <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
+                <span className="text-lg sm:text-2xl font-bold text-gray-900">
                   {priceInfo.currentPrice} lei
                 </span>
                 {isBusinessAccount && (
@@ -258,88 +258,91 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
   return (
     <>
       <Toast toast={toast} />
-      <div className={`bg-white border border-gray-100 group hover:shadow-lg transition-shadow ${className}`}>
-      <Link to={`/product/${product.slug}`} className="block p-6">
+      <div className={`bg-white border border-gray-100 rounded-xl group hover:shadow-lg hover:border-gray-200 transition-all flex flex-col ${className}`}>
+      <Link to={`/product/${product.slug}`} className="flex flex-col flex-1 p-3 sm:p-5">
         {/* Image */}
-        <div className="mb-4 relative overflow-hidden rounded-lg">
+        <div className="mb-3 sm:mb-4 relative overflow-hidden rounded-lg bg-gray-50">
           <img
             src={getProductImage(product.images?.[0])}
             alt={product.images?.[0]?.alt || product.name}
-            className={`w-full h-48 object-cover object-center rounded-lg transition-transform duration-300 ${product.images?.length > 20 ? 'scale-[1.5] group-hover:scale-[1.56]' : 'group-hover:scale-105'}`}
+            className={`w-full h-40 sm:h-48 object-cover object-center rounded-lg transition-transform duration-300 ${product.images?.length > 20 ? 'scale-[1.5] group-hover:scale-[1.56]' : 'group-hover:scale-105'}`}
             onError={handleImageError}
             loading="lazy"
           />
           {/* Screen Size Badge */}
           {screenSize && (
-            <div className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-md">
+            <div className="absolute top-2 left-2 bg-blue-600 text-white text-[10px] sm:text-xs font-bold px-1.5 py-0.5 sm:px-2 sm:py-1 rounded-md shadow-md">
               {screenSize}"
+            </div>
+          )}
+          {/* Discount Badge */}
+          {product.discount > 0 && (
+            <div className="absolute top-2 right-2">
+              <span className="bg-red-500 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-full">
+                -{product.discount}%
+              </span>
             </div>
           )}
         </div>
 
         {/* Title */}
-        <h3 className="text-lg font-semibold mb-3 text-gray-900 line-clamp-2">
+        <h3 className="text-sm sm:text-base font-semibold mb-2 text-gray-900 line-clamp-2 leading-snug">
           {product.name}
         </h3>
 
         {/* Rating */}
-        {renderRating()}
+        <div className="hidden sm:block">{renderRating()}</div>
 
         {/* Price */}
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex flex-col gap-1">
-            <div className="flex items-center gap-2">
-              <span className="text-xl font-bold text-gray-900">
+        <div className="mt-auto flex items-end justify-between gap-2 mb-3 sm:mb-4">
+          <div className="flex flex-col gap-0.5 min-w-0">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="text-base sm:text-xl font-bold text-gray-900">
                 {priceInfo.currentPrice} lei
               </span>
               {isBusinessAccount && (
-                <span className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded">
+                <span className="text-[10px] bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded">
                   B2B
                 </span>
               )}
             </div>
             {isBusinessAccount && (
-              <span className="text-sm text-gray-500 line-through">
+              <span className="text-xs text-gray-500 line-through">
                 {product.price} lei
               </span>
             )}
             {!isBusinessAccount && product.originalPrice && product.originalPrice > product.price && (
-              <span className="text-sm text-gray-500 line-through">
+              <span className="text-xs text-gray-500 line-through">
                 {product.originalPrice} lei
               </span>
             )}
           </div>
-          <span className={`text-sm font-medium ${
+          <span className={`text-[11px] sm:text-sm font-medium whitespace-nowrap ${
             product.stock > 0 ? 'text-green-600' : 'text-red-600'
           }`}>
-            {product.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
+            {product.stock > 0 ? 'În stoc' : 'Epuizat'}
           </span>
         </div>
 
-        {/* Discount Badge */}
-        {product.discount > 0 && (
-          <div className="absolute top-2 left-2">
-            <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full">
-              -{product.discount}%
-            </span>
-          </div>
-        )}
-
         {/* Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <button
             onClick={handleAddToCart}
             disabled={product.stock === 0}
-            className={`flex-1 px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+            className={`flex-1 inline-flex items-center justify-center gap-1.5 px-2 sm:px-4 py-2 sm:py-2.5 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
               product.stock > 0
                 ? 'bg-blue-600 text-white hover:bg-blue-700'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                : 'bg-gray-200 text-gray-500 cursor-not-allowed'
             }`}
           >
-            <ShoppingCart className="w-4 h-4 inline mr-2" />
-            Adaugă în coș
+            <ShoppingCart className="w-4 h-4 shrink-0" />
+            <span className="sm:hidden">Adaugă</span>
+            <span className="hidden sm:inline">Adaugă în coș</span>
           </button>
-          <button className="p-2 text-gray-400 hover:text-red-500 transition-colors">
+          <button
+            aria-label="Adaugă la favorite"
+            className="hidden sm:flex p-2 text-gray-400 hover:text-red-500 transition-colors"
+          >
             <Heart className="w-5 h-5" />
           </button>
         </div>

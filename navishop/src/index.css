@@ -22,6 +22,20 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars on horizontally scrollable strips while keeping scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* GPS Button Animations - Enhanced Sparkly Glowy Effects */
 @keyframes gps-shine {
   0% {

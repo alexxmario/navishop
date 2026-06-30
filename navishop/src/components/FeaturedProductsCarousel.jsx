@@ -71,13 +71,13 @@ const FeaturedProductsCarousel = () => {
 
   if (loading) {
     return (
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 sm:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-center mb-16 font-bold text-4xl md:text-5xl text-black">
+          <h2 className="text-center mb-8 sm:mb-12 font-bold text-2xl sm:text-4xl md:text-5xl text-black">
             PRODUSE RECOMANDATE
           </h2>
           <div className="flex justify-center">
-            <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600"></div>
+            <div className="animate-spin rounded-full h-20 w-20 sm:h-32 sm:w-32 border-b-2 border-blue-600"></div>
           </div>
         </div>
       </section>
@@ -89,12 +89,12 @@ const FeaturedProductsCarousel = () => {
   }
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 sm:py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-center mb-16 font-bold text-4xl md:text-5xl text-black">
+        <h2 className="text-center mb-2 sm:mb-4 font-bold text-2xl sm:text-4xl md:text-5xl text-black">
           PRODUSE RECOMANDATE
         </h2>
-        <h6 className="text-center mb-12 text-gray-600 text-xl font-light">
+        <h6 className="text-center mb-8 sm:mb-12 text-gray-600 text-base sm:text-xl font-light">
           Cele mai populare navigații auto
         </h6>
 

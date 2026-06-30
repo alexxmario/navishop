@@ -8,7 +8,7 @@ import PageTitle from './components/PageTitle';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
 import {
-  Star, Heart, Filter, Grid, List, ArrowLeft
+  Star, Heart, Filter, Grid, List, ArrowLeft, X, SlidersHorizontal
 } from 'lucide-react';
 
 const CategoryPage = () => {
@@ -19,6 +19,7 @@ const CategoryPage = () => {
   const { user, isAuthenticated } = useAuth();
   const [sortBy, setSortBy] = useState('popular');
   const [viewMode, setViewMode] = useState('grid');
+  const [showFilters, setShowFilters] = useState(false);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState({
@@ -126,13 +127,13 @@ const CategoryPage = () => {
     const badge = product.onSale ? `-${product.discount}%` : product.featured ? 'Bestseller' : product.newProduct ? 'Nou' : null;
 
     return (
-      <div className={`bg-white border border-gray-100 hover:border-blue-200 hover:shadow-sm transition-all duration-200 group ${
-        viewMode === 'list' ? 'flex' : ''
+      <div className={`bg-white border border-gray-100 rounded-xl hover:border-blue-200 hover:shadow-md transition-all duration-200 group flex ${
+        viewMode === 'list' ? 'flex-row' : 'flex-col'
       }`}>
-        <div className={`relative ${viewMode === 'list' ? 'w-48 flex-shrink-0' : ''}`}>
+        <div className={`relative ${viewMode === 'list' ? 'w-28 sm:w-48 flex-shrink-0' : ''}`}>
           <Link to={`/product/${product.slug}`} className="block">
-            <div className={`bg-gray-50 flex items-center justify-center overflow-hidden ${
-              viewMode === 'list' ? 'w-48 h-32' : 'w-full h-48'
+            <div className={`bg-gray-50 rounded-t-xl ${viewMode === 'list' ? 'rounded-l-xl rounded-tr-none' : ''} flex items-center justify-center overflow-hidden ${
+              viewMode === 'list' ? 'w-28 h-28 sm:w-48 sm:h-32' : 'w-full h-40 sm:h-48'
             }`}>
               {primaryImage ? (
                 <img src={primaryImage} alt={product.name} className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover scale-[1.5]' : 'object-contain'}`} />
@@ -142,8 +143,8 @@ const CategoryPage = () => {
             </div>
           </Link>
           {showBadge && badge && (
-            <div className="absolute top-3 left-3">
-              <span className={`px-2 py-1 text-xs font-medium ${
+            <div className="absolute top-2 left-2 sm:top-3 sm:left-3">
+              <span className={`px-1.5 py-0.5 sm:px-2 sm:py-1 text-[10px] sm:text-xs font-medium rounded ${
                 product.onSale ? 'bg-red-600 text-white' :
                 product.featured ? 'bg-blue-600 text-white' :
                 'bg-black text-white'
@@ -152,18 +153,18 @@ const CategoryPage = () => {
               </span>
             </div>
           )}
-          <button className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+          <button aria-label="Adaugă la favorite" className="hidden sm:block absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
             <Heart className="w-5 h-5 text-gray-400 hover:text-blue-600" />
           </button>
         </div>
 
-        <div className="p-4 flex-1">
+        <div className="p-3 sm:p-4 flex-1 flex flex-col">
           <Link to={`/product/${product.slug}`} className="block">
-            <h3 className="font-medium text-gray-900 mb-1 hover:text-blue-600 transition-colors">{product.name}</h3>
-            <p className="text-sm text-gray-600 mb-3">{product.brand}</p>
+            <h3 className="text-sm sm:text-base font-medium text-gray-900 mb-1 line-clamp-2 leading-snug hover:text-blue-600 transition-colors">{product.name}</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">{product.brand}</p>
           </Link>
 
-          <div className="flex items-center mb-3">
+          <div className="hidden sm:flex items-center mb-3">
             <div className="flex items-center">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className={`w-3 h-3 ${i < Math.floor(product.averageRating || 0) ? 'fill-blue-600 text-blue-600' : 'text-gray-300'}`} />
@@ -172,21 +173,21 @@ const CategoryPage = () => {
             <span className="text-xs text-gray-600 ml-2">({product.totalReviews || 0})</span>
           </div>
 
-          <div className={`flex items-center justify-between mb-4 ${viewMode === 'list' ? 'flex-col items-start space-y-2' : ''}`}>
-            <div className="flex items-center space-x-2">
-              <span className="font-semibold text-gray-900">{product.price.toFixed(2)} RON</span>
+          <div className={`mt-auto flex items-end justify-between gap-2 mb-3 sm:mb-4 ${viewMode === 'list' ? 'sm:flex-col sm:items-start sm:gap-2' : ''}`}>
+            <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+              <span className="text-sm sm:text-base font-semibold text-gray-900">{product.price.toFixed(2)} RON</span>
               {product.originalPrice && (
-                <span className="text-sm text-gray-500 line-through">{product.originalPrice.toFixed(2)} RON</span>
+                <span className="text-xs text-gray-500 line-through">{product.originalPrice.toFixed(2)} RON</span>
               )}
             </div>
-            <span className={`text-xs ${isInStock ? 'text-blue-600' : 'text-red-600'}`}>
-              {isInStock ? 'În stoc' : 'Stoc epuizat'}
+            <span className={`text-[11px] sm:text-xs whitespace-nowrap ${isInStock ? 'text-blue-600' : 'text-red-600'}`}>
+              {isInStock ? 'În stoc' : 'Epuizat'}
             </span>
           </div>
 
           <button
             onClick={() => isInStock && addToCart(product)}
-            className={`w-full py-2 text-sm font-medium transition-colors ${
+            className={`w-full py-2 sm:py-2.5 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
               isInStock
                 ? 'bg-blue-600 text-white hover:bg-blue-700'
                 : 'bg-gray-100 text-gray-500 cursor-not-allowed'
@@ -217,25 +218,31 @@ const CategoryPage = () => {
       </div>
 
       {/* Category Header */}
-      <div className="py-12 bg-gray-50">
+      <div className="py-8 sm:py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="flex items-center mb-4">
-            <Link to="/" className="text-gray-600 hover:text-blue-600 mr-4">
+          <div className="flex items-center mb-3 sm:mb-4">
+            <Link to="/" className="text-gray-600 hover:text-blue-600 mr-3 sm:mr-4">
               <ArrowLeft className="w-5 h-5" />
             </Link>
-            <h1 className="text-3xl font-light text-gray-900">{currentCategory.name}</h1>
+            <h1 className="text-2xl sm:text-3xl font-light text-gray-900">{currentCategory.name}</h1>
           </div>
-          <p className="text-gray-600 mb-2">{currentCategory.description}</p>
+          <p className="text-sm sm:text-base text-gray-600 mb-2">{currentCategory.description}</p>
           <p className="text-sm text-gray-500">{sortedProducts.length} produse găsite</p>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Filters Sidebar */}
-          <div className="lg:w-64 flex-shrink-0">
-            <div className="bg-white border border-gray-100 p-6">
-              <h3 className="font-medium mb-4 flex items-center">
+      <div className="container mx-auto px-4 py-6 sm:py-8">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
+          {/* Filters Sidebar - drawer on mobile, sticky column on desktop */}
+          <div className={`${showFilters ? 'block' : 'hidden'} lg:block lg:w-64 flex-shrink-0`}>
+            <div className="bg-white border border-gray-100 rounded-xl p-5 sm:p-6 lg:sticky lg:top-24">
+              <div className="flex items-center justify-between mb-4 lg:hidden">
+                <span className="font-medium">Filtre</span>
+                <button onClick={() => setShowFilters(false)} aria-label="Închide filtrele" className="p-1 text-gray-500 hover:text-gray-800">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+              <h3 className="font-medium mb-4 hidden lg:flex items-center">
                 <Filter className="w-4 h-4 mr-2" />
                 Filtrează
               </h3>
@@ -323,31 +330,39 @@ const CategoryPage = () => {
           {/* Products */}
           <div className="flex-1">
             {/* Toolbar */}
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 space-y-4 sm:space-y-0">
-              <div className="flex items-center space-x-4">
-                <select 
-                  className="p-2 border border-gray-200 text-sm focus:outline-none focus:border-blue-600"
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
-                >
-                  <option value="popular">Cele mai populare</option>
-                  <option value="price-low">Preț crescător</option>
-                  <option value="price-high">Preț descrescător</option>
-                  <option value="rating">Cel mai bine cotate</option>
-                  <option value="newest">Cele mai noi</option>
-                </select>
-              </div>
-              
-              <div className="flex items-center space-x-2">
+            <div className="flex items-center justify-between gap-3 mb-5 sm:mb-6">
+              <button
+                onClick={() => setShowFilters(true)}
+                className="lg:hidden inline-flex items-center gap-2 px-3.5 py-2 border border-gray-200 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50"
+              >
+                <SlidersHorizontal className="w-4 h-4" />
+                Filtre
+              </button>
+
+              <select
+                className="flex-1 lg:flex-none p-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:border-blue-600"
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+              >
+                <option value="popular">Cele mai populare</option>
+                <option value="price-low">Preț crescător</option>
+                <option value="price-high">Preț descrescător</option>
+                <option value="rating">Cel mai bine cotate</option>
+                <option value="newest">Cele mai noi</option>
+              </select>
+
+              <div className="hidden sm:flex items-center space-x-2">
                 <button
                   onClick={() => setViewMode('grid')}
-                  className={`p-2 border ${viewMode === 'grid' ? 'border-blue-600 text-blue-600' : 'border-gray-200 text-gray-600'}`}
+                  aria-label="Vizualizare grilă"
+                  className={`p-2 border rounded-lg ${viewMode === 'grid' ? 'border-blue-600 text-blue-600' : 'border-gray-200 text-gray-600'}`}
                 >
                   <Grid className="w-4 h-4" />
                 </button>
                 <button
                   onClick={() => setViewMode('list')}
-                  className={`p-2 border ${viewMode === 'list' ? 'border-blue-600 text-blue-600' : 'border-gray-200 text-gray-600'}`}
+                  aria-label="Vizualizare listă"
+                  className={`p-2 border rounded-lg ${viewMode === 'list' ? 'border-blue-600 text-blue-600' : 'border-gray-200 text-gray-600'}`}
                 >
                   <List className="w-4 h-4" />
                 </button>
@@ -361,7 +376,7 @@ const CategoryPage = () => {
               </div>
             ) : sortedProducts.length > 0 ? (
               <div className={viewMode === 'grid'
-                ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'
+                ? 'grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6'
                 : 'space-y-4'
               }>
                 {sortedProducts.map(product => (
