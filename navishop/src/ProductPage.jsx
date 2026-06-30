@@ -249,7 +249,7 @@ const ProductPage = () => {
 
       {/* Breadcrumb */}
       <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center gap-2 text-sm text-gray-600">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gray-600">
           <Link to="/" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span>Acasă</span>
@@ -291,25 +291,25 @@ const ProductPage = () => {
 
       {/* Product Section */}
       <div className="container mx-auto px-4 py-8 sm:py-12">
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           {/* Product Images */}
           <div className="space-y-4">
-            <motion.div 
-              className="bg-white border border-gray-100 rounded-lg p-4 sm:p-8 shadow-sm"
+            <motion.div
+              className="bg-white border border-gray-100 rounded-lg p-4 sm:p-6 shadow-sm"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
               <div className="text-center mb-4">
                 {product.images && product.images.length > 0 ? (
-                  <button 
+                  <button
                     onClick={() => openImageGallery(selectedImage)}
                     className="w-full group relative overflow-hidden rounded-lg"
                   >
                     <img
                       src={resolveProductImage(product.images[selectedImage] || product.images[0])}
                       alt={product.images[selectedImage]?.alt || product.name}
-                      className={`w-full rounded-lg object-center transition-transform duration-300 ${product.images?.length > 20 ? 'aspect-[3/2] object-cover scale-[1.55] group-hover:scale-[1.62]' : 'h-64 sm:h-80 object-contain group-hover:scale-105'}`}
+                      className={`w-full rounded-lg object-center transition-transform duration-300 ${product.images?.length > 20 ? 'h-64 sm:h-72 object-cover lg:h-auto lg:aspect-[3/2] lg:scale-[1.55] group-hover:scale-105 lg:group-hover:scale-[1.62]' : 'h-64 sm:h-72 lg:h-80 object-contain group-hover:scale-105'}`}
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                       <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
@@ -338,7 +338,7 @@ const ProductPage = () => {
                       <img
                         src={resolveProductImage(img)}
                         alt={img.alt || product.name}
-                        className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover scale-[1.5]' : 'object-contain'}`}
+                        className={`w-full h-full object-center ${product.images?.length > 20 ? 'object-cover lg:scale-[1.5]' : 'object-contain'}`}
                       />
                     </button>
                   ))}
@@ -821,37 +821,37 @@ const ProductPage = () => {
         </motion.div>
         {/* Accesorii compatibile */}
         {crossSellProducts.length > 0 && (
-          <div className="mt-16 border-t border-gray-100 pt-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Accesorii compatibile</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="mt-12 sm:mt-16 border-t border-gray-100 pt-8 sm:pt-12">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-5 sm:mb-8">Accesorii compatibile</h3>
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
               {crossSellProducts.map((accessory) => (
                 <Link
                   key={accessory._id}
                   to={`/product/${accessory.slug}`}
-                  className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-lg transition-all duration-200 group"
+                  className="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 hover:shadow-lg transition-all duration-200 group"
                 >
-                  <div className="relative mb-4">
+                  <div className="relative mb-3 sm:mb-4">
                     {accessory.images && accessory.images.length > 0 ? (
                       <img
                         src={resolveProductImage(accessory.images?.[0])}
                         alt={accessory.images[0].alt || accessory.name}
-                        className="w-full h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
+                        className="w-full h-32 sm:h-40 object-cover rounded-lg group-hover:scale-105 transition-transform duration-200"
                       />
                     ) : (
-                      <div className="w-full h-40 bg-gray-100 rounded-lg flex items-center justify-center">
+                      <div className="w-full h-32 sm:h-40 bg-gray-100 rounded-lg flex items-center justify-center">
                         <div className="w-16 h-16 bg-blue-100 rounded border border-blue-200"></div>
                       </div>
                     )}
                     {accessory.discount > 0 && (
-                      <span className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded text-sm font-semibold">
+                      <span className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded text-xs sm:text-sm font-semibold">
                         -{accessory.discount}%
                       </span>
                     )}
                   </div>
-                  <h4 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                  <h4 className="text-sm sm:text-base font-semibold text-gray-900 mb-2 line-clamp-2 leading-snug group-hover:text-blue-600 transition-colors">
                     {accessory.name}
                   </h4>
-                  <div className="flex items-center gap-2 mb-3">
+                  <div className="hidden sm:flex items-center gap-2 mb-3">
                     <div className="flex items-center gap-1">
                       {[...Array(5)].map((_, i) => (
                         <Star
@@ -862,18 +862,18 @@ const ProductPage = () => {
                     </div>
                     <span className="text-sm text-gray-600">({accessory.totalReviews || 0})</span>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="text-lg font-bold text-gray-900">{calculateB2BPrice(accessory.price)} lei</span>
+                  <div className="flex items-end justify-between gap-2">
+                    <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+                      <span className="text-base sm:text-lg font-bold text-gray-900">{calculateB2BPrice(accessory.price)} lei</span>
                       {isBusinessAccount && (
-                        <span className="text-sm text-gray-500 line-through">{accessory.price} lei</span>
+                        <span className="text-xs sm:text-sm text-gray-500 line-through">{accessory.price} lei</span>
                       )}
                       {!isBusinessAccount && accessory.originalPrice && accessory.originalPrice > accessory.price && (
-                        <span className="text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
+                        <span className="text-xs sm:text-sm text-gray-500 line-through">{accessory.originalPrice} lei</span>
                       )}
                     </div>
-                    <span className={`text-sm font-medium ${accessory.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                      {accessory.stock > 0 ? 'În stoc' : 'Stoc epuizat'}
+                    <span className={`text-[11px] sm:text-sm font-medium whitespace-nowrap ${accessory.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
+                      {accessory.stock > 0 ? 'În stoc' : 'Epuizat'}
                     </span>
                   </div>
                 </Link>
