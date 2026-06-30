@@ -36,8 +36,7 @@ const INCH = {
 // RAM. \b stops storage (64GB/128GB/256GB) from being read as RAM.
 const RAM = {
   '4GB': /\b4\s*GB\b/i,
-  // Higher tier — Audi's sheet wrote "9GB"; accept 8GB or 9GB.
-  '8or9GB': /\b[89]\s*GB\b/i,
+  '8GB': /\b8\s*GB\b/i,
 };
 const MODEL = {
   audiA6: /\bA6\b/i,
@@ -53,16 +52,18 @@ const AUDI = {
   match: { $or: [{ brand: /audi/i }, { name: /audi/i }] },
   // No scope gate: any unmatched Audi "Navigatie" gets reported.
   rules: [
-    { label: 'Q5 12.3 8GB',    when: [MODEL.audiQ5, INCH['12.3'], RAM['8or9GB']], price: 3450 },
-    { label: 'Q3 12.3 8GB',    when: [MODEL.audiQ3, INCH['12.3'], RAM['8or9GB']], price: 3450 },
-    { label: 'A6 C7 9 4GB',    when: [MODEL.audiA6, MODEL.audiC7, INCH['9'],     RAM['4GB']],    price: 3130 },
-    { label: 'A6 C7 9 8GB',    when: [MODEL.audiA6, MODEL.audiC7, INCH['9'],     RAM['8or9GB']], price: 3450 },
-    { label: 'A6 C7 12.3 4GB', when: [MODEL.audiA6, MODEL.audiC7, INCH['12.3'],  RAM['4GB']],    price: 3130 },
-    { label: 'A6 C7 12.3 8GB', when: [MODEL.audiA6, MODEL.audiC7, INCH['12.3'],  RAM['8or9GB']], price: 3450 },
-    { label: '8.8 4GB',        when: [INCH['8.8'],   RAM['4GB']],    price: 2475 },
-    { label: '8.8 8GB',        when: [INCH['8.8'],   RAM['8or9GB']], price: 2990 },
-    { label: '10.25 4GB',      when: [INCH['10.25'], RAM['4GB']],    price: 2690 },
-    { label: '10.25 8GB',      when: [INCH['10.25'], RAM['8or9GB']], price: 3115 },
+    { label: 'Q5 12.3 8GB', when: [MODEL.audiQ5, INCH['12.3'], RAM['8GB']], price: 3450 },
+    { label: 'Q3 12.3 8GB', when: [MODEL.audiQ3, INCH['12.3'], RAM['8GB']], price: 3450 },
+    { label: 'A6 C7 9 4GB', when: [MODEL.audiA6, MODEL.audiC7, INCH['9'], RAM['4GB']], price: 3130 },
+    { label: 'A6 C7 9 8GB', when: [MODEL.audiA6, MODEL.audiC7, INCH['9'], RAM['8GB']], price: 3450 },
+    // All Audi at 12.3" EXCEPT Q5/Q3 (they only have an 8GB price, above; a
+    // Q5/Q3 at 12.3" 4GB is intentionally left untouched).
+    { label: '12.3 4GB', when: [INCH['12.3'], RAM['4GB']], whenNot: [MODEL.audiQ5, MODEL.audiQ3], price: 3130 },
+    { label: '12.3 8GB', when: [INCH['12.3'], RAM['8GB']], whenNot: [MODEL.audiQ5, MODEL.audiQ3], price: 3450 },
+    { label: '8.8 4GB',   when: [INCH['8.8'],   RAM['4GB']], price: 2475 },
+    { label: '8.8 8GB',   when: [INCH['8.8'],   RAM['8GB']], price: 2990 },
+    { label: '10.25 4GB', when: [INCH['10.25'], RAM['4GB']], price: 2690 },
+    { label: '10.25 8GB', when: [INCH['10.25'], RAM['8GB']], price: 3115 },
   ],
 };
 
@@ -71,9 +72,13 @@ if (ONLY_BRAND) {
   BRANDS = BRANDS.filter((b) => b.name.toLowerCase() === ONLY_BRAND.toLowerCase());
 }
 
-// First rule whose every `when` regex is found in the name.
+// First rule whose every `when` regex is found in the name and none of its
+// optional `whenNot` regexes are.
 function firstMatchingRule(name, rules) {
-  return rules.find((r) => r.when.every((rx) => rx.test(name))) || null;
+  return rules.find((r) =>
+    r.when.every((rx) => rx.test(name)) &&
+    (!r.whenNot || r.whenNot.every((rx) => !rx.test(name)))
+  ) || null;
 }
 
 async function run() {
