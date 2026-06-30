@@ -23,6 +23,14 @@ const SPEC_PATTERNS = [
   /^(.+?)\s+\d+\s+CORE\s*/i
 ];
 
+// Infotainment system codes (BMW iDrive variants etc.) that clutter the model
+// name. They should not appear as their own word in breadcrumbs / model labels.
+const IGNORED_MODEL_TOKENS = ['CIC', 'CCC', 'EVO', 'NBT'];
+const IGNORED_MODEL_TOKENS_REGEX = new RegExp(
+  `\\b(?:${IGNORED_MODEL_TOKENS.join('|')})\\b`,
+  'gi'
+);
+
 const GENERATION_MODELS_REGEX = /^(CRV|Duster|Sandero|Logan|Outlander|Tucson|Sportage|Ceed|I10|I20|I30|Swift|Yaris|Corolla|Fiesta|Focus|Mondeo|Clio|Megane|308|5008|Octavia|Superb|Golf|Polo|Passat|Touran|Tiguan|Touareg)\s+\d+$/i;
 
 const stripPrefix = (text = '', prefix = '') =>
@@ -88,6 +96,12 @@ export const extractBrandModelInfo = (productName = '') => {
   } else {
     baseModel = '';
   }
+
+  // Drop infotainment system codes (CIC/CCC/EVO/NBT) wherever they appear.
+  baseModel = baseModel
+    .replace(IGNORED_MODEL_TOKENS_REGEX, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 
   if (years && GENERATION_MODELS_REGEX.test(baseModel)) {
     baseModel = baseModel.replace(/\s+\d+\s*$/, '').trim();
