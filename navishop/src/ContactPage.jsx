@@ -178,6 +178,20 @@ const ContactPage = () => {
                 </div>
               </div>
 
+              {/* Company legal information */}
+              <div className="mt-8 pt-8 border-t border-gray-100">
+                <h3 className="font-medium mb-4">Date companie</h3>
+                <div className="text-gray-600 text-sm space-y-1">
+                  <p className="font-medium text-gray-900">S.C. PERFECT CENTURY S.R.L.</p>
+                  <p>Cod Fiscal: RO 26175588</p>
+                  <p>Nr. Reg. Com: J40/10698/2009</p>
+                  <p className="pt-2">Sediu Social: Str. Nicolae Nicoleanu, 31, 013527, București, București</p>
+                  <p className="pt-2">Cont Bancar: RO98BTRLRONCRT0I11180301</p>
+                  <p>Banca: Banca Transilvania</p>
+                  <p>Capital Social: 1000 lei</p>
+                </div>
+              </div>
+
               {/* Quick Contact Buttons */}
               <div className="mt-8 pt-8 border-t border-gray-100">
                 <h3 className="font-medium mb-4">Contact rapid</h3>

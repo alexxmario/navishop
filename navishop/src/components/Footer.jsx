@@ -64,6 +64,53 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Company legal information */}
+        <div className="border-t border-gray-100 mt-8 pt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm text-gray-600">
+            <div className="space-y-1">
+              <p className="font-medium text-gray-900">S.C. PERFECT CENTURY S.R.L.</p>
+              <p>Cod Fiscal: RO 26175588</p>
+              <p>Nr. Reg. Com: J40/10698/2009</p>
+            </div>
+            <div className="space-y-1">
+              <p className="font-medium text-gray-900">Sediu Social</p>
+              <p>Str. Nicolae Nicoleanu, 31, 013527,</p>
+              <p>București, București</p>
+            </div>
+            <div className="space-y-1">
+              <p className="font-medium text-gray-900">Cont Bancar</p>
+              <p>RO98BTRLRONCRT0I11180301</p>
+              <p>Banca Transilvania</p>
+              <p>Capital Social: 1000 lei</p>
+            </div>
+          </div>
+
+          {/* ANPC & payment trust badges */}
+          <div className="flex flex-wrap items-center gap-4 mt-8">
+            <a
+              href="https://consumer-redress.ec.europa.eu/site-relocation_en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/anpc-sol.png" alt="ANPC SOL" className="h-12 w-auto" />
+            </a>
+            <a
+              href="https://anpc.ro/sal/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/anpc-sal.png" alt="ANPC SAL" className="h-12 w-auto" />
+            </a>
+            <a
+              href="https://www.euplatesc.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/euplatesc.png" alt="euPlătesc" className="h-12 w-auto" />
+            </a>
+          </div>
+        </div>
+
         <div className="border-t border-gray-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
           <p>© 2026 PilotOn. Toate drepturile rezervate.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
