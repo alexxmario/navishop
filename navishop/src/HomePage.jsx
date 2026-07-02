@@ -201,8 +201,48 @@ const HomePage = () => {
       <PageTitle />
       <Header />
 
-      {/* Hero Section */}
-      <section className="py-12 sm:py-20 md:py-32 overflow-hidden">
+      {/* Hero Section - Desktop: full-bleed looping video (fades in/out for a smooth loop) */}
+      <section className="hidden lg:block relative bg-black overflow-hidden h-[620px] xl:h-[700px]">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/hero-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+        />
+        {/* Left-to-right gradient keeps the overlaid text legible over the video */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent pointer-events-none"></div>
+        <div className="relative h-full container mx-auto px-4 flex items-center">
+          <div className="max-w-xl text-left">
+            <h1 className="text-5xl xl:text-6xl font-bold mb-6 text-white leading-tight">
+              Navigații auto <span className="text-blue-400">dedicate</span>
+            </h1>
+            <p className="text-xl text-gray-200 mb-12">
+              Plug &amp; play pentru toate mărcile. Garanție 1 an pe fiecare produs.
+            </p>
+            <div className="flex flex-row gap-4 justify-start">
+              <Link
+                to="/category/navigatii-gps"
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium text-center"
+              >
+                Vezi navigații GPS
+              </Link>
+              <button
+                type="button"
+                onClick={scrollToVehicleSearch}
+                className="bg-white/95 text-blue-600 border-2 border-white px-8 py-3 rounded-lg hover:bg-white transition-colors font-medium"
+              >
+                Caută pentru mașina ta
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Section - Mobile/Tablet: original 3D model layout */}
+      <section className="lg:hidden py-12 sm:py-20 md:py-32 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* 3D model first on mobile so the hero leads with the product */}
