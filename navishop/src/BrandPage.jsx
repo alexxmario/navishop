@@ -118,6 +118,10 @@ const FALLBACK_BRAND_MODELS = {
     brand: 'Isuzu',
     models: ['D-Max']
   },
+  iveco: {
+    brand: 'Iveco',
+    models: ['Daily']
+  },
   chevrolet: {
     brand: 'Chevrolet',
     models: []
