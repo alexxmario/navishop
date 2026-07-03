@@ -117,7 +117,8 @@ const HomePage = () => {
     { id: 'chevrolet', name: 'Chevrolet' },
     { id: 'suzuki', name: 'Suzuki' },
     { id: 'alfa-romeo', name: 'Alfa Romeo' },
-    { id: 'isuzu', name: 'Isuzu' }
+    { id: 'isuzu', name: 'Isuzu' },
+    { id: 'iveco', name: 'Iveco' }
   ];
 
   const carModels = {
@@ -148,7 +149,8 @@ const HomePage = () => {
     'alfa-romeo': ['Mito'],
     subaru: ['Legacy'],
     volvo: ['C30', 'C70', 'S40', 'S60', 'V50', 'XC60'],
-    isuzu: ['D-Max']
+    isuzu: ['D-Max'],
+    iveco: ['Daily']
   };
 
   const years = Array.from({ length: 20 }, (_, i) => 2024 - i);
@@ -183,6 +185,7 @@ const HomePage = () => {
     { name: 'Subaru', logo: '/logos/subaru.png' },
     { name: 'Volvo', logo: '/logos/volvo.png' },
     { name: 'Isuzu', logo: '/logos/isuzu.png' },
+    { name: 'Iveco', logo: '/logos/iveco.png' },
     { name: 'Nissan', logo: '/logos/nissan.png' },
     { name: 'Kia', logo: '/logos/kia.png' },
     { name: 'Skoda', logo: '/logos/skoda.png' },
