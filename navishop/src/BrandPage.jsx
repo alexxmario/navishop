@@ -120,7 +120,7 @@ const FALLBACK_BRAND_MODELS = {
   },
   iveco: {
     brand: 'Iveco',
-    models: ['Daily']
+    models: ['Daily IV', 'Daily V', 'Daily VI']
   },
   chevrolet: {
     brand: 'Chevrolet',

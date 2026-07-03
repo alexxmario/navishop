@@ -55,7 +55,7 @@ class BrandModelExtractor {
 
   // Models where Roman numeral-like letters are part of the actual name
   // and should NOT be converted to numbers
-  romanNumeralExceptions = ['X-Trail', 'X Trail', 'XTrail', '500 X', '500X'];
+  romanNumeralExceptions = ['X-Trail', 'X Trail', 'XTrail', '500 X', '500X', 'Daily IV', 'Daily V', 'Daily VI'];
 
   // Normalize model name: convert Roman numerals to Arabic, remove hyphens
   normalizeModelName(modelName) {
