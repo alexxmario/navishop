@@ -11,13 +11,13 @@ import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
 import ProductDescription from './components/ProductDescription';
-import ZoomImage from './components/ZoomImage';
+import ProductImageGallery from './components/ProductImageGallery';
 import { buildApiUrl, resolveImageUrl, placeholderImage } from './config/api';
 import Toast from './components/Toast';
 import { useToast } from './hooks/useToast';
 import { extractBrandModelInfo } from './utils/carModel';
 import {
-  Search, ShoppingCart, Star, Heart, ChevronRight, Truck, Shield,
+  ShoppingCart, Star, Heart, ChevronRight, Truck, Shield,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
   X, ChevronLeft
 } from 'lucide-react';
@@ -301,53 +301,14 @@ const ProductPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="text-center mb-4">
-                {product.images && product.images.length > 0 ? (
-                  <button
-                    onClick={() => openImageGallery(selectedImage)}
-                    className="w-full group relative overflow-hidden rounded-lg"
-                  >
-                    <ZoomImage
-                      src={resolveProductImage(product.images[selectedImage] || product.images[0])}
-                      imageCount={product.images?.length}
-                      alt={product.images[selectedImage]?.alt || product.name}
-                      className="w-full h-64 sm:h-72 lg:h-80 rounded-lg"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
-                      <div className="opacity-0 group-hover:opacity-100 bg-white bg-opacity-90 rounded-full p-3 transition-opacity duration-300">
-                        <Search className="w-6 h-6 text-gray-800" />
-                      </div>
-                    </div>
-                  </button>
-                ) : (
-                  <div className="w-full h-64 sm:h-80 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <div className="w-20 h-20 bg-blue-100 rounded border border-blue-200"></div>
-                  </div>
-                )}
-              </div>
-              {product.images && product.images.length > 1 && (
-                <div className="flex flex-nowrap gap-2 overflow-x-auto scrollbar-hide pb-1 sm:flex-wrap sm:justify-center sm:overflow-visible">
-                  {product.images.map((img, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setSelectedImage(index)}
-                      className={`flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded border-2 overflow-hidden transition hover:scale-105 ${
-                        selectedImage === index
-                          ? 'border-blue-600 bg-blue-50'
-                          : 'border-gray-200 hover:border-gray-300'
-                      }`}
-                    >
-                      <ZoomImage
-                        src={resolveProductImage(img)}
-                        imageCount={product.images?.length}
-                        alt={img.alt || product.name}
-                        className="w-full h-full"
-                        hover={false}
-                      />
-                    </button>
-                  ))}
-                </div>
-              )}
+              <ProductImageGallery
+                images={product.images || []}
+                productName={product.name}
+                resolveImage={resolveProductImage}
+                selected={selectedImage}
+                onSelect={setSelectedImage}
+                onOpen={openImageGallery}
+              />
             </motion.div>
 
             {/* Features Grid */}

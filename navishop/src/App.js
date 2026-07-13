@@ -9,7 +9,6 @@ import CookieBanner from './components/CookieBanner';
 
 const HomePage = lazy(() => import('./HomePage'));
 const ProductPage = lazy(() => import('./ProductPage'));
-const ProductPageExperimental = lazy(() => import('./ProductPageExperimental'));
 const ContactPage = lazy(() => import('./ContactPage'));
 const CategoryPage = lazy(() => import('./CategoryPage'));
 const SearchResultsPage = lazy(() => import('./SearchResultsPage'));
@@ -39,7 +38,6 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/product/:slug" element={<ProductPage />} />
-            <Route path="/product-experimental/:slug" element={<ProductPageExperimental />} />
             <Route path="/category/:category" element={<CategoryPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
             <Route path="/brand/:brand" element={<BrandPage />} />
