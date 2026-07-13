@@ -66,7 +66,7 @@ const ReviewContent = () => {
   return (
     <Grid container spacing={3}>
       {/* Review Header */}
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Card>
           <CardContent>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
@@ -110,7 +110,7 @@ const ReviewContent = () => {
       </Grid>
 
       {/* Review Title */}
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Card>
           <CardContent>
             <Typography variant="h6" gutterBottom>Titlu recenzie</Typography>
@@ -122,7 +122,7 @@ const ReviewContent = () => {
       </Grid>
 
       {/* Review Comment */}
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Card>
           <CardContent>
             <Typography variant="h6" gutterBottom>Conținut recenzie</Typography>
@@ -146,7 +146,7 @@ const ReviewContent = () => {
 
       {/* Admin Information */}
       {(record.adminNotes || record.status === 'rejected') && (
-        <Grid item xs={12}>
+        <Grid size={{ xs: 12 }}>
           <Card>
             <CardContent>
               <Typography variant="h6" gutterBottom color="error">
@@ -162,7 +162,7 @@ const ReviewContent = () => {
 
       {/* Review Images */}
       {record.images && record.images.length > 0 && (
-        <Grid item xs={12}>
+        <Grid size={{ xs: 12 }}>
           <Card>
             <CardContent>
               <Typography variant="h6" gutterBottom>Imagini recenzie</Typography>
@@ -188,7 +188,7 @@ const ReviewContent = () => {
       )}
 
       {/* Verification Status */}
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Card>
           <CardContent>
             <Typography variant="h6" gutterBottom>Status verificare</Typography>

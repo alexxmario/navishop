@@ -418,7 +418,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
       <DialogContent sx={{ pt: 3 }}>
         <Grid container spacing={3}>
           {/* Left Column - Basic AWB Info */}
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Typography variant="h6" gutterBottom sx={{ color: 'primary.main', fontWeight: 600 }}>
               Generează AWB
             </Typography>
@@ -486,7 +486,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
               Dimensiuni colet
             </Typography>
             <Grid container spacing={1} sx={{ mb: 2 }}>
-              <Grid item xs={3}>
+              <Grid size={{ xs: 3 }}>
                 <MuiTextField
                   fullWidth
                   label="Greutate"
@@ -497,7 +497,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
                   InputProps={{ endAdornment: <Typography variant="caption">kg</Typography> }}
                 />
               </Grid>
-              <Grid item xs={3}>
+              <Grid size={{ xs: 3 }}>
                 <MuiTextField
                   fullWidth
                   label="Lungime"
@@ -508,7 +508,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
                   InputProps={{ endAdornment: <Typography variant="caption">cm</Typography> }}
                 />
               </Grid>
-              <Grid item xs={3}>
+              <Grid size={{ xs: 3 }}>
                 <MuiTextField
                   fullWidth
                   label="Lățime"
@@ -519,7 +519,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
                   InputProps={{ endAdornment: <Typography variant="caption">cm</Typography> }}
                 />
               </Grid>
-              <Grid item xs={3}>
+              <Grid size={{ xs: 3 }}>
                 <MuiTextField
                   fullWidth
                   label="Înălțime"
@@ -573,7 +573,7 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
           </Grid>
 
           {/* Right Column - AWB Options */}
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Typography variant="h6" gutterBottom sx={{ color: 'primary.main', fontWeight: 600 }}>
               Opțiuni AWB
             </Typography>
@@ -959,7 +959,7 @@ export const OrderShow = () => (
           <CardContent>
             <Typography variant="h6" gutterBottom>Sumar comandă</Typography>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="orderNumber" label="Nr. comandă" />
                 <DateField source="createdAt" label="Data comenzii" />
                 <FunctionField
@@ -973,7 +973,7 @@ export const OrderShow = () => (
                   )}
                 />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <NumberField source="orderTotal" options={{ style: 'currency', currency: 'RON' }} label="Subtotal" />
                 <NumberField source="shippingCost" options={{ style: 'currency', currency: 'RON' }} label="Livrare" />
                 <NumberField source="grandTotal" options={{ style: 'currency', currency: 'RON' }} label="Total" />
@@ -987,7 +987,7 @@ export const OrderShow = () => (
           <CardContent>
             <Typography variant="h6" gutterBottom>Informații client</Typography>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <FunctionField
                   label="Client"
                   render={record => {
@@ -1002,7 +1002,7 @@ export const OrderShow = () => (
                   }}
                 />
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <FunctionField
                   label="Telefon"
                   render={record => {
@@ -1013,7 +1013,7 @@ export const OrderShow = () => (
                   }}
                 />
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <FunctionField
                   label="Plată"
                   render={record => (
@@ -1121,12 +1121,12 @@ export const OrderShow = () => (
           <CardContent>
             <Typography variant="h6" gutterBottom>Informații livrare</Typography>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="shipping.provider" label="Furnizor" />
                 <TextField source="shipping.awbNumber" label="Număr AWB" />
                 <TextField source="trackingCode" label="Cod urmărire" />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <DateField source="shipping.estimatedDelivery" label="Livrare estimată" />
                 <DateField source="shipping.actualDelivery" label="Livrare efectivă" />
                 <NumberField source="shipping.cost" options={{ style: 'currency', currency: 'RON' }} label="Cost livrare" />
@@ -1181,7 +1181,7 @@ export const OrderShow = () => (
 
                     {isCompany && companyDetails && (
                       <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
+                        <Grid size={{ xs: 12, md: 6 }}>
                           <Box sx={{ mb: 2 }}>
                             <Typography variant="subtitle2" color="textSecondary">Denumire firmă</Typography>
                             <Typography variant="body1">{companyDetails.companyName || '-'}</Typography>
@@ -1195,7 +1195,7 @@ export const OrderShow = () => (
                             <Typography variant="body1">{companyDetails.regCom || '-'}</Typography>
                           </Box>
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid size={{ xs: 12, md: 6 }}>
                           <Box sx={{ mb: 2 }}>
                             <Typography variant="subtitle2" color="textSecondary">Bancă</Typography>
                             <Typography variant="body1">{companyDetails.bank || '-'}</Typography>
@@ -1220,12 +1220,12 @@ export const OrderShow = () => (
           <CardContent>
             <Typography variant="h6" gutterBottom>Informații factură SmartBill</Typography>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="invoice.invoiceId" label="ID Factură" />
                 <TextField source="invoice.invoiceNumber" label="Nr. factură" />
                 <DateField source="invoice.createdAt" label="Data facturii" />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="paymentId" label="ID Plată" />
                 <FunctionField
                   label="Status plată"

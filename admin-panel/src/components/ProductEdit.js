@@ -86,7 +86,7 @@ const ProductDetailsSection = () => {
       </Typography>
 
       <Grid container spacing={3}>
-        <Grid item xs={12} md={6}>
+        <Grid size={{ xs: 12, md: 6 }}>
           <TextInput
             source="name"
             label="Nume produs"
@@ -103,7 +103,7 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid size={{ xs: 12, md: 6 }}>
           <TextInput
             source="slug"
             label="Slug URL"
@@ -119,7 +119,7 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <TextInput
             source="brand"
             label="Brand"
@@ -133,7 +133,7 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <TextInput
             source="model"
             label="Model / Generație"
@@ -147,7 +147,7 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <SelectInput
             source="category"
             label="Categorie"
@@ -170,7 +170,7 @@ const ProductDetailsSection = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid size={{ xs: 12, md: 6 }}>
           <TextInput
             source="sku"
             label="SKU / Cod intern"
@@ -505,7 +505,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <NumberInput
                 source="price"
                 label="Preț curent"
@@ -518,7 +518,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <NumberInput
                 source="originalPrice"
                 label="Preț original"
@@ -531,7 +531,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <NumberInput
                 source="discount"
                 label="Reducere %"
@@ -557,7 +557,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <NumberInput
                 source="stock"
                 label="Cantitate în stoc"
@@ -570,7 +570,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <NumberInput
                 source="lowStockThreshold"
                 label="Alertă stoc redus"
@@ -583,7 +583,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <SelectInput
                 source="status"
                 label="Status produs"
@@ -611,7 +611,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <BooleanInput
                 source="featured"
                 label="Produs recomandat"
@@ -625,7 +625,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <BooleanInput
                 source="newProduct"
                 label="Produs nou"
@@ -639,7 +639,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <BooleanInput
                 source="onSale"
                 label="La reducere"
@@ -720,7 +720,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.hardware.modelProcesor"
                 label="Model Procesor"
@@ -733,7 +733,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.hardware.frecventa"
                 label="Frecvență"
@@ -746,7 +746,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.hardware.memorieRAM"
                 label="Memorie RAM"
@@ -759,7 +759,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.hardware.capacitateStocare"
                 label="Capacitate Stocare"
@@ -782,7 +782,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.display.diagonalaDisplay"
                 label="Diagonala Display"
@@ -795,7 +795,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.display.tehnologieDisplay"
                 label="Tehnologie Display"
@@ -808,7 +808,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.display.rezolutieDisplay"
                 label="Rezoluție Display"
@@ -831,7 +831,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <TextInput
                 source="romanianSpecs.features.functii"
                 label="Funcții"
@@ -848,7 +848,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <TextInput
                 source="romanianSpecs.connectivity.conectivitate"
                 label="Conectivitate"
@@ -865,7 +865,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.features.splitScreen"
                 label="Split Screen"
@@ -878,7 +878,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.features.limbiInterfata"
                 label="Limbi Interfață"
@@ -891,7 +891,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <TextInput
                 source="romanianSpecs.connectivity.bluetooth"
                 label="Bluetooth"
@@ -914,7 +914,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12}>
+            <Grid size={{ xs: 12 }}>
               <TextInput
                 source="romanianSpecs.package.continutPachet"
                 label="Conținut Pachet"
@@ -932,7 +932,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <TextInput
                 source="romanianSpecs.compatibility.destinatPentru"
                 label="Destinat pentru"
@@ -949,7 +949,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <TextInput
                 source="romanianSpecs.compatibility.tipMontare"
                 label="Tip Montare"
@@ -972,7 +972,7 @@ const ProductEditForm = () => {
           </Typography>
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <TextInput
                 source="romanianSpecs.general.sku"
                 label="SKU"
@@ -985,7 +985,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <TextInput
                 source="romanianSpecs.general.brand"
                 label="Brand"
@@ -998,7 +998,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <TextInput
                 source="romanianSpecs.general.categorii"
                 label="Categorii"
@@ -1011,7 +1011,7 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <TextInput
                 source="romanianSpecs.general.sistemOperare"
                 label="Sistem de Operare"

@@ -126,7 +126,7 @@ export const ContactMessageShow = () => (
 
           <Grid container spacing={3}>
             {/* Sender */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <Card variant="outlined" sx={{ height: '100%' }}>
                 <CardContent>
                   <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -157,7 +157,7 @@ export const ContactMessageShow = () => (
             </Grid>
 
             {/* Vehicle (optional) */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <FunctionField render={record => (
                 (record.carBrand || record.carModel || record.year) ? (
                   <Card variant="outlined" sx={{ height: '100%' }}>
@@ -190,23 +190,23 @@ export const ContactMessageShow = () => (
             </Grid>
 
             {/* Message */}
-            <Grid item xs={12}>
+            <Grid size={{ xs: 12 }}>
               <Card variant="outlined">
                 <CardContent>
                   <Typography variant="h6" gutterBottom>Mesaj</Typography>
                   <Divider sx={{ my: 2 }} />
                   <Grid container spacing={2}>
-                    <Grid item xs={12} sm={6}>
+                    <Grid size={{ xs: 12, sm: 6 }}>
                       <Field label="Subiect">
                         <TextField source="subject" />
                       </Field>
                     </Grid>
-                    <Grid item xs={12} sm={6}>
+                    <Grid size={{ xs: 12, sm: 6 }}>
                       <Field label="Data primirii">
                         <DateField source="createdAt" showTime />
                       </Field>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid size={{ xs: 12 }}>
                       <Typography variant="caption" color="textSecondary">Conținut</Typography>
                       <FunctionField render={record => (
                         <Typography variant="body1" sx={{ mt: 1, whiteSpace: 'pre-wrap' }}>

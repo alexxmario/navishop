@@ -108,7 +108,7 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
             <Card sx={{ p: 3, mb: 2, bgcolor: 'grey.50' }}>
               <Grid container spacing={3}>
                 {/* Section Title */}
-                <Grid item xs={12} md={6}>
+                <Grid size={{ xs: 12, md: 6 }}>
                   <TextInput
                     source="title"
                     label="Section Title"
@@ -124,7 +124,7 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
                 </Grid>
 
                 {/* Section Icon */}
-                <Grid item xs={12} md={6}>
+                <Grid size={{ xs: 12, md: 6 }}>
                   <TextInput
                     source="icon"
                     label="Section Icon (Emoji)"
@@ -174,7 +174,7 @@ const StructuredDescriptionEditor = ({ source = "structuredDescription.sections"
                 </Grid>
 
                 {/* Section Points */}
-                <Grid item xs={12}>
+                <Grid size={{ xs: 12 }}>
                   <Typography variant="subtitle1" gutterBottom>
                     Section Content Points
                   </Typography>

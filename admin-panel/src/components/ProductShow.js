@@ -110,7 +110,7 @@ const CrossSellDisplay = ({ productId }) => {
           </Box>
           <Grid container spacing={2}>
             {crossSellData.crossSellProducts.map((product, index) => (
-              <Grid item xs={12} md={6} key={index}>
+              <Grid size={{ xs: 12, md: 6 }} key={index}>
                 <Card sx={{ border: '1px solid #e0e0e0' }}>
                   <CardContent>
                     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -194,7 +194,7 @@ const ReviewOverviewStats = ({ record }) => {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12} md={4}>
+      <Grid size={{ xs: 12, md: 4 }}>
         <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
           <Star sx={{ fontSize: 40, color: 'white', mb: 1 }} />
           <Typography variant="h4" color="white">
@@ -204,7 +204,7 @@ const ReviewOverviewStats = ({ record }) => {
         </Box>
       </Grid>
 
-      <Grid item xs={12} md={4}>
+      <Grid size={{ xs: 12, md: 4 }}>
         <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
           <Typography variant="h4" color="white">
             {reviewStats?.totalReviews || 0}
@@ -213,7 +213,7 @@ const ReviewOverviewStats = ({ record }) => {
         </Box>
       </Grid>
 
-      <Grid item xs={12} md={4}>
+      <Grid size={{ xs: 12, md: 4 }}>
         <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
           <Typography variant="h4" color="white">
             {reviewStats?.ratingDistribution?.[5] || 0}
@@ -344,7 +344,7 @@ const ProductReviewsTab = () => {
           <Divider sx={{ mb: 3 }} />
 
           <Grid container spacing={3}>
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'primary.light', borderRadius: 2 }}>
                 <Star sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                 <Typography variant="h4" color="white">
@@ -354,7 +354,7 @@ const ProductReviewsTab = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
                 <Typography variant="h4" color="white">
                   {reviewStats?.totalReviews || 0}
@@ -363,7 +363,7 @@ const ProductReviewsTab = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
                 <Pending sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                 <Typography variant="h4" color="white">
@@ -373,7 +373,7 @@ const ProductReviewsTab = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={3}>
+            <Grid size={{ xs: 12, md: 3 }}>
               <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
                 <CheckCircle sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                 <Typography variant="h4" color="white">
@@ -566,7 +566,7 @@ const ProductShowContent = () => (
                   {record.images?.length > 0 ? (
                     <Grid container spacing={3}>
                       {record.images.map((image, index) => (
-                        <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                        <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={index}>
                           <Card sx={{ position: 'relative', overflow: 'hidden' }}>
                             <Box sx={{ position: 'relative' }}>
                               <img
@@ -645,7 +645,7 @@ const ProductShowContent = () => (
             <Divider sx={{ mb: 3 }} />
 
             <Grid container spacing={3}>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'primary.light', borderRadius: 2 }}>
                   <LocalOffer sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                   <Typography variant="h5" color="white">
@@ -654,7 +654,7 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">Preț curent</Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
                   <Inventory sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                   <Typography variant="h5" color="white">
@@ -663,7 +663,7 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">În stoc</Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
                   <Visibility sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                   <Typography variant="h6" color="white">
@@ -672,7 +672,7 @@ const ProductShowContent = () => (
                   <Typography variant="body2" color="white">Status</Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Star sx={{ fontSize: 40, color: 'white', mb: 1 }} />
                   <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
@@ -838,7 +838,7 @@ const ProductShowContent = () => (
       <Tab label="Specificații">
         {/* Hardware & Display Romanian */}
         <Grid container spacing={3} sx={{ mb: 3 }}>
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Card>
               <CardContent>
                 <Typography variant="h6" gutterBottom color="primary">
@@ -867,7 +867,7 @@ const ProductShowContent = () => (
             </Card>
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Card>
               <CardContent>
                 <Typography variant="h6" gutterBottom color="primary">
@@ -901,19 +901,19 @@ const ProductShowContent = () => (
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>
                   Conținut Pachet:
                 </Typography>
                 <TextField source="romanianSpecs.package.continutPachet" />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
                   Destinat pentru:
                 </Typography>
                 <TextField source="romanianSpecs.compatibility.destinatPentru" />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
                   Tip Montare:
                 </Typography>
@@ -931,7 +931,7 @@ const ProductShowContent = () => (
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
                   <Typography variant="body2" color="textSecondary">SKU</Typography>
                   <Typography variant="h6">
@@ -939,7 +939,7 @@ const ProductShowContent = () => (
                   </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
                   <Typography variant="body2" color="textSecondary">Brand</Typography>
                   <Typography variant="h6">
@@ -947,7 +947,7 @@ const ProductShowContent = () => (
                   </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
                   <Typography variant="body2" color="textSecondary">Categorii</Typography>
                   <Typography variant="h6">
@@ -955,7 +955,7 @@ const ProductShowContent = () => (
                   </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid size={{ xs: 12, md: 3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, bgcolor: 'grey.50', borderRadius: 2 }}>
                   <Typography variant="body2" color="textSecondary">Sistem Operare</Typography>
                   <Typography variant="h6">
@@ -982,7 +982,7 @@ const ProductShowContent = () => (
             </Typography>
             <Divider sx={{ mb: 3 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'success.light', borderRadius: 2 }}>
                   <Typography variant="h4" color="white">
                     <NumberField source="price" />
@@ -990,7 +990,7 @@ const ProductShowContent = () => (
                   <Typography variant="body1" color="white">Preț curent</Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'info.light', borderRadius: 2 }}>
                   <Typography variant="h4" color="white">
                     <NumberField source="originalPrice" />
@@ -998,7 +998,7 @@ const ProductShowContent = () => (
                   <Typography variant="body1" color="white">Preț original</Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Typography variant="h4" color="white">
                     <NumberField source="discount" />%

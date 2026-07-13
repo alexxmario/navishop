@@ -195,7 +195,7 @@ export const Dashboard = () => {
 
       {/* Stat Cards */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
-        <Grid item xs={12} sm={6} xl={3}>
+        <Grid size={{ xs: 12, sm: 6, xl: 3 }}>
           <StatCard
             title="Comenzi în așteptare"
             subtitle="Așteaptă confirmarea"
@@ -204,7 +204,7 @@ export const Dashboard = () => {
             color="warning"
           />
         </Grid>
-        <Grid item xs={12} sm={6} xl={3}>
+        <Grid size={{ xs: 12, sm: 6, xl: 3 }}>
           <StatCard
             title="Comenzi în procesare"
             subtitle="Se pregătesc"
@@ -213,7 +213,7 @@ export const Dashboard = () => {
             color="info"
           />
         </Grid>
-        <Grid item xs={12} sm={6} xl={3}>
+        <Grid size={{ xs: 12, sm: 6, xl: 3 }}>
           <StatCard
             title="Comenzi expediate"
             subtitle="În tranzit"
@@ -222,7 +222,7 @@ export const Dashboard = () => {
             color="success"
           />
         </Grid>
-        <Grid item xs={12} sm={6} xl={3}>
+        <Grid size={{ xs: 12, sm: 6, xl: 3 }}>
           <StatCard
             title="Produse active"
             subtitle={stats?.products?.lowStock ? `${stats.products.lowStock} stoc redus` : 'Stoc complet'}
@@ -235,7 +235,7 @@ export const Dashboard = () => {
 
       {/* Charts */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
-        <Grid item xs={12} md={8}>
+        <Grid size={{ xs: 12, md: 8 }}>
           <ChartCard title="Sumar Vânzări și Comenzi" icon={<BarChartIcon />} height={380}>
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={sales} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
@@ -254,7 +254,7 @@ export const Dashboard = () => {
           </ChartCard>
         </Grid>
 
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <ChartCard title="Distribuție Produse" icon={<PieChartIcon />} height={380}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -283,7 +283,7 @@ export const Dashboard = () => {
       {/* Quick Stats + Recent Orders */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
         {/* Financial stats — full-width labels so values never get cut off */}
-        <Grid item xs={12} md={5}>
+        <Grid size={{ xs: 12, md: 5 }}>
           <Card sx={{ height: '100%' }}>
             <CardContent sx={{ p: 3 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 3 }}>
@@ -313,7 +313,7 @@ export const Dashboard = () => {
           </Card>
         </Grid>
 
-        <Grid item xs={12} md={7}>
+        <Grid size={{ xs: 12, md: 7 }}>
           <Card sx={{ height: '100%' }}>
             <CardContent sx={{ p: 3 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2 }}>
@@ -363,7 +363,7 @@ export const Dashboard = () => {
 
       {/* Monthly Revenue Bar Chart */}
       <Grid container spacing={3}>
-        <Grid item xs={12}>
+        <Grid size={{ xs: 12 }}>
           <ChartCard title="Defalcare Venituri Lunare" icon={<BarChartIcon />} height={320}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={sales} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>

@@ -248,7 +248,7 @@ export const B2BApplicationShow = () => (
 
           <Grid container spacing={3}>
             {/* Company Information */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <Card variant="outlined" sx={{ height: '100%' }}>
                 <CardContent>
                   <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -288,7 +288,7 @@ export const B2BApplicationShow = () => (
             </Grid>
 
             {/* Contact Information */}
-            <Grid item xs={12} md={6}>
+            <Grid size={{ xs: 12, md: 6 }}>
               <Card variant="outlined" sx={{ height: '100%' }}>
                 <CardContent>
                   <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -326,7 +326,7 @@ export const B2BApplicationShow = () => (
             </Grid>
 
             {/* Application Details */}
-            <Grid item xs={12}>
+            <Grid size={{ xs: 12 }}>
               <Card variant="outlined">
                 <CardContent>
                   <Typography variant="h6" gutterBottom>
@@ -334,13 +334,13 @@ export const B2BApplicationShow = () => (
                   </Typography>
                   <Divider sx={{ my: 2 }} />
                   <Grid container spacing={2}>
-                    <Grid item xs={12} sm={4}>
+                    <Grid size={{ xs: 12, sm: 4 }}>
                       <Typography variant="caption" color="textSecondary">
                         Data cererii
                       </Typography>
                       <DateField source="createdAt" showTime sx={{ display: 'block', fontWeight: 500 }} />
                     </Grid>
-                    <Grid item xs={12} sm={4}>
+                    <Grid size={{ xs: 12, sm: 4 }}>
                       <Typography variant="caption" color="textSecondary">
                         Status
                       </Typography>
@@ -349,7 +349,7 @@ export const B2BApplicationShow = () => (
                     <FunctionField
                       render={record => (
                         record.reviewedAt ? (
-                          <Grid item xs={12} sm={4}>
+                          <Grid size={{ xs: 12, sm: 4 }}>
                             <Typography variant="caption" color="textSecondary">
                               Data procesare
                             </Typography>
@@ -361,7 +361,7 @@ export const B2BApplicationShow = () => (
                     <FunctionField
                       render={record => (
                         record.reviewNotes ? (
-                          <Grid item xs={12}>
+                          <Grid size={{ xs: 12 }}>
                             <Typography variant="caption" color="textSecondary">
                               Note
                             </Typography>
@@ -373,7 +373,7 @@ export const B2BApplicationShow = () => (
                     <FunctionField
                       render={record => (
                         record.temporaryPassword ? (
-                          <Grid item xs={12}>
+                          <Grid size={{ xs: 12 }}>
                             <Typography variant="caption" color="textSecondary">
                               Parolă Generată
                             </Typography>

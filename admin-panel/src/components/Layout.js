@@ -1,12 +1,14 @@
 import React from 'react';
-import { Layout as RALayout, AppBar, Menu, Sidebar } from 'react-admin';
+import { Layout as RALayout, AppBar, Menu, Sidebar, TitlePortal } from 'react-admin';
 import { Box, Typography } from '@mui/material';
 import { adminTokens as t } from '../theme';
 
-// Bară albă, plată, cu bordură jos — logo tip „wordmark" + etichetă ADMIN
+// Bară albă, plată, mereu vizibilă — wordmark + etichetă ADMIN + titlul
+// paginii curente ca breadcrumb mono
 const CustomAppBar = () => (
   <AppBar
     color="inherit"
+    position="fixed"
     sx={{
       backgroundColor: t.paper,
       color: t.ink,
@@ -24,7 +26,7 @@ const CustomAppBar = () => (
       },
     }}
   >
-    <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1.25, flex: 1, minWidth: 0 }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.25, flex: 1, minWidth: 0 }}>
       <Typography
         component="div"
         sx={{
@@ -54,6 +56,21 @@ const CustomAppBar = () => (
       >
         Admin
       </Box>
+      <Box component="span" sx={{ color: t.line, mx: 0.75 }}>/</Box>
+      <TitlePortal
+        variant="body2"
+        sx={{
+          fontFamily: t.mono,
+          fontSize: '0.7rem',
+          fontWeight: 500,
+          letterSpacing: '0.14em',
+          textTransform: 'uppercase',
+          color: t.steel,
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+        }}
+      />
     </Box>
   </AppBar>
 );
@@ -72,17 +89,19 @@ const CustomMenu = () => (
   </Menu>
 );
 
-// Lateral întunecat, în limbajul panoului enavigatii
+// Lateral întunecat. Fundalul e vopsit pe elementul fix (RaSidebar-fixed),
+// care rămâne pe loc la scroll — nu pe hârtia din flux, care ar defila.
 const CustomSidebar = () => (
   <Sidebar
     sx={{
       '& .MuiDrawer-paper': {
         background: t.night,
         borderRight: 'none',
-        width: 248,
       },
-      '& .MuiPaper-root': {
-        background: t.night,
+      '& .RaSidebar-fixed': {
+        backgroundColor: t.night,
+        width: 'inherit',
+        height: 'calc(100vh - 56px)',
       },
     }}
   >
@@ -96,6 +115,7 @@ export const CustomLayout = ({ children, ...props }) => (
     {...props}
     appBar={CustomAppBar}
     sidebar={CustomSidebar}
+    appBarAlwaysOn
     sx={{
       '& .RaLayout-content': {
         background: t.mist,

@@ -40,9 +40,9 @@ const ContactMessageSidebar = () => (
     width: 220,
   }}>
     <CardContent sx={{ p: 3 }}>
-      <Box sx={{ mb: 3, textAlign: 'center' }}>
-        <Email sx={{ fontSize: 48, color: 'primary.main', mb: 1 }} />
-        <Typography variant="h6" sx={{ fontWeight: 600, color: '#333' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2.5 }}>
+        <Email sx={{ fontSize: 17, color: 'primary.main' }} />
+        <Typography sx={{ fontFamily: '"IBM Plex Mono", monospace', fontSize: '0.68rem', fontWeight: 500, letterSpacing: '0.13em', textTransform: 'uppercase', color: 'text.secondary' }}>
           Mesaje Contact
         </Typography>
       </Box>

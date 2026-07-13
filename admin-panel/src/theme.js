@@ -30,6 +30,11 @@ const microLabel = {
 };
 
 const pilotOnTheme = createTheme({
+  // lățimile lateralului, citite de react-admin (theme.sidebar)
+  sidebar: {
+    width: 248,
+    closedWidth: 64,
+  },
   palette: {
     mode: 'light',
     primary: {

@@ -124,7 +124,7 @@ export const ProductShowExperimental = () => (
                     </Typography>
                     <Grid container spacing={2}>
                       {record.images?.map((image, index) => (
-                        <Grid item key={index}>
+                        <Grid key={index}>
                           <Box sx={{ position: 'relative' }}>
                             <img
                               src={image.url}
@@ -157,12 +157,12 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Basic Information</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="name" fullWidth />
                 <TextField source="slug" fullWidth />
                 <TextField source="sku" label="SKU" fullWidth />
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <ChipField source="category" />
                 <TextField source="subcategory" fullWidth />
                 <TextField source="brand" fullWidth />
@@ -178,7 +178,7 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Pricing</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'primary.light', borderRadius: 2 }}>
                   <Typography variant="caption" color="white">Current Price</Typography>
                   <NumberField 
@@ -194,13 +194,13 @@ export const ProductShowExperimental = () => (
                   />
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'grey.100', borderRadius: 2 }}>
                   <Typography variant="caption" color="textSecondary">Original Price</Typography>
                   <NumberField source="originalPrice" options={{ style: 'currency', currency: 'RON' }} />
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
                   <Typography variant="caption" color="white">Discount</Typography>
                   <NumberField 
@@ -226,7 +226,7 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Stock & Status</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
                   <ShoppingCart sx={{ color: 'white', fontSize: 32 }} />
                   <Box>
@@ -244,7 +244,7 @@ export const ProductShowExperimental = () => (
                   </Box>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Typography variant="caption" color="white">Low Stock Alert</Typography>
                   <NumberField 
@@ -259,7 +259,7 @@ export const ProductShowExperimental = () => (
                   />
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2 }}>
                   <Typography variant="caption" color="textSecondary">Status</Typography>
                   <Box sx={{ mt: 1 }}>
@@ -277,19 +277,19 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Product Flags</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={3}>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2 }}>
                   <Typography variant="subtitle2" gutterBottom>Featured Product</Typography>
                   <BooleanField source="featured" />
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2 }}>
                   <Typography variant="subtitle2" gutterBottom>New Product</Typography>
                   <BooleanField source="newProduct" />
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid size={{ xs: 12, md: 4 }}>
                 <Box sx={{ textAlign: 'center', p: 2 }}>
                   <Typography variant="subtitle2" gutterBottom>On Sale</Typography>
                   <BooleanField source="onSale" />
@@ -315,10 +315,10 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Timestamps</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={2}>
-              <Grid item xs={6}>
+              <Grid size={{ xs: 6 }}>
                 <DateField source="createdAt" />
               </Grid>
-              <Grid item xs={6}>
+              <Grid size={{ xs: 6 }}>
                 <DateField source="updatedAt" />
               </Grid>
             </Grid>
@@ -373,7 +373,7 @@ export const ProductShowExperimental = () => (
           render={record => (
             <Grid container spacing={2}>
               {record.specifications?.map((spec, index) => (
-                <Grid item xs={12} md={6} key={index}>
+                <Grid size={{ xs: 12, md: 6 }} key={index}>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', py: 1, borderBottom: 1, borderColor: 'divider' }}>
                     <Typography variant="body2" fontWeight="bold">{spec.key}</Typography>
                     <Typography variant="body2">{spec.value}</Typography>
@@ -440,28 +440,28 @@ export const ProductShowExperimental = () => (
             <Typography variant="h6" gutterBottom>Analytics</Typography>
             <Divider sx={{ mb: 2 }} />
             <Grid container spacing={3}>
-              <Grid item xs={6} md={3}>
+              <Grid size={{ xs: 6, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'info.light', borderRadius: 2 }}>
                   <Visibility sx={{ color: 'white', fontSize: 32, mb: 1 }} />
                   <Typography variant="caption" color="white" display="block">Views</Typography>
                   <NumberField source="viewCount" sx={{ '& .MuiTypography-root': { color: 'white', fontWeight: 600 } }} />
                 </Box>
               </Grid>
-              <Grid item xs={6} md={3}>
+              <Grid size={{ xs: 6, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'success.light', borderRadius: 2 }}>
                   <ShoppingCart sx={{ color: 'white', fontSize: 32, mb: 1 }} />
                   <Typography variant="caption" color="white" display="block">Purchases</Typography>
                   <NumberField source="purchaseCount" sx={{ '& .MuiTypography-root': { color: 'white', fontWeight: 600 } }} />
                 </Box>
               </Grid>
-              <Grid item xs={6} md={3}>
+              <Grid size={{ xs: 6, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'warning.light', borderRadius: 2 }}>
                   <Star sx={{ color: 'white', fontSize: 32, mb: 1 }} />
                   <Typography variant="caption" color="white" display="block">Rating</Typography>
                   <NumberField source="averageRating" sx={{ '& .MuiTypography-root': { color: 'white', fontWeight: 600 } }} />
                 </Box>
               </Grid>
-              <Grid item xs={6} md={3}>
+              <Grid size={{ xs: 6, md: 3 }}>
                 <Box sx={{ textAlign: 'center', p: 2, bgcolor: 'secondary.light', borderRadius: 2 }}>
                   <Typography variant="h6" sx={{ color: 'white', mb: 1 }}>📝</Typography>
                   <Typography variant="caption" color="white" display="block">Reviews</Typography>
