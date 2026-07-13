@@ -27,10 +27,11 @@ import {
   DeleteSweep,
   Star,
   StarBorder,
-  Edit,
   Visibility,
   ContentCopy,
   Search as SearchIcon,
+  KeyboardArrowLeft,
+  KeyboardArrowRight,
 } from '@mui/icons-material';
 import { useDropzone } from 'react-dropzone';
 import { buildApiUrl, resolveImageUrl } from '../config/api';
@@ -55,6 +56,23 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
 
   // Delete all images confirmation
   const [deleteAllDialogOpen, setDeleteAllDialogOpen] = useState(false);
+
+  // Drag & drop reordering
+  const [dragIndex, setDragIndex] = useState(null);
+  const [dropIndex, setDropIndex] = useState(null);
+
+  const moveImage = (from, to) => {
+    if (to < 0 || to >= images.length || from === to) return;
+    const newImages = [...images];
+    newImages.splice(to, 0, ...newImages.splice(from, 1));
+    onChange(newImages);
+  };
+
+  const handleReorderDrop = (targetIndex) => {
+    if (dragIndex !== null) moveImage(dragIndex, targetIndex);
+    setDragIndex(null);
+    setDropIndex(null);
+  };
 
   // Debug logging
   useEffect(() => {
@@ -374,16 +392,36 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
             <Typography variant="subtitle1" gutterBottom>
               Imagini curente ({images.length})
             </Typography>
+            <Typography variant="body2" color="textSecondary" sx={{ mb: 1 }}>
+              Ordinea de aici este ordinea de pe site. Trage imaginile sau folosește săgețile pentru a le reordona, apoi salvează produsul.
+            </Typography>
             <Grid container spacing={2}>
               {images.map((image, index) => (
                 <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
-                  <Card 
-                    sx={{ 
+                  <Card
+                    draggable
+                    onDragStart={() => setDragIndex(index)}
+                    onDragEnd={() => {
+                      setDragIndex(null);
+                      setDropIndex(null);
+                    }}
+                    onDragOver={(e) => {
+                      e.preventDefault();
+                      if (dragIndex !== null && dropIndex !== index) setDropIndex(index);
+                    }}
+                    onDrop={(e) => {
+                      e.preventDefault();
+                      handleReorderDrop(index);
+                    }}
+                    sx={{
                       position: 'relative',
                       borderRadius: 2,
                       overflow: 'hidden',
-                      cursor: 'pointer',
-                      transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                      cursor: dragIndex !== null ? 'grabbing' : 'grab',
+                      opacity: dragIndex === index ? 0.4 : 1,
+                      outline: dropIndex === index && dragIndex !== index ? '2px solid' : 'none',
+                      outlineColor: 'primary.main',
+                      transition: 'transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease',
                       '&:hover': {
                         transform: 'scale(1.02)',
                         boxShadow: '0 8px 25px rgba(0,0,0,0.15)'
@@ -464,6 +502,38 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
                             Imagine {index + 1}
                           </Typography>
                           <Box sx={{ display: 'flex', gap: 1 }}>
+                            <IconButton
+                              size="small"
+                              disabled={index === 0}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                moveImage(index, index - 1);
+                              }}
+                              sx={{
+                                color: 'white',
+                                bgcolor: 'rgba(0,0,0,0.5)',
+                                '&:hover': { bgcolor: 'rgba(0,0,0,0.7)' },
+                                '&.Mui-disabled': { color: 'rgba(255,255,255,0.3)', bgcolor: 'rgba(0,0,0,0.3)' }
+                              }}
+                            >
+                              <KeyboardArrowLeft />
+                            </IconButton>
+                            <IconButton
+                              size="small"
+                              disabled={index === images.length - 1}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                moveImage(index, index + 1);
+                              }}
+                              sx={{
+                                color: 'white',
+                                bgcolor: 'rgba(0,0,0,0.5)',
+                                '&:hover': { bgcolor: 'rgba(0,0,0,0.7)' },
+                                '&.Mui-disabled': { color: 'rgba(255,255,255,0.3)', bgcolor: 'rgba(0,0,0,0.3)' }
+                              }}
+                            >
+                              <KeyboardArrowRight />
+                            </IconButton>
                             <IconButton
                               size="small"
                               onClick={(e) => {
