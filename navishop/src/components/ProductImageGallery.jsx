@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { ChevronLeft, ChevronRight, Search } from 'lucide-react';
+import ZoomImage from './ZoomImage';
 
 // De la câte fotografii apare scrubber-ul de derulare (viewer 360°).
 const SLIDER_FROM = 20;
@@ -54,12 +55,13 @@ const ProductImageGallery = ({
               className={`absolute inset-0 ${index === selected ? 'visible' : 'invisible'}`}
               aria-hidden={index !== selected}
             >
-              <img
+              <ZoomImage
                 src={resolveImage(img)}
                 alt={index === selected ? img.alt || productName : ''}
+                imageCount={total}
                 loading="eager"
                 draggable={false}
-                className="w-full h-full object-contain"
+                className="w-full h-full"
               />
             </span>
           ))}
@@ -136,11 +138,13 @@ const ProductImageGallery = ({
                   : 'border-gray-200 hover:border-gray-300'
               }`}
             >
-              <img
+              <ZoomImage
                 src={resolveImage(img)}
                 alt=""
+                imageCount={total}
+                hover={false}
                 draggable={false}
-                className="w-full h-full object-contain p-0.5"
+                className="w-full h-full"
               />
             </button>
           ))}
