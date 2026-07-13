@@ -720,8 +720,9 @@ export const ProductCreate = () => (
   <Create
     sx={{
       '& .RaCreate-card': {
-        borderRadius: 3,
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+        borderRadius: '16px',
+        border: '1px solid #e4e7ec',
+        boxShadow: 'none'
       }
     }}
   >

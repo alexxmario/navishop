@@ -6,78 +6,74 @@ import {
   CardContent,
   Typography,
   Container,
-  Avatar,
 } from '@mui/material';
-import { Navigation, AdminPanelSettings } from '@mui/icons-material';
+import { adminTokens as t } from '../theme';
 
 const LoginPage = () => (
   <Box
     sx={{
       minHeight: '100vh',
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      backgroundColor: t.night,
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
       padding: 2,
     }}
   >
-    <Container maxWidth="sm">
+    <Container maxWidth="xs">
+      <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1.25, mb: 3, justifyContent: 'center' }}>
+        <Typography
+          component="div"
+          sx={{
+            fontWeight: 700,
+            fontSize: '1.5rem',
+            letterSpacing: '-0.02em',
+            color: t.paper,
+          }}
+        >
+          PilotOn<Box component="span" sx={{ color: t.blue }}>.</Box>
+        </Typography>
+        <Box
+          component="span"
+          sx={{
+            fontFamily: t.mono,
+            fontSize: '0.64rem',
+            fontWeight: 500,
+            letterSpacing: '0.16em',
+            textTransform: 'uppercase',
+            color: '#64b5f6',
+            border: `1px solid ${t.nightLine}`,
+            borderRadius: '4px',
+            padding: '2px 7px',
+          }}
+        >
+          Admin
+        </Box>
+      </Box>
+
       <Card
         sx={{
-          borderRadius: 3,
-          boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
+          borderRadius: '16px',
+          border: `1px solid ${t.nightLine}`,
+          boxShadow: 'none',
           overflow: 'hidden',
         }}
       >
-        <Box
-          sx={{
-            background: 'linear-gradient(90deg, #1976d2 0%, #1565c0 100%)',
-            color: 'white',
-            padding: 4,
-            textAlign: 'center',
-          }}
-        >
-          <Avatar
-            sx={{
-              bgcolor: 'rgba(255, 255, 255, 0.2)',
-              width: 80,
-              height: 80,
-              margin: '0 auto 16px',
-            }}
-          >
-            <Navigation sx={{ fontSize: 40 }} />
-          </Avatar>
-          
-          <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>
-            PilotOn
-          </Typography>
-          
-          <Typography variant="body1" sx={{ opacity: 0.9, mb: 1 }}>
-            Sisteme de Navigație
-          </Typography>
-          
-          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
-            <AdminPanelSettings sx={{ fontSize: 20 }} />
-            <Typography variant="h6" sx={{ fontWeight: 500 }}>
-              Panou de Administrare
-            </Typography>
-          </Box>
-        </Box>
-        
         <CardContent sx={{ padding: 4 }}>
-          <Box sx={{ mb: 3, textAlign: 'center' }}>
-            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600, color: '#333' }}>
+          <Box sx={{ mb: 3 }}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600, color: t.ink }}>
               Bine ați revenit
             </Typography>
             <Typography variant="body2" color="textSecondary">
               Autentificați-vă pentru a gestiona afacerea
             </Typography>
           </Box>
-          
+
           <Login
             sx={{
               '& .MuiCard-root': {
                 boxShadow: 'none',
+                border: 'none',
                 background: 'transparent',
               },
               '& .MuiCardContent-root': {
@@ -85,23 +81,22 @@ const LoginPage = () => (
               },
               '& .MuiTextField-root': {
                 marginBottom: 2,
-                '& .MuiOutlinedInput-root': {
-                  borderRadius: 2,
-                },
               },
               '& .MuiButton-root': {
-                borderRadius: 2,
-                padding: '12px 24px',
-                fontSize: '1rem',
+                borderRadius: 999,
+                padding: '11px 24px',
+                fontSize: '0.95rem',
                 fontWeight: 600,
-                background: 'linear-gradient(45deg, #1976d2 30%, #42a5f5 90%)',
+                boxShadow: 'none',
+                backgroundColor: t.blue,
                 '&:hover': {
-                  background: 'linear-gradient(45deg, #1565c0 30%, #1976d2 90%)',
+                  backgroundColor: t.blueDark,
+                  boxShadow: 'none',
                 },
               },
             }}
           />
-          
+
           <Box sx={{ mt: 3, textAlign: 'center' }}>
             <Typography variant="body2" color="textSecondary">
               Date de acces demo: <strong>admin</strong> / <strong>admin123456</strong>
@@ -109,12 +104,20 @@ const LoginPage = () => (
           </Box>
         </CardContent>
       </Card>
-      
-      <Box sx={{ textAlign: 'center', mt: 3, color: 'rgba(255, 255, 255, 0.8)' }}>
-        <Typography variant="body2">
-          © 2025 PilotOn Sisteme de Navigație. Panou profesional de administrare comenzi.
-        </Typography>
-      </Box>
+
+      <Typography
+        sx={{
+          textAlign: 'center',
+          mt: 3,
+          fontFamily: t.mono,
+          fontSize: '0.66rem',
+          letterSpacing: '0.12em',
+          textTransform: 'uppercase',
+          color: '#5d666f',
+        }}
+      >
+        © 2025 PilotOn · Sisteme de navigație
+      </Typography>
     </Container>
   </Box>
 );

@@ -52,9 +52,6 @@ const OrderSidebar = () => (
     mr: 2,
     mt: 9,
     width: 220,
-    borderRadius: 3,
-    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-    background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)',
     // Hide sidebar on mobile/tablet - use top filter bar instead
     display: { xs: 'none', sm: 'none', md: 'block' }
   }}>
@@ -145,36 +142,12 @@ export const OrderList = () => (
     aside={<OrderSidebar />}
     pagination={<OrderPagination />}
     sort={{ field: 'createdAt', order: 'DESC' }}
-    sx={{
-      '& .MuiPaper-root': {
-        borderRadius: 3,
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-      },
-      '& .RaList-main': {
-        '& .MuiCard-root': {
-          borderRadius: 3
-        }
-      }
-    }}
   >
     <Datagrid 
       rowClick="show" 
       optimized
       sx={{
-        '& .RaDatagrid-headerRow': {
-          backgroundColor: '#f8f9fa',
-          '& .MuiTableCell-head': {
-            fontWeight: 600,
-            color: '#333',
-            borderBottom: '2px solid #e0e0e0'
-          }
-        },
-        '& .RaDatagrid-row': {
-          '&:hover': {
-            backgroundColor: 'rgba(25, 118, 210, 0.04)',
-            cursor: 'pointer'
-          }
-        }
+        '& .RaDatagrid-row:hover': { cursor: 'pointer' }
       }}
     >
       <TextField source="orderNumber" />

@@ -901,7 +901,7 @@ const OrderStatusSection = ({ record }) => {
   }
 
   return (
-    <Card sx={{ mb: 3, borderRadius: 3 }}>
+    <Card sx={{ mb: 3 }}>
       <CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box>

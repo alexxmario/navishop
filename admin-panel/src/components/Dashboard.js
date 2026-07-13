@@ -56,7 +56,7 @@ const apiCall = async (endpoint) => {
   return response.json();
 };
 
-// Solid color backgrounds — no gradient, no pseudo-element decorations
+// Plăci albe, plate — culoarea semantică rămâne doar pe accente mici
 const CARD_COLORS = {
   primary: '#1565c0',
   success:  '#2e7d32',
@@ -65,23 +65,24 @@ const CARD_COLORS = {
 };
 
 const StatCard = ({ title, value, icon, color = 'primary', subtitle }) => {
-  const bg = CARD_COLORS[color] || CARD_COLORS.primary;
+  const accent = CARD_COLORS[color] || CARD_COLORS.primary;
   return (
-    <Card sx={{ height: '100%', bgcolor: bg, color: 'white' }}>
+    <Card sx={{ height: '100%' }}>
       <CardContent sx={{ p: 3 }}>
         <Box sx={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', mb: 2 }}>
-          <Typography variant="h4" sx={{ fontWeight: 700 }}>
-            {value}
+          <Typography
+            variant="overline"
+            sx={{ display: 'block', color: 'text.secondary', lineHeight: 1.6, pt: 0.5 }}
+          >
+            {title}
           </Typography>
-          <Box sx={{ bgcolor: 'rgba(255,255,255,0.18)', borderRadius: 1.5, p: 1, display: 'flex' }}>
-            {React.cloneElement(icon, { sx: { fontSize: 26, color: 'white' } })}
-          </Box>
+          {React.cloneElement(icon, { sx: { fontSize: 20, color: accent } })}
         </Box>
-        <Typography variant="body1" sx={{ fontWeight: 500, opacity: 0.95 }}>
-          {title}
+        <Typography variant="h4" sx={{ fontWeight: 700, letterSpacing: '-0.02em' }}>
+          {value}
         </Typography>
         {subtitle && (
-          <Typography variant="body2" sx={{ opacity: 0.7, mt: 0.5 }}>
+          <Typography variant="body2" sx={{ color: 'text.secondary', mt: 0.5 }}>
             {subtitle}
           </Typography>
         )}
@@ -94,9 +95,7 @@ const ChartCard = ({ title, icon, children, height = 300 }) => (
   <Card sx={{ height: '100%' }}>
     <CardContent sx={{ p: 3 }}>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2.5 }}>
-        <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
-          {React.cloneElement(icon, { sx: { fontSize: 18 } })}
-        </Box>
+        {React.cloneElement(icon, { sx: { fontSize: 18, color: 'primary.main' } })}
         <Typography variant="h6">{title}</Typography>
       </Box>
       <Box sx={{ height }}>{children}</Box>
@@ -171,7 +170,7 @@ export const Dashboard = () => {
   }
 
   return (
-    <Box sx={{ p: 4, bgcolor: '#f5f5f5', minHeight: '100vh' }}>
+    <Box>
 
       {/* Header — no gradient text */}
       <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -288,7 +287,7 @@ export const Dashboard = () => {
           <Card sx={{ height: '100%' }}>
             <CardContent sx={{ p: 3 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 3 }}>
-                <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
+                <Box sx={{ display: 'flex', color: 'primary.main' }}>
                   <Timeline sx={{ fontSize: 18 }} />
                 </Box>
                 <Typography variant="h6">Statistici rapide</Typography>
@@ -318,7 +317,7 @@ export const Dashboard = () => {
           <Card sx={{ height: '100%' }}>
             <CardContent sx={{ p: 3 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 2 }}>
-                <Box sx={{ bgcolor: 'primary.main', borderRadius: 1.5, p: 0.75, display: 'flex', color: 'white' }}>
+                <Box sx={{ display: 'flex', color: 'primary.main' }}>
                   <Assessment sx={{ fontSize: 18 }} />
                 </Box>
                 <Typography variant="h6">Comenzi recente</Typography>
