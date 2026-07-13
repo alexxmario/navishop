@@ -4,6 +4,7 @@ import { useAuth } from './AuthContext';
 import { useCart } from './CartContext';
 import apiService from './services/api';
 import PageTitle from './components/PageTitle';
+import Seo from './components/Seo';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CarModelCard from './components/CarModelCard';
@@ -257,7 +258,11 @@ const BrandPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle title={`${brandData.brand} Navigation Systems`} />
+      <Seo
+        title={`Navigații ${brandData.brand} cu Android | PilotOn`}
+        description={`Navigații auto PilotOn cu Android pentru ${brandData.brand}: CarPlay și Android Auto wireless, montaj Plug & Play. Alege modelul tău și comandă online.`}
+        path={`/brand/${brand}`}
+      />
       <Header />
 
       {/* Breadcrumb */}

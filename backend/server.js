@@ -23,6 +23,7 @@ const dashboardRoutes = require('./routes/dashboard');
 const reviewRoutes = require('./routes/reviews');
 const b2bApplicationRoutes = require('./routes/b2bApplications');
 const contactMessageRoutes = require('./routes/contactMessages');
+const sitemapRoutes = require('./routes/sitemap');
 require('./config/passport');
 
 const app = express();
@@ -96,6 +97,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/reviews', reviewRoutes);
 app.use('/api/b2b-applications', b2bApplicationRoutes);
 app.use('/api/contact-messages', contactMessageRoutes);
+app.use('/', sitemapRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'PilotOn API is running!' });

@@ -4,7 +4,7 @@ import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
 import apiService from './services/api';
 import Footer from './components/Footer';
-import PageTitle from './components/PageTitle';
+import Seo from './components/Seo';
 import Header from './components/Header';
 import RecentlyViewed from './components/RecentlyViewed';
 import ZoomImage from './components/ZoomImage';
@@ -209,7 +209,12 @@ const CategoryPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle title={currentCategory.name} />
+      <Seo
+        title={`${currentCategory.name} | PilotOn`}
+        description={currentCategory.description ||
+          `${currentCategory.name} de la PilotOn – calitate premium, livrare rapidă în toată România.`}
+        path={`/category/${category}`}
+      />
       <Header />
 
       {/* Breadcrumb */}

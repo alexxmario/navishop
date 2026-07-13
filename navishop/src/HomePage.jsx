@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import apiService from './services/api';
 import Footer from './components/Footer';
-import PageTitle from './components/PageTitle';
+import Seo from './components/Seo';
 import RecentlyViewed from './components/RecentlyViewed';
 import FeaturedProductsCarousel from './components/FeaturedProductsCarousel';
 import ReviewsCarousel from './components/ReviewsCarousel';
@@ -201,7 +201,7 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle />
+      <Seo path="/" />
       <Header />
 
       {/* Hero Section - Desktop: full-bleed looping video (fades in/out for a smooth loop) */}

@@ -6,7 +6,7 @@ import { useRecentlyViewed } from './RecentlyViewedContext';
 import { useB2BPricing } from './hooks/useB2BPricing';
 import apiService from './services/api';
 import Footer from './components/Footer';
-import PageTitle from './components/PageTitle';
+import Seo, { SITE_URL } from './components/Seo';
 import RecentlyViewed from './components/RecentlyViewed';
 import Header from './components/Header';
 import ReviewsList from './components/ReviewsList';
@@ -241,11 +241,48 @@ const ProductPage = () => {
   const specRowClass =
     'flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between py-2 border-b border-gray-200';
 
+  const seoDescription = product.seoDescription || product.shortDescription ||
+    `${product.name} – CarPlay și Android Auto wireless, montaj Plug & Play. Livrare rapidă în toată România.`;
+  const seoImages = (product.images || [])
+    .map((img) => resolveImageUrl(img?.url))
+    .filter(Boolean);
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    sku: product.sku,
+    description: seoDescription,
+    image: seoImages.slice(0, 6),
+    brand: { '@type': 'Brand', name: product.brand || 'PilotOn' },
+    offers: {
+      '@type': 'Offer',
+      url: `${SITE_URL}/product/${product.slug}`,
+      priceCurrency: 'RON',
+      price: product.price,
+      availability: product.stock > 0
+        ? 'https://schema.org/InStock'
+        : 'https://schema.org/OutOfStock',
+      itemCondition: 'https://schema.org/NewCondition'
+    },
+    ...(reviewStats.totalReviews > 0 && {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: reviewStats.averageRating,
+        reviewCount: reviewStats.totalReviews
+      }
+    })
+  };
 
   return (
     <div className="min-h-screen bg-white">
       <Toast toast={toast} />
-      <PageTitle title={product?.name} />
+      <Seo
+        title={product.seoTitle || `${product.name} | PilotOn`}
+        description={seoDescription}
+        path={`/product/${product.slug}`}
+        image={seoImages[0]}
+        jsonLd={productJsonLd}
+      />
       <Header />
 
       {/* Breadcrumb */}

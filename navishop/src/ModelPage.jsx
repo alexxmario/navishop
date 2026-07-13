@@ -4,6 +4,7 @@ import { useAuth } from './AuthContext';
 import { useCart } from './CartContext';
 import apiService from './services/api';
 import PageTitle from './components/PageTitle';
+import Seo from './components/Seo';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProductCard from './components/ProductCard';
@@ -179,7 +180,11 @@ const ModelPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <PageTitle title={`${capitalizeWord(brand)} ${capitalizeWord(model)} Sisteme de Navigație`} />
+      <Seo
+        title={`Navigații ${capitalizeWord(brand)} ${capitalizeWord(model)} cu Android | PilotOn`}
+        description={`Navigații auto PilotOn cu Android pentru ${capitalizeWord(brand)} ${capitalizeWord(model)}: CarPlay și Android Auto wireless, montaj Plug & Play, livrare rapidă în România.`}
+        path={`/brand/${brand}/${model}`}
+      />
       <Header />
 
       {/* Breadcrumb */}
