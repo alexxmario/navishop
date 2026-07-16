@@ -207,7 +207,7 @@ const HomePage = () => {
       {/* Hero Section - Desktop: full-bleed looping video (fades in/out for a smooth loop) */}
       <section className="hidden lg:block relative bg-black overflow-hidden h-[620px] xl:h-[700px]">
         <video
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-top"
           src="/hero-video.mp4"
           autoPlay
           loop
