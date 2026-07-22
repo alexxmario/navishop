@@ -69,6 +69,12 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
       if (!normalized) return;
       candidates.add(normalized);
       candidates.add(normalized.toLowerCase());
+      // "/" in model names (e.g. "Fit / Jazz") cannot appear in a folder path
+      const slashless = normalizeSpacing(normalized.replace(/\s*\/\s*/g, ' '));
+      if (slashless !== normalized) {
+        candidates.add(slashless);
+        candidates.add(slashless.toLowerCase());
+      }
     };
 
     const addWithYears = (value) => {
