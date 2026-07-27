@@ -1067,10 +1067,12 @@ router.get('/:orderId/awb-pdf', auth, async (req, res) => {
     }
 
     // A label is only retrievable from the account that issued the AWB. Orders
-    // shipped before per-company accounts existed have no shipping.companyId —
-    // fall back to the invoice company, then to the default env account.
-    const issuingCompanyId = order.shipping?.companyId || order.invoice?.companyId;
-    const fanCourierAccount = issuingCompanyId ? getFanCourierAccount(issuingCompanyId) : null;
+    // shipped before per-company accounts existed carry no shipping.companyId,
+    // and their AWB went out on the default env account whatever the invoice
+    // said — so fall back to the default account, never to the invoice company.
+    const fanCourierAccount = order.shipping?.companyId
+      ? getFanCourierAccount(order.shipping.companyId)
+      : null;
 
     // Get AWB label PDF from Fan Courier
     const pdfResult = await fanCourierService.getAWBLabelPDF(awbNumber, fanCourierAccount);
