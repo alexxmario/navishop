@@ -913,6 +913,56 @@ router.put('/:orderId/process', auth, async (req, res) => {
         }
         break;
 
+      // Undo a shipment: cancel the AWB at Fan Courier and put the order back to
+      // `processing` so it can be shipped again — e.g. when it went out on the
+      // wrong company. The invoice is deliberately left untouched.
+      case 'cancel-awb': {
+        if (order.status !== 'shipped') {
+          return res.status(400).json({ message: 'Doar comenzile expediate au AWB de anulat.' });
+        }
+
+        const awbNumber = order.shipping?.awbNumber
+          || (order.trackingCode && !order.trackingCode.startsWith('TRK') ? order.trackingCode : null);
+
+        if (!awbNumber) {
+          return res.status(400).json({ message: 'Comanda nu are un AWB Fan Courier de anulat.' });
+        }
+
+        // Legacy AWBs carry no shipping.companyId and were issued on the
+        // default account, whatever the invoice said.
+        const issuingAccount = order.shipping?.companyId
+          ? getFanCourierAccount(order.shipping.companyId)
+          : null;
+
+        const authResult = await fanCourierService.authenticate(issuingAccount);
+        if (!authResult.success) {
+          return res.status(500).json({
+            message: 'Autentificarea la Fan Courier a eșuat',
+            error: authResult.error
+          });
+        }
+
+        const cancelResult = await fanCourierService.cancelAWB(awbNumber, authResult.token, issuingAccount);
+        if (!cancelResult.success) {
+          return res.status(500).json({
+            message: `Anularea AWB ${awbNumber} a eșuat la Fan Courier`,
+            error: cancelResult.error
+          });
+        }
+
+        // Clear every trace of the shipment so the order looks un-shipped.
+        // Use set(path, undefined) so Mongoose emits a real $unset — leaving an
+        // empty string behind would collide with trackingCode's sparse unique
+        // index on the next shipment.
+        order.set('shipping', undefined);
+        order.set('trackingCode', undefined);
+        order.status = 'processing';
+
+        responseData.cancelledAwb = awbNumber;
+        responseData.message = `AWB ${awbNumber} a fost anulat. Comanda a revenit la starea "processing" și poate fi expediată din nou.`;
+        break;
+      }
+
       case 'cancel':
         if (!['pending', 'confirmed'].includes(order.status)) {
           return res.status(400).json({ message: 'Order can only be cancelled from pending or confirmed status' });

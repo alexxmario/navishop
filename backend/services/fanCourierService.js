@@ -322,9 +322,13 @@ class FanCourierService {
   /**
    * Delete/cancel AWB
    */
-  async cancelAWB(awbNumber, authToken) {
+  async cancelAWB(awbNumber, authToken, account) {
     try {
-      const response = await axios.delete(`${this.baseURL}/api/awb/${awbNumber}`, {
+      // Per the official Postman collection the endpoint is
+      // DELETE /awb?clientId=..&awb=.. — not /api/awb/:awb, which 404s.
+      // An AWB can only be cancelled from the account that issued it.
+      const clientId = this.resolveAccount(account).clientId;
+      const response = await axios.delete(`${this.baseURL}/awb?clientId=${clientId}&awb=${awbNumber}`, {
         headers: {
           'Authorization': `Bearer ${authToken}`,
           'Content-Type': 'application/json'
@@ -333,7 +337,8 @@ class FanCourierService {
 
       return {
         success: true,
-        message: 'AWB cancelled successfully'
+        message: 'AWB cancelled successfully',
+        data: response.data
       };
     } catch (error) {
       console.error('FAN Courier AWB cancellation error:', error.response?.data || error.message);

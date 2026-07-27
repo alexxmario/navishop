@@ -274,6 +274,7 @@ const confirmMessages = {
   confirm: 'Confirmă comanda?\n\nAceasta va confirma comanda și va notifica clientul.',
   process: 'Procesează comanda și generează factura SmartBill?\n\nAceasta va:\n- Genera factura SmartBill\n- Schimba statusul în "În procesare"\n- Trimite factura clientului prin email',
   cancel: 'ANULEAZĂ comanda?\n\nAceastă acțiune NU poate fi anulată!',
+  'cancel-awb': 'Anulează AWB-ul la Fan Courier?\n\nAceasta va:\n- Anula AWB-ul curent la Fan Courier\n- Șterge datele de expediere de pe comandă\n- Readuce comanda în "În procesare", ca să poată fi expediată din nou\n\nFactura NU este afectată.',
 };
 
 // Process Dialog Component — lets the admin pick which company to invoice under
@@ -841,6 +842,9 @@ const OrderActions = () => {
   const canProcess = record.status === 'confirmed';
   const canShip = record.status === 'processing';
   const canCancel = ['pending', 'confirmed'].includes(record.status);
+  // Undo a shipment sent on the wrong company: cancels the AWB and returns the
+  // order to `processing` so it can be shipped again. Invoice is untouched.
+  const canCancelAwb = record.status === 'shipped' && !!resolveAwbNumber(record);
 
   return (
     <>
@@ -877,6 +881,17 @@ const OrderActions = () => {
             sx={{ ml: 1 }}
           >
             Expediază comanda
+          </Button>
+        )}
+        {canCancelAwb && (
+          <Button
+            onClick={() => handleAction('cancel-awb')}
+            startIcon={<CancelIcon />}
+            variant="outlined"
+            color="warning"
+            sx={{ ml: 1 }}
+          >
+            Anulează AWB
           </Button>
         )}
         {canCancel && (
