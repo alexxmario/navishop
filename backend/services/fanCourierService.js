@@ -66,8 +66,11 @@ class FanCourierService {
         const response = await axios.post(`${this.baseURL}/login?username=${acc.username}&password=${acc.password}`);
 
         if (response.status === 200 && response.data?.data?.token) {
-          const expiresRaw = response.data.data.expires_at;
-          const expiresAt = expiresRaw ? Date.parse(expiresRaw) : Date.now() + 15 * 60 * 1000;
+          // Fan Courier returns `expiresAt`; older docs show `expires_at`.
+          // Accept either, and fall back to a short window if absent or unparseable.
+          const expiresRaw = response.data.data.expiresAt || response.data.data.expires_at;
+          const parsed = expiresRaw ? Date.parse(expiresRaw) : NaN;
+          const expiresAt = Number.isNaN(parsed) ? Date.now() + 15 * 60 * 1000 : parsed;
           this.authState.set(acc.username, { token: response.data.data.token, expiry: expiresAt });
           return {
             success: true,
