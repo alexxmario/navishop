@@ -145,6 +145,14 @@ const guestOrderSchema = new mongoose.Schema({
       unique: true,
       sparse: true
     },
+    // Which legal entity's Fan Courier account issued this AWB. The label can
+    // only be fetched back from that same account.
+    companyId: {
+      type: String
+    },
+    companyName: {
+      type: String
+    },
     cost: {
       type: Number,
       default: 0

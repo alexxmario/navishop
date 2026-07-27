@@ -7,7 +7,7 @@ const auth = require('../middleware/auth');
 const smartbillService = require('../services/smartbillServiceCorrect');
 const euplatescService = require('../services/euplatescService');
 const fanCourierService = require('../services/fanCourierService');
-const { getBillingCompany, listBillingCompanies } = require('../config/billingCompanies');
+const { getBillingCompany, getFanCourierAccount, listBillingCompanies } = require('../config/billingCompanies');
 const router = express.Router();
 
 // Get user's orders
@@ -856,7 +856,26 @@ router.put('/:orderId/process', auth, async (req, res) => {
           // Get AWB options from request body (sent from admin panel)
           const awbOptions = req.body.awbOptions || {};
 
-          const awbResult = await fanCourierService.createShipment(order, awbOptions);
+          // The AWB must go out under the same legal entity that issued the
+          // invoice, so the sender on the label matches the fiscal document.
+          const shippingCompanyId = order.invoice?.companyId;
+          if (!shippingCompanyId) {
+            return res.status(400).json({
+              message: 'Comanda nu are o companie de facturare salvată. Reprocesați comanda înainte de expediere.'
+            });
+          }
+
+          const fanCourierAccount = getFanCourierAccount(shippingCompanyId);
+          if (!fanCourierAccount) {
+            const company = getBillingCompany(shippingCompanyId);
+            const suffix = shippingCompanyId === 'piloton' ? '' : '_PC';
+            return res.status(400).json({
+              message: `Contul Fan Courier nu este configurat pentru ${company?.name || shippingCompanyId}. `
+                + `Setați FAN_COURIER_CLIENT_ID${suffix}, FAN_COURIER_USERNAME${suffix} și FAN_COURIER_PASSWORD${suffix} pe server.`
+            });
+          }
+
+          const awbResult = await fanCourierService.createShipment(order, awbOptions, fanCourierAccount);
 
           if (awbResult.success) {
             // Initialize shipping object if it doesn't exist
@@ -867,6 +886,10 @@ router.put('/:orderId/process', auth, async (req, res) => {
             order.shipping.awbNumber = awbResult.awbNumber;
             order.shipping.cost = awbResult.cost;
             order.shipping.trackingCode = awbResult.trackingCode;
+            // Remember which account issued it — the label can only be fetched back
+            // from that same account.
+            order.shipping.companyId = fanCourierAccount.companyId;
+            order.shipping.companyName = fanCourierAccount.companyName;
 
             // Set tracking code on order
             if (!order.trackingCode) {
@@ -1043,8 +1066,14 @@ router.get('/:orderId/awb-pdf', auth, async (req, res) => {
       });
     }
 
+    // A label is only retrievable from the account that issued the AWB. Orders
+    // shipped before per-company accounts existed have no shipping.companyId —
+    // fall back to the invoice company, then to the default env account.
+    const issuingCompanyId = order.shipping?.companyId || order.invoice?.companyId;
+    const fanCourierAccount = issuingCompanyId ? getFanCourierAccount(issuingCompanyId) : null;
+
     // Get AWB label PDF from Fan Courier
-    const pdfResult = await fanCourierService.getAWBLabelPDF(awbNumber);
+    const pdfResult = await fanCourierService.getAWBLabelPDF(awbNumber, fanCourierAccount);
 
     if (!pdfResult.success) {
       return res.status(500).json({

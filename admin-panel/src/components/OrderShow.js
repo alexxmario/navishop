@@ -425,6 +425,16 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
         Generează AWB Fan Courier
       </DialogTitle>
       <DialogContent sx={{ pt: 3 }}>
+        {/* The AWB is issued on the same company as the invoice, so the sender
+            on the label matches the fiscal document. */}
+        <Alert severity={record?.invoice?.companyName ? 'info' : 'warning'} sx={{ mb: 3 }}>
+          <Typography variant="body2">
+            {record?.invoice?.companyName
+              ? <>AWB-ul va fi emis pe <strong>{record.invoice.companyName}</strong>, aceeași companie ca factura{record.invoice.invoiceNumber ? ` ${record.invoice.companySeries || ''}${record.invoice.invoiceNumber}` : ''}.</>
+              : 'Comanda nu are o companie de facturare salvată. Reprocesați comanda înainte de expediere.'}
+          </Typography>
+        </Alert>
+
         <Grid container spacing={3}>
           {/* Left Column - Basic AWB Info */}
           <Grid size={{ xs: 12, md: 6 }}>
@@ -1135,6 +1145,11 @@ export const OrderShow = () => (
                 <FunctionField
                   label="Număr AWB"
                   render={record => resolveAwbNumber(record) || '-'}
+                />
+                <FunctionField
+                  label="Expeditor AWB"
+                  render={record => record.shipping?.companyName
+                    || (resolveAwbNumber(record) ? 'Necunoscut (AWB emis înainte de separarea pe companii)' : '-')}
                 />
                 <TextField source="trackingCode" label="Cod urmărire" />
               </Grid>

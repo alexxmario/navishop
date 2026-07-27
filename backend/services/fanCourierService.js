@@ -5,63 +5,107 @@ class FanCourierService {
     // FAN Courier API endpoints from their official Postman collection
     this.baseURL = 'https://api.fancourier.ro';
     this.reportsURL = 'https://api.fancourier.ro/reports';
-    this.clientId = process.env.FAN_COURIER_CLIENT_ID;
-    this.username = process.env.FAN_COURIER_USERNAME;
-    this.password = process.env.FAN_COURIER_PASSWORD;
-    this.cachedToken = null;
-    this.cachedTokenExpiry = null;
-    this.pendingAuth = null;
 
-    if (!this.clientId || !this.username || !this.password) {
+    // Default account, used when a caller does not name a company. Per-company
+    // accounts come from config/billingCompanies.js and are passed in per call,
+    // because the sender printed on an AWB is the owner of the account.
+    this.defaultAccount = {
+      companyId: null,
+      companyName: 'default',
+      clientId: process.env.FAN_COURIER_CLIENT_ID,
+      username: process.env.FAN_COURIER_USERNAME,
+      password: process.env.FAN_COURIER_PASSWORD
+    };
+
+    // Auth state is per account (keyed by username), never shared between them.
+    this.authState = new Map();
+
+    if (!this.defaultAccount.clientId || !this.defaultAccount.username || !this.defaultAccount.password) {
       console.warn('FAN Courier credentials not configured. Please set FAN_COURIER_CLIENT_ID, FAN_COURIER_USERNAME, and FAN_COURIER_PASSWORD environment variables.');
     }
   }
 
   /**
-   * Get authentication token from FAN Courier API
+   * Resolve which Fan Courier account a call should use.
+   * @param {Object} [account] - { clientId, username, password, companyName }
    */
-  async authenticate() {
-    const hasValidCache = this.cachedToken && this.cachedTokenExpiry && Date.now() < this.cachedTokenExpiry - 60000;
+  resolveAccount(account) {
+    if (account && account.clientId && account.username && account.password) {
+      return account;
+    }
+    return this.defaultAccount;
+  }
+
+  /**
+   * Get authentication token from FAN Courier API
+   * @param {Object} [account] - Account to authenticate as; defaults to env account
+   */
+  async authenticate(account) {
+    const acc = this.resolveAccount(account);
+
+    if (!acc.clientId || !acc.username || !acc.password) {
+      return {
+        success: false,
+        error: `FAN Courier credentials not configured for ${acc.companyName || 'default account'}`
+      };
+    }
+
+    const state = this.authState.get(acc.username) || {};
+
+    const hasValidCache = state.token && state.expiry && Date.now() < state.expiry - 60000;
     if (hasValidCache) {
-      return { success: true, token: this.cachedToken, expires_at: this.cachedTokenExpiry };
+      return { success: true, token: state.token, expires_at: state.expiry };
     }
 
-    if (this.pendingAuth) {
-      return this.pendingAuth;
+    if (state.pending) {
+      return state.pending;
     }
 
-    this.pendingAuth = (async () => {
+    const pending = (async () => {
       try {
-        const response = await axios.post(`${this.baseURL}/login?username=${this.username}&password=${this.password}`);
+        const response = await axios.post(`${this.baseURL}/login?username=${acc.username}&password=${acc.password}`);
 
         if (response.status === 200 && response.data?.data?.token) {
-          this.cachedToken = response.data.data.token;
           const expiresRaw = response.data.data.expires_at;
           const expiresAt = expiresRaw ? Date.parse(expiresRaw) : Date.now() + 15 * 60 * 1000;
-          this.cachedTokenExpiry = expiresAt;
+          this.authState.set(acc.username, { token: response.data.data.token, expiry: expiresAt });
           return {
             success: true,
-            token: this.cachedToken,
+            token: response.data.data.token,
             expires_at: expiresRaw
           };
         }
 
+        this.authState.delete(acc.username);
         return {
           success: false,
           error: 'Authentication failed - no token received'
         };
       } catch (error) {
-        console.error('FAN Courier authentication error:', error.response?.data || error.message);
+        console.error(`FAN Courier authentication error (${acc.companyName || 'default'}):`, error.response?.data || error.message);
+        this.authState.delete(acc.username);
         return {
           success: false,
           error: error.response?.data?.message || error.message
         };
-      } finally {
-        this.pendingAuth = null;
       }
     })();
 
-    return this.pendingAuth;
+    this.authState.set(acc.username, { ...state, pending });
+    const result = await pending;
+
+    // Drop the in-flight marker, keeping whatever token the call stored.
+    const settled = this.authState.get(acc.username);
+    if (settled && settled.pending === pending) {
+      const { pending: _drop, ...rest } = settled;
+      if (rest.token) {
+        this.authState.set(acc.username, rest);
+      } else {
+        this.authState.delete(acc.username);
+      }
+    }
+
+    return result;
   }
 
   /**
@@ -70,7 +114,7 @@ class FanCourierService {
    * @param {string} authToken - Authentication token
    * @param {Object} awbOptions - Custom AWB options from admin panel
    */
-  async createAWB(orderData, authToken, awbOptions = {}) {
+  async createAWB(orderData, authToken, awbOptions = {}, account) {
     try {
       // Build options array based on awbOptions
       const options = [];
@@ -97,7 +141,7 @@ class FanCourierService {
       const numberOfPackages = parseInt(awbOptions.numberOfPackages) || 1;
 
       const awbData = {
-        clientId: parseInt(this.clientId),
+        clientId: parseInt(this.resolveAccount(account).clientId),
         shipments: [
           {
             info: {
@@ -198,9 +242,10 @@ class FanCourierService {
   /**
    * Track shipment status using FAN Courier API format
    */
-  async trackShipment(awbNumber, authToken) {
+  async trackShipment(awbNumber, authToken, account) {
     try {
-      const response = await axios.get(`${this.reportsURL}/awb/tracking?clientId=${this.clientId}&awb[]=${awbNumber}`, {
+      const clientId = this.resolveAccount(account).clientId;
+      const response = await axios.get(`${this.reportsURL}/awb/tracking?clientId=${clientId}&awb[]=${awbNumber}`, {
         headers: {
           'Authorization': `Bearer ${authToken}`,
           'Content-Type': 'application/json'
@@ -301,16 +346,19 @@ class FanCourierService {
    * @param {Object} order - The order document
    * @param {Object} awbOptions - Custom AWB options from admin panel
    */
-  async createShipment(order, awbOptions = {}) {
+  async createShipment(order, awbOptions = {}, account) {
     try {
+      const acc = this.resolveAccount(account);
+
       console.log('=== FAN Courier createShipment START ===');
       console.log('Order ID:', order._id);
       console.log('Order Number:', order.orderNumber);
+      console.log('Sender account:', acc.companyName, `(clientId ${acc.clientId})`);
       console.log('Shipping Address:', JSON.stringify(order.shippingAddress, null, 2));
       console.log('AWB Options:', JSON.stringify(awbOptions, null, 2));
 
       // Authenticate first
-      const authResult = await this.authenticate();
+      const authResult = await this.authenticate(acc);
       console.log('Auth result:', authResult.success ? 'SUCCESS' : 'FAILED - ' + authResult.error);
 
       if (!authResult.success) {
@@ -371,7 +419,7 @@ class FanCourierService {
       console.log('Prepared orderData for AWB:', JSON.stringify(orderData, null, 2));
 
       // Create AWB with custom options
-      const awbResult = await this.createAWB(orderData, authResult.token, awbOptions);
+      const awbResult = await this.createAWB(orderData, authResult.token, awbOptions, acc);
       console.log('AWB Result:', JSON.stringify(awbResult, null, 2));
 
       if (awbResult.success) {
@@ -380,7 +428,9 @@ class FanCourierService {
           awbNumber: awbResult.awbNumber,
           cost: awbResult.cost,
           pdfLink: awbResult.pdf_link,
-          trackingCode: awbResult.awbNumber
+          trackingCode: awbResult.awbNumber,
+          companyId: acc.companyId,
+          companyName: acc.companyName
         };
       } else {
         return {
@@ -400,9 +450,10 @@ class FanCourierService {
   /**
    * High-level method to track an order
    */
-  async trackOrder(trackingCode) {
+  async trackOrder(trackingCode, account) {
     try {
-      const authResult = await this.authenticate();
+      const acc = this.resolveAccount(account);
+      const authResult = await this.authenticate(acc);
       if (!authResult.success) {
         return {
           success: false,
@@ -410,7 +461,7 @@ class FanCourierService {
         };
       }
 
-      return await this.trackShipment(trackingCode, authResult.token);
+      return await this.trackShipment(trackingCode, authResult.token, acc);
     } catch (error) {
       console.error('FAN Courier order tracking error:', error);
       return {
@@ -458,13 +509,16 @@ class FanCourierService {
   /**
    * Get AWB label PDF
    */
-  async getAWBLabelPDF(awbNumber) {
+  async getAWBLabelPDF(awbNumber, account) {
     try {
+      // A label can only be fetched from the account that issued the AWB.
+      const acc = this.resolveAccount(account);
+
       console.log('=== getAWBLabelPDF START ===');
       console.log('AWB Number:', awbNumber);
-      console.log('Client ID:', this.clientId);
+      console.log('Sender account:', acc.companyName, `(clientId ${acc.clientId})`);
 
-      const authResult = await this.authenticate();
+      const authResult = await this.authenticate(acc);
       if (!authResult.success) {
         return {
           success: false,
@@ -473,7 +527,7 @@ class FanCourierService {
       }
 
       // Build URL with query params - use baseURL not reportsURL per Postman collection
-      const url = `${this.baseURL}/awb/label?clientId=${this.clientId}&awbs[]=${awbNumber}&pdf=1&dpi=300`;
+      const url = `${this.baseURL}/awb/label?clientId=${acc.clientId}&awbs[]=${awbNumber}&pdf=1&dpi=300`;
       console.log('Request URL:', url);
 
       const response = await axios.get(url, {
