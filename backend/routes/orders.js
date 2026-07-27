@@ -1031,15 +1031,20 @@ router.get('/:orderId/awb-pdf', auth, async (req, res) => {
       return res.status(404).json({ message: 'Order not found' });
     }
 
-    // Check if order has AWB number
-    if (!order.shipping?.awbNumber) {
+    // Guest orders shipped before the schema carried a `shipping` sub-document
+    // only kept the AWB in trackingCode. `TRK...` codes are the locally
+    // generated placeholder, not a real Fan Courier AWB.
+    const awbNumber = order.shipping?.awbNumber
+      || (order.trackingCode && !order.trackingCode.startsWith('TRK') ? order.trackingCode : null);
+
+    if (!awbNumber) {
       return res.status(400).json({
         message: 'No AWB number found for this order. Order must be shipped first.'
       });
     }
 
     // Get AWB label PDF from Fan Courier
-    const pdfResult = await fanCourierService.getAWBLabelPDF(order.shipping.awbNumber);
+    const pdfResult = await fanCourierService.getAWBLabelPDF(awbNumber);
 
     if (!pdfResult.success) {
       return res.status(500).json({
@@ -1050,7 +1055,7 @@ router.get('/:orderId/awb-pdf', auth, async (req, res) => {
 
     // Send PDF as response
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', `inline; filename="awb-${order.shipping.awbNumber}.pdf"`);
+    res.setHeader('Content-Disposition', `inline; filename="awb-${awbNumber}.pdf"`);
     res.send(Buffer.from(pdfResult.pdf));
 
   } catch (error) {

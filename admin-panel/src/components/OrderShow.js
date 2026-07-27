@@ -166,6 +166,15 @@ const InvoicePDFViewer = ({ orderId, invoiceNumber }) => {
   );
 };
 
+// Guest orders shipped before GuestOrder carried a `shipping` sub-document only
+// kept the AWB in trackingCode. `TRK...` is the locally generated placeholder,
+// not a real Fan Courier AWB.
+const resolveAwbNumber = (record) => {
+  if (record?.shipping?.awbNumber) return record.shipping.awbNumber;
+  const code = record?.trackingCode;
+  return code && !code.startsWith('TRK') ? code : null;
+};
+
 const AWBLabelViewer = ({ orderId, awbNumber }) => {
   const [pdfUrl, setPdfUrl] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -1123,7 +1132,10 @@ export const OrderShow = () => (
             <Grid container spacing={2}>
               <Grid size={{ xs: 12, md: 6 }}>
                 <TextField source="shipping.provider" label="Furnizor" />
-                <TextField source="shipping.awbNumber" label="Număr AWB" />
+                <FunctionField
+                  label="Număr AWB"
+                  render={record => resolveAwbNumber(record) || '-'}
+                />
                 <TextField source="trackingCode" label="Cod urmărire" />
               </Grid>
               <Grid size={{ xs: 12, md: 6 }}>
@@ -1136,11 +1148,12 @@ export const OrderShow = () => (
             {/* AWB Label PDF Viewer */}
             <FunctionField
               render={record => {
-                if (record.shipping && record.shipping.awbNumber) {
+                const awbNumber = resolveAwbNumber(record);
+                if (awbNumber) {
                   return (
                     <AWBLabelViewer
                       orderId={record.id}
-                      awbNumber={record.shipping.awbNumber}
+                      awbNumber={awbNumber}
                     />
                   );
                 }

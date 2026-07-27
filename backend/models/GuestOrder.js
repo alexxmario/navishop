@@ -131,6 +131,34 @@ const guestOrderSchema = new mongoose.Schema({
     unique: true,
     sparse: true
   },
+  // Mirrors the `shipping` sub-document on Order. Without it Mongoose strict
+  // mode silently drops the AWB the ship action writes, so the admin panel
+  // never finds a label to show.
+  shipping: {
+    provider: {
+      type: String,
+      enum: ['fan_courier', 'other'],
+      default: 'fan_courier'
+    },
+    awbNumber: {
+      type: String,
+      unique: true,
+      sparse: true
+    },
+    cost: {
+      type: Number,
+      default: 0
+    },
+    pdfLink: {
+      type: String
+    },
+    estimatedDelivery: {
+      type: Date
+    },
+    actualDelivery: {
+      type: Date
+    }
+  },
   invoice: {
     invoiceId: {
       type: String
