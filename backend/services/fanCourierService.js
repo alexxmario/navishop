@@ -1,5 +1,23 @@
 const axios = require('axios');
 
+// Never hold a cached Fan Courier token longer than this, whatever expiry the
+// login response claims. See the note in authenticate().
+const MAX_CACHED_TOKEN_MS = 55 * 60 * 1000;
+
+// Fan Courier signals a dead token with 401, or with a 4xx body reading
+// "These credentials have expired" / "Unauthenticated".
+function isAuthFailure(error) {
+  const status = error.response?.status;
+  if (status === 401) return true;
+  if (!status || status >= 500) return false;
+
+  const body = error.response?.data;
+  const text = Buffer.isBuffer(body)
+    ? body.toString('utf8')
+    : (typeof body === 'string' ? body : JSON.stringify(body || ''));
+  return /credentials have expired|unauthenticated|invalid token|token.*expired/i.test(text);
+}
+
 class FanCourierService {
   constructor() {
     // FAN Courier API endpoints from their official Postman collection
@@ -37,10 +55,45 @@ class FanCourierService {
   }
 
   /**
+   * Run an authenticated request, retrying once on a rejected token.
+   *
+   * A cached token can die before we expect it to — Fan Courier states the
+   * expiry in Romania local time with no zone, and a token can also be revoked
+   * server-side at any point. Rather than trying to predict that, drop the
+   * cached token and retry once whenever Fan Courier rejects it.
+   *
+   * @param {Object} account - Account to authenticate as
+   * @param {(token: string) => Promise} run - Receives a bearer token
+   */
+  async withAuthRetry(account, run) {
+    const acc = this.resolveAccount(account);
+
+    for (const force of [false, true]) {
+      const authResult = await this.authenticate(acc, { force });
+      if (!authResult.success) {
+        const err = new Error(authResult.error);
+        err.authFailure = true;
+        throw err;
+      }
+
+      try {
+        return await run(authResult.token);
+      } catch (error) {
+        if (force || !isAuthFailure(error)) {
+          throw error;
+        }
+        console.warn(`FAN Courier rejected the cached token for ${acc.companyName || 'default'}; re-authenticating and retrying once.`);
+      }
+    }
+  }
+
+  /**
    * Get authentication token from FAN Courier API
    * @param {Object} [account] - Account to authenticate as; defaults to env account
+   * @param {Object} [options]
+   * @param {boolean} [options.force] - Discard any cached token first
    */
-  async authenticate(account) {
+  async authenticate(account, { force = false } = {}) {
     const acc = this.resolveAccount(account);
 
     if (!acc.clientId || !acc.username || !acc.password) {
@@ -50,9 +103,13 @@ class FanCourierService {
       };
     }
 
+    if (force) {
+      this.authState.delete(acc.username);
+    }
+
     const state = this.authState.get(acc.username) || {};
 
-    const hasValidCache = state.token && state.expiry && Date.now() < state.expiry - 60000;
+    const hasValidCache = !force && state.token && state.expiry && Date.now() < state.expiry - 60000;
     if (hasValidCache) {
       return { success: true, token: state.token, expires_at: state.expiry };
     }
@@ -66,11 +123,16 @@ class FanCourierService {
         const response = await axios.post(`${this.baseURL}/login?username=${acc.username}&password=${acc.password}`);
 
         if (response.status === 200 && response.data?.data?.token) {
-          // Fan Courier returns `expiresAt`; older docs show `expires_at`.
-          // Accept either, and fall back to a short window if absent or unparseable.
+          // Fan Courier returns `expiresAt` (older docs show `expires_at`) as a
+          // bare "YYYY-MM-DD HH:MM:SS" with no zone — it is Romania local time,
+          // so Date.parse on a UTC server reads it hours into the future and we
+          // would keep serving a dead token. Never trust it as an upper bound:
+          // cap the cached lifetime to a window comfortably inside any real one,
+          // and rely on the 401 retry below for anything we get wrong.
           const expiresRaw = response.data.data.expiresAt || response.data.data.expires_at;
           const parsed = expiresRaw ? Date.parse(expiresRaw) : NaN;
-          const expiresAt = Number.isNaN(parsed) ? Date.now() + 15 * 60 * 1000 : parsed;
+          const capped = Date.now() + MAX_CACHED_TOKEN_MS;
+          const expiresAt = Number.isNaN(parsed) ? capped : Math.min(parsed, capped);
           this.authState.set(acc.username, { token: response.data.data.token, expiry: expiresAt });
           return {
             success: true,
@@ -526,26 +588,18 @@ class FanCourierService {
       console.log('AWB Number:', awbNumber);
       console.log('Sender account:', acc.companyName, `(clientId ${acc.clientId})`);
 
-      const authResult = await this.authenticate(acc);
-      if (!authResult.success) {
-        return {
-          success: false,
-          error: `Authentication failed: ${authResult.error}`
-        };
-      }
-
       // Build URL with query params - use baseURL not reportsURL per Postman collection
       const url = `${this.baseURL}/awb/label?clientId=${acc.clientId}&awbs[]=${awbNumber}&pdf=1&dpi=300`;
       console.log('Request URL:', url);
 
-      const response = await axios.get(url, {
+      const response = await this.withAuthRetry(acc, (token) => axios.get(url, {
         headers: {
-          'Authorization': `Bearer ${authResult.token}`,
+          'Authorization': `Bearer ${token}`,
           'Accept': 'application/pdf'
         },
         responseType: 'arraybuffer',
         timeout: 30000
-      });
+      }));
 
       console.log('Response status:', response.status);
       console.log('Response content-type:', response.headers['content-type']);
@@ -555,6 +609,9 @@ class FanCourierService {
         pdf: response.data
       };
     } catch (error) {
+      if (error.authFailure) {
+        return { success: false, error: `Authentication failed: ${error.message}` };
+      }
       const errorData = error.response?.data;
       // If it's a buffer, convert to string for logging
       const errorMessage = Buffer.isBuffer(errorData) ? errorData.toString('utf8') : errorData;
