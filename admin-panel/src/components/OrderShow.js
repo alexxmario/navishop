@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Show,
   TextField,
@@ -175,32 +175,62 @@ const resolveAwbNumber = (record) => {
   return code && !code.startsWith('TRK') ? code : null;
 };
 
+// Labels are fetched live from Fan Courier on every visit rather than stored,
+// so they stay available for months (verified back to 180 days). Nothing is
+// cached locally — entering the page always asks for a fresh copy.
 const AWBLabelViewer = ({ orderId, awbNumber }) => {
   const [pdfUrl, setPdfUrl] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [attempt, setAttempt] = useState(0);
+
+  // Held in a ref so cleanup revokes the URL that actually exists — a closure
+  // over the state would capture null from the render the effect ran in.
+  const objectUrlRef = useRef(null);
 
   useEffect(() => {
+    let cancelled = false;
+
+    const revoke = () => {
+      if (objectUrlRef.current) {
+        URL.revokeObjectURL(objectUrlRef.current);
+        objectUrlRef.current = null;
+      }
+    };
+
     const fetchPDF = async () => {
+      setLoading(true);
+      setError(null);
+
       try {
         const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
         const token = localStorage.getItem('token');
 
         const response = await fetch(`${apiUrl}/api/orders/${orderId}/awb-pdf`, {
-          headers: {
-            'Authorization': `Bearer ${token}`
-          }
+          headers: { 'Authorization': `Bearer ${token}` }
         });
 
         if (!response.ok) {
-          throw new Error('Failed to fetch AWB label PDF');
+          // Surface what the server actually said — a generic message here is
+          // what made "credentials have expired" impossible to diagnose.
+          let detail = `${response.status} ${response.statusText}`;
+          try {
+            const body = await response.json();
+            detail = body.error || body.message || detail;
+          } catch (_) { /* non-JSON body, keep the status line */ }
+          throw new Error(detail);
         }
 
         const blob = await response.blob();
+        if (cancelled) return;
+
+        revoke();
         const url = URL.createObjectURL(blob);
+        objectUrlRef.current = url;
         setPdfUrl(url);
         setLoading(false);
       } catch (err) {
+        if (cancelled) return;
         setError(err.message);
         setLoading(false);
       }
@@ -209,23 +239,33 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
     fetchPDF();
 
     return () => {
-      if (pdfUrl) {
-        URL.revokeObjectURL(pdfUrl);
-      }
+      cancelled = true;
+      revoke();
     };
-  }, [orderId]);
+  }, [orderId, attempt]);
 
   if (loading) {
     return (
-      <Box sx={{ mt: 3, textAlign: 'center', py: 4 }}>
-        <Typography>Se încarcă eticheta AWB...</Typography>
+      <Box sx={{ mt: 3, textAlign: 'center', py: 6 }}>
+        <CircularProgress />
+        <Typography sx={{ mt: 2 }} color="textSecondary">
+          Se încarcă eticheta AWB de la Fan Courier...
+        </Typography>
       </Box>
     );
   }
 
   if (error) {
     return (
-      <Alert severity="error" sx={{ mt: 2 }}>
+      <Alert
+        severity="error"
+        sx={{ mt: 2 }}
+        action={
+          <Button color="inherit" size="small" onClick={() => setAttempt(a => a + 1)}>
+            Reîncearcă
+          </Button>
+        }
+      >
         <Typography variant="body2">Eroare la încărcarea etichetei AWB: {error}</Typography>
       </Alert>
     );
@@ -255,7 +295,7 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
           title="Fan Courier AWB Label PDF"
         />
       </Box>
-      <Box sx={{ mt: 2 }}>
+      <Box sx={{ mt: 2, display: 'flex', gap: 1 }}>
         <Button
           variant="contained"
           component="a"
@@ -264,6 +304,9 @@ const AWBLabelViewer = ({ orderId, awbNumber }) => {
           startIcon={<ShipIcon />}
         >
           Descarcă eticheta AWB
+        </Button>
+        <Button variant="outlined" onClick={() => setAttempt(a => a + 1)}>
+          Reîncarcă
         </Button>
       </Box>
     </Box>
