@@ -10,3 +10,8 @@ build/
 dist/
 *.tgz
 *.tar.gz
+
+# scripturi PilotOn: cache-uri locale si poze descarcate, se regenereaza
+backend/scripts/drive-cache/
+backend/scripts/products-live-cache.json
+backend/scripts/price-check-products-cache.json
