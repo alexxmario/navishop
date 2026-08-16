@@ -7,88 +7,20 @@ clonand o familie-sablon existenta si rescriind doar partile specifice modelului
 Iese cu:
   new-models-to-create.json   {"products": [{"doc": {...}, "meta": {"folder": ...}}]}
 
-  python3 backend/scripts/buildNewModels.py
+  python3 backend/scripts/buildNewModels.py --spec new-models-spec-2026-07-22.json
+
+Specificatia e un JSON: {"src": "<folder cu pozele>", "families": [
+  {"label": "Chevrolet Camaro 2010-2015",         # eticheta noua (fara "Navigatie PilotOn ")
+   "template": "Navigatie PilotOn ...",           # familia-sablon de clonat
+   "categorii": "Camaro (2010 - 2015)",
+   "skuToken": "",                                # optional, pentru variante de rama
+   "folders": {"2+32": "...", "4+64": "...", "6+128": "...", "2k": "..."}}]}
 """
-import json, os, re, sys, unicodedata, urllib.request
+import json, os, re, sys, unicodedata, urllib.request, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 API = os.environ.get('PILOTON_API', 'https://api.navi.piloton.ro')
-SRC = os.environ.get('PILOTON_SRC', '/Users/alexmario/Downloads/2026-07-17 rame+navigatii')
-OUT = os.path.join(HERE, 'new-models-to-create.json')
-
-# familii noi: eticheta noua <- eticheta sablon (+ folderul de poze pentru fiecare config)
-# configKey: 2+32 / 4+64 / 6+128 / 2k  -> numele folderului local
-FAMILIES = [
-    {
-        'label': 'Renault Clio II 2001-2006',
-        'template': 'Navigatie PilotOn Renault Clio III 2005-2014',
-        'categorii': 'Clio II (2001 - 2006)',
-        'folders': {
-            '2+32':  'RENAULT CLIO 2 MK2 01-06  9INCH incell tab  9__800x1360 xt892c 2G+32G',
-            '4+64':  'RENAULT CLIO 2 MK2 01-06  9INCH incell tab  9__800x1360 ms94nv 4G+64G',
-            '6+128': 'RENAULT CLIO 2 MK2 01-06  9INCH incell tab  9__800x1360 xt596 6G+128G',
-            '2k':    'RENAULT CLIO 2 MK2 01-06  9INCH incell tab  2k 9__2000x1200 ms9256 8G+256G',
-        },
-    },
-    {
-        'label': 'Renault Koleos 2009-2016',
-        'template': 'Navigatie PilotOn Renault Clio III 2005-2014',
-        'categorii': 'Koleos (2009 - 2016)',
-        'folders': {
-            '2+32':  'RENAULT KOLEOS 09-16 9INCH incell tab  9__800x1360 xt892c 2G+32G',
-            '4+64':  'RENAULT KOLEOS 09-16 9INCH incell tab  9__800x1360 ms94nv 4G+64G',
-            '6+128': 'RENAULT KOLEOS 09-16 9INCH incell tab  9__800x1360 xt596 6G+128G',
-            '2k':    'RENAULT KOLEOS 09-16 9INCH incell tab  2k 9__2000x1200 ms9256 8G+256G',
-        },
-    },
-    {
-        'label': 'Renault Master 2003-2011',
-        'template': 'Navigatie PilotOn Renault Master 2010-2020',
-        'categorii': 'Master (2003 - 2011)',
-        'folders': {
-            '2+32':  'RENAULT MASTER 03-11 10INCH incell tab  10__800x1280 xt812c 2G+32G',
-            '4+64':  'RENAULT MASTER 03-11 10INCH incell tab  10__800x1280 ms14nv 4G+64G',
-            '6+128': 'RENAULT MASTER 03-11 10INCH incell tab 10__800x1280 xt516 6G+128G',
-            '2k':    'RENAULT MASTER 03-11 10INCH incell tab  2k 10__2000x1200 ms1256 8G+256G',
-        },
-    },
-    {
-        'label': 'Renault Kangoo 2019-2025',
-        'template': 'Navigatie PilotOn Renault Master 2010-2020',
-        'categorii': 'Kangoo (2019 - 2025)',
-        'folders': {
-            '2+32':  'RENAULT KANGOO 19-25 10INCH incell tab  10__800x1280 xt812c 2G+32G',
-            '4+64':  'RENAULT KANGOO 19-25 10INCH incell tab  10__800x1280 ms14nv 4G+64G',
-            '6+128': 'RENAULT KANGOO 19-25 10INCH incell tab 10__800x1280 xt516 6G+128G',
-            '2k':    'RENAULT KANGOO 19-25 10INCH incell tab  2k 10__2000x1200 ms1256 8G+256G',
-        },
-    },
-    {
-        # SKU-urile familiei existente contin "PAT" -> existenta e PATRAT, varianta noua e ROTUND
-        'label': 'Dacia Logan 2 2012-2020 ROTUND',
-        'template': 'Navigatie PilotOn Dacia Logan 2 2012-2020',
-        'categorii': 'Logan II Rotund (2012-2020)',
-        'skuToken': 'ROT',
-        'folders': {
-            '2+32':  'DACIA LOGAN-2 ROTUND 12-19 9INCH incell tab  9__800x1360 xt892c 2G+32G',
-            '4+64':  'DACIA LOGAN-2 ROTUND 12-19 9INCH incell tab  9__800x1360 ms94nv 4G+64G',
-            '6+128': 'DACIA LOGAN-2 ROTUND 12-19 9INCH incell tab  9__800x1360 xt596 6G+128G',
-            '2k':    'DACIA LOGAN-2 ROTUND 12-19 9INCH incell tab  2k 9__2000x1200 ms9256 8G+256G',
-        },
-    },
-    {
-        'label': 'Dacia Logan 1 2008-2012 BLACK',
-        'template': 'Navigatie PilotOn Dacia Logan 1 2008-2012',
-        'categorii': 'Logan I Facelift Black (2008-2012)',
-        'skuToken': 'BLK',
-        'folders': {
-            '2+32':  'DACIA LOGAN-1 09-13 BLACK 9INCH incell tab  9__800x1360 xt892c 2G+32G',
-            '4+64':  'DACIA LOGAN-1 09-13 BLACK 9INCH incell tab  9__800x1360 ms94nv 4G+64G',
-            '6+128': 'DACIA LOGAN-1 09-13 BLACK 9INCH incell tab  9__800x1360 xt596 6G+128G',
-            '2k':    'DACIA LOGAN-1 09-13 BLACK 9INCH incell tab  2k 9__2000x1200 ms9256 8G+256G',
-        },
-    },
-]
+DEFAULT_SPEC = os.path.join(HERE, 'new-models-spec-2026-07-17.json')
 
 # campurile care nu se copiaza de pe sablon
 DROP = {'_id', '__v', 'images', 'reviews', 'createdAt', 'updatedAt', 'viewCount',
@@ -137,7 +69,14 @@ def sku_for(label, config_tail, sku_token):
         m = re.match(r'(\d{4})-(\d{4})$', w)
         if m:
             years = m.group(1)[2:] + m.group(2)[2:]
-    stem = ''.join(w for w in brandless if not re.match(r'\d{4}-\d{4}$', w)).upper()
+    if not years:
+        # etichete de tip "dupa 2018" -> "18"
+        m = re.search(r'dupa\s+(\d{4})', label, re.I)
+        if m:
+            years = m.group(1)[2:]
+    stem = ''.join(w for w in brandless
+                   if not re.match(r'\d{4}-\d{4}$', w) and not re.match(r'\d{4}$', w)
+                   and w.lower() != 'dupa').upper()
     stem = re.sub(r'[^A-Z0-9]', '', stem)[:12]
     m = re.search(r'(\d+)GB\s+(\d+)GB', config_tail, re.I)
     ram = f'{m.group(1)}GB' if m else ''
@@ -151,6 +90,18 @@ def sku_for(label, config_tail, sku_token):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--spec', default=DEFAULT_SPEC, help='fisierul de specificatii al familiilor')
+    ap.add_argument('--out', default=os.path.join(HERE, 'new-models-to-create.json'))
+    args = ap.parse_args()
+
+    spec = json.load(open(args.spec if os.path.isabs(args.spec)
+                          else os.path.join(HERE, args.spec)))
+    global SRC, FAMILIES, OUT
+    SRC = os.environ.get('PILOTON_SRC') or spec['src']
+    FAMILIES = spec['families']
+    OUT = args.out if os.path.isabs(args.out) else os.path.join(HERE, args.out)
+
     live = json.load(open(os.path.join(HERE, 'products-live-cache.json'))) \
         if os.path.exists(os.path.join(HERE, 'products-live-cache.json')) else None
     if live is None:

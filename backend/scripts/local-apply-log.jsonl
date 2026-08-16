@@ -223,3 +223,304 @@
 {"ts": "2026-08-15T20:35:50", "event": "product-updated", "slug": "navigatie-piloton-dacia-logan-ii-2012-2020-2k-4gb-64gb-8-core", "images": 30, "was": 32}
 {"ts": "2026-08-15T20:35:50", "event": "product-updated", "slug": "navigatie-piloton-dacia-logan-ii-2012-2020-2k-8gb-256gb-8-core", "images": 30, "was": 32}
 {"ts": "2026-08-15T20:35:51", "event": "product-updated", "slug": "navigatie-piloton-dacia-logan-2-2012-2020-2k-12gb-256gb-8-core-4g", "images": 30, "was": 32}
+{"ts": "2026-08-16T20:17:31", "event": "login-ok", "api": "https://api.navi.piloton.ro"}
+{"ts": "2026-08-16T20:17:32", "event": "uploaded", "folder": "CHEVROLET AVEO 06-12 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:17:33", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:17:33", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-2gb-32gb-8-core-4g", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:33", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-2gb-64gb-4-core", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:42", "event": "login-ok", "api": "https://api.navi.piloton.ro"}
+{"ts": "2026-08-16T20:17:44", "event": "uploaded", "folder": "CHEVROLET AVEO 06-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:17:44", "event": "uploaded", "folder": "CHEVROLET AVEO 06-12 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:17:44", "event": "uploaded", "folder": "CHEVROLET AVEO 06-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-8gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-6gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:45", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-9-inch-4gb-64gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:46", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-2k-qled-4gb-64gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:47", "event": "uploaded", "folder": "CHEVROLET AVEO 11-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:17:47", "event": "uploaded", "folder": "CHEVROLET AVEO 11-15 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:17:47", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-2k-qled-8gb-256gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:47", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:47", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:17:47", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2006-2012-2k-12gb-256gb-8-core-4g", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:47", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:48", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-2gb-64gb-4-core", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:48", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-2k-qled-4gb-64gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:48", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-2gb-32gb-8-core-4g", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:48", "event": "uploaded", "folder": "CHEVROLET AVEO 11-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:17:49", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-2k-qled-8gb-256gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:49", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:49", "event": "uploaded", "folder": "CHEVROLET AVEO 11-15 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:17:49", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-2k-12gb-256gb-8-core-4g", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:49", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:49", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:50", "event": "uploaded", "folder": "CHEVROLET CAPTIVA 12-17 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 38}
+{"ts": "2026-08-16T20:17:50", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-4gb-64gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:50", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-8gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-aveo-2011-2014-9-inch-6gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-32gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:51", "event": "uploaded", "folder": "CHEVROLET CAPTIVA 12-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:17:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-32gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:17:52", "event": "uploaded", "folder": "CHEVROLET CAPTIVA 12-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 39}
+{"ts": "2026-08-16T20:17:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-64gb-4-core", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:17:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-4-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:17:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-qled-4gb-64gb-8-core-4g", "images": 33, "was": 7}
+{"ts": "2026-08-16T20:17:53", "event": "uploaded", "folder": "CHEVROLET CAPTIVA 12-17 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 39}
+{"ts": "2026-08-16T20:17:53", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:17:53", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-qled-8gb-256gb-8-core-4g", "images": 33, "was": 7}
+{"ts": "2026-08-16T20:17:53", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-6gb-128gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:17:53", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-8-core-4g", "images": 39, "was": 7}
+{"ts": "2026-08-16T20:17:54", "event": "uploaded", "folder": "CHEVROLET CRUZE 08-15 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:17:54", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-8gb-128gb-8-core-4g", "images": 39, "was": 7}
+{"ts": "2026-08-16T20:17:54", "event": "uploaded", "folder": "CHEVROLET CRUZE 08-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:17:54", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-6gb-128gb-8-core-4g", "images": 39, "was": 7}
+{"ts": "2026-08-16T20:17:54", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:17:55", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:55", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-2gb-32gb-8-core-4g", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:55", "event": "uploaded", "folder": "CHEVROLET CRUZE 08-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:17:55", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-2gb-64gb-4-core", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:55", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:56", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:56", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2013-2k-qled-4gb-64gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:56", "event": "uploaded", "folder": "CHEVROLET CRUZE 08-15 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:17:56", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:56", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2013-2k-qled-8gb-256gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:17:57", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:57", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-4gb-64gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:57", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2013-2k-12gb-256gb-8-core-4g", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:17:57", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-8gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:58", "event": "uploaded", "folder": "CHEVROLET CRUZE 12-15 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:17:58", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2008-2015-9-inch-6gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:17:58", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:17:59", "event": "uploaded", "folder": "CHEVROLET CRUZE 12-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:17:59", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-2gb-64gb-4-core", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:59", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:17:59", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-2gb-32gb-8-core-4g", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:17:59", "event": "uploaded", "folder": "CHEVROLET CRUZE 12-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:00", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:00", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:00", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-4gb-64gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:00", "event": "uploaded", "folder": "CHEVROLET CRUZE 12-15 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:01", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:01", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:01", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-2k-qled-4gb-64gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:18:01", "event": "uploaded", "folder": "CHEVROLET SPARK 10-14 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:01", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-8gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:01", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-2k-qled-8gb-256gb-8-core-4g", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:18:02", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:02", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-9-inch-6gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:02", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-cruze-2012-2015-2k-12gb-256gb-8-core-4g", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:02", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-2gb-64gb-4-core", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:18:03", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-2gb-32gb-8-core-4g", "images": 37, "was": 7}
+{"ts": "2026-08-16T20:18:03", "event": "uploaded", "folder": "CHEVROLET SPARK 10-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:03", "event": "uploaded", "folder": "CHEVROLET SPARK 10-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:03", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:04", "event": "uploaded", "folder": "CHEVROLET SPARK 10-14 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:04", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:04", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:04", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:04", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:04", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-4gb-64gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:05", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-6gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:05", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-2k-qled-4gb-64gb-8-core", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:18:05", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-9-inch-8gb-128gb-8-core-4g", "images": 38, "was": 7}
+{"ts": "2026-08-16T20:18:05", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-2k-qled-8gb-256gb-8-core", "images": 32, "was": 7}
+{"ts": "2026-08-16T20:18:06", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-spark-2009-2015-2k-12gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:06", "event": "uploaded", "folder": "JEEP COMPAS 10-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:06", "event": "uploaded", "folder": "JEEP COMPAS 10-16 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 32}
+{"ts": "2026-08-16T20:18:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:07", "event": "uploaded", "folder": "JEEP COMPAS 10-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-10-inch-2gb-32gb-4-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-10-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:08", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-10-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:08", "event": "uploaded", "folder": "JEEP COMPASS 16-21 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 32}
+{"ts": "2026-08-16T20:18:09", "event": "uploaded", "folder": "JEEP COMPAS 10-16 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 41}
+{"ts": "2026-08-16T20:18:09", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-10-inch-2gb-32gb-4-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:09", "event": "uploaded", "folder": "JEEP COMPASS 16-21 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:11", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-i-2011-2016-10-inch-6gb-128gb-8-core", "images": 41, "was": 8}
+{"ts": "2026-08-16T20:18:11", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:11", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:12", "event": "uploaded", "folder": "JEEP COMPASS 16-21 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 39}
+{"ts": "2026-08-16T20:18:12", "event": "uploaded", "folder": "JEEP COMPASS 16-21 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:12", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-10-inch-6gb-128gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:12", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 14-17 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 29}
+{"ts": "2026-08-16T20:18:13", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-10-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:13", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-9-inch-2gb-32gb-4-core", "images": 29, "was": 8}
+{"ts": "2026-08-16T20:18:13", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 14-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 26}
+{"ts": "2026-08-16T20:18:13", "event": "product-updated", "slug": "navigatie-piloton-jeep-compass-ii-2016-2021-10-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:13", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-2k-4gb-64gb-8-core", "images": 26, "was": 8}
+{"ts": "2026-08-16T20:18:14", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 14-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 30}
+{"ts": "2026-08-16T20:18:14", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 14-17 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 30}
+{"ts": "2026-08-16T20:18:14", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-2k-8gb-256gb-8-core", "images": 26, "was": 8}
+{"ts": "2026-08-16T20:18:14", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-9-inch-4gb-64gb-4-core", "images": 30, "was": 8}
+{"ts": "2026-08-16T20:18:15", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-9-inch-6gb-128gb-8-core", "images": 30, "was": 8}
+{"ts": "2026-08-16T20:18:15", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2013-2020-9-inch-4gb-64gb-8-core", "images": 30, "was": 8}
+{"ts": "2026-08-16T20:18:15", "event": "uploaded", "folder": "JEEP GRAND CHERROKEE 14-22 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 36}
+{"ts": "2026-08-16T20:18:16", "event": "uploaded", "folder": "JEEP GRAND CHERROKEE 14-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:16", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-10-inch-2gb-32gb-4-core", "images": 36, "was": 8}
+{"ts": "2026-08-16T20:18:16", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:16", "event": "uploaded", "folder": "JEEP GRAND CHERROKEE 14-22 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 36}
+{"ts": "2026-08-16T20:18:17", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:17", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-10-inch-6gb-128gb-8-core", "images": 36, "was": 8}
+{"ts": "2026-08-16T20:18:17", "event": "uploaded", "folder": "JEEP GRAND CHERROKEE 14-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:18", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-2k-12gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:18", "event": "uploaded", "folder": "RENAULT CAPTUR GROAS 11-19 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:18", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-10-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:19", "event": "uploaded", "folder": "RENAULT CAPTUR GROAS 11-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:19", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2014-2022-10-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:19", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:20", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:20", "event": "uploaded", "folder": "RENAULT CAPTUR GROAS 11-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:20", "event": "uploaded", "folder": "RENAULT CAPTUR GROAS 11-19 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:20", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:20", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:21", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:21", "event": "product-updated", "slug": "navigatie-piloton-renault-captur-2013-2020-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:22", "event": "uploaded", "folder": "RENAULT CLIO 3 05-14 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:22", "event": "uploaded", "folder": "RENAULT CLIO 3 05-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:22", "event": "uploaded", "folder": "RENAULT CLIO 3 05-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:22", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:23", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:23", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:23", "event": "uploaded", "folder": "RENAULT CLIO 3 05-14 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 37}
+{"ts": "2026-08-16T20:18:23", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:23", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:24", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-iii-2005-2014-9-inch-6gb-128gb-8-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:25", "event": "uploaded", "folder": "RENAULT CLIO-5 19-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:25", "event": "uploaded", "folder": "RENAULT CLIO-5 19-21 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:25", "event": "uploaded", "folder": "RENAULT CLIO-5 19-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:25", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:26", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:26", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:26", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:27", "event": "uploaded", "folder": "RENAULT FLUENCE 09-17 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 38}
+{"ts": "2026-08-16T20:18:27", "event": "uploaded", "folder": "RENAULT CLIO-5 19-21 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:27", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:28", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-9-inch-2gb-32gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:28", "event": "product-updated", "slug": "navigatie-piloton-renault-clio-v-dupa-2019-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:28", "event": "uploaded", "folder": "RENAULT FLUENCE 09-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:29", "event": "uploaded", "folder": "RENAULT FLUENCE 09-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 39}
+{"ts": "2026-08-16T20:18:29", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:29", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-9-inch-4gb-64gb-4-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:29", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:30", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-9-inch-4gb-64gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:30", "event": "uploaded", "folder": "RENAULT FLUENCE 09-17 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 39}
+{"ts": "2026-08-16T20:18:31", "event": "uploaded", "folder": "RENAULT MASTER 21+ 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 36}
+{"ts": "2026-08-16T20:18:31", "event": "product-updated", "slug": "navigatie-piloton-renault-fluence-2009-2016-9-inch-6gb-128gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:31", "event": "uploaded", "folder": "RENAULT MASTER 21+ 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:32", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:32", "event": "uploaded", "folder": "RENAULT MASTER 21+ 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:32", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-10-inch-2gb-32gb-4-core", "images": 36, "was": 8}
+{"ts": "2026-08-16T20:18:32", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:32", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-10-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:33", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-10-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:33", "event": "uploaded", "folder": "RENAULT MASTER 21+ 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 36}
+{"ts": "2026-08-16T20:18:34", "event": "product-updated", "slug": "navigatie-piloton-renault-master-2020-2024-10-inch-6gb-128gb-8-core", "images": 36, "was": 8}
+{"ts": "2026-08-16T20:18:34", "event": "uploaded", "folder": "RENAULT MEGANE-2 02-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:35", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:35", "event": "uploaded", "folder": "RENAULT MEGANE-2 02-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:35", "event": "uploaded", "folder": "RENAULT MEGANE-2 02-09 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:35", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:35", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:36", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:36", "event": "uploaded", "folder": "RENAULT MEGANE-2 02-09 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:36", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:37", "event": "product-updated", "slug": "navigatie-piloton-renault-megane-ii-2001-2009-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:37", "event": "uploaded", "folder": "RENAULT TRAFIC 06-10 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 38}
+{"ts": "2026-08-16T20:18:37", "event": "uploaded", "folder": "RENAULT TRAFIC 06-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:18:38", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-10-inch-2gb-32gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:38", "event": "uploaded", "folder": "RENAULT TRAFIC 06-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 39}
+{"ts": "2026-08-16T20:18:38", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-2k-4gb-64gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:39", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-10-inch-4gb-64gb-4-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:39", "event": "uploaded", "folder": "RENAULT TRAFIC 06-10 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 39}
+{"ts": "2026-08-16T20:18:39", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-2k-8gb-256gb-8-core", "images": 33, "was": 8}
+{"ts": "2026-08-16T20:18:40", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-10-inch-4gb-64gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:40", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-ii-2004-2014-10-inch-6gb-128gb-8-core", "images": 39, "was": 8}
+{"ts": "2026-08-16T20:18:40", "event": "uploaded", "folder": "RENAULT TRAFIC 15-19 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:18:41", "event": "uploaded", "folder": "RENAULT TRAFIC 15-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:18:41", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-9-inch-2gb-32gb-4-core", "images": 37, "was": 8}
+{"ts": "2026-08-16T20:18:41", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-2k-4gb-64gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:42", "event": "uploaded", "folder": "RENAULT TRAFIC 15-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:18:42", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-2k-8gb-256gb-8-core", "images": 32, "was": 8}
+{"ts": "2026-08-16T20:18:42", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-9-inch-4gb-64gb-4-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:42", "event": "uploaded", "folder": "RENAULT TRAFIC 15-19 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:18:43", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-9-inch-4gb-64gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:18:43", "event": "product-updated", "slug": "navigatie-piloton-renault-trafic-iii-2014-2022-9-inch-6gb-128gb-8-core", "images": 38, "was": 8}
+{"ts": "2026-08-16T20:19:49", "event": "login-ok", "api": "https://api.navi.piloton.ro"}
+{"ts": "2026-08-16T20:19:51", "event": "uploaded", "folder": "CHEVROLET CAMARO 10-15 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:19:51", "event": "uploaded", "folder": "CHEVROLET CAMARO 10-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:19:51", "event": "uploaded", "folder": "CHEVROLET CAMARO 10-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:19:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-9-inch-2gb-32gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-16T20:19:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-2k-4gb-64gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:51", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-9-inch-4gb-64gb-4-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-2k-8gb-256gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:52", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-9-inch-4gb-64gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:52", "event": "uploaded", "folder": "CHEVROLET CAMARO 10-15 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:19:53", "event": "uploaded", "folder": "DODGE DURANGO 14-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:19:53", "event": "product-updated", "slug": "navigatie-piloton-chevrolet-camaro-2010-2015-9-inch-6gb-128gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:53", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-2k-4gb-64gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:54", "event": "uploaded", "folder": "DODGE DURANGO 14-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:19:54", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-2k-8gb-256gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:54", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-9-inch-4gb-64gb-4-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:54", "event": "uploaded", "folder": "DODGE DURANGO 14-20 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:19:55", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-9-inch-2gb-32gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-16T20:19:55", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-9-inch-4gb-64gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:55", "event": "uploaded", "folder": "DODGE DURANGO 14-20 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:19:56", "event": "product-updated", "slug": "navigatie-piloton-dodge-durango-2014-2020-9-inch-6gb-128gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:56", "event": "uploaded", "folder": "RENAULT TWINGO 05-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:19:56", "event": "uploaded", "folder": "RENAULT TWINGO 05-13 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:19:57", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-2k-4gb-64gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:57", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-9-inch-2gb-32gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-16T20:19:57", "event": "uploaded", "folder": "RENAULT TWINGO 05-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:19:57", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-2k-8gb-256gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:58", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-9-inch-4gb-64gb-4-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:58", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 98-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:19:58", "event": "uploaded", "folder": "RENAULT TWINGO 05-13 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:19:59", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-9-inch-4gb-64gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:19:59", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-2k-4gb-64gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:19:59", "event": "product-updated", "slug": "navigatie-piloton-renault-twingo-2005-2013-9-inch-6gb-128gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:00", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-2k-8gb-256gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:20:00", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 98-05 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:20:00", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-9-inch-2gb-32gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-16T20:20:01", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 98-05 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:20:01", "event": "uploaded", "folder": "JEEP GRAND CHEROKE 98-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:20:02", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-9-inch-6gb-128gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:02", "event": "uploaded", "folder": "JEEP WK2 GRAND CHERROKEE 04-07 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 36}
+{"ts": "2026-08-16T20:20:02", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-9-inch-4gb-64gb-4-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:02", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-10-inch-2gb-32gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-16T20:20:03", "event": "uploaded", "folder": "JEEP WK2 GRAND CHERROKEE 04-07 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 39}
+{"ts": "2026-08-16T20:20:03", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-1998-2005-9-inch-4gb-64gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:03", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-10-inch-4gb-64gb-4-core", "images": 39, "was": 0}
+{"ts": "2026-08-16T20:20:04", "event": "uploaded", "folder": "JEEP WK2 GRAND CHERROKEE 04-07 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 36}
+{"ts": "2026-08-16T20:20:04", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-10-inch-4gb-64gb-8-core", "images": 39, "was": 0}
+{"ts": "2026-08-16T20:20:04", "event": "uploaded", "folder": "JEEP WK2 GRAND CHERROKEE 04-07 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 33}
+{"ts": "2026-08-16T20:20:04", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-10-inch-6gb-128gb-8-core", "images": 36, "was": 0}
+{"ts": "2026-08-16T20:20:05", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-2k-4gb-64gb-8-core", "images": 33, "was": 0}
+{"ts": "2026-08-16T20:20:05", "event": "uploaded", "folder": "JEEP UNLIMITED 07-13 10INCH incell tab  10''800x1280 ms14nv 4G+64G", "n": 30}
+{"ts": "2026-08-16T20:20:05", "event": "uploaded", "folder": "JEEP UNLIMITED 07-13 10INCH incell tab  10''800x1280 xt812c 2G+32G", "n": 28}
+{"ts": "2026-08-16T20:20:05", "event": "product-updated", "slug": "navigatie-piloton-jeep-grand-cherokee-2004-2007-2k-8gb-256gb-8-core", "images": 33, "was": 0}
+{"ts": "2026-08-16T20:20:05", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-4gb-64gb-4-core", "images": 30, "was": 0}
+{"ts": "2026-08-16T20:20:06", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-2gb-32gb-4-core", "images": 28, "was": 0}
+{"ts": "2026-08-16T20:20:06", "event": "uploaded", "folder": "JEEP UNLIMITED 07-13 10INCH incell tab 10''800x1280 xt516 6G+128G", "n": 29}
+{"ts": "2026-08-16T20:20:06", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-4gb-64gb-8-core", "images": 30, "was": 0}
+{"ts": "2026-08-16T20:20:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-6gb-128gb-8-core", "images": 29, "was": 0}
+{"ts": "2026-08-16T20:20:07", "event": "uploaded", "folder": "JEEP UNLIMITED 07-13 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G", "n": 27}
+{"ts": "2026-08-16T20:20:07", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-2k-4gb-64gb-8-core", "images": 27, "was": 0}
+{"ts": "2026-08-16T20:20:08", "event": "uploaded", "folder": "JEEP WRANGLER RUBICON 18+ 9INCH incell tab  9''800x1360 xt892c 2G+32G", "n": 37}
+{"ts": "2026-08-16T20:20:08", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-2k-8gb-256gb-8-core", "images": 27, "was": 0}
+{"ts": "2026-08-16T20:20:08", "event": "uploaded", "folder": "JEEP WRANGLER RUBICON 18+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G", "n": 32}
+{"ts": "2026-08-16T20:20:08", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-2gb-32gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-16T20:20:09", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-2k-4gb-64gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:20:09", "event": "uploaded", "folder": "JEEP WRANGLER RUBICON 18+ 9INCH incell tab  9''800x1360 xt596 6G+128G", "n": 38}
+{"ts": "2026-08-16T20:20:09", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-2k-8gb-256gb-8-core", "images": 32, "was": 0}
+{"ts": "2026-08-16T20:20:10", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-6gb-128gb-8-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:10", "event": "uploaded", "folder": "JEEP WRANGLER RUBICON 18+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G", "n": 38}
+{"ts": "2026-08-16T20:20:10", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-4gb-64gb-4-core", "images": 38, "was": 0}
+{"ts": "2026-08-16T20:20:11", "event": "product-updated", "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-4gb-64gb-8-core", "images": 38, "was": 0}

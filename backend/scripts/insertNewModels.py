@@ -14,9 +14,9 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 API = os.environ.get('PILOTON_API', 'https://api.navi.piloton.ro')
-IN_FILE = os.path.join(HERE, 'new-models-to-create.json')
-PLAN_OUT = os.path.join(HERE, 'new-models-apply-plan.json')
-STATE_FILE = os.path.join(HERE, 'new-models-state.json')
+IN_FILE = os.environ.get('NEW_MODELS_FILE') or os.path.join(HERE, 'new-models-to-create.json')
+PLAN_OUT = os.environ.get('NEW_MODELS_PLAN') or os.path.join(HERE, 'new-models-apply-plan.json')
+STATE_FILE = os.environ.get('NEW_MODELS_STATE') or os.path.join(HERE, 'new-models-state.json')
 LOG_FILE = os.path.join(HERE, 'new-models-log.jsonl')
 
 
