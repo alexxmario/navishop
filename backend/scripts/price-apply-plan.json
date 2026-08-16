@@ -1,0 +1,974 @@
+[
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 9 inch 2GB 32GB 4 CORE",
+  "old": 949,
+  "new": 899,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-9-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 9 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 849,
+  "diff": 50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-10-inch-2gb-32gb-4-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 10 inch 2GB 32GB 4 CORE",
+  "old": 899,
+  "new": 949,
+  "diff": -50,
+  "family": "2GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 2K 4GB 64GB 8 CORE",
+  "old": 2099,
+  "new": 2049,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-2k-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 2K 9 Inch 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 1999,
+  "diff": 50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-2k-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 2K 4GB 64GB 8 CORE",
+  "old": 2049,
+  "new": 2099,
+  "diff": -50,
+  "family": "4GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 9 inch 4GB 64GB 4 CORE",
+  "old": 1099,
+  "new": 1049,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-9-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 9 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 999,
+  "diff": 50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-10-inch-4gb-64gb-4-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 10 inch 4GB 64GB 4 CORE",
+  "old": 1049,
+  "new": 1099,
+  "diff": -50,
+  "family": "4GB RK",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 9 inch 4GB 64GB 8 CORE",
+  "old": 1499,
+  "new": 1449,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-9-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 9 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1399,
+  "diff": 50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-10-inch-4gb-64gb-8-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 10 inch 4GB 64GB 8 CORE",
+  "old": 1449,
+  "new": 1499,
+  "diff": -50,
+  "family": "4GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 9 inch 6GB 128GB 8 CORE",
+  "old": 1699,
+  "new": 1649,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-9-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 9 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1599,
+  "diff": 50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-10-inch-6gb-128gb-8-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 10 inch 6GB 128GB 8 CORE",
+  "old": 1649,
+  "new": 1699,
+  "diff": -50,
+  "family": "6GB XT",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-dacia-duster-2015-2020-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Dacia Duster 2015-2020 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-ford-focus-ii-2004-2011-s-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Ford Focus II 2004-2011 S 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-hyundai-ix25-2010-2016-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Hyundai IX25 2010-2016 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-rubicon-dupa-2018-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Rubicon dupa 2018 2K 8GB 256GB 8 CORE",
+  "old": 2899,
+  "new": 2849,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2007-2013-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2007-2013 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-jeep-wrangler-unlimited-2008-2010-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Jeep Wrangler Unlimited 2008-2010 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-ceed-2018-2022-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Kia Ceed 2018-2022 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-morning-2016-2020-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Kia Morning 2016-2020 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-kia-sportage-2018-2020-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Kia Sportage 2018-2020 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-mazda-2-2014-2021-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Mazda 2 2014-2021 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-koleos-2009-2016-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Renault Koleos 2009-2016 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-renault-master-2003-2011-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Renault Master 2003-2011 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-auris-ii-2012-2015-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Toyota Auris II 2012-2015 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-avensis-2002-2008-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Toyota Avensis 2002-2008 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-corolla-e170-2016-2019-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Toyota Corolla E170 2016-2019 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-toyota-rav4-2013-2018-2k-9-inch-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Toyota RAV4 2013-2018 2K 9 Inch 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-vw-tiguan-2016-2020-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn VW Tiguan 2016-2020 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2799,
+  "diff": 50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ },
+ {
+  "slug": "navigatie-piloton-volvo-xc90-2003-2014-mica-2k-8gb-256gb-8-core",
+  "name": "Navigatie PilotOn Volvo XC90 2003-2014 MICA 2K 8GB 256GB 8 CORE",
+  "old": 2849,
+  "new": 2899,
+  "diff": -50,
+  "family": "8GB 8667 2K",
+  "group": "only"
+ }
+]

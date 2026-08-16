@@ -1,0 +1,41 @@
+{
+ "src": "/Users/alexmario/Downloads/myairbridge-yRzRCQVs1Do",
+ "families": [
+  {
+   "label": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Zafira B (2005-2014) rama 7 inch",
+   "screen": "9",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "2k": "2026-07-23 rame+navigatii/OPEL 7INCH PANA LA 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "2+32": "2026-07-23 rame+navigatii/OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+    "6+128": "2026-07-23 rame+navigatii/OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 xt596 6G+128G"
+   }
+  },
+  {
+   "label": "Ford Transit 2005-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Transit (2005-2014)",
+   "screen": "9",
+   "folders": {
+    "6+128": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2k": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "2+32": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+    "4+64": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 ms94nv 4G+64G"
+   }
+  },
+  {
+   "label": "Ford Kuga 2008-2012",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Kuga (2008-2012)",
+   "screen": "9",
+   "folders": {
+    "6+128": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2k": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "2+32": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+    "4+64": "2026-07-28 rame+navigatii/FORD PATRAT 9INCH incell tab  9''800x1360 ms94nv 4G+64G"
+   }
+  }
+ ]
+}
