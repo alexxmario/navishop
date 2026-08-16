@@ -1,0 +1,13 @@
+[
+ {"from": "Navigatie PilotOn Dacia Logan 1 2008-2012",  "to": "Navigatie PilotOn Dacia Sandero 1 2008-2013"},
+ {"from": "Navigatie PilotOn Dacia Logan 2 2012-2020",  "to": "Navigatie PilotOn Dacia Sandero 2 2012-2020"},
+ {"from": "Navigatie PilotOn Dacia Logan 3 2021-2023",  "to": "Navigatie PilotOn Dacia Sandero 3 2021-2023"},
+
+ {"from": "Navigatie PilotOn Ford EcoSport 2012-2017 LOW", "to": "Navigatie PilotOn Ford EcoSport 2012-2017"},
+ {"from": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch QLED", "to": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch"},
+ {"from": "Navigatie PilotOn VW Transporter T5 2010-2015 9 inch QLED", "to": "Navigatie PilotOn VW Transporter T5 2010-2015 9 inch"},
+ {"from": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch QLED",    "to": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch"},
+ {"from": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch QLED",      "to": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch"},
+ {"from": "Navigatie PilotOn Seat Toledo 2004-2009 9 inch QLED",       "to": "Navigatie PilotOn Seat Toledo 2004-2009 9 inch"},
+ {"from": "Navigatie PilotOn Seat Altea XL 2006-2015 9 inch QLED",     "to": "Navigatie PilotOn Seat Altea XL 2006-2015 9 inch"}
+]
