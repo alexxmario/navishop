@@ -1,0 +1,2745 @@
+[
+ {
+  "batch": "2026-07-23",
+  "model": "ALFA ROMEO MITO 08-10  9INCH",
+  "kind": "new",
+  "target": "Alfa Romeo Mito 2008-2010",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "ALFA ROMEO MITO 08-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Alfa Romeo Mito 2008-2018 9 inch",
+  "topImg": "33-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "ALFA ROMEO MITO 14-20  10INCH",
+  "kind": "new",
+  "target": "Alfa Romeo Mito 2014-2020",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "ALFA ROMEO MITO 14-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "ALFA ROMEO MITO 14-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "ALFA ROMEO MITO 14-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "ALFA ROMEO MITO 14-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Alfa Romeo Mito 2008-2018 9 inch",
+  "topImg": "33-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "ALFA ROMEO MITO 14-20  9INCH",
+  "kind": "new",
+  "target": "Alfa Romeo Mito 2014-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "ALFA ROMEO MITO 14-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Alfa Romeo Mito 2008-2018 9 inch",
+  "topImg": "33-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BENZ R-CLASS 05-14  9INCH",
+  "kind": "apply",
+  "target": "Mercedes Benz R-CLASS 2005-2014 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BENZ R-CLASS 05-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BENZ R-CLASS 05-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BENZ R-CLASS 05-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BENZ R-CLASS 05-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Mercedes Benz R-CLASS 2005-2014 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BENZ SMART FORTWO 05-10  9INCH",
+  "kind": "apply",
+  "target": "Smart ForTwo 2005-2010 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BENZ SMART FORTWO 05-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BENZ SMART FORTWO 05-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BENZ SMART FORTWO 05-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BENZ SMART FORTWO 05-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Smart ForTwo 2005-2010 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BENZ SMART FORTWO LOW 15-20  9INCH",
+  "kind": "new",
+  "target": "Mercedes Benz Smart ForTwo 2015-2020 LOW",
+  "variants": [
+   "LOW"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BENZ SMART FORTWO LOW 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Mercedes Benz GLC 2015-2020 NTG 5.0 10.25 inch",
+  "topImg": "29-29"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BENZ VITO-3 MICA 14-18  10INCH",
+  "kind": "new",
+  "target": "Mercedes Benz Vito III 2014-2018 MICA",
+  "variants": [
+   "MICA"
+  ],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "BENZ VITO-3 MICA 14-18 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "BENZ VITO-3 MICA 14-18 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "BENZ VITO-3 MICA 14-18 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "BENZ VITO-3 MICA 14-18 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Mercedes Benz Vito 3 2012-2021 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BMW E53 99-06  9INCH",
+  "kind": "apply",
+  "target": "BMW X5 E53 1999-2006 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BMW E53 99-06 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BMW E53 99-06 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BMW E53 99-06 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BMW E53 99-06 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "BMW X5 E53 1999-2006 9 inch",
+  "topImg": "7-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "BMW X1 E84 09-12  10INCH",
+  "kind": "new",
+  "target": "BMW X1 E84 2009-2012",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "BMW X1 E84 09-12 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "BMW X1 E84 09-12 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "BMW X1 E84 09-12 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "BMW X1 E84 09-12 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "BMW X1 E84 2009-2015 9 inch",
+  "topImg": "7-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "CHEVROLET CAPTIVA 11-16  10INCH",
+  "kind": "apply-force",
+  "target": "Navigatie PilotOn Chevrolet Captiva 2011-2016",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "CHEVROLET CAPTIVA 11-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "CHEVROLET CAPTIVA 11-16 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "CHEVROLET CAPTIVA 11-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "CHEVROLET CAPTIVA 11-16 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Chevrolet Captiva 2011-2016 10 inch",
+  "topImg": "38-39"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "GOLF-5 JETTA 06-12  10INCH",
+  "kind": "split",
+  "target": [
+   "VW Golf 5 2006-2012",
+   "VW Jetta 2006-2012"
+  ],
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "GOLF-5 JETTA 06-12 10INCH CLIMA incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "VW Jetta 2004-2011 10 inch",
+  "topImg": "36-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "HONDA FIT JAZZ 13-22  9INCH",
+  "kind": "new",
+  "target": "Honda Fit Jazz 2013-2022",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HONDA FIT JAZZ 13-22 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Honda Fit / Jazz 2004-2007 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "JEEP RENEGATE 16-20  9INCH",
+  "kind": "apply",
+  "target": "Navigatie PilotOn Jeep Renegade 2014-2023",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "JEEP RENEGATE 16-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "JEEP RENEGATE 16-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "JEEP RENEGATE 16-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "JEEP RENEGATE 16-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "JEEP WRANGLER 08-10 4DORS  9INCH",
+  "kind": "new",
+  "target": "Jeep Wrangler 2008-2010 4DORS",
+  "variants": [
+   "4DORS"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "JEEP WRANGLER 08-10 4DORS 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Jeep Wrangler Rubicon 2008-2010 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN J10 06-13  9INCH",
+  "kind": "apply",
+  "target": "Nissan Qashqai J10 2006-2014 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN J10 06-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN J10 06-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN J10 06-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN J10 06-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Nissan Qashqai J10 2006-2014 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN J11 13-17 HIGH  10INCH",
+  "kind": "new",
+  "target": "Nissan J11 2013-2017 HIGH",
+  "variants": [
+   "HIGH"
+  ],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN J11 13-17 HIGH 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN J11 13-17 HIGH 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN J11 13-17 HIGH 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN J11 13-17 HIGH 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan Qashqai J11 2014-2021 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN JUKE 11-16  9INCH",
+  "kind": "apply",
+  "target": "Nissan Juke 2010-2019 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN JUKE 11-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN JUKE 11-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN JUKE 11-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN JUKE 11-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Nissan Juke 2010-2019 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN MICRA (K12) 02-10  9INCH",
+  "kind": "new",
+  "target": "Nissan Micra K12 2002-2010",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN MICRA (K12) 02-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN NAVARA 06-12  9INCH",
+  "kind": "apply",
+  "target": "Nissan Navara D40 2004-2014 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN NAVARA 06-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN NAVARA 06-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN NAVARA 06-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN NAVARA 06-12 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Nissan Navara D40 2004-2014 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN NAVARA TERRA 2017  10INCH",
+  "kind": "new",
+  "target": "Nissan Navara 2017 TERRA",
+  "variants": [
+   "TERRA"
+  ],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN NAVARA TERRA 2017 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN NAVARA TERRA 2017 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan Navara D40 2004-2014 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN NP300 FRONTIER 2017+  9INCH",
+  "kind": "new",
+  "target": "Nissan NP300 Frontier dupa 2017",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN NV200 09-17 SILVER  9INCH",
+  "kind": "new",
+  "target": "Nissan NV200 2009-2017 SILVER",
+  "variants": [
+   "SILVER"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN NV200 09-17 SILVER 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN PATROL 97-05  9INCH",
+  "kind": "new",
+  "target": "Nissan Patrol 1997-2005",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN PATROL 97-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN X-TRAIL 07-15  10INCH",
+  "kind": "apply",
+  "target": "Nissan X-Trail T31 2007-2014 10 inch",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN X-TRAIL 07-15 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN X-TRAIL 07-15 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN X-TRAIL 07-15 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN X-TRAIL 07-15 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan X-Trail T31 2007-2014 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN X-TRAIL 13-17  10INCH",
+  "kind": "apply",
+  "target": "Nissan X-Trail 3 2014-2021 10 inch",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN X-TRAIL 13-17 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN X-TRAIL 13-17 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN X-TRAIL 13-17 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN X-TRAIL 13-17 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan X-Trail 3 2014-2021 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "NISSAN X-TRAIL 15-19 AC  10INCH",
+  "kind": "new",
+  "target": "Nissan X-trail 2015-2019 AC",
+  "variants": [
+   "AC"
+  ],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN X-TRAIL 15-19 AC 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN X-TRAIL 15-19 AC 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN X-TRAIL 15-19 AC 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN X-TRAIL 15-19 AC 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan X-Trail 3 2014-2021 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "OPEL  7INCH",
+  "kind": "hold",
+  "target": "set generic Opel 7->9 inch, fara model in nume",
+  "variants": [],
+  "screen": "7",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "OPEL 7INCH PANA LA 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "OPEL 7INCH PANA LA 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "OPEL ANTARA-K 15-19  9INCH",
+  "kind": "apply",
+  "target": "Navigatie PilotOn Opel Astra K 2015-2021",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "OPEL ANTARA-K 15-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "OPEL ANTARA-K 15-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "OPEL ANTARA-K 15-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "OPEL ANTARA-K 15-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Opel Astra K 2015-2021 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "OPEL ZAFIRA TOURER-C 11-16  9INCH",
+  "kind": "new",
+  "target": "Opel Zafira Tourer-c 2011-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Opel Zafira 2005-2014 9 inch",
+  "topImg": "37-37"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT CAPTUR SUBTIRE 13-17  9INCH",
+  "kind": "new",
+  "target": "Renault Captur 2013-2017 SUBTIRE",
+  "variants": [
+   "SUBTIRE"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Renault Captur 2013-2020 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT CLIO MK2 01-12  9INCH",
+  "kind": "skip",
+  "target": "aplicat deja in batch-ul 07-17 (Clio II 2001-2006)",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT CLIO MK2 01-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Renault Clio III 2005-2014 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT CLIO-4 NFL 12-16  9INCH",
+  "kind": "apply",
+  "target": "Renault Clio IV 2012-2015 10 inch",
+  "variants": [
+   "NFL"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT CLIO-4 NFL 12-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT CLIO-4 NFL 12-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT CLIO-4 NFL 12-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT CLIO-4 NFL 12-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Seat Toledo 4 2012-2019 9 inch QLED",
+  "topImg": "7-7"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT KADJAR 15-19  9INCH",
+  "kind": "apply",
+  "target": "Renault Kadjar 2015-2017 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT KADJAR 15-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT KADJAR 15-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT KADJAR 15-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT KADJAR 15-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Renault Kadjar 2015-2017 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT KANGOO 15-18  9INCH",
+  "kind": "apply",
+  "target": "Navigatie PilotOn Renault Kangoo 2008-2021",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT KANGOO 15-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT KANGOO 15-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT KANGOO 15-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT KANGOO 15-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Renault Kangoo 2008-2021 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT LAGUNA 01-07  9INCH",
+  "kind": "new",
+  "target": "Renault Laguna 2001-2007",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT LAGUNA 01-07 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT MEGANE-3 08-14  9INCH",
+  "kind": "apply",
+  "target": "Renault Megane III 2009-2016 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT MEGANE-3 08-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT MEGANE-3 08-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT MEGANE-3 08-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT MEGANE-3 08-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Renault Megane III 2009-2016 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "RENAULT TRAFIC PRIMASTAR VIVARO 10-14  10INCH",
+  "kind": "split",
+  "target": [
+   "Renault Trafic 2010-2014",
+   "Nissan Primastar 2010-2014",
+   "Opel Vivaro 2010-2014"
+  ],
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan Primastar 2004-2014 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SSANGYONG TIVOLI TIVOLAN 15-19  9INCH",
+  "kind": "new",
+  "target": "SsangYong Tivoli 2015-2019",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU FORESTER 07-13  9INCH",
+  "kind": "apply",
+  "target": "Subaru Forester SH 2008-2013 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU FORESTER 07-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU FORESTER 07-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU FORESTER 07-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU FORESTER 07-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Forester SH 2008-2013 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU FORESTER 13-15  9INCH",
+  "kind": "apply",
+  "target": "Subaru Forester SJ 2012-2015 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU FORESTER 13-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU FORESTER 13-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU FORESTER 13-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU FORESTER 13-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Forester SJ 2012-2015 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU FORESTER 16-18  9INCH",
+  "kind": "new",
+  "target": "Subaru Forester 2016-2018",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU FORESTER 16-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Forester SJ 2012-2015 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU FORESTER 16-21  9INCH",
+  "kind": "apply",
+  "target": "Subaru Forester SK 2017-2020 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU FORESTER 16-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU FORESTER 16-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU FORESTER 16-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU FORESTER 16-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Forester SK 2017-2020 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU OUTBACK LEGACY 03-09  9INCH",
+  "kind": "apply",
+  "target": "Subaru Legacy Outback 2004-2009 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU OUTBACK LEGACY 03-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU OUTBACK LEGACY 03-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU OUTBACK LEGACY 03-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU OUTBACK LEGACY 03-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Legacy Outback 2004-2009 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "SUBARU OUTBACK-5 LEGACY-6 14-17  9INCH",
+  "kind": "apply",
+  "target": "Navigatie PilotOn Subaru Legacy Outback 2014-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUBARU OUTBACK-5 LEGACY-6 14-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUBARU OUTBACK-5 LEGACY-6 14-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUBARU OUTBACK-5 LEGACY-6 14-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUBARU OUTBACK-5 LEGACY-6 14-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Subaru Legacy Outback 2014-2020 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "VW B6 B7 10-18  10INCH",
+  "kind": "skip",
+  "target": "aplicat deja in batch-ul 07-17, acelasi set",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "VW B6 B7 10-18 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "VW B6 B7 10-18 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "VW B6 B7 10-18 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "VW B6 B7 10-18 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "VW Passat B7 2010-2014 10 inch",
+  "topImg": "36-38"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "VW BORA 04-08  9INCH",
+  "kind": "new",
+  "target": "VW Bora 2004-2008",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "VW BORA 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "VW BORA 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "VW BORA 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "VW BORA 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "VW Bora 1998-2006 7 inch",
+  "topImg": "26-27"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "VW GOLF 5 BORA 04-08  9INCH",
+  "kind": "split",
+  "target": [
+   "VW Golf 5 2004-2008",
+   "VW Bora 2004-2008"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "VW GOLF 5 BORA 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "VW Golf 5 2003-2010 9 inch QLED",
+  "topImg": "27-29"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10  9INCH",
+  "kind": "split",
+  "target": [
+   "VW Passat B5 2004-2010",
+   "VW Golf 2004-2010",
+   "VW Polo 2004-2010",
+   "VW Tiguan 2004-2010",
+   "VW Transporter 2004-2010"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "VW Polo 2001-2012 9 inch",
+  "topImg": "37-39"
+ },
+ {
+  "batch": "2026-07-23",
+  "model": "VW TIGUAN 16-20  10INCH",
+  "kind": "new",
+  "target": "VW Tiguan 2016-2020",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "VW TIGUAN 16-20 10INCH B incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "VW TIGUAN 16-20 10INCH B incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "VW TIGUAN 16-20 10INCH B incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "VW TIGUAN 16-20 10INCH B incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "VW Tiguan 2007-2018 RK 7 inch",
+  "topImg": "28-29"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "BENZ SPRINTER 06-16  10INCH",
+  "kind": "new",
+  "target": "Mercedes Benz Sprinter 2006-2016",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "BENZ SPRINTER 06-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "BENZ SPRINTER 06-16 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "BENZ SPRINTER 06-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "BENZ SPRINTER 06-16 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Mercedes Benz Sprinter 2006-2018 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "BENZ W209 05-09  9INCH",
+  "kind": "new",
+  "target": "Mercedes Benz CLK W209 2005-2009",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BENZ W209 05-09 9INCH BLACK incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Mercedes Benz B CLASS W245 2005-2011 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "BENZ W639 10-15  10INCH",
+  "kind": "new",
+  "target": "Mercedes Benz Vito Viano W639 2010-2015",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "BENZ W639 10-15 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "BENZ W639 10-15 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "BENZ W639 10-15 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "BENZ W639 10-15 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Mercedes Benz CLS 2010-2015 NTG 4.5 10.25 inch",
+  "topImg": "29-29"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "BMW MINI 06-15  9INCH",
+  "kind": "new",
+  "target": "Mini Cooper 2006-2015",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "BMW MINI 06-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "BMW MINI 06-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "BMW MINI 06-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "BMW MINI 06-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "DACIA DUSTER 15-20  9INCH",
+  "kind": "new",
+  "target": "Dacia Duster 2015-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "DACIA DUSTER 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Dacia Duster 2014-2018 9 inch",
+  "topImg": "37-37"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FIAT 500 2015+  9INCH",
+  "kind": "new",
+  "target": "Fiat 500 dupa 2015",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FIAT 500 2015+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FIAT 500 2015+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FIAT 500 2015+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FIAT 500 2015+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Fiat 500 X dupa 2014 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FIAT DOBLO 02-09  9INCH",
+  "kind": "new",
+  "target": "Fiat Doblo 2002-2009",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FIAT DOBLO 02-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Fiat Doblo 2010-2015 9 inch",
+  "topImg": "7-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FIAT STILO 02-10  9INCH",
+  "kind": "new",
+  "target": "Fiat Stilo 2002-2010",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FIAT STILO 02-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FIAT STILO 02-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FIAT STILO 02-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FIAT STILO 02-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD BLACK RANGER F250 11-15  9INCH",
+  "kind": "new",
+  "target": "Ford Ranger F250 2011-2015 BLACK",
+  "variants": [
+   "BLACK"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD BLACK RANGER F250 11-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Ranger 2011-2016 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD ECOSPORT LOW 12-17  9INCH",
+  "kind": "new",
+  "target": "Ford EcoSport 2012-2017 LOW",
+  "variants": [
+   "LOW"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD ECOSPORT LOW 12-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford EcoSport 2012-2017 9 inch",
+  "topImg": "7-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD FIESTA 02-05  9INCH",
+  "kind": "apply",
+  "target": "Ford Fiesta 2002-2008 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD FIESTA 02-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD FIESTA 02-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD FIESTA 02-05 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD FIESTA 02-05 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Fiesta 2002-2008 9 inch",
+  "topImg": "7-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD FIESTA MK6 04-14  9INCH",
+  "kind": "new",
+  "target": "Ford Fiesta MK6 2004-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD FIESTA MK6 04-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Fiesta 2009-2017 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD FOCUS-2 S 04-11  9INCH",
+  "kind": "new",
+  "target": "Ford Focus II S 2004-2011",
+  "variants": [
+   "S"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD FOCUS-2 S 04-11 9INCH AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Focus 2004-2011 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD MUSTANG 10-14  10INCH",
+  "kind": "new",
+  "target": "Ford Mustang 2010-2014",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "FORD MUSTANG 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "FORD MUSTANG 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "FORD MUSTANG 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "FORD MUSTANG 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Ford Mustang 2015-2018 9 inch",
+  "topImg": "37-39"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD PATRAT  9INCH",
+  "kind": "hold",
+  "target": "set generic Ford rama patrata, fara model in nume",
+  "variants": [
+   "PATRAT"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD PATRAT 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD PATRAT 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD PATRAT 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD PATRAT 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD TRANSIT 09-16  9INCH",
+  "kind": "new",
+  "target": "Ford Transit 2009-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD TRANSIT 09-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Transit Connect dupa 2013 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "FORD TRANSIT TOURNEO COURIER 13-21  9INCH",
+  "kind": "new",
+  "target": "Ford Tourneo Courier 2013-2021",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Transit 2014-2020 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "HONDA FIT JAZZ 20-22  10INCH",
+  "kind": "new",
+  "target": "Honda Fit Jazz 2020-2022",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "HONDA FIT JAZZ 20-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "HONDA FIT JAZZ 20-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "HONDA FIT JAZZ 20-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "HONDA FIT JAZZ 20-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Honda Fit / Jazz 2008-2013 10 inch",
+  "topImg": "36-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "HYUNDAI ACCENT 09-12  9INCH",
+  "kind": "new",
+  "target": "Hyundai Accent 2009-2012",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Hyundai Accent 2007-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "HYUNDAI I20 17-19  9INCH",
+  "kind": "new",
+  "target": "Hyundai I20 2017-2019",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HYUNDAI I20 17-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Hyundai i20 2014-2020 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "HYUNDAI IX20 10-19  9INCH",
+  "kind": "new",
+  "target": "Hyundai IX20 2010-2019",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HYUNDAI IX20 10-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "HYUNDAI IX25 10-16  9INCH",
+  "kind": "new",
+  "target": "Hyundai IX25 2010-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HYUNDAI IX25 10-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "JEEP COMPASS 07-09  9INCH",
+  "kind": "new",
+  "target": "Jeep Compass 2007-2009",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "JEEP COMPASS 07-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Jeep Compass I 2006-2010 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "KIA GRAND CARNIVAL VQ 06-14  9INCH",
+  "kind": "new",
+  "target": "Kia Grand Carnival 2006-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "KIA RIO-YB 16-20  9INCH",
+  "kind": "new",
+  "target": "Kia Rio-yb 2016-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA RIO-YB 16-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Kia Rio 3 2012-2015 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "KIA SORENTO 04-08  9INCH",
+  "kind": "new",
+  "target": "Kia Sorento 2004-2008",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA SORENTO 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA SORENTO 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA SORENTO 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA SORENTO 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Kia Sorento 2009-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "KIA SORENTO 15-21  10INCH",
+  "kind": "new",
+  "target": "Kia Sorento 2015-2021",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA SORENTO 15-21 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA SORENTO 15-21 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA SORENTO 15-21 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA SORENTO 15-21 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Kia Sorento 2009-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "KIA SORENTO 21-24  10INCH",
+  "kind": "new",
+  "target": "Kia Sorento 2021-2024",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA SORENTO 21-24 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA SORENTO 21-24 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA SORENTO 21-24 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA SORENTO 21-24 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Kia Sorento 2009-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09  9INCH",
+  "kind": "split",
+  "target": [
+   "Lexus RX 2003-2009",
+   "Toyota Harrier 2003-2009"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "MITSUBISHI ASX 2 17-19  10INCH",
+  "kind": "new",
+  "target": "Mitsubishi ASX 2 2017-2019",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "MITSUBISHI ASX 2 17-19 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "MITSUBISHI ASX 2 17-19 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "MITSUBISHI ASX 2 17-19 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "MITSUBISHI ASX 2 17-19 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Mitsubishi ASX 2020-2022 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "MITSUBISHI PAJERO 4 06-14  9INCH",
+  "kind": "new",
+  "target": "Mitsubishi Pajero 4 2006-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "MITSUBISHI PAJERO 4 06-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Mitsubishi Pajero 2006-2013 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "PEUGEOT 3008 09-16  9INCH",
+  "kind": "new",
+  "target": "Peugeot 3008 2009-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "PEUGEOT 3008 09-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "PEUGEOT PARTNER ORIGINE 06-10  9INCH",
+  "kind": "new",
+  "target": "Peugeot Partner 2006-2010 ORIGINE",
+  "variants": [
+   "ORIGINE"
+  ],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Peugeot Partner 2015-2018 9 inch",
+  "topImg": "29-30"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "SUZUKI JIMNY 98-04  9INCH",
+  "kind": "new",
+  "target": "Suzuki Jimny 1998-2004",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUZUKI JIMNY 98-04 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Suzuki Jimny 2005-2018 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "SUZUKI SWIFT 18-22  9INCH",
+  "kind": "apply",
+  "target": "Suzuki Swift V dupa 2017 9 inch",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUZUKI SWIFT 18-22 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUZUKI SWIFT 18-22 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUZUKI SWIFT 18-22 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUZUKI SWIFT 18-22 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Suzuki Swift V dupa 2017 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA AURIS-2 12-15  9INCH",
+  "kind": "new",
+  "target": "Toyota Auris II 2012-2015",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA AURIS-2 12-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Hyundai Tucson 2 2009-2015 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA AVENSIS 02-08  9INCH",
+  "kind": "new",
+  "target": "Toyota Avensis 2002-2008",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA AVENSIS 02-08 9INCH S incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Toyota Avensis T25 2003-2009 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA COROLLA E170 AURIS E180 16-19  9INCH",
+  "kind": "split",
+  "target": [
+   "Toyota Corolla E170 2016-2019",
+   "Toyota Auris E180 2016-2019"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA HILUX 15-18  9INCH",
+  "kind": "new",
+  "target": "Toyota Hilux 2015-2018",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA HILUX 15-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Toyota Hilux 2005-2015 9 inch",
+  "topImg": "7-39"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA RAV4 13-18  9INCH",
+  "kind": "new",
+  "target": "Toyota RAV4 2013-2018",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA RAV4 13-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Toyota Rav4 2013-2018 10 inch",
+  "topImg": "36-38"
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA RAW4 13-18  10INCH",
+  "kind": "new",
+  "target": "Toyota RAW4 2013-2018",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "TOYOTA RAW4 13-18 10INCH HIGH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "TOYOTA RAW4 13-18 10INCH HIGH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "TOYOTA RAW4 13-18 10INCH HIGH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "TOYOTA RAW4 13-18 10INCH HIGH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA SIENNA 10-14  9INCH",
+  "kind": "new",
+  "target": "Toyota Sienna 2010-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA SIENNA 10-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "TOYOTA SIENNA 15-20  9INCH",
+  "kind": "new",
+  "target": "Toyota Sienna 2015-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "TOYOTA SIENNA 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-07-28",
+  "model": "VOLVO XC90 03-14 MICA  10INCH",
+  "kind": "new",
+  "target": "Volvo XC90 2003-2014 MICA",
+  "variants": [
+   "MICA"
+  ],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "VOLVO XC90 03-14 MICA 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "VOLVO XC90 03-14 MICA 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "VOLVO XC90 03-14 MICA 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "VOLVO XC90 03-14 MICA 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Volvo XC90 2004-2014 2K",
+  "topImg": "32-32"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "CHEVROLET EPICA 09-12  9INCH",
+  "kind": "new",
+  "target": "Chevrolet Epica 2009-2012",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "CHEVROLET EPICA 09-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "CHEVROLET EPICA 13-17  9INCH",
+  "kind": "new",
+  "target": "Chevrolet Epica 2013-2017",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "CHEVROLET EPICA 13-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "FORD RANGER 2015+  9INCH",
+  "kind": "new",
+  "target": "Ford Ranger dupa 2015",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD RANGER 2015+ 9INCH GRI HIGH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Ranger 2015-2022 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "FORD TRANSIT 2021+  9INCH",
+  "kind": "new",
+  "target": "Ford Transit dupa 2021",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "FORD TRANSIT 2021+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Ford Transit 2014-2020 9 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "HONDA CIVIC 20-22  10INCH",
+  "kind": "new",
+  "target": "Honda Civic 2020-2022",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "HONDA CIVIC 20-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "HONDA CIVIC 20-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "HONDA CIVIC 20-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "HONDA CIVIC 20-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Honda Civic VIII Sedan 2006-2011 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "HONDA FIT JAZZ 01-08  9INCH",
+  "kind": "new",
+  "target": "Honda Fit Jazz 2001-2008",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Honda Fit / Jazz 2004-2007 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "JEEP COMMANDER 07-08  9INCH",
+  "kind": "new",
+  "target": "Jeep Commander 2007-2008",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "JEEP COMMANDER 07-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA CEED 18-22  10INCH",
+  "kind": "new",
+  "target": "Kia Ceed 2018-2022",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA CEED 18-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA CEED 18-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA CEED 18-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA CEED 18-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Kia Ceed 2006-2012 9 inch",
+  "topImg": "29-30"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA K5 13-15  9INCH",
+  "kind": "new",
+  "target": "Kia K5 2013-2015",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA K5 13-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA K5 13-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA K5 13-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA K5 13-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA MORNING 16-20  9INCH",
+  "kind": "new",
+  "target": "Kia Morning 2016-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA MORNING 16-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA MORNING 16-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA MORNING 16-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA MORNING 16-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Kia Picanto / Morning 2011-2018 9 inch",
+  "topImg": "36-37"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA MORNING 21-26  9INCH",
+  "kind": "new",
+  "target": "Kia Morning 2021-2026",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA MORNING 21-26 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA MORNING 21-26 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA MORNING 21-26 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA MORNING 21-26 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Kia Picanto / Morning 2011-2018 9 inch",
+  "topImg": "36-37"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA NIRO 16-19  9INCH",
+  "kind": "new",
+  "target": "Kia Niro 2016-2019",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA NIRO 16-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA NIRO 16-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA NIRO 16-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA NIRO 16-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA OPTIMA K5 10-13  9INCH",
+  "kind": "new",
+  "target": "Kia Optima K5 2010-2013",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA OPTIMA K5 10-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA OPTIMA K5 16-19  10INCH",
+  "kind": "new",
+  "target": "Kia Optima K5 2016-2019",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA OPTIMA K5 16-19 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA OPTIMA K5 16-19 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA OPTIMA K5 16-19 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA OPTIMA K5 16-19 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA SORENTO 13-14  9INCH",
+  "kind": "new",
+  "target": "Kia Sorento 2013-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA SORENTO 13-14 9INCH HIGH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "Kia Sorento 2009-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA SORENTO 15-20  10INCH",
+  "kind": "new",
+  "target": "Kia Sorento 2015-2020",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA SORENTO 15-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA SORENTO 15-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA SORENTO 15-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA SORENTO 15-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Kia Sorento 2009-2012 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA SOUL 09-13  9INCH",
+  "kind": "new",
+  "target": "Kia Soul 2009-2013",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA SOUL 09-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA SOUL 09-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA SOUL 09-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA SOUL 09-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA SOUL 2014  9INCH",
+  "kind": "new",
+  "target": "Kia Soul 2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "KIA SOUL 2014 9INCH LOW AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "KIA SPORTAGE 18-20  10INCH",
+  "kind": "new",
+  "target": "Kia Sportage 2018-2020",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "KIA SPORTAGE 18-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "KIA SPORTAGE 18-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "KIA SPORTAGE 18-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "KIA SPORTAGE 18-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Kia Sportage 2016-2021 9 inch",
+  "topImg": "37-38"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "MAZDA MAZDA-2 CX-3 14-21  9INCH",
+  "kind": "split",
+  "target": [
+   "Mazda 2 2014-2021",
+   "Mazda CX-3 2014-2021"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "BMW Seria 2 F23 NBT EVO 2014-2021 12.3 Inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN MICRA K13 13-16  9INCH",
+  "kind": "new",
+  "target": "Nissan Micra K13 2013-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN MICRA K13 13-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN MURANO 07-14  9INCH",
+  "kind": "new",
+  "target": "Nissan Murano 2007-2014",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN MURANO 07-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN MURANO 2015+  10INCH",
+  "kind": "new",
+  "target": "Nissan Murano dupa 2015",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN MURANO 2015+ 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN MURANO 2015+ 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN MURANO 2015+ 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN MURANO 2015+ 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN PATROL Y61 04-16  9INCH",
+  "kind": "new",
+  "target": "Nissan Patrol Y61 2004-2016",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN PATROL Y61 04-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN TIIDA 16-19  9INCH",
+  "kind": "new",
+  "target": "Nissan Tiida 2016-2019",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "NISSAN X-TRAIL 2022  10INCH",
+  "kind": "new",
+  "target": "Nissan X-trail 2022",
+  "variants": [],
+  "screen": "10",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "4+64": "NISSAN X-TRAIL 2022 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+   "2+32": "NISSAN X-TRAIL 2022 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+   "2k": "NISSAN X-TRAIL 2022 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+   "6+128": "NISSAN X-TRAIL 2022 10INCH incell tab 10''800x1280 xt516 6G+128G"
+  },
+  "top": "Nissan X-Trail 3 2014-2021 10 inch",
+  "topImg": "8-8"
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "RENAULT KWID 16-17  9INCH",
+  "kind": "new",
+  "target": "Renault Kwid 2016-2017",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "RENAULT KWID 16-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "RENAULT KWID 16-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "RENAULT KWID 16-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "RENAULT KWID 16-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "SUZUKI IGNIS 17-20  9INCH",
+  "kind": "new",
+  "target": "Suzuki Ignis 2017-2020",
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "SUZUKI IGNIS 17-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": null,
+  "topImg": null
+ },
+ {
+  "batch": "2026-08-03",
+  "model": "VW VILORAN SAGITA R TAYRON T-ROC 2021  9INCH",
+  "kind": "split",
+  "target": [
+   "VW Viloran dupa 2021",
+   "VW Sagitar dupa 2021",
+   "VW Tayron dupa 2021"
+  ],
+  "variants": [],
+  "screen": "9",
+  "configs": [
+   "2+32",
+   "2k",
+   "4+64",
+   "6+128"
+  ],
+  "folders": {
+   "2k": "VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+   "4+64": "VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+   "6+128": "VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt596 6G+128G",
+   "2+32": "VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+  },
+  "top": "VW T-Roc dupa 2017 9 inch",
+  "topImg": "37-39"
+ }
+]

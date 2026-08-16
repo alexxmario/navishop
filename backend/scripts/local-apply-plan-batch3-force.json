@@ -1,0 +1,90 @@
+[
+ {
+  "folder": "2026-07-23 rame+navigatii/CHEVROLET CAPTIVA 11-16 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+  "model": "CHEVROLET CAPTIVA 11-16  10INCH",
+  "config": "2+32",
+  "family": "Navigatie PilotOn Chevrolet Captiva 2011-2016",
+  "force": true,
+  "products": [
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 2GB 32GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-32gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 2GB 32GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-2gb-64gb-4-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 2GB 64GB 4 Core"
+   }
+  ]
+ },
+ {
+  "folder": "2026-07-23 rame+navigatii/CHEVROLET CAPTIVA 11-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+  "model": "CHEVROLET CAPTIVA 11-16  10INCH",
+  "config": "2k",
+  "family": "Navigatie PilotOn Chevrolet Captiva 2011-2016",
+  "force": true,
+  "products": [
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 2K 8GB 256GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-qled-4gb-64gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 2K QLED 4GB 64GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-2k-qled-8gb-256gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 2K QLED 8GB 256GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "2026-07-23 rame+navigatii/CHEVROLET CAPTIVA 11-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+  "model": "CHEVROLET CAPTIVA 11-16  10INCH",
+  "config": "4+64",
+  "family": "Navigatie PilotOn Chevrolet Captiva 2011-2016",
+  "force": true,
+  "products": [
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-4gb-64gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 4GB 64GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "2026-07-23 rame+navigatii/CHEVROLET CAPTIVA 11-16 10INCH incell tab 10''800x1280 xt516 6G+128G",
+  "model": "CHEVROLET CAPTIVA 11-16  10INCH",
+  "config": "6+128",
+  "family": "Navigatie PilotOn Chevrolet Captiva 2011-2016",
+  "force": true,
+  "products": [
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 6GB 128GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-8gb-128gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 8GB 128GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-chevrolet-captiva-2011-2016-10-inch-6gb-128gb-8-core-4g",
+    "name": "Navigatie PilotOn Chevrolet Captiva 2011-2016 10 inch 6GB 128GB 8 Core 4G"
+   }
+  ]
+ }
+]

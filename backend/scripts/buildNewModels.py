@@ -49,10 +49,18 @@ def config_key(name):
     return None
 
 
-def http_json(url):
+_http_cache = {}
+
+
+def http_json(url, cache=False):
+    if cache and url in _http_cache:
+        return _http_cache[url]
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+        d = json.loads(r.read())
+    if cache:
+        _http_cache[url] = d
+    return d
 
 
 VARIANT_WORDS = {'rotund', 'patrat', 'black', 'silver', 'white', 'grey'}
@@ -86,7 +94,9 @@ def sku_for(label, config_tail, sku_token):
         kind = 'O'
     else:
         kind = 'Q'
-    return f'{stem}{years}{sku_token}{ram}{kind}PO'
+    # doua familii cu acelasi model+ani dar ecrane diferite trebuie sa aiba SKU-uri diferite
+    scr = '10' if re.search(r'\b10\s*inch\b', config_tail, re.I) else ''
+    return f'{stem}{years}{scr}{sku_token}{ram}{kind}PO'
 
 
 def main():
@@ -125,8 +135,8 @@ def main():
         if not siblings:
             sys.exit(f'sablon negasit: {tpl_pre}')
         for sib in sorted(siblings, key=lambda p: p['name']):
-            doc = http_json(f"{API}/api/products/{sib['slug']}")
-            doc = doc.get('product') or doc
+            doc = http_json(f"{API}/api/products/{sib['slug']}", cache=True)
+            doc = json.loads(json.dumps(doc.get('product') or doc))   # copie per familie
             tail = doc['name'][len(tpl_pre):].strip()      # ex: '9 inch 4GB 64GB 4 CORE'
             cfg = config_key(doc['name'])
             folder = fam['folders'].get(cfg)
@@ -137,9 +147,27 @@ def main():
 
             new = {k: v for k, v in doc.items() if k not in DROP}
             new_name = f"Navigatie PilotOn {fam['label']} {tail}"
+            # numele 2K nu contin diagonala, deci doua familii cu acelasi model+ani dar
+            # ecrane diferite ar da acelasi slug. Site-ul rezolva asta cu "2K 9 Inch"
+            # (vezi "Toyota Rav4 2013-2018 LOW 2K 10 Inch") — aceeasi conventie aici.
+            if slugify(new_name) in existing_slugs and tail.upper().startswith('2K'):
+                screen = fam.get('screen') or ('10' if '10 inch' in tpl_pre.lower()
+                                               or any('10 inch' in s['name'].lower()
+                                                      for s in siblings) else '9')
+                tail = re.sub(r'^2K\b', f'2K {screen} Inch', tail, flags=re.I)
+                new_name = f"Navigatie PilotOn {fam['label']} {tail}"
             new['name'] = new_name
             new['slug'] = slugify(new_name)
-            new['sku'] = sku_for(fam['label'], tail, fam.get('skuToken', ''))
+            sku = sku_for(fam['label'], tail, fam.get('skuToken', ''))
+            if sku in existing_skus:
+                # acelasi model+ani pe alta diagonala, sau familie deja existenta pe site
+                base, suffix = sku[:-2], sku[-2:]          # ...PO
+                for cand in [f"{base}{fam.get('screen', '')}{suffix}"] + \
+                            [f'{base}{i}{suffix}' for i in range(2, 12)]:
+                    if cand not in existing_skus:
+                        sku = cand
+                        break
+            new['sku'] = sku
             new['status'] = 'active'
             new['newProduct'] = True
 

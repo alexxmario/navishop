@@ -1,0 +1,1217 @@
+{
+ "src": "/Users/alexmario/Downloads/myairbridge-yRzRCQVs1Do",
+ "families": [
+  {
+   "label": "Alfa Romeo Mito 2008-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mito (2008-2010)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 08-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 08-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Alfa Romeo Mito 2014-2020",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Mito (2014-2020)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Alfa Romeo Mito 2014-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mito (2014-2020)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/ALFA ROMEO MITO 14-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Smart ForTwo 2015-2020 LOW",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Smart ForTwo (2015-2020)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/BENZ SMART FORTWO LOW 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/BENZ SMART FORTWO LOW 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Mercedes Benz Vito 3 2014-2018 MICA",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Vito 3 (2014-2018)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/BENZ VITO-3 MICA 14-18 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/BENZ VITO-3 MICA 14-18 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/BENZ VITO-3 MICA 14-18 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/BENZ VITO-3 MICA 14-18 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "BMW X1 E84 2009-2012",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "X1 E84 (2009-2012)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/BMW X1 E84 09-12 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/BMW X1 E84 09-12 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/BMW X1 E84 09-12 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/BMW X1 E84 09-12 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "VW Golf 5 2006-2012",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Golf 5 (2006-2012)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "VW Jetta 2006-2012",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Jetta (2006-2012)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/GOLF-5 JETTA 06-12 10INCH CLIMA incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Honda Fit / Jazz 2013-2022",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Fit / Jazz (2013-2022)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/HONDA FIT JAZZ 13-22 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/HONDA FIT JAZZ 13-22 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Jeep Wrangler Unlimited 2008-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Wrangler Unlimited (2008-2010)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/JEEP WRANGLER 08-10 4DORS 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/JEEP WRANGLER 08-10 4DORS 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Qashqai J11 2013-2017 HIGH",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Qashqai J11 (2013-2017)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/NISSAN J11 13-17 HIGH 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN J11 13-17 HIGH 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/NISSAN J11 13-17 HIGH 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN J11 13-17 HIGH 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Nissan Micra K12 2002-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Micra K12 (2002-2010)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/NISSAN MICRA (K12) 02-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN MICRA (K12) 02-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Navara dupa 2017",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Navara (dupa 2017)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Nissan Terra dupa 2017",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Terra (dupa 2017)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN NAVARA TERRA 2017 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Nissan NP300 Frontier dupa 2017",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "NP300 Frontier (dupa 2017)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN NP300 FRONTIER 2017+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan NV200 2009-2017 SILVER",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "NV200 (2009-2017)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/NISSAN NV200 09-17 SILVER 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN NV200 09-17 SILVER 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Patrol 1997-2005",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Patrol (1997-2005)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/NISSAN PATROL 97-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN PATROL 97-05 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan X-Trail 2015-2019 AC",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "X-Trail (2015-2019)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 15-19 AC 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 15-19 AC 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 15-19 AC 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 15-19 AC 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Opel Zafira Tourer C 2011-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Zafira Tourer C (2011-2016)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/OPEL ZAFIRA TOURER-C 11-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Renault Captur 2013-2017 SUBTIRE",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Captur (2013-2017)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/RENAULT CAPTUR SUBTIRE 13-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Renault Laguna 2001-2007",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Laguna (2001-2007)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/RENAULT LAGUNA 01-07 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/RENAULT LAGUNA 01-07 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Renault Trafic 2010-2014",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Trafic (2010-2014)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Nissan Primastar 2010-2014",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Primastar (2010-2014)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Opel Vivaro 2010-2014",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Vivaro (2010-2014)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/RENAULT TRAFIC PRIMASTAR VIVARO 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "SsangYong Tivoli 2015-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Tivoli (2015-2019)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/SSANGYONG TIVOLI TIVOLAN 15-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Subaru Forester 2016-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Forester (2016-2018)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/SUBARU FORESTER 16-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/SUBARU FORESTER 16-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "VW Golf 5 2004-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Golf 5 (2004-2008)",
+   "folders": {
+    "2k": "2026-07-23 rame+navigatii/VW GOLF 5 BORA 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-23 rame+navigatii/VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-23 rame+navigatii/VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-23 rame+navigatii/VW GOLF 5 BORA 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "VW Tiguan 2016-2020",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Tiguan (2016-2020)",
+   "folders": {
+    "4+64": "2026-07-23 rame+navigatii/VW TIGUAN 16-20 10INCH B incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-23 rame+navigatii/VW TIGUAN 16-20 10INCH B incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-23 rame+navigatii/VW TIGUAN 16-20 10INCH B incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-23 rame+navigatii/VW TIGUAN 16-20 10INCH B incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Mercedes Benz Sprinter 2006-2016",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Sprinter (2006-2016)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/BENZ SPRINTER 06-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/BENZ SPRINTER 06-16 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/BENZ SPRINTER 06-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/BENZ SPRINTER 06-16 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Mercedes Benz CLK W209 2005-2009",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "CLK W209 (2005-2009)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/BENZ W209 05-09 9INCH BLACK incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/BENZ W209 05-09 9INCH BLACK incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Mercedes Benz Vito Viano W639 2010-2015",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Vito Viano W639 (2010-2015)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/BENZ W639 10-15 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/BENZ W639 10-15 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/BENZ W639 10-15 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/BENZ W639 10-15 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Mini Cooper 2006-2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mini Cooper (2006-2015)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/BMW MINI 06-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/BMW MINI 06-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/BMW MINI 06-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/BMW MINI 06-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Dacia Duster 2015-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Duster (2015-2020)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/DACIA DUSTER 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/DACIA DUSTER 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Fiat 500 dupa 2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "500 (dupa 2015)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FIAT 500 2015+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FIAT 500 2015+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FIAT 500 2015+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FIAT 500 2015+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Fiat Doblo 2002-2009",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Doblo (2002-2009)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FIAT DOBLO 02-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FIAT DOBLO 02-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Fiat Stilo 2002-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Stilo (2002-2010)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FIAT STILO 02-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FIAT STILO 02-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FIAT STILO 02-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FIAT STILO 02-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Ranger F250 2011-2015 BLACK",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ranger F250 (2011-2015)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD BLACK RANGER F250 11-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD BLACK RANGER F250 11-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford EcoSport 2012-2017 LOW",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "EcoSport (2012-2017)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD ECOSPORT LOW 12-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD ECOSPORT LOW 12-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Fiesta MK6 2004-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Fiesta MK6 (2004-2014)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD FIESTA MK6 04-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD FIESTA MK6 04-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Focus II 2004-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Focus II (2004-2011)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD FOCUS-2 S 04-11 9INCH AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD FOCUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Mustang 2010-2014",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Mustang (2010-2014)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/FORD MUSTANG 10-14 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/FORD MUSTANG 10-14 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/FORD MUSTANG 10-14 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/FORD MUSTANG 10-14 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Ford Transit 2009-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Transit (2009-2016)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD TRANSIT 09-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD TRANSIT 09-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Tourneo Courier 2013-2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Tourneo Courier (2013-2021)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/FORD TRANSIT TOURNEO COURIER 13-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Honda Fit / Jazz 2020-2022",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Fit / Jazz (2020-2022)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/HONDA FIT JAZZ 20-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/HONDA FIT JAZZ 20-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/HONDA FIT JAZZ 20-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/HONDA FIT JAZZ 20-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Hyundai Accent 2009-2012",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Accent (2009-2012)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/HYUNDAI ACCENT 09-12 9INCH BLACK incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Hyundai i20 2017-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "i20 (2017-2019)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/HYUNDAI I20 17-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/HYUNDAI I20 17-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Hyundai IX20 2010-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "IX20 (2010-2019)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/HYUNDAI IX20 10-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/HYUNDAI IX20 10-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Hyundai IX25 2010-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "IX25 (2010-2016)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/HYUNDAI IX25 10-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/HYUNDAI IX25 10-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Jeep Compass 2007-2009",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Compass (2007-2009)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/JEEP COMPASS 07-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/JEEP COMPASS 07-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Grand Carnival 2006-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Grand Carnival (2006-2014)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/KIA GRAND CARNIVAL VQ 06-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Rio YB 2016-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Rio YB (2016-2020)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/KIA RIO-YB 16-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/KIA RIO-YB 16-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Sorento 2004-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Sorento (2004-2008)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/KIA SORENTO 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/KIA SORENTO 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/KIA SORENTO 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/KIA SORENTO 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Sorento 2015-2021",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Sorento (2015-2021)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/KIA SORENTO 15-21 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/KIA SORENTO 15-21 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/KIA SORENTO 15-21 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/KIA SORENTO 15-21 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Kia Sorento 2021-2024",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Sorento (2021-2024)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/KIA SORENTO 21-24 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/KIA SORENTO 21-24 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/KIA SORENTO 21-24 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/KIA SORENTO 21-24 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Lexus RX 2003-2009",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "RX (2003-2009)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Harrier 2003-2009",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Harrier (2003-2009)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/LEXUS RX300 RX330 RX350 TOYOTA HARRIER 03-09 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Mitsubishi ASX II 2017-2019",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "ASX II (2017-2019)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/MITSUBISHI ASX 2 17-19 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/MITSUBISHI ASX 2 17-19 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/MITSUBISHI ASX 2 17-19 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/MITSUBISHI ASX 2 17-19 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Mitsubishi Pajero IV 2006-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Pajero IV (2006-2014)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/MITSUBISHI PAJERO 4 06-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/MITSUBISHI PAJERO 4 06-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Peugeot Partner 2006-2010 ORIGINE",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Partner (2006-2010)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/PEUGEOT PARTNER ORIGINE 06-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Suzuki Jimny 1998-2004",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Jimny (1998-2004)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/SUZUKI JIMNY 98-04 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/SUZUKI JIMNY 98-04 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Auris II 2012-2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Auris II (2012-2015)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA AURIS-2 12-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA AURIS-2 12-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Avensis 2002-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Avensis (2002-2008)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA AVENSIS 02-08 9INCH S incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA AVENSIS 02-08 9INCH S incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Corolla E170 2016-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Corolla E170 (2016-2019)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Auris E180 2016-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Auris E180 (2016-2019)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA COROLLA E170 AURIS E180 16-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Hilux 2015-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Hilux (2015-2018)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA HILUX 15-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA HILUX 15-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota RAV4 2013-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "RAV4 (2013-2018)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA RAV4 13-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA RAV4 13-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Sienna 2010-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Sienna (2010-2014)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA SIENNA 10-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA SIENNA 10-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Toyota Sienna 2015-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Sienna (2015-2020)",
+   "folders": {
+    "2k": "2026-07-28 rame+navigatii/TOYOTA SIENNA 15-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-07-28 rame+navigatii/TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-07-28 rame+navigatii/TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-07-28 rame+navigatii/TOYOTA SIENNA 15-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Volvo XC90 2003-2014 MICA",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "XC90 (2003-2014)",
+   "folders": {
+    "4+64": "2026-07-28 rame+navigatii/VOLVO XC90 03-14 MICA 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-07-28 rame+navigatii/VOLVO XC90 03-14 MICA 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-07-28 rame+navigatii/VOLVO XC90 03-14 MICA 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-07-28 rame+navigatii/VOLVO XC90 03-14 MICA 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Chevrolet Epica 2009-2012",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Epica (2009-2012)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/CHEVROLET EPICA 09-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/CHEVROLET EPICA 09-12 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Chevrolet Epica 2013-2017",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Epica (2013-2017)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/CHEVROLET EPICA 13-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/CHEVROLET EPICA 13-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Ranger dupa 2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ranger (dupa 2015)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/FORD RANGER 2015+ 9INCH GRI HIGH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/FORD RANGER 2015+ 9INCH GRI HIGH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Ford Transit dupa 2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Transit (dupa 2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/FORD TRANSIT 2021+ 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/FORD TRANSIT 2021+ 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Honda Civic 2020-2022",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Civic (2020-2022)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/HONDA CIVIC 20-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/HONDA CIVIC 20-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/HONDA CIVIC 20-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/HONDA CIVIC 20-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Honda Fit / Jazz 2001-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Fit / Jazz (2001-2008)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/HONDA FIT JAZZ 01-08 9INCH CLIMA GRI incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Jeep Commander 2007-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Commander (2007-2008)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/JEEP COMMANDER 07-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/JEEP COMMANDER 07-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Ceed 2018-2022",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Ceed (2018-2022)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/KIA CEED 18-22 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/KIA CEED 18-22 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/KIA CEED 18-22 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/KIA CEED 18-22 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Kia K5 2013-2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "K5 (2013-2015)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA K5 13-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA K5 13-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA K5 13-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA K5 13-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Morning 2016-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Morning (2016-2020)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA MORNING 16-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA MORNING 16-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA MORNING 16-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA MORNING 16-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Morning 2021-2026",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Morning (2021-2026)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA MORNING 21-26 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA MORNING 21-26 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA MORNING 21-26 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA MORNING 21-26 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Niro 2016-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Niro (2016-2019)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA NIRO 16-19 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA NIRO 16-19 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA NIRO 16-19 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA NIRO 16-19 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Optima K5 2010-2013",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Optima K5 (2010-2013)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA OPTIMA K5 10-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA OPTIMA K5 10-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Optima K5 2016-2019",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Optima K5 (2016-2019)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/KIA OPTIMA K5 16-19 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/KIA OPTIMA K5 16-19 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/KIA OPTIMA K5 16-19 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/KIA OPTIMA K5 16-19 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Kia Sorento 2013-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Sorento (2013-2014)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA SORENTO 13-14 9INCH HIGH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA SORENTO 13-14 9INCH HIGH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Sorento 2015-2020",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Sorento (2015-2020)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/KIA SORENTO 15-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/KIA SORENTO 15-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/KIA SORENTO 15-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/KIA SORENTO 15-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Kia Soul 2009-2013",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Soul (2009-2013)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA SOUL 09-13 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA SOUL 09-13 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA SOUL 09-13 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA SOUL 09-13 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Soul dupa 2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Soul (dupa 2014)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/KIA SOUL 2014 9INCH LOW AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/KIA SOUL 2014 9INCH LOW AC incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Kia Sportage 2018-2020",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Sportage (2018-2020)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/KIA SPORTAGE 18-20 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/KIA SPORTAGE 18-20 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/KIA SPORTAGE 18-20 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/KIA SPORTAGE 18-20 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Mazda 2 2014-2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "2 (2014-2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Mazda CX-3 2014-2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "CX-3 (2014-2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/MAZDA MAZDA-2 CX-3 14-21 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Micra K13 2013-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Micra K13 (2013-2016)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/NISSAN MICRA K13 13-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN MICRA K13 13-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Murano 2007-2014",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Murano (2007-2014)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/NISSAN MURANO 07-14 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN MURANO 07-14 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Murano dupa 2015",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Murano (dupa 2015)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/NISSAN MURANO 2015+ 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN MURANO 2015+ 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/NISSAN MURANO 2015+ 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN MURANO 2015+ 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Nissan Patrol Y61 2004-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Patrol Y61 (2004-2016)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/NISSAN PATROL Y61 04-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN PATROL Y61 04-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan Tiida 2016-2019",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Tiida (2016-2019)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN TIIDA 16-19 9INCH AC CLIMA 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Nissan X-Trail dupa 2022",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "X-Trail (dupa 2022)",
+   "folders": {
+    "4+64": "2026-08-03 rame+navigatii/NISSAN X-TRAIL 2022 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "2026-08-03 rame+navigatii/NISSAN X-TRAIL 2022 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "2026-08-03 rame+navigatii/NISSAN X-TRAIL 2022 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "2026-08-03 rame+navigatii/NISSAN X-TRAIL 2022 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   },
+   "screen": "10"
+  },
+  {
+   "label": "Renault Kwid 2016-2017",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Kwid (2016-2017)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/RENAULT KWID 16-17 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/RENAULT KWID 16-17 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/RENAULT KWID 16-17 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/RENAULT KWID 16-17 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "Suzuki Ignis 2017-2020",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ignis (2017-2020)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/SUZUKI IGNIS 17-20 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/SUZUKI IGNIS 17-20 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "VW Viloran dupa 2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Viloran (dupa 2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "VW Sagitar dupa 2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Sagitar (dupa 2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  },
+  {
+   "label": "VW Tayron dupa 2021",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Tayron (dupa 2021)",
+   "folders": {
+    "2k": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "2026-08-03 rame+navigatii/VW VILORAN SAGITA R TAYRON T-ROC 2021 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   },
+   "screen": "9"
+  }
+ ]
+}
