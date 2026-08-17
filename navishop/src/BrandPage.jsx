@@ -142,6 +142,22 @@ const FALLBACK_BRAND_MODELS = {
   mini: {
     brand: 'Mini',
     models: ['Cooper', 'Clubman', 'Countryman']
+  },
+  dodge: {
+    brand: 'Dodge',
+    models: ['Caliber', 'Durango', 'Journey', 'RAM']
+  },
+  chrysler: {
+    brand: 'Chrysler',
+    models: ['300C']
+  },
+  ssangyong: {
+    brand: 'SsangYong',
+    models: ['Tivoli']
+  },
+  rover: {
+    brand: 'Rover',
+    models: ['75']
   }
 };
 

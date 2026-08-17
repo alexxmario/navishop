@@ -9,7 +9,10 @@ class BrandModelExtractor {
       'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
       'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
       'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Iveco', 'Infiniti',
-      'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra'
+      'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra',
+      // Lista e parcursă în ordine și se oprește la prima potrivire, așa că 'Rover'
+      // trebuie să rămână după 'Land Rover', altfel ar înghiți modelele Land Rover.
+      'Dodge', 'Chrysler', 'SsangYong', 'Rover'
     ];
 
     // Head unit / infotainment system identifiers to ignore in model names
