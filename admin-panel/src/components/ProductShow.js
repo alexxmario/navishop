@@ -919,6 +919,12 @@ const ProductShowContent = () => (
                 </Typography>
                 <TextField source="romanianSpecs.compatibility.tipMontare" />
               </Grid>
+              <Grid size={{ xs: 12 }}>
+                <Typography variant="subtitle1" sx={{ mb: 1, fontWeight: 'bold' }}>
+                  Limitări (la nivel de mașină):
+                </Typography>
+                <TextField source="romanianSpecs.additional.limitari" emptyText="—" />
+              </Grid>
             </Grid>
           </CardContent>
         </Card>

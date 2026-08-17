@@ -19,7 +19,7 @@ import { extractBrandModelInfo } from './utils/carModel';
 import {
   ShoppingCart, Star, Heart, ChevronRight, Truck, Shield,
   Minus, Plus, ArrowLeft, Bluetooth, Smartphone, MapPin, Zap,
-  X, ChevronLeft
+  X, ChevronLeft, AlertTriangle
 } from 'lucide-react';
 
 const FALLBACK_IMAGE = placeholderImage(800, 600);
@@ -421,6 +421,27 @@ const ProductPage = () => {
                 </>
               )}
             </div>
+
+            {/* Limitări — car-level constraints the customer must know before buying */}
+            {product.romanianSpecs?.additional?.limitari && (
+              <div className="flex gap-3 rounded-lg border border-amber-300 bg-amber-50 p-4">
+                <AlertTriangle className="w-5 h-5 shrink-0 text-amber-600 mt-0.5" aria-hidden="true" />
+                <div className="text-left">
+                  <p className="text-sm font-semibold text-amber-900">
+                    Limitări pentru acest model de mașină
+                  </p>
+                  <p className="mt-1 text-sm leading-relaxed text-amber-900/90">
+                    {product.romanianSpecs.additional.limitari}
+                  </p>
+                  <Link
+                    to="/contact"
+                    className="mt-2 inline-block text-sm font-medium text-amber-900 underline hover:no-underline"
+                  >
+                    Nu ești sigur? Scrie-ne înainte de comandă
+                  </Link>
+                </div>
+              </div>
+            )}
 
             {/* Quantity & Add to Cart */}
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
