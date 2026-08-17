@@ -18,8 +18,17 @@ necesare pentru montaj", pentru produsele care primesc o limitare de tip cablu/a
 Reluabil: starea per-slug e in limitari-apply-state.json.
 """
 import json, os, re, sys, time, argparse, unicodedata, urllib.request, urllib.error, urllib.parse
+import importlib.util
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+# potrivirea masinilor sta in matchCarModels.py (are autotest pe generatii)
+_spec = importlib.util.spec_from_file_location('matchCarModels',
+                                               os.path.join(HERE, 'matchCarModels.py'))
+mcm = importlib.util.module_from_spec(_spec)
+_saved_argv, sys.argv = sys.argv, [sys.argv[0]]
+_spec.loader.exec_module(mcm)
+sys.argv = _saved_argv
 API = os.environ.get('PILOTON_API', 'https://api.navi.piloton.ro')
 LIB_FILE = os.path.join(HERE, 'limitari-library.json')
 STATE_FILE = os.path.join(HERE, 'limitari-apply-state.json')
@@ -126,11 +135,15 @@ def overlaps(a1, a2, b1, b2):
 
 
 def match_entry(entry, car, y1, y2):
-    """True daca produsul (car,y1,y2) cade sub intrarea din biblioteca."""
-    if not overlaps(y1, y2, entry.get('yearFrom'), entry.get('yearTo')):
-        return False
-    cands = [norm_car(c) for c in (entry.get('matchCar') or [entry.get('car', '')])]
-    return any(car == c or car.startswith(c + ' ') or c == car for c in cands if c)
+    """True daca produsul (car,y1,y2) cade sub intrarea din biblioteca.
+
+    Foloseste matchCarModels: potrivirea naiva pe suprapunere de ani dadea rezultate
+    greșite la granita dintre generatii (vezi comentariile din matchCarModels.py).
+    """
+    years = f'{y1}-{y2}' if y2 and y2 < 2099 else (f'dupa {y1}' if y1 else '')
+    entry_years = f"{entry.get('yearFrom')}-{entry.get('yearTo')}"
+    s, _why = mcm.score(car, years, entry.get('car', ''), entry_years)
+    return s > 0
 
 
 def compose_text(lib, rules):
@@ -173,7 +186,16 @@ def main():
     args = ap.parse_args()
 
     lib = json.load(open(LIB_FILE, encoding='utf-8'))
-    entries = lib['entries']
+    # 'not-applicable' = limitare a produsului concurentei, nu a masinii. Nu intra
+    # nici macar in plan, ca sa nu fie publicata din greseala cu --include-review.
+    skipped = [e for e in lib['entries']
+               if e['status'] not in ('publish', 'review') or not e.get('rules')]
+    entries = [e for e in lib['entries']
+               if e['status'] in ('publish', 'review') and e.get('rules')]
+    if skipped:
+        print(f'Intrari ignorate (not-applicable / fara reguli): {len(skipped)}')
+        for e in skipped:
+            print(f"  - {e['id']}: {e.get('reviewNote', '')[:110]}")
     allowed = {'publish'} | ({'review'} if args.include_review else set())
     print(f'Biblioteca: {len(entries)} intrari '
           f'({sum(1 for e in entries if e["status"] == "publish")} publish, '

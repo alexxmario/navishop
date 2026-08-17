@@ -15,3 +15,5 @@ dist/
 backend/scripts/drive-cache/
 backend/scripts/products-live-cache.json
 backend/scripts/price-check-products-cache.json
+# pagina HTML de referinta salvata de harvestLimitari.py (se regenereaza; e continut al altui site)
+backend/scripts/harvest-sample.html

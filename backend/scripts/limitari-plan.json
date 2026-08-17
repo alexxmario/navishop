@@ -1,10 +1,118 @@
 {
- "generatedAt": "2026-08-17T14:07:03",
+ "generatedAt": "2026-08-17T15:26:37",
  "library": {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-08-17"
  },
  "matched": [
+  {
+   "id": "6900b40ebd9c03aa564ec8dd",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-2gb-32gb-4-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 4 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6900b40ebd9c03aa564ec8e7",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-4gb-64gb-4-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 4 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6900b40ebd9c03aa564ec8f1",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-4gb-64gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6900b40ebd9c03aa564ec8fb",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-6gb-128gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6900b40ebd9c03aa564ec905",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-4gb-64gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 4GB 64GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6900b40ebd9c03aa564ec90f",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-8gb-256gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 8GB 256GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
   {
    "id": "6900b410bd9c03aa564edee5",
    "slug": "navigatie-piloton-honda-crv-dupa-2012-9-inch-2gb-32gb-4-core",
@@ -12,13 +120,13 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
    "hadLimitari": false,
    "needsPackageFix": false
@@ -30,13 +138,13 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
    "hadLimitari": false,
    "needsPackageFix": false
@@ -48,13 +156,13 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
    "hadLimitari": false,
    "needsPackageFix": false
@@ -66,13 +174,13 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
    "hadLimitari": false,
    "needsPackageFix": false
@@ -84,13 +192,13 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
    "hadLimitari": false,
    "needsPackageFix": false
@@ -102,20 +210,631 @@
    "car": "honda crv",
    "years": "2012-2099",
    "entries": [
-    "honda-crv-4-2012-2018"
+    "honda-crv-iv-2012-2018"
    ],
    "rules": [
     "nav-originala-adaptor"
    ],
    "status": "review",
-   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+   "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (pagina live, citita 2026-08-17)",
    "limitari": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fd991d4068d8689acea",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fdb91d4068d8689ad02",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fdc91d4068d8689ad0e",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-2gb-32gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fdd91d4068d8689ad1a",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fde91d4068d8689ad26",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-10-25-inch-4gb-64gb-8-core-4g-joystick-cic",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 10.25 inch 4GB 64GB 8 Core 4G JoyStick",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a04fdf91d4068d8689ad32",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-10-25-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 10.25 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a0518c91d4068d8689ce11",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-12-3-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 12.3 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a0518d91d4068d8689ce1e",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-12-3-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 12.3 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a052d391d4068d8689de2d",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-qled-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a0553891d4068d868a02f6",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-qled-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a0564791d4068d868a19cd",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-6gb-128gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69a0578191d4068d868a304b",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-12gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd561f4c8a14cbed82cc73",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-10-25-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 10.25 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd56e04c8a14cbed82ce30",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-10-25-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 10.25 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd57414c8a14cbed82ced3",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-12-3-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 12.3 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd57664c8a14cbed82cf4e",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-12-3-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 12.3 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd578b4c8a14cbed82cfc9",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-10-25-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 10.25 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd57e94c8a14cbed82d08b",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-10-25-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 10.25 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd58b24c8a14cbed82d12d",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-12-3-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 12.3 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd58d64c8a14cbed82d1ab",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-12-3-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 12.3 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd59044c8a14cbed82d229",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-10-25-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 10.25 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd595c4c8a14cbed82d2fb",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-12-9-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 12.9 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd59944c8a14cbed82d386",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-nsj-12-9-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 NSJ 12.9 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd59ce4c8a14cbed82d416",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-12-9-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 12.9 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd59fa4c8a14cbed82d49f",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-cic-12-9-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CIC 12.9 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd5a254c8a14cbed82d52b",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-12-9-inch-8gb-256gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 12.9 Inch 8GB 256GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "69cd5a4f4c8a14cbed82d5b3",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-ccc-12-9-inch-4gb-64gb-8-core-4g",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 12.9 Inch 4GB 64GB 8 Core 4G",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a0f5fe56921205cc1b03bbd",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-10-25-inch-4gb-64gb-8-core-4g-joystick-ccc",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CCC 10.25 inch 4GB 64GB 8 Core 4G JoyStick",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c53a123cd91dc82cf5",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-2k-9-inch-4gb-64gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 2K 9 Inch 4GB 64GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c63a123cd91dc82d01",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-2k-9-inch-8gb-256gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 2K 9 Inch 8GB 256GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c63a123cd91dc82d0d",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-9-inch-4gb-64gb-4-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 9 inch 4GB 64GB 4 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c73a123cd91dc82d19",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-9-inch-4gb-64gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 9 inch 4GB 64GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c73a123cd91dc82d25",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-9-inch-6gb-128gb-8-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 9 inch 6GB 128GB 8 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
+   "hadLimitari": false,
+   "needsPackageFix": false
+  },
+  {
+   "id": "6a4e50c83a123cd91dc82d31",
+   "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-9-inch-2gb-32gb-4-core",
+   "name": "Navigatie PilotOn BMW Seria 1 2004-2011 CLIMA 9 inch 2GB 32GB 4 CORE",
+   "car": "bmw seria 1",
+   "years": "2004-2011",
+   "entries": [
+    "bmw-seria-1-e81-e87-2003-2013"
+   ],
+   "rules": [
+    "butoane-relocate"
+   ],
+   "status": "review",
+   "source": "navigatiiandroid.ro/navigatie-bmw-seria-1-e81-e87-2003-2013 (pagina live, citita 2026-08-17)",
+   "limitari": "Dacă mașina are încălzire în scaune, butoanele se mută în partea de jos a ramei adaptoare — rama are spațiu prevăzut pentru ele.",
    "hadLimitari": false,
    "needsPackageFix": false
   }
  ],
  "uncoveredCarGroups": {
-  "bmw seria 1 2004-2011": 40,
   "bmw seria 3 2004-2013": 34,
   "vw golf 5 2003-2010": 33,
   "vw polo 6r 2009-2018": 27,
