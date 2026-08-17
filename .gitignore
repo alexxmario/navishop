@@ -32,3 +32,5 @@ backend/scripts/family-images-apply-log.jsonl
 # unelte locale de agent (settings.json contine credentiale de productie)
 .claude/
 .agents/
+# pagina HTML de referinta salvata de harvestLimitari.py (se regenereaza; e continut al altui site)
+backend/scripts/harvest-sample.html

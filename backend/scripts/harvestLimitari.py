@@ -178,8 +178,39 @@ def deacc(s):
                    if unicodedata.category(c) != 'Mn').lower()
 
 
+# Structura reala a paginilor lor (verificata pe HTML arhivat, 17 aug 2026):
+#   <div class="product-attributes__item">
+#     <div class="product-attributes__label">Limitari</div>
+#     <div class="product-attributes__value">textul</div>
+#   </div>
+ATTR_ITEM = re.compile(
+    r'product-attributes__label"?\s*>(?P<label>.*?)</div>\s*'
+    r'<div[^>]*product-attributes__value"?\s*>(?P<value>.*?)</div>',
+    re.I | re.S)
+
+
+def extract_attributes(html):
+    """{eticheta_normalizata: valoare} din tabelul de specificatii."""
+    attrs = {}
+    for m in ATTR_ITEM.finditer(html):
+        label = clean(m.group('label'))
+        value = clean(m.group('value'))
+        if label:
+            attrs[deacc(label)] = value
+    return attrs
+
+
 def extract_limitari(html):
-    """Gaseste eticheta Limitari si intoarce textul care o urmeaza."""
+    """Valoarea atributului 'Limitari'. Intai parsare structurata, apoi scanare libera."""
+    attrs = extract_attributes(html)
+    for key, val in attrs.items():
+        if key.startswith('limitar') and val and len(val) >= 10:
+            return val
+    return extract_limitari_loose(html)
+
+
+def extract_limitari_loose(html):
+    """Rezerva: gaseste eticheta Limitari si intoarce textul care o urmeaza."""
     flat = WS.sub(' ', html)
     plain = clean(flat)
     hay = deacc(plain)
@@ -282,11 +313,25 @@ def main():
                 saved_sample = True
                 log('sample-salvat', fisier=SAMPLE_FILE, model=model)
             lim = extract_limitari(html)
-            out[model] = {'url': url, 'timestamp': ts,
-                          'status': 'ok' if lim else 'fara-limitari',
-                          'limitariRaw': lim}
-            if lim:
-                log('gasit', model=model, text=lim[:100])
+            attrs = extract_attributes(html)
+            # pastram si celelalte atribute "moi" — se mapeaza pe romanianSpecs.additional
+            # si nu vrem sa redescarcam 460 de pagini daca ne trebuie mai tarziu
+            extra = {k: v for k, v in attrs.items()
+                     if k.startswith(('observati', 'mentiun', 'note', 'garanti'))}
+            # Zero atribute = n-am citit de fapt tabelul de specificatii (pagina de
+            # eroare a arhivei, redirect, alt layout). A marca asta 'fara-limitari' ar
+            # fi un fals negativ, deci o tratam ca eroare reluabila.
+            if not attrs:
+                out[model] = {'url': url, 'timestamp': ts, 'status': 'parse-error',
+                              'error': 'zero atribute in pagina'}
+                log('parse-error', model=model, octeti=len(html))
+            else:
+                out[model] = {'url': url, 'timestamp': ts,
+                              'status': 'ok' if lim else 'fara-limitari',
+                              'limitariRaw': lim, 'atributeExtra': extra,
+                              'nrAtribute': len(attrs)}
+                if lim:
+                    log('gasit', model=model, text=lim[:100])
         if n % 10 == 0 or n == len(todo):
             json.dump(out, open(OUT_FILE, 'w'), ensure_ascii=False, indent=1)
             found = sum(1 for v in out.values() if v.get('limitariRaw'))

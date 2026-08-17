@@ -42,3 +42,24 @@
 {"ts": "2026-08-17T14:51:26", "event": "de-descarcat", "modele": 1, "deja": 0}
 {"ts": "2026-08-17T14:52:17", "event": "descarcare-eroare", "model": "alfa-romeo-147-2000-2010", "eroare": "503"}
 {"ts": "2026-08-17T14:52:17", "event": "progres", "procesate": 1, "din": 1, "cu_limitari": 0}
+{"ts": "2026-08-17T15:13:36", "event": "cdx-din-cache", "randuri": 5146, "fisier": "limitari-cdx-cache.json"}
+{"ts": "2026-08-17T15:14:06", "event": "ia-indisponibil", "eroare": "timed out", "reincerc_in": 30, "secunde_ramase": 269}
+{"ts": "2026-08-17T15:14:44", "event": "ia-disponibil"}
+{"ts": "2026-08-17T15:14:44", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T15:14:44", "event": "de-descarcat", "modele": 3, "deja": 0}
+{"ts": "2026-08-17T15:14:59", "event": "sample-salvat", "fisier": "/Users/alexmario/Desktop/site navigatii/backend/scripts/harvest-sample.html", "model": "alfa-romeo-147-2000-2010"}
+{"ts": "2026-08-17T15:15:08", "event": "progres", "procesate": 3, "din": 3, "cu_limitari": 0}
+{"ts": "2026-08-17T15:15:46", "event": "cdx-din-cache", "randuri": 5146, "fisier": "limitari-cdx-cache.json"}
+{"ts": "2026-08-17T15:16:17", "event": "ia-indisponibil", "eroare": "timed out", "reincerc_in": 30, "secunde_ramase": 2669}
+{"ts": "2026-08-17T15:17:05", "event": "ia-disponibil"}
+{"ts": "2026-08-17T15:17:05", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T15:17:05", "event": "de-descarcat", "modele": 460, "deja": 0}
+{"ts": "2026-08-17T15:17:13", "event": "parse-error", "model": "alfa-romeo-159-2005-2013", "octeti": 163752}
+{"ts": "2026-08-17T15:17:16", "event": "parse-error", "model": "alfa-romeo-brera-2006-2010", "octeti": 164404}
+{"ts": "2026-08-17T15:17:40", "event": "parse-error", "model": "audi-a3-8p1-2003-2013", "octeti": 207585}
+{"ts": "2026-08-17T15:17:48", "event": "progres", "procesate": 10, "din": 460, "cu_limitari": 0}
+{"ts": "2026-08-17T15:18:25", "event": "parse-error", "model": "bmw-seria-5-e39-1995-2003", "octeti": 206483}
+{"ts": "2026-08-17T15:18:50", "event": "parse-error", "model": "bmw-x1-e84-2009-2015", "octeti": 205830}
+{"ts": "2026-08-17T15:18:53", "event": "progres", "procesate": 20, "din": 460, "cu_limitari": 0}
+{"ts": "2026-08-17T15:19:05", "event": "parse-error", "model": "chevrolet-aveo-2006-2011", "octeti": 205265}
+{"ts": "2026-08-17T15:19:15", "event": "parse-error", "model": "chevrolet-captiva-2011-2016", "octeti": 191688}
