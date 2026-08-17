@@ -1,0 +1,44 @@
+{"ts": "2026-08-17T14:26:26", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 2994}
+{"ts": "2026-08-17T14:27:01", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 60, "secunde_ramase": 2959}
+{"ts": "2026-08-17T14:28:07", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 120, "secunde_ramase": 2893}
+{"ts": "2026-08-17T14:28:52", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 3294}
+{"ts": "2026-08-17T14:29:27", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 60, "secunde_ramase": 3258}
+{"ts": "2026-08-17T14:30:38", "event": "ia-disponibil"}
+{"ts": "2026-08-17T14:30:38", "event": "enumerare-cdx"}
+{"ts": "2026-08-17T14:31:10", "event": "cdx-pagina", "randuri": 5146, "total": 5146, "mai_e": false}
+{"ts": "2026-08-17T14:31:10", "event": "modele-gasite", "modele": 0, "randuri_cdx": 5146}
+{"ts": "2026-08-17T14:31:10", "event": "de-descarcat", "modele": 0, "deja": 0}
+{"ts": "2026-08-17T14:33:51", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 594}
+{"ts": "2026-08-17T14:34:26", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 60, "secunde_ramase": 559}
+{"ts": "2026-08-17T14:35:31", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 120, "secunde_ramase": 493}
+{"ts": "2026-08-17T14:37:59", "event": "ia-disponibil"}
+{"ts": "2026-08-17T14:37:59", "event": "enumerare-cdx"}
+{"ts": "2026-08-17T14:38:15", "event": "cdx-pagina", "randuri": 5146, "total": 5146, "mai_e": false}
+{"ts": "2026-08-17T14:38:15", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T14:38:15", "event": "de-descarcat", "modele": 460, "deja": 0}
+{"ts": "2026-08-17T14:38:40", "event": "descarcare-eroare", "model": "alfa-romeo-147-2000-2010", "eroare": "503"}
+{"ts": "2026-08-17T14:39:32", "event": "ia-disponibil"}
+{"ts": "2026-08-17T14:39:32", "event": "enumerare-cdx"}
+{"ts": "2026-08-17T14:39:38", "event": "cdx-pagina", "randuri": 5146, "total": 5146, "mai_e": false}
+{"ts": "2026-08-17T14:39:38", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T14:39:38", "event": "de-descarcat", "modele": 460, "deja": 0}
+{"ts": "2026-08-17T14:40:57", "event": "descarcare-eroare", "model": "alfa-romeo-147-2000-2010", "eroare": "404"}
+{"ts": "2026-08-17T14:41:24", "event": "descarcare-eroare", "model": "alfa-romeo-156-1997-2005", "eroare": "503"}
+{"ts": "2026-08-17T14:41:51", "event": "descarcare-eroare", "model": "alfa-romeo-159-2005-2013", "eroare": "503"}
+{"ts": "2026-08-17T14:42:18", "event": "ia-a-picat-reasteptam", "model": "alfa-romeo-brera-2006-2010"}
+{"ts": "2026-08-17T14:42:23", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 2394}
+{"ts": "2026-08-17T14:42:59", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 60, "secunde_ramase": 2359}
+{"ts": "2026-08-17T14:44:07", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 2694}
+{"ts": "2026-08-17T14:44:42", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 60, "secunde_ramase": 2659}
+{"ts": "2026-08-17T14:45:59", "event": "ia-disponibil"}
+{"ts": "2026-08-17T14:45:59", "event": "enumerare-cdx"}
+{"ts": "2026-08-17T14:46:33", "event": "cdx-pagina", "randuri": 5146, "total": 5146, "mai_e": false}
+{"ts": "2026-08-17T14:46:33", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T14:46:33", "event": "de-descarcat", "modele": 460, "deja": 0}
+{"ts": "2026-08-17T14:50:37", "event": "cdx-din-cache", "randuri": 5146, "fisier": "limitari-cdx-cache.json"}
+{"ts": "2026-08-17T14:50:42", "event": "ia-indisponibil", "eroare": "503", "reincerc_in": 30, "secunde_ramase": 54}
+{"ts": "2026-08-17T14:51:26", "event": "ia-disponibil"}
+{"ts": "2026-08-17T14:51:26", "event": "modele-gasite", "modele": 460, "randuri_cdx": 5146}
+{"ts": "2026-08-17T14:51:26", "event": "de-descarcat", "modele": 1, "deja": 0}
+{"ts": "2026-08-17T14:52:17", "event": "descarcare-eroare", "model": "alfa-romeo-147-2000-2010", "eroare": "503"}
+{"ts": "2026-08-17T14:52:17", "event": "progres", "procesate": 1, "din": 1, "cu_limitari": 0}

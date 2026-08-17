@@ -962,6 +962,24 @@ const ProductEditForm = () => {
                 }}
               />
             </Grid>
+            <Grid size={{ xs: 12 }}>
+              <TextInput
+                source="romanianSpecs.additional.limitari"
+                label="Limitări (la nivel de mașină)"
+                helperText="Se afișează ca avertisment galben deasupra butonului de coș. Ex: dacă mașina are navigație originală e nevoie de un adaptor suplimentar. Lasă gol dacă modelul nu are limitări."
+                multiline
+                rows={3}
+                fullWidth
+                sx={{
+                  '& .MuiOutlinedInput-root': {
+                    fontSize: '1.1rem'
+                  },
+                  '& textarea': {
+                    fontSize: '1.1rem !important'
+                  }
+                }}
+              />
+            </Grid>
           </Grid>
         </Card>
 

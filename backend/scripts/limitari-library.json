@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-17",
+  "note": "Biblioteca de limitari la nivel de MASINA (nu de produs). Textele sunt formularea noastra, nu copiate de la concurenta. Se aplica peste romanianSpecs.additional.limitari. Se publica DOAR intrarile cu status='publish'; cele cu status='review' asteapta confirmarea lui Alex.",
+
+  "templates": {
+    "nav-originala-adaptor": {
+      "label": "Navigatie originala de fabrica — adaptor suplimentar",
+      "text": "Dacă mașina are navigație originală de fabrică, montajul necesită un adaptor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm."
+    },
+    "amplificator-fabrica": {
+      "label": "Sistem audio amplificat din fabrica (Bose / Harman / JBL)",
+      "text": "Pe versiunile cu sistem audio amplificat din fabrică este nevoie de un adaptor de amplificator, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să îl adăugăm."
+    },
+    "fibra-optica-most": {
+      "label": "Magistrala pe fibra optica (MOST)",
+      "text": "Versiunile cu magistrală audio pe fibră optică necesită un decodor suplimentar, care nu este inclus în pachet. Scrie-ne înainte de comandă ca să verificăm împreună ce are mașina ta."
+    },
+    "display-fabrica-pastrat": {
+      "label": "Displayul din fabrica rmane pe bord",
+      "text": "Pe această versiune displayul original din bord rămâne montat și nu mai afișează informații după instalare."
+    },
+    "clima-display": {
+      "label": "Comenzi/afisaj clima integrate in unitatea originala",
+      "text": "Dacă afișajul climatizării este integrat în unitatea originală, acesta necesită un modul suplimentar pentru a rămâne funcțional. Scrie-ne înainte de comandă."
+    },
+    "fitment-diagonala": {
+      "label": "Restrictie de diagonala/rama pentru anumite versiuni de bord",
+      "text": "Nu toate versiunile de bord ale acestui model acceptă această diagonală. Scrie-ne cu o poză a bordului înainte de comandă ca să confirmăm potrivirea."
+    }
+  },
+
+  "entries": [
+    {
+      "id": "honda-crv-4-2012-2018",
+      "car": "Honda CR-V IV",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "matchCar": ["honda crv", "honda cr-v"],
+      "rules": ["nav-originala-adaptor"],
+      "status": "review",
+      "confidence": "sursa-verificata-dar-potrivire-imprecisa",
+      "source": "navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018 (citit 2026-08-17)",
+      "reviewNote": "Sursa acopera doar generatia IV (2012-2018). In catalogul nostru modelul este 'Honda CRV dupa 2012', care include si generatiile V/VI — de confirmat daca limitarea li se aplica si lor inainte de publicare."
+    }
+  ]
+}
