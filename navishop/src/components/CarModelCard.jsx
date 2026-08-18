@@ -57,6 +57,9 @@ const FOLDER_OVERRIDES = {
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  // PNG-urile au ramas pe disc ca rezerva: daca un .webp lipseste, se reincearca .png
+  // pe acelasi folder inainte de a trece la urmatorul candidat.
+  const [useWebp, setUseWebp] = useState(true);
   const [imageError, setImageError] = useState(false);
   const [variantIndex, setVariantIndex] = useState(0);
 
@@ -146,18 +149,23 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
     setVariantIndex(0);
     setImageError(false);
     setImageLoaded(false);
+    setUseWebp(true);
   }, [brand, modelData.model, modelData.years, modelKey]);
 
   const buildImagePath = (type = 'normal') => {
     const variant = candidateFolders[variantIndex];
     if (!variant) return '';
     const encodedFolder = encodeFolderForUrl(variant.folder);
-    return resolveImageUrl(`/cars/${variant.brand}/${encodedFolder}/${type}.png`);
+    return resolveImageUrl(`/cars/${variant.brand}/${encodedFolder}/${type}.${useWebp ? 'webp' : 'png'}`);
   };
 
   const handleImageError = () => {
-    if (variantIndex < candidateFolders.length - 1) {
+    if (useWebp) {
+      setUseWebp(false);
+      setImageLoaded(false);
+    } else if (variantIndex < candidateFolders.length - 1) {
       setVariantIndex(prev => prev + 1);
+      setUseWebp(true);
       setImageLoaded(false);
     } else {
       setImageError(true);
