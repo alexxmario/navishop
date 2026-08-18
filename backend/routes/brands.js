@@ -37,7 +37,11 @@ router.get('/:brand', async (req, res) => {
     const extractor = new BrandModelExtractor();
     const brandsWithModels = await extractor.getAllBrandsWithModels();
     
-    const brandKey = brand.toLowerCase();
+    // Extractorul normalizează VW la Volkswagen și Mercedes la Mercedes Benz, deci
+    // cheile există doar sub forma lungă. Fără aliasuri, /api/brands/vw dădea 404 și
+    // pagina de brand mai făcea o cerere degeaba.
+    const BRAND_ALIASES = { vw: 'volkswagen', mercedes: 'mercedes benz', 'mercedes-benz': 'mercedes benz' };
+    const brandKey = BRAND_ALIASES[brand.toLowerCase()] || brand.toLowerCase();
     const brandData = brandsWithModels[brandKey];
     
     if (!brandData) {

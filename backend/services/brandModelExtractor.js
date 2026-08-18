@@ -1,5 +1,11 @@
 const Product = require('../models/Product');
 
+// Extragerea marcilor parcurge toate produsele active si ruleaza regex-uri pe fiecare
+// nume. La ~8000 de produse asta insemna ~10s per cerere, iar /api/brands si
+// /api/brands/:brand o apelau amandoua. Marcile se schimba rar, deci se tine in memorie.
+let brandsCache = { data: null, at: 0 };
+const BRANDS_TTL_MS = 10 * 60 * 1000;
+
 class BrandModelExtractor {
   constructor() {
     // Common car brands to look for in product names
@@ -313,6 +319,9 @@ class BrandModelExtractor {
   }
 
   async getAllBrandsWithModels() {
+    if (brandsCache.data && Date.now() - brandsCache.at < BRANDS_TTL_MS) {
+      return brandsCache.data;
+    }
     try {
       // Only get active products
       const products = await Product.find({ status: 'active' }, 'name').lean();
@@ -377,6 +386,7 @@ class BrandModelExtractor {
         }
       }
       
+      brandsCache = { data: result, at: Date.now() };
       return result;
     } catch (error) {
       console.error('Error extracting brands and models:', error);
@@ -416,9 +426,11 @@ class BrandModelExtractor {
         query = { name: { $regex: brandPatterns[0] } };
       }
       
-      // Get all products matching brand variants (only active)
+      // Get all products matching brand variants (only active).
+      // Filtrarea de mai jos are nevoie doar de nume; citirea documentelor intregi
+      // insemna ~950 de produse x ~25 KB la VW si ducea ruta in timeout la 120s.
       query.status = 'active';
-      let products = await Product.find(query).lean();
+      let products = await Product.find(query).select('name').lean();
       
       // Filter by model - use simple base model matching 
       products = products.filter(product => {
@@ -474,7 +486,14 @@ class BrandModelExtractor {
         return false;
       });
       
-      return products;
+      // Abia acum, pe cele cateva produse ramase, se citesc campurile de care are
+      // nevoie cardul din grila.
+      const ids = products.map(p => p._id);
+      return Product.find({ _id: { $in: ids } })
+        .select('name slug price originalPrice discount stock brand category subcategory '
+              + 'featured newProduct onSale averageRating totalReviews shortDescription '
+              + 'sku status images romanianSpecs.features.functii structuredDescription.sections')
+        .lean();
     } catch (error) {
       console.error('Error getting products by brand/model:', error);
       throw error;
