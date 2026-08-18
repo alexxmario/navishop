@@ -3,6 +3,24 @@ const Product = require('../models/Product');
 const auth = require('../middleware/auth');
 const router = express.Router();
 
+// Cardul din grilă folosește doar prima poză, câte sunt în total și primul paragraf al
+// descrierii structurate — restul documentului (toate URL-urile pozelor, descrierea
+// completă, toate secțiunile) înseamnă ~85% din payload și nu se afișează niciodată.
+// Pagina de produs citește pe /:slug, deci primește documentul întreg.
+const trimForList = (p) => {
+  const images = p.images || [];
+  const sd = p.structuredDescription;
+  return {
+    ...p,
+    images: images.slice(0, 1),
+    imageCount: images.length,
+    description: undefined,
+    structuredDescription: sd
+      ? { ...sd, sections: (sd.sections || []).slice(0, 1), originalDescription: undefined }
+      : sd
+  };
+};
+
 router.get('/', async (req, res) => {
   try {
     const {
@@ -185,7 +203,7 @@ router.get('/', async (req, res) => {
     const totalPages = Math.ceil(total / parseInt(limit));
 
     res.json({
-      products,
+      products: products.map(trimForList),
       pagination: {
         currentPage: parseInt(page),
         totalPages,

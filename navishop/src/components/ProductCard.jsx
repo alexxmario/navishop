@@ -175,7 +175,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
           <div className="flex-shrink-0 w-28 h-28 sm:w-48 sm:h-48 relative overflow-hidden rounded-lg bg-gray-50">
             <ZoomImage
               src={getProductImage(product.images?.[0])}
-              imageCount={product.images?.length}
+              imageCount={product.imageCount ?? product.images?.length}
               alt={product.images?.[0]?.alt || product.name}
               className="w-full h-full rounded-lg"
               onError={handleImageError}
@@ -266,7 +266,7 @@ const ProductCard = ({ product, viewMode = 'grid', className = '' }) => {
         <div className="mb-3 sm:mb-4 relative overflow-hidden rounded-lg bg-gray-50">
           <ZoomImage
             src={getProductImage(product.images?.[0])}
-            imageCount={product.images?.length}
+            imageCount={product.imageCount ?? product.images?.length}
             alt={product.images?.[0]?.alt || product.name}
             className="w-full h-40 sm:h-48 rounded-lg"
             onError={handleImageError}

@@ -459,6 +459,9 @@ productSchema.index({ price: 1 });
 productSchema.index({ featured: 1 });
 productSchema.index({ status: 1 });
 productSchema.index({ crossSellProducts: 1 });
+// Listarea filtrează status: 'active' și sortează implicit după createdAt. Fără indexul
+// compus, Mongo sorta în memorie toată colecția — ~2s pe o pagină de 12 produse.
+productSchema.index({ status: 1, createdAt: -1 });
 
 productSchema.methods.updateAverageRating = function() {
   if (this.reviews.length === 0) {

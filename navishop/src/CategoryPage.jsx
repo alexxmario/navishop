@@ -139,7 +139,7 @@ const CategoryPage = () => {
               {primaryImage ? (
                 <ZoomImage
                   src={primaryImage}
-                  imageCount={product.images?.length}
+                  imageCount={product.imageCount ?? product.images?.length}
                   alt={product.name}
                   className="w-full h-full"
                 />
