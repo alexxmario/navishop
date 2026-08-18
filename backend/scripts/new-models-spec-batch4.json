@@ -1,0 +1,737 @@
+{
+ "src": "/Users/alexmario/Downloads/untitled folder",
+ "families": [
+  {
+   "label": "Mercedes Benz CLK W209 2002-2009 MAHON",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mercedes Benz CLK W209 (2002-2009)",
+   "screen": "9",
+   "folders": {
+    "2k": "BENZ W209 00-05 9INCH MAHON incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "BENZ W209 00-05 9INCH MAHON incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "BENZ W209 00-05 9INCH MAHON incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "BENZ W209 00-05 9INCH MAHON incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Mercedes Benz S CLASS W220 1998-2005 MAHON",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mercedes Benz S CLASS W220 (1998-2005)",
+   "screen": "9",
+   "folders": {
+    "2k": "BENZ W220 98-05  9 inch MAHON incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "BENZ W220 98-05  9 inch MAHON incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "BENZ W220 98-05  9 inch MAHON incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "BENZ W220 98-05  9 inch MAHON incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Mercedes Benz S CLASS W220 1998-2005 BLACK",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mercedes Benz S CLASS W220 (1998-2005)",
+   "screen": "9",
+   "folders": {
+    "2k": "BENZ W220 98-05 9INCH BLACK incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "BENZ W220 98-05 9INCH BLACK incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "BENZ W220 98-05 9INCH BLACK incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "BENZ W220 98-05 9INCH BLACK incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Mercedes Benz Vito 2003-2012",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Mercedes Benz Vito (2003-2012)",
+   "screen": "10",
+   "folders": {
+    "4+64": "BENZ W639 VITO-2 03-15 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "BENZ W639 VITO-2 03-15 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "BENZ W639 VITO-2 03-15 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "BENZ W639 VITO-2 03-15 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Fiat Punto 2010-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Fiat Punto (2010-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "FIAT PUNTO 10-18 9INCH incell tab  2k 9__2000x1200 ms9256 8G+256G",
+    "4+64": "FIAT PUNTO 10-18 9INCH incell tab  9__800x1360 ms94nv 4G+64G",
+    "6+128": "FIAT PUNTO 10-18 9INCH incell tab  9__800x1360 xt596 6G+128G",
+    "2+32": "FIAT PUNTO 10-18 9INCH incell tab  9__800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2004-2011 S AC",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2004-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FACUS-2 S 04-11 9INCH AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FACUS-2 S 04-11 9INCH AC incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FACUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FACUS-2 S 04-11 9INCH AC incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Fiesta 2006-2011",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Fiesta (2006-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FIESTA 06-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FIESTA 06-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FIESTA 06-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FIESTA 06-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2004-2011 B AC",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2004-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FOCUS-2 B 04-11 9INCH AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FOCUS-2 B 04-11 9INCH AC incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FOCUS-2 B 04-11 9INCH AC incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FOCUS-2 B 04-11 9INCH AC incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2004-2011 B CLIMA",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2004-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FOCUS-2 B 04-11 9INCH CLIMA incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FOCUS-2 B 04-11 9INCH CLIMA incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FOCUS-2 B 04-11 9INCH CLIMA incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FOCUS-2 B 04-11 9INCH CLIMA incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2004-2011 S CLIMA",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2004-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FOCUS-2 S 04-11 9INCH CLIMA incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FOCUS-2 S 04-11 9INCH CLIMA incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FOCUS-2 S 04-11 9INCH CLIMA incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FOCUS-2 S 04-11 9INCH CLIMA incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2011-2019 BUTOANE",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2011-2019)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FOCUS-3 CU BUTOANE 12-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FOCUS-3 CU BUTOANE 12-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FOCUS-3 CU BUTOANE 12-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FOCUS-3 CU BUTOANE 12-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2011-2019 RAMA SIMPLA",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2011-2019)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD FOCUS-3 RAMA-SIMPLA 12-15 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD FOCUS-3 RAMA-SIMPLA 12-15 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD FOCUS-3 RAMA-SIMPLA 12-15 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD FOCUS-3 RAMA-SIMPLA 12-15 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 4 dupa 2019",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Ford Focus 4 (dupa 2019)",
+   "screen": "10",
+   "folders": {
+    "4+64": "FORD FOCUS-4 2019+ 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "FORD FOCUS-4 2019+ 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "FORD FOCUS-4 2019+ 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "FORD FOCUS-4 2019+ 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Ford Mondeo 3 2004-2007 CLIMA",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Mondeo 3 (2004-2007)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO 04-07 9INCH CLIMA incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO 04-07 9INCH CLIMA incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO 04-07 9INCH CLIMA incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO 04-07 9INCH CLIMA incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Mondeo 2007-2014 BLACK",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Ford Mondeo (2007-2014)",
+   "screen": "10",
+   "folders": {
+    "4+64": "FORD MONDEO 07-10 10 INCH BLACK incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "FORD MONDEO 07-10 10 INCH BLACK incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "FORD MONDEO 07-10 10 INCH BLACK incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "FORD MONDEO 07-10 10 INCH BLACK incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Ford Mondeo 2007-2014 S",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Ford Mondeo (2007-2014)",
+   "screen": "10",
+   "folders": {
+    "4+64": "FORD MONDEO 10-14 10 INCH S incell tab  10__800x1280 ms14nv 4G+64G",
+    "2+32": "FORD MONDEO 10-14 10 INCH S incell tab  10__800x1280 xt812c 2G+32G",
+    "2k": "FORD MONDEO 10-14 10 INCH S incell tab  2k 10__2000x1200 ms1256 8G+256G",
+    "6+128": "FORD MONDEO 10-14 10 INCH S incell tab 10__800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Ford Mondeo 2007-2014 B",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Ford Mondeo (2007-2014)",
+   "screen": "10",
+   "folders": {
+    "4+64": "FORD MONDEO 10-14 10INCH B incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "FORD MONDEO 10-14 10INCH B incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "FORD MONDEO 10-14 10INCH B incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "FORD MONDEO 10-14 10INCH B incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Ford Mondeo 2007-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Mondeo (2007-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford C-Max 2007-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford C-Max (2007-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford S-Max 2007-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford S-Max (2007-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Focus 2007-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Focus (2007-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Fusion 2007-2011 S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Fusion (2007-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MONDEO C-MAX S-MAX FOCUS 2 FUSION 07-11 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Mustang 2015-2018 HIGH",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Mustang (2015-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD MUSTANG 15-20 9INCH HIGH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD MUSTANG 15-20 9INCH HIGH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD MUSTANG 15-20 9INCH HIGH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD MUSTANG 15-20 9INCH HIGH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Ranger 2008-2012",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Ranger (2008-2012)",
+   "screen": "9",
+   "folders": {
+    "2k": "ford ranger 08-12 9inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "ford ranger 08-12 9inch incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "ford ranger 08-12 9inch incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "ford ranger 08-12 9inch incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford F150 Raptor 2008-2014 LOW",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford F150 Raptor (2008-2014)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD RAPTOR F150 08-14 9INCH LOW incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD RAPTOR F150 08-14 9INCH LOW incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD RAPTOR F150 08-14 9INCH LOW incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD RAPTOR F150 08-14 9INCH LOW incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford S-Max 2001-2008 AC",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford S-Max (2001-2008)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD S-MAX 01-08 9INCH AC incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD S-MAX 01-08 9INCH AC incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD S-MAX 01-08 9INCH AC incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD S-MAX 01-08 9INCH AC incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Ranger F250 2011-2015 SILVER",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Ranger F250 (2011-2015)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD SILVER RANGER F250 11-15 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD SILVER RANGER F250 11-15 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD SILVER RANGER F250 11-15 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD SILVER RANGER F250 11-15 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Ford Tourneo Connect 2013-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Ford Tourneo Connect (2013-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "FORD TRANSIT TOURNEO CONNECT 13-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "FORD TRANSIT TOURNEO CONNECT 13-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "FORD TRANSIT TOURNEO CONNECT 13-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "FORD TRANSIT TOURNEO CONNECT 13-18 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Honda Accord VIII 2008-2012",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Honda Accord VIII (2008-2012)",
+   "screen": "10",
+   "folders": {
+    "4+64": "HONDA ACCORD 8TH 08-13 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "HONDA ACCORD 8TH 08-13 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "HONDA ACCORD 8TH 08-13 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "HONDA ACCORD 8TH 08-13 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Honda Civic VIII Hatchback 2006-2011",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Honda Civic VIII Hatchback (2006-2011)",
+   "screen": "10",
+   "folders": {
+    "4+64": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Kia Sorento 2013-2014 A",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Kia Sorento (2013-2014)",
+   "screen": "9",
+   "folders": {
+    "2k": "KIA SORENTO 13-14 9INCH A incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "KIA SORENTO 13-14 9INCH A incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "KIA SORENTO 13-14 9INCH A incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "KIA SORENTO 13-14 9INCH A incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Mercedes Benz ML W166 2011-2015",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Mercedes Benz ML W166 (2011-2015)",
+   "screen": "9",
+   "folders": {
+    "2k": "ML W166 11-15 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "ML W166 11-15 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "ML W166 11-15 9 inch incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "ML W166 11-15 9 inch incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Opel Combo 2001-2011",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Opel Combo (2001-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Opel Corsa 2001-2011",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Opel Corsa (2001-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Opel Tigra 2001-2011",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Opel Tigra (2001-2011)",
+   "screen": "9",
+   "folders": {
+    "2k": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "OPEL COMBO CORSA TIGRA 01-11 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Peugeot 3008 2009-2016 B",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Peugeot 3008 (2009-2016)",
+   "screen": "9",
+   "folders": {
+    "2k": "PEUGEOT 3008 09-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "PEUGEOT 3008 09-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Renault Clio II 2001-2012",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Renault Clio II (2001-2012)",
+   "screen": "9",
+   "folders": {
+    "2k": "RENAULT CLIO MK2 01-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "RENAULT CLIO MK2 01-12 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Skoda Octavia 2004-2013 BLACK",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Skoda Octavia (2004-2013)",
+   "screen": "10",
+   "folders": {
+    "4+64": "SKODA BLACK OCTAVIA-2 08-13 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "SKODA BLACK OCTAVIA-2 08-13 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "SKODA BLACK OCTAVIA-2 08-13 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "SKODA BLACK OCTAVIA-2 08-13 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Skoda Fabia 2006-2014",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Skoda Fabia (2006-2014)",
+   "screen": "10",
+   "folders": {
+    "4+64": "SKODA FABIA 08-13 10 INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "SKODA FABIA 08-13 10 INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "SKODA FABIA 08-13 10 INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "SKODA FABIA 08-13 10 INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Skoda Octavia 2004-2013 SILVER",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Skoda Octavia (2004-2013)",
+   "screen": "10",
+   "folders": {
+    "4+64": "SKODA SILVER OCTAVIA 2 08-13 10 INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "SKODA SILVER OCTAVIA 2 08-13 10 INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "SKODA SILVER OCTAVIA 2 08-13 10 INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "SKODA SILVER OCTAVIA 2 08-13 10 INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Smart ForTwo 2015-2020 HIGH",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Smart ForTwo (2015-2020)",
+   "screen": "9",
+   "folders": {
+    "2k": "smart fortwo 15-20 high 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "smart fortwo 15-20 high 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "smart fortwo 15-20 high 9 inch incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "smart fortwo 15-20 high 9 inch incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Toyota Land Cruiser 2004-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Toyota Land Cruiser (2004-2008)",
+   "screen": "9",
+   "folders": {
+    "2k": "TOYOTA 300C 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "TOYOTA 300C 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "TOYOTA 300C 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "TOYOTA 300C 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Toyota Corolla 2014-2016",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Toyota Corolla (2014-2016)",
+   "screen": "10",
+   "folders": {
+    "4+64": "Toyota COROLLA 14-16 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "Toyota COROLLA 14-16 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "Toyota COROLLA 14-16 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "Toyota COROLLA 14-16 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Toyota Highlander 2000-2007 MAHON",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Toyota Highlander (2000-2007)",
+   "screen": "9",
+   "folders": {
+    "2k": "TOYOTA HIGHLANDER 00-07 9INCH MAHON incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "TOYOTA HIGHLANDER 00-07 9INCH MAHON incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "TOYOTA HIGHLANDER 00-07 9INCH MAHON incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "TOYOTA HIGHLANDER 00-07 9INCH MAHON incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "Toyota Highlander 2007-2013 HIGH",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Toyota Highlander (2007-2013)",
+   "screen": "10",
+   "folders": {
+    "4+64": "Toyota HIGHLANDER 07-13 10INCH HIGH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "Toyota HIGHLANDER 07-13 10INCH HIGH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "Toyota HIGHLANDER 07-13 10INCH HIGH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "Toyota HIGHLANDER 07-13 10INCH HIGH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Toyota Land Cruiser Prado 2014-2017",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "Toyota Land Cruiser Prado (2014-2017)",
+   "screen": "10",
+   "folders": {
+    "4+64": "TOYOTA PRADO 14-17 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "TOYOTA PRADO 14-17 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "TOYOTA PRADO 14-17 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "TOYOTA PRADO 14-17 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "Universala Toyota",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "Universala Toyota",
+   "screen": "9",
+   "folders": {
+    "2k": "TOYOTA UNIVERSAL 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "TOYOTA UNIVERSAL 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "TOYOTA UNIVERSAL 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "TOYOTA UNIVERSAL 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Amarok 2016-2022",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Amarok (2016-2022)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW AMAROK 16-22 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW AMAROK 16-22 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW AMAROK 16-22 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW AMAROK 16-22 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Passat B5 2000-2005",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Passat B5 (2000-2005)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW B5 00-05  9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW B5 00-05  9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW B5 00-05  9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW B5 00-05  9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Bora 2004-2008",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Bora (2004-2008)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW BORA 04-08 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW BORA 04-08 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW BORA 04-08 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW BORA 04-08 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Caddy 3 2004-2015 AC",
+   "template": "Navigatie PilotOn Renault Master 2010-2020",
+   "categorii": "VW Caddy 3 (2004-2015)",
+   "screen": "10",
+   "folders": {
+    "4+64": "VW CADDY LAUTO AC 05-10 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "2+32": "VW CADDY LAUTO AC 05-10 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "2k": "VW CADDY LAUTO AC 05-10 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "6+128": "VW CADDY LAUTO AC 05-10 10INCH incell tab 10''800x1280 xt516 6G+128G"
+   }
+  },
+  {
+   "label": "VW Passat B5 2004-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Passat B5 (2004-2010)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Golf 2004-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Golf (2004-2010)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Polo 2004-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Polo (2004-2010)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Tiguan 2004-2010",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Tiguan (2004-2010)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW PASSAT B5 GOLF POLO TIGUAN TRANSPORTER 04-10 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Scirocco 2008-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Scirocco (2008-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW SCIROCCO 08-17  9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW SCIROCCO 08-17  9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW SCIROCCO 08-17  9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW SCIROCCO 08-17  9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Scirocco 2008-2018 HIGH",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Scirocco (2008-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW SCIROCCO 09-14 HIGH 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW SCIROCCO 09-14 HIGH 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW SCIROCCO 09-14 HIGH 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW SCIROCCO 09-14 HIGH 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Scirocco 2015-2016",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Scirocco (2015-2016)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW SCIROCCO 15-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW SCIROCCO 15-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW SCIROCCO 15-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW SCIROCCO 15-16 9INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Tiguan 2007-2018",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Tiguan (2007-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW TIGUAN 13-16 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW TIGUAN 13-16 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW TIGUAN 13-16 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW TIGUAN 13-16 9 INCH incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Tiguan 2007-2018 NFL S",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Tiguan (2007-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW TIGUAN NFL 06-12 9 INCH S incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW TIGUAN NFL 06-12 9 INCH S incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW TIGUAN NFL 06-12 9 INCH S incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW TIGUAN NFL 06-12 9 INCH S incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  },
+  {
+   "label": "VW Tiguan 2007-2018 NFL B",
+   "template": "Navigatie PilotOn Renault Clio III 2005-2014",
+   "categorii": "VW Tiguan (2007-2018)",
+   "screen": "9",
+   "folders": {
+    "2k": "VW TIGUAN NFL 06-12 9INCH B incell tab  2k 9''2000x1200 ms9256 8G+256G",
+    "4+64": "VW TIGUAN NFL 06-12 9INCH B incell tab  9''800x1360 ms94nv 4G+64G",
+    "6+128": "VW TIGUAN NFL 06-12 9INCH B incell tab  9''800x1360 xt596 6G+128G",
+    "2+32": "VW TIGUAN NFL 06-12 9INCH B incell tab  9''800x1360 xt892c 2G+32G"
+   }
+  }
+ ]
+}

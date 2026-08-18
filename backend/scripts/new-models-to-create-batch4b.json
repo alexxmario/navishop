@@ -1,0 +1,2284 @@
+{
+ "products": [
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Quad Core",
+     "ram": "2GB",
+     "storage": "32GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "2 GB",
+      "capacitateStocare": "32 GB",
+      "modelProcesor": "RK 3326",
+      "frecventa": "1.5 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV0813102GBQPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conexiune Wi-Fi 2",
+        "4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Quad Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 10 inch 2GB 32GB 4 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-10-inch-2gb-32gb-4-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV0813102GBQPO",
+    "price": 899,
+    "discount": 18,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4002362620519"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10202GBQPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1120,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 10 inch, 2 GB RAM, 32 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 10\" 2+32GB 4C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "2+32"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Quad Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "RK 3326",
+      "frecventa": "1.5 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV0813104GBQPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conexiune Wi-Fi 2",
+        "4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Quad Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 10 inch 4GB 64GB 4 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-10-inch-4gb-64gb-4-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV0813104GBQPO",
+    "price": 1049,
+    "discount": 15,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4009591280972"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GBQPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1315,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 10 inch, 4 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 10\" 4+64GB 4C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "4+64"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "Octa Core",
+      "frecventa": "1.6 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV0813104GBOPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Octa Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 10 inch 4GB 64GB 8 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-10-inch-4gb-64gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV0813104GBOPO",
+    "price": 1449,
+    "discount": 12,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4001866587670"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GBOPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1700,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 10 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 10\" 4+64GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "4+64"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "6GB",
+     "storage": "128GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "6 GB",
+      "capacitateStocare": "128 GB",
+      "modelProcesor": "Octa Core",
+      "frecventa": "1.6 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV0813106GBOPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Octa Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 10 inch 6GB 128GB 8 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-10-inch-6gb-128gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV0813106GBOPO",
+    "price": 1649,
+    "discount": 11,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4007286556265"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10206GBOPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1895,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 10 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 10\" 6+128GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab 10''800x1280 xt516 6G+128G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "6+128"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "technology": "QLED"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "Octa Core 8667 MTK",
+      "frecventa": "2.0 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "2000 x 1200",
+      "tehnologieDisplay": "QLED"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV08134GB2KPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit",
+        "Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 2K 4GB 64GB 8 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-2k-4gb-64gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV08134GB2KPO",
+    "price": 2049,
+    "discount": 8,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4008972499293"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GB2KPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 2380,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 2K 4+64GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "2k"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "8GB",
+     "storage": "256GB"
+    },
+    "displaySpecs": {
+     "technology": "QLED"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "8 GB",
+      "capacitateStocare": "256 GB",
+      "modelProcesor": "Octa Core 8667 MTK",
+      "frecventa": "2.0 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "2000 x 1200",
+      "tehnologieDisplay": "QLED"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDAACCORDV08138GB2KPO",
+      "categorii": "Accord VIII (2008-2013)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit",
+        "Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Accord VIII 2008-2013 2K 8GB 256GB 8 CORE",
+    "slug": "navigatie-piloton-honda-accord-viii-2008-2013-2k-8gb-256gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDAACCORDV08138GB2KPO",
+    "price": 2849,
+    "discount": 6,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4003328773034"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10208GB2KPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 3200,
+    "seoDescription": "Navigație Honda Accord VIII 2008-2013 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Accord VIII 2008-2013 2K 8+256GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA ACCORD 8TH 08-13 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "family": "Honda Accord VIII 2008-2013",
+    "config": "2k"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Quad Core",
+     "ram": "2GB",
+     "storage": "32GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "2 GB",
+      "capacitateStocare": "32 GB",
+      "modelProcesor": "RK 3326",
+      "frecventa": "1.5 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI0511102GBQPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conexiune Wi-Fi 2",
+        "4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Quad Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 10 inch 2GB 32GB 4 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-2gb-32gb-4-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI0511102GBQPO",
+    "price": 899,
+    "discount": 18,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4002362620519"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10202GBQPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1120,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 10 inch, 2 GB RAM, 32 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 10\" 2+32GB 4C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "2+32"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Quad Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "RK 3326",
+      "frecventa": "1.5 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI0511104GBQPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conexiune Wi-Fi 2",
+        "4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Quad Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 10 inch 4GB 64GB 4 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-4gb-64gb-4-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Quad Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conexiune Wi-Fi 2.4G prin Hotspot Oferă acces stabil la internet, cu acoperire bună și performanță echilibrată, ideală pentru utilizarea continuă a funcțiilor online din sistemul multimedia. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI0511104GBQPO",
+    "price": 1049,
+    "discount": 15,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4009591280972"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GBQPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1315,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 10 inch, 4 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 10\" 4+64GB 4C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "4+64"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "Octa Core",
+      "frecventa": "1.6 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI0511104GBOPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Octa Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 10 inch 4GB 64GB 8 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-4gb-64gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI0511104GBOPO",
+    "price": 1449,
+    "discount": 12,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4001866587670"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GBOPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1700,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 10 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 10\" 4+64GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "4+64"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "6GB",
+     "storage": "128GB"
+    },
+    "displaySpecs": {
+     "screenSize": "10 inch",
+     "technology": "INCELL"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "6 GB",
+      "capacitateStocare": "128 GB",
+      "modelProcesor": "Octa Core",
+      "frecventa": "1.6 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "800 x 1280",
+      "tehnologieDisplay": "In-Cell"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI0511106GBOPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat",
+        "Procesor Octa Core",
+        "Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 10 inch 6GB 128GB 8 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-6gb-128gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Teme și Interfețe Preinstalate pe Tabletă Descoperă opțiunile de personalizare din fabrică pentru o tabletă cu un aspect personalizat. Procesor Octa Core Ecran INCELL cu performanță superioară Echipat cu un display INCELL luminos și detaliat, oferă culori vii, claritate excelentă și un răspuns tactil rapid și precis pentru o experiență vizuală de top. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI0511106GBOPO",
+    "price": 1649,
+    "discount": 11,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4007286556265"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10206GBOPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 1895,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 10 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 10\" 6+128GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab 10''800x1280 xt516 6G+128G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "6+128"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "4GB",
+     "storage": "64GB"
+    },
+    "displaySpecs": {
+     "technology": "QLED"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "4 GB",
+      "capacitateStocare": "64 GB",
+      "modelProcesor": "Octa Core 8667 MTK",
+      "frecventa": "2.0 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "2000 x 1200",
+      "tehnologieDisplay": "QLED"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI05114GB2KPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit",
+        "Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 2K 4GB 64GB 8 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-2k-4gb-64gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI05114GB2KPO",
+    "price": 2049,
+    "discount": 8,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4008972499293"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10204GB2KPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 2380,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 2K 4+64GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "2k"
+   }
+  },
+  {
+   "doc": {
+    "detailedSpecs": {
+     "processor": "Octa Core",
+     "ram": "8GB",
+     "storage": "256GB"
+    },
+    "displaySpecs": {
+     "technology": "QLED"
+    },
+    "romanianSpecs": {
+     "hardware": {
+      "memorieRAM": "8 GB",
+      "capacitateStocare": "256 GB",
+      "modelProcesor": "Octa Core 8667 MTK",
+      "frecventa": "2.0 Ghz"
+     },
+     "display": {
+      "diagonalaDisplay": "10 Inch",
+      "rezolutieDisplay": "2000 x 1200",
+      "tehnologieDisplay": "QLED"
+     },
+     "connectivity": {
+      "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+      "bluetooth": "DA"
+     },
+     "features": {
+      "functii": "Android Auto, Carplay",
+      "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+      "limbiInterfata": "Peste 60, inclusiv limba romana"
+     },
+     "package": {
+      "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+     },
+     "compatibility": {
+      "destinatPentru": "Autoturism, Autoutilitara",
+      "tipMontare": "In Bord"
+     },
+     "general": {
+      "sku": "HONDACIVICVI05118GB2KPO",
+      "categorii": "Civic VIII Hatchback (2005-2011)",
+      "brand": "PilotOn",
+      "sistemOperare": "Android"
+     }
+    },
+    "structuredDescription": {
+     "sections": [
+      {
+       "title": "🔧 Montaj ușor, tip Plug & Play",
+       "icon": "🔧",
+       "points": [
+        "Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale",
+        "Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto"
+       ]
+      },
+      {
+       "title": "🚗 Integrare Vehicul",
+       "icon": "🚗",
+       "points": [
+        "Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului",
+        "Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări",
+        "Oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție"
+       ]
+      },
+      {
+       "title": "📱 CarPlay & Android Auto Wireless",
+       "icon": "📱",
+       "points": [
+        "Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii",
+        "Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului",
+        "Conectivitate 4G LTE și Wi-Fi 2.4G Hot",
+        "Spot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția Hot",
+        "Spot Wi-Fi 2.4G asigură o experiență online optimizată",
+        "Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu",
+        "Permite ascultarea radiourilor online prin conexiune la internet"
+       ]
+      },
+      {
+       "title": "🎨 Teme și Interfețe Preinstalate pe Tabletă",
+       "icon": "🎨",
+       "points": [
+        "Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit",
+        "Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in"
+       ]
+      },
+      {
+       "title": "📷 Compatibil cu cameră frontală, DVR și cameră de marșarier",
+       "icon": "📷",
+       "points": [
+        "Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi"
+       ]
+      },
+      {
+       "title": "🔊 Sistem audio cu egalizator și Procesor DSP",
+       "icon": "🔊",
+       "points": [
+        "Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii",
+        "Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate"
+       ]
+      },
+      {
+       "title": "🗺️ Sistem de navigație GPS integrat",
+       "icon": "🗺️",
+       "points": [
+        "Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic"
+       ]
+      },
+      {
+       "title": "🎮 Ecran Împărțit si Multitasking",
+       "icon": "🎮",
+       "points": [
+        "Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație"
+       ]
+      },
+      {
+       "title": "⚙️ Senzori de parcare, climatizare și încălzire în scaune",
+       "icon": "⚙️",
+       "points": [
+        "Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții"
+       ]
+      }
+     ],
+     "originalDescription": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele PilotOn!"
+    },
+    "name": "Navigatie PilotOn Honda Civic VIII Hatchback 2005-2011 2K 8GB 256GB 8 CORE",
+    "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-2k-8gb-256gb-8-core",
+    "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+    "category": "navigatii-gps",
+    "brand": "PilotOn",
+    "sku": "HONDACIVICVI05118GB2KPO",
+    "price": 2849,
+    "discount": 6,
+    "stock": 50,
+    "lowStockThreshold": 5,
+    "features": [],
+    "inTheBox": [],
+    "technicalFeatures": [
+     "Plug & Play Installation",
+     "GPS Navigation",
+     "DVR Support"
+    ],
+    "connectivityOptions": [
+     "CarPlay & Android Auto Wireless",
+     "Bluetooth",
+     "Wi-Fi",
+     "4G"
+    ],
+    "warranty": 12,
+    "status": "active",
+    "featured": false,
+    "newProduct": true,
+    "onSale": true,
+    "tags": [],
+    "crossSellProducts": [],
+    "specifications": [
+     {
+      "key": "GTIN",
+      "value": "4003328773034"
+     },
+     {
+      "key": "MPN",
+      "value": "MASTER10208GB2KPO"
+     },
+     {
+      "key": "Product Type",
+      "value": "Master (2010-2024)"
+     }
+    ],
+    "compatibility": [
+     {
+      "brand": "Renault",
+      "model": "Various",
+      "models": [],
+      "yearFrom": 2010,
+      "yearTo": 2020,
+      "years": []
+     }
+    ],
+    "originalPrice": 3200,
+    "seoDescription": "Navigație Honda Civic VIII Hatchback 2005-2011 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+    "seoTitle": "Navigație Honda Civic VIII Hatchback 2005-2011 2K 8+256GB 8C | PilotOn"
+   },
+   "meta": {
+    "folder": "HONDA CIVIC HAC HBACK 05-11 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+    "family": "Honda Civic VIII Hatchback 2005-2011",
+    "config": "2k"
+   }
+  }
+ ]
+}
