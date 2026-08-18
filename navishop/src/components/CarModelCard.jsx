@@ -56,6 +56,7 @@ const FOLDER_OVERRIDES = {
 
 const CarModelCard = ({ brand, modelData, modelKey }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const [imageError, setImageError] = useState(false);
   const [variantIndex, setVariantIndex] = useState(0);
 
@@ -172,6 +173,8 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
     <Link
       to={`/brand/${encodeURIComponent(brand)}/${encodeURIComponent(modelKey)}`}
       className="bg-white border border-gray-100 rounded-xl hover:border-blue-200 hover:shadow-lg transition-all duration-200 group overflow-hidden"
+      onMouseEnter={() => setIsHovered(true)}
+      onFocus={() => setIsHovered(true)}
     >
       <div className="aspect-video bg-white flex items-center justify-center relative overflow-hidden">
         {!imageError ? (
@@ -180,14 +183,21 @@ const CarModelCard = ({ brand, modelData, modelKey }) => {
               src={buildImagePath('normal')}
               alt={`${brand} ${modelData.model}`}
               className="w-full h-full object-contain transition-opacity duration-300 group-hover:opacity-0"
+              loading="lazy"
+              decoding="async"
               onLoad={() => setImageLoaded(true)}
               onError={handleImageError}
             />
-            {imageLoaded && (
+            {/* Imaginea de hover se cere abia la hover: o pagină de brand are până la
+                65 de modele, iar încărcarea ambelor pentru fiecare card însemna ~130
+                de PNG-uri de ~120 KB deodată. */}
+            {imageLoaded && isHovered && (
               <img
                 src={buildImagePath('flash')}
                 alt={`${brand} ${modelData.model} with flash`}
                 className="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                loading="lazy"
+                decoding="async"
                 onError={() => {}}
               />
             )}

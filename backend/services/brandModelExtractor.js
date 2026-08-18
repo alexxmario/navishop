@@ -488,12 +488,23 @@ class BrandModelExtractor {
       
       // Abia acum, pe cele cateva produse ramase, se citesc campurile de care are
       // nevoie cardul din grila.
+      // Aceeasi proiectie ca listarea: cardul are nevoie de o poza si de cate sunt,
+      // nu de toate cele ~28 de URL-uri (erau 90% din raspunsul rutei).
       const ids = products.map(p => p._id);
-      return Product.find({ _id: { $in: ids } })
-        .select('name slug price originalPrice discount stock brand category subcategory '
-              + 'featured newProduct onSale averageRating totalReviews shortDescription '
-              + 'sku status images romanianSpecs.features.functii structuredDescription.sections')
-        .lean();
+      return Product.aggregate([
+        { $match: { _id: { $in: ids } } },
+        { $project: {
+          name: 1, slug: 1, price: 1, originalPrice: 1, discount: 1, stock: 1, brand: 1,
+          category: 1, subcategory: 1, featured: 1, newProduct: 1, onSale: 1, status: 1,
+          sku: 1, averageRating: 1, totalReviews: 1, shortDescription: 1,
+          imageCount: { $size: { $ifNull: ['$images', []] } },
+          images: { $slice: [{ $ifNull: ['$images', []] }, 1] },
+          'romanianSpecs.features.functii': 1,
+          'structuredDescription.sections': {
+            $slice: [{ $ifNull: ['$structuredDescription.sections', []] }, 1]
+          }
+        } }
+      ]);
     } catch (error) {
       console.error('Error getting products by brand/model:', error);
       throw error;
