@@ -1,0 +1,902 @@
+[
+ {
+  "folder": "b200 9 inch incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "b200 9 inch",
+  "config": "2+32",
+  "family": "Mercedes Benz B CLASS W245 2005-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "b200 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "b200 9 inch",
+  "config": "2k",
+  "family": "Mercedes Benz B CLASS W245 2005-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "b200 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "b200 9 inch",
+  "config": "4+64",
+  "family": "Mercedes Benz B CLASS W245 2005-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "b200 9 inch incell tab  9''800x1360 xt596 6G+128G",
+  "model": "b200 9 inch",
+  "config": "6+128",
+  "family": "Mercedes Benz B CLASS W245 2005-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-b-class-w245-2005-2011-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz B CLASS W245 2005-2011 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz ml w164 06-10 9 inch incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "benz ml w164 06-10 9 inch",
+  "config": "2+32",
+  "family": "Mercedes Benz ML W164 2005-2012",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz ml w164 06-10 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "benz ml w164 06-10 9 inch",
+  "config": "2k",
+  "family": "Mercedes Benz ML W164 2005-2012",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz ml w164 06-10 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "benz ml w164 06-10 9 inch",
+  "config": "4+64",
+  "family": "Mercedes Benz ML W164 2005-2012",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz ml w164 06-10 9 inch incell tab  9''800x1360 xt596 6G+128G",
+  "model": "benz ml w164 06-10 9 inch",
+  "config": "6+128",
+  "family": "Mercedes Benz ML W164 2005-2012",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w164-2005-2012-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W164 2005-2012 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ ML320 03-05 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "BENZ ML320 03-05 9INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz ML W163 1997-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ ML320 03-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "BENZ ML320 03-05 9INCH",
+  "config": "2k",
+  "family": "Mercedes Benz ML W163 1997-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ ML320 03-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "BENZ ML320 03-05 9INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz ML W163 1997-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ ML320 03-05 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "BENZ ML320 03-05 9INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz ML W163 1997-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-ml-w163-1997-2005-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz ML W163 1997-2005 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SLK 04-11 9 INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "BENZ SLK 04-11 9 INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz SLK 2004-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SLK 04-11 9 INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "BENZ SLK 04-11 9 INCH",
+  "config": "2k",
+  "family": "Mercedes Benz SLK 2004-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 2K 8GB 256GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-2k-12gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 2K 12GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SLK 04-11 9 INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "BENZ SLK 04-11 9 INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz SLK 2004-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SLK 04-11 9 INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "BENZ SLK 04-11 9 INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz SLK 2004-2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-slk-2004-2011-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz SLK 2004-2011 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz smart fortwo 10-15 9 inch incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "benz smart fortwo 10-15 9 inch",
+  "config": "2+32",
+  "family": "Smart ForTwo dupa 2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz smart fortwo 10-15 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "benz smart fortwo 10-15 9 inch",
+  "config": "2k",
+  "family": "Smart ForTwo dupa 2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz smart fortwo 10-15 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "benz smart fortwo 10-15 9 inch",
+  "config": "4+64",
+  "family": "Smart ForTwo dupa 2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz smart fortwo 10-15 9 inch incell tab  9''800x1360 xt596 6G+128G",
+  "model": "benz smart fortwo 10-15 9 inch",
+  "config": "6+128",
+  "family": "Smart ForTwo dupa 2011",
+  "products": [
+   {
+    "slug": "navigatie-piloton-smart-fortwo-dupa-2011-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Smart ForTwo dupa 2011 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPINTER 06-12 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "BENZ SPINTER 06-12 9INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz Sprinter 2006-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPINTER 06-12 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "BENZ SPINTER 06-12 9INCH",
+  "config": "2k",
+  "family": "Mercedes Benz Sprinter 2006-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPINTER 06-12 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "BENZ SPINTER 06-12 9INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz Sprinter 2006-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPINTER 06-12 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "BENZ SPINTER 06-12 9INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz Sprinter 2006-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2006-2018-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2006-2018 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPRINTER 18+ 10 INCH incell tab  10''800x1280 xt812c 2G+32G",
+  "model": "BENZ SPRINTER 18+ 10 INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz Sprinter 2018-2022",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-10-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 10 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPRINTER 18+ 10 INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+  "model": "BENZ SPRINTER 18+ 10 INCH",
+  "config": "2k",
+  "family": "Mercedes Benz Sprinter 2018-2022",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPRINTER 18+ 10 INCH incell tab  10''800x1280 ms14nv 4G+64G",
+  "model": "BENZ SPRINTER 18+ 10 INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz Sprinter 2018-2022",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-10-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 10 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-10-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 10 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ SPRINTER 18+ 10 INCH incell tab 10''800x1280 xt516 6G+128G",
+  "model": "BENZ SPRINTER 18+ 10 INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz Sprinter 2018-2022",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-sprinter-2018-2022-10-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Sprinter 2018-2022 10 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ VITO-3 14-21 10INCH incell tab  10''800x1280 xt812c 2G+32G",
+  "model": "BENZ VITO-3 14-21 10INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz Vito 3 2012-2021",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-10-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 10 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ VITO-3 14-21 10INCH incell tab  2k 10''2000x1200 ms1256 8G+256G",
+  "model": "BENZ VITO-3 14-21 10INCH",
+  "config": "2k",
+  "family": "Mercedes Benz Vito 3 2012-2021",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ VITO-3 14-21 10INCH incell tab  10''800x1280 ms14nv 4G+64G",
+  "model": "BENZ VITO-3 14-21 10INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz Vito 3 2012-2021",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-10-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 10 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-10-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 10 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ VITO-3 14-21 10INCH incell tab 10''800x1280 xt516 6G+128G",
+  "model": "BENZ VITO-3 14-21 10INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz Vito 3 2012-2021",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-vito-3-2012-2021-10-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz Vito 3 2012-2021 10 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w203 05-09 9 inch incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "benz w203 05-09 9 inch",
+  "config": "2+32",
+  "family": "Mercedes Benz C CLASS W203 2004-2007",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w203 05-09 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "benz w203 05-09 9 inch",
+  "config": "2k",
+  "family": "Mercedes Benz C CLASS W203 2004-2007",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w203 05-09 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "benz w203 05-09 9 inch",
+  "config": "4+64",
+  "family": "Mercedes Benz C CLASS W203 2004-2007",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w203 05-09 9 inch incell tab  9''800x1360 xt596 6G+128G",
+  "model": "benz w203 05-09 9 inch",
+  "config": "6+128",
+  "family": "Mercedes Benz C CLASS W203 2004-2007",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-benz-c-class-w203-2004-2007-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C CLASS W203 2004-2007 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w204 06-11 9 inch incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "benz w204 06-11 9 inch",
+  "config": "2+32",
+  "family": "Mercedes Benz C Class W204 2008-2010",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2008--2010-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w204 06-11 9 inch incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "benz w204 06-11 9 inch",
+  "config": "2k",
+  "family": "Mercedes Benz C Class W204 2008-2010",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2008-2010-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2008-2010-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w204 06-11 9 inch incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "benz w204 06-11 9 inch",
+  "config": "4+64",
+  "family": "Mercedes Benz C Class W204 2008-2010",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2008-2010-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2008-2010-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "benz w204 06-11 9 inch incell tab  9''800x1360 xt596 6G+128G",
+  "model": "benz w204 06-11 9 inch",
+  "config": "6+128",
+  "family": "Mercedes Benz C Class W204 2008-2010",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-c-klass-w204-2007-2014-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz C Class W204 2008-2010 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ W211 02-10 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "BENZ W211 02-10 9INCH",
+  "config": "2+32",
+  "family": "Mercedes Benz E CLASS W211 2002-2009",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ W211 02-10 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "BENZ W211 02-10 9INCH",
+  "config": "2k",
+  "family": "Mercedes Benz E CLASS W211 2002-2009",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ W211 02-10 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "BENZ W211 02-10 9INCH",
+  "config": "4+64",
+  "family": "Mercedes Benz E CLASS W211 2002-2009",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "BENZ W211 02-10 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "BENZ W211 02-10 9INCH",
+  "config": "6+128",
+  "family": "Mercedes Benz E CLASS W211 2002-2009",
+  "products": [
+   {
+    "slug": "navigatie-piloton-mercedes-e-class-w211-2002-2009-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Mercedes Benz E CLASS W211 2002-2009 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FOCUS 98-05 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "FORD FOCUS 98-05 9INCH",
+  "config": "2+32",
+  "family": "Ford Focus 1 1998-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FOCUS 98-05 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "FORD FOCUS 98-05 9INCH",
+  "config": "2k",
+  "family": "Ford Focus 1 1998-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FOCUS 98-05 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "FORD FOCUS 98-05 9INCH",
+  "config": "4+64",
+  "family": "Ford Focus 1 1998-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FOCUS 98-05 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "FORD FOCUS 98-05 9INCH",
+  "config": "6+128",
+  "family": "Ford Focus 1 1998-2005",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-focus-1-1998-2005-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Ford Focus 1 1998-2005 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FIESTA MK7 09-11 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "FORD FIESTA MK7 09-11 9INCH",
+  "config": "2+32",
+  "family": "Ford Fiesta 2009-2017",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FIESTA MK7 09-11 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "FORD FIESTA MK7 09-11 9INCH",
+  "config": "2k",
+  "family": "Ford Fiesta 2009-2017",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FIESTA MK7 09-11 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "FORD FIESTA MK7 09-11 9INCH",
+  "config": "4+64",
+  "family": "Ford Fiesta 2009-2017",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD FIESTA MK7 09-11 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "FORD FIESTA MK7 09-11 9INCH",
+  "config": "6+128",
+  "family": "Ford Fiesta 2009-2017",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-fiesta-vi-2009-2017-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Ford Fiesta 2009-2017 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD KUGA-2 13-16 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "FORD KUGA-2 13-16 9INCH",
+  "config": "2+32",
+  "family": "Ford Kuga 2 2013-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-2gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-2gb-32gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "FORD KUGA-2 13-16 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "FORD KUGA-2 13-16 9INCH",
+  "config": "2k",
+  "family": "Ford Kuga 2 2013-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 8GB 256GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-qled-4gb-64gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-qled-8gb-256gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-12gb-256gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "FORD KUGA-2 13-16 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "FORD KUGA-2 13-16 9INCH",
+  "config": "4+64",
+  "family": "Ford Kuga 2 2013-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-4gb-64gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "FORD KUGA-2 13-16 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "FORD KUGA-2 13-16 9INCH",
+  "config": "6+128",
+  "family": "Ford Kuga 2 2013-2018",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-kuga-ii-2013-2018-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-8gb-128gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G"
+   },
+   {
+    "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-6gb-128gb-8-core-4g",
+    "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G"
+   }
+  ]
+ },
+ {
+  "folder": "FORD TRANSIT 15-18 9INCH incell tab  9''800x1360 xt892c 2G+32G",
+  "model": "FORD TRANSIT 15-18 9INCH",
+  "config": "2+32",
+  "family": "Ford Transit 2014-2020",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 2GB 32GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-9-inch-2gb-32gb-4-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 2GB 32GB 4 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD TRANSIT 15-18 9INCH incell tab  2k 9''2000x1200 ms9256 8G+256G",
+  "model": "FORD TRANSIT 15-18 9INCH",
+  "config": "2k",
+  "family": "Ford Transit 2014-2020",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 2K 8GB 256GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-2k-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 2K 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-2k-8gb-256gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 2K 8GB 256GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD TRANSIT 15-18 9INCH incell tab  9''800x1360 ms94nv 4G+64G",
+  "model": "FORD TRANSIT 15-18 9INCH",
+  "config": "4+64",
+  "family": "Ford Transit 2014-2020",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 4GB 64GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-9-inch-4gb-64gb-4-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 4GB 64GB 4 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-9-inch-4gb-64gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 4GB 64GB 8 CORE"
+   }
+  ]
+ },
+ {
+  "folder": "FORD TRANSIT 15-18 9INCH incell tab  9''800x1360 xt596 6G+128G",
+  "model": "FORD TRANSIT 15-18 9INCH",
+  "config": "6+128",
+  "family": "Ford Transit 2014-2020",
+  "products": [
+   {
+    "slug": "navigatie-piloton-ford-transit-2014-2020-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 6GB 128GB 8 CORE"
+   },
+   {
+    "slug": "navigatie-piloton-ford-transit-2012-2020-9-inch-6gb-128gb-8-core",
+    "name": "Navigatie PilotOn Ford Transit 2014-2020 9 inch 6GB 128GB 8 CORE"
+   }
+  ]
+ }
+]
