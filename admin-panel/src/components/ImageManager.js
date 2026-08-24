@@ -41,7 +41,7 @@ const getImageSource = (image) => {
   return resolveImageUrl(image.url || image.relativeUrl);
 };
 
-const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
+const ImageManager = ({ images = [], onChange, maxImages = 60 }) => {
   const [uploading, setUploading] = useState(false);
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState(null);
@@ -53,6 +53,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
   const [searchResults, setSearchResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
+  const [copyingId, setCopyingId] = useState(null);
 
   // Delete all images confirmation
   const [deleteAllDialogOpen, setDeleteAllDialogOpen] = useState(false);
@@ -95,9 +96,10 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
 
       if (response.ok) {
         const data = await response.json();
-        // Only show products that have images
+        // Only show products that have images. The list endpoint returns just the
+        // primary image, so the real count lives in imageCount.
         const productsWithImages = data.products.filter(
-          product => product.images && product.images.length > 0
+          product => (product.imageCount ?? product.images?.length ?? 0) > 0
         );
         setSearchResults(productsWithImages);
         setHasSearched(true);
@@ -127,14 +129,32 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
     setDeleteAllDialogOpen(false);
   };
 
-  const handleCopyImages = (product) => {
-    if (!product.images || product.images.length === 0) {
+  const handleCopyImages = async (product) => {
+    // The search hits come from the product list, which ships only the primary
+    // image — the whole set has to be read from the product itself.
+    setError('');
+    setCopyingId(product._id);
+    let sourceImages = [];
+    try {
+      const response = await fetch(buildApiUrl(`products/id/${product._id}`));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      sourceImages = (data.product || data).images || [];
+    } catch (err) {
+      console.error('Failed to load source product images:', err);
+      setError('Nu am putut încărca imaginile produsului selectat');
+      setCopyingId(null);
+      return;
+    }
+
+    if (sourceImages.length === 0) {
       setError('Produsul selectat nu are imagini');
+      setCopyingId(null);
       return;
     }
 
     // Copy images array, resetting isPrimary based on position
-    const copiedImages = product.images.map((img, index) => ({
+    const copiedImages = sourceImages.map((img, index) => ({
       url: img.url,
       relativeUrl: img.relativeUrl || img.url,
       alt: img.alt || product.name,
@@ -147,10 +167,12 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
     // Check max limit
     if (newImages.length > maxImages) {
       setError(`Prea multe imagini. Maxim ${maxImages} imagini permise. Aveți ${images.length}, încercați să copiați ${copiedImages.length}.`);
+      setCopyingId(null);
       return;
     }
 
     onChange(newImages);
+    setCopyingId(null);
     setCopyDialogOpen(false);
     setSearchQuery('');
     setSearchResults([]);
@@ -689,7 +711,7 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
                           secondary={
                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 0.5 }}>
                               <Chip
-                                label={`${product.images?.length || 0} imagini`}
+                                label={`${product.imageCount ?? product.images?.length ?? 0} imagini`}
                                 size="small"
                                 color="primary"
                                 variant="outlined"
@@ -706,8 +728,9 @@ const ImageManager = ({ images = [], onChange, maxImages = 30 }) => {
                             size="small"
                             startIcon={<ContentCopy />}
                             onClick={() => handleCopyImages(product)}
+                            disabled={copyingId !== null}
                           >
-                            Copiază
+                            {copyingId === product._id ? 'Se copiază…' : 'Copiază'}
                           </Button>
                         </ListItemSecondaryAction>
                       </ListItem>
