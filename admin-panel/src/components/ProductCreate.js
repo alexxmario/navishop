@@ -162,7 +162,7 @@ const ProductCreateForm = () => {
     <TabbedForm>
       {/* Tab 1: Images */}
       <FormTab label="Imagini">
-        <ImageField source="images" maxImages={30} />
+        <ImageField source="images" />
       </FormTab>
 
       {/* Tab 2: Pricing & Stock */}
