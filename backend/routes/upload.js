@@ -3,6 +3,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const auth = require('../middleware/auth');
+const Product = require('../models/Product');
 const router = express.Router();
 
 const parseAllowedOrigins = () => {
@@ -151,16 +152,33 @@ router.post('/images', auth, upload.array('images', 30), (req, res) => {
 });
 
 // Delete image
-router.delete('/image/:filename', auth, (req, res) => {
+router.delete('/image/:filename', auth, async (req, res) => {
   try {
     const filename = req.params.filename;
-    const filePath = path.join(uploadDir, filename);
+    // path.basename keeps a crafted filename from walking out of the upload dir
+    const safeName = path.basename(filename);
+    const filePath = path.join(uploadDir, safeName);
 
     // Check if file exists locally
     if (!fs.existsSync(filePath)) {
       // File doesn't exist locally - it might be an external CDN image
       // Return success so the image reference can still be removed from the product
       return res.json({ message: 'Image reference removed', external: true });
+    }
+
+    // Image files are shared between products: "copy images from another product"
+    // in the admin panel, and the bulk scripts, point many products at the same
+    // file — 6.000+ of them do. Unlinking it because one product dropped the
+    // reference would blank the image everywhere else it is used, so the file only
+    // goes when nothing points at it any more.
+    const pattern = new RegExp(`/${safeName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`);
+    const stillUsed = await Product.countDocuments({ 'images.url': pattern });
+    if (stillUsed > 0) {
+      return res.json({
+        message: 'Image reference removed',
+        kept: true,
+        usedBy: stillUsed
+      });
     }
 
     // Delete the local file
