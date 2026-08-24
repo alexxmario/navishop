@@ -15,3 +15,7 @@ dist/
 backend/scripts/drive-cache/
 backend/scripts/products-live-cache.json
 backend/scripts/price-check-products-cache.json
+
+# unelte locale de agent (settings.json contine credentiale de productie)
+.claude/
+.agents/

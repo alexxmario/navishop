@@ -41,6 +41,9 @@ def http(url, data=None, headers=None, method=None, timeout=90, retries=4):
 
 
 def config_key(name):
+    """Cheia include diagonala: un set de 9 inch nu are ce cauta pe un produs de
+    10 inch. Exceptie fac produsele 2K — furnizorul da un singur set 2K pe model,
+    indiferent de RAM sau de diagonala."""
     if re.search(r'\b2K\b', name):
         return '2k'
     m = re.search(r'(\d+)GB\s+(\d+)GB', name, re.I)
@@ -48,12 +51,28 @@ def config_key(name):
         return None
     ram, sto = int(m.group(1)), int(m.group(2))
     if sto == 32 or (ram == 2 and sto == 64):
-        return '2+32'
-    if ram == 4 and sto == 64:
-        return '4+64'
-    if sto == 128:
-        return '6+128'
-    return None
+        ramsto = '2+32'
+    elif ram == 4 and sto == 64:
+        ramsto = '4+64'
+    elif sto == 128:
+        ramsto = '6+128'
+    elif ram == 8 and sto == 256:
+        ramsto = '8+256'
+    else:
+        return None
+    d = re.search(r'(\d+(?:\.\d+)?)\s*inch', name, re.I)
+    return f"{d.group(1) if d else '?'}/{ramsto}"
+
+
+def n_images(p):
+    """/api/products proiecteaza doar poza principala, deci lungimea listei nu mai
+       spune cate poze are produsul — numarul real vine din imageCount."""
+    return p.get('imageCount', len(p.get('images') or []))
+
+
+def full_images(pid):
+    d = json.loads(http(f'{API}/api/products/id/{pid}'))
+    return (d.get('product', d)).get('images') or []
 
 
 def fetch_all():
@@ -108,23 +127,27 @@ def main():
         src_by_cfg = {}
         for p in src:
             c = config_key(p['name'])
-            if c and len(p.get('images') or []) >= MIN_SOURCE_IMAGES:
+            if c and n_images(p) >= MIN_SOURCE_IMAGES:
                 # pastreaza sursa cu cele mai multe poze pentru configul respectiv
-                if c not in src_by_cfg or len(p['images']) > len(src_by_cfg[c]['images']):
+                if c not in src_by_cfg or n_images(p) > n_images(src_by_cfg[c]):
                     src_by_cfg[c] = p
+        src_images = {}
         for p in dst:
-            if len(p.get('images') or []) >= MIN_SOURCE_IMAGES:
+            if n_images(p) >= MIN_SOURCE_IMAGES:
                 continue
             c = config_key(p['name'])
             s = src_by_cfg.get(c)
             if not s:
                 notes.append(f"{p['name']}: fara sursa pentru configul {c}")
                 continue
+            if s['_id'] not in src_images:
+                src_images[s['_id']] = full_images(s['_id'])
+            imgs = src_images[s['_id']]
             plan.append({'slug': p['slug'], 'id': p['_id'], 'name': p['name'],
-                         'was': len(p.get('images') or []),
-                         'from': s['name'], 'n': len(s['images']),
+                         'was': n_images(p),
+                         'from': s['name'], 'n': len(imgs),
                          'images': [{'url': im['url'], 'alt': p['name'], 'isPrimary': i == 0}
-                                    for i, im in enumerate(s['images'])]})
+                                    for i, im in enumerate(imgs)]})
 
     print(f'{len(plan)} produse de completat')
     for x in plan:
