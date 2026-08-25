@@ -119,6 +119,12 @@ const HomePage = () => {
     { id: 'alfa-romeo', name: 'Alfa Romeo' },
     { id: 'isuzu', name: 'Isuzu' },
     { id: 'iveco', name: 'Iveco' },
+    { id: 'porsche', name: 'Porsche' },
+    { id: 'smart', name: 'Smart' },
+    { id: 'mini', name: 'Mini' },
+    { id: 'land rover', name: 'Land Rover' },
+    { id: 'lexus', name: 'Lexus' },
+    { id: 'lancia', name: 'Lancia' },
     { id: 'dodge', name: 'Dodge' },
     { id: 'chrysler', name: 'Chrysler' },
     { id: 'ssangyong', name: 'SsangYong' },
@@ -158,7 +164,13 @@ const HomePage = () => {
     dodge: ['Caliber', 'Durango', 'Journey', 'RAM'],
     chrysler: ['300C'],
     ssangyong: ['Tivoli'],
-    rover: ['75']
+    rover: ['75'],
+    porsche: ['Cayenne', 'Macan', 'Panamera'],
+    smart: ['ForFour', 'ForTwo'],
+    mini: ['Cooper'],
+    'land rover': ['Freelander', 'Range Rover Evoque', 'Range Rover Sport L494', 'Range Rover Vogue L405'],
+    lexus: ['IS', 'RX'],
+    lancia: ['Ypsilon']
   };
 
   const years = Array.from({ length: 20 }, (_, i) => 2024 - i);
@@ -204,6 +216,8 @@ const HomePage = () => {
     { name: 'Smart', logo: '/logos/smart.png' },
     { name: 'Land Rover', logo: '/logos/land-rover.png' },
     { name: 'Mini', logo: '/logos/mini.png' },
+    { name: 'Lexus', logo: '/logos/lexus.png' },
+    { name: 'Lancia', logo: '/logos/lancia.png' },
     { name: 'Dodge', logo: '/logos/dodge.png' },
     { name: 'Chrysler', logo: '/logos/chrysler.png' },
     { name: 'SsangYong', logo: '/logos/ssangyong.png' },
