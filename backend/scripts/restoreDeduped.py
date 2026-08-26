@@ -63,6 +63,19 @@ def cfg_from_slug(slug, name):
     return name[:m.start()] + want + name[m.end():]
 
 
+CFG = re.compile(r'\s+(?:2K(?:\s+QLED)?(?:\s+(?:9|10)\s+Inch)?'
+                 r'|(?:7|8|9|10|9\.7|8\.8|10\.25|12\.9)\s*(?:inch|Inch)(?:\s+QLED)?)\s')
+
+
+def base_of(name):
+    """bucata dintre "Navigatie PilotOn " si configuratie — partea care apare in SEO"""
+    if not name.startswith(PREFIX):
+        return None
+    rest = name[len(PREFIX):]
+    m = CFG.search(rest)
+    return rest[:m.start()] if m else None
+
+
 def original_names():
     """id -> numele dinainte de redenumiri, din primul rand de log al produsului"""
     out = {}
@@ -80,15 +93,26 @@ def main():
     ap.add_argument('--base', help='baza sub care au fost inghesuite')
     ap.add_argument('--new-base', help='baza noua, distincta')
     ap.add_argument('--ids', help='fisier JSON cu id-uri; fiecare isi recapata numele dinainte')
+    ap.add_argument('--predupe', help='fisier JSON cu id-uri; numele revine la cel dinaintea '
+                                      'dezactivarii (ani corectati + scrierea CORE care le separa)')
     ap.add_argument('--plan', action='store_true')
     ap.add_argument('--run', action='store_true')
     args = ap.parse_args()
     if not (args.plan or args.run):
         sys.exit('alege --plan sau --run')
-    if not args.ids and not (args.base and args.new_base):
-        sys.exit('da fie --ids, fie --base + --new-base')
+    if not args.ids and not args.predupe and not (args.base and args.new_base):
+        sys.exit('da fie --ids, fie --predupe, fie --base + --new-base')
 
-    if args.ids:
+    if args.predupe:
+        # Anii corectati raman corectati: intervalul din folderul furnizorului e doar
+        # eticheta lui, nu anii modelului. Rama a doua sta sub aceeasi familie, separata
+        # prin scrierea CORE — exact starea dinainte ca dedupe sa o dezactiveze.
+        wanted = set(json.load(open(args.predupe)))
+        todo = [{**x, 'new_name': x['name']}
+                for x in json.load(open(DEDUPE_PLAN)) if x['id'] in wanted]
+        args.base = args.new_base = None
+        print(f'{len(todo)} de readus la numele dinaintea dezactivarii')
+    elif args.ids:
         wanted = set(json.load(open(args.ids)))
         plan = [x for x in json.load(open(DEDUPE_PLAN)) if x['id'] in wanted]
         orig = original_names()
@@ -136,10 +160,11 @@ def main():
             d = json.loads(http(f"{API}/api/products/id/{x['id']}"))
             d = d.get('product', d)
             patch = {'status': 'active', 'name': x['new_name']}
-            if args.base and args.new_base:
+            old_base, new_base = base_of(d.get('name') or ''), base_of(x['new_name'])
+            if old_base and new_base and old_base != new_base:
                 for f in ('seoTitle', 'seoDescription'):
-                    if isinstance(d.get(f), str) and args.base in d[f]:
-                        patch[f] = d[f].replace(args.base, args.new_base)
+                    if isinstance(d.get(f), str) and old_base in d[f]:
+                        patch[f] = d[f].replace(old_base, new_base)
             if d.get('images'):
                 patch['images'] = [{'url': im['url'], 'alt': x['new_name'],
                                     'isPrimary': i == 0} for i, im in enumerate(d['images'])]
