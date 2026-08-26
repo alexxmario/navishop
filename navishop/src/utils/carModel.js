@@ -3,8 +3,13 @@ const CAR_BRANDS = [
   'Ford', 'Opel', 'Dacia', 'Renault', 'Peugeot', 'Citroen', 'Honda',
   'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
   'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
-  'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Infiniti',
-  'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra'
+  'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Iveco', 'Infiniti',
+  'Lexus', 'Acura', 'Genesis', 'Cadillac', 'DS', 'Cupra',
+  // Lista trebuie să rămână aliniată cu carBrands din
+  // backend/services/brandModelExtractor.js, altfel breadcrumb-ul trimite spre o
+  // pagină de marcă pe care backendul nu o construiește. Ca și acolo, 'Rover' stă
+  // după 'Land Rover': se oprește la prima potrivire și i-ar înghiți modelele.
+  'Dodge', 'Chrysler', 'SsangYong', 'Rover'
 ];
 
 const YEAR_PATTERNS = [
@@ -53,7 +58,12 @@ export const extractBrandModelInfo = (productName = '') => {
 
   if (!productName) return result;
 
-  let cleanName = productName.replace(/^Navigatie\s+PilotOn\s+/i, '');
+  // Navigațiile verticale de 9.7" au marcajul "Tip Tesla" între prefix și marcă. Fără
+  // să-l scoatem, numele nu începe cu nicio marcă, extragerea iese goală, iar
+  // breadcrumb-ul rămâne "Acasă > <numele întreg>", fără marcă și fără model.
+  let cleanName = productName
+    .replace(/^Navigatie\s+PilotOn\s+/i, '')
+    .replace(/^Tip\s+Tesla\s+/i, '');
 
   let foundBrand = null;
   for (const brand of CAR_BRANDS) {
