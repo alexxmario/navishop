@@ -65,9 +65,19 @@ def site_images(folder):
     files = [f for f in os.listdir(d) if re.search(r'\.(jpe?g|png|webp)$', f, re.I)]
 
     def order(name):
-        m = re.search(r'_(\d+)\.\w+$', name)
+        base = name.rsplit('.', 1)[0]
+        # seturile 9.7" tip Tesla: pozele generice ale aparatului stau la coada
+        if base.upper().startswith('SP-XT'):
+            m = re.search(r'(\d+)$', base)
+            return (2, int(m.group(1)) if m else 9999, 0)
+        m = re.search(r'_(\d+)(-Edit(?:-(\d+))?)?$', base)
+        if not m:
+            return (3, 9999, 0)
+        if m.group(2):
+            # _001-Edit (aparatul montat in rama, cu logo) apoi _001-Edit-2..7 (capturi ecran)
+            return (0, int(m.group(1)), int(m.group(3) or 0))
         # _00 e prima, apoi _001, _002...; sufixele scurte trec inaintea celor lungi
-        return (len(m.group(1)), int(m.group(1))) if m else (9, 9999)
+        return (1, len(m.group(1)), int(m.group(1)))
     return [os.path.join(d, f) for f in sorted(files, key=order)]
 
 
@@ -125,15 +135,18 @@ def api_product(slug):
 
 
 def main():
+    global STATE_FILE
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--limit', type=int, default=0, help='proceseaza doar N seturi')
     ap.add_argument('--workers', type=int, default=3)
     ap.add_argument('--plan', default=PLAN_FILE)
+    ap.add_argument('--state', default=STATE_FILE, help='fisier de stare separat pentru batch')
     ap.add_argument('--force', action='store_true',
                     help='rescrie si produsele care au deja >=20 imagini (corectii de set)')
     args = ap.parse_args()
 
+    STATE_FILE = args.state
     plan = json.load(open(args.plan))
     state = json.load(open(STATE_FILE)) if os.path.exists(STATE_FILE) else {'folders': {}, 'products': {}}
 

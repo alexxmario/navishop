@@ -1,0 +1,262 @@
+[
+ {
+  "base": "Tip Tesla Ford Mondeo 4 2007-2011 GREY",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD MONDEO 07-10 9.7INCH GRI"
+ },
+ {
+  "base": "Tip Tesla Hyundai Santa Fe CM 2006-2012 SILVER",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAY SANTA FE IX45 06-12 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Hyundai Santa Fe CM 2006-2012 BLACK",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAI SANTA FE IX45 06-12 9.7INCH BLACK"
+ },
+ {
+  "base": "Tip Tesla Mitsubishi Outlander 2008-2011",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "MITSUBISHI OUTLANDER 08-11 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Mitsubishi Pajero 2009-2011",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "MITSUBISHI PAJERO 09-11 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Land Cruiser 200 2007-2015",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA LAND-CRUISER 07-15 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Land Cruiser 200 2014-2016",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA LAND-CRUISER 14-16 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Rav4 2009-2013",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA RAV4 09-13 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Rav4 2013-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA RAW4 13-18 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Camry 2012-2016",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA CAMRY 12-16 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Verso 2004-2009",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA VERSO 04-09 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Fortuner 2005-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA FORTUNER VIGO HILUX 05-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Hilux 2005-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA FORTUNER VIGO HILUX 05-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Toyota Land Cruiser Prado 120 2002-2009",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA PRADO 120 FOR LEXUS GX470 9.7 INCH 02-09"
+ },
+ {
+  "base": "Tip Tesla Lexus GX470 2002-2009",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "TOYOTA PRADO 120 FOR LEXUS GX470 9.7 INCH 02-09"
+ },
+ {
+  "base": "Tip Tesla Honda CRV 2012-2016",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HONDA CR-V 12-16 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Hyundai i30 GT 2011-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAI 130GT 11-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Hyundai Elantra 2011-2013",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAY ELANTRA 11-13 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Hyundai Sonata YF 2010-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAY SANATA-YF 10-18 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Hyundai Santa Fe DM 2013-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "HYUNDAY SANTAFE IX45 13-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Kia Sorento 2004-2008",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "KIA SORENTO 04-08 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Citroen C4 2004-2012",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CITROEN C-TRIOMPHE C4 C-QUATRE 04-12 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Citroen C4 2012-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CITROEN C4 C4L DS5 12-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla DS 5 2012-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CITROEN C4 C4L DS5 12-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Dodge Durango 2014-2020",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "DODGE DURANGO 14-20 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Dodge Ram 2013-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "DODGE RAM 13-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Mustang 2010-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD MUSTANG 10-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Peugeot 3008 2010-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "PEUGEOT 3008 10-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Peugeot 407 2004-2008",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "PEUGEOT 407 04-08 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Chevrolet Captiva 2009-2012",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CHEVROLET CAPTIVA 09-12 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Chevrolet Captiva 2012-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CHEVROLET CAPTIVA 12-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Chevrolet Cruze J300 2008-2012",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CHEVROLET CRUZE J300 08-12 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Nissan Juke 2011-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "NISSAN JUKE 11-18 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Nissan Navara 2016-2022",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "NISSAN NAVARA 16-22 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Nissan X-Trail T32 2013-2017",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "NISSAN X-TRAIL 13-17 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Subaru Outback 2015-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "SUBARU OUTBACK 15-18 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Subaru Impreza 2009-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "SUBARU OUTBARU IMPREZA LEGACY 09-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Subaru Legacy 2009-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "SUBARU OUTBARU IMPREZA LEGACY 09-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Subaru Outback 2009-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "SUBARU OUTBARU IMPREZA LEGACY 09-14 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Ranger 2012-2015",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD RANGER 12-15 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Transit 2021-2023",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD TRANSIT 21-23 9.7INCH P"
+ },
+ {
+  "base": "Tip Tesla Ford Fiesta 2009-2014",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD FIESTA MK7 09-14 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Focus 3 2011-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD FOCUS 3 11-19 9.7 INCH7"
+ },
+ {
+  "base": "Tip Tesla Ford Focus 2 2005-2011",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD FOCUS-2 05-11 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Tourneo Connect 2012-2023",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD FRANZIT TOURNEO CONNECT 12-23 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Ford Transit Connect 2013-2018",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "FORD TRANSIT CONNECT 13-18 9.7INCH"
+ },
+ {
+  "base": "Tip Tesla VW Tiguan 2007-2016",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "VW TIGUAN 07-16 9.7 INCH B"
+ },
+ {
+  "base": "Tip Tesla Opel Zafira C 2010-2016",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "OPEL ZAFIEA-C VAUXHALL 10-16 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Skoda Octavia 3 2013-2019",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "SKODA OCTAVIA 3 9.7"
+ },
+ {
+  "base": "Tip Tesla Cadillac Escalade 2007-2013",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CADILLAC SLS-ESCALADE-SEVILLE 07-13 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Cadillac SLS 2007-2013",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CADILLAC SLS-ESCALADE-SEVILLE 07-13 9.7 INCH"
+ },
+ {
+  "base": "Tip Tesla Cadillac Seville 2007-2013",
+  "template": "Tip Tesla Opel Astra J 2009-2015",
+  "folder": "CADILLAC SLS-ESCALADE-SEVILLE 07-13 9.7 INCH"
+ }
+]

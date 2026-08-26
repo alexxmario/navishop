@@ -15,7 +15,7 @@ class BrandModelExtractor {
       'Nissan', 'Hyundai', 'Kia', 'Mazda', 'Mitsubishi', 'Subaru', 'Volvo',
       'Skoda', 'Seat', 'Fiat', 'Lancia', 'Jeep', 'Chevrolet', 'Land Rover',
       'Jaguar', 'Porsche', 'Mini', 'Smart', 'Suzuki', 'Isuzu', 'Iveco', 'Infiniti',
-      'Lexus', 'Acura', 'Genesis', 'DS', 'Cupra',
+      'Lexus', 'Acura', 'Genesis', 'Cadillac', 'DS', 'Cupra',
       // Lista e parcursă în ordine și se oprește la prima potrivire, așa că 'Rover'
       // trebuie să rămână după 'Land Rover', altfel ar înghiți modelele Land Rover.
       'Dodge', 'Chrysler', 'SsangYong', 'Rover'
@@ -101,10 +101,18 @@ class BrandModelExtractor {
       .trim();
   }
 
+  // "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 ..." -> "Opel Astra J 2009-2015 ..."
+  // Navigatiile verticale de 9.7" au marcajul "Tip Tesla" intre prefix si marca; fara sa-l
+  // scoatem, niciuna dintre ele nu incepe cu o marca si toate ies din sectiunea de marci.
+  stripNamePrefix(productName) {
+    return productName
+      .replace(/^Navigatie\s+PilotOn\s+/i, '')
+      .replace(/^Tip\s+Tesla\s+/i, '');
+  }
+
   extractBrandModelFromName(productName) {
-    // Remove "Navigatie PilotOn" prefix
-    let cleanName = productName.replace(/^Navigatie\s+PilotOn\s+/i, '');
-    
+    let cleanName = this.stripNamePrefix(productName);
+
     // Find the brand
     let foundBrand = null;
     let brandPattern = null;
@@ -267,9 +275,8 @@ class BrandModelExtractor {
 
   extractOriginalModelName(productName) {
     // Extract the original model name as it appears in folder structure
-    // Remove "Navigatie PilotOn" prefix
-    let cleanName = productName.replace(/^Navigatie\s+PilotOn\s+/i, '');
-    
+    let cleanName = this.stripNamePrefix(productName);
+
     // Find and remove the brand
     for (const brand of this.carBrands) {
       const pattern = new RegExp(`^${brand}\\s+`, 'i');
@@ -409,8 +416,9 @@ class BrandModelExtractor {
       }
       
       // Create search patterns for all brand variants
-      const brandPatterns = brandVariants.map(variant => 
-        new RegExp(`Navigatie\\s+PilotOn\\s+${variant}`, 'i')
+      // "Tip Tesla" e optional: navigatiile de 9.7" au marcajul intre prefix si marca
+      const brandPatterns = brandVariants.map(variant =>
+        new RegExp(`Navigatie\\s+PilotOn\\s+(?:Tip\\s+Tesla\\s+)?${variant}`, 'i')
       );
       
       let query = {

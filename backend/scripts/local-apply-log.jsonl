@@ -2567,3 +2567,333 @@
 {"ts": "2026-08-18T13:23:13", "event": "product-updated", "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-2k-4gb-64gb-8-core", "images": 33, "was": 0}
 {"ts": "2026-08-18T13:23:13", "event": "product-updated", "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-4gb-64gb-8-core", "images": 38, "was": 0}
 {"ts": "2026-08-18T13:23:13", "event": "product-updated", "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-2k-8gb-256gb-8-core", "images": 33, "was": 0}
+{"ts": "2026-08-26T19:11:01", "event": "login-ok", "api": "https://api.navi.piloton.ro"}
+{"ts": "2026-08-26T19:11:02", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/FORD MONDEO 10-13 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:02", "event": "uploaded", "folder": "rame 2026-04-01/FORD MODEO MK4 GALAXY 07-10 9.7 S SP-XT5974G R 9.7 inch 4G+64G/full", "n": 34}
+{"ts": "2026-08-26T19:11:02", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/FORD MONDEO MK5 13-19 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 34}
+{"ts": "2026-08-26T19:11:02", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-9-7-inch-6gb-128gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2011-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-9-7-inch-4gb-64gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2011-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-5-2014-2022-9-7-inch-6gb-128gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-9-7-inch-2gb-32gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2011-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:03", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-5-2014-2022-9-7-inch-4gb-64gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:04", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2011-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:04", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-9-7-inch-2gb-64gb-4-core", "images": 34, "was": 7}
+{"ts": "2026-08-26T19:11:04", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-5-2014-2022-9-7-inch-2gb-32gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:04", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-5-2014-2022-9-7-inch-2gb-64gb-4-core", "images": 34, "was": 7}
+{"ts": "2026-08-26T19:11:04", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/HYUNDAI SANTA FE 06-12 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:11:05", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAY TUCSON IX35 10-15 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-ix45-2006-2012-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:05", "event": "uploaded", "folder": "2026-07-17 rame+navigatii/RENAULT MEGANE-4 17-19 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-ix35-2009-2015-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-ix45-2006-2012-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-megane-2016-2022-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-ix35-2009-2015-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:05", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-ix45-2006-2012-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:06", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-megane-2016-2022-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:06", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-ix35-2009-2015-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:06", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-ix45-2006-2012-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 7}
+{"ts": "2026-08-26T19:11:06", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-megane-2016-2022-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 8}
+{"ts": "2026-08-26T19:11:06", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-ix35-2009-2015-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:07", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-megane-2016-2022-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 7}
+{"ts": "2026-08-26T19:11:07", "event": "uploaded", "folder": "2026-07-17 rame+navigatii/RENAULT SCENIC 13-24 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:07", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-scenic-grand-scenic-2016-2023-9-7-inch-6gb-128gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:07", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/JEEP GRAND CHEROKEE 14-17 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:07", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 07-15 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-scenic-grand-scenic-2016-2023-9-7-inch-4gb-64gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-jeep-grand-cherokee-dupa-2014-9-7-inch-6gb-128gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t31-2007-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-scenic-grand-scenic-2016-2023-9-7-inch-2gb-32gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-jeep-grand-cherokee-dupa-2014-9-7-inch-4gb-64gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t31-2007-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-jeep-grand-cherokee-dupa-2014-9-7-inch-2gb-32gb-8-core", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-renault-scenic-grand-scenic-2016-2023-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:08", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t31-2007-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:09", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-jeep-grand-cherokee-dupa-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:09", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t31-2007-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:09", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/KIA SPORTAGE 11-16 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:10", "event": "uploaded", "folder": "rame 2026-03-30/VW GOLF 7 13-18 9.7 INCH B SP-XT5974G R 9.7 inch 4G+64G/full", "n": 34}
+{"ts": "2026-08-26T19:11:10", "event": "uploaded", "folder": "rame 2026-03-31/OPEL ASTRA-J 09-15 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sportage-2010-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-golf-7-2012-2020-9-7-inch-6gb-128gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-astra-j-2009-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sportage-2010-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-astra-j-2009-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-golf-7-2012-2020-9-7-inch-4gb-64gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:10", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sportage-2010-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-golf-7-2012-2020-9-7-inch-2gb-32gb-8-core-4g", "images": 34, "was": 8}
+{"ts": "2026-08-26T19:11:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-astra-j-2009-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sportage-2010-2016-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-golf-7-2012-2020-9-7-inch-2gb-64gb-4-core", "images": 34, "was": 7}
+{"ts": "2026-08-26T19:11:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-astra-j-2009-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:12", "event": "uploaded", "folder": "rame 2026-03-31/OPEL INSIGNIA-1 09-13 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:12", "event": "uploaded", "folder": "rame 2026-04-01/BENZ VITO 14-20 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2009-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mercedes-vito-3-2012-2021-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:12", "event": "uploaded", "folder": "rame 2026-03-31/OPEL INSIGNIA-2 14-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:11:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2009-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mercedes-vito-3-2012-2021-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2013-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 7}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2009-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mercedes-vito-3-2012-2021-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2013-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2009-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mercedes-vito-3-2012-2021-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2013-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:11:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-insignia-2013-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 8}
+{"ts": "2026-08-26T19:17:09", "event": "login-ok", "api": "https://api.navi.piloton.ro"}
+{"ts": "2026-08-26T19:17:10", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/FORD MONDEO 07-10 9.7INCH GRI SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-grey-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:11", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/HYUNDAI SANTA FE IX45 06-12 9.7INCH BLACK SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:11", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAY SANTA FE IX45 06-12 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-grey-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-black-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-silver-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-grey-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:11", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-black-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-silver-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mondeo-4-2007-2011-grey-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-black-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-silver-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-black-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-cm-2006-2012-silver-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:12", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/MITSUBISHI OUTLANDER 08-11 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-outlander-2008-2011-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:13", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/MITSUBISHI PAJERO 09-11 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:13", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/TOYOTA LAND-CRUISER 07-15 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-outlander-2008-2011-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-pajero-2009-2011-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:13", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2007-2015-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-outlander-2008-2011-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-pajero-2009-2011-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2007-2015-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-outlander-2008-2011-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-pajero-2009-2011-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2007-2015-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-mitsubishi-pajero-2009-2011-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:14", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2007-2015-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:15", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/TOYOTA LAND-CRUISER 14-16 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:15", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2014-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:15", "event": "uploaded", "folder": "2026-04-27 rame+navigatii/TOYOTA RAV4 09-13 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:15", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/TOYOTA RAW4 13-18 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:15", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2009-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:15", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2014-2016-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2013-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2009-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2014-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2013-2018-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2009-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-200-2014-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:16", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2013-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:17", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2009-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:17", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/TOYOTA CAMRY 12-16 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:17", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-rav4-2013-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:17", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-camry-2012-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:17", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/TOYOTA VERSO 04-09 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:17", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-camry-2012-2016-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:17", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/TOYOTA FORTUNER VIGO HILUX 05-14 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-verso-2004-2009-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-camry-2012-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-fortuner-2005-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-verso-2004-2009-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-fortuner-2005-2014-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-camry-2012-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:18", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-verso-2004-2009-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-fortuner-2005-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-verso-2004-2009-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/TOYOTA PRADO 120 FOR LEXUS GX470 9.7 INCH 02-09 SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-fortuner-2005-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-prado-120-2002-2009-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-hilux-2005-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:19", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HONDA CR-V 12-16 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 42}
+{"ts": "2026-08-26T19:17:19", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-prado-120-2002-2009-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-hilux-2005-2014-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-honda-crv-2012-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 42, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-prado-120-2002-2009-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-hilux-2005-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-honda-crv-2012-2016-9-7-inch-2gb-64gb-4-core", "images": 42, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-land-cruiser-prado-120-2002-2009-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-toyota-hilux-2005-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-honda-crv-2012-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 42, "was": 0}
+{"ts": "2026-08-26T19:17:20", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-lexus-gx470-2002-2009-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:21", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-lexus-gx470-2002-2009-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:21", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-honda-crv-2012-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 42, "was": 0}
+{"ts": "2026-08-26T19:17:21", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAI 130GT 11-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:21", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-lexus-gx470-2002-2009-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:21", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-i30-gt-2011-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:21", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAY ELANTRA 11-13 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:21", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-lexus-gx470-2002-2009-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:22", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-i30-gt-2011-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:22", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-elantra-2011-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:22", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-i30-gt-2011-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:22", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAY SANATA-YF 10-18 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:22", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-elantra-2011-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:22", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-i30-gt-2011-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-sonata-yf-2010-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-elantra-2011-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-sonata-yf-2010-2018-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-elantra-2011-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/HYUNDAY SANTAFE IX45 13-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-sonata-yf-2010-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:23", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-dm-2013-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "uploaded", "folder": "2026-05-04 rame+navigatii/KIA SORENTO 04-08 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-sonata-yf-2010-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-dm-2013-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sorento-2004-2008-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-dm-2013-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/CITROEN C-TRIOMPHE C4 C-QUATRE 04-12 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sorento-2004-2008-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:24", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-hyundai-santa-fe-dm-2013-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:25", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sorento-2004-2008-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:25", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2004-2012-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:25", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2004-2012-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:25", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-kia-sorento-2004-2008-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:25", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/CITROEN C4 C4L DS5 12-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:25", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2012-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2004-2012-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/DODGE DURANGO 14-20 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2012-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2004-2012-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-durango-2014-2020-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2012-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:26", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-durango-2014-2020-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-citroen-c4-2012-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "uploaded", "folder": "2026-07-22 rame+navigatii/DODGE RAM 13-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-durango-2014-2020-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ds-5-2012-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-ram-2013-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-durango-2014-2020-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ds-5-2012-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:27", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-ram-2013-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ds-5-2012-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/FORD MUSTANG 10-14 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-ram-2013-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ds-5-2012-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mustang-2010-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-dodge-ram-2013-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:28", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mustang-2010-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:29", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mustang-2010-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:29", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/PEUGEOT 3008 10-17 9.7INCH  SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:29", "event": "uploaded", "folder": "2026-05-05 rame+navigatii/PEUGEOT 407 04-08 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:29", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-mustang-2010-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:29", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-3008-2010-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:29", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-407-2004-2008-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:29", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-3008-2010-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "uploaded", "folder": "2026-07-22 rame+navigatii/CHEVROLET CAPTIVA 09-12 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-407-2004-2008-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-3008-2010-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2009-2012-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-407-2004-2008-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-3008-2010-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-peugeot-407-2004-2008-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:30", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2009-2012-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:31", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2009-2012-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:31", "event": "uploaded", "folder": "2026-07-22 rame+navigatii/CHEVROLET CAPTIVA 12-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:31", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2012-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:31", "event": "uploaded", "folder": "2026-07-22 rame+navigatii/CHEVROLET CRUZE J300 08-12 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:31", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2009-2012-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:32", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-cruze-j300-2008-2012-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:32", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2012-2017-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:32", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/NISSAN JUKE 11-18 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:32", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-cruze-j300-2008-2012-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:32", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2012-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-captiva-2012-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-juke-2011-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-cruze-j300-2008-2012-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-chevrolet-cruze-j300-2008-2012-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-juke-2011-2018-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:33", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/NISSAN NAVARA 16-22 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:33", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-juke-2011-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:34", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-navara-2016-2022-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:34", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-juke-2011-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:34", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-navara-2016-2022-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/NISSAN X-TRAIL 13-17 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:35", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/SUBARU OUTBACK 15-18 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-navara-2016-2022-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t32-2013-2017-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2015-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-navara-2016-2022-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2015-2018-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:35", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t32-2013-2017-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:36", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2015-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:36", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t32-2013-2017-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:36", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2015-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:36", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-nissan-x-trail-t32-2013-2017-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:36", "event": "uploaded", "folder": "2026-07-23 rame+navigatii/SUBARU OUTBARU IMPREZA LEGACY 09-14 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:36", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-impreza-2009-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:37", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-impreza-2009-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:37", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/FORD RANGER 12-15 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:37", "event": "uploaded", "folder": "2026-07-28 rame+navigatii/FORD TRANSIT 21-23 9.7INCH P SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:37", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-impreza-2009-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:37", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-ranger-2012-2015-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:37", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-2021-2023-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:37", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-impreza-2009-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-ranger-2012-2015-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-2021-2023-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-legacy-2009-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-ranger-2012-2015-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-2021-2023-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-legacy-2009-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-ranger-2012-2015-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-2021-2023-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:38", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-legacy-2009-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:39", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-legacy-2009-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:39", "event": "uploaded", "folder": "rame 2026-04-01/FORD FOCUS 3 11-19 9.7 INCH7 SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:39", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2009-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:39", "event": "uploaded", "folder": "rame 2026-04-01/FORD FIESTA MK7 09-14 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-3-2011-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2009-2014-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-fiesta-2009-2014-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-3-2011-2018-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2009-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-fiesta-2009-2014-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-fiesta-2009-2014-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:40", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-subaru-outback-2009-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:41", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-3-2011-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:41", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-fiesta-2009-2014-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:41", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-3-2011-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:41", "event": "uploaded", "folder": "rame 2026-04-01/FORD FOCUS-2 05-11 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:42", "event": "uploaded", "folder": "rame 2026-04-01/FORD FRANZIT TOURNEO CONNECT 12-23 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 37}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-2-2005-2011-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "uploaded", "folder": "rame 2026-04-01/FORD TRANSIT CONNECT 13-18 9.7INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-tourneo-connect-2012-2023-9-7-inch-4gb-64gb-8-core-4g", "images": 37, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-2-2005-2011-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-connect-2013-2018-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-tourneo-connect-2012-2023-9-7-inch-2gb-64gb-4-core", "images": 37, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-2-2005-2011-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:42", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-connect-2013-2018-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-tourneo-connect-2012-2023-9-7-inch-6gb-128gb-8-core-4g", "images": 37, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-focus-2-2005-2011-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-connect-2013-2018-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-tourneo-connect-2012-2023-9-7-inch-2gb-32gb-8-core-4g", "images": 37, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-ford-transit-connect-2013-2018-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:43", "event": "uploaded", "folder": "rame 2026-03-30/VW TIGUAN 07-16 9.7 INCH B SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:44", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-tiguan-2007-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:44", "event": "uploaded", "folder": "rame 2026-03-31/OPEL ZAFIEA-C VAUXHALL 10-16 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 36}
+{"ts": "2026-08-26T19:17:44", "event": "uploaded", "folder": "rame 2026-03-31/SKODA OCTAVIA 3 9.7 SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:44", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-tiguan-2007-2016-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:44", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-zafira-c-2010-2016-9-7-inch-4gb-64gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:44", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-skoda-octavia-3-2013-2019-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-tiguan-2007-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-zafira-c-2010-2016-9-7-inch-2gb-64gb-4-core", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-skoda-octavia-3-2013-2019-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-vw-tiguan-2007-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-skoda-octavia-3-2013-2019-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-zafira-c-2010-2016-9-7-inch-6gb-128gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-skoda-octavia-3-2013-2019-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-opel-zafira-c-2010-2016-9-7-inch-2gb-32gb-8-core-4g", "images": 36, "was": 0}
+{"ts": "2026-08-26T19:17:45", "event": "uploaded", "folder": "rame 2026-03-31/CADILLAC SLS-ESCALADE-SEVILLE 07-13 9.7 INCH SP-XT5974G R 9.7 inch 4G+64G/full", "n": 35}
+{"ts": "2026-08-26T19:17:46", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-escalade-2007-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:46", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-escalade-2007-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:47", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-escalade-2007-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:47", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-escalade-2007-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:47", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-sls-2007-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:48", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-sls-2007-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:48", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-sls-2007-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:49", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-sls-2007-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:49", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-seville-2007-2013-9-7-inch-4gb-64gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:49", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-seville-2007-2013-9-7-inch-2gb-64gb-4-core", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:50", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-seville-2007-2013-9-7-inch-6gb-128gb-8-core-4g", "images": 35, "was": 0}
+{"ts": "2026-08-26T19:17:50", "event": "product-updated", "slug": "navigatie-piloton-tip-tesla-cadillac-seville-2007-2013-9-7-inch-2gb-32gb-8-core-4g", "images": 35, "was": 0}

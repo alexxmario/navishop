@@ -141,15 +141,18 @@ def build_plan(products, rules):
 
 
 def main():
+    global STATE_FILE
     ap = argparse.ArgumentParser()
     ap.add_argument('--plan', action='store_true', help='doar scrie planul, nu atinge productia')
     ap.add_argument('--run', action='store_true')
     ap.add_argument('--limit', type=int)
     ap.add_argument('--rules', default=RULES_FILE)
+    ap.add_argument('--state', default=STATE_FILE, help='fisier de stare separat pentru lot')
     args = ap.parse_args()
     if not args.plan and not args.run:
         sys.exit('alege --plan sau --run')
 
+    STATE_FILE = args.state
     rules = json.load(open(args.rules))
     print(f'{len(rules)} reguli; se citeste catalogul...')
     products = fetch_all()
