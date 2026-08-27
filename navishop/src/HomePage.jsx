@@ -221,7 +221,9 @@ const HomePage = () => {
     { name: 'Dodge', logo: '/logos/dodge.png' },
     { name: 'Chrysler', logo: '/logos/chrysler.png' },
     { name: 'SsangYong', logo: '/logos/ssangyong.png' },
-    { name: 'Rover', logo: '/logos/rover.png' }
+    { name: 'Rover', logo: '/logos/rover.png' },
+    { name: 'Cadillac', logo: '/logos/cadillac.png' },
+    { name: 'DS', logo: '/logos/ds.png' }
   ];
 
 
