@@ -76,7 +76,11 @@ class BrandModelExtractor {
       ex => upperName.includes(ex.toUpperCase())
     );
 
-    let result = modelName;
+    // Remove hyphens BEFORE converting Roman numerals. In "HR-V" the hyphen creates a
+    // word boundary, so \bV\b matched and the model came out as "HR-5" (same for FR-V,
+    // CR-V, V-Class). Stripping the hyphen first leaves "HRV", where V is no longer a
+    // separate word. Names without hyphens (Civic VIII, Golf VII) are unaffected.
+    let result = modelName.replace(/([A-Za-z])-([A-Za-z])/g, '$1$2');
 
     if (!hasException) {
       result = result
@@ -95,10 +99,7 @@ class BrandModelExtractor {
         .replace(/\bI\b/gi, '1');     // Must be last
     }
 
-    return result
-      // Remove hyphens from model names (CR-V -> CRV)
-      .replace(/([A-Za-z])-([A-Za-z])/g, '$1$2')
-      .trim();
+    return result.trim();
   }
 
   // "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 ..." -> "Opel Astra J 2009-2015 ..."
