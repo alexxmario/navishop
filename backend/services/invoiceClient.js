@@ -96,8 +96,10 @@ function buildInvoiceClient(orderData, { legacy = false } = {}) {
     saveToDb: false,
   };
 
-  if (address.postalCode) client.postalCode = address.postalCode;
-
+  // No postal code. SmartBill rejects the invoice outright with
+  // "Unrecognized property: client.postalCode" — verified against the live API
+  // on 29 Aug 2026. There is no field for it, so if e-Factura turns out to
+  // need one, it has to reach SmartBill some other way.
   return client;
 }
 

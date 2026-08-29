@@ -204,9 +204,13 @@ async function main() {
   }
 
   console.log('\n' + '-'.repeat(72));
-  console.log('Daca varianta `new` a trecut validarea, productia o poate folosi:');
-  console.log('  adauga SMARTBILL_CLIENT_V2=true in backend/.env, apoi pm2 restart.');
-  console.log('Pana atunci productia trimite in continuare blocul `client` vechi.');
+  console.log('Cum se citeste:');
+  console.log('  - `original` cu 200 => ciornele NU sunt validate pentru e-Factura,');
+  console.log('    deci proba spune doar daca API-ul accepta payload-ul, nu si SPV-ul.');
+  console.log('  - un 400 pe orice varianta este definitiv: acel payload nu poate fi trimis.');
+  console.log('Daca `new` trece, productia il poate folosi: SMARTBILL_CLIENT_V2=true in');
+  console.log('backend/.env, apoi pm2 restart. Pana atunci se trimite blocul vechi.');
+  console.log('Sterge ciornele create in SmartBill.');
 
   await mongoose.disconnect();
 }
