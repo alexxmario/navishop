@@ -28,6 +28,9 @@ const axios = require('axios');
 
 const Order = require('../models/Order');
 const GuestOrder = require('../models/GuestOrder');
+// Registers the schema `items.productId` refs — without it, populate throws
+// MissingSchemaError. The server gets this for free via the routes.
+require('../models/Product');
 const smartbillService = require('../services/smartbillServiceCorrect');
 const { getBillingCompany } = require('../config/billingCompanies');
 const { buildOrderInvoicePayload, buildInvoiceClient } = require('../services/invoiceClient');
