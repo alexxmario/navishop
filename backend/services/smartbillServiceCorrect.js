@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { buildInvoiceClient } = require('./invoiceClient');
 
 class SmartBillService {
   constructor() {
@@ -14,9 +15,9 @@ class SmartBillService {
       throw new Error('SmartBill credentials not configured. Please set SMARTBILL_USERNAME and SMARTBILL_TOKEN in environment variables.');
     }
     
-    // EXACT format: Basic base64(username:token)
+    // EXACT format: Basic base64(username:token). Never log this — base64 is
+    // not encryption, and pm2 keeps out.log around indefinitely.
     const credentials = `${this.username}:${this.token}`;
-    console.log('SmartBill credentials being used:', this.username, this.token.substring(0, 10) + '...');
     return `Basic ${Buffer.from(credentials).toString('base64')}`;
   }
 
@@ -31,8 +32,8 @@ class SmartBillService {
       const invoiceData = this.formatInvoiceDataExact(orderData, company);
       
       console.log('SmartBill invoice data (EXACT FORMAT):', JSON.stringify(invoiceData, null, 2));
-      console.log('SmartBill auth header:', this.getAuthHeader());
-      
+
+
       const response = await axios.post(
         `${this.baseURL}/invoice`,
         invoiceData,
@@ -46,6 +47,13 @@ class SmartBillService {
         }
       );
 
+      // SmartBill runs its own e-Factura validation on the way in and reports
+      // the failures here. We used to discard this, which left "erori pe
+      // e-Factura" visible in their UI and invisible to us — and we have API
+      // credentials, not account access, so the log is the only place we can
+      // read them.
+      console.log('SmartBill invoice response:', JSON.stringify(response.data, null, 2));
+
       return {
         success: true,
         invoiceId: response.data.number,
@@ -55,11 +63,6 @@ class SmartBillService {
     } catch (error) {
       console.error('SmartBill invoice creation failed:', error.response?.data || error.message);
       console.error('Request URL:', `${this.baseURL}/invoice`);
-      console.error('Request headers:', {
-        'Authorization': this.getAuthHeader(),
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      });
       return {
         success: false,
         error: error.response?.data?.message || error.message
@@ -68,24 +71,14 @@ class SmartBillService {
   }
 
   // Format order data using EXACT SmartBill API specification
-  formatInvoiceDataExact(orderData, company = null) {
+  formatInvoiceDataExact(orderData, company = null, { legacyClient = false } = {}) {
     return {
       // REQUIRED: Company VAT code
       companyVatCode: company?.cif || process.env.SMARTBILL_CIF,
       
-      // REQUIRED: Client data
-      client: {
-        name: orderData.guestName, // REQUIRED
-        // Optional fields
-        address: orderData.shippingAddress.street,
-        city: orderData.shippingAddress.city,
-        county: orderData.shippingAddress.county,
-        country: orderData.shippingAddress.country || 'Romania',
-        phone: orderData.guestPhone,
-        email: orderData.guestEmail,
-        isTaxPayer: false,
-        saveToDb: false
-      },
+      // REQUIRED: Client data. See services/invoiceClient.js — the address has
+      // to satisfy e-Factura, which the raw shipping address does not.
+      client: buildInvoiceClient(orderData, { legacy: legacyClient }),
       
       // Invoice data - using defaults from documentation
       issueDate: new Date().toISOString().split('T')[0],
@@ -96,27 +89,52 @@ class SmartBillService {
       dueDate: this.getDueDate(7),
       observations: orderData.notes || `Comanda #${orderData.orderNumber}`,
       
-      
+
       // REQUIRED: Products array
-      products: this.formatProductsExact(orderData.items, orderData.shippingCost)
+      products: this.formatProductsExact(orderData.items, orderData.shippingCost, company)
     };
   }
 
+  // Do NOT try to compute VAT here. SmartBill resolves the rate itself, from
+  // the tax named "TVA Inclus" in the account plus the fiscal status of the
+  // `companyVatCode` we invoice under — so the same payload yields 0% for
+  // PilotOn (neplatitor de TVA) and 21% inclus for Perfect Century (platitor).
+  // Cf. factura PC27251: 899 lei trimisi -> 742,98 baza + 156,02 TVA.
+  // The `taxPercentage: 0` below is therefore ignored; changing taxName is what
+  // would break invoicing.
+  static get VAT_LINE() {
+    return {
+      isTaxIncluded: false,
+      taxName: 'TVA Inclus',
+      taxPercentage: 0
+    };
+  }
+
+  // Accepts either a raw ObjectId or a populated Product document.
+  resolveProductCode(productId) {
+    if (!productId) return 'PROD';
+    const id = productId._id || productId;
+    return String(id) || 'PROD';
+  }
+
   // Format products using EXACT SmartBill API specification
-  formatProductsExact(items, shippingCost = 0) {
+  formatProductsExact(items, shippingCost = 0, company = null) {
+    const vat = SmartBillService.VAT_LINE;
+
     const products = items.map(item => ({
       // REQUIRED fields per documentation
       name: item.name,
-      code: item.productId?.toString() || 'PROD',
+      // The order is fetched with .populate('items.productId'), so productId is
+      // a Product document here, not an ObjectId — .toString() on it yields the
+      // whole inspected document. Take the id off it explicitly.
+      code: this.resolveProductCode(item.productId),
       measuringUnitName: 'buc',
       currency: 'RON',
       quantity: item.quantity,
       price: item.price,
-      
+
       // Optional but recommended fields
-      isTaxIncluded: false,
-      taxName: 'TVA Inclus',
-      taxPercentage: 0,
+      ...vat,
       saveToDb: false,
       isService: false
     }));
@@ -130,9 +148,7 @@ class SmartBillService {
         currency: 'RON',
         quantity: 1,
         price: shippingCost,
-        isTaxIncluded: false,
-        taxName: 'TVA Inclus',
-        taxPercentage: 0,
+        ...vat,
         saveToDb: false,
         isService: true
       });
