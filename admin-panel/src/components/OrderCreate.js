@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Create,
   SimpleForm,
@@ -26,6 +26,53 @@ const paymentChoices = [
   { id: 'smartbill_online', name: 'SmartBill Online' },
   { id: 'smartbill_transfer', name: 'SmartBill Transfer' },
 ];
+
+// The billing company decides the invoice series *and* the VAT on every line
+// (PilotOn is neplătitor de TVA, Perfect Century is plătitor), so it has to be
+// picked explicitly whenever an invoice is generated.
+const useBillingCompanies = (enabled) => {
+  const [companies, setCompanies] = useState([]);
+  const notify = useNotify();
+
+  useEffect(() => {
+    if (!enabled || companies.length) return;
+    const fetchCompanies = async () => {
+      try {
+        const apiUrl = localStorage.getItem('apiUrl') || window.location.origin.replace(':81', '');
+        const token = localStorage.getItem('token');
+        const response = await fetch(`${apiUrl}/api/orders/billing-companies`, {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.message || 'Nu s-au putut încărca companiile');
+        setCompanies(data.companies || []);
+      } catch (error) {
+        notify(`Eroare: ${error.message}`, { type: 'error' });
+      }
+    };
+    fetchCompanies();
+  }, [enabled, companies.length, notify]);
+
+  return companies;
+};
+
+const BillingCompanyInput = () => {
+  const companies = useBillingCompanies(true);
+
+  return (
+    <SelectInput
+      source="company"
+      label="Companie facturare"
+      choices={companies.map((c) => ({
+        id: c.id,
+        name: `${c.name} (CIF ${c.cif} · TVA ${c.vatPercentage}%)`,
+      }))}
+      helperText="Determină seria facturii și cota de TVA de pe factură"
+      fullWidth
+      required
+    />
+  );
+};
 
 const ManualOrderToolbar = ({ saving }) => (
   <Toolbar>
@@ -186,6 +233,9 @@ const OrderCreate = () => {
           <SelectInput source="paymentMethod" label="Metodă de plată" choices={paymentChoices} defaultValue="cash_on_delivery" />
           <NumberInput source="shippingCost" label="Cost livrare (RON)" helperText="Lasă gol pentru calcul automat" />
           <BooleanInput source="generateInvoice" label="Generează factură SmartBill" />
+          <FormDataConsumer>
+            {({ formData }) => (formData.generateInvoice ? <BillingCompanyInput /> : null)}
+          </FormDataConsumer>
           <TextInput source="notes" label="Notițe" multiline fullWidth />
         </Box>
       </SimpleForm>

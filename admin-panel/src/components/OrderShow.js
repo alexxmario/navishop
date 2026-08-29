@@ -61,6 +61,14 @@ const getStatusColor = (status) => {
   }
 };
 
+const PAYMENT_METHOD_LABELS = {
+  cash_on_delivery: 'Ramburs',
+  bank_transfer: 'Transfer bancar',
+  card: 'Card (EuPlătesc)',
+  smartbill_online: 'SmartBill Online',
+  smartbill_transfer: 'SmartBill Transfer',
+};
+
 const getPaymentStatusColor = (status) => {
   switch (status) {
     case 'pending': return 'warning';
@@ -339,7 +347,10 @@ const ProcessCompanyDialog = ({ open, onClose, onSubmit }) => {
         const data = await response.json();
         if (!response.ok) throw new Error(data.message || 'Nu s-au putut încărca companiile');
         setCompanies(data.companies || []);
-        if (data.companies?.length) setSelected(data.companies[0].id);
+        // Deliberately no preselection. The company decides the fiscal
+        // treatment of the invoice — PilotOn is neplătitor de TVA, Perfect
+        // Century is plătitor — so a default would silently issue on whichever
+        // company happens to be first in the list.
       } catch (error) {
         notify(`Eroare: ${error.message}`, { type: 'error' });
       }
@@ -375,11 +386,18 @@ const ProcessCompanyDialog = ({ open, onClose, onSubmit }) => {
           >
             {companies.map((c) => (
               <MenuItem key={c.id} value={c.id}>
-                {c.name} (CIF {c.cif})
+                {c.name} (CIF {c.cif}) — {c.vatPercentage > 0 ? `TVA ${c.vatPercentage}%` : 'neplătitor de TVA'}
               </MenuItem>
             ))}
           </Select>
         </FormControl>
+        {selected && (
+          <Alert severity={companies.find((c) => c.id === selected)?.vatPercentage > 0 ? 'info' : 'warning'} sx={{ mt: 2 }}>
+            {companies.find((c) => c.id === selected)?.vatPercentage > 0
+              ? `Factura va avea TVA ${companies.find((c) => c.id === selected).vatPercentage}%.`
+              : 'Atenție: această firmă este neplătitoare de TVA — factura va ieși fără TVA.'}
+          </Alert>
+        )}
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose} disabled={loading}>Anulează</Button>
@@ -452,6 +470,10 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
     const value = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
     setAwbOptions(prev => ({ ...prev, [field]: value }));
   };
+
+  // Card / online orders that EuPlătesc confirmed are already collected.
+  const isAlreadyPaid = record?.paymentStatus === 'completed'
+    && record?.paymentMethod !== 'cash_on_delivery';
 
   const handleSubmit = async () => {
     setLoading(true);
@@ -595,6 +617,9 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
               </Grid>
             </Grid>
 
+            {/* A ramburs on an already-paid order makes the courier collect the
+                money a second time, so the dangerous direction is a non-zero
+                ramburs — not a zero one. */}
             <MuiTextField
               fullWidth
               label="Valoare ramburs (RON)"
@@ -602,8 +627,20 @@ const AWBOptionsDialog = ({ open, onClose, record, onSubmit }) => {
               inputProps={{ min: 0, step: 0.01 }}
               value={awbOptions.codValue}
               onChange={handleChange('codValue')}
+              error={isAlreadyPaid && Number(awbOptions.codValue) > 0}
+              helperText={
+                isAlreadyPaid
+                  ? `Comandă deja plătită (${PAYMENT_METHOD_LABELS[record?.paymentMethod] || record?.paymentMethod}, încasare confirmată). Rambursul trebuie să rămână 0 — altfel curierul încasează a doua oară.`
+                  : `Metodă de plată pe comandă: ${PAYMENT_METHOD_LABELS[record?.paymentMethod] || record?.paymentMethod || '—'}`
+              }
               sx={{ mb: 2 }}
             />
+            {isAlreadyPaid && Number(awbOptions.codValue) > 0 && (
+              <Alert severity="error" sx={{ mb: 2 }}>
+                Comanda a fost achitată deja, iar AWB-ul pleacă cu ramburs {awbOptions.codValue} RON.
+                Clientul va fi taxat de două ori.
+              </Alert>
+            )}
 
             <MuiTextField
               fullWidth
@@ -1095,7 +1132,7 @@ export const OrderShow = () => (
                   label="Plată"
                   render={record => (
                     <Box>
-                      <Typography variant="body2">{record.paymentMethod?.replace('_', ' ')}</Typography>
+                      <Typography variant="body2">{PAYMENT_METHOD_LABELS[record.paymentMethod] || record.paymentMethod?.replace('_', ' ')}</Typography>
                       <Chip
                         label={record.paymentStatus}
                         color={getPaymentStatusColor(record.paymentStatus)}

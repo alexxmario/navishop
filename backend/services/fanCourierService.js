@@ -181,6 +181,18 @@ class FanCourierService {
    */
   async createAWB(orderData, authToken, awbOptions = {}, account) {
     try {
+      // Pick the first value the admin actually supplied. A plain `||` chain
+      // would discard a deliberate 0 (e.g. "no ramburs on this COD order") and
+      // silently fall back to the order total.
+      const pickNumber = (...values) => {
+        for (const value of values) {
+          if (value === undefined || value === null || value === '') continue;
+          const parsed = Number(value);
+          if (Number.isFinite(parsed)) return parsed;
+        }
+        return 0;
+      };
+
       // Build options array based on awbOptions
       const options = [];
       if (awbOptions.openOnDelivery) options.push('A');  // Deschidere la livrare
@@ -217,18 +229,18 @@ class FanCourierService {
                 parcel: isEnvelope ? 0 : numberOfPackages,
                 envelope: isEnvelope ? numberOfPackages : 0
               },
-              weight: parseFloat(awbOptions.weight) || orderData.weight || 1,
-              cod: parseFloat(awbOptions.codValue) || orderData.cashOnDelivery || 0,
-              declaredValue: parseFloat(awbOptions.declaredValue) || orderData.declaredValue || 0,
+              weight: pickNumber(awbOptions.weight, orderData.weight, 1),
+              cod: pickNumber(awbOptions.codValue, orderData.cashOnDelivery),
+              declaredValue: pickNumber(awbOptions.declaredValue, orderData.declaredValue),
               payment: payment,
               refund: refund,
               returnPayment: 'sender',
               observation: awbOptions.observations || `Comanda: ${orderData.orderNumber}`,
               content: awbOptions.contents || orderData.contents || `Comanda #${orderData.orderNumber}`,
               dimensions: {
-                length: parseInt(awbOptions.length) || orderData.length || 10,
-                height: parseInt(awbOptions.height) || orderData.height || 10,
-                width: parseInt(awbOptions.width) || orderData.width || 10
+                length: pickNumber(awbOptions.length, orderData.length, 10),
+                height: pickNumber(awbOptions.height, orderData.height, 10),
+                width: pickNumber(awbOptions.width, orderData.width, 10)
               },
               costCenter: null,
               options: options
