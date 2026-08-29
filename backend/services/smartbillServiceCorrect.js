@@ -99,7 +99,7 @@ class SmartBillService {
       
 
       // REQUIRED: Products array
-      products: this.formatProductsExact(orderData.items, orderData.shippingCost, company)
+      products: this.formatProductsExact(orderData.items, orderData.shippingCost, company, options)
     };
   }
 
@@ -119,14 +119,18 @@ class SmartBillService {
   }
 
   // Accepts either a raw ObjectId or a populated Product document.
-  resolveProductCode(productId) {
+  // `legacy` reproduces the old `item.productId?.toString()` — on a populated
+  // document that is the whole inspected object. Only the debug script asks
+  // for it, to rebuild a payload that already failed.
+  resolveProductCode(productId, legacy = false) {
     if (!productId) return 'PROD';
+    if (legacy) return String(productId) || 'PROD';
     const id = productId._id || productId;
     return String(id) || 'PROD';
   }
 
   // Format products using EXACT SmartBill API specification
-  formatProductsExact(items, shippingCost = 0, company = null) {
+  formatProductsExact(items, shippingCost = 0, company = null, { legacyProductCode = false } = {}) {
     const vat = SmartBillService.VAT_LINE;
 
     const products = items.map(item => ({
@@ -135,7 +139,7 @@ class SmartBillService {
       // The order is fetched with .populate('items.productId'), so productId is
       // a Product document here, not an ObjectId — .toString() on it yields the
       // whole inspected document. Take the id off it explicitly.
-      code: this.resolveProductCode(item.productId),
+      code: this.resolveProductCode(item.productId, legacyProductCode),
       measuringUnitName: 'buc',
       currency: 'RON',
       quantity: item.quantity,

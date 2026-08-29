@@ -15,7 +15,7 @@
  *       factură, dar se creează în contul real — șterge-le după.
  *
  *   node scripts/debugEfactura.js GO441487048 --probe --only=new
- *       Doar o variantă (legacy | new | minimal).
+ *       Doar o variantă (original | legacy | new | minimal).
  *
  * Ideea probei: aceeași comandă, trimisă în variante care diferă printr-un
  * singur lucru. Varianta care trece validarea spune care câmp era problema —
@@ -113,7 +113,7 @@ async function main() {
   const only = onlyArg ? onlyArg.split('=')[1] : null;
 
   if (!orderNumber) {
-    console.error('Utilizare: node scripts/debugEfactura.js <orderNumber> [--probe] [--only=legacy|new|minimal]');
+    console.error('Utilizare: node scripts/debugEfactura.js <orderNumber> [--probe] [--only=original|legacy|new|minimal]');
     process.exit(1);
   }
 
@@ -157,18 +157,38 @@ async function main() {
   console.log('\nDiferențe vechi -> nou:');
   console.log(diffClients(clients.legacy, clients.new));
 
+  // Four payloads that differ one step at a time.
+  //
+  //   original — byte-for-byte what produced the invoice that SmartBill
+  //              flagged. The control: if this one passes, drafts are not
+  //              being validated and the whole probe proves nothing.
+  //   legacy   — old client block, product code fixed
+  //   new      — client block rebuilt for e-Factura
+  //   minimal  — barest possible client; if even this fails, the address is
+  //              not the problem
+  //
+  // Never let these fall through to the env flag — the point is to test each
+  // variant explicitly, not whatever production happens to be set to.
   const invoices = {
+    original: smartbillService.formatInvoiceDataExact(payload, company, {
+      legacyClient: true,
+      legacyProductCode: true,
+    }),
     legacy: smartbillService.formatInvoiceDataExact(payload, company, { legacyClient: true }),
-    new: smartbillService.formatInvoiceDataExact(payload, company),
+    new: smartbillService.formatInvoiceDataExact(payload, company, { legacyClient: false }),
     minimal: {
-      ...smartbillService.formatInvoiceDataExact(payload, company),
+      ...smartbillService.formatInvoiceDataExact(payload, company, { legacyClient: false }),
       client: clients.minimal,
     },
   };
 
   if (!shouldProbe) {
-    console.log('\nFactura completa care s-ar trimite (varianta nouă):');
+    console.log('\nFactura completa care s-ar trimite (varianta noua):');
     console.log(JSON.stringify(invoices.new, null, 2));
+    console.log('\nLungimea campului `code` pe fiecare varianta:');
+    for (const [label, inv] of Object.entries(invoices)) {
+      console.log(`  ${label}: ${inv.products.map((pr) => String(pr.code).length).join(', ')} caractere`);
+    }
     console.log('\nNu s-a trimis nimic. Adaugă --probe ca să trimiți variantele ca draft.');
     await mongoose.disconnect();
     return;
