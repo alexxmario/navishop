@@ -8,6 +8,13 @@
 // it is whoever owns the account behind clientId. So each company needs its own
 // Fan Courier account for its AWBs to go out under its own name.
 //
+// VAT is deliberately NOT configured here. The two companies have a different
+// fiscal status at ANAF — PilotOn is neplătitor de TVA, Perfect Century is
+// înregistrată în scopuri de TVA (RO26175588) — but SmartBill derives the rate
+// itself from the CIF it invoices under. Sending a rate from our side would
+// only be a chance to get it wrong. `vatPercentage` below is descriptive, for
+// the admin dropdown, and is not sent to SmartBill.
+//
 // Sensible defaults are baked in below; each value can be overridden via env on
 // the server without a code deploy:
 //   PilotOn          -> SMARTBILL_CIF / SMARTBILL_SERIES
@@ -20,6 +27,7 @@ const BILLING_COMPANIES = [
     name: 'PilotOn SRL',
     cif: process.env.SMARTBILL_CIF || '34378664',
     series: process.env.SMARTBILL_SERIES || 'P',
+    vatPercentage: 0, // neplătitor de TVA
     fanCourier: {
       clientId: process.env.FAN_COURIER_CLIENT_ID,
       username: process.env.FAN_COURIER_USERNAME,
@@ -31,6 +39,7 @@ const BILLING_COMPANIES = [
     name: 'Perfect Century SRL',
     cif: process.env.SMARTBILL_CIF_PC || '26175588',
     series: process.env.SMARTBILL_SERIES_PC || 'PC',
+    vatPercentage: 21, // plătitor de TVA, cota standard
     fanCourier: {
       clientId: process.env.FAN_COURIER_CLIENT_ID_PC,
       username: process.env.FAN_COURIER_USERNAME_PC,
@@ -61,10 +70,11 @@ function getFanCourierAccount(companyId) {
 // Safe list for the admin UI dropdown (no internal-only fields). `canShip` lets
 // the UI warn before an order is invoiced under a company that cannot ship.
 function listBillingCompanies() {
-  return BILLING_COMPANIES.map(({ id, name, cif }) => ({
+  return BILLING_COMPANIES.map(({ id, name, cif, vatPercentage }) => ({
     id,
     name,
     cif,
+    vatPercentage,
     canShip: getFanCourierAccount(id) !== null,
   }));
 }

@@ -8,6 +8,7 @@ const smartbillService = require('../services/smartbillServiceCorrect');
 const euplatescService = require('../services/euplatescService');
 const fanCourierService = require('../services/fanCourierService');
 const { getBillingCompany, getFanCourierAccount, listBillingCompanies } = require('../config/billingCompanies');
+const { buildOrderInvoicePayload } = require('../services/invoiceClient');
 const router = express.Router();
 
 // Get user's orders
@@ -416,11 +417,26 @@ router.post('/admin/manual', auth, async (req, res) => {
       paymentMethod,
       notes,
       shippingCost: requestedShippingCost,
-      generateInvoice = false
+      generateInvoice = false,
+      company
     } = req.body;
 
     if (!items || !Array.isArray(items) || items.length === 0) {
       return res.status(400).json({ message: 'Order must contain at least one item' });
+    }
+
+    // The invoice must be issued under an explicitly chosen company — the VAT
+    // lines and the invoice series follow the company, so there is no safe
+    // default to fall back on.
+    let billingCompany = null;
+    if (generateInvoice) {
+      billingCompany = getBillingCompany(company);
+      if (!billingCompany) {
+        return res.status(400).json({ message: 'Selectați compania pentru facturare (parametrul "company" lipsește sau este invalid).' });
+      }
+      if (!billingCompany.series) {
+        return res.status(400).json({ message: `Seria de facturare nu este configurată pentru ${billingCompany.name}. Setați variabila de mediu pe server.` });
+      }
     }
 
     if (!shippingAddress || !shippingAddress.street || !shippingAddress.city || !shippingAddress.county || !shippingAddress.postalCode) {
@@ -531,40 +547,25 @@ router.post('/admin/manual', auth, async (req, res) => {
 
     if (generateInvoice) {
       try {
-        let invoicePayload;
+        // A manually created order has no populated userId, so hand the builder
+        // the user document it needs to name the client.
+        const orderUser = orderType === 'guest' ? null : await User.findById(userId);
+        const invoicePayload = buildOrderInvoicePayload(
+          orderType === 'guest'
+            ? createdOrder
+            : Object.assign(createdOrder.toObject(), { userId: orderUser }),
+          orderType === 'guest'
+        );
 
-        if (orderType === 'guest') {
-          invoicePayload = {
-            orderNumber: createdOrder.orderNumber,
-            guestName,
-            guestEmail: guestEmail.toLowerCase(),
-            guestPhone,
-            items: createdOrder.items,
-            shippingAddress: createdOrder.shippingAddress,
-            billingAddress: createdOrder.billingAddress.sameAsShipping ? createdOrder.shippingAddress : createdOrder.billingAddress,
-            shippingCost: createdOrder.shippingCost,
-            notes: createdOrder.notes
-          };
-        } else {
-          const orderUser = await User.findById(userId);
-          invoicePayload = {
-            orderNumber: createdOrder.orderNumber,
-            guestName: orderUser.name,
-            guestEmail: orderUser.email,
-            guestPhone: orderUser.phone || shippingAddress.phone || '',
-            items: createdOrder.items,
-            shippingAddress: createdOrder.shippingAddress,
-            billingAddress: createdOrder.billingAddress.sameAsShipping ? createdOrder.shippingAddress : createdOrder.billingAddress,
-            shippingCost: createdOrder.shippingCost,
-            notes: createdOrder.notes
-          };
-        }
-
-        const invoiceResult = await smartbillService.createInvoice(invoicePayload);
+        const invoiceResult = await smartbillService.createInvoice(invoicePayload, billingCompany);
         if (invoiceResult.success) {
           createdOrder.invoice = {
             invoiceId: invoiceResult.invoiceId,
             invoiceNumber: invoiceResult.invoiceNumber,
+            companyId: billingCompany.id,
+            companyName: billingCompany.name,
+            companyCif: billingCompany.cif,
+            companySeries: billingCompany.series,
             createdAt: new Date()
           };
           await createdOrder.save();
@@ -767,35 +768,7 @@ router.put('/:orderId/process', auth, async (req, res) => {
 
         // Generate SmartBill invoice - this is now done manually by admin
         try {
-          let orderForInvoice;
-          
-          if (isGuestOrder) {
-            // For guest orders
-            orderForInvoice = {
-              orderNumber: order.orderNumber,
-              guestName: order.guestName,
-              guestEmail: order.guestEmail,
-              guestPhone: order.guestPhone || '',
-              items: order.items,
-              shippingAddress: order.shippingAddress,
-              billingAddress: order.billingAddress.sameAsShipping ? order.shippingAddress : order.billingAddress,
-              shippingCost: order.shippingCost,
-              notes: order.notes
-            };
-          } else {
-            // For authenticated user orders - userId is already populated with name/email
-            orderForInvoice = {
-              orderNumber: order.orderNumber,
-              guestName: order.userId?.name || order.shippingAddress?.name || 'Client',
-              guestEmail: order.userId?.email || '',
-              guestPhone: order.shippingAddress?.phone || '',
-              items: order.items,
-              shippingAddress: order.shippingAddress,
-              billingAddress: order.billingAddress.sameAsShipping ? order.shippingAddress : order.billingAddress,
-              shippingCost: order.shippingCost,
-              notes: order.notes
-            };
-          }
+          const orderForInvoice = buildOrderInvoicePayload(order, isGuestOrder);
 
           const invoiceResult = await smartbillService.createInvoice(orderForInvoice, billingCompany);
 
