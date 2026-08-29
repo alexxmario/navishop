@@ -71,7 +71,15 @@ class SmartBillService {
   }
 
   // Format order data using EXACT SmartBill API specification
-  formatInvoiceDataExact(orderData, company = null, { legacyClient = false } = {}) {
+  // The rebuilt `client` block stays off until a probe run confirms SmartBill
+  // accepts it (scripts/debugEfactura.js --probe). Flip SMARTBILL_CLIENT_V2=true
+  // on the server to enable it — same env-override convention as the billing
+  // companies, so it needs a restart but not a deploy.
+  formatInvoiceDataExact(orderData, company = null, options = {}) {
+    const legacyClient = options.legacyClient !== undefined
+      ? options.legacyClient
+      : process.env.SMARTBILL_CLIENT_V2 !== 'true';
+
     return {
       // REQUIRED: Company VAT code
       companyVatCode: company?.cif || process.env.SMARTBILL_CIF,

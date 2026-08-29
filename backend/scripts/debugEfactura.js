@@ -180,6 +180,11 @@ async function main() {
     await probe(label, invoiceData);
   }
 
+  console.log('\n' + '-'.repeat(72));
+  console.log('Daca varianta `new` a trecut validarea, productia o poate folosi:');
+  console.log('  adauga SMARTBILL_CLIENT_V2=true in backend/.env, apoi pm2 restart.');
+  console.log('Pana atunci productia trimite in continuare blocul `client` vechi.');
+
   await mongoose.disconnect();
 }
 
