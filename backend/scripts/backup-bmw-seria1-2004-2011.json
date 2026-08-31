@@ -1,0 +1,2242 @@
+[
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E87CL2GBQ",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:51:23.751Z"
+  },
+  "_id": "69a04fdb91d4068d8689ad02",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E87CL2GBQ",
+  "price": 795,
+  "originalPrice": 995,
+  "discount": 20,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057555.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a0597091d4068d868a5a48"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057558.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a49"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057561.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a4a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057564.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a4b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057567.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a4c"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057570.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a4d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-1-2004-2011-9-inch-2gb-64gb-4-core~100057573.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a0597091d4068d868a5a4e"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002070396287"
+   },
+   {
+    "key": "MPN",
+    "value": "E87CL2GBQ"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 33,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:51:23.747Z",
+  "updatedAt": "2026-08-28T17:31:32.876Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E87CLIMA8GB",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:51:21.770Z"
+  },
+  "_id": "69a04fd991d4068d8689acea",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E87CLIMA8GB",
+  "price": 2635,
+  "originalPrice": 2835,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057597.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0596e91d4068d868a5a24"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057600.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a25"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057603.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a26"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057606.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a27"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057609.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a28"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057612.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a29"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-1-2004-2011-9-inch-8gb-128gb-8-core-4g~100057615.jpg",
+    "alt": "Navigatie BMW Seria 1 2004-2011 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0596e91d4068d868a5a2a"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002464591533"
+   },
+   {
+    "key": "MPN",
+    "value": "E87CLIMA8GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 42,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:51:21.766Z",
+  "updatedAt": "2026-08-28T17:31:33.104Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 9\" 8+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E87CLIMA2GBO",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:51:24.717Z"
+  },
+  "_id": "69a04fdc91d4068d8689ad0e",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E87CLIMA2GBO",
+  "price": 1220,
+  "originalPrice": 1420,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149576-893342415.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e003a123cd91dc97fb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149573-704134113.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149574-734471677.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149575-48750641.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149577-173707696.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149577-10385250.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fbb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149578-321914612.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fbc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149578-726319302.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fbd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149580-954129949.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fbe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149581-76974317.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fbf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149581-166924453.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149571-951741309.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fb5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149582-795834297.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149582-801166913.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149587-539858645.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149587-888128357.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149588-539700137.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149588-412597180.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149588-142618868.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149589-729651328.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149589-144224969.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fc9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149590-572878724.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149590-527420186.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fcb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149591-143335246.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fcc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537149592-629221441.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fcd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150211-197152460.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150212-489948948.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fcf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150212-40962371.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150212-570607054.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150213-774463340.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150214-561762316.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150214-527888633.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150215-554840628.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150215-947160957.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150216-638725981.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150216-437905447.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150217-739317230.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fd9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537150217-175520764.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc97fda"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4009503143975"
+   },
+   {
+    "key": "MPN",
+    "value": "E87CLIMA2GBO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 13,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:51:24.714Z",
+  "updatedAt": "2026-08-28T17:31:33.277Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E87CLIMA4GB",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:51:25.688Z"
+  },
+  "_id": "69a04fdd91d4068d8689ad1a",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E87CLIMA4GB",
+  "price": 1449,
+  "originalPrice": 1575,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236488-657195389.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e563a123cd91dc983bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236490-315720188.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236491-195479726.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236492-355745581.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236492-796228604.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236493-309117183.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236493-183918318.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236494-801525435.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236495-615279615.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236495-562260255.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236496-73531866.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236486-111475654.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236496-587184315.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236497-100073172.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236497-180916504.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236498-592410281.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236498-237313.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236498-85644902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236499-717393951.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236499-529289621.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236500-982018446.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236500-262575656.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236501-593012117.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236502-308129144.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537236502-430797305.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237079-560905220.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237080-560394205.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237081-321566978.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237081-995384710.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237081-695383325.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237082-629939309.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237083-17727267.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237084-552753110.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237084-780585087.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237085-148918321.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237085-69627874.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237086-214342356.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237086-680954640.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983e0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537237086-880517778.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e563a123cd91dc983e1"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657181444"
+   },
+   {
+    "key": "MPN",
+    "value": "E87CLIMA4GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 51,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:51:25.685Z",
+  "updatedAt": "2026-08-28T17:31:33.453Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E87CLIMA6GB",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:47.485Z"
+  },
+  "_id": "69a0564791d4068d868a19cd",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E87CLIMA6GB",
+  "price": 1649,
+  "originalPrice": 1775,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151280-780745112.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e003a123cd91dc9806a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151281-895365431.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9806b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151282-407011305.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9806c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151282-482702251.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9806d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151283-930034040.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9806e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151283-519227751.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9806f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151284-575008747.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98070"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151284-754227755.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98071"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151285-570246883.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98072"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151286-600520347.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98073"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151286-602689811.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98074"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151287-776114079.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98075"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151287-617518397.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98076"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151288-916808211.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98077"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151288-91875719.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98078"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151289-984490991.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98079"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151289-148933983.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151289-687141235.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151290-74228240.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151290-233873907.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151291-857119316.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151291-367657393.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9807f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151292-589058289.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98080"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151293-22039509.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98081"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152048-364962677.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98082"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152054-177139306.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98083"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152055-646244625.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98084"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152055-862476865.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98085"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152056-673189859.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98086"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152056-535302.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98087"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152057-731522452.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98088"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152057-755620656.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98089"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152058-273355752.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152058-289711929.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152059-580986334.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152059-600540075.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152059-951486110.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152060-604639642.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc9808f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537151279-748968971.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98069"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537152060-540226327.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e003a123cd91dc98090"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4008283640896"
+   },
+   {
+    "key": "MPN",
+    "value": "E87CLIMA6GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:47.482Z",
+  "updatedAt": "2026-08-28T17:31:33.640Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E8804112K12PO",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:24:01.408Z"
+  },
+  "_id": "69a0578191d4068d868a304b",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E8804112K12PO",
+  "price": 3299,
+  "originalPrice": 3955,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201764-238042601.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e323a123cd91dc980c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201765-80290161.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201766-683022562.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201767-832814388.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201768-979184569.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201769-824420093.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201770-847879045.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201771-919269428.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201772-385943212.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201773-779180325.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-673595671.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-429310921.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-658370425.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-458148442.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201776-303675361.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201778-46253824.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201779-928168854.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201780-240992887.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201781-611284411.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201782-275728929.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201784-123600456.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-862166467.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-511006624.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201791-72528160.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202331-800283028.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202332-781980940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202333-903763519.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202334-307071255.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-200750900.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-65218857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202338-352231798.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202339-789519966.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980e8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201762-531092020.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e323a123cd91dc980c8"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657179441"
+   },
+   {
+    "key": "MPN",
+    "value": "E8804112K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 39,
+  "viewCount": 7,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:24:01.403Z",
+  "updatedAt": "2026-08-28T17:31:33.820Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMW104114O",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:04:03.016Z"
+  },
+  "_id": "69a052d391d4068d8689de2d",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMW104114O",
+  "price": 2049,
+  "originalPrice": 2310,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201764-238042601.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e343a123cd91dc981d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201765-80290161.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201766-683022562.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201767-832814388.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201768-979184569.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201769-824420093.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201770-847879045.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201771-919269428.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201772-385943212.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201762-531092020.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201773-779180325.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-673595671.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-429310921.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-658370425.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-458148442.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201776-303675361.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201778-46253824.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201779-928168854.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981e9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201780-240992887.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981ea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201781-611284411.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981eb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201782-275728929.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981ec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201784-123600456.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-862166467.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-511006624.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201791-72528160.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202331-800283028.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202332-781980940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202333-903763519.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202334-307071255.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-200750900.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-65218857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202338-352231798.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202339-789519966.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc981f8"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657179533"
+   },
+   {
+    "key": "MPN",
+    "value": "BMW104114O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 12,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:04:03.011Z",
+  "updatedAt": "2026-08-28T17:31:34.000Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "SERIA104112K8",
+    "categorii": "Seria 1 E81 E87 (2003-2013)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:16.829Z"
+  },
+  "_id": "69a0553891d4068d868a02f6",
+  "name": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-1-2004-2011-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "SERIA104112K8",
+  "price": 2849,
+  "originalPrice": 3220,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201764-238042601.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e9e343a123cd91dc98227"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201765-80290161.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98228"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201766-683022562.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98229"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201767-832814388.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201768-979184569.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201769-824420093.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201770-847879045.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201771-919269428.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201772-385943212.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9822f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201773-779180325.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98230"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-673595671.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98231"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201774-429310921.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98232"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-658370425.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98233"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201775-458148442.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98234"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201776-303675361.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98235"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201778-46253824.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98236"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201779-928168854.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98237"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201780-240992887.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98238"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201781-611284411.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98239"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201782-275728929.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201784-123600456.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-862166467.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201790-511006624.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201791-72528160.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202331-800283028.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc9823f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202332-781980940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98240"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202333-903763519.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98241"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202334-307071255.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98242"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-200750900.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98243"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202337-65218857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98244"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202338-352231798.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98245"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537202339-789519966.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98246"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783537201762-531092020.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 1 2004-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e9e343a123cd91dc98226"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657179496"
+   },
+   {
+    "key": "MPN",
+    "value": "SERIA104112K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 1 E81 E87 (2003-2013)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2004,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 43,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:16.825Z",
+  "updatedAt": "2026-08-28T17:31:34.188Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație BMW Seria 1 2004-2011 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 1 2004-2011 2K 8+256GB 8C | PilotOn"
+ }
+]

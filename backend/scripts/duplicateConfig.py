@@ -30,6 +30,17 @@ RULES = {
     'R3': ('2K 4GB 64GB 8 CORE',       '2K 12GB 256GB 8 CORE',     '12GB', '256GB', 3299),
     'R4': ('10 inch 4GB 64GB 8 CORE',  '10 inch 8GB 256GB 8 CORE', '8GB',  '256GB', 2849),
     'R5': ('9 inch 4GB 64GB 8 CORE',   '9 inch 8GB 256GB 8 CORE',  '8GB',  '256GB', 2849),
+    'R6': ('2K 4GB 64GB 8 CORE',       '2K 8GB 256GB 8 CORE',      '8GB',  '256GB', 2849),
+    # familiile care au si 2K, si 10 inch poarta diagonala in nume ("… 2K 10 Inch 4GB …"),
+    # deci sufixul difera si le trebuie reguli separate
+    'R3b': ('2K 10 Inch 4GB 64GB 8 CORE', '2K 10 Inch 12GB 256GB 8 CORE', '12GB', '256GB', 3299),
+    'R6b': ('2K 10 Inch 4GB 64GB 8 CORE', '2K 10 Inch 8GB 256GB 8 CORE',  '8GB',  '256GB', 2849),
+    'R3c': ('2K 9 Inch 4GB 64GB 8 CORE',  '2K 9 Inch 12GB 256GB 8 CORE',  '12GB', '256GB', 3299),
+    'R6c': ('2K 9 Inch 4GB 64GB 8 CORE',  '2K 9 Inch 8GB 256GB 8 CORE',   '8GB',  '256GB', 2849),
+    # pentru familiile carora le lipseste chiar 6+128; sursa are acelasi procesor (8 CORE),
+    # deci descrierea si sectiunile raman valabile
+    'R7': ('9 inch 4GB 64GB 8 CORE',   '9 inch 6GB 128GB 8 CORE',  '6GB',  '128GB', 1649),
+    'R7b': ('10 inch 4GB 64GB 8 CORE', '10 inch 6GB 128GB 8 CORE', '6GB',  '128GB', 1649),
 }
 DROP = {'_id', '__v', 'reviews', 'createdAt', 'updatedAt', 'viewCount', 'purchaseCount',
         'averageRating', 'totalReviews'}
@@ -81,6 +92,23 @@ def fetch_all(use_cache=False):
     return out
 
 
+def set_sku(doc, sku):
+    """SKU-ul e scris in trei locuri; toate trebuie sa ramana in sincron"""
+    doc['sku'] = sku
+    ro = doc.get('romanianSpecs') or {}
+    if isinstance(ro.get('general'), dict):
+        ro['general']['sku'] = sku
+    if isinstance(ro.get('rawDetails'), dict) and ro['rawDetails'].get('SKU'):
+        ro['rawDetails']['SKU'] = sku
+
+
+def full_doc(p):
+    """/api/products proiecteaza doar cateva campuri (fara romanianSpecs/seo/descrieri),
+       deci clona trebuie construita din documentul intreg, nu din randul de lista."""
+    d = json.loads(http(f"{API}/api/products/id/{p['_id']}"))
+    return d.get('product', d)
+
+
 def ram_num(s):
     m = re.match(r'(\d+)', s)
     return m.group(1) if m else s
@@ -126,6 +154,11 @@ def build(doc, src_cfg, dst_cfg, ram, sto, price, skus):
     ro.pop('scrapedAt', None)
     new['romanianSpecs'] = ro
 
+    # SEO: la o parte din produse campurile seo sunt chiar numele, deci trebuie inlocuita
+    # si configuratia scrisa verbatim, nu doar formele generate mai jos
+    for k in ('seoTitle', 'seoDescription'):
+        if isinstance(new.get(k), str):
+            new[k] = new[k].replace(src_cfg, dst_cfg)
     # SEO: "2K 4+64GB 8C" si "4 GB RAM, 64 GB stocare"
     if isinstance(new.get('seoTitle'), str):
         new['seoTitle'] = new['seoTitle'].replace(
@@ -151,6 +184,8 @@ def main():
     ap.add_argument('--run', action='store_true')
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--cached', action='store_true', help='refoloseste lista locala de produse')
+    ap.add_argument('--family', help='completeaza configuratia doar pentru o familie anume '
+                                     '(prefixul numelui, ex. "Navigatie PilotOn VW Crafter 2006-2016")')
     args = ap.parse_args()
     if not (args.dry_run or args.run):
         sys.exit('Foloseste --dry-run sau --run.')
@@ -163,6 +198,8 @@ def main():
     skus = {p.get('sku') for p in live if p.get('sku')}
     slugs = {p['slug'] for p in live}
     sources = [p for p in live if p['name'].endswith(' ' + src_cfg)]
+    if args.family:
+        sources = [p for p in sources if p['name'].startswith(args.family)]
 
     to_create, to_rephoto, skipped = [], [], []
     for p in sources:
@@ -180,7 +217,7 @@ def main():
     print(f'  {len(sources)} surse | {len(to_create)} de creat | '
           f'{len(to_rephoto)} tinte existente cu poze vechi (doar poze) | {len(skipped)} sarite')
     if to_create:
-        s = to_create[0]
+        s = full_doc(to_create[0])
         d = build(s, src_cfg, dst_cfg, ram, sto, price, set(skus))
         print(f'\n  exemplu:\n    {s["name"]}  [{s["price"]} lei]\n    -> {d["name"]}  [{d["price"]} lei]')
         print(f'    sku {s.get("sku")} -> {d["sku"]}')
@@ -200,21 +237,38 @@ def main():
     hdr = {'Content-Type': 'application/json', 'Authorization': f'Bearer {token}'}
     made = fixed = failed = 0
     for p in (to_create[:args.limit] if args.limit else to_create):
-        doc = build(p, src_cfg, dst_cfg, ram, sto, price, skus)
+        doc = build(full_doc(p), src_cfg, dst_cfg, ram, sto, price, skus)
         if doc['slug'] in slugs:
             log('slug-ocupat', slug=doc['slug']); failed += 1; continue
-        try:
-            http(f'{API}/api/products', data=json.dumps(doc).encode(), headers=hdr)
-            slugs.add(doc['slug']); made += 1
-            log('creat', slug=doc['slug'], sku=doc['sku'], price=doc['price'])
-        except Exception as e:
+        # Produsele soft-deleted tin slug-ul si SKU-ul ocupate fara sa se vada pe vreo cale
+        # de citire (listarea filtreaza status:'active'), deci coliziunea apare abia la POST.
+        # Variem slug-ul cu "-po" si SKU-ul cu sufix numeric, formele deja din catalog.
+        want, err, n = dict(doc), None, 1
+        while n <= 5:
+            try:
+                http(f'{API}/api/products', data=json.dumps(doc).encode(), headers=hdr)
+                slugs.add(doc['slug']); made += 1
+                log('creat' if doc['slug'] == want['slug'] and doc['sku'] == want['sku']
+                    else 'creat-varianta', slug=doc['slug'], sku=doc['sku'], price=doc['price'])
+                err = None
+                break
+            except Exception as e:
+                err = str(e)
+                if 'slug already exists' in err and not doc['slug'].endswith('-po'):
+                    doc['slug'] += '-po'
+                elif 'sku already exists' in err:
+                    n += 1
+                    set_sku(doc, f"{want['sku']}{n}")
+                else:
+                    break
+        if err:
             failed += 1
-            log('eroare', slug=doc['slug'], error=str(e)[:200])
+            log('eroare', slug=doc['slug'], error=err[:200])
         if made % 50 == 0 and made:
             print(f'    ... {made} create')
     for p, ex in (to_rephoto[:args.limit] if args.limit else to_rephoto):
         imgs = [{'url': im['url'], 'alt': ex['name'], 'isPrimary': i == 0}
-                for i, im in enumerate(p.get('images') or [])]
+                for i, im in enumerate(full_doc(p).get('images') or [])]
         try:
             http(f"{API}/api/products/{ex['_id']}", data=json.dumps({'images': imgs}).encode(),
                  method='PUT', headers=hdr)

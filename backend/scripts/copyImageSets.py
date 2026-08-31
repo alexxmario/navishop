@@ -89,6 +89,13 @@ def fetch_all():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--pairs', required=True)
+    ap.add_argument('--exact', action='store_true',
+                    help='potriveste pe sufixul exact al numelui (…9 inch 4GB 64GB 8CORE) in loc '
+                         'de bucket-ul de configuratie; de folosit cand cele doua familii au '
+                         'exact aceleasi variante, ca sa nu ajunga acelasi set 2K pe toate.')
+    ap.add_argument('--only', help='doar aceste slug-uri tinta (separate prin virgula); pentru '
+                                   'ele se sare peste garda de poze, deci se pot rescrie produse '
+                                   'care au deja un set (ex. o clona proaspata cu pozele sursei)')
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--run', action='store_true')
     args = ap.parse_args()
@@ -124,18 +131,27 @@ def main():
         if not dst:
             notes.append(f"tinta lipseste: {pair['to']}")
             continue
+        def key_of(p, prefix):
+            if args.exact:
+                return p['name'][len(prefix):].strip().upper()
+            return config_key(p['name'])
+
         src_by_cfg = {}
         for p in src:
-            c = config_key(p['name'])
+            c = key_of(p, pair['from'])
             if c and n_images(p) >= MIN_SOURCE_IMAGES:
                 # pastreaza sursa cu cele mai multe poze pentru configul respectiv
                 if c not in src_by_cfg or n_images(p) > n_images(src_by_cfg[c]):
                     src_by_cfg[c] = p
+        only = set(filter(None, (args.only or '').split(',')))
         src_images = {}
         for p in dst:
-            if n_images(p) >= MIN_SOURCE_IMAGES:
+            if only:
+                if p['slug'] not in only:
+                    continue
+            elif n_images(p) >= MIN_SOURCE_IMAGES:
                 continue
-            c = config_key(p['name'])
+            c = key_of(p, pair['to'])
             s = src_by_cfg.get(c)
             if not s:
                 notes.append(f"{p['name']}: fara sursa pentru configul {c}")

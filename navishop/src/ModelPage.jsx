@@ -32,8 +32,12 @@ const ModelPage = () => {
   const loadModelData = async () => {
     try {
       setLoading(true);
-      const decodedBrand = decodeURIComponent(brand || '').replace(/\+/g, ' ').trim();
-      const decodedModel = decodeURIComponent(model || '').replace(/\+/g, ' ').trim();
+      // "+" se converteste in spatiu doar la URL-urile vechi, unde inlocuia spatiile.
+      // Linkurile de azi trec prin encodeURIComponent, deci spatiile vin ca %20 si un "+"
+      // ramas dupa decodare face parte din numele modelului ("Peugeot 206+ 2001-2008").
+      const plusAsSpace = (s) => (s.includes(' ') ? s : s.replace(/\+/g, ' '));
+      const decodedBrand = plusAsSpace(decodeURIComponent(brand || '')).trim();
+      const decodedModel = plusAsSpace(decodeURIComponent(model || '')).trim();
       const data = await apiService.getBrandModelProducts(decodedBrand, decodedModel);
       
       if (data?.success) {

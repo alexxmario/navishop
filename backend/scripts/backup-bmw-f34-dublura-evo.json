@@ -1,0 +1,271 @@
+[
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "10.25 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "10.25 Inch",
+    "rezolutieDisplay": "1920 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "F341617EVO4",
+    "categorii": "Seria 3 Grand Turismo F34 (2011-2017)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:28.203Z"
+  },
+  "_id": "69a0563491d4068d868a1847",
+  "name": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-gt-f34-2016-2017-10-25-inch-nbt-evo-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele PilotOn",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "F341617EVO4",
+  "price": 2775,
+  "originalPrice": null,
+  "discount": 0,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972696580-718871803.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a92fa8bf27dcafc0d1d46e6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712227-433422524.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46e7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712157-301179380.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46e8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972711744-204956103.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46e9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712293-426253864.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712189-530584341.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46eb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712099-989120049.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712104-915806482.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712389-394380117.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712806-814813811.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712528-326105421.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712585-341723190.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712668-163789185.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713117-191475057.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972712931-960404562.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713317-659513515.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713406-346974893.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713568-20014272.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713419-553362726.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713165-662943642.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713505-804606959.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713607-382344297.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713698-347518811.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972713769-638986884.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972731306-237514494.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972736499-96716012.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d46ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1774972736651-132290159.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 F34 2011-2017 10.25 inch EVO 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a92fa8bf27dcafc0d1d4700"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4008473613464"
+   },
+   {
+    "key": "MPN",
+    "value": "F341617EVO4"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 Grand Turismo F34 (2011-2017)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2016,
+    "yearTo": 2017,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": false,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 59,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:28.201Z",
+  "updatedAt": "2026-08-29T15:36:44.607Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 F34 2011-2017 cu Android: ecran 10.25 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 F34 2011-2017 10.25\" 4+64GB 8C | PilotOn"
+ }
+]

@@ -1,0 +1,2080 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A303132K12PO",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:23:58.579Z"
+  },
+  "_id": "69a0577e91d4068d868a3024",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2013-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A303132K12PO",
+  "price": 3299,
+  "originalPrice": 3955,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278346-203935440.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4c793a123cd91dc7f7c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278344-294311861.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278347-544735784.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278348-275672671.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278349-394630392.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278349-141626123.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278350-513750763.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278350-670848018.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278351-652935929.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278351-475439961.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278352-695556453.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278352-492052044.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278353-670359181.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278353-454057888.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278354-284851264.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278354-360590145.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278354-122303849.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278355-591545681.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278356-155585371.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278356-503752731.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278357-100256770.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278357-551359067.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278358-950683523.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278358-504883885.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516278358-360036514.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279347-459527208.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279348-907665931.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279348-39828729.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279349-249431833.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279351-429989023.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279352-996350251.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516279352-445133433.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c793a123cd91dc7f7e6"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178567"
+   },
+   {
+    "key": "MPN",
+    "value": "A303132K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2013,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 41,
+  "viewCount": 10,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:23:58.575Z",
+  "updatedAt": "2026-08-31T13:59:25.608Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A303134O",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:03:59.163Z"
+  },
+  "_id": "69a052cf91d4068d8689ddfd",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2013-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A303134O",
+  "price": 2049,
+  "originalPrice": 2310,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950744-647330075.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_002.jpg",
+    "isPrimary": true,
+    "_id": "6a12d4b36921205cc1b07146"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950746-18347166.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_001.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07145"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950741-660903774.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_003.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07147"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950748-723058212.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_004.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07148"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950752-450274676.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_005.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07149"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950754-257765745.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_006.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950852-261887804.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_007.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950849-926490188.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_008.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950853-982841335.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_009.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950823-65773356.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_010.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950851-31697220.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_011.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0714f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950850-420279202.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_012.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07150"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950887-817693736.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_013.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07151"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950935-412318453.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_014.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07152"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950947-234463537.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_015.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07153"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950953-460412177.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_016.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07154"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950951-210686729.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_017.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07155"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950949-314624946.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_018.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07156"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618950968-284461673.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_019.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07157"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951055-693219435.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_020.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07158"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951017-814395532.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_021.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07159"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951019-619291787.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_022.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951025-890674088.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_023.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951027-314324764.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_024.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951031-628563710.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_025.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951115-124154746.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_026.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951107-333050357.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_027.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b0715f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951111-208335668.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_028.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07160"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951123-856646154.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_029.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07161"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618951114-334865361.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_030.jpg",
+    "isPrimary": false,
+    "_id": "6a12d4b36921205cc1b07162"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178604"
+   },
+   {
+    "key": "MPN",
+    "value": "A303134O"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2013,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 41,
+  "viewCount": 9,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:03:59.160Z",
+  "updatedAt": "2026-08-31T13:59:25.837Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A303132K8",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:20.631Z"
+  },
+  "_id": "69a0553c91d4068d868a032c",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2013-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A303132K8",
+  "price": 2849,
+  "originalPrice": 3200,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884746-372012956.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_002.jpg",
+    "isPrimary": true,
+    "_id": "6a12d46d6921205cc1b070cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884743-500273490.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_001.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884756-742766144.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_003.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884752-925198814.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_004.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884765-985529886.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_005.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884759-66542104.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_006.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884819-77819061.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_007.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884851-967432452.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_008.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884845-902015825.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_009.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884822-283989618.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_010.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884852-246879957.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_011.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884836-280946245.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_012.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884890-785703677.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_013.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884883-478951903.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_014.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884902-815884962.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_015.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884936-242593673.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_016.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884958-634650949.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_017.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884965-475273295.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_018.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884948-457810762.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_019.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884983-218642800.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_020.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618884986-690189804.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_021.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885007-320259504.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_022.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885020-100701152.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_023.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885045-880203167.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_024.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885040-180448850.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_025.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885069-750915285.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_026.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885081-342007492.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_027.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885088-837939579.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_028.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885118-800475027.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_029.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779618885102-128556745.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  2k 9_2000x1200 ms9256 8G+256G_030.jpg",
+    "isPrimary": false,
+    "_id": "6a12d46d6921205cc1b070e8"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178598"
+   },
+   {
+    "key": "MPN",
+    "value": "A303132K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2013,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 12,
+  "viewCount": 9,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:20.627Z",
+  "updatedAt": "2026-08-31T13:59:26.174Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A3031192O",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:53:36.894Z"
+  },
+  "_id": "69a0506091d4068d8689b83d",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2011-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A3031192O",
+  "price": 1220,
+  "originalPrice": 1420,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251609-267927488.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4c5e3a123cd91dc7f6b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251606-635406892.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251607-687560386.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251608-346339499.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251610-563048190.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251611-878943588.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251612-520957822.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251613-894218147.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251614-991714908.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251614-515778019.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6b9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251615-884072257.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6ba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251617-10828542.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251617-16417491.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251618-354294581.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251619-221864033.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251620-181151068.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251621-475942067.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251621-375560429.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251622-561896156.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251623-877550728.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251624-766353568.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251625-333827668.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251625-12909600.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251626-169099270.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516251627-420050891.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252939-736936653.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252941-684189845.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252942-883655899.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252942-92624587.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252943-978257306.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252944-723880330.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252944-28800758.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252945-732397559.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252946-722170594.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252947-692282521.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252947-581677272.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516252948-931338286.jpg",
+    "alt": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4c5e3a123cd91dc7f6d4"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178659"
+   },
+   {
+    "key": "MPN",
+    "value": "A3031192O"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:53:36.891Z",
+  "updatedAt": "2026-08-31T13:59:26.360Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A3031192Q",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:53:35.896Z"
+  },
+  "_id": "69a0505f91d4068d8689b831",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-audi-a3-2003-2011-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A3031192Q",
+  "price": 795,
+  "originalPrice": 995,
+  "discount": 20,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056373.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a0505f91d4068d8689b832"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056376.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b833"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056379.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b834"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056382.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b835"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056385.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b836"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056388.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b837"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-a3-2003-2011-9-inch-2gb-64gb-4-core~100056391.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a0505f91d4068d8689b838"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178666"
+   },
+   {
+    "key": "MPN",
+    "value": "A3031192Q"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 52,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:53:35.892Z",
+  "updatedAt": "2026-08-31T13:59:26.675Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1360 X 800",
+    "tehnologieDisplay": "ICELL"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A3031194",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:53:37.845Z"
+  },
+  "_id": "69a0506191d4068d8689b849",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2011-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A3031194",
+  "price": 1449,
+  "originalPrice": 1575,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242233-494519176.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_001.jpg",
+    "isPrimary": true,
+    "_id": "6a12d5bf6921205cc1b071bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242241-964536362.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_002.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242237-717091061.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_003.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242243-909363782.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_004.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242240-321048282.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_005.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242247-771704318.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_006.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242335-592910819.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_007.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242344-882583533.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_008.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242341-483828179.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_009.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242332-139802202.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_010.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242373-372686821.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_011.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242421-91068972.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_012.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242339-858371431.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_013.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242415-363611679.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_014.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242412-30605481.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_015.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242433-612561137.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_016.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242418-471141224.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_017.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242475-45149041.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_018.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242494-90846248.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_019.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242505-708809362.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_020.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242506-581952379.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_021.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242510-319505148.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_022.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242549-443320603.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_023.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242569-670652149.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_024.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242554-350499981.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_025.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242598-38271694.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_026.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242596-718102200.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_027.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242592-495218623.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_028.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242660-542156683.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_029.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619242662-434590758.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_030.jpg",
+    "isPrimary": false,
+    "_id": "6a12d5bf6921205cc1b071dc"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178642"
+   },
+   {
+    "key": "MPN",
+    "value": "A3031194"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 42,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:53:37.842Z",
+  "updatedAt": "2026-08-31T13:59:26.881Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1360 X 800",
+    "tehnologieDisplay": "INCELL"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A303116",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:44.653Z"
+  },
+  "_id": "69a0564491d4068d868a19a9",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2011-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A303116",
+  "price": 1649,
+  "originalPrice": 1775,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324192-190437721.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_001.jpg",
+    "isPrimary": true,
+    "_id": "6a12d63d6921205cc1b07250"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324200-85461353.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_002.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07251"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324198-512648005.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_003.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07252"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324203-339884995.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_004.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07253"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324195-965074666.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_005.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07254"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324204-219855158.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_006.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07255"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324302-773000864.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_007.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07256"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324293-11178890.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_008.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07257"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324296-318174390.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_009.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07258"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324283-249511581.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_010.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07259"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324298-659659384.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_011.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324314-302538568.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_012.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324390-700849814.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_013.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324357-746364373.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_014.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324383-186365266.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_015.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324381-695889068.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_016.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0725f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324402-352113240.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_017.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07260"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324407-882958856.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_018.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07261"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324429-557271315.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_019.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07262"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324456-386403224.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_020.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07263"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324459-492515190.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_021.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07264"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324492-326931190.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_022.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07265"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324507-270458321.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_023.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07266"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324510-374479094.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_024.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07267"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324535-609371378.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_025.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07268"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324504-883917665.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_026.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b07269"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324579-432522736.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_027.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0726a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324542-409187874.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_028.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0726b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324586-287668760.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_029.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0726c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1779619324602-813689173.jpg",
+    "alt": "AUDI A3 03-13 9 INCH incell tab  9_800x1360 xt596 6G+128G_030.jpg",
+    "isPrimary": false,
+    "_id": "6a12d63d6921205cc1b0726d"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178581"
+   },
+   {
+    "key": "MPN",
+    "value": "A303116"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 22,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:44.648Z",
+  "updatedAt": "2026-08-31T13:59:27.224Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A3031198",
+    "categorii": "A3 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:53:38.790Z"
+  },
+  "_id": "69a0506291d4068d8689b855",
+  "name": "Navigatie PilotOn Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A3031198",
+  "price": 2635,
+  "originalPrice": 2835,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056310.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0506291d4068d8689b856"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056313.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b857"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056316.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b858"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056319.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b859"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056322.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b85a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056325.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b85b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-a3-2003-2011-9-inch-8gb-128gb-8-core-4g~100056328.jpg",
+    "alt": "Navigatie Audi A3 2003-2011 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0506291d4068d8689b85c"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657178635"
+   },
+   {
+    "key": "MPN",
+    "value": "A3031198"
+   },
+   {
+    "key": "Product Type",
+    "value": "A3 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 20,
+  "viewCount": 9,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:53:38.788Z",
+  "updatedAt": "2026-08-31T13:59:27.429Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A3 2003-2011 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A3 2003-2011 9\" 8+128GB 8C | PilotOn"
+ }
+]

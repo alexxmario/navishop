@@ -1,0 +1,2614 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02082K12PO",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:25:03.382Z"
+  },
+  "_id": "69a057bf91d4068d868a34b0",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02082K12PO",
+  "price": 3299,
+  "originalPrice": 3840,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123778-931645606.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6753a8b358a2d42030e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123779-125091265.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42030f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-310196341.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420310"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-456533326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420311"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123781-312664917.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420312"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-573869909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420313"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-653022337.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420314"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123777-357207102.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42030d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123783-457912475.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420315"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-158798931.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420316"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123776-488578404.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42030c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-625827073.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420317"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-131014664.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420318"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-208229268.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420319"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-528792212.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-11190854.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-958757215.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-343799434.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123787-411739202.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-924725040.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42031f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-904095457.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420320"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123790-10808234.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420321"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123791-482697322.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420322"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-840862236.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420323"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-15995104.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420324"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-204088176.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420325"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-867489909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420326"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124968-369129742.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420327"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-818163075.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420328"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-902067115.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d420329"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-581069307.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42032a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-596626629.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42032b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124972-737068259.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6753a8b358a2d42032c"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002148719321"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02082K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 27,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:25:03.377Z",
+  "updatedAt": "2026-08-31T14:34:59.662Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02082K4O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:23.503Z"
+  },
+  "_id": "69a0571f91d4068d868a29e5",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02082K4O",
+  "price": 2049,
+  "originalPrice": 2195,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123778-931645606.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f66e3a8b358a2d41ffa3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123779-125091265.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-310196341.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-456533326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123781-312664917.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-573869909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-653022337.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123777-357207102.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123783-457912475.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffaa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-158798931.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123776-488578404.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffa1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-625827073.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-131014664.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-208229268.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-528792212.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffaf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-11190854.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-958757215.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-343799434.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123787-411739202.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-924725040.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-904095457.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123790-10808234.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123791-482697322.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-840862236.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-15995104.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-204088176.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-867489909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffbb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124968-369129742.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffbc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-818163075.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffbd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-902067115.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffbe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-581069307.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffbf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-596626629.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffc0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124972-737068259.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffc1"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004186686665"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02082K4O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 10,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:23.498Z",
+  "updatedAt": "2026-08-31T14:34:59.990Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02082K8O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:24.450Z"
+  },
+  "_id": "69a0572091d4068d868a29f1",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02082K8O",
+  "price": 2849,
+  "originalPrice": 3105,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123778-931645606.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6743a8b358a2d420257"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123779-125091265.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420258"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-310196341.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420259"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123780-456533326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123781-312664917.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-573869909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123782-653022337.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123777-357207102.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420256"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123783-457912475.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-158798931.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42025f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123776-488578404.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420255"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-625827073.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420260"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123784-131014664.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420261"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-208229268.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420262"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-528792212.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420263"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123785-11190854.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420264"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-958757215.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420265"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123786-343799434.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420266"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123787-411739202.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420267"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-924725040.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420268"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123788-904095457.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420269"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123790-10808234.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123791-482697322.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-840862236.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123796-15995104.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-204088176.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124967-867489909.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d42026f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124968-369129742.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420270"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-818163075.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420271"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124969-902067115.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420272"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-581069307.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420273"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124971-596626629.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420274"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124972-737068259.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6743a8b358a2d420275"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007483315658"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02082K8O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 33,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:24.446Z",
+  "updatedAt": "2026-08-31T14:35:00.216Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02082O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:23:43.276Z"
+  },
+  "_id": "69a0576f91d4068d868a2ef7",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02082O",
+  "price": 1105,
+  "originalPrice": 1305,
+  "discount": 15,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122942-218158237.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f66d3a8b358a2d41fd24"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122943-9910326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd25"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122943-277977878.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd26"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122944-871546937.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd27"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122945-606567623.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd28"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122946-794697471.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd29"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122946-300047411.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122947-602637663.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122952-797820770.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122940-889935087.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd23"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122953-870993252.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122954-512927362.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122939-230216763.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd22"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122954-643223521.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd2f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122955-843493573.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd30"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122956-592500793.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd31"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122956-561447240.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd32"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122957-167945886.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd33"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122959-563965465.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd34"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122962-636710774.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd35"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122962-535873262.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd36"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122963-566434351.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd37"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122964-550136636.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd38"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122964-594744148.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd39"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122965-131138858.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123296-852670730.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123297-423538324.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123298-648265967.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123298-863084326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123299-942461793.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd3f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123299-907944056.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd40"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-138696936.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd41"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-668107436.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd42"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-552088740.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd43"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123301-135122659.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd44"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123301-796936201.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd45"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123302-983302007.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd46"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123302-715290010.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66d3a8b358a2d41fd47"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007705915352"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02082O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 37,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:23:43.273Z",
+  "updatedAt": "2026-08-31T14:35:00.488Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02082Q",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:19.757Z"
+  },
+  "_id": "69a0571b91d4068d868a29b5",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02082Q",
+  "price": 750,
+  "originalPrice": 950,
+  "discount": 21,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122942-218158237.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "6a81f66c3a8b358a2d41fc8c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122943-9910326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc8d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122943-277977878.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc8e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122944-871546937.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc8f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122945-606567623.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc90"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122946-794697471.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc91"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122946-300047411.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc92"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122947-602637663.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc93"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122952-797820770.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc94"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122940-889935087.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc8b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122953-870993252.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc95"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122954-512927362.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc96"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122939-230216763.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc8a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122954-643223521.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc97"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122955-843493573.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc98"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122956-592500793.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc99"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122956-561447240.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122957-167945886.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122959-563965465.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122962-636710774.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122962-535873262.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122963-566434351.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fc9f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122964-550136636.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122964-594744148.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902122965-131138858.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123296-852670730.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123297-423538324.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123298-648265967.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123298-863084326.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123299-942461793.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123299-907944056.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-138696936.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fca9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-668107436.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcaa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123300-552088740.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123301-135122659.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123301-796936201.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123302-983302007.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902123302-715290010.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f66c3a8b358a2d41fcaf"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000755289053"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02082Q"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 31,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:19.754Z",
+  "updatedAt": "2026-08-31T14:35:00.710Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA0208464O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:20.690Z"
+  },
+  "_id": "69a0571c91d4068d868a29c1",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA0208464O",
+  "price": 1449,
+  "originalPrice": 1500,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124285-748393355.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f66e3a8b358a2d41ff00"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124280-185164901.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fef9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124280-345620197.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fefa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124281-576466428.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fefb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124282-146353475.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fefc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124282-357945076.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fefd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124283-775698509.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fefe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124285-11442855.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41feff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124286-762959539.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff01"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124278-175928527.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fef8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124287-844870048.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff02"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124287-855487436.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff03"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124276-780720610.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fef7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124288-221513337.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff04"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124288-61771511.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff05"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124289-825008975.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff06"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124289-738044068.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff07"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124290-597388144.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff08"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124290-364531693.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff09"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124291-888899344.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124291-811478548.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124292-374186451.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124292-971185852.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124293-263898360.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124293-798626955.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff0f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124701-261900806.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff10"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124703-605095754.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff11"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124704-185497041.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124705-446557972.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124705-219742107.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124706-63887638.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124706-528116427.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff16"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124707-573861959.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff17"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124708-45421972.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff18"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124709-479963289.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff19"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124710-81067490.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff1a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124711-679250332.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff1b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124711-65755208.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff1c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902124712-245182695.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ff1d"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002621504178"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA0208464O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 22,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:20.685Z",
+  "updatedAt": "2026-08-31T14:35:01.044Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02084O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:21.617Z"
+  },
+  "_id": "69a0571d91d4068d868a29cd",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02084O",
+  "price": 1649,
+  "originalPrice": 1700,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125639-292145382.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f66e3a8b358a2d41fffd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125637-970537535.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fffc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125640-928005620.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fffe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125640-927641069.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41ffff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-473641214.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420000"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-316833111.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420001"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-687801074.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420002"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125642-803348920.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420003"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125642-176487245.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420004"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125636-648181308.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fffb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-278349239.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420005"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-132752096.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420006"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125635-697592818.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d41fffa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-624976632.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420007"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-96745092.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420008"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-220195621.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420009"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-380764277.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125645-441078045.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125645-470990803.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125646-148563645.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125647-408217455.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125648-484572434.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42000f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125648-209692136.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420010"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125649-950249640.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420011"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125649-450057114.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420012"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125962-782325987.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420013"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125963-707817572.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420014"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125964-145247381.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420015"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125964-685769588.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420016"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125965-144945584.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420017"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125965-519010789.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420018"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125966-351154681.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420019"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125966-934153938.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125967-886335531.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125967-138701937.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-526626024.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-977908298.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-72060398.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d42001f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125969-399633355.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f66e3a8b358a2d420020"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007372910513"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02084O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 21,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:21.615Z",
+  "updatedAt": "2026-08-31T14:35:01.263Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "FIESTA02088O",
+    "categorii": "Fiesta 5 (2002-2008)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:22:22.559Z"
+  },
+  "_id": "69a0571e91d4068d868a29d9",
+  "name": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-fiesta-2002-2008-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "FIESTA02088O",
+  "price": 2515,
+  "originalPrice": 2715,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125639-292145382.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6713a8b358a2d42006c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125637-970537535.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42006b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125640-928005620.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42006d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125640-927641069.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42006e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-473641214.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42006f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-316833111.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420070"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125641-687801074.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420071"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125642-803348920.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420072"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125642-176487245.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420073"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125636-648181308.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42006a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-278349239.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420074"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-132752096.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420075"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125635-697592818.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420069"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125643-624976632.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420076"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-96745092.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420077"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-220195621.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420078"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125644-380764277.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420079"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125645-441078045.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125645-470990803.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125646-148563645.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125647-408217455.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125648-484572434.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125648-209692136.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42007f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125649-950249640.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420080"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125649-450057114.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420081"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125962-782325987.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420082"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125963-707817572.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420083"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125964-145247381.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420084"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125964-685769588.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420085"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125965-144945584.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420086"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125965-519010789.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420087"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125966-351154681.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420088"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125966-934153938.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d420089"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125967-886335531.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125967-138701937.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-526626024.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-977908298.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125968-72060398.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902125969-399633355.jpg",
+    "alt": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6713a8b358a2d42008f"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007002987939"
+   },
+   {
+    "key": "MPN",
+    "value": "FIESTA02088O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Fiesta 5 (2002-2008)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2002,
+    "yearTo": 2008,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 22,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:22:22.556Z",
+  "updatedAt": "2026-08-31T14:35:01.533Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Fiesta 2002-2008 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Fiesta 2002-2008 9\" 8+128GB 8C | PilotOn"
+ }
+]

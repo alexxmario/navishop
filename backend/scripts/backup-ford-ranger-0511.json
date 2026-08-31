@@ -1,0 +1,1908 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER051112GBPO",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:38.634Z"
+  },
+  "_id": "69a0594a91d4068d868a56b2",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER051112GBPO",
+  "price": 3299,
+  "originalPrice": 4035,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233600-675851472.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e541f3a123cd91dc85434"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233596-683006643.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8542f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233597-274336646.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85430"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233598-889776116.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85431"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-904001029.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85432"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-271508366.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85433"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-240200381.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85435"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-904463943.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85436"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-155366539.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85437"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-807828910.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85438"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-60139525.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85439"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-559452928.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-839437406.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-613826009.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-369305859.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233607-429440937.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-180726661.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8543f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-273201945.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85440"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233609-30024460.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85441"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233610-776492657.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85442"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-474381652.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85443"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-256622075.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85444"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-304841931.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85445"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-356822173.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85446"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-43551698.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85447"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234598-454851120.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85448"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-353719982.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc85449"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-835547803.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8544a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234602-819196626.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8544b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-147239105.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8544c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-872723957.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8544d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234605-26322363.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541f3a123cd91dc8544e"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002423503775"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER051112GBPO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 55,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:38.631Z",
+  "updatedAt": "2026-08-31T15:01:48.923Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER05114GB2K",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:36.721Z"
+  },
+  "_id": "69a0594891d4068d868a569a",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER05114GB2K",
+  "price": 1999,
+  "originalPrice": 2390,
+  "discount": 8,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233600-675851472.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e541e3a123cd91dc8539b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233596-683006643.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85396"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233597-274336646.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85397"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233598-889776116.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85398"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-904001029.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85399"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-271508366.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc8539a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-240200381.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc8539c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-904463943.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc8539d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-155366539.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc8539e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-807828910.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc8539f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-60139525.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-559452928.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-839437406.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-613826009.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-369305859.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233607-429440937.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-180726661.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-273201945.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233609-30024460.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233610-776492657.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-474381652.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-256622075.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-304841931.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-356822173.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-43551698.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234598-454851120.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-353719982.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-835547803.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234602-819196626.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-147239105.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-872723957.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234605-26322363.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853b5"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007459088098"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER05114GB2K"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 45,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:36.719Z",
+  "updatedAt": "2026-08-31T15:01:49.124Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER05118GB2K",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:37.678Z"
+  },
+  "_id": "69a0594991d4068d868a56a6",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER05118GB2K",
+  "price": 2799,
+  "originalPrice": 3200,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233600-675851472.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e541e3a123cd91dc853e7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233596-683006643.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233597-274336646.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233598-889776116.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-904001029.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233599-271508366.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-240200381.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233601-904463943.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853e9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-155366539.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-807828910.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853eb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233602-60139525.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-559452928.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233603-839437406.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-613826009.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233604-369305859.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233607-429440937.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-180726661.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233608-273201945.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233609-30024460.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233610-776492657.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-474381652.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233611-256622075.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-304841931.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-356822173.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518233612-43551698.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234598-454851120.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-353719982.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234601-835547803.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234602-819196626.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-147239105.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc853ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234604-872723957.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85400"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518234605-26322363.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e541e3a123cd91dc85401"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001312947409"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER05118GB2K"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 43,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:37.675Z",
+  "updatedAt": "2026-08-31T15:01:49.503Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER05112GBOCTA",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:32.947Z"
+  },
+  "_id": "69a0594491d4068d868a566a",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER05112GBOCTA",
+  "price": 1295,
+  "originalPrice": 1427,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337760-263770772.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e548c3a123cd91dc858f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337751-6985706.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337754-138580890.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337756-510815934.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337757-160519187.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337757-682651761.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337758-656081691.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337759-470609837.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337762-46235226.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337763-555004808.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337764-240727987.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337764-782673774.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337765-37449954.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337766-528113756.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337766-832757635.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc858ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337767-727230419.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85900"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337767-122006945.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85901"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337768-464583138.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85902"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337769-20998171.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85903"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337769-672891363.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85904"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337770-349430554.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85905"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337770-222013212.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85906"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337771-504557237.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85907"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337772-814363648.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85908"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518337773-907940712.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85909"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344007-871187924.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344008-501322690.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344009-540163259.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344009-792357415.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344011-129694627.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344012-273953161.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8590f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344012-404359222.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85910"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344013-298169426.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85911"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344013-395432986.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85912"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344014-738408515.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85913"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344014-172592754.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85914"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518344015-971653272.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85915"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005746112389"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER05112GBOCTA"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 17,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:32.944Z",
+  "updatedAt": "2026-08-31T15:01:49.712Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER05114GB",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:33.878Z"
+  },
+  "_id": "69a0594591d4068d868a5676",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER05114GB",
+  "price": 1399,
+  "originalPrice": 1694,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284598-623975585.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e54523a123cd91dc856ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284592-413877104.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856e9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284594-828781840.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856ea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284595-109376625.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856eb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284596-173475133.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856ec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284597-466412935.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284597-485197682.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284598-536679556.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284599-242334504.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284600-532034188.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284600-634263763.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284601-421731264.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284601-493127712.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284601-471403726.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284602-204396987.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284603-818780615.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284603-383713070.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284604-380182484.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284605-88699709.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284605-516382569.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284606-186026542.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284606-998304168.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284607-726253320.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc856ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284607-355248107.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85700"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518284608-890663389.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85701"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287781-440230322.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85702"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287782-50325668.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85703"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287783-980855528.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85704"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287783-958575965.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85705"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287784-742657744.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85706"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287784-285387398.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85707"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287785-939736012.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85708"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287786-261657236.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc85709"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287786-875193396.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc8570a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287787-918790136.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc8570b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287787-815081937.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc8570c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287787-514575686.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc8570d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518287788-270547162.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e54523a123cd91dc8570e"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002218327722"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER05114GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 32,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:33.876Z",
+  "updatedAt": "2026-08-31T15:01:50.002Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RANGER05116GB",
+    "categorii": "Ranger (2005-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:31:34.806Z"
+  },
+  "_id": "69a0594691d4068d868a5682",
+  "name": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-ranger-2005-2011-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RANGER05116GB",
+  "price": 1599,
+  "originalPrice": 1850,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342914-38373335.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e548c3a123cd91dc85963"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342907-623291084.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8595b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342908-320630527.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8595c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342910-407333928.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8595d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342911-469271333.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8595e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342911-80925348.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8595f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342912-896208253.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85960"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342913-473271696.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85961"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342913-672941349.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85962"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342914-332312458.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85964"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342915-361340523.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85965"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342916-25449879.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85966"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342916-637115118.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85967"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342916-399502369.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85968"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342917-293399639.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85969"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342917-903579925.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342918-89891640.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342918-265852297.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342919-845797008.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342919-805644908.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342920-244747657.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8596f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342920-952036978.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85970"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342921-135159842.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85971"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342921-767914782.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85972"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518342922-993504655.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85973"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346588-220206407.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85974"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346589-816306721.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85975"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346590-659819871.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85976"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346590-371191401.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85977"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346591-919551028.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85978"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346592-900599041.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85979"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346593-267639194.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346593-423176504.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346594-665764273.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346595-762025716.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346595-878397410.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346596-143641833.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc8597f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346596-242249963.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85980"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518346597-570475642.jpg",
+    "alt": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e548c3a123cd91dc85981"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000519619188"
+   },
+   {
+    "key": "MPN",
+    "value": "RANGER05116GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Ranger (2005-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2005,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 18,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:31:34.804Z",
+  "updatedAt": "2026-08-31T15:01:50.184Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Ranger 2005-2011 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Ranger 2005-2011 9\" 6+128GB 8C | PilotOn"
+ }
+]

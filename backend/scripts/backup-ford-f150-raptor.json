@@ -1,0 +1,1908 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "F15008142K12PO",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:25:02.414Z"
+  },
+  "_id": "69a057be91d4068d868a34a3",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "F15008142K12PO",
+  "price": 3299,
+  "originalPrice": null,
+  "discount": 0,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523318-968629564.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e553f3a123cd91dc85f08"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523313-32785959.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f03"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523315-347472277.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f04"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523316-943995432.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f05"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-633930688.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f06"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-890393816.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f07"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-587512673.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f09"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-245850488.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523320-981967131.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-946703818.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-234333300.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-367649030.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-127773794.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f0f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-906078291.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f10"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-492873993.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f11"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523323-150888651.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523324-463336132.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-224303891.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-863949606.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-122839329.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f16"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-349631859.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f17"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-669657460.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f18"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-977450733.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f19"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-740073076.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-32802619.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524293-445961586.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524294-640002098.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-448482828.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-679805934.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f1f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-273191881.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f20"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-910265566.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f21"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524297-966405196.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553f3a123cd91dc85f22"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4009659939514"
+   },
+   {
+    "key": "MPN",
+    "value": "F15008142K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": false,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 24,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:25:02.409Z",
+  "updatedAt": "2026-08-31T14:32:00.288Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RAPTOR08142K4",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:06:28.297Z"
+  },
+  "_id": "69a0536491d4068d8689e561",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RAPTOR08142K4",
+  "price": 2049,
+  "originalPrice": 2370,
+  "discount": 8,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523318-968629564.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e553e3a123cd91dc85e6f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523313-32785959.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e6a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523315-347472277.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e6b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523316-943995432.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e6c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-633930688.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e6d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-890393816.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e6e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-587512673.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e70"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-245850488.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e71"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523320-981967131.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e72"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-946703818.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e73"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-234333300.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e74"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-367649030.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e75"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-127773794.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e76"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-906078291.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e77"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-492873993.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e78"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523323-150888651.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e79"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523324-463336132.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-224303891.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-863949606.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-122839329.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-349631859.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-669657460.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e7f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-977450733.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e80"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-740073076.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e81"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-32802619.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e82"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524293-445961586.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e83"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524294-640002098.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e84"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-448482828.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e85"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-679805934.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e86"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-273191881.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e87"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-910265566.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e88"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524297-966405196.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85e89"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002315178104"
+   },
+   {
+    "key": "MPN",
+    "value": "RAPTOR08142K4"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 29,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:06:28.294Z",
+  "updatedAt": "2026-08-31T14:32:00.654Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RAPTOR08142K8",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:13:31.329Z"
+  },
+  "_id": "69a0550b91d4068d868a007a",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RAPTOR08142K8",
+  "price": 2849,
+  "originalPrice": 3200,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523318-968629564.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e553e3a123cd91dc85ebb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523313-32785959.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523315-347472277.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523316-943995432.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-633930688.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523317-890393816.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-587512673.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ebc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523319-245850488.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ebd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523320-981967131.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ebe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-946703818.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ebf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-234333300.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523321-367649030.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-127773794.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-906078291.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523322-492873993.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523323-150888651.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523324-463336132.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-224303891.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523325-863949606.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-122839329.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ec9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-349631859.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85eca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523326-669657460.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ecb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-977450733.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ecc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-740073076.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ecd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518523327-32802619.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ece"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524293-445961586.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ecf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524294-640002098.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-448482828.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524295-679805934.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-273191881.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524296-910265566.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518524297-966405196.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e553e3a123cd91dc85ed5"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003824874501"
+   },
+   {
+    "key": "MPN",
+    "value": "RAPTOR08142K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 21,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:13:31.327Z",
+  "updatedAt": "2026-08-31T14:32:00.880Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RAPTOR08142O",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:56:04.353Z"
+  },
+  "_id": "69a050f491d4068d8689c375",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RAPTOR08142O",
+  "price": 1280,
+  "originalPrice": 1480,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529764-717276590.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e55443a123cd91dc85fc1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529758-107387824.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529760-436057458.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fbb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529761-804761139.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fbc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529761-645733597.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fbd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529762-771445117.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fbe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529763-633607716.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fbf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529763-211900630.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529764-753587872.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529765-965407074.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529765-765481467.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529766-807859418.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529766-729971256.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529767-564999687.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529770-150936967.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529771-476252891.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fc9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529771-931224071.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529771-106209582.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fcb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529772-83744511.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fcc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529772-540175976.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fcd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529773-575977570.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529773-441649605.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fcf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529774-414279286.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529774-984053359.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518529775-140523874.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531310-456343509.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531312-721988523.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531312-111145593.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531312-262026179.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531316-30128997.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531317-508882377.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531318-820479672.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fd9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531318-427042155.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fda"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531319-478031489.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fdb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531319-316644105.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fdc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531320-678682986.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fdd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518531320-336962541.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55443a123cd91dc85fde"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4009314376548"
+   },
+   {
+    "key": "MPN",
+    "value": "RAPTOR08142O"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 55,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:56:04.349Z",
+  "updatedAt": "2026-08-31T14:32:01.212Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RAPTOR08144",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:56:03.400Z"
+  },
+  "_id": "69a050f391d4068d8689c369",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RAPTOR08144",
+  "price": 1449,
+  "originalPrice": 1635,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574419-728497792.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e55723a123cd91dc860ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574414-844830277.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860e8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574416-769564801.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860e9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574417-669688667.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860ea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574417-556044.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860eb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574418-312982557.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860ec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574418-569976062.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574419-262029709.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574420-749004516.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574420-438210304.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574421-282482568.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574421-886448604.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574422-192639662.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574422-348291938.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574422-662466855.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574423-780556824.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574423-462210547.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574423-268549080.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574423-13747119.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574424-810661856.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574424-161323416.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574425-661334790.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574429-805793679.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574429-396165253.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc860ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518574429-471584538.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86100"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576463-938705114.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86101"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576464-156006690.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86102"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576464-943049926.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86103"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576465-770040164.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86104"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576465-56772975.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86105"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576466-11588548.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86106"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576467-601794551.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86107"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576467-701900900.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86108"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576469-789379203.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc86109"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576469-881062579.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc8610a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576470-130697017.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc8610b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576471-578172723.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc8610c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518576471-812326369.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55723a123cd91dc8610d"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000751928949"
+   },
+   {
+    "key": "MPN",
+    "value": "RAPTOR08144"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 56,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:56:03.397Z",
+  "updatedAt": "2026-08-31T14:32:01.642Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "RAPTOR08146",
+    "categorii": "F150 Raptor (2008-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:19:12.958Z"
+  },
+  "_id": "69a0566091d4068d868a1b17",
+  "name": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-f150-raptor-2008-2014-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "RAPTOR08146",
+  "price": 1649,
+  "originalPrice": 1835,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627119-996753055.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e55a63a123cd91dc8626f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627120-927292474.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86270"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627121-174682408.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86271"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627122-371973231.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86272"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627122-834152776.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86273"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627123-28916544.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86274"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627123-586029681.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86275"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627124-528985272.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86276"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627124-319321901.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86277"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627125-805980336.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86278"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627125-966590453.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86279"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627126-382267636.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627126-966906950.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627126-724557064.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627127-80486817.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627127-618060851.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627128-731098437.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8627f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627128-648627223.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86280"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627128-956843366.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86281"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627129-356242542.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86282"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627129-855438287.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86283"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627130-76647588.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86284"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627130-117178420.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86285"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627132-120601304.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86286"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518627133-975554821.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86287"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629099-475911566.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86288"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629099-527919526.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86289"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629100-885963.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629101-543472057.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629102-835791394.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629102-639493822.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629103-200700434.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629103-71828545.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc8628f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629104-174842602.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86290"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629104-956632589.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86291"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629105-668130332.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86292"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629106-848295275.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86293"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629106-942926349.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86294"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783518629107-661877335.jpg",
+    "alt": "Navigatie PilotOn Ford F150 Raptor 2008-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e55a63a123cd91dc86295"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000081250352"
+   },
+   {
+    "key": "MPN",
+    "value": "RAPTOR08146"
+   },
+   {
+    "key": "Product Type",
+    "value": "F150 Raptor (2008-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2008,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 17,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:19:12.954Z",
+  "updatedAt": "2026-08-31T14:32:01.892Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford F150 Raptor 2008-2014 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford F150 Raptor 2008-2014 9\" 6+128GB 8C | PilotOn"
+ }
+]

@@ -1,0 +1,2584 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA13182K12FLPO",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:25:10.997Z"
+  },
+  "_id": "69a057c691d4068d868a3534",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA13182K12FLPO",
+  "price": 3299,
+  "originalPrice": 4015,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362426-532054458.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafda83cbfb7d77012bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362430-245961667.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362441-877709022.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362443-593233020.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362445-272711695.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362447-713640017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362448-588447266.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362450-699567324.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362451-707108884.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362452-661034126.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362453-176024579.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-176396568.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-249086887.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-145931270.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-753039581.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-582062416.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-911585538.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-157909075.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-326552102.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-145871564.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-883318017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362458-709818417.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362459-24614730.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362465-439890237.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362466-424008263.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362759-965604775.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-956993493.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-679579339.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362761-820537870.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-560357921.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-993127303.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-364233038.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-346790073.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d77012dd"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001870010973"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA13182K12FLPO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 21,
+  "viewCount": 7,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:25:10.992Z",
+  "updatedAt": "2026-08-31T14:46:58.751Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA13182K4FL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:06:06.091Z"
+  },
+  "_id": "69a0534e91d4068d8689e447",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA13182K4FL",
+  "price": 2049,
+  "originalPrice": 2370,
+  "discount": 8,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362426-532054458.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafca83cbfb7d7701110"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362430-245961667.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701111"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362441-877709022.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701112"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362443-593233020.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701113"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362445-272711695.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701114"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362447-713640017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701115"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362448-588447266.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701116"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362450-699567324.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701117"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362451-707108884.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701118"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362452-661034126.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701119"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362453-176024579.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-176396568.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-249086887.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-145931270.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-753039581.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-582062416.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770111f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-911585538.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701120"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-157909075.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701121"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-326552102.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701122"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-145871564.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701123"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-883318017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701124"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362458-709818417.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701125"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362459-24614730.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701126"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362465-439890237.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701127"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362466-424008263.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701128"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362759-965604775.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701129"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-956993493.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-679579339.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362761-820537870.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-560357921.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-993127303.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-364233038.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770112f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-346790073.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701130"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4007912335851"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA13182K4FL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 59,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:06:06.088Z",
+  "updatedAt": "2026-08-31T14:46:59.198Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA13182K8FL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:13:36.316Z"
+  },
+  "_id": "69a0551091d4068d868a00ce",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA13182K8FL",
+  "price": 2849,
+  "originalPrice": 3200,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362426-532054458.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafca83cbfb7d770120d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362430-245961667.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770120e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362441-877709022.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770120f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362443-593233020.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701210"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362445-272711695.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701211"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362447-713640017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701212"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362448-588447266.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701213"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362450-699567324.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701214"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362451-707108884.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701215"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362452-661034126.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701216"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362453-176024579.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701217"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-176396568.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701218"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362454-249086887.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701219"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-145931270.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-753039581.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-582062416.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362455-911585538.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-157909075.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362456-326552102.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770121f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-145871564.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701220"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362457-883318017.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701221"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362458-709818417.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701222"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362459-24614730.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701223"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362465-439890237.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701224"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362466-424008263.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701225"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362759-965604775.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701226"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-956993493.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701227"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362760-679579339.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701228"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362761-820537870.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701229"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-560357921.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770122a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362762-993127303.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770122b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-364233038.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770122c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362763-346790073.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770122d"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002918917056"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA13182K8FL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:13:36.314Z",
+  "updatedAt": "2026-08-31T14:46:59.397Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA213182OFL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:57:38.488Z"
+  },
+  "_id": "69a0515291d4068d8689cabf",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA213182OFL",
+  "price": 1280,
+  "originalPrice": 1480,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361479-2794178.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafba83cbfb7d7700f20"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361481-73959738.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f21"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361482-304019734.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f22"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361483-447713754.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f23"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361483-754679202.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f24"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361484-198687852.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f25"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361485-478019898.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f26"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361487-248162087.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f27"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361488-550639008.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f28"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361488-957695636.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f29"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361490-881537151.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361490-961022721.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361491-162255197.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361491-63539363.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361492-20681290.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361492-25558600.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f2f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-65998563.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f30"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-160552650.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f31"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-205037362.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f32"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361497-595519843.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f33"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361497-370413536.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f34"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-144916283.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f35"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-666204669.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f36"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-799578817.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f37"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361499-835985504.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f38"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361815-821841105.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f39"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361817-719622945.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361818-445161713.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361818-665488289.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361819-984911103.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361820-848901815.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361820-979582533.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f3f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361821-987179860.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f40"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361821-220267444.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f41"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361822-233425617.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f42"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361823-466050560.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f43"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361824-350549827.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f44"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361824-640080160.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafba83cbfb7d7700f45"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004668639813"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA213182OFL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 19,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:57:38.485Z",
+  "updatedAt": "2026-08-31T14:46:59.763Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA213182QFL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:57:36.556Z"
+  },
+  "_id": "69a0515091d4068d8689caa7",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA213182QFL",
+  "price": 850,
+  "originalPrice": 1053,
+  "discount": 19,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361479-2794178.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "6a83fafaa83cbfb7d7700eb2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361481-73959738.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361482-304019734.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361483-447713754.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361483-754679202.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361484-198687852.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361485-478019898.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361487-248162087.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361488-550639008.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361488-957695636.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ebb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361490-881537151.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ebc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361490-961022721.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ebd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361491-162255197.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ebe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361491-63539363.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ebf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361492-20681290.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361492-25558600.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-65998563.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-160552650.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361496-205037362.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361497-595519843.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361497-370413536.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-144916283.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-666204669.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361498-799578817.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ec9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361499-835985504.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700eca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361815-821841105.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ecb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361817-719622945.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ecc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361818-445161713.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ecd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361818-665488289.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ece"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361819-984911103.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ecf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361820-848901815.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361820-979582533.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361821-987179860.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361821-220267444.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361822-233425617.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361823-466050560.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361824-350549827.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034361824-640080160.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a83fafaa83cbfb7d7700ed7"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005980412658"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA213182QFL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:57:36.552Z",
+  "updatedAt": "2026-08-31T14:46:59.979Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA213184OFL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:57:37.516Z"
+  },
+  "_id": "69a0515191d4068d8689cab3",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA213184OFL",
+  "price": 1449,
+  "originalPrice": 1639,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362389-528430802.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafca83cbfb7d7701190"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362395-223911111.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701191"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362396-333740225.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701192"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362398-620271796.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701193"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362398-336085989.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701194"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362399-623961847.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701195"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362400-801419.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701196"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362400-533091914.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701197"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362401-221830927.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701198"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362402-648779403.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701199"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362403-670363451.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362403-975936646.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362418-105842624.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362423-219922764.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362425-474842233.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362425-722426888.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770119f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362439-688794799.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362440-737043404.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362441-116691858.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362443-784768010.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362445-327967292.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362446-738283714.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362447-314264614.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362448-573031509.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034362449-179089685.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363069-578217070.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363070-357016626.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363071-553658517.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363071-19285061.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363073-287987322.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363074-702101945.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363074-584927373.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363075-460801998.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363075-666384255.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363076-325005477.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363076-97505913.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363077-293532134.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363077-310351266.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d77011b5"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004467177981"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA213184OFL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 43,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:57:37.513Z",
+  "updatedAt": "2026-08-31T14:47:00.358Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA13186FL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:19:18.547Z"
+  },
+  "_id": "69a0566691d4068d868a1b71",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA13186FL",
+  "price": 1649,
+  "originalPrice": 1835,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363566-450664652.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafda83cbfb7d7701301"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363568-408236763.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701302"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363569-341360009.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701303"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363569-916479449.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701304"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363570-157854150.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701305"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363570-41342352.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701306"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363571-917553756.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701307"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363571-465192150.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701308"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363572-116181314.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701309"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363572-713492019.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363573-270786754.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363573-653950611.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-878638030.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-470616609.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-689597387.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770130f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-326280666.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701310"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-717469732.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701311"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-786689303.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701312"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-299334907.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701313"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-399101483.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701314"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-965199097.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701315"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363577-683971076.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701316"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363577-573412155.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701317"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363578-430510441.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701318"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363578-566925934.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701319"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363960-598915433.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363961-314391334.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363961-577973170.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363962-672380380.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363962-367349313.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363963-854522605.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d770131f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363963-233321994.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701320"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-50046197.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701321"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-988051628.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701322"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-29277559.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701323"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363965-967947489.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701324"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363965-557565509.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafda83cbfb7d7701325"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4008379166217"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA13186FL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 19,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:19:18.543Z",
+  "updatedAt": "2026-08-31T14:47:00.774Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "KUGA213188OFL",
+    "categorii": "Kuga 2 (2013-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:57:39.447Z"
+  },
+  "_id": "69a0515391d4068d8689cacb",
+  "name": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-kuga-2-2013-2018-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "KUGA213188OFL",
+  "price": 2690,
+  "originalPrice": 2890,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363566-450664652.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a83fafca83cbfb7d7701265"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363568-408236763.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701266"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363569-341360009.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701267"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363569-916479449.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701268"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363570-157854150.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701269"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363570-41342352.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363571-917553756.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363571-465192150.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363572-116181314.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363572-713492019.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363573-270786754.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770126f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363573-653950611.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701270"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-878638030.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701271"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-470616609.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701272"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363574-689597387.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701273"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-326280666.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701274"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-717469732.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701275"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363575-786689303.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701276"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-299334907.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701277"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-399101483.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701278"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363576-965199097.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701279"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363577-683971076.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363577-573412155.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363578-430510441.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363578-566925934.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363960-598915433.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363961-314391334.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d770127f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363961-577973170.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701280"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363962-672380380.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701281"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363962-367349313.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701282"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363963-854522605.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701283"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363963-233321994.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701284"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-50046197.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701285"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-988051628.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701286"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363964-29277559.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701287"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363965-967947489.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701288"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1787034363965-557565509.jpg",
+    "alt": "Navigatie PilotOn Ford Kuga 2 2013-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a83fafca83cbfb7d7701289"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003610752747"
+   },
+   {
+    "key": "MPN",
+    "value": "KUGA213188OFL"
+   },
+   {
+    "key": "Product Type",
+    "value": "Kuga 2 (2013-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:57:39.445Z",
+  "updatedAt": "2026-08-31T14:47:01.001Z",
+  "reviews": [],
+  "__v": 2,
+  "seoDescription": "Navigație Ford Kuga 2 2013-2018 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Kuga 2 2013-2018 9\" 8+128GB 8C | PilotOn"
+ }
+]

@@ -1,0 +1,622 @@
+[
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "12.5 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "12.5 inch",
+    "rezolutieDisplay": "1024 x 600",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A7101812.54GB",
+    "categorii": "A7 (2010-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T15:17:53.805Z"
+  },
+  "_id": "69a0642191d4068d868b62b3",
+  "name": "Navigatie PilotOn Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A7101812.54GB",
+  "price": 1449,
+  "originalPrice": 3199,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047417.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0642191d4068d868b62b4"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047420.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62b5"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047423.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62b6"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047426.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62b7"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047429.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62b8"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047432.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62b9"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047435.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62ba"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-a7-2010-2018-12-5-inch-4gb-64gb-8-core-4g~100047438.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 4GB 64GB 8 Core 4G - Image 8",
+    "isPrimary": false,
+    "_id": "69a0642191d4068d868b62bb"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001217147751"
+   },
+   {
+    "key": "MPN",
+    "value": "A7101812.54GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "A7 (2010-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2010,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 53,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T15:17:53.801Z",
+  "updatedAt": "2026-08-31T13:33:19.874Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A7 2010-2018 cu Android: ecran 12.5 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A7 2010-2018 12.5\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "screenSize": "12.5 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "12.5 inch",
+    "rezolutieDisplay": "1024 x 600",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A7101812.58GB",
+    "categorii": "A7 (2010-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:30:56.144Z"
+  },
+  "_id": "69a0592091d4068d868a5429",
+  "name": "Navigatie PilotOn Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A7101812.58GB",
+  "price": 3520,
+  "originalPrice": 3720,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047441.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0592091d4068d868a542a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047444.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a542b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047447.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a542c"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047450.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a542d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047453.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a542e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047456.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a542f"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047459.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a5430"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a7-2010-2018-12-5-inch-8gb-256gb-8-core-4g~100047462.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 12.5 inch 8GB 256GB 8 Core 4G - Image 8",
+    "isPrimary": false,
+    "_id": "69a0592091d4068d868a5431"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004053138839"
+   },
+   {
+    "key": "MPN",
+    "value": "A7101812.58GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "A7 (2010-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2010,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 28,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:30:56.141Z",
+  "updatedAt": "2026-08-31T13:33:20.154Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A7 2010-2018 cu Android: ecran 12.5 inch, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A7 2010-2018 12.5\" 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1024 x 600",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A7101894GB",
+    "categorii": "A7 (2010-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T15:17:54.739Z"
+  },
+  "_id": "69a0642291d4068d868b62c0",
+  "name": "Navigatie PilotOn Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A7101894GB",
+  "price": 1449,
+  "originalPrice": 3199,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047369.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0642291d4068d868b62c1"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047372.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c2"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047375.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c3"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047378.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c4"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047381.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c5"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047384.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c6"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047387.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c7"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-audi-a7-2010-2018-9-inch-4gb-64gb-8-core-4g~100047390.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 4GB 64GB 8 Core 4G - Image 8",
+    "isPrimary": false,
+    "_id": "69a0642291d4068d868b62c8"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001996973343"
+   },
+   {
+    "key": "MPN",
+    "value": "A7101894GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "A7 (2010-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2010,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 21,
+  "viewCount": 8,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T15:17:54.736Z",
+  "updatedAt": "2026-08-31T13:33:20.377Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A7 2010-2018 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A7 2010-2018 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1024 x 600",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "A710188",
+    "categorii": "A7 (2010-2018)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:23:49.346Z"
+  },
+  "_id": "69a0577591d4068d868a2f70",
+  "name": "Navigatie PilotOn Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "A710188",
+  "price": 3352,
+  "originalPrice": 3552,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047393.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0577591d4068d868a2f71"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047396.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f72"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047399.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f73"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047402.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f74"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047405.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f75"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047408.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f76"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047411.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f77"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-audi-a7-2010-2018-9-inch-8gb-128gb-8-core-4g~100047414.jpg",
+    "alt": "Navigatie Audi A7 2010-2018 9 inch 8GB 128GB 8 Core 4G - Image 8",
+    "isPrimary": false,
+    "_id": "69a0577591d4068d868a2f78"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "0725657179410"
+   },
+   {
+    "key": "MPN",
+    "value": "A710188"
+   },
+   {
+    "key": "Product Type",
+    "value": "A7 (2010-2018)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2010,
+    "yearTo": 2018,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 31,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:23:49.342Z",
+  "updatedAt": "2026-08-31T13:33:20.674Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi A7 2010-2018 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi A7 2010-2018 9\" 8+128GB 8C | PilotOn"
+ }
+]

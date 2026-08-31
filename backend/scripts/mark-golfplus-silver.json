@@ -1,0 +1,17 @@
+{
+  "base": "Navigatie PilotOn VW Golf Plus 2005-2014",
+  "marker": "SILVER",
+  "rename": [
+    "navigatie-piloton-vw-golf-plus-2004-2014-9-inch-4gb-64gb-8core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-9-inch-6gb-128gb-8-core",
+    "navigatie-piloton-vw-golf-plus-2005-2014-9-inch-8gb-256gb-8-core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-2k-4gb-64gb-8-core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-2k-8gb-256gb-8-core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-2k-12gb-256gb-8-core"
+  ],
+  "clone": [
+    "navigatie-piloton-vw-golf-plus-2004-2014-9-inch-2gb-32gb-4-core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-9-inch-4gb-64gb-4-core",
+    "navigatie-piloton-vw-golf-plus-2004-2014-9-inch-4gb-64gb-8-core"
+  ]
+}

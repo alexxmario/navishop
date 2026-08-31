@@ -1,0 +1,906 @@
+[
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXY06154GB2K",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:09.149Z"
+  },
+  "_id": "69a058b591d4068d868a4a80",
+  "name": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXY06154GB2K",
+  "price": 1999,
+  "originalPrice": 2135,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070959.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a058b591d4068d868a4a81"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070962.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a82"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070965.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a83"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070968.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a84"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070971.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a85"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070974.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a86"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-ford-galaxy-2-2006-2015-2k-qled-4gb-64gb-8-core-4g~100070977.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 4GB 64GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b591d4068d868a4a87"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000233693266"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXY06154GB2K"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 47,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:09.146Z",
+  "updatedAt": "2026-08-31T14:46:01.273Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Galaxy 2 2006-2015 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy 2 2006-2015 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXYII06158GB2K",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:10.075Z"
+  },
+  "_id": "69a058b691d4068d868a4a8c",
+  "name": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXYII06158GB2K",
+  "price": 2799,
+  "originalPrice": 3105,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070938.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a058b691d4068d868a4a8d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070941.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a8e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070944.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a8f"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070947.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a90"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070950.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a91"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070953.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a92"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-ford-galaxy-2-2006-2015-2k-qled-8gb-256gb-8-core-4g~100070956.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 2K QLED 8GB 256GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b691d4068d868a4a93"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000222208198"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXYII06158GB2K"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 40,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:10.073Z",
+  "updatedAt": "2026-08-31T14:46:01.610Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Galaxy 2 2006-2015 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy 2 2006-2015 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXYII06152GB8CORE",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:06.353Z"
+  },
+  "_id": "69a058b291d4068d868a4a5c",
+  "name": "Navigatie PilotOn Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXYII06152GB8CORE",
+  "price": 1105,
+  "originalPrice": 1305,
+  "discount": 15,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070875.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a058b291d4068d868a4a5d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070878.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a5e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070881.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a5f"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070884.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a60"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070887.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a61"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070890.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a62"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-32gb-8-core-4g~100070893.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 32GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b291d4068d868a4a63"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004382299324"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXYII06152GB8CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 30,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:06.350Z",
+  "updatedAt": "2026-08-31T14:46:01.793Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Galaxy 2 2006-2015 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy 2 2006-2015 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXYII06152GB",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:05.414Z"
+  },
+  "_id": "69a058b191d4068d868a4a50",
+  "name": "Navigatie PilotOn Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXYII06152GB",
+  "price": 750,
+  "originalPrice": 967,
+  "discount": 22,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070896.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a058b191d4068d868a4a51"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070899.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a52"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070902.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a53"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070905.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a54"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070908.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a55"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070911.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a56"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-ford-galaxy-2-2006-2015-9-inch-2gb-64gb-4-core~100070914.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b191d4068d868a4a57"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000315214389"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXYII06152GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 34,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:05.409Z",
+  "updatedAt": "2026-08-31T14:46:02.111Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Galaxy 2 2006-2015 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy 2 2006-2015 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXYII06154GB",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:07.271Z"
+  },
+  "_id": "69a058b391d4068d868a4a68",
+  "name": "Navigatie PilotOn Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXYII06154GB",
+  "price": 1399,
+  "originalPrice": 1500,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070854.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a058b391d4068d868a4a69"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070857.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070860.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070863.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6c"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070866.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070869.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-ford-galaxy-2-2006-2015-9-inch-4gb-64gb-8-core-4g~100070872.jpg",
+    "alt": "Navigatie Ford Galaxy 2 2006-2015 9 inch 4GB 64GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b391d4068d868a4a6f"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004097807791"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXYII06154GB"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 47,
+  "viewCount": 7,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:07.267Z",
+  "updatedAt": "2026-08-31T14:46:02.317Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Ford Galaxy 2 2006-2015 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy 2 2006-2015 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "GALAXYII061512GBPO",
+    "categorii": "Galaxy 2 (2006-2015)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:29:11.012Z"
+  },
+  "_id": "69a058b791d4068d868a4a98",
+  "name": "Navigatie PilotOn Ford Galaxy II 2006-2015 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "GALAXYII061512GBPO",
+  "price": 3299,
+  "originalPrice": 3840,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070608.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a058b791d4068d868a4a99"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070611.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070614.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070617.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9c"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070620.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070623.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070626.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4a9f"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-piloton-ford-galaxy-2-2006-2015-2k-12gb-256gb-8-core-4g~100070629.jpg",
+    "alt": "Navigatie PilotOn Ford Galaxy 2 2006-2015 2K 12GB 256GB 8 Core 4G - Image 8",
+    "isPrimary": false,
+    "_id": "69a058b791d4068d868a4aa0"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000801498293"
+   },
+   {
+    "key": "MPN",
+    "value": "GALAXYII061512GBPO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Galaxy 2 (2006-2015)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Ford",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2015,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 56,
+  "viewCount": 7,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:29:11.009Z",
+  "updatedAt": "2026-08-31T14:46:02.659Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Ford Galaxy II 2006-2015 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Ford Galaxy II 2006-2015 2K 12+256GB 8C | PilotOn"
+ }
+]

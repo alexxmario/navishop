@@ -1,0 +1,2164 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06142K12GBPO",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:35.117Z"
+  },
+  "_id": "69a0581b91d4068d868a3d63",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06142K12GBPO",
+  "price": 3299,
+  "originalPrice": 3955,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499726-805264650.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d593a123cd91dc7fe5d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499727-821001911.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe5e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499728-251341267.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe5f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-495282760.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe60"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-740970315.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe61"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-975110320.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe62"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-104378387.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe63"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-759250537.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe64"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-601602943.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe65"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-220981405.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe66"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-714500079.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe67"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-409029591.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe68"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-744710252.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe69"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-829139115.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-675814722.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-947063153.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499735-756348803.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-736953325.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-797814809.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe6f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-126452364.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe70"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-53168283.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe71"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-296594787.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe72"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-465782546.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe73"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-814249149.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe74"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499739-12677746.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe75"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-545845886.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe76"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-887999312.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe77"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-595306628.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe78"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-791626894.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe79"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501439-874509400.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe7a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501440-522945114.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d593a123cd91dc7fe7b"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000792924115"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06142K12GBPO"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 13,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:35.114Z",
+  "updatedAt": "2026-08-31T14:01:57.654Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06142K4GB8CORE",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:33.239Z"
+  },
+  "_id": "69a0581991d4068d868a3d4b",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06142K4GB8CORE",
+  "price": 2049,
+  "originalPrice": 2310,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499726-805264650.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d573a123cd91dc7fdc8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499727-821001911.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdc9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499728-251341267.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-495282760.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdcb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-740970315.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdcc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-975110320.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdcd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-104378387.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-759250537.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdcf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-601602943.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-220981405.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-714500079.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-409029591.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-744710252.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-829139115.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-675814722.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-947063153.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499735-756348803.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-736953325.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdd9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-797814809.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdda"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-126452364.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fddb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-53168283.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fddc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-296594787.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fddd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-465782546.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fdde"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-814249149.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fddf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499739-12677746.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-545845886.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-887999312.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-595306628.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-791626894.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501439-874509400.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501440-522945114.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d573a123cd91dc7fde6"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000434148763"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06142K4GB8CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 52,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:33.237Z",
+  "updatedAt": "2026-08-31T14:01:57.892Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06142K8GB8CORE.1",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:34.161Z"
+  },
+  "_id": "69a0581a91d4068d868a3d57",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06142K8GB8CORE.1",
+  "price": 2849,
+  "originalPrice": 3220,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499726-805264650.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d583a123cd91dc7fe12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499727-821001911.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499728-251341267.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-495282760.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499729-740970315.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe16"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-975110320.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe17"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499730-104378387.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe18"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-759250537.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe19"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499731-601602943.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-220981405.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-714500079.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499732-409029591.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-744710252.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499733-829139115.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe1f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-675814722.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe20"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499734-947063153.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe21"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499735-756348803.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe22"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-736953325.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe23"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499736-797814809.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe24"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-126452364.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe25"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499737-53168283.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe26"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-296594787.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe27"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-465782546.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe28"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499738-814249149.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe29"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516499739-12677746.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-545845886.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501436-887999312.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-595306628.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501438-791626894.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501439-874509400.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe2f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516501440-522945114.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d583a123cd91dc7fe30"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005808347261"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06142K8GB8CORE.1"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 12,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:34.159Z",
+  "updatedAt": "2026-08-31T14:01:58.232Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06142GB8CORE",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:28.531Z"
+  },
+  "_id": "69a0581491d4068d868a3d0f",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06142GB8CORE",
+  "price": 1220,
+  "originalPrice": 1420,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466148-143699491.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d343a123cd91dc7fcb5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466150-218034127.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466151-984883777.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466152-81779584.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466152-971721776.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466153-842789082.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466154-199300302.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcbb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466154-354552715.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcbc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466155-728116611.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcbd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466155-326493585.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcbe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466156-942903053.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcbf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466156-816504532.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466161-144272687.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466161-383006763.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466162-827935884.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466162-616909644.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466163-466905978.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466163-141263939.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466164-825686515.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466165-91186032.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466166-865401161.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcc9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466166-246168370.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466167-265862542.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fccb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466167-977726162.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fccc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516466168-796385820.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fccd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467321-239449373.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467322-521949288.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fccf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467323-281636589.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467324-692878185.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467324-603194402.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467325-956725582.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467326-160816584.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467326-353432838.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467327-730240439.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516467327-320005380.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d343a123cd91dc7fcd7"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001554722093"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06142GB8CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 20,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:28.529Z",
+  "updatedAt": "2026-08-31T14:01:58.437Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06142GB4CORE",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:26.680Z"
+  },
+  "_id": "69a0581291d4068d868a3cf7",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06142GB4CORE",
+  "price": 795,
+  "originalPrice": 995,
+  "discount": 20,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057201.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a0581291d4068d868a3cf8"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057204.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cf9"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057207.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cfa"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057210.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cfb"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057213.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cfc"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057216.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cfd"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-tt-2006-2014-9-inch-2gb-64gb-4-core~100057219.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a0581291d4068d868a3cfe"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4006197011245"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06142GB4CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 22,
+  "viewCount": 1,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:26.677Z",
+  "updatedAt": "2026-08-31T14:01:58.742Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06144GB8CORE",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:29.464Z"
+  },
+  "_id": "69a0581591d4068d868a3d1b",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06144GB8CORE",
+  "price": 1449,
+  "originalPrice": 1575,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419122-105392994.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d063a123cd91dc7fb33"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419123-989633345.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb34"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419124-153310627.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb35"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419125-14860135.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb36"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419125-688281129.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb37"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419126-196705879.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb38"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419127-777081045.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb39"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419127-273140751.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419128-611187711.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419128-406505548.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419129-435914589.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419129-444393571.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419130-788122278.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb3f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419130-181445669.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb40"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419130-292582235.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb41"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419131-162463939.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb42"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419131-560257068.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb43"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419132-625353936.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb44"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419132-924948307.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb45"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419132-26103412.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb46"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419133-914103627.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb47"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419133-90183852.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb48"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419134-305552566.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb49"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419134-454769632.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516419135-609435517.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420518-107596063.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420518-574649574.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420519-588783278.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420520-791759587.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb4f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420520-512031540.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb50"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420521-208783089.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb51"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420523-322058307.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb52"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420525-805014093.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb53"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420525-765090629.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb54"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420526-997555011.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb55"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420527-436156550.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb56"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516420527-443908916.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d063a123cd91dc7fb57"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001359941521"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06144GB8CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 12,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:29.460Z",
+  "updatedAt": "2026-08-31T14:01:58.948Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06146GB8CORE.1",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:30.395Z"
+  },
+  "_id": "69a0581691d4068d868a3d27",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06146GB8CORE.1",
+  "price": 1649,
+  "originalPrice": 1775,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448521-110136104.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4d233a123cd91dc7fbf6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448523-16762303.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbf7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448525-793650845.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbf8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448526-500785269.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbf9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448526-618413428.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbfa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448527-572894162.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbfb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448528-37713292.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbfc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448528-731313005.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbfd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448529-948241264.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbfe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448529-970918976.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fbff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448529-836859329.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc00"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448530-671152535.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc01"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448531-63514403.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc02"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448531-523250490.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc03"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448532-951051402.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc04"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448532-311443594.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc05"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448533-634413018.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc06"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448533-612065726.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc07"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448534-288687165.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc08"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448534-779522905.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc09"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448535-267697906.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448535-812959233.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448536-691873687.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448536-502250180.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516448537-401118081.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450387-31860747.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc0f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450387-270566774.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc10"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450388-791000429.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc11"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450392-741717601.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450392-933545661.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450393-812520923.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450393-597921450.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450394-195273217.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc16"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450396-109379495.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc17"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450397-269974042.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc18"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450397-372086484.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc19"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450398-999194123.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc1a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516450398-203389952.jpg",
+    "alt": "Navigatie PilotOn Audi TT 2006-2014 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4d233a123cd91dc7fc1b"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4009844334513"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06146GB8CORE.1"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 22,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:30.393Z",
+  "updatedAt": "2026-08-31T14:01:59.252Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "TT06148GB8CORE",
+    "categorii": "TT (2006-2014)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:26:31.349Z"
+  },
+  "_id": "69a0581791d4068d868a3d33",
+  "name": "Navigatie PilotOn Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "TT06148GB8CORE",
+  "price": 2635,
+  "originalPrice": 2835,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057096.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0581791d4068d868a3d34"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057099.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d35"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057102.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d36"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057105.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d37"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057108.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d38"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057111.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d39"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/4/navigatie-audi-tt-2006-2014-9-inch-8gb-128gb-8-core-4g~100057114.jpg",
+    "alt": "Navigatie Audi TT 2006-2014 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0581791d4068d868a3d3a"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000962089217"
+   },
+   {
+    "key": "MPN",
+    "value": "TT06148GB8CORE"
+   },
+   {
+    "key": "Product Type",
+    "value": "TT (2006-2014)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "Audi",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2006,
+    "yearTo": 2014,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 25,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:26:31.346Z",
+  "updatedAt": "2026-08-31T14:01:59.462Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație Audi TT 2006-2014 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație Audi TT 2006-2014 9\" 8+128GB 8C | PilotOn"
+ }
+]

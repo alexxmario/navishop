@@ -1,0 +1,44 @@
+[
+ {
+  "id": "69a0518f91d4068d8689ce38",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 12.3 Inch 8GB 256GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 12.3 Inch 8GB 256GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ },
+ {
+  "id": "69a0519091d4068d8689ce45",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 12.3 Inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 12.3 Inch 4GB 64GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ },
+ {
+  "id": "69a0526191d4068d8689d8cb",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 10.25 Inch 8GB 256GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 10.25 Inch 8GB 256GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ },
+ {
+  "id": "69a0526291d4068d8689d8d8",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 10.25 Inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 10.25 Inch 4GB 64GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ },
+ {
+  "id": "69cd48104c8a14cbed82b197",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 12.9 Inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 12.9 Inch 4GB 64GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ },
+ {
+  "id": "69cd48144c8a14cbed82b1e2",
+  "old": "Navigatie PilotOn BMW Seria 1 2012-2017 CIC 12.9 Inch 8GB 256GB 8 Core 4G",
+  "new": "Navigatie PilotOn BMW Seria 1 2012-2017 NBT EVO 12.9 Inch 8GB 256GB 8 Core 4G",
+  "old_base": "BMW Seria 1 2012-2017 CIC",
+  "new_base": "BMW Seria 1 2012-2017 NBT EVO"
+ }
+]

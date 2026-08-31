@@ -1,0 +1,2554 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E5399062K12PO",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:24:08.107Z"
+  },
+  "_id": "69a0578891d4068d868a30ad",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E5399062K12PO",
+  "price": 3299,
+  "originalPrice": 3995,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067925-430016820.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6363a8b358a2d41d363"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067927-710761913.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d364"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067928-817333584.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d365"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067930-974872782.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d366"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067931-619730080.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d367"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-375042323.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d368"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-390520884.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d369"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067933-972459433.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067934-313484287.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-915494712.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-683366428.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-892692164.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-334056154.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d36f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-526048090.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d370"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-444543914.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d371"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067937-509253556.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d372"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-402017663.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d373"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-856767803.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d374"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067939-551786326.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d375"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067940-858316607.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d376"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-733409515.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d377"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-181901134.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d378"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067942-8063148.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d379"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067943-163542512.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067944-23701808.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068255-218643976.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-576284731.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-736888489.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-176749707.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d37f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-897230441.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d380"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068258-919267552.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d381"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068259-196112423.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6363a8b358a2d41d382"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4009410172068"
+   },
+   {
+    "key": "MPN",
+    "value": "E5399062K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 34,
+  "viewCount": 8,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:24:08.104Z",
+  "updatedAt": "2026-08-29T16:43:44.087Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWE5399042K4",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:04:47.907Z"
+  },
+  "_id": "69a052ff91d4068d8689e067",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWE5399042K4",
+  "price": 2049,
+  "originalPrice": 2350,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067925-430016820.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6353a8b358a2d41d197"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067927-710761913.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d198"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067928-817333584.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d199"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067930-974872782.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067931-619730080.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-375042323.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-390520884.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067933-972459433.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067934-313484287.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d19f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-915494712.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-683366428.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-892692164.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-334056154.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-526048090.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-444543914.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067937-509253556.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-402017663.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-856767803.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067939-551786326.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067940-858316607.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-733409515.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-181901134.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067942-8063148.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067943-163542512.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067944-23701808.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068255-218643976.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-576284731.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-736888489.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-176749707.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-897230441.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068258-919267552.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068259-196112423.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d1b6"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005297216161"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWE5399042K4"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 28,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:04:47.904Z",
+  "updatedAt": "2026-08-29T16:43:44.280Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E5399062K8",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:11.206Z"
+  },
+  "_id": "69a0553391d4068d868a02ae",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E5399062K8",
+  "price": 2849,
+  "originalPrice": 3260,
+  "discount": 8,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067925-430016820.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6353a8b358a2d41d2a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067927-710761913.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067928-817333584.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067930-974872782.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067931-619730080.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-375042323.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067932-390520884.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067933-972459433.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067934-313484287.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-915494712.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-683366428.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067935-892692164.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-334056154.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-526048090.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067936-444543914.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067937-509253556.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-402017663.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067938-856767803.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067939-551786326.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067940-858316607.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-733409515.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067941-181901134.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067942-8063148.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067943-163542512.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2b9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067944-23701808.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2ba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068255-218643976.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-576284731.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068256-736888489.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-176749707.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068257-897230441.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068258-919267552.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068259-196112423.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2c1"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001035369151"
+   },
+   {
+    "key": "MPN",
+    "value": "E5399062K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 46,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:11.203Z",
+  "updatedAt": "2026-08-29T16:43:44.471Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E53990692O",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:39.086Z"
+  },
+  "_id": "69a0502791d4068d8689b33c",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E53990692O",
+  "price": 1260,
+  "originalPrice": 1460,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067396-547938532.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6353a8b358a2d41d316"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067400-272989714.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d317"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067401-175000059.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d318"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067401-153515614.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d319"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067402-594785044.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067403-205699509.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067404-299676046.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067404-160724678.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067405-441667328.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067405-551313142.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d31f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067406-978486541.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d320"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067395-476727813.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d315"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067407-433799517.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d321"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067407-51479530.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d322"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067409-933179563.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d323"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067411-236327633.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d324"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067411-655151257.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d325"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067412-619688682.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d326"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067413-1639751.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d327"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067413-172746622.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d328"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-625047868.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d329"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-786763939.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-951948119.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067415-35248542.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067418-183394173.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068933-612866975.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068935-504507776.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d32f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068936-54442771.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d330"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068936-606877100.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d331"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-428672431.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d332"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-936547410.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d333"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-991924107.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d334"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068938-756141880.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d335"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068938-337499072.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d336"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068939-779790916.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d337"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068939-869954265.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d338"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068940-112272623.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d339"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005729041330"
+   },
+   {
+    "key": "MPN",
+    "value": "E53990692O"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 17,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:39.083Z",
+  "updatedAt": "2026-08-29T16:43:44.677Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E53990692Q",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:38.117Z"
+  },
+  "_id": "69a0502691d4068d8689b330",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E53990692Q",
+  "price": 830,
+  "originalPrice": 1030,
+  "discount": 19,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067396-547938532.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "6a81f6353a8b358a2d41d226"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067400-272989714.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d227"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067401-175000059.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d228"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067401-153515614.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d229"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067402-594785044.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067403-205699509.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067404-299676046.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067404-160724678.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067405-441667328.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067405-551313142.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d22f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067406-978486541.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d230"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067395-476727813.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d225"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067407-433799517.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d231"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067407-51479530.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d232"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067409-933179563.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d233"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067411-236327633.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d234"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067411-655151257.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d235"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067412-619688682.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d236"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067413-1639751.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d237"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067413-172746622.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d238"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-625047868.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d239"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-786763939.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067414-951948119.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067415-35248542.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902067418-183394173.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068933-612866975.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068935-504507776.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d23f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068936-54442771.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d240"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068936-606877100.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d241"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-428672431.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d242"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-936547410.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d243"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068937-991924107.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d244"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068938-756141880.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d245"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068938-337499072.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d246"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068939-779790916.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d247"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068939-869954265.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d248"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068940-112272623.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d249"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4006329847902"
+   },
+   {
+    "key": "MPN",
+    "value": "E53990692Q"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 11,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:38.115Z",
+  "updatedAt": "2026-08-29T16:43:44.867Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E53990694",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:40.060Z"
+  },
+  "_id": "69a0502891d4068d8689b348",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E53990694",
+  "price": 1449,
+  "originalPrice": 1615,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068121-827081611.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6353a8b358a2d41d27b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068126-799442605.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d27c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068127-254053756.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d27d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068128-61308683.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d27e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068129-253652460.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d27f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068129-382986805.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d280"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068130-877998562.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d281"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068131-942722732.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d282"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068131-107607369.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d283"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068132-288386659.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d284"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068133-436291843.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d285"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068133-610109535.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d286"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068134-52258014.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d287"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068135-538519155.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d288"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068135-528736474.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d289"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068136-518893664.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068138-434390953.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068138-778342149.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068139-302690017.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068140-894504122.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068140-689087880.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d28f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068141-959313229.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d290"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068141-55679714.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d291"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068142-411650607.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d292"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068142-577499981.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d293"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068578-117642739.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d294"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068579-223686613.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d295"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068580-849606155.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d296"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068580-772282499.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d297"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068581-275154156.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d298"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068581-551664598.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d299"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068582-836289658.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068583-426519419.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068584-905452414.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068584-584684506.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068585-846383532.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068585-828513932.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d29f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902068586-767964933.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6353a8b358a2d41d2a0"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001016800222"
+   },
+   {
+    "key": "MPN",
+    "value": "E53990694"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 11,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:40.057Z",
+  "updatedAt": "2026-08-29T16:43:45.055Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E5399066",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:53.196Z"
+  },
+  "_id": "69a0564d91d4068d868a1a15",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E5399066",
+  "price": 1649,
+  "originalPrice": 1815,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-486710665.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6393a8b358a2d41d5a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070379-945286698.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070380-577519697.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070381-353078868.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070381-594475307.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070382-991166979.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070382-285560748.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-590113648.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-629231726.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070384-498686348.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070378-221134356.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5a1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070384-865297796.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-305375447.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-485220901.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-188409091.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-674350247.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-911630566.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-786151713.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070387-776518214.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070387-594135951.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070388-644939540.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070388-216903930.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-669430998.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-573282487.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-981677742.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5b9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071826-164870173.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5ba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071828-284231383.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071828-324807429.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071829-440290263.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071829-428292549.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071830-840977286.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071830-90985856.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071831-329247425.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071831-834619115.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071832-967800434.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071832-389163644.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071833-813938530.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6393a8b358a2d41d5c5"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005878646325"
+   },
+   {
+    "key": "MPN",
+    "value": "E5399066"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 35,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:53.192Z",
+  "updatedAt": "2026-08-29T16:43:45.247Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E53990698",
+    "categorii": "X5 E53 (2000-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:41.022Z"
+  },
+  "_id": "69a0502991d4068d8689b354",
+  "name": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x5-e53-1999-2006-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E53990698",
+  "price": 2670,
+  "originalPrice": 2870,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-486710665.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a81f6383a8b358a2d41d527"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070379-945286698.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d521"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070380-577519697.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d522"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070381-353078868.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d523"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070381-594475307.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d524"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070382-991166979.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d525"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070382-285560748.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d526"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-590113648.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d528"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070383-629231726.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d529"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070384-498686348.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070378-221134356.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d520"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070384-865297796.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-305375447.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-485220901.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070385-188409091.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-674350247.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d52f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-911630566.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d530"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070386-786151713.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d531"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070387-776518214.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d532"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070387-594135951.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d533"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070388-644939540.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d534"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070388-216903930.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d535"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-669430998.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d536"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-573282487.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d537"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902070389-981677742.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d538"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071826-164870173.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d539"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071828-284231383.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071828-324807429.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071829-440290263.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071829-428292549.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071830-840977286.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071830-90985856.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d53f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071831-329247425.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d540"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071831-834619115.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d541"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071832-967800434.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d542"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071832-389163644.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d543"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1786902071833-813938530.jpg",
+    "alt": "Navigatie PilotOn BMW X5 E53 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a81f6383a8b358a2d41d544"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003406703014"
+   },
+   {
+    "key": "MPN",
+    "value": "E53990698"
+   },
+   {
+    "key": "Product Type",
+    "value": "X5 E53 (2000-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 38,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:41.019Z",
+  "updatedAt": "2026-08-29T16:43:45.432Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X5 E53 1999-2006 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X5 E53 1999-2006 9\" 8+128GB 8C | PilotOn"
+ }
+]

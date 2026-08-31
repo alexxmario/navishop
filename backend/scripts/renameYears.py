@@ -32,7 +32,7 @@ LOG = os.path.join(HERE, 'rename-years-log.jsonl')
 
 # configuratia incepe la primul dintre aceste jetoane; tot ce e inainte e "baza"
 CFG = re.compile(r'\s+(?:2K(?:\s+QLED)?(?:\s+(?:9|10)\s+Inch)?'
-                 r'|(?:7|8|9|10|9\.7|8\.8|10\.25|12\.9)\s*(?:inch|Inch)(?:\s+QLED)?)\s')
+                 r'|(?:7|8|9|10|9\.7|8\.8|10\.25|12\.3|12\.9)\s*(?:inch|Inch)(?:\s+QLED)?)\s')
 PREFIX = 'Navigatie PilotOn '
 TESLA = 'Tip Tesla '
 

@@ -1,0 +1,101 @@
+{"ts": "2026-08-28T18:55:49", "event": "login-ok"}
+{"ts": "2026-08-28T18:55:49", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-2k-12gb-256gb-8-core", "sku": "LT3061612GB2KPO", "price": 3299, "images": 32}
+{"ts": "2026-08-28T18:55:49", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-2k-4gb-64gb-8-core", "sku": "LT306164GB2KPO", "price": 2049, "images": 32}
+{"ts": "2026-08-28T18:55:50", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-2k-8gb-256gb-8-core", "sku": "LT306168GB2KPO", "price": 2849, "images": 32}
+{"ts": "2026-08-28T18:55:50", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-2gb-32gb-4-core", "sku": "LT306162GBQPO", "price": 899, "images": 37}
+{"ts": "2026-08-28T18:55:50", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-4gb-64gb-4-core", "sku": "LT306164GBQPO", "price": 1049, "images": 37}
+{"ts": "2026-08-28T18:55:51", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-4gb-64gb-8-core", "sku": "LT306164GBOPO", "price": 1449, "images": 37}
+{"ts": "2026-08-28T18:55:51", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-4gb-64gb-8core", "sku": "LT306164GBOPO2", "price": 1649, "images": 37}
+{"ts": "2026-08-28T18:55:51", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-6gb-128gb-8-core", "sku": "LT306166GBOPO", "price": 1649, "images": 37}
+{"ts": "2026-08-28T18:55:52", "event": "creat", "slug": "navigatie-piloton-vw-lt3-2006-2016-9-inch-8gb-256gb-8-core", "sku": "LT306168GBOPO", "price": 2849, "images": 37}
+{"ts": "2026-08-29T16:24:29", "event": "login-ok"}
+{"ts": "2026-08-29T16:24:30", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f22-f87-nbt-2012-2021-12-9-inch-4gb-64gb-8-core-4g", "sku": "F22F87NBT1294GB", "price": 3295, "images": 28}
+{"ts": "2026-08-29T16:24:30", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f22-f87-nbt-2012-2021-12-9-inch-8gb-256gb-8-core-4g", "sku": "F22F87NBT1298GB", "price": 3615, "images": 28}
+{"ts": "2026-08-29T16:25:23", "event": "login-ok"}
+{"ts": "2026-08-29T16:25:23", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f22-f87-nbt-evo-2012-2021-12-9-inch-4gb-64gb-8-core-4g", "sku": "F22F87EVO1294GB", "price": 3595, "images": 28}
+{"ts": "2026-08-29T16:25:23", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f22-f87-nbt-evo-2012-2021-12-9-inch-8gb-256gb-8-core-4g", "sku": "F22F87EVO1298GB", "price": 3915, "images": 28}
+{"ts": "2026-08-29T17:16:29", "event": "login-ok"}
+{"ts": "2026-08-29T17:16:29", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f23-nbt-2014-2021-12-9-inch-4gb-64gb-8-core-4g", "sku": "F23NBT1294GB", "price": 3295, "images": 28}
+{"ts": "2026-08-29T17:16:30", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f23-nbt-2014-2021-12-9-inch-8gb-256gb-8-core-4g", "sku": "F23NBT1298GB", "price": 3615, "images": 28}
+{"ts": "2026-08-29T17:16:51", "event": "login-ok"}
+{"ts": "2026-08-29T17:16:51", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f23-nbt-evo-2014-2021-12-9-inch-4gb-64gb-8-core-4g", "sku": "F23EVO1294GB", "price": 3595, "images": 28}
+{"ts": "2026-08-29T17:16:51", "event": "creat", "slug": "navigatie-piloton-bmw-seria-2-f23-nbt-evo-2014-2021-12-9-inch-8gb-256gb-8-core-4g", "sku": "F23EVO1298GB", "price": 3915, "images": 28}
+{"ts": "2026-08-29T18:29:33", "event": "login-ok"}
+{"ts": "2026-08-29T18:29:33", "event": "creat", "slug": "navigatie-piloton-bmw-seria-4-nbt-2013-2021-10-25-inch-8gb-256gb-8-core-4g", "sku": "SERIA4NBT10258GB", "price": 2795, "images": 25}
+{"ts": "2026-08-29T18:30:49", "event": "login-ok"}
+{"ts": "2026-08-29T18:30:50", "event": "creat", "slug": "navigatie-piloton-bmw-seria-3-f34-nbt-2011-2017-12-9-inch-4gb-64gb-8-core-4", "sku": "F34NBT1294GB", "price": 3295, "images": 29}
+{"ts": "2026-08-29T18:30:50", "event": "creat", "slug": "navigatie-piloton-bmw-seria-3-f34-nbt-2011-2017-12-9-inch-8gb-256gb-8-core-4g", "sku": "F34NBT1298GB", "price": 3615, "images": 29}
+{"ts": "2026-08-29T18:31:11", "event": "login-ok"}
+{"ts": "2026-08-29T18:31:11", "event": "creat", "slug": "navigatie-piloton-bmw-seria-3-f34-evo-2011-2017-12-9-inch-4gb-64gb-8-core-4", "sku": "F34EVO1294GB", "price": 3595, "images": 29}
+{"ts": "2026-08-29T18:31:11", "event": "creat", "slug": "navigatie-piloton-bmw-seria-3-f34-evo-2011-2017-12-9-inch-8gb-256gb-8-core-4g", "sku": "F34EVO1298GB", "price": 3915, "images": 29}
+{"ts": "2026-08-29T19:20:32", "event": "login-ok"}
+{"ts": "2026-08-29T19:20:33", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-10-25-inch-4gb-64gb-8-core-4g", "sku": "X3E83CIC10254GB", "price": 2475, "images": 26}
+{"ts": "2026-08-29T19:20:33", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-10-25-inch-8gb-256gb-8-core-4g", "sku": "X3E83CIC10258GB", "price": 2795, "images": 26}
+{"ts": "2026-08-29T19:20:33", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-12-3-inch-4gb-64gb-8-core-4g", "sku": "X3E83CIC1234GB", "price": 2795, "images": 26}
+{"ts": "2026-08-29T19:20:33", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-12-3-inch-8gb-256gb-8-core-4g", "sku": "X3E83CIC1238GB", "price": 3115, "images": 26}
+{"ts": "2026-08-29T19:20:34", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-12-9-inch-4gb-64gb-8-core-4g", "sku": "X3E83CIC1294GB", "price": 3295, "images": 28}
+{"ts": "2026-08-29T19:20:34", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-cic-12-9-inch-8gb-256gb-8-core-4g", "sku": "X3E83CIC1298GB", "price": 3615, "images": 28}
+{"ts": "2026-08-29T19:20:56", "event": "login-ok"}
+{"ts": "2026-08-29T19:20:56", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-10-25-inch-4gb-64gb-8-core-4g", "sku": "X3E83NSJ10254GB", "price": 2775, "images": 27}
+{"ts": "2026-08-29T19:20:57", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-10-25-inch-8gb-256gb-8-core-4g", "sku": "X3E83NSJ10258GB", "price": 3095, "images": 27}
+{"ts": "2026-08-29T19:20:57", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-12-3-inch-4gb-64gb-8-core-4g", "sku": "X3E83NSJ1234GB", "price": 3095, "images": 27}
+{"ts": "2026-08-29T19:20:57", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-12-3-inch-8gb-256gb-8-core-4g", "sku": "X3E83NSJ1238GB", "price": 3415, "images": 27}
+{"ts": "2026-08-29T19:20:58", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-12-9-inch-4gb-64gb-8-core-4g", "sku": "X3E83NSJ1294GB", "price": 3595, "images": 29}
+{"ts": "2026-08-29T19:20:58", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-nsj-12-9-inch-8gb-256gb-8-core-4g", "sku": "X3E83NSJ1298GB", "price": 3915, "images": 29}
+{"ts": "2026-08-29T19:21:20", "event": "login-ok"}
+{"ts": "2026-08-29T19:21:20", "event": "creat", "slug": "navigatie-piloton-bmw-x3-e83-cic-2003-2011-10-25-inch-4gb-64gb-8-core-4g", "sku": "X3E83CIC10254GB2", "price": 2475, "images": 25}
+{"ts": "2026-08-29T20:29:36", "event": "login-ok"}
+{"ts": "2026-08-29T20:29:36", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-2003-2012-2k-9-inch-12gb-256gb-8-core", "sku": "VITO03129I12GB2KPO", "price": 3299, "images": 32}
+{"ts": "2026-08-29T20:29:37", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-2003-2012-2k-9-inch-4gb-64gb-8-core", "sku": "VITO03129I4GB2KPO", "price": 2049, "images": 32}
+{"ts": "2026-08-29T20:29:37", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-2003-2012-2k-9-inch-8gb-256gb-8-core", "sku": "VITO03129I8GB2KPO", "price": 2849, "images": 32}
+{"ts": "2026-08-31T16:00:54", "event": "login-ok"}
+{"ts": "2026-08-31T16:00:55", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-viano-2003-2014-2k-9-inch-12gb-256gb-8-core", "sku": "VIANO03149I12GB2KPO", "price": 3299, "images": 32}
+{"ts": "2026-08-31T16:00:55", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-viano-2003-2014-2k-9-inch-4gb-64gb-8-core", "sku": "VIANO03149I4GB2KPO", "price": 2049, "images": 32}
+{"ts": "2026-08-31T16:00:56", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-viano-2003-2014-2k-9-inch-8gb-256gb-8-core", "sku": "VIANO03149I8GB2KPO", "price": 2849, "images": 32}
+{"ts": "2026-08-31T16:21:20", "event": "login-ok"}
+{"ts": "2026-08-31T16:21:21", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-3-2012-2021-7-inch-2gb-64gb-4core", "sku": "VITO3122172GB", "price": 849, "images": 26}
+{"ts": "2026-08-31T16:21:21", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-3-2012-2021-7-inch-4gb-64gb-4core", "sku": "VITO3122174GB", "price": 1049, "images": 26}
+{"ts": "2026-08-31T16:21:21", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-3-2012-2021-7-inch-6gb-128gb-8-core", "sku": "VITO3122176GB", "price": 1549, "images": 26}
+{"ts": "2026-08-31T16:21:44", "event": "login-ok"}
+{"ts": "2026-08-31T16:21:45", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-viano-w639-2010-2015-7-inch-2gb-64gb-4core", "sku": "MERCEDESBENZ101572GB", "price": 849, "images": 26}
+{"ts": "2026-08-31T16:21:45", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-viano-w639-2010-2015-7-inch-4gb-64gb-4core", "sku": "MERCEDESBENZ101574GB", "price": 1049, "images": 26}
+{"ts": "2026-08-31T16:21:45", "event": "creat", "slug": "navigatie-piloton-mercedes-benz-vito-viano-w639-2010-2015-7-inch-6gb-128gb-8-core", "sku": "MERCEDESBENZ101576GB", "price": 1549, "images": 26}
+{"ts": "2026-08-31T16:32:22", "event": "login-ok"}
+{"ts": "2026-08-31T16:32:22", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-hn-r-12-15-12-3-inch-4gb-64gb-8-core-4g", "sku": "A71018HNR1234GB", "price": 3130, "images": 27}
+{"ts": "2026-08-31T16:32:22", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-hn-r-12-15-12-3-inch-8gb-256gb-8-core-4g", "sku": "A71018HNR1238GB", "price": 3450, "images": 27}
+{"ts": "2026-08-31T16:32:23", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-hn-r-12-15-9-inch-4gb-64gb-8-core-4g", "sku": "A71018HNR94GB", "price": 3130, "images": 25}
+{"ts": "2026-08-31T16:32:23", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-hn-r-12-15-9-inch-8gb-128gb-8-core-4g", "sku": "A71018HNR98GB", "price": 3450, "images": 25}
+{"ts": "2026-08-31T16:32:46", "event": "login-ok"}
+{"ts": "2026-08-31T16:32:47", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-mhi2-16-19-12-3-inch-4gb-64gb-8-core-4g", "sku": "A71018MHI21234GB", "price": 3130, "images": 27}
+{"ts": "2026-08-31T16:32:47", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-mhi2-16-19-12-3-inch-8gb-256gb-8-core-4g", "sku": "A71018MHI21238GB", "price": 3450, "images": 27}
+{"ts": "2026-08-31T16:32:47", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-mhi2-16-19-9-inch-4gb-64gb-8-core-4g", "sku": "A71018MHI294GB", "price": 3130, "images": 25}
+{"ts": "2026-08-31T16:32:48", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-mhi2-16-19-9-inch-8gb-128gb-8-core-4g", "sku": "A71018MHI298GB", "price": 3450, "images": 25}
+{"ts": "2026-08-31T16:33:10", "event": "login-ok"}
+{"ts": "2026-08-31T16:33:10", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-rmc-12-15-12-3-inch-4gb-64gb-8-core-4g", "sku": "A71018RMC1234GB", "price": 3130, "images": 27}
+{"ts": "2026-08-31T16:33:11", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-rmc-12-15-12-3-inch-8gb-256gb-8-core-4g", "sku": "A71018RMC1238GB", "price": 3450, "images": 27}
+{"ts": "2026-08-31T16:33:11", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-rmc-12-15-9-inch-4gb-64gb-8-core-4g", "sku": "A71018RMC94GB", "price": 3130, "images": 25}
+{"ts": "2026-08-31T16:33:11", "event": "creat", "slug": "navigatie-piloton-audi-a7-2010-2018-rmc-12-15-9-inch-8gb-128gb-8-core-4g", "sku": "A71018RMC98GB", "price": 3450, "images": 25}
+{"ts": "2026-08-31T18:36:24", "event": "login-ok"}
+{"ts": "2026-08-31T18:36:25", "event": "eroare", "slug": "navigatie-piloton-opel-corsa-c-2000-2006-7-inch-2gb-32gb-4core", "error": "400 {\"message\":\"slug already exists\"}"}
+{"ts": "2026-08-31T18:37:19", "event": "login-ok"}
+{"ts": "2026-08-31T18:37:20", "event": "creat-varianta", "slug": "navigatie-piloton-opel-corsa-c-2000-2006-7-inch-2gb-32gb-4core-po", "sku": "OPELCORSAC0006-JOS041472GB", "price": 849, "images": 23}
+{"ts": "2026-08-31T19:08:38", "event": "login-ok"}
+{"ts": "2026-08-31T19:08:39", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-2k-12gb-256gb-8-core", "sku": "DUSTER1013BLK12GB2KPO2", "price": 3299, "images": 30}
+{"ts": "2026-08-31T19:08:40", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-2k-4gb-64gb-8-core", "sku": "DUSTER1013BLK4GB2KPO", "price": 2049, "images": 30}
+{"ts": "2026-08-31T19:08:40", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-2k-8gb-256gb-8-core", "sku": "DUSTER1013BLK8GB2KPO", "price": 2849, "images": 30}
+{"ts": "2026-08-31T19:08:41", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-2gb-32gb-4-core", "sku": "DUSTER1013BLK2GBQPO", "price": 899, "images": 35}
+{"ts": "2026-08-31T19:08:41", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-4gb-64gb-4-core", "sku": "DUSTER1013BLK4GBQPO", "price": 1049, "images": 36}
+{"ts": "2026-08-31T19:08:42", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-4gb-64gb-8-core", "sku": "DUSTER1013BLK4GBOPO", "price": 1449, "images": 36}
+{"ts": "2026-08-31T19:08:42", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-4gb-64gb-8core", "sku": "DUSTER1013BLK4GBOPO2", "price": 1649, "images": 36}
+{"ts": "2026-08-31T19:08:43", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-6gb-128gb-8-core", "sku": "DUSTER1013BLK6GBOPO", "price": 1649, "images": 36}
+{"ts": "2026-08-31T19:08:43", "event": "creat", "slug": "navigatie-piloton-dacia-duster-2010-2013-black-9-inch-8gb-256gb-8-core", "sku": "DUSTER1013BLK8GBOPO", "price": 2849, "images": 36}
+{"ts": "2026-08-31T19:09:09", "event": "login-ok"}
+{"ts": "2026-08-31T19:09:09", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-2k-12gb-256gb-8-core", "sku": "SANDERO10813BLK12GB2KPO2", "price": 3299, "images": 30}
+{"ts": "2026-08-31T19:09:10", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-2k-4gb-64gb-8-core", "sku": "SANDERO10813BLK4GB2KPO", "price": 2049, "images": 30}
+{"ts": "2026-08-31T19:09:10", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-2k-8gb-256gb-8-core", "sku": "SANDERO10813BLK8GB2KPO", "price": 2849, "images": 30}
+{"ts": "2026-08-31T19:09:11", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-2gb-32gb-4-core", "sku": "SANDERO10813BLK2GBQPO", "price": 899, "images": 35}
+{"ts": "2026-08-31T19:09:11", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-4gb-64gb-4-core", "sku": "SANDERO10813BLK4GBQPO", "price": 1049, "images": 36}
+{"ts": "2026-08-31T19:09:12", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-4gb-64gb-8-core", "sku": "SANDERO10813BLK4GBOPO", "price": 1449, "images": 36}
+{"ts": "2026-08-31T19:09:12", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-4gb-64gb-8core", "sku": "SANDERO10813BLK4GBOPO2", "price": 1649, "images": 36}
+{"ts": "2026-08-31T19:09:13", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-6gb-128gb-8-core", "sku": "SANDERO10813BLK6GBOPO", "price": 1649, "images": 36}
+{"ts": "2026-08-31T19:09:13", "event": "creat", "slug": "navigatie-piloton-dacia-sandero-1-2008-2013-black-9-inch-8gb-256gb-8-core", "sku": "SANDERO10813BLK8GBOPO", "price": 2849, "images": 36}

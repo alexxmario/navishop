@@ -1871,3 +1871,18 @@
 {"ts": "2026-08-18T17:27:46", "event": "creat", "slug": "navigatie-piloton-vw-caddy-3-2004-2015-ac-10-inch-8gb-256gb-8-core", "sku": "CADDY3AC0415108GBOPO", "price": 2849}
 {"ts": "2026-08-18T17:27:46", "event": "creat", "slug": "navigatie-piloton-honda-accord-viii-2008-2013-10-inch-8gb-256gb-8-core", "sku": "HONDAACCORDV0813108GBOPO", "price": 2849}
 {"ts": "2026-08-18T17:27:47", "event": "creat", "slug": "navigatie-piloton-honda-civic-viii-hatchback-2005-2011-10-inch-8gb-256gb-8-core", "sku": "HONDACIVICVI0511108GBOPO", "price": 2849}
+{"ts": "2026-08-28T18:07:14", "event": "eroare", "slug": "navigatie-piloton-vw-crafter-2006-2016-2k-8gb-256gb-8-core", "error": "400 {\"message\":\"slug already exists\"}"}
+{"ts": "2026-08-28T18:08:35", "event": "eroare", "slug": "navigatie-piloton-vw-crafter-2006-2016-2k-8gb-256gb-8-core-po", "error": "400 {\"message\":\"sku already exists\"}"}
+{"ts": "2026-08-28T18:09:55", "event": "creat-varianta", "slug": "navigatie-piloton-vw-crafter-2006-2016-2k-8gb-256gb-8-core-po", "sku": "CRAFTER06168GB2KPO2", "price": 2849}
+{"ts": "2026-08-28T18:15:40", "event": "creat", "slug": "navigatie-piloton-vw-golf-7-2012-2019-grey-2k-10-inch-12gb-256gb-8-core", "sku": "VWGOLF7201122012GB2KPO", "price": 3299}
+{"ts": "2026-08-28T18:39:44", "event": "creat-varianta", "slug": "navigatie-piloton-vw-golf-plus-2005-2014-9-inch-8gb-256gb-8-core", "sku": "GOLFPLUSNFL04148GBOPO2", "price": 2849}
+{"ts": "2026-08-28T19:13:03", "event": "creat", "slug": "navigatie-piloton-vw-polo-2001-2009-mica-2k-9-inch-12gb-256gb-8-core", "sku": "VWPOLO2001011212GB2KPO", "price": 3299}
+{"ts": "2026-08-28T19:13:47", "event": "creat", "slug": "navigatie-piloton-vw-polo-6r-2009-2018-silver-2k-9-inch-12gb-256gb-8-core", "sku": "VWPOLO6R20091812GB2KPO", "price": 3299}
+{"ts": "2026-08-28T20:29:48", "event": "creat", "slug": "navigatie-piloton-bmw-seria-1-2004-2011-clima-2k-9-inch-12gb-256gb-8-core", "sku": "BMWSERIA12041112GB2KPO", "price": 3299}
+{"ts": "2026-08-31T18:10:33", "event": "creat", "slug": "navigatie-piloton-ford-ranger-2015-2022-black-2k-9-inch-12gb-256gb-8-core", "sku": "FORDRANGER15224GB2KPO212", "price": 3299}
+{"ts": "2026-08-31T18:12:52", "event": "creat", "slug": "navigatie-piloton-ford-ranger-2015-2022-silver-2k-9-inch-12gb-256gb-8-core", "sku": "FORDRANGER152212GB2KPO", "price": 3299}
+{"ts": "2026-08-31T18:14:09", "event": "creat-varianta", "slug": "navigatie-piloton-ford-ranger-2011-2016-9-inch-6gb-128gb-8-core-po", "sku": "RANGERFL11166GBOPO2", "price": 1649}
+{"ts": "2026-08-31T18:14:11", "event": "creat-varianta", "slug": "navigatie-piloton-ford-ranger-2011-2016-2k-8gb-256gb-8-core-po", "sku": "RANGERFL11168GB2KPO2", "price": 2849}
+{"ts": "2026-08-31T18:14:34", "event": "creat", "slug": "navigatie-piloton-ford-ranger-2011-2016-9-inch-4gb-64gb-8core", "sku": "RANGERFL11166GBOPO24", "price": 1649}
+{"ts": "2026-08-31T19:44:00", "event": "creat", "slug": "navigatie-piloton-peugeot-2008-2013-2020-2k-9-inch-12gb-256gb-8-core", "sku": "PEUGEOT201132012GB2KPO", "price": 3299}
+{"ts": "2026-08-31T19:45:30", "event": "creat", "slug": "navigatie-piloton-peugeot-2008-2019-2022-2k-9-inch-12gb-256gb-8-core", "sku": "PEUGEOT201192212GB2KPO", "price": 3299}

@@ -1,0 +1,2206 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E3995032K12PO",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:24:05.222Z"
+  },
+  "_id": "69a0578591d4068d868a3086",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E3995032K12PO",
+  "price": 3299,
+  "originalPrice": 3880,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642117-902979732.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4de83a123cd91dc803c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642119-662343529.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642121-451907902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642122-298638175.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-602533299.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-797726746.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642124-800251435.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642125-858332259.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642126-906527877.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-523231830.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-383767493.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-238872630.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-754117682.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-557151252.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-14764702.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642130-694452791.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642131-408832294.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642134-616715582.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642135-162718280.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642136-545658857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642137-275053011.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642138-979051258.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-347344266.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-132410707.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642140-218128479.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803d9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645165-670873239.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803da"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-583337945.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803db"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-159733783.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803dc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-69728574.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803dd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-254056510.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803de"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-163505372.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803df"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-629791235.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc803e0"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004641697632"
+   },
+   {
+    "key": "MPN",
+    "value": "E3995032K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 16,
+  "viewCount": 6,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:24:05.219Z",
+  "updatedAt": "2026-08-29T16:10:05.745Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E3995034O",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:04:07.875Z"
+  },
+  "_id": "69a052d791d4068d8689de6f",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E3995034O",
+  "price": 2049,
+  "originalPrice": 2235,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642117-902979732.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4de73a123cd91dc80328"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642119-662343529.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80329"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642121-451907902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642122-298638175.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-602533299.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-797726746.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642124-800251435.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642125-858332259.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8032f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642126-906527877.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80330"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-523231830.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80331"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-383767493.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80332"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-238872630.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80333"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-754117682.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80334"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-557151252.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80335"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-14764702.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80336"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642130-694452791.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80337"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642131-408832294.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80338"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642134-616715582.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80339"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642135-162718280.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642136-545658857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642137-275053011.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642138-979051258.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-347344266.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-132410707.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc8033f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642140-218128479.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80340"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645165-670873239.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80341"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-583337945.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80342"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-159733783.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80343"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-69728574.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80344"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-254056510.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80345"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-163505372.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80346"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-629791235.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de73a123cd91dc80347"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003357867360"
+   },
+   {
+    "key": "MPN",
+    "value": "E3995034O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 28,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:04:07.872Z",
+  "updatedAt": "2026-08-29T16:10:05.952Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E3995032K8",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:13.994Z"
+  },
+  "_id": "69a0553591d4068d868a02d2",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E3995032K8",
+  "price": 2849,
+  "originalPrice": 3145,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642117-902979732.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4de83a123cd91dc80374"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642119-662343529.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80375"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642121-451907902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80376"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642122-298638175.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80377"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-602533299.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80378"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642123-797726746.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80379"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642124-800251435.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642125-858332259.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642126-906527877.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-523231830.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642127-383767493.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-238872630.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8037f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642128-754117682.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80380"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-557151252.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80381"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642129-14764702.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80382"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642130-694452791.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80383"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642131-408832294.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80384"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642134-616715582.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80385"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642135-162718280.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80386"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642136-545658857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80387"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642137-275053011.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80388"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642138-979051258.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80389"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-347344266.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642139-132410707.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516642140-218128479.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645165-670873239.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-583337945.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645166-159733783.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc8038f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-69728574.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80390"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645167-254056510.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80391"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-163505372.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80392"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516645168-629791235.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4de83a123cd91dc80393"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004856186396"
+   },
+   {
+    "key": "MPN",
+    "value": "E3995032K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 20,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:13.991Z",
+  "updatedAt": "2026-08-29T16:10:06.169Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E39950392O",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:34.274Z"
+  },
+  "_id": "69a0502291d4068d8689b300",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E39950392O",
+  "price": 1140,
+  "originalPrice": 1340,
+  "discount": 15,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756111-640141050.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e563a123cd91dc8073e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756113-498252870.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8073f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756114-673981600.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80740"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756114-568143756.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80741"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756115-811611884.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80742"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756116-513755663.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80743"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756116-108378094.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80744"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756117-762366337.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80745"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756118-185458299.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80746"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756118-73410272.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80747"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756119-223431351.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80748"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756122-102544212.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80749"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756122-291570236.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756123-33253115.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756123-471061257.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756124-113559416.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756125-161988652.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756125-537760823.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8074f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756126-705641398.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80750"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756126-49678587.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80751"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756127-459328270.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80752"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756127-786933862.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80753"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756128-891341966.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80754"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756129-892825697.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80755"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516756129-863810285.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80756"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757305-522581492.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80757"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757306-225965418.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80758"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757307-203656498.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80759"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757307-320601127.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757308-9092035.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757309-52394910.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757309-681385950.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757310-179350443.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757311-126512246.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc8075f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757311-820758447.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80760"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757313-21582719.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80761"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516757314-97464420.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e563a123cd91dc80762"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003828061808"
+   },
+   {
+    "key": "MPN",
+    "value": "E39950392O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 47,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:34.271Z",
+  "updatedAt": "2026-08-29T16:10:06.360Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWE39950392Q",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:33.297Z"
+  },
+  "_id": "69a0502191d4068d8689b2f4",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWE39950392Q",
+  "price": 750,
+  "originalPrice": 915,
+  "discount": 18,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058320.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a0502191d4068d8689b2f5"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058323.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2f6"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058326.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2f7"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058329.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2f8"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058332.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2f9"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058335.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2fa"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-bmw-seria-5-e39-1995-2003-9-inch-2gb-64gb-4-core~100058338.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a0502191d4068d8689b2fb"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000800755410"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWE39950392Q"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 37,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:33.295Z",
+  "updatedAt": "2026-08-29T16:10:06.553Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E39950394",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:35.249Z"
+  },
+  "_id": "69a0502391d4068d8689b30c",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E39950394",
+  "price": 1449,
+  "originalPrice": 1495,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708744-61577876.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e2d3a123cd91dc805b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708746-672875591.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708747-878857286.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708748-585361582.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708748-351425073.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708749-405014833.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708749-196458345.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708750-463524835.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805b9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708750-983506172.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805ba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708751-836217804.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708751-601626124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708752-129650167.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708753-942189728.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708754-815890909.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805bf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708754-179371124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708755-935599693.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708757-114646062.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708757-677905604.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708758-682598247.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708759-267940197.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708759-246322970.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708760-324990411.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708761-769307573.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708762-530253776.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805c9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516708762-622431142.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805ca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715169-912087584.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805cb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715170-262826441.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805cc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715171-560962933.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805cd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715171-626414588.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805ce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715172-19545694.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805cf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715172-985032481.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715173-806686308.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715174-48277169.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715174-50165058.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715175-171563992.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715175-33559225.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715177-318314486.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516715177-733555899.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e2d3a123cd91dc805d7"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005366168506"
+   },
+   {
+    "key": "MPN",
+    "value": "E39950394"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 25,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:35.246Z",
+  "updatedAt": "2026-08-29T16:10:06.756Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E3995036",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:50.339Z"
+  },
+  "_id": "69a0564a91d4068d868a19f1",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E3995036",
+  "price": 1649,
+  "originalPrice": 1695,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742665-157736132.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e493a123cd91dc80679"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742668-860996377.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742669-67992436.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742670-63276513.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742671-502569259.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742671-987761906.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742672-767969933.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8067f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742673-162317523.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80680"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742674-623178059.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80681"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742675-881462615.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80682"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742676-795319523.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80683"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742676-37798302.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80684"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742677-362986877.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80685"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742677-615235661.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80686"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742678-539449488.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80687"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742679-969465487.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80688"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742679-244239604.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80689"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742679-352358772.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742681-456134208.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742681-543242651.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742682-563114576.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742684-345798166.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742684-197462556.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8068f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742686-838750331.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80690"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516742686-54115024.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80691"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744367-333282891.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80692"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744368-829488342.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80693"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744369-891728547.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80694"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744369-184403911.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80695"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744370-86488469.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80696"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744371-679208825.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80697"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744372-491744015.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80698"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744373-463644225.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc80699"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744373-739039744.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744373-357090898.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744374-85058087.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744375-834349824.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744375-85530381.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516744375-284108702.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e493a123cd91dc8069f"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4008871701442"
+   },
+   {
+    "key": "MPN",
+    "value": "E3995036"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 27,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:50.336Z",
+  "updatedAt": "2026-08-29T16:10:06.954Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E39950398",
+    "categorii": "Seria 5 E39 (1995-2003)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:36.197Z"
+  },
+  "_id": "69a0502491d4068d8689b318",
+  "name": "Navigatie PilotOn BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E39950398",
+  "price": 2555,
+  "originalPrice": 2755,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/7/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058257.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0502491d4068d8689b319"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058260.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31a"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058263.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31b"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058266.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31c"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058269.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31d"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058272.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31e"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-5-e39-1995-2003-9-inch-8gb-128gb-8-core-4g~100058275.jpg",
+    "alt": "Navigatie BMW Seria 5 E39 1995-2003 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0502491d4068d8689b31f"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003086766750"
+   },
+   {
+    "key": "MPN",
+    "value": "E39950398"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 5 E39 (1995-2003)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1995,
+    "yearTo": 2003,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 30,
+  "viewCount": 2,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:36.195Z",
+  "updatedAt": "2026-08-29T16:10:07.153Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 5 E39 1995-2003 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 5 E39 1995-2003 9\" 8+128GB 8C | PilotOn"
+ }
+]

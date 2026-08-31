@@ -1,0 +1,4748 @@
+[
+ {
+  "id": "6a842ef9a83cbfb7d77043f7",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842ef9a83cbfb7d7704403",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842efaa83cbfb7d770440f",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842efaa83cbfb7d770441b",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842efba83cbfb7d7704427",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842efba83cbfb7d7704433",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a84509aa83cbfb7d7714096",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a845b78a83cbfb7d7719c71",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a84611aa83cbfb7d771f274",
+  "old": "Navigatie PilotOn VW Amarok 2016-2022 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Amarok 2010-2022 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Amarok 2016-2022",
+  "new_base": "VW Amarok 2010-2022"
+ },
+ {
+  "id": "6a842efea83cbfb7d7704487",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a842efea83cbfb7d7704493",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a842effa83cbfb7d770449f",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a842effa83cbfb7d77044ab",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a842f00a83cbfb7d77044b7",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a842f00a83cbfb7d77044c3",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a84509ba83cbfb7d7714108",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a845b79a83cbfb7d7719cd4",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "6a84611ba83cbfb7d771f2d9",
+  "old": "Navigatie PilotOn VW Bora 2004-2008 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Bora 1998-2006 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Bora 2004-2008",
+  "new_base": "VW Bora 1998-2006"
+ },
+ {
+  "id": "69f8adb14a702c67afa47944",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 RK 7 inch 4GB 64GB Quad Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 RK 7 inch 4GB 64GB Quad Core",
+  "old_base": "VW EOS 2006-2013 RK",
+  "new_base": "VW EOS 2006-2015 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47b3f",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 RK 7 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 RK 7 inch 2GB 32GB Quad Core",
+  "old_base": "VW EOS 2006-2013 RK",
+  "new_base": "VW EOS 2006-2015 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47d2f",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 8 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 8 inch 2GB 32GB Quad Core",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8adb14a702c67afa47f2d",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 8 inch 4GB 64GB Quad Core 4G",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 8 inch 4GB 64GB Quad Core 4G",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8adb14a702c67afa48128",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 9 inch QLED 4GB 64GB Octa Core 4G",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 9 inch QLED 4GB 64GB Octa Core 4G",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8adb14a702c67afa48315",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW EOS 2006-2013 RK",
+  "new_base": "VW EOS 2006-2015 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa484ff",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8adb14a702c67afa486e1",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8b123de21727057af6491",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8b123de21727057af6638",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "69f8b123de21727057af6828",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW EOS 2006-2013 BUTOANE TOUCH",
+  "new_base": "VW EOS 2006-2015 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6a26",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW EOS 2006-2013 BUTOANE TOUCH",
+  "new_base": "VW EOS 2006-2015 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6c1e",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW EOS 2006-2013 BUTOANE TOUCH",
+  "new_base": "VW EOS 2006-2015 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189d83",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 7 inch 4GB 64GB Quad Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 7 inch 4GB 64GB Quad Core",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "6a0465c8b2e00e74633f110d",
+  "old": "Navigatie PilotOn VW EOS 2006-2013 7 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW EOS 2006-2015 7 inch 2GB 32GB Quad Core",
+  "old_base": "VW EOS 2006-2013",
+  "new_base": "VW EOS 2006-2015"
+ },
+ {
+  "id": "6a842f05a83cbfb7d770455f",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a842f06a83cbfb7d770456b",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a842f06a83cbfb7d7704577",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a842f06a83cbfb7d7704583",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a842f07a83cbfb7d770458f",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a842f07a83cbfb7d770459b",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a84509da83cbfb7d7714190",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a845b7aa83cbfb7d7719d37",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6a84611da83cbfb7d771f33b",
+  "old": "Navigatie PilotOn VW Golf 2004-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 2004-2008 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 2004-2010",
+  "new_base": "VW Golf 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1811",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f181b",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1825",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f182f",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1839",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1843",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8adb14a702c67afa47962",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010 RK",
+  "new_base": "VW Golf 5 2004-2008 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47b5c",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010 RK",
+  "new_base": "VW Golf 5 2004-2008 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47d4d",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 8 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 8 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8adb14a702c67afa47f4b",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 8 inch 4GB 64GB 4 Core 4G",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 8 inch 4GB 64GB 4 Core 4G",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8adb14a702c67afa48145",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch QLED 4GB 64GB 8 Core 4G",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8adb14a702c67afa48332",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 5 2003-2010 RK",
+  "new_base": "VW Golf 5 2004-2008 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa4851b",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8adb14a702c67afa486ff",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8b123de21727057af6359",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8b123de21727057af64a9",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8b123de21727057af6655",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "69f8b123de21727057af6846",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010 BUTOANE TOUCH",
+  "new_base": "VW Golf 5 2004-2008 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6a44",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 5 2003-2010 BUTOANE TOUCH",
+  "new_base": "VW Golf 5 2004-2008 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6c3a",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 5 2003-2010 BUTOANE TOUCH",
+  "new_base": "VW Golf 5 2004-2008 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189eeb",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 7 inch 2GB 32GB 4Core",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a81f88f3a8b358a2d4220b9",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f88f3a8b358a2d4220c5",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f8903a8b358a2d4220d1",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f8903a8b358a2d4220dd",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f8903a8b358a2d4220e9",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f8913a8b358a2d4220f5",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a81f8bf3a8b358a2d422659",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BORA 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BORA 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 BORA",
+  "new_base": "VW Golf 5 2004-2008 BORA"
+ },
+ {
+  "id": "6a81f8bf3a8b358a2d422665",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BORA 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BORA 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 BORA",
+  "new_base": "VW Golf 5 2004-2008 BORA"
+ },
+ {
+  "id": "6a81f8c03a8b358a2d422671",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a81f8c03a8b358a2d42267d",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a81f8c03a8b358a2d422689",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a81f8c13a8b358a2d422695",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a845017a83cbfb7d7711486",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a845052a83cbfb7d7712810",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a84505ca83cbfb7d7712b8e",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 BORA 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 BORA 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 BORA",
+  "new_base": "VW Golf 5 2004-2008 BORA"
+ },
+ {
+  "id": "6a845b46a83cbfb7d77189eb",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a8460e9a83cbfb7d771e00f",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a846649a83cbfb7d771ffb9",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a846660a83cbfb7d7720797",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6a846bb9a83cbfb7d7721839",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010",
+  "new_base": "VW Golf 5 2004-2008"
+ },
+ {
+  "id": "6a846bcfa83cbfb7d7722068",
+  "old": "Navigatie PilotOn VW Golf 5 2003-2010 JETTA 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 5 2004-2008 JETTA 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 5 2003-2010 JETTA",
+  "new_base": "VW Golf 5 2004-2008 JETTA"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1889",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1893",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f189d",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18a7",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18b1",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18bb",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8adb14a702c67afa47980",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014 RK",
+  "new_base": "VW Golf 6 2008-2012 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47b79",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014 RK",
+  "new_base": "VW Golf 6 2008-2012 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47d6b",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 8 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 8 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8adb14a702c67afa47f69",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 8 inch 4GB 64GB 4 Core 4G",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 8 inch 4GB 64GB 4 Core 4G",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8adb14a702c67afa48162",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch QLED 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch QLED 4GB 64GB 8Core 4G",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8adb14a702c67afa4834f",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 6 2008-2014 RK",
+  "new_base": "VW Golf 6 2008-2012 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa48537",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8adb14a702c67afa4871d",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8b123de21727057af6377",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8b123de21727057af64c1",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8b123de21727057af6672",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "69f8b123de21727057af6864",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf 6 2008-2012 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6a62",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf 6 2008-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf 6 2008-2012 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6c56",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf 6 2008-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf 6 2008-2012 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189f09",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 7 inch 2GB 32GB 4Core",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6a845018a83cbfb7d77114b3",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6a845affa83cbfb7d7717063",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6a8460a1a83cbfb7d771c6b2",
+  "old": "Navigatie PilotOn VW Golf 6 2008-2014 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 6 2008-2012 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 6 2008-2014",
+  "new_base": "VW Golf 6 2008-2012"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18c5",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18cf",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18d9",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18e3",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18ed",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f18f7",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "69a0561491d4068d868a16e0",
+  "old": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2020 9.7 inch 2GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2019 9.7 inch 2GB 64GB 4 Core",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "69a0561591d4068d868a16ec",
+  "old": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2020 9.7 inch 2GB 32GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2019 9.7 inch 2GB 32GB 8 Core 4G",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "69a0561691d4068d868a16f9",
+  "old": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2020 9.7 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2019 9.7 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "69a0561791d4068d868a1706",
+  "old": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2020 9.7 inch 6GB 128GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla VW Golf 7 2012-2019 9.7 inch 6GB 128GB 8 Core 4G",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6a4e51463a123cd91dc839c2",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a4e51463a123cd91dc839ce",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a4e51473a123cd91dc839da",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 2K 10 Inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 2K 10 Inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a4e51473a123cd91dc839e6",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 2K 10 Inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 2K 10 Inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a4e51483a123cd91dc839f2",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a4e51493a123cd91dc839fe",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a845019a83cbfb7d77114df",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6a84664aa83cbfb7d771ffe9",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6a84665ca83cbfb7d772061d",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6a846bbaa83cbfb7d772186b",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020",
+  "new_base": "VW Golf 7 2012-2019"
+ },
+ {
+  "id": "6a846bcba83cbfb7d7721ee0",
+  "old": "Navigatie PilotOn VW Golf 7 2012-2020 GREY 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf 7 2012-2019 GREY 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf 7 2012-2020 GREY",
+  "new_base": "VW Golf 7 2012-2019 GREY"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1799",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f17a3",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f17ad",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f17b7",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f17c1",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f17cb",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8adb14a702c67afa4799e",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf Plus 2004-2014 RK",
+  "new_base": "VW Golf Plus 2005-2014 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47b96",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf Plus 2004-2014 RK",
+  "new_base": "VW Golf Plus 2005-2014 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47d89",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 8 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 8 inch 2GB 32GB Quad Core",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8adb14a702c67afa47f87",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 8 inch 4GB 64GB Quad Core 4G",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 8 inch 4GB 64GB Quad Core 4G",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8adb14a702c67afa4817f",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch QLED 4GB 64GB Octa Core 4G",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch QLED 4GB 64GB Octa Core 4G",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8adb14a702c67afa4836c",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf Plus 2004-2014 RK",
+  "new_base": "VW Golf Plus 2005-2014 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa48553",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8adb14a702c67afa4873b",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8b123de21727057af64d9",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8b123de21727057af668f",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69f8b123de21727057af6882",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Golf Plus 2004-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf Plus 2005-2014 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6a80",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Golf Plus 2004-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf Plus 2005-2014 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6c72",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Golf Plus 2004-2014 BUTOANE TOUCH",
+  "new_base": "VW Golf Plus 2005-2014 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189da1",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 7 inch 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 7 inch 4GB 64GB 4Core",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "69fb1269b2e00e74633e7f73",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 7 inch 2GB 32GB 4Core",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6a845017a83cbfb7d7711472",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6a845afea83cbfb7d771703a",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6a8460a1a83cbfb7d771c69e",
+  "old": "Navigatie PilotOn VW Golf Plus 2004-2014 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Golf Plus 2005-2014 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Golf Plus 2004-2014",
+  "new_base": "VW Golf Plus 2005-2014"
+ },
+ {
+  "id": "6900b416bd9c03aa564f197b",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1985",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f198f",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1999",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f19a3",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f19ad",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8adb14a702c67afa47908",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Jetta 2004-2011 RK",
+  "new_base": "VW Jetta 2006-2010 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47b05",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Jetta 2004-2011 RK",
+  "new_base": "VW Jetta 2006-2010 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47cf3",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 8 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 8 inch 2GB 32GB Quad Core",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8adb14a702c67afa47ef1",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 8 inch 4GB 64GB Quad Core 4G",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 8 inch 4GB 64GB Quad Core 4G",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8adb14a702c67afa480ee",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 9 inch QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 9 inch QLED 4GB 64GB 8 Core 4G",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8adb14a702c67afa482db",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Jetta 2004-2011 RK",
+  "new_base": "VW Jetta 2006-2010 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa484c7",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8adb14a702c67afa486a5",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8b123de21727057af6461",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8b123de21727057af65fe",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8b123de21727057af67ec",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Jetta 2004-2011 BUTOANE TOUCH",
+  "new_base": "VW Jetta 2006-2010 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af69ea",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Jetta 2004-2011 BUTOANE TOUCH",
+  "new_base": "VW Jetta 2006-2010 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6be6",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Jetta 2004-2011 BUTOANE TOUCH",
+  "new_base": "VW Jetta 2006-2010 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189d65",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 7 inch 4GB 64GB Quad Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 7 inch 4GB 64GB Quad Core",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "69f8b42eed92299aef189eaf",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 7 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 7 inch 2GB 32GB Quad Core",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a845019a83cbfb7d771150c",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a84664ba83cbfb7d7720019",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a846bbaa83cbfb7d772189d",
+  "old": "Navigatie PilotOn VW Jetta 2004-2011 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Jetta 2004-2011",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8913a8b358a2d422101",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 2GB 32GB 4CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8923a8b358a2d42210d",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 4CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8923a8b358a2d422119",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 8 Core",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8923a8b358a2d422125",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 6GB 128GB 8CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8933a8b358a2d422131",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 4GB 64GB 8CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a81f8933a8b358a2d42213d",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 8GB 256GB 8CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a845052a83cbfb7d771283d",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 2K 12GB 256GB 8CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a846660a83cbfb7d77207c7",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 4GB 64GB 8Core",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6a846bcfa83cbfb7d772209a",
+  "old": "Navigatie PilotOn VW Jetta 2006-2012 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Jetta 2006-2010 10 inch 8GB 256GB 8CORE",
+  "old_base": "VW Jetta 2006-2012",
+  "new_base": "VW Jetta 2006-2010"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a2f",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a39",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a43",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a4d",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a57",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a61",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69a051c591d4068d8689d106",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69a055ac91d4068d868a0e85",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 2GB 32GB 4Core 4G",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2992",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 2GB 32GB 4Core",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2b9f",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 4GB 64GB 8Core 4G",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2da7",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 4GB 64GB 4Core",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "69fe0b8ab2e00e74633ed1f1",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 7 inch 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 7 inch 4GB 64GB 4Core 4G",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6a84501aa83cbfb7d7711568",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6a845affa83cbfb7d7717095",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6a8460a1a83cbfb7d771c6e5",
+  "old": "Navigatie PilotOn VW Multivan T5 2003-2008 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Multivan T5 2003-2009 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Multivan T5 2003-2008",
+  "new_base": "VW Multivan T5 2003-2009"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a6b",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a75",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a7f",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a89",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a93",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1a9d",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589571",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589625",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020 RK",
+  "new_base": "VW Multivan T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a58967d",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020 RK",
+  "new_base": "VW Multivan T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5896d6",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 8 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 8 inch 2GB 32GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589730",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 8 inch 4GB 64GB 4 Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 8 inch 4GB 64GB 4 Core 4G",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a58977e",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589827",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Multivan T6 2015-2020 RK",
+  "new_base": "VW Multivan T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a58987e",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5898d7",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020 BUTOANE TOUCH",
+  "new_base": "VW Multivan T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589931",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020 BUTOANE TOUCH",
+  "new_base": "VW Multivan T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589987",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Multivan T6 2015-2020 BUTOANE TOUCH",
+  "new_base": "VW Multivan T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5899db",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589a33",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cfe52182bf68fa84fd3f",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a01cfe52182bf68fa84fd97",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch QLED 4GB 64GB 8 Core 4G",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a84501ba83cbfb7d7711594",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a845b00a83cbfb7d77170c7",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6a8460a2a83cbfb7d771c718",
+  "old": "Navigatie PilotOn VW Multivan T6 2015-2020 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2015-2019 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Multivan T6 2015-2020",
+  "new_base": "VW Multivan T6 2015-2019"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1aa7",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1ab1",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1abb",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1ac5",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1acf",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6900b416bd9c03aa564f1ad9",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6a84501ba83cbfb7d77115a8",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6a845b00a83cbfb7d77170f0",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6a8460a2a83cbfb7d771c72c",
+  "old": "Navigatie PilotOn VW Multivan T6 dupa 2022 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Multivan T6 2020-2022 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Multivan T6 dupa 2022",
+  "new_base": "VW Multivan T6 2020-2022"
+ },
+ {
+  "id": "6a842f03a83cbfb7d7704517",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 2K 4GB 64GB 8CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a842f03a83cbfb7d7704523",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 2K 8GB 256GB 8CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a842f04a83cbfb7d770452f",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a842f04a83cbfb7d770453b",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a842f05a83cbfb7d7704547",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a842f05a83cbfb7d7704553",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a84509ca83cbfb7d7714162",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 2K 12GB 256GB 8CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a845b7aa83cbfb7d7719d06",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "6a84611ca83cbfb7d771f30a",
+  "old": "Navigatie PilotOn VW Passat B5 2004-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Passat B6 2005-2010 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Passat B5 2004-2010",
+  "new_base": "VW Passat B6 2005-2010"
+ },
+ {
+  "id": "69a0650d91d4068d868b7082",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69a0650e91d4068d868b708f",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69a0650f91d4068d868b709c",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69a0651091d4068d868b70a9",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69a0651191d4068d868b70b6",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69a0651191d4068d868b70c3",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2976",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 7 inch 2GB 32GB 4Core",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2b84",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 7 inch 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 7 inch 4GB 64GB 8Core 4G",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "69fca48a197de01bb65e2d8b",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 7 inch 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 7 inch 4GB 64GB 4Core",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a4e51493a123cd91dc83a0a",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a4e514a3a123cd91dc83a16",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a4e514a3a123cd91dc83a22",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a4e514b3a123cd91dc83a2e",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a4e514c3a123cd91dc83a3a",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 2K 9 Inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 2K 9 Inch 4GB 64GB 8 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a4e514c3a123cd91dc83a46",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 2K 9 Inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 2K 9 Inch 8GB 256GB 8 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a84502ea83cbfb7d7711b50",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a845b0fa83cbfb7d77175c7",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a845b39a83cbfb7d771851d",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a8460b2a83cbfb7d771cbf5",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Polo 2001-2012",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a8460dca83cbfb7d771db3d",
+  "old": "Navigatie PilotOn VW Polo 2001-2012 MICA 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 MICA 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Polo 2001-2012 MICA",
+  "new_base": "VW Polo 2001-2009 MICA"
+ },
+ {
+  "id": "6a842f08a83cbfb7d77045a7",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 4GB 64GB 8CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f08a83cbfb7d77045b3",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 8GB 256GB 8CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f08a83cbfb7d77045bf",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 2GB 32GB 4CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f09a83cbfb7d77045cb",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 4CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f09a83cbfb7d77045d7",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 8 Core",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f0aa83cbfb7d77045e3",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 6GB 128GB 8CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a84509da83cbfb7d77141bd",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 2K 12GB 256GB 8CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a845b7ba83cbfb7d7719d68",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 8GB 256GB 8CORE",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a84611da83cbfb7d771f36c",
+  "old": "Navigatie PilotOn VW Polo 2004-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Polo 2001-2009 9 inch 4GB 64GB 8Core",
+  "old_base": "VW Polo 2004-2010",
+  "new_base": "VW Polo 2001-2009"
+ },
+ {
+  "id": "6a842f11a83cbfb7d77046c8",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 2K 4GB 64GB 8CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a842f12a83cbfb7d77046d4",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 2K 8GB 256GB 8CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a842f12a83cbfb7d77046ef",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 2GB 32GB 4CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a842f13a83cbfb7d77046fc",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 4GB 64GB 4CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a842f13a83cbfb7d7704708",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 4GB 64GB 8 Core",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a842f13a83cbfb7d7704714",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 6GB 128GB 8CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a84509fa83cbfb7d771426e",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 2K 12GB 256GB 8CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a845b7da83cbfb7d7719e2d",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 8GB 256GB 8CORE",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6a84611fa83cbfb7d771f433",
+  "old": "Navigatie PilotOn VW Scirocco 2015-2016 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Scirocco 2008-2018 9 inch 4GB 64GB 8Core",
+  "old_base": "VW Scirocco 2015-2016",
+  "new_base": "VW Scirocco 2008-2018"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2083",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 2GB 32GB 4CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6900b417bd9c03aa564f208d",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 4GB 64GB 4CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2097",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 4GB 64GB 8 Core",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6900b417bd9c03aa564f20a1",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 6GB 128GB 8CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6900b417bd9c03aa564f20ab",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 2K 4GB 64GB 8CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6900b417bd9c03aa564f20b5",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 2K 8GB 256GB 8CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6a845022a83cbfb7d7711804",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 2K 12GB 256GB 8CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6a84664ea83cbfb7d772013c",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 4GB 64GB 8Core",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "6a846bbda83cbfb7d77219cb",
+  "old": "Navigatie PilotOn VW Touran 2010-2015 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Touran 2003-2013 10 inch 8GB 256GB 8CORE",
+  "old_base": "VW Touran 2010-2015",
+  "new_base": "VW Touran 2003-2013"
+ },
+ {
+  "id": "69f8adb14a702c67afa47a8e",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Tiguan 2007-2018 RK",
+  "new_base": "VW Tiguan 2007-2016 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47c7e",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Tiguan 2007-2018 RK",
+  "new_base": "VW Tiguan 2007-2016 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa47e79",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 8 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 8 inch 2GB 32GB 4 Core",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8adb14a702c67afa48077",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 8 inch 4GB 64GB 4 Core 4G",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 8 inch 4GB 64GB 4 Core 4G",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8adb14a702c67afa48267",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch QLED 4GB 64GB 8 Core 4G",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8adb14a702c67afa48454",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Tiguan 2007-2018 RK",
+  "new_base": "VW Tiguan 2007-2016 RK"
+ },
+ {
+  "id": "69f8adb14a702c67afa48633",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8adb24a702c67afa4882b",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8b123de21727057af6599",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8b123de21727057af6777",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8b123de21727057af6972",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Tiguan 2007-2018 BUTOANE TOUCH",
+  "new_base": "VW Tiguan 2007-2016 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6b70",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Tiguan 2007-2018 BUTOANE TOUCH",
+  "new_base": "VW Tiguan 2007-2016 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b123de21727057af6d52",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Tiguan 2007-2018 BUTOANE TOUCH",
+  "new_base": "VW Tiguan 2007-2016 BUTOANE TOUCH"
+ },
+ {
+  "id": "69f8b42eed92299aef189e73",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 7 inch 4GB 64GB Quad Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 7 inch 4GB 64GB Quad Core",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "69f8b42eed92299aef189f81",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 7 inch 2GB 32GB Quad Core",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 7 inch 2GB 32GB Quad Core",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f14a83cbfb7d7704720",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f14a83cbfb7d770472d",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f15a83cbfb7d770473a",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f15a83cbfb7d7704747",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f16a83cbfb7d7704753",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f16a83cbfb7d7704760",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f16a83cbfb7d770476d",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f17a83cbfb7d770477a",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f17a83cbfb7d7704787",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f17a83cbfb7d7704794",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f18a83cbfb7d77047a1",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f18a83cbfb7d77047ad",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a842f19a83cbfb7d77047ba",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f19a83cbfb7d77047c8",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f1aa83cbfb7d77047e6",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f1aa83cbfb7d77047f3",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f1aa83cbfb7d7704800",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f1ba83cbfb7d770480c",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a84509fa83cbfb7d7714299",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a8450a0a83cbfb7d77142c5",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a8450a0a83cbfb7d77142f2",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a845b7da83cbfb7d7719e5e",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a845b7ea83cbfb7d7719e90",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a845b7ea83cbfb7d7719ec3",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a846120a83cbfb7d771f465",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Tiguan 2007-2018",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a846120a83cbfb7d771f498",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL S 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL S",
+  "new_base": "VW Tiguan 2007-2016 NFL S"
+ },
+ {
+  "id": "6a846121a83cbfb7d771f4cc",
+  "old": "Navigatie PilotOn VW Tiguan 2007-2018 NFL B 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 NFL B 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Tiguan 2007-2018 NFL B",
+  "new_base": "VW Tiguan 2007-2016 NFL B"
+ },
+ {
+  "id": "6a842f0aa83cbfb7d77045ef",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 4GB 64GB 8CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f0ba83cbfb7d77045fb",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 8GB 256GB 8CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f0ba83cbfb7d7704607",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 2GB 32GB 4CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f0ba83cbfb7d7704613",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 4CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f0ca83cbfb7d770461f",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 8 Core",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a842f0ca83cbfb7d770462b",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 6GB 128GB 8CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a84509da83cbfb7d77141ea",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 2K 12GB 256GB 8CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a845b7ba83cbfb7d7719d99",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 8GB 256GB 8CORE",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a84611ea83cbfb7d771f39d",
+  "old": "Navigatie PilotOn VW Tiguan 2004-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2007-2016 9 inch 4GB 64GB 8Core",
+  "old_base": "VW Tiguan 2004-2010",
+  "new_base": "VW Tiguan 2007-2016"
+ },
+ {
+  "id": "6a81f8c13a8b358a2d4226a1",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a81f8c13a8b358a2d4226ad",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a81f8c23a8b358a2d4226b9",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a81f8c23a8b358a2d4226c5",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a81f8c33a8b358a2d4226d1",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a81f8c33a8b358a2d4226dd",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a84505ca83cbfb7d7712bba",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a846665a83cbfb7d7720947",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 4GB 64GB 8CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6a846bd3a83cbfb7d772222a",
+  "old": "Navigatie PilotOn VW Tiguan 2016-2020 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Tiguan 2016-2024 10 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Tiguan 2016-2020",
+  "new_base": "VW Tiguan 2016-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f1fcf",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f1fd9",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f1fe3",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f1fed",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f1ff7",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2001",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589553",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589607",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 RK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 RK 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022 RK",
+  "new_base": "VW Transporter T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589660",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 RK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 RK 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022 RK",
+  "new_base": "VW Transporter T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5896b8",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 8 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 8 inch 2GB 32GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589712",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 8 inch 4GB 64GB 4 Core 4G",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 8 inch 4GB 64GB 4 Core 4G",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589766",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 8 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 8 inch 4GB 64GB 8 Core 4G",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a58980a",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 RK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 RK 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Transporter T6 2015-2022 RK",
+  "new_base": "VW Transporter T6 2015-2019 RK"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589861",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5898b9",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 BUTOANE TOUCH 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022 BUTOANE TOUCH",
+  "new_base": "VW Transporter T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589913",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 BUTOANE TOUCH 7 inch 4GB 64GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022 BUTOANE TOUCH",
+  "new_base": "VW Transporter T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a58996b",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 BUTOANE TOUCH 7 inch 4GB 64GB 8 Core",
+  "old_base": "VW Transporter T6 2015-2022 BUTOANE TOUCH",
+  "new_base": "VW Transporter T6 2015-2019 BUTOANE TOUCH"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a5899bf",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch QLED 2GB 32GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch QLED 2GB 32GB 4Core 4G",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cf38c7faacfa6a589a15",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch QLED 4GB 64GB 4Core 4G",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch QLED 4GB 64GB 4Core 4G",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cfe52182bf68fa84fd21",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 7 inch 2GB 32GB 4 Core",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a01cfe52182bf68fa84fd7a",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch QLED 4GB 64GB 8 Core 4G",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a845021a83cbfb7d77117b1",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a845b04a83cbfb7d771726d",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6a8460a7a83cbfb7d771c8af",
+  "old": "Navigatie PilotOn VW Transporter T6 2015-2022 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2015-2019 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Transporter T6 2015-2022",
+  "new_base": "VW Transporter T6 2015-2019"
+ },
+ {
+  "id": "6900b417bd9c03aa564f200b",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 2GB 32GB 4 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2015",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 4GB 64GB 4 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f201f",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 4GB 64GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2029",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 6GB 128GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f2033",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 2K 4GB 64GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6900b417bd9c03aa564f203d",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 2K 8GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6a845022a83cbfb7d77117c5",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 2K 12GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6a845b05a83cbfb7d7717296",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 8GB 256GB 8 CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6a8460a7a83cbfb7d771c8c3",
+  "old": "Navigatie PilotOn VW Transporter T6 dupa 2022 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn VW Transporter T6 2019-2024 9 inch 4GB 64GB 8CORE",
+  "old_base": "VW Transporter T6 dupa 2022",
+  "new_base": "VW Transporter T6 2019-2024"
+ },
+ {
+  "id": "6a842eb4a83cbfb7d7703b8e",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842eb5a83cbfb7d7703b9a",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842eb5a83cbfb7d7703ba6",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842eb6a83cbfb7d7703bb2",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842eb6a83cbfb7d7703bbe",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842eb6a83cbfb7d7703bca",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a84508ca83cbfb7d7713be4",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a845b6da83cbfb7d7719884",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a846110a83cbfb7d771ee92",
+  "old": "Navigatie PilotOn Ford C-Max 2007-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford C-Max 2003-2010 S 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford C-Max 2007-2011 S",
+  "new_base": "Ford C-Max 2003-2010 S"
+ },
+ {
+  "id": "6a842e98a83cbfb7d77037d4",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 4GB 64GB 8CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a842e99a83cbfb7d77037e0",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 8GB 256GB 8CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a842e99a83cbfb7d7703819",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 2GB 32GB 4CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a842e9aa83cbfb7d7703826",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 4CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a842e9aa83cbfb7d770385d",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8 Core",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a842e9aa83cbfb7d770386a",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 6GB 128GB 8CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a845085a83cbfb7d77139d3",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 2K 12GB 256GB 8CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a845b69a83cbfb7d7719702",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 8GB 256GB 8CORE",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a84610ca83cbfb7d771ed18",
+  "old": "Navigatie PilotOn Ford Fiesta 2006-2011 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2002-2008 9 inch 4GB 64GB 8Core",
+  "old_base": "Ford Fiesta 2006-2011",
+  "new_base": "Ford Fiesta 2002-2008"
+ },
+ {
+  "id": "6a81f8dc3a8b358a2d4229b9",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8dc3a8b358a2d4229c5",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8dd3a8b358a2d4229d1",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8dd3a8b358a2d4229dd",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8de3a8b358a2d4229e9",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8de3a8b358a2d4229f5",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a845061a83cbfb7d7712da5",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a845b4aa83cbfb7d7718bb1",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a8460eda83cbfb7d771e1d4",
+  "old": "Navigatie PilotOn Ford Fiesta MK6 2004-2014 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Fiesta 2009-2017 Mk6 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford Fiesta MK6 2004-2014",
+  "new_base": "Ford Fiesta 2009-2017 Mk6"
+ },
+ {
+  "id": "6a81f8de3a8b358a2d422a01",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a81f8df3a8b358a2d422a0d",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a81f8df3a8b358a2d422a19",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a81f8e03a8b358a2d422a25",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a81f8e03a8b358a2d422a31",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a81f8e03a8b358a2d422a3d",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a845062a83cbfb7d7712dd2",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a845b4ba83cbfb7d7718be4",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a8460eea83cbfb7d771e207",
+  "old": "Navigatie PilotOn Ford Focus II 2004-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford Focus II 2004-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842eb9a83cbfb7d7703c1e",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 4GB 64GB 8CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebaa83cbfb7d7703c2a",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 8GB 256GB 8CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebaa83cbfb7d7703c36",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 2GB 32GB 4CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebaa83cbfb7d7703c42",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 4CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebba83cbfb7d7703c4e",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 8 Core",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebba83cbfb7d7703c5a",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 6GB 128GB 8CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a84508da83cbfb7d7713c30",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 2K 12GB 256GB 8CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a845b6ea83cbfb7d77198d8",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 8GB 256GB 8CORE",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a846111a83cbfb7d771eee6",
+  "old": "Navigatie PilotOn Ford Focus 2007-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Focus 2004-2011 S 9 inch 4GB 64GB 8Core",
+  "old_base": "Ford Focus 2007-2011 S",
+  "new_base": "Ford Focus 2004-2011 S"
+ },
+ {
+  "id": "6a842ebca83cbfb7d7703c66",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a842ebca83cbfb7d7703c72",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a842ebca83cbfb7d7703c7e",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a842ebda83cbfb7d7703c8a",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a842ebda83cbfb7d7703c96",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a842ebea83cbfb7d7703ca2",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a84508da83cbfb7d7713c56",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a845b6fa83cbfb7d7719902",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a846111a83cbfb7d771ef10",
+  "old": "Navigatie PilotOn Ford Fusion 2007-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 S 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford Fusion 2007-2011 S",
+  "new_base": "Ford Fusion 2006-2012 S"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c4d2",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch 4GB 64GB 4Core",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c5cb",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch SILVER 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch SILVER 4GB 64GB 4Core",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c6c1",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch 2GB 32GB 4Core",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c7ba",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch SILVER 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch SILVER 2GB 32GB 4Core",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c89e",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch 4GB 64GB 8Core 4G",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c98e",
+  "old": "Navigatie PilotOn Ford Fusion 2002-2012 7 inch SILVER 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn Ford Fusion 2006-2012 7 inch SILVER 4GB 64GB 8Core 4G",
+  "old_base": "Ford Fusion 2002-2012",
+  "new_base": "Ford Fusion 2006-2012"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c49c",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch 4GB 64GB 4Core",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c593",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch SILVER 4GB 64GB 4Core",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch SILVER 4GB 64GB 4Core",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c68b",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch 2GB 32GB 4Core",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c782",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch SILVER 2GB 32GB 4Core",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch SILVER 2GB 32GB 4Core",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c86e",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch 4GB 64GB 8Core 4G",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a0a04485122c1ef1828c956",
+  "old": "Navigatie PilotOn Ford Mondeo 2004-2007 7 inch SILVER 4GB 64GB 8Core 4G",
+  "new": "Navigatie PilotOn Ford Mondeo 2000-2007 7 inch SILVER 4GB 64GB 8Core 4G",
+  "old_base": "Ford Mondeo 2004-2007",
+  "new_base": "Ford Mondeo 2000-2007"
+ },
+ {
+  "id": "6a842eb2a83cbfb7d7703b46",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 2K 4GB 64GB 8CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842eb2a83cbfb7d7703b52",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 2K 8GB 256GB 8CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842eb3a83cbfb7d7703b5e",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842eb3a83cbfb7d7703b6a",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842eb4a83cbfb7d7703b76",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842eb4a83cbfb7d7703b82",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a84508ba83cbfb7d7713bbe",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 2K 12GB 256GB 8CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a845b6ca83cbfb7d771985a",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a84610fa83cbfb7d771ee68",
+  "old": "Navigatie PilotOn Ford Mondeo 2007-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Mondeo 2007-2014 S 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford Mondeo 2007-2011 S",
+  "new_base": "Ford Mondeo 2007-2014 S"
+ },
+ {
+  "id": "6a842ec0a83cbfb7d7703cf6",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 2K 4GB 64GB 8CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a842ec1a83cbfb7d7703d02",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 2K 8GB 256GB 8CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a842ec1a83cbfb7d7703d0e",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 2GB 32GB 4CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a842ec2a83cbfb7d7703d1a",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 4CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a842ec2a83cbfb7d7703d26",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8 Core",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a842ec2a83cbfb7d7703d32",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 6GB 128GB 8CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a84508fa83cbfb7d7713ca8",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 2K 12GB 256GB 8CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a845b70a83cbfb7d771995d",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 8GB 256GB 8CORE",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a846112a83cbfb7d771ef6a",
+  "old": "Navigatie PilotOn Ford Ranger 2008-2012 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2005-2011 9 inch 4GB 64GB 8Core",
+  "old_base": "Ford Ranger 2008-2012",
+  "new_base": "Ford Ranger 2005-2011"
+ },
+ {
+  "id": "6a81f92c3a8b358a2d423301",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 2K 4GB 64GB 8CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a81f92d3a8b358a2d42330d",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 2K 8GB 256GB 8CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a81f92d3a8b358a2d423319",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 2GB 32GB 4CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a81f92d3a8b358a2d423325",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 4GB 64GB 4CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a81f92e3a8b358a2d423331",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 4GB 64GB 8 Core",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a81f92e3a8b358a2d42333d",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 6GB 128GB 8CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a845072a83cbfb7d7713336",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 2K 12GB 256GB 8CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a845b59a83cbfb7d7719101",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 8GB 256GB 8CORE",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a8460fca83cbfb7d771e721",
+  "old": "Navigatie PilotOn Ford Ranger dupa 2015 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford Ranger 2015-2022 9 inch 4GB 64GB 8Core",
+  "old_base": "Ford Ranger dupa 2015",
+  "new_base": "Ford Ranger 2015-2022"
+ },
+ {
+  "id": "6a842eb7a83cbfb7d7703bd6",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842eb7a83cbfb7d7703be2",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842eb8a83cbfb7d7703bee",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842eb8a83cbfb7d7703bfa",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842eb8a83cbfb7d7703c06",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842eb9a83cbfb7d7703c12",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a84508ca83cbfb7d7713c0a",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a845b6ea83cbfb7d77198ae",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a846110a83cbfb7d771eebc",
+  "old": "Navigatie PilotOn Ford S-Max 2007-2011 S 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 S 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford S-Max 2007-2011 S",
+  "new_base": "Ford S-Max 2006-2015 S"
+ },
+ {
+  "id": "6a842ec5a83cbfb7d7703d86",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 2K 4GB 64GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a842ec6a83cbfb7d7703d92",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 2K 8GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a842ec6a83cbfb7d7703d9e",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a842ec6a83cbfb7d7703daa",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a842ec7a83cbfb7d7703db6",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a842ec7a83cbfb7d7703dc2",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a84508fa83cbfb7d7713d00",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 2K 12GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a845b71a83cbfb7d77199bf",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6a846113a83cbfb7d771efca",
+  "old": "Navigatie PilotOn Ford S-Max 2001-2008 AC 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Ford S-Max 2006-2015 AC 9 inch 4GB 64GB 8CORE",
+  "old_base": "Ford S-Max 2001-2008 AC",
+  "new_base": "Ford S-Max 2006-2015 AC"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef68d",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef697",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef6a1",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef6ab",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef6b5",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef6bf",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "69fcb09cb2e00e74633ebeef",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 7 inch 2GB 32GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "69fcb165b2e00e74633ec07a",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 7 inch 4GB 64GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "69fcb1a1b2e00e74633ec110",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 7 inch 4GB 64GB 8 Core",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "69fcb2fab2e00e74633ec1ce",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 SILVER 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 SILVER 7 inch 2GB 32GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014 SILVER",
+  "new_base": "Opel Astra H 2004-2010 SILVER"
+ },
+ {
+  "id": "69fcb342b2e00e74633ec23b",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 SILVER 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 SILVER 7 inch 4GB 64GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014 SILVER",
+  "new_base": "Opel Astra H 2004-2010 SILVER"
+ },
+ {
+  "id": "69fcb371b2e00e74633ec334",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 SILVER 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 SILVER 7 inch 4GB 64GB 8 Core",
+  "old_base": "Opel Astra H 2004-2014 SILVER",
+  "new_base": "Opel Astra H 2004-2010 SILVER"
+ },
+ {
+  "id": "69fcb420b2e00e74633ec5f8",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 BLACK 7 inch 2GB 32GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 BLACK 7 inch 2GB 32GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014 BLACK",
+  "new_base": "Opel Astra H 2004-2010 BLACK"
+ },
+ {
+  "id": "69fcb558b2e00e74633ec6aa",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 BLACK 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 BLACK 7 inch 4GB 64GB 4 Core",
+  "old_base": "Opel Astra H 2004-2014 BLACK",
+  "new_base": "Opel Astra H 2004-2010 BLACK"
+ },
+ {
+  "id": "69fcb583b2e00e74633ec756",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 BLACK 7 inch 4GB 64GB 8 Core",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 BLACK 7 inch 4GB 64GB 8 Core",
+  "old_base": "Opel Astra H 2004-2014 BLACK",
+  "new_base": "Opel Astra H 2004-2010 BLACK"
+ },
+ {
+  "id": "6a844fdca83cbfb7d77101eb",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6a845ac7a83cbfb7d7715f87",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6a84606ba83cbfb7d771b60d",
+  "old": "Navigatie PilotOn Opel Astra H 2004-2014 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Astra H 2004-2010 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Astra H 2004-2014",
+  "new_base": "Opel Astra H 2004-2010"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef705",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef70f",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef719",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef723",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef72d",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef737",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "69a04fa491d4068d8689a8b2",
+  "old": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2017 9.7 inch 2GB 32GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 9.7 inch 2GB 32GB 8 Core 4G",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "69a04fa591d4068d8689a8bf",
+  "old": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2017 9.7 inch 6GB 128GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 9.7 inch 6GB 128GB 8 Core 4G",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "69a0517c91d4068d8689cd57",
+  "old": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2017 9.7 inch 2GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 9.7 inch 2GB 64GB 4 Core",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "69a0517d91d4068d8689cd63",
+  "old": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2017 9.7 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn Tip Tesla Opel Astra J 2009-2015 9.7 inch 4GB 64GB 8 Core 4G",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6a844fdca83cbfb7d7710217",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6a845ac7a83cbfb7d7715fb9",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6a84606ba83cbfb7d771b63e",
+  "old": "Navigatie PilotOn Opel Astra J 2009-2017 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Astra J 2009-2015 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Astra J 2009-2017",
+  "new_base": "Opel Astra J 2009-2015"
+ },
+ {
+  "id": "6a842ed5a83cbfb7d7703fb5",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a842ed6a83cbfb7d7703fc1",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a842ed6a83cbfb7d7703fcd",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a842ed7a83cbfb7d7703fd9",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a842ed7a83cbfb7d7703fe5",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a842ed7a83cbfb7d7703ff1",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a845092a83cbfb7d7713dde",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a845b73a83cbfb7d7719ab7",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6a846116a83cbfb7d771f0bd",
+  "old": "Navigatie PilotOn Opel Combo 2001-2011 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Combo 2003-2011 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Combo 2001-2011",
+  "new_base": "Opel Combo 2003-2011"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef77d",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef787",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef791",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef79b",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef7a5",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6900b412bd9c03aa564ef7af",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6a844fdda83cbfb7d771026f",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6a845ac8a83cbfb7d771601c",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6a84606ca83cbfb7d771b6a3",
+  "old": "Navigatie PilotOn Opel Combo 2010-2015 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Combo 2012-2018 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Combo 2010-2015",
+  "new_base": "Opel Combo 2012-2018"
+ },
+ {
+  "id": "6a842ed8a83cbfb7d7703ffd",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 2K 4GB 64GB 8CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a842ed8a83cbfb7d7704009",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 2K 8GB 256GB 8CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a842ed9a83cbfb7d7704015",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 2GB 32GB 4CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a842ed9a83cbfb7d7704021",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 4GB 64GB 4CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a842ed9a83cbfb7d770402d",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 4GB 64GB 8 Core",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a842edaa83cbfb7d7704039",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 6GB 128GB 8CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a845093a83cbfb7d7713e0b",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 2K 12GB 256GB 8CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a845b74a83cbfb7d7719ae9",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 8GB 256GB 8CORE",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6a846116a83cbfb7d771f0ee",
+  "old": "Navigatie PilotOn Opel Corsa 2001-2011 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Corsa C 2000-2006 9 inch 4GB 64GB 8Core",
+  "old_base": "Opel Corsa 2001-2011",
+  "new_base": "Opel Corsa C 2000-2006"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef8e5",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef8ef",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef8f9",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef903",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef90d",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6900b413bd9c03aa564ef917",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6a844fe0a83cbfb7d7710341",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6a845acca83cbfb7d7716102",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6a846070a83cbfb7d771b786",
+  "old": "Navigatie PilotOn Opel Meriva A 2003-2010 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Meriva 2003-2010 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Meriva A 2003-2010",
+  "new_base": "Opel Meriva 2003-2010"
+ },
+ {
+  "id": "6a842edaa83cbfb7d7704045",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a842edba83cbfb7d7704051",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a842edba83cbfb7d770405d",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a842edba83cbfb7d7704069",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a842edca83cbfb7d7704075",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a842edca83cbfb7d7704081",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a845093a83cbfb7d7713e38",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a845b74a83cbfb7d7719b1b",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a846117a83cbfb7d771f11f",
+  "old": "Navigatie PilotOn Opel Tigra 2001-2011 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Tigra 2004-2009 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Tigra 2001-2011",
+  "new_base": "Opel Tigra 2004-2009"
+ },
+ {
+  "id": "6a81f8b83a8b358a2d422581",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a81f8b83a8b358a2d42258d",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a81f8b83a8b358a2d422599",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a81f8b93a8b358a2d4225a5",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a81f8b93a8b358a2d4225b1",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a81f8ba3a8b358a2d4225bd",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a84505aa83cbfb7d7712b09",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a846664a83cbfb7d7720917",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a846bd3a83cbfb7d77221f8",
+  "old": "Navigatie PilotOn Opel Vivaro 2010-2014 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Vivaro 2004-2014 10 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Vivaro 2010-2014",
+  "new_base": "Opel Vivaro 2004-2014"
+ },
+ {
+  "id": "6a82020a3a8b358a2d4324b8",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 2K 4GB 64GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a82020b3a8b358a2d4324c4",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 2K 8GB 256GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a82020b3a8b358a2d4324d0",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a82020c3a8b358a2d4324dc",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a82020c3a8b358a2d4324e8",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a82020c3a8b358a2d4324f4",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a845081a83cbfb7d7713872",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 2K 12GB 256GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a845b65a83cbfb7d7719576",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6a846108a83cbfb7d771eb90",
+  "old": "Navigatie PilotOn Opel Zafira B 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Opel Zafira 2005-2014 RAMA 7 INCH 9 inch 4GB 64GB 8CORE",
+  "old_base": "Opel Zafira B 2005-2014 RAMA 7 INCH",
+  "new_base": "Opel Zafira 2005-2014 RAMA 7 INCH"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfa9",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 2GB 32GB 4CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfb3",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 4CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfbd",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 8 Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfc7",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 6GB 128GB 8CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfd1",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K 4GB 64GB 8CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6900b40fbd9c03aa564ecfdb",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K 8GB 256GB 8CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a04f7e91d4068d8689a531",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 2GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 2GB 64GB 4 Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a04f7f91d4068d8689a53d",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 2GB 32GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 2GB 32GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a04f8091d4068d8689a549",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a04f8191d4068d8689a555",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 8GB 128GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 8GB 128GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a0533591d4068d8689e2f8",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K QLED 4GB 64GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K QLED 4GB 64GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a0552791d4068d868a020c",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K QLED 8GB 256GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K QLED 8GB 256GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a0565691d4068d868a1a8d",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 6GB 128GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 6GB 128GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "69a057aa91d4068d868a3384",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K 12GB 256GB 8 Core 4G",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K 12GB 256GB 8 Core 4G",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a0725f8b2e00e74633f4126",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 7 inch 2GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 7 inch 2GB 64GB 4 Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a072699b2e00e74633f41ab",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 7 inch 4GB 64GB 4 Core",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 7 inch 4GB 64GB 4 Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a0726c6b2e00e74633f4298",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 7 inch 6GB 128GB 8 Core",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 7 inch 6GB 128GB 8 Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a844f9da83cbfb7d770ee66",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 2K 12GB 256GB 8CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a845a91a83cbfb7d7714e32",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 8GB 256GB 8CORE",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a846033a83cbfb7d771a4ed",
+  "old": "Navigatie PilotOn Dacia Duster 2014-2018 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Dacia Duster 2015-2020 9 inch 4GB 64GB 8Core",
+  "old_base": "Dacia Duster 2014-2018",
+  "new_base": "Dacia Duster 2015-2020"
+ },
+ {
+  "id": "6a81f8ae3a8b358a2d422461",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 2K 4GB 64GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a81f8ae3a8b358a2d42246d",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 2K 8GB 256GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a81f8af3a8b358a2d422479",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a81f8af3a8b358a2d422485",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a81f8b03a8b358a2d422491",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a81f8b03a8b358a2d42249d",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a845058a83cbfb7d7712a53",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 2K 12GB 256GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a845b44a83cbfb7d7718924",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a8460e7a83cbfb7d771df47",
+  "old": "Navigatie PilotOn Renault Captur 2013-2017 SUBTIRE 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Renault Captur 2013-2020 SUBTIRE 9 inch 4GB 64GB 8CORE",
+  "old_base": "Renault Captur 2013-2017 SUBTIRE",
+  "new_base": "Renault Captur 2013-2020 SUBTIRE"
+ },
+ {
+  "id": "6a842edfa83cbfb7d77040d5",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 2K 4GB 64GB 8CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a842edfa83cbfb7d77040e1",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 2K 8GB 256GB 8CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a842ee0a83cbfb7d77040ed",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 2GB 32GB 4CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a842ee0a83cbfb7d77040f9",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 4GB 64GB 4CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a842ee0a83cbfb7d7704105",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 4GB 64GB 8 Core",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a842ee1a83cbfb7d7704111",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 6GB 128GB 8CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a845094a83cbfb7d7713e93",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 2K 12GB 256GB 8CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a845b75a83cbfb7d7719b81",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 8GB 256GB 8CORE",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a846118a83cbfb7d771f184",
+  "old": "Navigatie PilotOn Renault Clio II 2001-2012 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Renault Clio II 2001-2006 9 inch 4GB 64GB 8Core",
+  "old_base": "Renault Clio II 2001-2012",
+  "new_base": "Renault Clio II 2001-2006"
+ },
+ {
+  "id": "6a80a3153a8b358a2d414d2c",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 2GB 32GB 4 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a80a3163a8b358a2d414d38",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 4GB 64GB 4 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a80a3163a8b358a2d414d44",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 4GB 64GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a80a3163a8b358a2d414d50",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 6GB 128GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a80a3173a8b358a2d414d5c",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 2K 4GB 64GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a80a3173a8b358a2d414d68",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 2K 8GB 256GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a84504ba83cbfb7d7712585",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 2K 12GB 256GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a84665da83cbfb7d772067d",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 4GB 64GB 8CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a846bcca83cbfb7d7721f43",
+  "old": "Navigatie PilotOn Renault Kangoo 2019-2025 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Kangoo dupa 2021 10 inch 8GB 256GB 8 CORE",
+  "old_base": "Renault Kangoo 2019-2025",
+  "new_base": "Renault Kangoo dupa 2021"
+ },
+ {
+  "id": "6a81f8b33a8b358a2d4224f1",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 2GB 32GB 4CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a81f8b33a8b358a2d4224fd",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 4GB 64GB 4CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a81f8b43a8b358a2d422509",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 4GB 64GB 8 Core",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a81f8b43a8b358a2d422515",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 6GB 128GB 8CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a81f8b53a8b358a2d422521",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 2K 4GB 64GB 8CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a81f8b53a8b358a2d42252d",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 2K 8GB 256GB 8CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a845059a83cbfb7d7712aaf",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 2K 12GB 256GB 8CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a846663a83cbfb7d77208b7",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 4GB 64GB 8Core",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a846bd2a83cbfb7d7722194",
+  "old": "Navigatie PilotOn Renault Trafic 2010-2014 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Renault Trafic II 2004-2014 10 inch 8GB 256GB 8CORE",
+  "old_base": "Renault Trafic 2010-2014",
+  "new_base": "Renault Trafic II 2004-2014"
+ },
+ {
+  "id": "6a4e510a3a123cd91dc83423",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 2GB 32GB 4CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e510a3a123cd91dc8342f",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 2K 9 Inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 2K 9 Inch 4GB 64GB 8 CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e510b3a123cd91dc8343b",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 2K 9 Inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 2K 9 Inch 8GB 256GB 8 CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e510b3a123cd91dc83447",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 4GB 64GB 4CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e510c3a123cd91dc83453",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 4GB 64GB 8 Core",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e510d3a123cd91dc8345f",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 6GB 128GB 8CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a845b31a83cbfb7d7718279",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 8GB 256GB 8CORE",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a8460d4a83cbfb7d771d89d",
+  "old": "Navigatie PilotOn Peugeot 308 2013-2017 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 9 inch 4GB 64GB 8Core",
+  "old_base": "Peugeot 308 2013-2017",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51073a123cd91dc833db",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 6GB 128GB 8 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51073a123cd91dc833e7",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 4GB 64GB 4 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51083a123cd91dc833f3",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 4GB 64GB 8 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51083a123cd91dc833ff",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 2GB 32GB 4 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51093a123cd91dc8340b",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 2K 10 Inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 2K 10 Inch 4GB 64GB 8 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a4e51093a123cd91dc83417",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 2K 10 Inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 2K 10 Inch 8GB 256GB 8 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a84665aa83cbfb7d772058d",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 4GB 64GB 8CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a846bc9a83cbfb7d7721e4a",
+  "old": "Navigatie PilotOn Peugeot 308 2016-2018 10 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Peugeot 308 2013-2021 10 inch 8GB 256GB 8 CORE",
+  "old_base": "Peugeot 308 2016-2018",
+  "new_base": "Peugeot 308 2013-2021"
+ },
+ {
+  "id": "6a81f9143a8b358a2d423031",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 2K 4GB 64GB 8CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9143a8b358a2d42303d",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 2K 8GB 256GB 8CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9153a8b358a2d423049",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 2GB 32GB 4CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9153a8b358a2d423055",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 4GB 64GB 4CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9153a8b358a2d423061",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 4GB 64GB 8 Core",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9163a8b358a2d42306d",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 6GB 128GB 8CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a84506ea83cbfb7d77131a8",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 2K 12GB 256GB 8CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a845b54a83cbfb7d7718f3e",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 8GB 256GB 8CORE",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a8460f7a83cbfb7d771e55f",
+  "old": "Navigatie PilotOn Toyota Avensis 2002-2008 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Toyota Avensis T25 2003-2009 9 inch 4GB 64GB 8Core",
+  "old_base": "Toyota Avensis 2002-2008",
+  "new_base": "Toyota Avensis T25 2003-2009"
+ },
+ {
+  "id": "6a81f9113a8b358a2d422fe9",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 2K 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 2K 4GB 64GB 8CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a81f9123a8b358a2d422ff5",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 2K 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 2K 8GB 256GB 8CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a81f9123a8b358a2d423001",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 2GB 32GB 4 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 2GB 32GB 4 CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a81f9123a8b358a2d42300d",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 4GB 64GB 4 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 4GB 64GB 4 CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a81f9133a8b358a2d423019",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 4GB 64GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 4GB 64GB 8 CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a81f9133a8b358a2d423025",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 6GB 128GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 6GB 128GB 8 CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a84506da83cbfb7d771317b",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 2K 12GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 2K 12GB 256GB 8CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a845b53a83cbfb7d7718f0b",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 8GB 256GB 8 CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 8GB 256GB 8 CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ },
+ {
+  "id": "6a8460f6a83cbfb7d771e52c",
+  "old": "Navigatie PilotOn Toyota Auris II 2012-2015 9 inch 4GB 64GB 8CORE",
+  "new": "Navigatie PilotOn Toyota Auris E18 2013-2017 9 inch 4GB 64GB 8CORE",
+  "old_base": "Toyota Auris II 2012-2015",
+  "new_base": "Toyota Auris E18 2013-2017"
+ }
+]

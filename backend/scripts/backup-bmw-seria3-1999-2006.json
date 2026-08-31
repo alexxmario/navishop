@@ -1,0 +1,2212 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E4699062K12PO",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:24:03.325Z"
+  },
+  "_id": "69a0578391d4068d868a306c",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E4699062K12PO",
+  "price": 3299,
+  "originalPrice": 3880,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797919-738620061.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e823a123cd91dc808ed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797920-902324984.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-225880788.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-254865720.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-925066183.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-95229353.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797923-980689533.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-496871902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-790687836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-4450153.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-888308472.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-8340940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-413559977.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808f9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-540716157.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808fa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797927-397366229.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808fb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797928-241412857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808fc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-333022124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808fd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-183360013.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808fe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-379651678.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-465315845.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80900"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-357348836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80901"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-703475069.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80902"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-761983177.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80903"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-963924826.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80904"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-665942147.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80905"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799022-221225290.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80906"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799023-151201770.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80907"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-750237688.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80908"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-642793448.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc80909"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799025-474501743.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc8090a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799027-485833363.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc8090b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799030-445403155.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc8090c"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005061539786"
+   },
+   {
+    "key": "MPN",
+    "value": "E4699062K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 15,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:24:03.322Z",
+  "updatedAt": "2026-08-29T14:21:35.001Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMW399064O",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:04:04.989Z"
+  },
+  "_id": "69a052d491d4068d8689de4b",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMW399064O",
+  "price": 2049,
+  "originalPrice": 2235,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797919-738620061.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e813a123cd91dc80854"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797920-902324984.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80855"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-225880788.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80856"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-254865720.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80857"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-925066183.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80858"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-95229353.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80859"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797923-980689533.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-496871902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-790687836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-4450153.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-888308472.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-8340940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8085f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-413559977.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80860"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-540716157.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80861"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797927-397366229.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80862"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797928-241412857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80863"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-333022124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80864"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-183360013.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80865"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-379651678.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80866"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-465315845.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80867"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-357348836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80868"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-703475069.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80869"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-761983177.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-963924826.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-665942147.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799022-221225290.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799023-151201770.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-750237688.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc8086f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-642793448.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80870"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799025-474501743.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80871"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799027-485833363.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80872"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799030-445403155.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e813a123cd91dc80873"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003435239980"
+   },
+   {
+    "key": "MPN",
+    "value": "BMW399064O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 53,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:04:04.985Z",
+  "updatedAt": "2026-08-29T14:21:35.209Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "SERIA399062K8",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:15.886Z"
+  },
+  "_id": "69a0553791d4068d868a02ea",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "SERIA399062K8",
+  "price": 2849,
+  "originalPrice": 3145,
+  "discount": 6,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797919-738620061.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4e823a123cd91dc808a0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797920-902324984.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-225880788.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797921-254865720.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-925066183.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797922-95229353.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797923-980689533.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-496871902.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797924-790687836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-4450153.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808a9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-888308472.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808aa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797925-8340940.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-413559977.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797926-540716157.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797927-397366229.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797928-241412857.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808af"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-333022124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797929-183360013.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-379651678.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797930-465315845.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-357348836.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-703475069.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797931-761983177.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-963924826.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516797932-665942147.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799022-221225290.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808b9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799023-151201770.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808ba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-750237688.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808bb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799024-642793448.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808bc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799025-474501743.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808bd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799027-485833363.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808be"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516799030-445403155.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4e823a123cd91dc808bf"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4000029606197"
+   },
+   {
+    "key": "MPN",
+    "value": "SERIA399062K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 49,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:15.883Z",
+  "updatedAt": "2026-08-29T14:21:35.408Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWSERIA399062O",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:29.422Z"
+  },
+  "_id": "69a0501d91d4068d8689b2c4",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWSERIA399062O",
+  "price": 1140,
+  "originalPrice": 1340,
+  "discount": 15,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925631-996420371.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4f033a123cd91dc80ba6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925628-724120279.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925629-498014006.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925630-686062687.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925630-971567185.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925631-886132087.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925632-60220369.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925633-432784925.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80ba9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925634-324590478.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80baa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925634-284493501.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bab"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925635-362776313.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bac"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925635-705073789.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bad"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925636-211839541.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bae"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925638-407265653.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80baf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925638-993086651.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925638-434927341.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925639-35590600.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925639-935839479.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925640-565149362.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925640-381093159.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925641-108163824.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925641-186808269.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925642-330889032.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516925642-682154993.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bb9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928994-152241587.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928996-965371541.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bbb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928997-494810067.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bbc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928997-894616416.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bbd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928997-259950381.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bbe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928998-548194190.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bbf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928998-229135150.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928999-310843465.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516928999-469601399.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516929000-684266161.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516929000-923702148.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516929001-101172251.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516929002-837349670.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516929002-839902293.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4f033a123cd91dc80bc7"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004130954734"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWSERIA399062O"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 27,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:29.417Z",
+  "updatedAt": "2026-08-29T14:21:35.626Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "RK 3326",
+    "frecventa": "1.5 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWSERIA399062Q",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:28.465Z"
+  },
+  "_id": "69a0501c91d4068d8689b2b8",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWSERIA399062Q",
+  "price": 750,
+  "originalPrice": 915,
+  "discount": 18,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057873.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core",
+    "isPrimary": true,
+    "_id": "69a0501c91d4068d8689b2b9"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057876.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 2",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2ba"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057879.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 3",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2bb"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057882.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 4",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2bc"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057885.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 5",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2bd"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057888.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 6",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2be"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/1/navigatie-bmw-seria-3-1999-2006-9-inch-2gb-64gb-4-core~100057891.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 2GB 64GB 4 Core - Image 7",
+    "isPrimary": false,
+    "_id": "69a0501c91d4068d8689b2bf"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4006983517630"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWSERIA399062Q"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 32,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:28.462Z",
+  "updatedAt": "2026-08-29T14:21:35.882Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 9 inch, 2 GB RAM, 64 GB stocare, 4 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 9\" 2+64GB 4C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWSERIA399064",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:30.405Z"
+  },
+  "_id": "69a0501e91d4068d8689b2d0",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWSERIA399064",
+  "price": 1449,
+  "originalPrice": 1495,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843839-471633059.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4eb03a123cd91dc80a11"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843841-223222368.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843842-889858202.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843843-397160142.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843843-296334124.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843844-949402555.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a16"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843846-886377734.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a17"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843847-370338715.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a18"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843848-914100329.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a19"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843848-112683732.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843849-818231363.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843850-577802225.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843853-976839509.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843853-638759350.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843854-6152432.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a1f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843854-90839828.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a20"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843855-46297087.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a21"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843855-546675395.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a22"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843856-695572161.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a23"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843858-954768873.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a24"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843859-764916601.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a25"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843859-941014860.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a26"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843860-994689322.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a27"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843860-918935525.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a28"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516843861-429957447.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a29"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845921-481554621.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845921-67514474.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845922-174478206.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845922-95296758.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845923-363319446.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845924-508869622.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a2f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845924-971005578.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a30"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845925-87584904.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a31"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845925-963347566.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a32"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845926-721937101.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a33"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845926-530448531.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a34"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845927-55979513.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a35"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516845927-77574563.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4eb03a123cd91dc80a36"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4002685395392"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWSERIA399064"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 19,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:30.402Z",
+  "updatedAt": "2026-08-29T14:21:36.079Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "SERIA399066",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:48.441Z"
+  },
+  "_id": "69a0564891d4068d868a19d9",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "SERIA399066",
+  "price": 1649,
+  "originalPrice": 1695,
+  "discount": 12,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859170-918095183.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e4ebf3a123cd91dc80ad8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859172-228188557.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ad9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859174-577942522.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ada"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859175-867767271.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80adb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859176-607086878.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80adc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859176-931435546.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80add"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859177-973815745.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ade"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859178-337843329.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80adf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859179-323917984.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859179-950576302.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859180-390626165.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859183-668857483.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859183-914946573.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859184-896577435.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859184-741574847.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859185-690458168.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859186-735656463.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859186-125318667.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80ae9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859187-791735928.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aea"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859192-507568529.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aeb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859193-446360376.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aec"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859193-668770116.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aed"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859194-669825369.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aee"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859195-479708729.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80aef"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516859195-201224790.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861111-868367904.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861112-218788536.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861864-482873552.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861868-791934134.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861868-430583104.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861869-934441959.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861870-375228271.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861870-85214329.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861871-625201086.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80af9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861871-477529146.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80afa"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861872-619391593.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80afb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861873-565140778.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80afc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861873-798594684.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80afd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783516861874-485844151.jpg",
+    "alt": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e4ebf3a123cd91dc80afe"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003976775220"
+   },
+   {
+    "key": "MPN",
+    "value": "SERIA399066"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 39,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:48.438Z",
+  "updatedAt": "2026-08-29T14:21:36.284Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 9\" 6+128GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "SERIA399068",
+    "categorii": "Seria 3 E46 (1999-2006)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:52:31.373Z"
+  },
+  "_id": "69a0501f91d4068d8689b2dc",
+  "name": "Navigatie PilotOn BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "SERIA399068",
+  "price": 2555,
+  "originalPrice": 2755,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/0/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057810.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "69a0501f91d4068d8689b2dd"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/3/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057813.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 2",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2de"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/6/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057816.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 3",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2df"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/9/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057819.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 4",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2e0"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/2/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057822.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 5",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2e1"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/5/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057825.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 6",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2e2"
+   },
+   {
+    "url": "https://cdnmpro.com/815608441/p/raw/8/navigatie-bmw-seria-3-1999-2006-9-inch-8gb-128gb-8-core-4g~100057828.jpg",
+    "alt": "Navigatie BMW Seria 3 1999-2006 9 inch 8GB 128GB 8 Core 4G - Image 7",
+    "isPrimary": false,
+    "_id": "69a0501f91d4068d8689b2e3"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004312828242"
+   },
+   {
+    "key": "MPN",
+    "value": "SERIA399068"
+   },
+   {
+    "key": "Product Type",
+    "value": "Seria 3 E46 (1999-2006)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 1999,
+    "yearTo": 2006,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 14,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:52:31.369Z",
+  "updatedAt": "2026-08-29T14:21:36.547Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW Seria 3 1999-2006 cu Android: ecran 9 inch, 8 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW Seria 3 1999-2006 9\" 8+128GB 8C | PilotOn"
+ }
+]

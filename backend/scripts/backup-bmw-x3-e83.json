@@ -1,0 +1,1686 @@
+[
+ {
+  "detailedSpecs": {
+   "processor": "Octa Core",
+   "ram": "12GB",
+   "storage": "256GB"
+  },
+  "displaySpecs": {
+   "technology": "QLED"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "12 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E8303112K12PO",
+    "categorii": "X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:24:07.168Z"
+  },
+  "_id": "69a0578791d4068d868a30a0",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-2k-12gb-256gb-8-core-4g",
+  "description": "Unboxing Tableta – Detalii și Ce Conține Pachetul Mai jos găsești prezentarea tabletei PilotOn, împreună cu toate accesoriile incluse în pachet. Montaj ușor, tip Plug & Play Dispozitivul se integrează perfect în bord, fără a fi nevoie de intervenții asupra instalației electrice originale. Funcțiile de pe volan rămân active, iar sistemul se oprește automat odată cu scoaterea contactului. Pachetul conține rama și toate cablurile necesare pentru instalare, adaptate modelului dumneavoastră auto. Control de pe volan Compatibil cu comenzile originale ale volanului, permițând utilizarea lor fără modificări. De asemenea, oferă posibilitatea instalării unor kituri de comenzi aftermarket pentru vehiculele care nu sunt echipate din fabrică cu această funcție. CarPlay & Android Auto Wireless Conectează telefonul fără cabluri și accesează rapid aplicații utile precum hărți, muzică sau apeluri, direct pe display-ul mașinii. Interfața este intuitivă, compatibilă cu comenzile vocale Siri sau Google Assistant, pentru o experiență sigură și fără distrageri în timpul condusului. Compatibil cu cameră frontală, DVR și cameră de marșarier Sistemul permite conectarea unei camere frontale pentru manevre precise la parcare, a unei camere DVR pentru înregistrarea traficului în timp real, precum și a unei camere de marșarier pentru un plus de siguranță la mersul înapoi. Procesor Octa Core Ecran QLED 2K Tehnologia QLED asigură culori intense, o luminozitate excelentă și un contrast deosebit. Ecranele sunt rezistente, eficiente din punct de vedere energetic și nu prezintă probleme de burn-in. Sistem audio cu egalizator și procesor DSP Include un egalizator integrat și procesor digital de sunet (DSP), oferind posibilitatea de a personaliza fin sunetul pentru o calitate audio superioară adaptată interiorului mașinii. Conectivitate 4G LTE și Wi-Fi 2.4G HotSpot Oferă o conexiune rapidă și fiabilă 4G LTE, cu acoperire largă și performanță constantă, iar funcția HotSpot Wi-Fi 2.4G asigură o experiență online optimizată. Bluetooth, Apeluri Hands-Free și Conexiune AUX Permite conectarea wireless a telefonului prin Bluetooth pentru muzică și convorbiri fără mâini, iar pentru opțiuni suplimentare de redare audio, este disponibilă și intrarea AUX cu cablu. Sistem de navigație GPS integrat Suportă aplicații populare precum Waze, Google Maps și altele, furnizând orientare exactă în timp real și informații actualizate despre trafic. Radio FM/AM cu RDS și acces la posturi online Oferă recepție FM/AM de calitate, cu funcție RDS pentru afișarea automată a informațiilor despre posturile ascultate. De asemenea, permite ascultarea radiourilor online prin conexiune la internet. Ecran Împărțit si Multitasking Permite vizualizarea a două aplicații în paralel pe ecran, îmbunătățind multitasking-ul pentru a reda aplicațiile telefonului direct pe ecranul sistemului de navigație. Senzori de parcare, climatizare și încălzire în scaune Permite gestionarea senzorilor de parcare, a încălzirii în scaune și a controlului climatizării direct prin sistemul de navigație, cu condiția ca vehiculul să fie compatibil cu aceste funcții. Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E8303112K12PO",
+  "price": 3299,
+  "originalPrice": 3955,
+  "discount": 5,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694592-420402452.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e98513a123cd91dc97b13"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-932386771.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97aff"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-951087382.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b00"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-25981916.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b01"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-477317639.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b02"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-183881560.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b03"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-383269693.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b04"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-522541378.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b05"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-739239735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b06"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694584-948522066.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b07"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694585-119645991.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b08"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694586-783042805.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b09"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-243983735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-502763565.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-804017717.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-763473577.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694589-997102135.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-560809045.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b15"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-430360236.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b0f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-899713929.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b10"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-975465947.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b11"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-798061708.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b12"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-138559204.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97b14"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694576-14853152.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97afb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694577-504276051.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97afc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694578-917440344.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97afd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694579-145376719.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K 12GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97afe"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4001351194024"
+   },
+   {
+    "key": "MPN",
+    "value": "E8303112K12PO"
+   },
+   {
+    "key": "Product Type",
+    "value": "X3 E83 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [
+   "Plug & Play Installation",
+   "GPS Navigation",
+   "DVR Support"
+  ],
+  "connectivityOptions": [
+   "CarPlay & Android Auto Wireless",
+   "Bluetooth",
+   "Wi-Fi",
+   "4G"
+  ],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 45,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:24:07.165Z",
+  "updatedAt": "2026-08-29T16:13:27.226Z",
+  "reviews": [],
+  "__v": 0,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 2K, 12 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 2K 12+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWE8303112K4",
+    "categorii": "X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:04:46.948Z"
+  },
+  "_id": "69a052fe91d4068d8689e05b",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-2k-qled-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWE8303112K4",
+  "price": 2049,
+  "originalPrice": 2310,
+  "discount": 9,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694592-420402452.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e98513a123cd91dc97a8e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-932386771.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-951087382.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-25981916.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-477317639.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-183881560.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-383269693.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a7f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-522541378.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a80"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-739239735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a81"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694584-948522066.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a82"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694585-119645991.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a83"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694586-783042805.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a84"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-243983735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a85"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-502763565.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a86"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-804017717.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a87"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-763473577.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a88"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694589-997102135.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a89"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-560809045.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a90"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-430360236.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a8a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-899713929.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a8b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-975465947.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a8c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-798061708.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a8d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-138559204.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a8f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694576-14853152.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a76"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694577-504276051.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a77"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694578-917440344.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a78"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694579-145376719.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97a79"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003458316262"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWE8303112K4"
+   },
+   {
+    "key": "Product Type",
+    "value": "X3 E83 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 52,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:04:46.946Z",
+  "updatedAt": "2026-08-29T16:13:27.517Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 2K, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 2K 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "8GB",
+   "storage": "256GB"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "8 GB",
+    "capacitateStocare": "256 GB",
+    "modelProcesor": "Octa Core 8667 MTK",
+    "frecventa": "2.0 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "2000 x 1200",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E8303112K8",
+    "categorii": "X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:14:12.137Z"
+  },
+  "_id": "69a0553491d4068d868a02ba",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-2k-qled-8gb-256gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E8303112K8",
+  "price": 2849,
+  "originalPrice": 3220,
+  "discount": 7,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694592-420402452.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e98513a123cd91dc97ad0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-932386771.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97abc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694580-951087382.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97abd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-25981916.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97abe"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694581-477317639.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97abf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-183881560.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694582-383269693.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-522541378.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694583-739239735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694584-948522066.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694585-119645991.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694586-783042805.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-243983735.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694587-502763565.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-804017717.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ac9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694588-763473577.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97aca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694589-997102135.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97acb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-560809045.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ad2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-430360236.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97acc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694590-899713929.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97acd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-975465947.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ace"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694591-798061708.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97acf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694878-138559204.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ad1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694576-14853152.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ab8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694577-504276051.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97ab9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694578-917440344.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97aba"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535694579-145376719.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 2K QLED 8GB 256GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98513a123cd91dc97abb"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4004590109996"
+   },
+   {
+    "key": "MPN",
+    "value": "E8303112K8"
+   },
+   {
+    "key": "Product Type",
+    "value": "X3 E83 (2003-2011)"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 30,
+  "viewCount": 5,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:14:12.133Z",
+  "updatedAt": "2026-08-29T16:13:27.714Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 2K, 8 GB RAM, 256 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 2K 8+256GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "2GB",
+   "storage": "32GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "2 GB",
+    "capacitateStocare": "32 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWE8303112O",
+    "categorii": "BMW, X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:49:05.479Z"
+  },
+  "_id": "69a04f5191d4068d8689a263",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-9-inch-2gb-32gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWE8303112O",
+  "price": 1220,
+  "originalPrice": 1420,
+  "discount": 14,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535778043-663093996.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e98a23a123cd91dc97e4c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777690-597366790.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e36"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777691-213956253.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e37"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777692-710285200.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e38"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777693-297013260.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e39"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777693-454515046.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777694-831103793.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777694-464914422.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777695-265729178.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777695-310886799.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777696-83940163.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e3f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777697-301198494.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e40"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777697-185427364.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e41"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777698-902188601.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e42"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777699-56525562.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e43"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777699-583890139.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e44"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777700-744545716.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e45"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777700-823824045.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e46"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777701-814784972.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e47"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777702-858749849.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e48"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535778045-192531161.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e4e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777703-28754598.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e49"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777704-322492146.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e4a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535778042-938909815.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e4b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535778044-909131371.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e4d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777686-321400750.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e32"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777688-3280680.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e33"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777689-758319564.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e34"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535777690-561841524.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e35"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535778045-316291515.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 2GB 32GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e98a23a123cd91dc97e4f"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4005732553790"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWE8303112O"
+   },
+   {
+    "key": "Product Type",
+    "value": "BMW"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 53,
+  "viewCount": 4,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:49:05.475Z",
+  "updatedAt": "2026-08-29T16:13:27.911Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 9 inch, 2 GB RAM, 32 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 9\" 2+32GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "4GB",
+   "storage": "64GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "4 GB",
+    "capacitateStocare": "64 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "BMWE83031194",
+    "categorii": "BMW, X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T13:49:01.769Z"
+  },
+  "_id": "69a04f4d91d4068d8689a229",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-9-inch-4gb-64gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "BMWE83031194",
+  "price": 1449,
+  "originalPrice": 1575,
+  "discount": 13,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737344-780268514.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e987a3a123cd91dc97ce4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736683-427771069.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ccd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736683-982351192.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cce"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736684-934639749.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ccf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736684-957060800.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736685-702622493.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736685-765903653.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736685-445039752.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736686-605340026.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736686-60038196.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736687-334925860.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736687-23729725.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736688-30951658.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736688-325767436.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cd9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736689-162532507.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cda"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736689-468093044.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cdb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736690-124249966.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cdc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736690-907117188.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cdd"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737346-906832683.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736690-679092926.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cde"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736691-226061879.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cdf"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736691-150019967.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736692-94702128.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737342-697730863.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737343-777901008.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737345-786245559.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736680-171837072.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cc9"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736681-82077608.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97cca"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736682-146206869.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ccb"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535736682-524027432.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ccc"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535737347-758739577.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 4GB 64GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e987a3a123cd91dc97ce7"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003156477708"
+   },
+   {
+    "key": "MPN",
+    "value": "BMWE83031194"
+   },
+   {
+    "key": "Product Type",
+    "value": "BMW"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 54,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T13:49:01.765Z",
+  "updatedAt": "2026-08-29T16:13:28.112Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 9 inch, 4 GB RAM, 64 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 9\" 4+64GB 8C | PilotOn"
+ },
+ {
+  "detailedSpecs": {
+   "ram": "6GB",
+   "storage": "128GB"
+  },
+  "displaySpecs": {
+   "screenSize": "9 inch"
+  },
+  "romanianSpecs": {
+   "hardware": {
+    "memorieRAM": "6 GB",
+    "capacitateStocare": "128 GB",
+    "modelProcesor": "Octa Core",
+    "frecventa": "1.6 Ghz"
+   },
+   "display": {
+    "diagonalaDisplay": "9 Inch",
+    "rezolutieDisplay": "1280 x 720",
+    "tehnologieDisplay": "QLED"
+   },
+   "connectivity": {
+    "conectivitate": "Bluetooth, Cartela Sim, Subwoofer, USB, Wi-Fi",
+    "bluetooth": "DA"
+   },
+   "features": {
+    "functii": "Android Auto, Carplay",
+    "splitScreen": "Da, poti imparti ecranul si folosi 2 aplicatii in acelasi timp",
+    "limbiInterfata": "Peste 60, inclusiv limba romana"
+   },
+   "package": {
+    "continutPachet": "2 Porturi USB, Antena Semnal Cartela Sim, Antena Semnal GPS, Cablu Preluare Camera Marsarier, Conectica Dedicata, Microfon Extern, Rama Adaptoare, Slot Cabluri RCA + Slot Cartela Sim, Tableta Android"
+   },
+   "compatibility": {
+    "destinatPentru": "Autoturism, Autoutilitara",
+    "tipMontare": "In Bord"
+   },
+   "general": {
+    "sku": "E8303116",
+    "categorii": "BMW, X3 E83 (2003-2011)",
+    "brand": "PilotOn",
+    "sistemOperare": "Android"
+   }
+  },
+  "structuredDescription": {
+   "sections": [],
+   "parsedAt": "2026-02-26T14:18:52.242Z"
+  },
+  "_id": "69a0564c91d4068d868a1a09",
+  "name": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+  "slug": "navigatie-piloton-bmw-x3-e83-2003-2011-9-inch-6gb-128gb-8-core-4g",
+  "description": "Va multumim ca ati ales produsele noastre!",
+  "category": "navigatii-gps",
+  "brand": "PilotOn",
+  "sku": "E8303116",
+  "price": 1649,
+  "originalPrice": 1775,
+  "discount": 11,
+  "stock": 50,
+  "lowStockThreshold": 5,
+  "images": [
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770146-11483193.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": true,
+    "_id": "6a4e989b3a123cd91dc97da6"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769577-442545397.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d8f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769578-128921546.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d90"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769578-57971456.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d91"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769579-685942590.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d92"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769579-632709504.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d93"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769580-856762032.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d94"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769580-665610768.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d95"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769581-60610592.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d96"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769582-848404823.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d97"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769582-741462.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d98"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769583-46322563.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d99"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769584-908630358.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9a"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769585-929052121.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769586-266094477.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769586-600119733.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769587-433802330.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770147-343648961.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da8"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769587-851624033.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d9f"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769588-536235957.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da0"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769589-45005959.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da1"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769589-250373931.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da2"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769590-927019912.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da3"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770143-94116637.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da4"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770144-97062993.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da5"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770147-219166295.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da7"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769573-163530648.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d8b"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769574-925173838.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d8c"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769576-519037277.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d8d"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535769576-183488879.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97d8e"
+   },
+   {
+    "url": "https://api.navi.piloton.ro/images/products/product-1783535770148-710026008.jpg",
+    "alt": "Navigatie PilotOn BMW X3 E83 2003-2011 9 inch 6GB 128GB 8 Core 4G",
+    "isPrimary": false,
+    "_id": "6a4e989b3a123cd91dc97da9"
+   }
+  ],
+  "specifications": [
+   {
+    "key": "GTIN",
+    "value": "4003593012739"
+   },
+   {
+    "key": "MPN",
+    "value": "E8303116"
+   },
+   {
+    "key": "Product Type",
+    "value": "BMW"
+   }
+  ],
+  "compatibility": [
+   {
+    "brand": "BMW",
+    "model": "Various",
+    "models": [],
+    "yearFrom": 2003,
+    "yearTo": 2011,
+    "years": []
+   }
+  ],
+  "features": [],
+  "inTheBox": [],
+  "technicalFeatures": [],
+  "connectivityOptions": [],
+  "warranty": 12,
+  "status": "active",
+  "featured": false,
+  "newProduct": false,
+  "onSale": true,
+  "tags": [],
+  "averageRating": 4.5,
+  "totalReviews": 19,
+  "viewCount": 3,
+  "purchaseCount": 0,
+  "crossSellProducts": [],
+  "createdAt": "2026-02-26T14:18:52.239Z",
+  "updatedAt": "2026-08-29T16:13:28.315Z",
+  "reviews": [],
+  "__v": 1,
+  "seoDescription": "Navigație BMW X3 E83 2003-2011 cu Android: ecran 9 inch, 6 GB RAM, 128 GB stocare, 8 Core, CarPlay și Android Auto wireless. Livrare rapidă în România.",
+  "seoTitle": "Navigație BMW X3 E83 2003-2011 9\" 6+128GB 8C | PilotOn"
+ }
+]
