@@ -19,9 +19,15 @@ import {
   AccordionDetails,
   Tooltip,
   Button,
+  IconButton,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  Alert,
 } from '@mui/material';
-import { ExpandMore, Refresh, WarningAmber } from '@mui/icons-material';
-import { buildApiUrl } from '../config/api';
+import { ExpandMore, Refresh, WarningAmber, EditOutlined, ArrowForward } from '@mui/icons-material';
+import { buildApiUrl, resolveImageUrl } from '../config/api';
 import { adminTokens as t } from '../theme';
 
 // Grila de prețuri pe treapta ramei (Alex, 3 sep 2026). Indexul din tuplu =
@@ -134,6 +140,33 @@ const fetchAllProducts = async (onProgress) => {
   return all;
 };
 
+// Poza ramei: prima imagine a oricărui produs din familie. Lista întoarce
+// `images` tăiat la un singur element, deci e chiar prima poză a produsului.
+const firstImage = (items) => {
+  for (const it of items) {
+    const url = it.images?.[0]?.url;
+    if (url) return resolveImageUrl(url);
+  }
+  return null;
+};
+
+// De ce nu are modelul un set canonic de 9
+const describeNonCanonical = (items) => {
+  const reasons = new Set();
+  items.forEach((p) => {
+    const n = p.name || '';
+    if (/\btesla\b/i.test(n)) reasons.add('Tesla 9.7"');
+    else if (OEM_RE.test(n)) reasons.add('ecran OEM');
+    else if (/\bQLED\b/i.test(n)) reasons.add('QLED');
+    else if (/\b4G\b/.test(n)) reasons.add('stoc vechi 4G');
+    else {
+      const m = n.match(/(\d+(?:\.\d+)?)\s*inch\b/i);
+      reasons.add(m ? `${m[1]}"` : 'altă configurație');
+    }
+  });
+  return Array.from(reasons).slice(0, 3).join(', ');
+};
+
 // Sufixele de SKU ale celor 9 configurații. Prefixul rămas identifică rama, așa
 // că pe paginile cu două-trei rame el e singurul lucru care spune care produs
 // ține de care ramă (titlurile diferă doar prin scriere, ca să nu se ciocnească
@@ -174,15 +207,23 @@ const splitByRama = (group) => {
 // preț din prețurile membrilor.
 const buildFamilies = (products) => {
   const groups = new Map();
+  const pages = new Map();
 
   products.forEach((p) => {
     const name = p.name || '';
     if (!/^Navigatie PilotOn\b/i.test(name)) return;
-    const c = configOf(name);
-    if (!c) return;
     const brand = brandOf(name);
     if (!brand) return;
     const model = modelOf(name);
+
+    // Toate produsele paginii se rețin separat: modelele fără nicio configurație
+    // din setul canonic trebuie să apară și ele în listă (Alex, 3 sep), iar poza
+    // ramei se ia de la orice produs al familiei.
+    if (!pages.has(model)) pages.set(model, { brand, model, all: [] });
+    pages.get(model).all.push(p);
+
+    const c = configOf(name);
+    if (!c) return;
     const size = c.inch === '10' || c.inch === '10.1' ? 10 : c.inch === '9' ? 9 : null;
     const key = `${model}|${size ?? '?'}`;
     if (!groups.has(key)) {
@@ -235,7 +276,7 @@ const buildFamilies = (products) => {
 
   const ramas = Array.from(groups.values()).flatMap(splitByRama);
 
-  return ramas.map((g) => {
+  const families = ramas.map((g) => {
     const votes = [0, 0, 0];
     const prices = {};
     g.items.forEach((it) => {
@@ -252,8 +293,211 @@ const buildFamilies = (products) => {
     );
     const mixed = votes.filter((v) => v > 0).length > 1;
     const id = `${g.model}|${g.size ?? '?'}|${skuFamilyPrefix(g.items[0]?.sku) || g.items[0]?.slug}`;
-    return { ...g, id, tier, mixed, offGrid, prices, count: g.items.length };
+    return {
+      ...g, id, tier, mixed, offGrid, prices,
+      count: g.items.length,
+      image: firstImage(g.items),
+      canonic: true,
+    };
   });
+
+  // Modelele fără nicio configurație din setul canonic — 7", Tesla, ecrane OEM,
+  // stoc vechi. Apar cu produsele lor, fără treaptă de preț.
+  const withFamily = new Set(families.map((f) => f.model));
+  pages.forEach((page) => {
+    if (withFamily.has(page.model)) return;
+    families.push({
+      brand: page.brand,
+      model: page.model,
+      id: `${page.model}|fara-familie`,
+      size: null,
+      items: [],
+      tier: null,
+      mixed: false,
+      offGrid: [],
+      prices: {},
+      count: page.all.length,
+      image: firstImage(page.all),
+      canonic: false,
+      note: describeNonCanonical(page.all),
+    });
+  });
+
+  // Poza ramei: dacă familia n-are poză proprie, o împrumută de la pagina ei
+  families.forEach((f) => {
+    if (!f.image) f.image = firstImage(pages.get(f.model)?.all || []);
+  });
+
+  return families;
+};
+
+// Familii canonice care nu ies curat: preț în afara grilei, treaptă mixtă sau
+// alt număr de produse decât 9. Modelele fără set de 9 au filtrul lor.
+const needsAttention = (f) =>
+  f.canonic && (f.mixed || f.offGrid.length > 0 || f.count !== 9);
+
+const microLabelSx = {
+  fontFamily: t.mono,
+  fontSize: '0.62rem',
+  fontWeight: 600,
+  letterSpacing: '0.12em',
+  textTransform: 'uppercase',
+  color: t.steel,
+};
+
+const updateProductPrice = async (id, price) => {
+  const token = localStorage.getItem('token');
+  const res = await fetch(buildApiUrl(`/products/${id}`), {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ price }),
+  });
+  if (!res.ok) {
+    throw new Error(`Produsul ${id} nu a putut fi salvat (${res.status})`);
+  }
+  return res.json();
+};
+
+// Mutarea unei rame pe altă treaptă: fiecare produs primește prețul propriei
+// configurații de pe treapta aleasă. „2K 12GB" costă la fel pe toate, deci
+// rămâne pe loc.
+const plannedChanges = (family, tier) =>
+  family.items
+    .map((it) => ({ item: it, from: it.price, to: GRID[it.config][tier] }))
+    .filter((c) => c.from !== c.to);
+
+const TierDialog = ({ family, onClose, onSaved }) => {
+  const [tier, setTier] = useState(family.tier === null ? 1 : family.tier);
+  const [saving, setSaving] = useState(false);
+  const [done, setDone] = useState(0);
+  const [error, setError] = useState(null);
+
+  const changes = useMemo(() => plannedChanges(family, tier), [family, tier]);
+
+  const save = async () => {
+    setSaving(true);
+    setError(null);
+    setDone(0);
+    try {
+      for (let i = 0; i < changes.length; i += 1) {
+        await updateProductPrice(changes[i].item._id, changes[i].to);
+        setDone(i + 1);
+      }
+      onSaved(family, tier);
+    } catch (e) {
+      setError(`${e.message}. Modificările făcute până acum au rămas aplicate.`);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  return (
+    <Dialog open onClose={saving ? undefined : onClose} maxWidth="sm" fullWidth>
+      <DialogTitle sx={{ pb: 1 }}>
+        <Typography sx={{ fontWeight: 700, color: t.ink, fontSize: '1rem' }}>
+          {family.model}
+        </Typography>
+        <Typography sx={{ ...microLabelSx, mt: 0.5 }}>
+          ramă de {family.size ? `${family.size}"` : '—'} · {family.count} produse
+        </Typography>
+      </DialogTitle>
+
+      <DialogContent dividers>
+        <Typography sx={{ ...microLabelSx, mb: 1 }}>Categoria ramei</Typography>
+        <ToggleButtonGroup
+          size="small"
+          exclusive
+          value={tier}
+          onChange={(e, v) => v !== null && setTier(v)}
+          disabled={saving}
+          sx={{ mb: 2.5 }}
+        >
+          {TIERS.map((s) => (
+            <ToggleButton key={s.key} value={s.key} sx={{ ...microLabelSx, px: 2 }}>
+              {s.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+
+        {changes.length === 0 ? (
+          <Alert severity="info" sx={{ fontSize: '0.83rem' }}>
+            Familia e deja pe treapta asta — nu se schimbă niciun preț.
+          </Alert>
+        ) : (
+          <>
+            <Typography sx={{ ...microLabelSx, mb: 1 }}>
+              {changes.length} {changes.length === 1 ? 'preț se schimbă' : 'prețuri se schimbă'}
+            </Typography>
+            <Table size="small">
+              <TableBody>
+                {changes.map((c) => (
+                  <TableRow key={c.item._id}>
+                    <TableCell sx={{ fontSize: '0.8rem', color: t.ink, border: 0, py: 0.5 }}>
+                      {c.item.config}
+                    </TableCell>
+                    <TableCell
+                      align="right"
+                      sx={{ fontFamily: t.mono, fontSize: '0.78rem', color: t.steel, border: 0, py: 0.5 }}
+                    >
+                      {c.from}
+                    </TableCell>
+                    <TableCell sx={{ width: 24, border: 0, py: 0.5 }}>
+                      <ArrowForward sx={{ fontSize: 14, color: t.line }} />
+                    </TableCell>
+                    <TableCell
+                      align="right"
+                      sx={{
+                        fontFamily: t.mono,
+                        fontSize: '0.78rem',
+                        fontWeight: 700,
+                        color: c.to > c.from ? '#2e7d32' : '#c62828',
+                        border: 0,
+                        py: 0.5,
+                      }}
+                    >
+                      {c.to}
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </>
+        )}
+
+        {saving && (
+          <Box sx={{ mt: 2 }}>
+            <Typography sx={{ ...microLabelSx, mb: 0.75 }}>
+              se salvează… {done}/{changes.length}
+            </Typography>
+            <LinearProgress
+              variant="determinate"
+              value={changes.length ? (done / changes.length) * 100 : 0}
+            />
+          </Box>
+        )}
+
+        {error && (
+          <Alert severity="error" sx={{ mt: 2, fontSize: '0.8rem' }}>
+            {error}
+          </Alert>
+        )}
+      </DialogContent>
+
+      <DialogActions sx={{ px: 3, py: 2 }}>
+        <Button onClick={onClose} disabled={saving} size="small">
+          Renunță
+        </Button>
+        <Button
+          onClick={save}
+          disabled={saving || changes.length === 0}
+          variant="contained"
+          size="small"
+        >
+          Schimbă {changes.length > 0 ? `cele ${changes.length} prețuri` : 'prețurile'}
+        </Button>
+      </DialogActions>
+    </Dialog>
+  );
 };
 
 const TierChip = ({ tier, mixed }) => {
@@ -291,20 +535,14 @@ const TierChip = ({ tier, mixed }) => {
   );
 };
 
-const microLabelSx = {
-  fontFamily: t.mono,
-  fontSize: '0.62rem',
-  fontWeight: 600,
-  letterSpacing: '0.12em',
-  textTransform: 'uppercase',
-  color: t.steel,
-};
-
-const BrandSection = ({ brand, families, defaultExpanded }) => {
+const BrandSection = ({ brand, families, defaultExpanded, onEdit }) => {
   const counts = [0, 0, 0];
+  let withoutSet = 0;
   families.forEach((f) => {
-    if (f.tier !== null) counts[f.tier] += 1;
+    if (!f.canonic) withoutSet += 1;
+    else if (f.tier !== null) counts[f.tier] += 1;
   });
+  const ramaCount = families.length - withoutSet;
 
   return (
     <Accordion
@@ -324,7 +562,8 @@ const BrandSection = ({ brand, families, defaultExpanded }) => {
             {brand}
           </Typography>
           <Box component="span" sx={{ ...microLabelSx }}>
-            {families.length} {families.length === 1 ? 'ramă' : 'rame'}
+            {ramaCount} {ramaCount === 1 ? 'ramă' : 'rame'}
+            {withoutSet > 0 && ` · ${withoutSet} fără set`}
           </Box>
           <Box sx={{ flex: 1 }} />
           {TIERS.map((s, i) =>
@@ -353,6 +592,7 @@ const BrandSection = ({ brand, families, defaultExpanded }) => {
           <Table size="small" sx={{ minWidth: 900 }}>
             <TableHead>
               <TableRow sx={{ bgcolor: t.mist }}>
+                <TableCell sx={microLabelSx}>Ramă</TableCell>
                 <TableCell sx={microLabelSx}>Model</TableCell>
                 <TableCell sx={microLabelSx} align="center">Diag.</TableCell>
                 <TableCell sx={microLabelSx} align="center">Produse</TableCell>
@@ -367,7 +607,50 @@ const BrandSection = ({ brand, families, defaultExpanded }) => {
             <TableBody>
               {families.map((f) => (
                 <TableRow key={f.id} hover>
-                  <TableCell sx={{ color: t.ink, fontSize: '0.83rem' }}>{f.model}</TableCell>
+                  <TableCell sx={{ width: 150, p: 1 }}>
+                    {f.image ? (
+                      <Box
+                        component="img"
+                        src={f.image}
+                        alt={f.model}
+                        loading="lazy"
+                        sx={{
+                          width: 134,
+                          height: 134,
+                          objectFit: 'contain',
+                          display: 'block',
+                          borderRadius: '6px',
+                          border: `1px solid ${t.line}`,
+                          bgcolor: t.paper,
+                        }}
+                      />
+                    ) : (
+                      <Box
+                        sx={{
+                          width: 134,
+                          height: 134,
+                          borderRadius: '6px',
+                          border: `1px dashed ${t.line}`,
+                          bgcolor: t.mist,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          ...microLabelSx,
+                          fontSize: '0.58rem',
+                        }}
+                      >
+                        fără poză
+                      </Box>
+                    )}
+                  </TableCell>
+                  <TableCell sx={{ color: t.ink, fontSize: '0.83rem' }}>
+                    {f.model}
+                    {!f.canonic && (
+                      <Box sx={{ ...microLabelSx, fontSize: '0.58rem', mt: 0.5, color: '#e65100' }}>
+                        fără set de 9 · {f.note}
+                      </Box>
+                    )}
+                  </TableCell>
                   <TableCell align="center" sx={{ fontFamily: t.mono, fontSize: '0.75rem', color: t.steel }}>
                     {f.size ? `${f.size}"` : '—'}
                   </TableCell>
@@ -377,14 +660,29 @@ const BrandSection = ({ brand, families, defaultExpanded }) => {
                       sx={{
                         fontFamily: t.mono,
                         fontSize: '0.72rem',
-                        color: f.count === 9 ? t.steel : '#e65100',
-                        fontWeight: f.count === 9 ? 400 : 700,
+                        color: !f.canonic || f.count === 9 ? t.steel : '#e65100',
+                        fontWeight: f.canonic && f.count !== 9 ? 700 : 400,
                       }}
                     >
                       {f.count}
                     </Box>
                   </TableCell>
-                  <TableCell><TierChip tier={f.tier} mixed={f.mixed} /></TableCell>
+                  <TableCell>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                      <TierChip tier={f.tier} mixed={f.mixed} />
+                      {f.canonic && (
+                        <Tooltip title="Schimbă categoria pentru toată familia">
+                          <IconButton
+                            size="small"
+                            onClick={() => onEdit(f)}
+                            sx={{ color: t.steel, '&:hover': { color: t.blue } }}
+                          >
+                            <EditOutlined sx={{ fontSize: 16 }} />
+                          </IconButton>
+                        </Tooltip>
+                      )}
+                    </Box>
+                  </TableCell>
                   {CONFIGS.map((c) => {
                     const price = f.prices[c];
                     const onGrid = price !== undefined && GRID[c].includes(price);
@@ -421,6 +719,25 @@ export const PriceList = () => {
   const [error, setError] = useState(null);
   const [search, setSearch] = useState('');
   const [tierFilter, setTierFilter] = useState('toate');
+  const [editing, setEditing] = useState(null);
+  const [saved, setSaved] = useState(null);
+
+  // După salvare recalculăm familia local, ca să nu recitim toate produsele
+  const applyTierLocally = useCallback((family, tier) => {
+    setFamilies((prev) =>
+      prev.map((f) => {
+        if (f.id !== family.id) return f;
+        const items = f.items.map((it) => ({ ...it, price: GRID[it.config][tier] }));
+        const prices = {};
+        items.forEach((it) => {
+          if (prices[it.config] === undefined) prices[it.config] = it.price;
+        });
+        return { ...f, items, prices, tier, mixed: false, offGrid: [] };
+      })
+    );
+    setSaved(`${family.model} — mutat pe „${TIERS[tier].label}”`);
+    setEditing(null);
+  }, []);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -445,8 +762,9 @@ export const PriceList = () => {
     return families.filter((f) => {
       if (q && !`${f.brand} ${f.model}`.toLowerCase().includes(q)) return false;
       if (tierFilter === 'toate') return true;
-      if (tierFilter === 'atentie') return f.mixed || f.offGrid.length > 0 || f.count !== 9;
-      return String(f.tier) === tierFilter;
+      if (tierFilter === 'atentie') return needsAttention(f);
+      if (tierFilter === 'fara-set') return !f.canonic;
+      return f.canonic && String(f.tier) === tierFilter;
     });
   }, [families, search, tierFilter]);
 
@@ -464,11 +782,13 @@ export const PriceList = () => {
   const totals = useMemo(() => {
     const counts = [0, 0, 0];
     let attention = 0;
+    let withoutSet = 0;
     families.forEach((f) => {
-      if (f.tier !== null) counts[f.tier] += 1;
-      if (f.mixed || f.offGrid.length > 0 || f.count !== 9) attention += 1;
+      if (!f.canonic) withoutSet += 1;
+      else if (f.tier !== null) counts[f.tier] += 1;
+      if (needsAttention(f)) attention += 1;
     });
-    return { counts, attention };
+    return { counts, attention, withoutSet };
   }, [families]);
 
   return (
@@ -499,7 +819,9 @@ export const PriceList = () => {
 
         {!loading && !error && (
           <Box sx={{ display: 'flex', gap: 1, mt: 2, flexWrap: 'wrap' }}>
-            <Box sx={{ ...microLabelSx, alignSelf: 'center' }}>{families.length} rame</Box>
+            <Box sx={{ ...microLabelSx, alignSelf: 'center' }}>
+              {families.length - totals.withoutSet} rame · {families.length} modele
+            </Box>
             {TIERS.map((s, i) => (
               <Box
                 key={s.key}
@@ -531,6 +853,22 @@ export const PriceList = () => {
                 }}
               >
                 de verificat: <b>{totals.attention}</b>
+              </Box>
+            )}
+            {totals.withoutSet > 0 && (
+              <Box
+                sx={{
+                  fontFamily: t.mono,
+                  fontSize: '0.7rem',
+                  color: t.steel,
+                  bgcolor: t.mist,
+                  border: `1px solid ${t.line}`,
+                  borderRadius: '4px',
+                  px: 1,
+                  py: '3px',
+                }}
+              >
+                fără set de 9: <b>{totals.withoutSet}</b>
               </Box>
             )}
           </Box>
@@ -575,6 +913,7 @@ export const PriceList = () => {
                 </ToggleButton>
               ))}
               <ToggleButton value="atentie" sx={{ ...microLabelSx, px: 1.5 }}>De verificat</ToggleButton>
+              <ToggleButton value="fara-set" sx={{ ...microLabelSx, px: 1.5 }}>Fără set de 9</ToggleButton>
             </ToggleButtonGroup>
           </Card>
 
@@ -589,10 +928,29 @@ export const PriceList = () => {
                 brand={brand}
                 families={list}
                 defaultExpanded={byBrand.length <= 3}
+                onEdit={setEditing}
               />
             ))
           )}
         </>
+      )}
+
+      {editing && (
+        <TierDialog
+          family={editing}
+          onClose={() => setEditing(null)}
+          onSaved={applyTierLocally}
+        />
+      )}
+
+      {saved && (
+        <Alert
+          severity="success"
+          onClose={() => setSaved(null)}
+          sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1400, boxShadow: 3 }}
+        >
+          {saved}
+        </Alert>
       )}
     </Box>
   );
