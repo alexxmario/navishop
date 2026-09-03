@@ -1,0 +1,139 @@
+Citroen
+   Citroen C-Crosser 2007-2012  (9 inch)
+   Citroen DS4 2010-2018  (10 inch)
+   Citroen Elysee 2013-2018  (9 inch)
+   Citroen Jumper 2006-2022  (9 inch)
+   Citroen SpaceTourer dupa 2016  (9 inch)
+DS
+   DS 5 2012-2017  (10 inch)
+Dacia
+   Dacia Jogger dupa 2022  (10 inch)
+   Dacia Lodgy 2012-2020  (9 inch)
+   Dacia Sandero 1 2008-2013  (9 inch)
+   Dacia Sandero 1 2008-2013 BLACK  (9 inch)
+   Dacia Sandero 2 2012-2020  (9 inch)
+   Dacia Sandero 2 2012-2020 ROTUND  (9 inch)
+   Dacia Sandero 3 2021-2023  (10 inch)
+Dodge
+   Dodge RAM 1500 2500 2013-2019  (9 inch)
+Fiat
+   Fiat Grande Punto 2005-2009  (9 inch)
+   Fiat Sedici 2006-2014  (9 inch)
+   Fiat Talento dupa 2016  (9 inch)
+Ford
+   Ford C-Max 2003-2010 S  (9 inch)
+   Ford C-Max II Grand C-Max 2010-2019  (9 inch)
+   Ford Fusion 2006-2012 S  (9 inch)
+   Ford Galaxy 2 2006-2015  (9 inch)
+   Ford Galaxy 2 2006-2015 AC  (9 inch)
+   Ford Kuga 2008-2012  (9 inch)
+   Ford Mustang 2010-2014  (10 inch)
+   Ford Mustang 2015-2018  (9 inch)
+   Ford Tourneo Courier 2013-2021  (9 inch)
+Hyundai
+   Hyundai Accent 2017-2020  (9 inch)
+   Hyundai IX20 2010-2019  (9 inch)
+   Hyundai Kona 2017-2023  (10 inch)
+   Hyundai i10 2013-2019  (9 inch)
+Isuzu
+   Isuzu D-Max 2008-2012  (9 inch)
+   Isuzu D-Max 2012-2020  (9 inch)
+Jeep
+   Jeep Patriot 2011-2017  (10 inch)
+   Jeep Patriot I 2006-2010  (10 inch)
+Kia
+   Kia Grand Carnival 2006-2014  (9 inch)
+   Kia Sorento 2009-2012  (9 inch)
+Lexus
+   Lexus RX 2003-2009  (9 inch)
+Mazda
+   Mazda 6 2013-2019  (9 inch)
+   Mazda CX-3 2014-2021  (9 inch)
+Mercedes
+   Mercedes Benz A CLASS W169 2004-2012  (9 inch)
+   Mercedes Benz B CLASS W245 2005-2011  (9 inch)
+   Mercedes Benz CLS C219 2004-2011  (9 inch)
+   Mercedes Benz Viano 2003-2014  (9 inch)
+Mini
+   Mini Cooper 2006-2013  (9 inch)
+   Mini Cooper 2014-2020  (9 inch)
+Mitsubishi
+   Mitsubishi ASX 2020-2022  (10 inch)
+   Mitsubishi L200 2005-2015  (9 inch)
+   Mitsubishi L200 Triton 2019-2022  (9 inch)
+   Mitsubishi Outlander III 2018-2022  (10 inch)
+   Mitsubishi Outlander III 2018-2022 FARA GP  (10 inch)
+Nissan
+   Nissan NV400 2010-2020  (10 inch)
+   Nissan Pathfinder R51 2005-2014  (9 inch)
+   Nissan Primastar 2006-2010  (10 inch)
+   Nissan Primastar 2010-2014  (10 inch)
+   Nissan Tiida 2016-2019  (9 inch)
+   Nissan X-Trail dupa 2022  (10 inch)
+Opel
+   Opel Adam 2012-2019  (9 inch)
+   Opel Combo 2003-2011  (9 inch)
+   Opel Combo 2012-2018  (9 inch)
+   Opel Tigra 2004-2009  (9 inch)
+   Opel Vivaro 2010-2014  (10 inch)
+   Opel Vivaro 2014-2019  (9 inch)
+   Opel Vivaro C dupa 2019  (9 inch)
+Peugeot
+   Peugeot 107 2005-2014  (10 inch)
+   Peugeot 206+ 2001-2008  (9 inch)
+   Peugeot 301 2013-2018  (9 inch)
+   Peugeot 4007 2007-2014  (9 inch)
+   Peugeot 408 2008-2020  (9 inch)
+   Peugeot 5008 2009-2016  (9 inch)
+   Peugeot Boxer 2006-2022  (9 inch)
+   Peugeot Partner 2015-2018  (9 inch)
+   Peugeot Traveller dupa 2016  (9 inch)
+Renault
+   Renault Kwid 2016-2017  (9 inch)
+   Renault Twingo 2005-2013  (9 inch)
+   Renault Zoe 2012-2019  (10 inch)
+Rover
+   Rover 75 1999-2005  (9 inch)
+Seat
+   Seat Alhambra 1996-2008  (9 inch)
+   Seat Arona 2017-2022  (9 inch)
+   Seat Arosa 1997-2004  (9 inch)
+   Seat Cordoba 2002-2008  (9 inch)
+   Seat Exeo 2009-2013  (9 inch)
+   Seat Ibiza 2002-2008  (9 inch)
+   Seat Toledo 1999-2004  (9 inch)
+   Seat Toledo 2004-2009  (9 inch)
+   Seat Toledo IV 2012-2019  (9 inch)
+Skoda
+   Skoda Octavia 1997-2004  (9 inch)
+   Skoda Superb 1 2001-2008  (9 inch)
+Smart
+   Smart ForFour 2005-2010  (9 inch)
+   Smart ForFour 2014-2021  (9 inch)
+SsangYong
+   SsangYong Tivoli 2015-2019  (9 inch)
+Subaru
+   Subaru Forester SJ 2016-2018  (9 inch)
+   Subaru Forester SK 2018-2021  (9 inch)
+   Subaru Impreza WRX 2017-2020  (9 inch)
+Toyota
+   Toyota CHR 2016-2020  (9 inch)
+   Toyota Fortuner 2005-2014  (9 inch)
+   Toyota Harrier 2003-2009  (9 inch)
+   Toyota Highlander 2000-2007  (9 inch)
+   Toyota Highlander 2000-2007 MAHON  (9 inch)
+   Toyota Proace dupa 2016  (9 inch)
+   Toyota Sienna 2010-2014  (9 inch)
+VW
+   VW Arteon dupa 2017  (9 inch)
+   VW Caravelle T6 dupa 2022  (9 inch)
+   VW Crafter 2006-2016  (9 inch)
+   VW Golf IV 1997-2003  (9 inch)
+   VW LT3 2006-2016  (9 inch)
+   VW Lupo 1998-2005  (9 inch)
+   VW Polo 1997-2001  (9 inch)
+   VW Taigo dupa 2021  (9 inch)
+   VW Tayron dupa 2021  (9 inch)
+   VW Transporter T4 1998-2003  (9 inch)
+Volvo
+   Volvo V50 2006-2012  (9 inch)

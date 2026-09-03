@@ -1,0 +1,113 @@
+Citroen C-Crosser 2007-2012	9	50	# pagina: Citroen C-Crosser 2007-2012
+Citroen DS4 2010-2018	10	90	# pagina: Citroen DS4 2010-2018
+Citroen Elysee 2013-2018	9	80	# pagina: Citroen Elysee 2013-2018
+Citroen Jumper 2006-2022	9	160	# pagina: Citroen Jumper 2006-2022
+Citroen SpaceTourer dupa 2016	9	200	# pagina: Citroen SpaceTourer dupa 2016
+Dacia Jogger dupa 2022	10	230	# pagina: Dacia Jogger dupa 2022
+Dacia Lodgy 2012-2020	9	100	# pagina: Dacia Lodgy 2012-2020
+Dacia Sandero 1 2008-2013	9	100	# pagina: Dacia Sandero 1 2008-2013
+Dacia Sandero 1 2008-2013	9	100	# pagina: Dacia Sandero 1 2008-2013 BLACK
+Dacia Sandero 2 2012-2020	9	100	# pagina: Dacia Sandero 2 2012-2020
+Dacia Sandero 2 2012-2020	9	100	# pagina: Dacia Sandero 2 2012-2020 ROTUND
+Dacia Sandero 3 2021-2023	10	230	# pagina: Dacia Sandero 3 2021-2023
+DODGE RAM 13-18	9	230	# pagina: Dodge RAM 1500 2500 2013-2019
+Fiat Sedici 2006-2014	9	60	# pagina: Fiat Sedici 2006-2014
+Fiat Talento dupa 2016	9	150	# pagina: Fiat Talento dupa 2016
+Ford C-Max II Grand C-Max 2010-2019	9	200	# pagina: Ford C-Max II Grand C-Max 2010-2019
+Ford Galaxy 2 2006-2015	9	70	# pagina: Ford Galaxy 2 2006-2015
+Ford Galaxy 2 2006-2015	9	70	# pagina: Ford Galaxy 2 2006-2015 AC
+HYUNDAI ACCENT 09	9	100	# pagina: Hyundai Accent 2017-2020
+Hyundai Kona 2017-2023	10	100	# pagina: Hyundai Kona 2017-2023
+Isuzu D-Max 2008-2012	9	150	# pagina: Isuzu D-Max 2008-2012
+Isuzu D-Max 2012-2020	9	150	# pagina: Isuzu D-Max 2012-2020
+Jeep Patriot 2011-2017	10	180	# pagina: Jeep Patriot 2011-2017
+Jeep Patriot I 2006-2010	10	150	# pagina: Jeep Patriot I 2006-2010
+Mazda 6 2013-2019	9	100	# pagina: Mazda 6 2013-2019
+Mercedes Benz A CLASS W169 2004-2012	9	120	# pagina: Mercedes Benz A CLASS W169 2004-2012
+Mercedes Benz B CLASS W245 2005-2011	9	120	# pagina: Mercedes Benz B CLASS W245 2005-2011
+Mercedes Benz CLS C219 2004-2011	9	150	# pagina: Mercedes Benz CLS C219 2004-2011
+Mercedes Benz Viano 2003-2014	10	120	# pagina: Mercedes Benz Viano 2003-2014
+Mini Cooper 2014-2020	9	200	# pagina: Mini Cooper 2014-2020
+Mitsubishi ASX 2020-2022	10	190	# pagina: Mitsubishi ASX 2020-2022
+Mitsubishi L200 2005-2015	9	120	# pagina: Mitsubishi L200 2005-2015
+Mitsubishi L200 Triton 2019-2022	9	150	# pagina: Mitsubishi L200 Triton 2019-2022
+Nissan NV400 2010-2020	10	190	# pagina: Nissan NV400 2010-2020
+Nissan Pathfinder R51 2005-2014	9	100	# pagina: Nissan Pathfinder R51 2005-2014
+Nissan Primastar 2004-2014	10	100	# pagina: Nissan Primastar 2006-2010
+Nissan Primastar 2004-2014	10	100	# pagina: Nissan Primastar 2010-2014
+Opel Adam 2012-2019	9	160	# pagina: Opel Adam 2012-2019
+Opel Combo 2010-2015	9	160	# pagina: Opel Combo 2003-2011
+Opel Combo 2010-2015	9	160	# pagina: Opel Combo 2012-2018
+Opel Vivaro 2014-2019	10	150	# pagina: Opel Vivaro 2010-2014
+Opel Vivaro 2014-2019	9	150	# pagina: Opel Vivaro 2014-2019
+Opel Vivaro C dupa 2019	9	210	# pagina: Opel Vivaro C dupa 2019
+Peugeot 107 2005-2014	10	110	# pagina: Peugeot 107 2005-2014
+PEUGEOT 206+ 2001-2008	9	100	# pagina: Peugeot 206+ 2001-2008
+Peugeot 301 2013-2018	9	80	# pagina: Peugeot 301 2013-2018
+Peugeot 4007 2007-2014	9	130	# pagina: Peugeot 4007 2007-2014
+Peugeot 408 2008-2020	9	120	# pagina: Peugeot 408 2008-2020
+PEUGEOT 5008 2009-2016	9	130	# pagina: Peugeot 5008 2009-2016
+Peugeot Boxer 2006-2022	9	160	# pagina: Peugeot Boxer 2006-2022
+Peugeot Partner 2015-2018	9	130	# pagina: Peugeot Partner 2015-2018
+Peugeot Traveller dupa 2016	9	200	# pagina: Peugeot Traveller dupa 2016
+Renault Zoe 2012-2019	10	150	# pagina: Renault Zoe 2012-2019
+Seat Arona 2017-2022	9	150	# pagina: Seat Arona 2017-2022
+Seat Exeo 2009-2013	9	160	# pagina: Seat Exeo 2009-2013
+Seat Toledo 2004-2009	9	130	# pagina: Seat Toledo 1999-2004
+Seat Toledo 2004-2009	9	130	# pagina: Seat Toledo 2004-2009
+Seat Toledo 4 2012-2019	9	130	# pagina: Seat Toledo IV 2012-2019
+Smart ForFour 2005-2010	9	60	# pagina: Smart ForFour 2005-2010
+Smart ForFour dupa 2011	9	50	# pagina: Smart ForFour 2014-2021
+Subaru Forester SK 2017-2020	9	200	# pagina: Subaru Forester SJ 2016-2018
+Subaru Forester SK 2017-2020	9	200	# pagina: Subaru Forester SK 2018-2021
+Subaru Impreza WRX 2017-2020	9	200	# pagina: Subaru Impreza WRX 2017-2020
+Toyota Proace dupa 2016	9	200	# pagina: Toyota Proace dupa 2016
+VW Arteon dupa 2017	9	120	# pagina: VW Arteon dupa 2017
+VW Caravelle T6 dupa 2022	9	160	# pagina: VW Caravelle T6 dupa 2022
+VW Crafter 2006-2016	9	120	# pagina: VW Crafter 2006-2016
+VW Taigo dupa 2021	9	120	# pagina: VW Taigo dupa 2021
+Volvo V50 2006-2012	9	180	# pagina: Volvo V50 2006-2012
+
+# pagini fara rand in NICIUNA din liste:
+# DS 5 2012-2017  (9 produse)
+# Fiat Grande Punto 2005-2009  (9 produse)
+# Ford C-Max 2003-2010 S  (9 produse)
+# Ford Fusion 2006-2012 S  (9 produse)
+# Ford Kuga 2008-2012  (9 produse)
+# Ford Mustang 2010-2014  (9 produse)
+# Ford Mustang 2015-2018  (9 produse)
+# Ford Tourneo Courier 2013-2021  (9 produse)
+# Hyundai IX20 2010-2019  (9 produse)
+# Hyundai i10 2013-2019  (9 produse)
+# Kia Grand Carnival 2006-2014  (9 produse)
+# Kia Sorento 2009-2012  (9 produse)
+# Lexus RX 2003-2009  (9 produse)
+# Mazda CX-3 2014-2021  (9 produse)
+# Mini Cooper 2006-2013  (9 produse)
+# Mitsubishi Outlander III 2018-2022  (9 produse)
+# Mitsubishi Outlander III 2018-2022 FARA GP  (9 produse)
+# Nissan Tiida 2016-2019  (9 produse)
+# Nissan X-Trail dupa 2022  (9 produse)
+# Opel Tigra 2004-2009  (9 produse)
+# Renault Kwid 2016-2017  (9 produse)
+# Renault Twingo 2005-2013  (9 produse)
+# Rover 75 1999-2005  (9 produse)
+# Seat Alhambra 1996-2008  (9 produse)
+# Seat Arosa 1997-2004  (9 produse)
+# Seat Cordoba 2002-2008  (9 produse)
+# Seat Ibiza 2002-2008  (9 produse)
+# Skoda Octavia 1997-2004  (9 produse)
+# Skoda Superb 1 2001-2008  (9 produse)
+# SsangYong Tivoli 2015-2019  (9 produse)
+# Toyota CHR 2016-2020  (9 produse)
+# Toyota Fortuner 2005-2014  (9 produse)
+# Toyota Harrier 2003-2009  (9 produse)
+# Toyota Highlander 2000-2007  (9 produse)
+# Toyota Highlander 2000-2007 MAHON  (9 produse)
+# Toyota Sienna 2010-2014  (9 produse)
+# VW Golf IV 1997-2003  (9 produse)
+# VW LT3 2006-2016  (9 produse)
+# VW Lupo 1998-2005  (9 produse)
+# VW Polo 1997-2001  (9 produse)
+# VW Tayron dupa 2021  (9 produse)
+# VW Transporter T4 1998-2003  (9 produse)

@@ -82,6 +82,7 @@ const CustomMenu = () => (
     <Menu.DashboardItem />
     <Menu.ResourceItem name="orders" />
     <Menu.ResourceItem name="products" />
+    <Menu.ResourceItem name="preturi" />
     <Menu.ResourceItem name="reviews" />
     <Menu.ResourceItem name="users" />
     <Menu.ResourceItem name="b2b-applications" />

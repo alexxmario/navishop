@@ -22,6 +22,7 @@ import B2BApplicationList from './components/B2BApplicationList';
 import B2BApplicationShow from './components/B2BApplicationShow';
 import ContactMessageList from './components/ContactMessageList';
 import ContactMessageShow from './components/ContactMessageShow';
+import { PriceList } from './components/PriceList';
 import Dashboard from './components/Dashboard';
 import CustomLayout from './components/Layout';
 import LoginPage from './components/LoginPage';
@@ -48,8 +49,12 @@ function App() {
         show={ProductShow}
         create={ProductCreate}
       />
-      <Resource 
-        name="orders" 
+      <Resource
+        name="preturi"
+        list={PriceList}
+      />
+      <Resource
+        name="orders"
         list={OrderList} 
         edit={EditGuesser} 
         show={OrderShow}

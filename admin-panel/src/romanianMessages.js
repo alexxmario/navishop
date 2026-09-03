@@ -178,6 +178,9 @@ const romanianMessages = {
         sku: 'SKU',
       },
     },
+    preturi: {
+      name: 'Preț |||| Prețuri',
+    },
     orders: {
       name: 'Comandă |||| Comenzi',
       fields: {

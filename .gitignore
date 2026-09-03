@@ -15,6 +15,13 @@ dist/
 backend/scripts/drive-cache/
 backend/scripts/products-live-cache.json
 backend/scripts/price-check-products-cache.json
+backend/scripts/price-check-specs-cache.json
+# rapoartele/planurile de preturi se regenereaza cu checkPricesRama.py (~2,5 MB fiecare)
+backend/scripts/price-rama-report*.json
+backend/scripts/price-rama-plan*.json
+backend/scripts/price-rama-apply-plan.json
+backend/scripts/price-rama-apply-state.json
+backend/scripts/price-rama-grupB*.json
 
 # unelte locale de agent (settings.json contine credentiale de productie)
 .claude/
