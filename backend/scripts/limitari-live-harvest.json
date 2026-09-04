@@ -88,6 +88,11 @@
    "limitari": null
   },
   {
+   "modelLor": "ford-transit-dupa-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-transit-dupa-2014/navigatie-dedicata-cu-android-ford-transit-2014-2020-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
+   "limitari": "Daca masina are ecran pe bord care afiseaza data si ora, dupa montaj va ramane un mic spatiu gol in spatele navigatiei."
+  },
+  {
    "modelLor": "honda-cr-v-3-2006-2012",
    "url": "https://www.navigatiiandroid.ro/navigatie-honda-cr-v-3-2006-2012/navigatie-dedicata-cu-android-honda-cr-v-iii-2006-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica."
@@ -138,6 +143,16 @@
    "limitari": null
   },
   {
+   "modelLor": "seat-altea-2004-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-seat-altea-2004-2015/navigatie-dedicata-cu-android-seat-altea-2004-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
+   "modelLor": "seat-altea-xl-2006-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-seat-altea-xl-2006-2015/navigatie-dedicata-cu-android-seat-altea-xl-2006-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet",
+   "limitari": null
+  },
+  {
    "modelLor": "seat-leon-1p-2005-2013",
    "url": "https://www.navigatiiandroid.ro/navigatie-seat-leon-1p-2005-2013/navigatie-dedicata-cu-android-seat-leon-1p-2005-2013-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
    "limitari": null
@@ -145,6 +160,11 @@
   {
    "modelLor": "skoda-octavia-2-2004-2013",
    "url": "https://www.navigatiiandroid.ro/navigatie-skoda-octavia-2-2004-2013/navigatie-dedicata-cu-android-skoda-octavia-ii-2004-2013-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet",
+   "limitari": null
+  },
+  {
+   "modelLor": "skoda-rapid-2011-2019",
+   "url": "https://www.navigatiiandroid.ro/navigatie-skoda-rapid-2011-2019/navigatie-dedicata-cu-android-skoda-rapid-2011-2019-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
    "limitari": null
   },
   {
@@ -173,8 +193,18 @@
    "limitari": null
   },
   {
+   "modelLor": "vw-golf-plus-2004-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-golf-plus-2004-2014/navigatie-dedicata-cu-android-vw-golf-plus-2004-2014-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet",
+   "limitari": null
+  },
+  {
    "modelLor": "vw-jetta-3-2004-2011",
    "url": "https://www.navigatiiandroid.ro/navigatie-vw-jetta-3-2004-2011/navigatie-dedicata-cu-android-vw-jetta-iii-2004-2011-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "vw-multivan-t5-2003-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-multivan-t5-2003-2015/navigatie-dedicata-cu-android-vw-multivan-v-2003-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet",
    "limitari": null
   },
   {
@@ -200,6 +230,11 @@
   {
    "modelLor": "vw-touran-1-2003-2010",
    "url": "https://www.navigatiiandroid.ro/navigatie-vw-touran-1-2003-2010/navigatie-dedicata-cu-android-vw-touran-2003-2010-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "vw-transporter-t5-2003-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-transporter-t5-2003-2015/navigatie-dedicata-cu-android-vw-transporter-t5-2010-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen",
    "limitari": null
   }
  ],
