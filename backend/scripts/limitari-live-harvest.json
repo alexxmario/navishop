@@ -48,6 +48,11 @@
    "limitari": "Daca masina are 12 senzori de parcare originali (6 fata si 6 spate), acestia vor fi preluati de navigatie doar vizual, nu si acustic."
   },
   {
+   "modelLor": "ford-galaxy-2-2006-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-galaxy-2-2006-2015/navigatie-dedicata-cu-android-ford-galaxy-2008-2015-negru-2gb-ram-radio-gps-dual-zone-display-hd-7-touchscreen-internet-wi-fi",
+   "limitari": "Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
+  },
+  {
    "modelLor": "ford-kuga-1-2008-2012",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-kuga-1-2008-2012/navigatie-dedicata-cu-android-ford-kuga-i-2008-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": "Daca masina are navigatie originala Blaupunkt este necesar un modul control aer conditionat care se achizitioneaza separat."
@@ -56,6 +61,11 @@
    "modelLor": "ford-mondeo-4-2007-2014",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-mondeo-4-2007-2014/navigatie-dedicata-cu-android-ford-mondeo-iv-2007-2014-negru-2gb-ram-radio-gps-dual-zone-display-hd-7-touchscreen-internet-wi",
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica. Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
+  },
+  {
+   "modelLor": "ford-ranger-dupa-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-ranger-dupa-2015/navigatie-dedicata-cu-android-ford-ranger-dupa-2015-cu-navigatie-originala-1gb-ram-radio-gps-dual-zone-display-hd-ips-9",
+   "limitari": null
   },
   {
    "modelLor": "ford-s-max-1-2006-2014",
@@ -88,8 +98,18 @@
    "limitari": null
   },
   {
+   "modelLor": "opel-astra-h-2004-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-opel-astra-h-2004-2014/navigatie-dedicata-cu-android-opel-astra-h-2004-2014-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi-2",
+   "limitari": "Aerul conditionat va putea fi controlat in continuare din butoanele fizice ale masinii, insa informatiile despre climatizare nu vor fi afisate pe ecranul navigatiei."
+  },
+  {
    "modelLor": "opel-zafira-b-2005-2014",
    "url": "https://www.navigatiiandroid.ro/navigatie-opel-zafira-b-2005-2014/navigatie-dedicata-cu-android-opel-zafira-b-2005-2014-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "renault-megane-3-2009-2016",
+   "url": "https://www.navigatiiandroid.ro/navigatie-renault-megane-3-2009-2016/navigatie-dedicata-cu-android-renault-megane-iii-2009-2016-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet",
    "limitari": null
   },
   {
@@ -125,6 +145,11 @@
   {
    "modelLor": "vw-golf-5-2003-2010",
    "url": "https://www.navigatiiandroid.ro/navigatie-vw-golf-5-2003-2010/navigatie-dedicata-cu-android-vw-golf-v-2003-2010-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "vw-jetta-3-2004-2011",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-jetta-3-2004-2011/navigatie-dedicata-cu-android-vw-jetta-iii-2004-2011-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
    "limitari": null
   },
   {
