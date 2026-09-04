@@ -213,6 +213,21 @@
    "limitari": null
   },
   {
+   "modelLor": "seat-toledo-3-2004-2009",
+   "url": "https://www.navigatiiandroid.ro/navigatie-seat-toledo-3-2004-2009/navigatie-dedicata-cu-android-seat-toledo-iii-2004-2009-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen",
+   "limitari": null
+  },
+  {
+   "modelLor": "seat-toledo-4-2012-2019",
+   "url": "https://www.navigatiiandroid.ro/navigatie-seat-toledo-4-2012-2019/navigatie-dedicata-cu-android-seat-toledo-iv-2012-2019-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet",
+   "limitari": null
+  },
+  {
+   "modelLor": "skoda-fabia-2-2006-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-skoda-fabia-2-2006-2014/navigatie-dedicata-cu-android-skoda-fabia-ii-2006-2014-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen",
+   "limitari": null
+  },
+  {
    "modelLor": "skoda-octavia-2-2004-2013",
    "url": "https://www.navigatiiandroid.ro/navigatie-skoda-octavia-2-2004-2013/navigatie-dedicata-cu-android-skoda-octavia-ii-2004-2013-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet",
    "limitari": null
@@ -220,6 +235,16 @@
   {
    "modelLor": "skoda-rapid-2011-2019",
    "url": "https://www.navigatiiandroid.ro/navigatie-skoda-rapid-2011-2019/navigatie-dedicata-cu-android-skoda-rapid-2011-2019-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
+   "modelLor": "skoda-superb-2-2008-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-skoda-superb-2-2008-2015/navigatie-dedicata-cu-android-skoda-superb-ii-2008-2015-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi",
+   "limitari": "Nu se poate monta pe masini care au sistem de sunet cu amplificator Sound System."
+  },
+  {
+   "modelLor": "skoda-yeti-2009-2018",
+   "url": "https://www.navigatiiandroid.ro/navigatie-skoda-yeti-2009-2018/navigatie-dedicata-cu-android-skoda-yeti-2009-2018-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
    "limitari": null
   },
   {
