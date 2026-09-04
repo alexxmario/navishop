@@ -23,6 +23,11 @@
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica."
   },
   {
+   "modelLor": "bmw-x3-f25-2010-2017",
+   "url": "https://www.navigatiiandroid.ro/navigatie-bmw-x3-f25-2010-2017/interfata-audio-video-cu-android-auto-si-carplay-bmw-x3-f25-cu-navigatie-nbt-nbt-evo-id4-2013-2016",
+   "limitari": "Pentru a putea fi montata interfata, masina trebuie sa aiba AUX activat. In cazul masinilor cu camere 360 din fabrica, acestea vor fi afisate, dar nu va fi posibila schimbarea modului de vizualizare."
+  },
+  {
    "modelLor": "fiat-500-2007-2020",
    "url": "https://www.navigatiiandroid.ro/navigatie-fiat-500-2007-2020/navigatie-dedicata-cu-android-fiat-500-2015-2020-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": null
@@ -78,9 +83,19 @@
    "limitari": null
   },
   {
+   "modelLor": "toyota-auris-e15-2006-2012",
+   "url": "https://www.navigatiiandroid.ro/navigatie-toyota-auris-e15-2006-2012/navigatie-dedicata-cu-android-toyota-auris-2006-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
    "modelLor": "toyota-corolla-e18-2013-2018",
    "url": "https://www.navigatiiandroid.ro/navigatie-toyota-corolla-e18-2013-2018/navigatie-dedicata-cu-android-toyota-corolla-2017-2018-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
    "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat. Nu se poate monta pe masini cu butonul de avarii patrat. Pentru a putea fi montata, este necesar sa se decupeze o portiune mica de plastic din interiorul bordului."
+  },
+  {
+   "modelLor": "toyota-rav4-4-2013-2018",
+   "url": "https://www.navigatiiandroid.ro/navigatie-toyota-rav4-4-2013-2018/navigatie-dedicata-cu-android-toyota-rav4-iv-2013-2018-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi",
+   "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
    "modelLor": "vw-golf-5-2003-2010",
