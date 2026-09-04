@@ -1,0 +1,3872 @@
+[
+ {
+  "car": "alfa romeo 159",
+  "years": "2005-2011",
+  "brand": "Alfa Romeo",
+  "products": 3
+ },
+ {
+  "car": "alfa romeo brera",
+  "years": "2005-2010",
+  "brand": "Alfa Romeo",
+  "products": 3
+ },
+ {
+  "car": "alfa romeo giulietta",
+  "years": "2010-2014",
+  "brand": "Alfa Romeo",
+  "products": 9
+ },
+ {
+  "car": "alfa romeo giulietta",
+  "years": "2014-2020",
+  "brand": "Alfa Romeo",
+  "products": 9
+ },
+ {
+  "car": "alfa romeo mito",
+  "years": "2008-2013",
+  "brand": "Alfa Romeo",
+  "products": 18
+ },
+ {
+  "car": "alfa romeo mito",
+  "years": "2014-2020",
+  "brand": "Alfa Romeo",
+  "products": 9
+ },
+ {
+  "car": "alfa romeo spider",
+  "years": "2006-2010",
+  "brand": "Alfa Romeo",
+  "products": 3
+ },
+ {
+  "car": "audi a3",
+  "years": "2003-2011",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "audi a4 b6",
+  "years": "2000-2004",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "audi a4 b7",
+  "years": "2004-2008",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "audi a4 b8",
+  "years": "2009-2016",
+  "brand": "audi",
+  "products": 15
+ },
+ {
+  "car": "audi a4 b9",
+  "years": "dupa 2015",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi a5",
+  "years": "2008-2016",
+  "brand": "audi",
+  "products": 6
+ },
+ {
+  "car": "audi a5",
+  "years": "dupa 2015",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi a6 c5",
+  "years": "1997-2004",
+  "brand": "audi",
+  "products": 9
+ },
+ {
+  "car": "audi a6 c6",
+  "years": "2005-2009",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi a6 c7",
+  "years": "2009-2018",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "audi a7",
+  "years": "2010-2018",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "audi q3",
+  "years": "2011-2018",
+  "brand": "audi",
+  "products": 10
+ },
+ {
+  "car": "audi q5",
+  "years": "2008-2017",
+  "brand": "audi",
+  "products": 5
+ },
+ {
+  "car": "audi q5",
+  "years": "2017-2020",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi q7",
+  "years": "2006-2009",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi q7",
+  "years": "2010-2015",
+  "brand": "audi",
+  "products": 1
+ },
+ {
+  "car": "audi tt",
+  "years": "2006-2014",
+  "brand": "audi",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 1",
+  "years": "2004-2011",
+  "brand": "bmw",
+  "products": 38
+ },
+ {
+  "car": "bmw seria 1",
+  "years": "2012-2017",
+  "brand": "bmw",
+  "products": 13
+ },
+ {
+  "car": "bmw seria 2 f22 f87 nbt",
+  "years": "2012-2021",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 2 f22 f87 nbt evo",
+  "years": "2012-2021",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 2 f23",
+  "years": "2014-2021",
+  "brand": "bmw",
+  "products": 1
+ },
+ {
+  "car": "bmw seria 2 f23 nbt",
+  "years": "2014-2021",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 2 f23 nbt evo",
+  "years": "2014-2021",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 2 f45",
+  "years": "2014-2021",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 2 f46",
+  "years": "2014-2021",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 3",
+  "years": "1999-2006",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 3",
+  "years": "2004-2013",
+  "brand": "bmw",
+  "products": 29
+ },
+ {
+  "car": "bmw seria 3",
+  "years": "2012-2017",
+  "brand": "bmw",
+  "products": 13
+ },
+ {
+  "car": "bmw seria 3 f34",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 4
+ },
+ {
+  "car": "bmw seria 3 f34 evo",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 5
+ },
+ {
+  "car": "bmw seria 3 f34 nbt",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 4
+ },
+ {
+  "car": "bmw seria 4",
+  "years": "2013-2021",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 4 evo",
+  "years": "2013-2021",
+  "brand": "bmw",
+  "products": 3
+ },
+ {
+  "car": "bmw seria 4 nbt",
+  "years": "2013-2021",
+  "brand": "bmw",
+  "products": 4
+ },
+ {
+  "car": "bmw seria 5",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 16
+ },
+ {
+  "car": "bmw seria 5 e39",
+  "years": "1995-2003",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 5 e60 e61",
+  "years": "2004-2012",
+  "brand": "bmw",
+  "products": 4
+ },
+ {
+  "car": "bmw seria 5 e60 e61 ccc",
+  "years": "2004-2012",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 5 e60 e61 cic",
+  "years": "2004-2012",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 5 f07 cic",
+  "years": "2009-2017",
+  "brand": "bmw",
+  "products": 7
+ },
+ {
+  "car": "bmw seria 5 f07 nbt",
+  "years": "2009-2017",
+  "brand": "bmw",
+  "products": 7
+ },
+ {
+  "car": "bmw seria 5 g30 f90",
+  "years": "2016-2022",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw seria 6 f12 f13 f06",
+  "years": "2010-2018",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw seria 7 f01 cic",
+  "years": "2010-2014",
+  "brand": "bmw",
+  "products": 8
+ },
+ {
+  "car": "bmw seria 7 f01 nbt",
+  "years": "2010-2014",
+  "brand": "bmw",
+  "products": 8
+ },
+ {
+  "car": "bmw seria 7 g11 g12",
+  "years": "2015-2019",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw x1 e84",
+  "years": "2009-2015",
+  "brand": "bmw",
+  "products": 21
+ },
+ {
+  "car": "bmw x1 e84 cic",
+  "years": "2009-2015",
+  "brand": "bmw",
+  "products": 1
+ },
+ {
+  "car": "bmw x1 f48",
+  "years": "2014-2022",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw x2 f39",
+  "years": "2013-2018",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw x3 e83",
+  "years": "2003-2011",
+  "brand": "bmw",
+  "products": 21
+ },
+ {
+  "car": "bmw x3 e83 cic",
+  "years": "2003-2011",
+  "brand": "bmw",
+  "products": 1
+ },
+ {
+  "car": "bmw x3 f25",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 14
+ },
+ {
+  "car": "bmw x3 f25 cic",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 1
+ },
+ {
+  "car": "bmw x3 f25 nbt",
+  "years": "2011-2017",
+  "brand": "bmw",
+  "products": 1
+ },
+ {
+  "car": "bmw x3 g01",
+  "years": "dupa 2018",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw x4 f26",
+  "years": "2014-2018",
+  "brand": "bmw",
+  "products": 16
+ },
+ {
+  "car": "bmw x4 g02",
+  "years": "dupa 2019",
+  "brand": "bmw",
+  "products": 6
+ },
+ {
+  "car": "bmw x5 e53",
+  "years": "1999-2006",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw x5 e70",
+  "years": "2006-2013",
+  "brand": "bmw",
+  "products": 14
+ },
+ {
+  "car": "bmw x5 f15 f85",
+  "years": "2013-2018",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw x6 e71",
+  "years": "2007-2014",
+  "brand": "bmw",
+  "products": 7
+ },
+ {
+  "car": "bmw x6 e71 ccc",
+  "years": "2007-2014",
+  "brand": "bmw",
+  "products": 3
+ },
+ {
+  "car": "bmw x6 e71 cic",
+  "years": "2007-2014",
+  "brand": "bmw",
+  "products": 4
+ },
+ {
+  "car": "bmw x6 f16 f86",
+  "years": "2014-2019",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "bmw z4 e89",
+  "years": "2009-2016",
+  "brand": "bmw",
+  "products": 12
+ },
+ {
+  "car": "cadillac escalade",
+  "years": "2007-2013",
+  "brand": "cadillac",
+  "products": 4
+ },
+ {
+  "car": "cadillac sls",
+  "years": "2007-2013",
+  "brand": "cadillac",
+  "products": 4
+ },
+ {
+  "car": "chevrolet aveo",
+  "years": "2006-2011",
+  "brand": "chevrolet",
+  "products": 9
+ },
+ {
+  "car": "chevrolet aveo",
+  "years": "2011-2014",
+  "brand": "chevrolet",
+  "products": 9
+ },
+ {
+  "car": "chevrolet camaro",
+  "years": "2010-2015",
+  "brand": "chevrolet",
+  "products": 9
+ },
+ {
+  "car": "chevrolet captiva",
+  "years": "2006-2011",
+  "brand": "chevrolet",
+  "products": 13
+ },
+ {
+  "car": "chevrolet captiva",
+  "years": "2011-2016",
+  "brand": "chevrolet",
+  "products": 13
+ },
+ {
+  "car": "chevrolet cruze",
+  "years": "2012-2015",
+  "brand": "chevrolet",
+  "products": 9
+ },
+ {
+  "car": "chevrolet cruze j300",
+  "years": "2008-2012",
+  "brand": "chevrolet",
+  "products": 13
+ },
+ {
+  "car": "chevrolet epica",
+  "years": "2006-2014",
+  "brand": "chevrolet",
+  "products": 18
+ },
+ {
+  "car": "chevrolet spark",
+  "years": "2009-2015",
+  "brand": "chevrolet",
+  "products": 9
+ },
+ {
+  "car": "chrysler 300c",
+  "years": "2004-2010",
+  "brand": "chrysler",
+  "products": 9
+ },
+ {
+  "car": "citroen berlingo",
+  "years": "2015-2018",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c crosser",
+  "years": "2007-2012",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c1",
+  "years": "2005-2014",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c2 c3",
+  "years": "2002-2006",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c3",
+  "years": "2009-2016",
+  "brand": "citroen",
+  "products": 18
+ },
+ {
+  "car": "citroen c3",
+  "years": "dupa 2016",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c3 aircross",
+  "years": "2018-2023",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c4",
+  "years": "2004-2011",
+  "brand": "citroen",
+  "products": 22
+ },
+ {
+  "car": "citroen c4",
+  "years": "2010-2018",
+  "brand": "citroen",
+  "products": 13
+ },
+ {
+  "car": "citroen c4",
+  "years": "dupa 2019",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen c4 aircross",
+  "years": "2012-2017",
+  "brand": "citroen",
+  "products": 13
+ },
+ {
+  "car": "citroen c5",
+  "years": "2008-2017",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen ds4",
+  "years": "2010-2018",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen elysee",
+  "years": "2013-2018",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen jumper",
+  "years": "2006-2022",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen jumpy",
+  "years": "dupa 2016",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "citroen spacetourer",
+  "years": "dupa 2016",
+  "brand": "citroen",
+  "products": 9
+ },
+ {
+  "car": "dacia dokker",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 12
+ },
+ {
+  "car": "dacia duster",
+  "years": "2010-2013",
+  "brand": "dacia",
+  "products": 18
+ },
+ {
+  "car": "dacia duster",
+  "years": "2015-2020",
+  "brand": "dacia",
+  "products": 12
+ },
+ {
+  "car": "dacia duster",
+  "years": "2018-2022",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dacia jogger",
+  "years": "dupa 2022",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dacia lodgy",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dacia logan",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 3
+ },
+ {
+  "car": "dacia logan 1",
+  "years": "2004-2008",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dacia logan 1",
+  "years": "2008-2012",
+  "brand": "dacia",
+  "products": 18
+ },
+ {
+  "car": "dacia logan 2",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 18
+ },
+ {
+  "car": "dacia logan 3",
+  "years": "2021-2023",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dacia sandero",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 3
+ },
+ {
+  "car": "dacia sandero 1",
+  "years": "2008-2013",
+  "brand": "dacia",
+  "products": 18
+ },
+ {
+  "car": "dacia sandero 2",
+  "years": "2012-2020",
+  "brand": "dacia",
+  "products": 18
+ },
+ {
+  "car": "dacia sandero 3",
+  "years": "2021-2023",
+  "brand": "dacia",
+  "products": 9
+ },
+ {
+  "car": "dodge caliber",
+  "years": "2010-2012",
+  "brand": "dodge",
+  "products": 9
+ },
+ {
+  "car": "dodge durango",
+  "years": "2014-2020",
+  "brand": "dodge",
+  "products": 13
+ },
+ {
+  "car": "dodge journey",
+  "years": "2009-2012",
+  "brand": "dodge",
+  "products": 9
+ },
+ {
+  "car": "dodge journey",
+  "years": "2012-2020",
+  "brand": "dodge",
+  "products": 9
+ },
+ {
+  "car": "dodge ram",
+  "years": "2013-2019",
+  "brand": "dodge",
+  "products": 4
+ },
+ {
+  "car": "dodge ram 1500 2500",
+  "years": "2013-2019",
+  "brand": "dodge",
+  "products": 9
+ },
+ {
+  "car": "ds 5",
+  "years": "2012-2017",
+  "brand": "ds",
+  "products": 13
+ },
+ {
+  "car": "fiat 500",
+  "years": "2007-2015",
+  "brand": "fiat",
+  "products": 24
+ },
+ {
+  "car": "fiat 500",
+  "years": "dupa 2015",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat 500 l",
+  "years": "dupa 2012",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat 500 x",
+  "years": "dupa 2014",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat bravo",
+  "years": "2007-2012",
+  "brand": "fiat",
+  "products": 17
+ },
+ {
+  "car": "fiat doblo",
+  "years": "2002-2009",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat doblo",
+  "years": "2010-2015",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat doblo",
+  "years": "2015-2019",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat ducato",
+  "years": "2006-2022",
+  "brand": "fiat",
+  "products": 18
+ },
+ {
+  "car": "fiat ducato",
+  "years": "dupa 2022",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat fiorino qubo",
+  "years": "2008-2017",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat freemont",
+  "years": "dupa 2008",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat grande punto",
+  "years": "2005-2009",
+  "brand": "fiat",
+  "products": 11
+ },
+ {
+  "car": "fiat linea",
+  "years": "2007-2012",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat linea",
+  "years": "2012-2015",
+  "brand": "fiat",
+  "products": 1
+ },
+ {
+  "car": "fiat panda",
+  "years": "2003-2012",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat punto",
+  "years": "2009-2018",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat sedici",
+  "years": "2006-2014",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat stilo",
+  "years": "2002-2010",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat talento",
+  "years": "dupa 2016",
+  "brand": "fiat",
+  "products": 9
+ },
+ {
+  "car": "fiat tipo",
+  "years": "dupa 2015",
+  "brand": "fiat",
+  "products": 18
+ },
+ {
+  "car": "ford b max",
+  "years": "2014-2018",
+  "brand": "ford",
+  "products": 4
+ },
+ {
+  "car": "ford c max",
+  "years": "2003-2010",
+  "brand": "ford",
+  "products": 21
+ },
+ {
+  "car": "ford c max ii grand c max",
+  "years": "2010-2019",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford ecosport",
+  "years": "2012-2017",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford f150 raptor",
+  "years": "2008-2014",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford fiesta",
+  "years": "2002-2008",
+  "brand": "ford",
+  "products": 24
+ },
+ {
+  "car": "ford fiesta",
+  "years": "2009-2017",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford focus",
+  "years": "2004-2011",
+  "brand": "ford",
+  "products": 51
+ },
+ {
+  "car": "ford focus",
+  "years": "2011-2019",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford focus 1",
+  "years": "1998-2005",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford focus 2",
+  "years": "2004-2011",
+  "brand": "ford",
+  "products": 10
+ },
+ {
+  "car": "ford focus 3",
+  "years": "2011-2019",
+  "brand": "ford",
+  "products": 4
+ },
+ {
+  "car": "ford focus 4",
+  "years": "dupa 2019",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford fusion",
+  "years": "2006-2012",
+  "brand": "ford",
+  "products": 15
+ },
+ {
+  "car": "ford galaxy 2",
+  "years": "2006-2015",
+  "brand": "ford",
+  "products": 30
+ },
+ {
+  "car": "ford kuga",
+  "years": "2008-2012",
+  "brand": "ford",
+  "products": 15
+ },
+ {
+  "car": "ford kuga 2",
+  "years": "2013-2018",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford mondeo",
+  "years": "2000-2007",
+  "brand": "ford",
+  "products": 6
+ },
+ {
+  "car": "ford mondeo",
+  "years": "2007-2014",
+  "brand": "ford",
+  "products": 33
+ },
+ {
+  "car": "ford mondeo 3",
+  "years": "2000-2007",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford mondeo 4",
+  "years": "2007-2014",
+  "brand": "ford",
+  "products": 14
+ },
+ {
+  "car": "ford mondeo 5",
+  "years": "2014-2022",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford mustang",
+  "years": "2010-2014",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford mustang",
+  "years": "2015-2018",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford ranger",
+  "years": "2005-2011",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford ranger",
+  "years": "2011-2016",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford ranger",
+  "years": "2015-2022",
+  "brand": "ford",
+  "products": 27
+ },
+ {
+  "car": "ford ranger f250",
+  "years": "2011-2015",
+  "brand": "ford",
+  "products": 18
+ },
+ {
+  "car": "ford s max",
+  "years": "2006-2015",
+  "brand": "ford",
+  "products": 39
+ },
+ {
+  "car": "ford tourneo connect",
+  "years": "2013-2018",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford tourneo courier",
+  "years": "2013-2021",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford transit",
+  "years": "2005-2014",
+  "brand": "ford",
+  "products": 15
+ },
+ {
+  "car": "ford transit",
+  "years": "2014-2020",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford transit",
+  "years": "dupa 2021",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford transit connect",
+  "years": "2008-2011",
+  "brand": "ford",
+  "products": 9
+ },
+ {
+  "car": "ford transit connect",
+  "years": "dupa 2013",
+  "brand": "ford",
+  "products": 13
+ },
+ {
+  "car": "ford transit courier",
+  "years": "2014-2018",
+  "brand": "ford",
+  "products": 4
+ },
+ {
+  "car": "honda accord ix",
+  "years": "2013-2017",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda accord vii",
+  "years": "2003-2008",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda accord viii",
+  "years": "2008-2012",
+  "brand": "honda",
+  "products": 18
+ },
+ {
+  "car": "honda civic ix hatchback",
+  "years": "2011-2015",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda civic ix sedan",
+  "years": "2011-2015",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda civic viii hatchback",
+  "years": "2006-2011",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda civic viii sedan",
+  "years": "2006-2011",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda civic x",
+  "years": "2015-2021",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda civic x",
+  "years": "2020-2021",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda crv",
+  "years": "2002-2006",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda crv",
+  "years": "2008-2011",
+  "brand": "honda",
+  "products": 13
+ },
+ {
+  "car": "honda crv",
+  "years": "dupa 2012",
+  "brand": "honda",
+  "products": 13
+ },
+ {
+  "car": "honda fit jazz",
+  "years": "2001-2008",
+  "brand": "honda",
+  "products": 18
+ },
+ {
+  "car": "honda fit jazz",
+  "years": "2008-2013",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda fit jazz",
+  "years": "2013-2020",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda fit jazz",
+  "years": "2020-2022",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda frv",
+  "years": "2004-2009",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "honda hrv vezel",
+  "years": "2013-2018",
+  "brand": "honda",
+  "products": 9
+ },
+ {
+  "car": "hyundai accent",
+  "years": "2005-2011",
+  "brand": "hyundai",
+  "products": 18
+ },
+ {
+  "car": "hyundai accent",
+  "years": "2011-2016",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai accent",
+  "years": "2017-2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai bayon",
+  "years": "dupa 2021",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai elantra",
+  "years": "2006-2011",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai elantra",
+  "years": "2010-2015",
+  "brand": "hyundai",
+  "products": 13
+ },
+ {
+  "car": "hyundai elantra",
+  "years": "2015-2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai elantra",
+  "years": "dupa 2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai getz",
+  "years": "2004-2006",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i10",
+  "years": "2007-2013",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i10",
+  "years": "2013-2019",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i10",
+  "years": "dupa 2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i20",
+  "years": "2008-2014",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i20",
+  "years": "2014-2020",
+  "brand": "hyundai",
+  "products": 18
+ },
+ {
+  "car": "hyundai i20",
+  "years": "dupa 2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i30",
+  "years": "2007-2012",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i30",
+  "years": "2011-2017",
+  "brand": "hyundai",
+  "products": 13
+ },
+ {
+  "car": "hyundai i30",
+  "years": "dupa 2017",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai i40",
+  "years": "2012-2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai ioniq",
+  "years": "2016-2022",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai ix20",
+  "years": "2010-2019",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai ix25",
+  "years": "2010-2016",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai ix35",
+  "years": "2009-2015",
+  "brand": "hyundai",
+  "products": 13
+ },
+ {
+  "car": "hyundai ix35",
+  "years": "2015-2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai kona",
+  "years": "2017-2023",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai santa fe",
+  "years": "2006-2012",
+  "brand": "hyundai",
+  "products": 21
+ },
+ {
+  "car": "hyundai santa fe i",
+  "years": "2000-2006",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai santa fe iv",
+  "years": "2018-2021",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai santa fe iv",
+  "years": "dupa 2021",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai santa fe ix45",
+  "years": "2012-2018",
+  "brand": "hyundai",
+  "products": 13
+ },
+ {
+  "car": "hyundai sonata yf",
+  "years": "2010-2018",
+  "brand": "hyundai",
+  "products": 4
+ },
+ {
+  "car": "hyundai tucson 1",
+  "years": "2004-2009",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai tucson 2",
+  "years": "2009-2015",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "hyundai tucson 3",
+  "years": "2015-2020",
+  "brand": "hyundai",
+  "products": 9
+ },
+ {
+  "car": "isuzu d max",
+  "years": "2008-2012",
+  "brand": "isuzu",
+  "products": 9
+ },
+ {
+  "car": "isuzu d max",
+  "years": "2012-2020",
+  "brand": "isuzu",
+  "products": 9
+ },
+ {
+  "car": "iveco daily iv",
+  "years": "2006-2011",
+  "brand": "iveco",
+  "products": 9
+ },
+ {
+  "car": "iveco daily v",
+  "years": "2011-2014",
+  "brand": "iveco",
+  "products": 9
+ },
+ {
+  "car": "iveco daily vi",
+  "years": "dupa 2014",
+  "brand": "iveco",
+  "products": 9
+ },
+ {
+  "car": "jeep commander",
+  "years": "2007-2008",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep compass i",
+  "years": "2006-2010",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep compass i",
+  "years": "2011-2016",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep compass ii",
+  "years": "2016-2021",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep grand cherokee wj",
+  "years": "1999-2004",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep grand cherokee wk",
+  "years": "2005-2010",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep grand cherokee wk2",
+  "years": "2011-2013",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep grand cherokee wk2",
+  "years": "2014-2021",
+  "brand": "jeep",
+  "products": 22
+ },
+ {
+  "car": "jeep patriot",
+  "years": "2011-2017",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep patriot i",
+  "years": "2006-2010",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep renegade",
+  "years": "2014-2023",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep wrangler rubicon",
+  "years": "2008-2010",
+  "brand": "jeep",
+  "products": 18
+ },
+ {
+  "car": "jeep wrangler rubicon",
+  "years": "dupa 2018",
+  "brand": "jeep",
+  "products": 9
+ },
+ {
+  "car": "jeep wrangler unlimited",
+  "years": "2007-2013",
+  "brand": "jeep",
+  "products": 18
+ },
+ {
+  "car": "kia carens",
+  "years": "2013-2018",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia ceed",
+  "years": "2006-2012",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia ceed",
+  "years": "2012-2018",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia ceed",
+  "years": "2018-2022",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia grand carnival",
+  "years": "2006-2014",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia k3",
+  "years": "2012-2018",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia morning",
+  "years": "2016-2020",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia morning",
+  "years": "2021-2026",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia niro",
+  "years": "2016-2019",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia optima k5",
+  "years": "2010-2015",
+  "brand": "kia",
+  "products": 18
+ },
+ {
+  "car": "kia optima k5",
+  "years": "2015-2020",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia picanto morning",
+  "years": "2011-2018",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia rio 3",
+  "years": "2011-2017",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia rio yb",
+  "years": "2016-2020",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sorento",
+  "years": "2002-2009",
+  "brand": "kia",
+  "products": 13
+ },
+ {
+  "car": "kia sorento",
+  "years": "2009-2012",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sorento",
+  "years": "2013-2015",
+  "brand": "kia",
+  "products": 18
+ },
+ {
+  "car": "kia sorento",
+  "years": "2015-2020",
+  "brand": "kia",
+  "products": 18
+ },
+ {
+  "car": "kia sorento",
+  "years": "2021-2024",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia soul",
+  "years": "2009-2013",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia soul",
+  "years": "dupa 2014",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sportage",
+  "years": "2004-2010",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sportage",
+  "years": "2010-2015",
+  "brand": "kia",
+  "products": 13
+ },
+ {
+  "car": "kia sportage",
+  "years": "2016-2018",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sportage",
+  "years": "2018-2019",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "kia sportage",
+  "years": "2019-2021",
+  "brand": "kia",
+  "products": 9
+ },
+ {
+  "car": "lancia ypsilon",
+  "years": "2006-2011",
+  "brand": "lancia",
+  "products": 9
+ },
+ {
+  "car": "lancia ypsilon",
+  "years": "2012-2020",
+  "brand": "lancia",
+  "products": 9
+ },
+ {
+  "car": "land rover freelander 2",
+  "years": "2006-2012",
+  "brand": "Land Rover",
+  "products": 9
+ },
+ {
+  "car": "land rover range rover evoque",
+  "years": "2011-2018",
+  "brand": "Land Rover",
+  "products": 2
+ },
+ {
+  "car": "land rover range rover sport l494",
+  "years": "dupa 2013",
+  "brand": "Land Rover",
+  "products": 1
+ },
+ {
+  "car": "land rover range rover vogue l405",
+  "years": "dupa 2012",
+  "brand": "Land Rover",
+  "products": 1
+ },
+ {
+  "car": "lexus gx470",
+  "years": "2002-2009",
+  "brand": "lexus",
+  "products": 4
+ },
+ {
+  "car": "lexus is",
+  "years": "2006-2012",
+  "brand": "lexus",
+  "products": 9
+ },
+ {
+  "car": "lexus rx",
+  "years": "2003-2009",
+  "brand": "lexus",
+  "products": 9
+ },
+ {
+  "car": "mazda 2",
+  "years": "2007-2014",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 2",
+  "years": "2014-2021",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 3",
+  "years": "2003-2009",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 3",
+  "years": "2009-2013",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 3",
+  "years": "2013-2018",
+  "brand": "mazda",
+  "products": 18
+ },
+ {
+  "car": "mazda 5",
+  "years": "2005-2010",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 6",
+  "years": "2002-2008",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda 6",
+  "years": "2008-2012",
+  "brand": "mazda",
+  "products": 18
+ },
+ {
+  "car": "mazda 6",
+  "years": "2013-2019",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda bt 50",
+  "years": "2005-2011",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda bt 50",
+  "years": "2011-2015",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda cx 3",
+  "years": "2014-2021",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda cx5",
+  "years": "2011-2017",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda cx5",
+  "years": "2017-2023",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda cx7",
+  "years": "2006-2015",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mazda mx 5",
+  "years": "2005-2015",
+  "brand": "mazda",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz a class w169",
+  "years": "2004-2012",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz b class w245",
+  "years": "2005-2011",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz c class w203",
+  "years": "2000-2004",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz c class w203",
+  "years": "2004-2007",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz c class w204",
+  "years": "2008-2010",
+  "brand": "Mercedes Benz",
+  "products": 13
+ },
+ {
+  "car": "mercedes benz c class w204",
+  "years": "2011-2014",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz c class w205",
+  "years": "2014-2021",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz clk c208 w208",
+  "years": "1996-2002",
+  "brand": "Mercedes Benz",
+  "products": 3
+ },
+ {
+  "car": "mercedes benz clk w209",
+  "years": "2002-2009",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz clk w209",
+  "years": "2005-2009",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz cls",
+  "years": "2010-2015",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz cls c219",
+  "years": "2004-2011",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz e class w207",
+  "years": "2010-2015",
+  "brand": "Mercedes Benz",
+  "products": 8
+ },
+ {
+  "car": "mercedes benz e class w211",
+  "years": "2002-2009",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz e class w212",
+  "years": "2010-2015",
+  "brand": "Mercedes Benz",
+  "products": 8
+ },
+ {
+  "car": "mercedes benz g class w463",
+  "years": "1998-2004",
+  "brand": "Mercedes Benz",
+  "products": 3
+ },
+ {
+  "car": "mercedes benz glc",
+  "years": "2015-2020",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz glk",
+  "years": "2008-2012",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz glk",
+  "years": "2013-2015",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz ml w163",
+  "years": "1997-2005",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz ml w164",
+  "years": "2005-2012",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz ml w166",
+  "years": "2011-2015",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz r class",
+  "years": "2005-2014",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz s class w220",
+  "years": "1998-2005",
+  "brand": "Mercedes Benz",
+  "products": 18
+ },
+ {
+  "car": "mercedes benz slk",
+  "years": "2004-2011",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz slk",
+  "years": "2010-2019",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz sprinter",
+  "years": "2006-2016",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz sprinter",
+  "years": "2006-2018",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mercedes benz sprinter",
+  "years": "2018-2022",
+  "brand": "Mercedes Benz",
+  "products": 9
+ },
+ {
+  "car": "mercedes benz v class",
+  "years": "dupa 2014",
+  "brand": "Mercedes Benz",
+  "products": 4
+ },
+ {
+  "car": "mercedes benz vaneo",
+  "years": "2002-2005",
+  "brand": "Mercedes Benz",
+  "products": 3
+ },
+ {
+  "car": "mercedes benz viano",
+  "years": "2003-2014",
+  "brand": "Mercedes Benz",
+  "products": 24
+ },
+ {
+  "car": "mercedes benz vito",
+  "years": "2003-2012",
+  "brand": "Mercedes Benz",
+  "products": 24
+ },
+ {
+  "car": "mercedes benz vito 3",
+  "years": "2012-2021",
+  "brand": "Mercedes Benz",
+  "products": 27
+ },
+ {
+  "car": "mercedes benz vito viano w639",
+  "years": "2010-2015",
+  "brand": "Mercedes Benz",
+  "products": 12
+ },
+ {
+  "car": "mini cooper",
+  "years": "2006-2013",
+  "brand": "mini",
+  "products": 9
+ },
+ {
+  "car": "mini cooper",
+  "years": "2014-2020",
+  "brand": "mini",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi asx",
+  "years": "2010-2016",
+  "brand": "mitsubishi",
+  "products": 13
+ },
+ {
+  "car": "mitsubishi asx",
+  "years": "2017-2019",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi asx",
+  "years": "2020-2022",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi l200",
+  "years": "2005-2015",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi l200 triton",
+  "years": "2019-2022",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi lancer",
+  "years": "2007-2013",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi mirage space star",
+  "years": "2012-2018",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi outlander i",
+  "years": "2001-2006",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi outlander ii",
+  "years": "2006-2012",
+  "brand": "mitsubishi",
+  "products": 13
+ },
+ {
+  "car": "mitsubishi outlander iii",
+  "years": "2018-2022",
+  "brand": "mitsubishi",
+  "products": 18
+ },
+ {
+  "car": "mitsubishi pajero iii",
+  "years": "1999-2006",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "mitsubishi pajero iv",
+  "years": "2006-2014",
+  "brand": "mitsubishi",
+  "products": 13
+ },
+ {
+  "car": "mitsubishi pajero sport",
+  "years": "2006-2013",
+  "brand": "mitsubishi",
+  "products": 9
+ },
+ {
+  "car": "nissan juke",
+  "years": "2010-2019",
+  "brand": "nissan",
+  "products": 13
+ },
+ {
+  "car": "nissan micra k12",
+  "years": "2002-2010",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan micra k13",
+  "years": "2013-2016",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan murano",
+  "years": "2007-2014",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan murano",
+  "years": "dupa 2015",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan navara",
+  "years": "dupa 2017",
+  "brand": "nissan",
+  "products": 13
+ },
+ {
+  "car": "nissan navara d40",
+  "years": "2004-2014",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan np300 frontier",
+  "years": "dupa 2017",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan nv200",
+  "years": "2009-2017",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan nv400",
+  "years": "2010-2020",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan pathfinder r51",
+  "years": "2005-2014",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan patrol",
+  "years": "1997-2005",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan patrol y61",
+  "years": "2005-2016",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan primastar",
+  "years": "2006-2010",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan primastar",
+  "years": "2010-2014",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan qashqai j10",
+  "years": "2006-2014",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan qashqai j11",
+  "years": "2014-2021",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan terra",
+  "years": "dupa 2017",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan tiida",
+  "years": "2016-2019",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan x trail",
+  "years": "dupa 2022",
+  "brand": "nissan",
+  "products": 9
+ },
+ {
+  "car": "nissan x trail 3",
+  "years": "2014-2021",
+  "brand": "nissan",
+  "products": 22
+ },
+ {
+  "car": "nissan x trail t31",
+  "years": "2007-2014",
+  "brand": "nissan",
+  "products": 13
+ },
+ {
+  "car": "opel adam",
+  "years": "2012-2019",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel antara",
+  "years": "2006-2017",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel astra h",
+  "years": "2004-2010",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel astra j",
+  "years": "2009-2015",
+  "brand": "opel",
+  "products": 13
+ },
+ {
+  "car": "opel astra k",
+  "years": "2015-2021",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel combo",
+  "years": "2003-2011",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel combo",
+  "years": "2012-2018",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel corsa c",
+  "years": "2000-2006",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel corsa d",
+  "years": "2006-2014",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel corsa e",
+  "years": "2014-2019",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel grandland x crossland x",
+  "years": "2016-2020",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel insignia",
+  "years": "2008-2013",
+  "brand": "opel",
+  "products": 13
+ },
+ {
+  "car": "opel insignia",
+  "years": "2013-2017",
+  "brand": "opel",
+  "products": 13
+ },
+ {
+  "car": "opel karl",
+  "years": "2017-2020",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel meriva",
+  "years": "2003-2010",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel meriva",
+  "years": "2010-2017",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel mokka",
+  "years": "2012-2016",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel mokka",
+  "years": "2016-2020",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel movano",
+  "years": "2010-2020",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel movano",
+  "years": "2020-2022",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel movano",
+  "years": "dupa 2022",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel signum",
+  "years": "2003-2008",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel tigra",
+  "years": "2004-2009",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel vectra c",
+  "years": "2002-2009",
+  "brand": "opel",
+  "products": 18
+ },
+ {
+  "car": "opel vivaro",
+  "years": "2004-2010",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel vivaro",
+  "years": "2010-2014",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel vivaro",
+  "years": "2014-2019",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel vivaro c",
+  "years": "dupa 2019",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "opel zafira",
+  "years": "2005-2014",
+  "brand": "opel",
+  "products": 26
+ },
+ {
+  "car": "opel zafira c",
+  "years": "2010-2016",
+  "brand": "opel",
+  "products": 4
+ },
+ {
+  "car": "opel zafira tourer c",
+  "years": "2011-2016",
+  "brand": "opel",
+  "products": 9
+ },
+ {
+  "car": "peugeot 107",
+  "years": "2005-2014",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 108",
+  "years": "2014-2021",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 2008",
+  "years": "2013-2018",
+  "brand": "peugeot",
+  "products": 8
+ },
+ {
+  "car": "peugeot 2008",
+  "years": "2019-2022",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 206",
+  "years": "2001-2008",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 207",
+  "years": "2006-2015",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 208",
+  "years": "2013-2018",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 3008",
+  "years": "2009-2016",
+  "brand": "peugeot",
+  "products": 22
+ },
+ {
+  "car": "peugeot 301",
+  "years": "2013-2018",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 307",
+  "years": "2000-2012",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 308",
+  "years": "2007-2015",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 308",
+  "years": "2013-2021",
+  "brand": "peugeot",
+  "products": 18
+ },
+ {
+  "car": "peugeot 4007",
+  "years": "2007-2014",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 4008",
+  "years": "2012-2017",
+  "brand": "peugeot",
+  "products": 13
+ },
+ {
+  "car": "peugeot 406",
+  "years": "1994-2005",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 407",
+  "years": "2004-2011",
+  "brand": "peugeot",
+  "products": 22
+ },
+ {
+  "car": "peugeot 408",
+  "years": "2008-2020",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 5008",
+  "years": "2009-2016",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 5008",
+  "years": "2017-2020",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 508",
+  "years": "2011-2018",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot 607",
+  "years": "2004-2011",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot boxer",
+  "years": "2006-2022",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot expert",
+  "years": "2007-2016",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot expert",
+  "years": "dupa 2016",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot partner",
+  "years": "2006-2010",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot partner",
+  "years": "2015-2018",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "peugeot traveller",
+  "years": "dupa 2016",
+  "brand": "peugeot",
+  "products": 9
+ },
+ {
+  "car": "porsche cayenne",
+  "years": "2003-2010",
+  "brand": "porsche",
+  "products": 9
+ },
+ {
+  "car": "porsche cayenne",
+  "years": "2010-2017",
+  "brand": "porsche",
+  "products": 1
+ },
+ {
+  "car": "porsche macan",
+  "years": "2014-2023",
+  "brand": "porsche",
+  "products": 1
+ },
+ {
+  "car": "porsche panamera",
+  "years": "2009-2016",
+  "brand": "porsche",
+  "products": 2
+ },
+ {
+  "car": "renault arkana",
+  "years": "2019-2023",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault captur",
+  "years": "2013-2020",
+  "brand": "renault",
+  "products": 18
+ },
+ {
+  "car": "renault clio ii",
+  "years": "2001-2006",
+  "brand": "renault",
+  "products": 18
+ },
+ {
+  "car": "renault clio iii",
+  "years": "2005-2014",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault clio iv",
+  "years": "2012-2015",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault clio iv",
+  "years": "2016-2019",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault clio v",
+  "years": "dupa 2019",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault express",
+  "years": "dupa 2021",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault fluence",
+  "years": "2009-2016",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault kadjar",
+  "years": "2015-2017",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault kangoo",
+  "years": "2008-2021",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault kangoo",
+  "years": "dupa 2021",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault koleos",
+  "years": "2009-2016",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault kwid",
+  "years": "2016-2017",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault laguna",
+  "years": "2001-2007",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault master",
+  "years": "2003-2011",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault master",
+  "years": "2010-2020",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault master",
+  "years": "2020-2024",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault megane",
+  "years": "2016-2022",
+  "brand": "renault",
+  "products": 4
+ },
+ {
+  "car": "renault megane ii",
+  "years": "2001-2009",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault megane iii",
+  "years": "2009-2016",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault scenic grand scenic",
+  "years": "2016-2023",
+  "brand": "renault",
+  "products": 4
+ },
+ {
+  "car": "renault talisman",
+  "years": "2016-2020",
+  "brand": "renault",
+  "products": 4
+ },
+ {
+  "car": "renault trafic ii",
+  "years": "2006-2010",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault trafic ii",
+  "years": "2010-2014",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault trafic iii",
+  "years": "2014-2022",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault twingo",
+  "years": "2005-2013",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault twingo",
+  "years": "dupa 2014",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "renault zoe",
+  "years": "2012-2019",
+  "brand": "renault",
+  "products": 9
+ },
+ {
+  "car": "rover 75",
+  "years": "1999-2005",
+  "brand": "rover",
+  "products": 12
+ },
+ {
+  "car": "seat alhambra",
+  "years": "1996-2008",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat alhambra",
+  "years": "2010-2022",
+  "brand": "seat",
+  "products": 15
+ },
+ {
+  "car": "seat altea",
+  "years": "2004-2015",
+  "brand": "seat",
+  "products": 24
+ },
+ {
+  "car": "seat altea xl",
+  "years": "2006-2015",
+  "brand": "seat",
+  "products": 24
+ },
+ {
+  "car": "seat arona",
+  "years": "2017-2022",
+  "brand": "seat",
+  "products": 9
+ },
+ {
+  "car": "seat arosa",
+  "years": "1997-2004",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat ateca",
+  "years": "2016-2021",
+  "brand": "seat",
+  "products": 9
+ },
+ {
+  "car": "seat cordoba",
+  "years": "2002-2008",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat exeo",
+  "years": "2009-2013",
+  "brand": "seat",
+  "products": 9
+ },
+ {
+  "car": "seat ibiza",
+  "years": "2002-2008",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat ibiza 6f",
+  "years": "2017-2022",
+  "brand": "seat",
+  "products": 9
+ },
+ {
+  "car": "seat ibiza 6j",
+  "years": "2009-2013",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat leon",
+  "years": "1999-2005",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat leon",
+  "years": "2005-2013",
+  "brand": "seat",
+  "products": 24
+ },
+ {
+  "car": "seat leon iii",
+  "years": "2012-2020",
+  "brand": "seat",
+  "products": 9
+ },
+ {
+  "car": "seat toledo",
+  "years": "1999-2004",
+  "brand": "seat",
+  "products": 12
+ },
+ {
+  "car": "seat toledo",
+  "years": "2004-2009",
+  "brand": "seat",
+  "products": 24
+ },
+ {
+  "car": "seat toledo iv",
+  "years": "2012-2019",
+  "brand": "seat",
+  "products": 24
+ },
+ {
+  "car": "skoda fabia",
+  "years": "1999-2007",
+  "brand": "skoda",
+  "products": 12
+ },
+ {
+  "car": "skoda fabia",
+  "years": "2006-2014",
+  "brand": "skoda",
+  "products": 24
+ },
+ {
+  "car": "skoda fabia iii",
+  "years": "2014-2021",
+  "brand": "skoda",
+  "products": 9
+ },
+ {
+  "car": "skoda kodiaq",
+  "years": "2016-2024",
+  "brand": "skoda",
+  "products": 9
+ },
+ {
+  "car": "skoda octavia",
+  "years": "1997-2004",
+  "brand": "skoda",
+  "products": 12
+ },
+ {
+  "car": "skoda octavia",
+  "years": "2004-2013",
+  "brand": "skoda",
+  "products": 33
+ },
+ {
+  "car": "skoda octavia 3",
+  "years": "2013-2018",
+  "brand": "skoda",
+  "products": 13
+ },
+ {
+  "car": "skoda praktic",
+  "years": "2007-2012",
+  "brand": "skoda",
+  "products": 15
+ },
+ {
+  "car": "skoda rapid",
+  "years": "2012-2017",
+  "brand": "skoda",
+  "products": 24
+ },
+ {
+  "car": "skoda rapid",
+  "years": "2017-2019",
+  "brand": "skoda",
+  "products": 9
+ },
+ {
+  "car": "skoda roomster",
+  "years": "2006-2015",
+  "brand": "skoda",
+  "products": 15
+ },
+ {
+  "car": "skoda superb 1",
+  "years": "2001-2008",
+  "brand": "skoda",
+  "products": 12
+ },
+ {
+  "car": "skoda superb 2",
+  "years": "2008-2015",
+  "brand": "skoda",
+  "products": 24
+ },
+ {
+  "car": "skoda superb iii",
+  "years": "2015-2019",
+  "brand": "skoda",
+  "products": 9
+ },
+ {
+  "car": "skoda yeti",
+  "years": "2009-2018",
+  "brand": "skoda",
+  "products": 24
+ },
+ {
+  "car": "smart forfour",
+  "years": "2005-2010",
+  "brand": "smart",
+  "products": 9
+ },
+ {
+  "car": "smart forfour",
+  "years": "2014-2021",
+  "brand": "smart",
+  "products": 9
+ },
+ {
+  "car": "smart fortwo",
+  "years": "2005-2010",
+  "brand": "smart",
+  "products": 9
+ },
+ {
+  "car": "smart fortwo",
+  "years": "2010-2015",
+  "brand": "smart",
+  "products": 9
+ },
+ {
+  "car": "smart fortwo",
+  "years": "2014-2020",
+  "brand": "smart",
+  "products": 9
+ },
+ {
+  "car": "ssangyong tivoli",
+  "years": "2015-2019",
+  "brand": "ssangyong",
+  "products": 9
+ },
+ {
+  "car": "subaru forester sg",
+  "years": "2004-2008",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru forester sh",
+  "years": "2008-2013",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru forester sj",
+  "years": "2012-2016",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru forester sj",
+  "years": "2016-2018",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru forester sk",
+  "years": "2018-2021",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru impreza",
+  "years": "2009-2014",
+  "brand": "subaru",
+  "products": 4
+ },
+ {
+  "car": "subaru impreza wrx",
+  "years": "2002-2004",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru impreza wrx",
+  "years": "2017-2020",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru impreza xv wrx",
+  "years": "2007-2014",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru legacy",
+  "years": "2009-2014",
+  "brand": "subaru",
+  "products": 4
+ },
+ {
+  "car": "subaru legacy outback",
+  "years": "2004-2009",
+  "brand": "subaru",
+  "products": 9
+ },
+ {
+  "car": "subaru legacy outback",
+  "years": "2009-2014",
+  "brand": "subaru",
+  "products": 13
+ },
+ {
+  "car": "subaru legacy outback",
+  "years": "2014-2019",
+  "brand": "subaru",
+  "products": 13
+ },
+ {
+  "car": "subaru outback",
+  "years": "2009-2014",
+  "brand": "subaru",
+  "products": 4
+ },
+ {
+  "car": "subaru outback",
+  "years": "2015-2018",
+  "brand": "subaru",
+  "products": 13
+ },
+ {
+  "car": "suzuki alto",
+  "years": "2008-2014",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki grand vitara",
+  "years": "2005-2015",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki ignis",
+  "years": "2017-2020",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki jimny",
+  "years": "1998-2004",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki jimny",
+  "years": "2005-2018",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki jimny",
+  "years": "dupa 2018",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki splash",
+  "years": "2008-2015",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki swift iii",
+  "years": "2005-2010",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki swift iv",
+  "years": "2011-2017",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki swift v",
+  "years": "dupa 2017",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki sx4",
+  "years": "2006-2014",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki sx4 s cross",
+  "years": "2013-2021",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "suzuki vitara",
+  "years": "2015-2023",
+  "brand": "suzuki",
+  "products": 9
+ },
+ {
+  "car": "toyota auris e15",
+  "years": "2006-2012",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota auris e18",
+  "years": "2013-2017",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota avensis",
+  "years": "2015-2018",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota avensis t25",
+  "years": "2003-2009",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota avensis t27",
+  "years": "2009-2015",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota aygo",
+  "years": "2005-2014",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota aygo",
+  "years": "2014-2022",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota camry",
+  "years": "2006-2011",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota camry",
+  "years": "2014-2017",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota chr",
+  "years": "2016-2020",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota corolla e15",
+  "years": "2007-2013",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota corolla e170",
+  "years": "2013-2016",
+  "brand": "toyota",
+  "products": 27
+ },
+ {
+  "car": "toyota corolla e170",
+  "years": "2017-2019",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota corolla e21",
+  "years": "dupa 2019",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota fortuner",
+  "years": "2005-2014",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota harrier",
+  "years": "2003-2009",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota highlander",
+  "years": "2000-2007",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota highlander",
+  "years": "2007-2013",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota highlander",
+  "years": "2013-2021",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota highlander",
+  "years": "dupa 2021",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota hilux",
+  "years": "2005-2015",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota hilux",
+  "years": "2015-2018",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota land cruiser 200",
+  "years": "2007-2015",
+  "brand": "toyota",
+  "products": 4
+ },
+ {
+  "car": "toyota land cruiser prado j12",
+  "years": "2002-2009",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota land cruiser prado j15",
+  "years": "2009-2013",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota land cruiser prado j15",
+  "years": "2014-2017",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota land cruiser prado j15",
+  "years": "dupa 2018",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota prius",
+  "years": "2002-2009",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota prius plus",
+  "years": "2012-2020",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota prius w3",
+  "years": "2009-2015",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota proace",
+  "years": "dupa 2016",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota rav4",
+  "years": "2000-2005",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota rav4",
+  "years": "2005-2012",
+  "brand": "toyota",
+  "products": 22
+ },
+ {
+  "car": "toyota rav4",
+  "years": "2013-2018",
+  "brand": "toyota",
+  "products": 22
+ },
+ {
+  "car": "toyota rav4",
+  "years": "dupa 2019",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota rush daihatsu terios",
+  "years": "2006-2016",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota sienna",
+  "years": "2010-2014",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota sienna",
+  "years": "2015-2020",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota verso",
+  "years": "2004-2009",
+  "brand": "toyota",
+  "products": 13
+ },
+ {
+  "car": "toyota verso",
+  "years": "2010-2015",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota yaris",
+  "years": "dupa 2018",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "toyota yaris p13",
+  "years": "2011-2018",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota yaris p9",
+  "years": "2005-2011",
+  "brand": "toyota",
+  "products": 18
+ },
+ {
+  "car": "toyota yaris vitz",
+  "years": "1999-2005",
+  "brand": "toyota",
+  "products": 9
+ },
+ {
+  "car": "volvo c30",
+  "years": "2006-2012",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo c70 ii",
+  "years": "2006-2012",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo s40 ii",
+  "years": "2006-2012",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo s60",
+  "years": "2005-2010",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo s60 ii",
+  "years": "2014-2018",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo s80",
+  "years": "1996-2006",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo v50",
+  "years": "2006-2012",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo v70",
+  "years": "2005-2010",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo xc60",
+  "years": "2014-2017",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo xc70",
+  "years": "2005-2010",
+  "brand": "volvo",
+  "products": 9
+ },
+ {
+  "car": "volvo xc90",
+  "years": "2004-2014",
+  "brand": "volvo",
+  "products": 18
+ },
+ {
+  "car": "vw amarok",
+  "years": "2010-2022",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw arteon",
+  "years": "dupa 2017",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw beetle",
+  "years": "2011-2019",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw bora",
+  "years": "1998-2006",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw caddy 3",
+  "years": "2004-2015",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw caravelle t6",
+  "years": "2015-2022",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw caravelle t6",
+  "years": "dupa 2022",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw crafter",
+  "years": "2006-2016",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw crafter man tge",
+  "years": "2017-2022",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw eos",
+  "years": "2006-2015",
+  "brand": "vw",
+  "products": 15
+ },
+ {
+  "car": "vw golf",
+  "years": "2004-2008",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw golf 5",
+  "years": "2004-2008",
+  "brand": "vw",
+  "products": 42
+ },
+ {
+  "car": "vw golf 6",
+  "years": "2008-2012",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw golf 7",
+  "years": "2012-2019",
+  "brand": "vw",
+  "products": 22
+ },
+ {
+  "car": "vw golf iv",
+  "years": "1997-2003",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw golf plus",
+  "years": "2005-2014",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw jetta",
+  "years": "1997-2005",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw jetta",
+  "years": "2006-2010",
+  "brand": "vw",
+  "products": 33
+ },
+ {
+  "car": "vw jetta",
+  "years": "2011-2018",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw lt3",
+  "years": "2006-2016",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw lupo",
+  "years": "1998-2005",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw multivan t5",
+  "years": "2003-2009",
+  "brand": "vw",
+  "products": 15
+ },
+ {
+  "car": "vw multivan t5",
+  "years": "2010-2015",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw multivan t6",
+  "years": "2015-2019",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw multivan t6",
+  "years": "2020-2022",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw new beetle",
+  "years": "2004-2010",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw passat b5",
+  "years": "2000-2005",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw passat b6",
+  "years": "2005-2010",
+  "brand": "vw",
+  "products": 33
+ },
+ {
+  "car": "vw passat b7",
+  "years": "2010-2014",
+  "brand": "vw",
+  "products": 25
+ },
+ {
+  "car": "vw passat b8",
+  "years": "2015-2019",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw passat cc",
+  "years": "2008-2012",
+  "brand": "vw",
+  "products": 15
+ },
+ {
+  "car": "vw polo",
+  "years": "1997-2001",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw polo",
+  "years": "2001-2009",
+  "brand": "vw",
+  "products": 30
+ },
+ {
+  "car": "vw polo",
+  "years": "dupa 2017",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw polo 6r",
+  "years": "2009-2018",
+  "brand": "vw",
+  "products": 33
+ },
+ {
+  "car": "vw scirocco",
+  "years": "2008-2018",
+  "brand": "vw",
+  "products": 42
+ },
+ {
+  "car": "vw sharan",
+  "years": "1998-2009",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw sharan",
+  "years": "2010-2022",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw t cross",
+  "years": "dupa 2018",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw t roc",
+  "years": "dupa 2017",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw taigo",
+  "years": "dupa 2021",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw tayron",
+  "years": "dupa 2021",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw tiguan",
+  "years": "2007-2016",
+  "brand": "vw",
+  "products": 55
+ },
+ {
+  "car": "vw tiguan",
+  "years": "2016-2024",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw touareg 7l",
+  "years": "2002-2011",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw touareg 7p",
+  "years": "2010-2018",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw touran",
+  "years": "2003-2013",
+  "brand": "vw",
+  "products": 33
+ },
+ {
+  "car": "vw touran iii",
+  "years": "dupa 2015",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw transporter t4",
+  "years": "1998-2003",
+  "brand": "vw",
+  "products": 12
+ },
+ {
+  "car": "vw transporter t5",
+  "years": "2003-2009",
+  "brand": "vw",
+  "products": 15
+ },
+ {
+  "car": "vw transporter t5",
+  "years": "2010-2015",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw transporter t6",
+  "years": "2015-2019",
+  "brand": "vw",
+  "products": 24
+ },
+ {
+  "car": "vw transporter t6",
+  "years": "2019-2024",
+  "brand": "vw",
+  "products": 9
+ },
+ {
+  "car": "vw up",
+  "years": "2017-2023",
+  "brand": "vw",
+  "products": 9
+ }
+]
