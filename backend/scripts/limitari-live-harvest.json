@@ -28,6 +28,16 @@
    "limitari": "Pentru a putea fi montata interfata, masina trebuie sa aiba AUX activat. In cazul masinilor cu camere 360 din fabrica, acestea vor fi afisate, dar nu va fi posibila schimbarea modului de vizualizare."
   },
   {
+   "modelLor": "dacia-duster-1-2010-2018",
+   "url": "https://www.navigatiiandroid.ro/navigatie-dacia-duster-1-2010-2018/navigatie-dedicata-cu-android-dacia-duster-i-2013-2018-2gb-ram-radio-gps-dual-zone-display-hd-8-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "dacia-logan-2-2012-2020",
+   "url": "https://www.navigatiiandroid.ro/navigatie-dacia-logan-2-2012-2020/navigatie-dedicata-cu-android-dacia-logan-ii-2012-2020-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
    "modelLor": "fiat-500-2007-2020",
    "url": "https://www.navigatiiandroid.ro/navigatie-fiat-500-2007-2020/navigatie-dedicata-cu-android-fiat-500-2015-2020-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": null
@@ -86,6 +96,11 @@
    "modelLor": "honda-cr-v-4-2012-2018",
    "url": "https://www.navigatiiandroid.ro/navigatie-honda-cr-v-4-2012-2018/navigatie-dedicata-cu-android-honda-cr-v-iv-2012-2018-6gb-ram-radio-gps-dual-zone-display-hd-qled-10-touchscreen-internet-wi",
    "limitari": "Daca masina are navigatie originala este necesar un cablu suplimentar care se achizitioneaza separat."
+  },
+  {
+   "modelLor": "hyundai-ix35-2009-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-hyundai-ix35-2009-2015/navigatie-dedicata-cu-android-hyundai-ix35-2009-2015-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
    "modelLor": "mercedes-viano-2003-2014",
