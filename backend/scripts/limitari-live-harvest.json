@@ -43,6 +43,11 @@
    "limitari": null
   },
   {
+   "modelLor": "ford-kuga-1-2008-2012",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-kuga-1-2008-2012/navigatie-dedicata-cu-android-ford-kuga-i-2008-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": "Daca masina are navigatie originala Blaupunkt este necesar un modul control aer conditionat care se achizitioneaza separat."
+  },
+  {
    "modelLor": "ford-mondeo-4-2007-2014",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-mondeo-4-2007-2014/navigatie-dedicata-cu-android-ford-mondeo-iv-2007-2014-negru-2gb-ram-radio-gps-dual-zone-display-hd-7-touchscreen-internet-wi",
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica. Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
@@ -51,6 +56,11 @@
    "modelLor": "ford-s-max-1-2006-2014",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-s-max-1-2006-2014/navigatie-dedicata-cu-android-ford-s-max-2007-2014-negru-2gb-ram-radio-gps-dual-zone-display-hd-7-touchscreen-internet-wi-fi",
    "limitari": "Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
+  },
+  {
+   "modelLor": "honda-cr-v-3-2006-2012",
+   "url": "https://www.navigatiiandroid.ro/navigatie-honda-cr-v-3-2006-2012/navigatie-dedicata-cu-android-honda-cr-v-iii-2006-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
+   "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica."
   },
   {
    "modelLor": "honda-cr-v-4-2012-2018",
@@ -85,6 +95,11 @@
   {
    "modelLor": "toyota-auris-e15-2006-2012",
    "url": "https://www.navigatiiandroid.ro/navigatie-toyota-auris-e15-2006-2012/navigatie-dedicata-cu-android-toyota-auris-2006-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "toyota-corolla-e15-2007-2013",
+   "url": "https://www.navigatiiandroid.ro/navigatie-toyota-corolla-e15-2007-2013/navigatie-dedicata-cu-android-toyota-corolla-2007-2013-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
    "limitari": null
   },
   {
