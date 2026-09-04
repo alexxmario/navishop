@@ -73,6 +73,11 @@
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica. Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
   },
   {
+   "modelLor": "ford-ranger-2011-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-ranger-2011-2015/navigatie-dedicata-cu-android-ford-ranger-2011-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
    "modelLor": "ford-ranger-dupa-2015",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-ranger-dupa-2015/navigatie-dedicata-cu-android-ford-ranger-dupa-2015-cu-navigatie-originala-1gb-ram-radio-gps-dual-zone-display-hd-ips-9",
    "limitari": null
@@ -121,6 +126,11 @@
    "modelLor": "mercedes-vito-dupa-2003",
    "url": "https://www.navigatiiandroid.ro/navigatie-mercedes-vito-dupa-2003/navigatie-dedicata-cu-android-mercedes-vito-dupa-2006-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": null
+  },
+  {
+   "modelLor": "mitsubishi-asx-dupa-2010",
+   "url": "https://www.navigatiiandroid.ro/navigatie-mitsubishi-asx-dupa-2010/navigatie-dedicata-cu-android-mitsubishi-asx-dupa-2019-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen",
+   "limitari": "Daca masina are amplificator Rockford este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
    "modelLor": "nissan-qashqai-1-2006-2014",
@@ -233,9 +243,19 @@
    "limitari": null
   },
   {
+   "modelLor": "vw-touran-2-2010-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-touran-2-2010-2015/navigatie-dedicata-cu-android-vw-touran-2010-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
    "modelLor": "vw-transporter-t5-2003-2015",
    "url": "https://www.navigatiiandroid.ro/navigatie-vw-transporter-t5-2003-2015/navigatie-dedicata-cu-android-vw-transporter-t5-2010-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen",
    "limitari": null
+  },
+  {
+   "modelLor": "vw-transporter-t6-dupa-2015",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-transporter-t6-dupa-2015/navigatie-dedicata-cu-android-vw-transporter-caravelle-multivan-t6-2015-2020-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5",
+   "limitari": "Daca masina are rotile de reglare sub grilele de ventilatie, acestea vor trebui scoase pentru a putea monta navigatia."
   }
  ],
  "sluguriModel": {
