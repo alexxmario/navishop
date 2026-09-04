@@ -22,6 +22,12 @@ backend/scripts/price-rama-plan*.json
 backend/scripts/price-rama-apply-plan.json
 backend/scripts/price-rama-apply-state.json
 backend/scripts/price-rama-grupB*.json
+# pozele pe familii: cache-uri + jurnalul de undo (15 MB, contine seturile vechi)
+backend/scripts/family-images-*cache.json
+backend/scripts/family-images-report.json
+backend/scripts/family-images-plan.json
+backend/scripts/family-images-apply-state.json
+backend/scripts/family-images-apply-log.jsonl
 
 # unelte locale de agent (settings.json contine credentiale de productie)
 .claude/
