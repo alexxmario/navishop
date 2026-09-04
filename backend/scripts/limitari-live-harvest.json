@@ -28,6 +28,16 @@
    "limitari": "Pentru a putea fi montata interfata, masina trebuie sa aiba AUX activat. In cazul masinilor cu camere 360 din fabrica, acestea vor fi afisate, dar nu va fi posibila schimbarea modului de vizualizare."
   },
   {
+   "modelLor": "citroen-c4-2009-2018",
+   "url": "https://www.navigatiiandroid.ro/navigatie-citroen-c4-2009-2018/navigatie-dedicata-cu-android-citroen-c4-ii-2009-2018-clima-automata-1gb-ram-radio-gps-dual-zone-display-hd-ips-10",
+   "limitari": null
+  },
+  {
+   "modelLor": "citroen-c4-aircross-2012-2017",
+   "url": "https://www.navigatiiandroid.ro/navigatie-citroen-c4-aircross-2012-2017/navigatie-dedicata-cu-android-citroen-c4-aircross-2012-2017-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen",
+   "limitari": "Daca masina are amplificator Rockford este nevoie de un cablu adaptor care se achizitioneaza separat."
+  },
+  {
    "modelLor": "dacia-duster-1-2010-2018",
    "url": "https://www.navigatiiandroid.ro/navigatie-dacia-duster-1-2010-2018/navigatie-dedicata-cu-android-dacia-duster-i-2013-2018-2gb-ram-radio-gps-dual-zone-display-hd-8-touchscreen-internet-wi-fi",
    "limitari": null
@@ -71,6 +81,11 @@
    "modelLor": "ford-kuga-1-2008-2012",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-kuga-1-2008-2012/navigatie-dedicata-cu-android-ford-kuga-i-2008-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": "Daca masina are navigatie originala Blaupunkt este necesar un modul control aer conditionat care se achizitioneaza separat."
+  },
+  {
+   "modelLor": "ford-mondeo-3-2000-2007",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-mondeo-3-2000-2007/navigatie-dedicata-cu-android-ford-mondeo-iii-2000-2007-clima-automata-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5",
+   "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica."
   },
   {
    "modelLor": "ford-mondeo-4-2007-2014",
@@ -128,9 +143,19 @@
    "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
+   "modelLor": "kia-sportage-4-2016-2021",
+   "url": "https://www.navigatiiandroid.ro/navigatie-kia-sportage-4-2016-2021/navigatie-dedicata-cu-android-kia-sportage-2016-2018-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
+   "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
+  },
+  {
    "modelLor": "mazda-3-2013-2019",
    "url": "https://www.navigatiiandroid.ro/navigatie-mazda-3-2013-2019/navigatie-dedicata-cu-android-mazda-3-2013-2019-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": "Daca masina are navigatie originala sau camera de marsarier este necesar un cablu suplimentar care se achizitioneaza separat. Navigatia este compatibila si cu masinile cu sistem audio Bose."
+  },
+  {
+   "modelLor": "mercedes-c-class-w203-2000-2007",
+   "url": "https://www.navigatiiandroid.ro/navigatie-mercedes-c-class-w203-2000-2007/navigatie-dedicata-cu-android-mercedes-c-class-w203-2000-2004-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen",
+   "limitari": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu suplimentar de 6m care se achizitioneaza separat."
   },
   {
    "modelLor": "mercedes-viano-2003-2014",
