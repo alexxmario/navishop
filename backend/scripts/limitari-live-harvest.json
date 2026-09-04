@@ -133,6 +133,11 @@
    "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
+   "modelLor": "hyundai-tucson-2015-2020",
+   "url": "https://www.navigatiiandroid.ro/navigatie-hyundai-tucson-2015-2020/navigatie-dedicata-cu-android-hyundai-tucson-2015-2018-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet",
+   "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
+  },
+  {
    "modelLor": "kia-sorento-2-2009-2015",
    "url": "https://www.navigatiiandroid.ro/navigatie-kia-sorento-2-2009-2015/navigatie-dedicata-cu-android-kia-sorento-2012-2015-12gb-ram-radio-gps-dual-zone-display-2k-qled-9-5-touchscreen-internet-wi",
    "limitari": "Nu se poate monta pe masini care au navigatie originala din fabrica."
@@ -273,8 +278,23 @@
    "limitari": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de un cablu adaptor care se achizitioneaza separat."
   },
   {
+   "modelLor": "vw-amarok-dupa-2010",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-amarok-dupa-2010/navigatie-dedicata-cu-android-vw-amarok-dupa-2010-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
+   "modelLor": "vw-beetle-2011-2019",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-beetle-2011-2019/navigatie-dedicata-cu-android-vw-beetle-2011-2019-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet-wi",
+   "limitari": null
+  },
+  {
    "modelLor": "vw-golf-5-2003-2010",
    "url": "https://www.navigatiiandroid.ro/navigatie-vw-golf-5-2003-2010/navigatie-dedicata-cu-android-vw-golf-v-2003-2010-1gb-ram-radio-gps-dual-zone-display-hd-ips-10-touchscreen-internet-wi-fi",
+   "limitari": null
+  },
+  {
+   "modelLor": "vw-golf-6-2008-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-vw-golf-6-2008-2014/navigatie-dedicata-cu-android-vw-golf-vi-2008-2014-12gb-ram-radio-gps-dual-zone-display-2k-qled-10-36-touchscreen-internet-wi",
    "limitari": null
   },
   {
