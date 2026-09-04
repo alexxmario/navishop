@@ -43,6 +43,11 @@
    "limitari": null
   },
   {
+   "modelLor": "ford-focus-3-2011-2018",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-focus-3-2011-2018/navigatie-dedicata-cu-android-ford-focus-iii-2011-2018-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi",
+   "limitari": "Daca masina are 12 senzori de parcare originali (6 fata si 6 spate), acestia vor fi preluati de navigatie doar vizual, nu si acustic."
+  },
+  {
    "modelLor": "ford-kuga-1-2008-2012",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-kuga-1-2008-2012/navigatie-dedicata-cu-android-ford-kuga-i-2008-2012-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
    "limitari": "Daca masina are navigatie originala Blaupunkt este necesar un modul control aer conditionat care se achizitioneaza separat."
@@ -56,6 +61,11 @@
    "modelLor": "ford-s-max-1-2006-2014",
    "url": "https://www.navigatiiandroid.ro/navigatie-ford-s-max-1-2006-2014/navigatie-dedicata-cu-android-ford-s-max-2007-2014-negru-2gb-ram-radio-gps-dual-zone-display-hd-7-touchscreen-internet-wi-fi",
    "limitari": "Daca masina nu are plus contact in mufa de alimentare a aparatului radio original este necesar un cablu suplimentar care se achizitioneaza separat."
+  },
+  {
+   "modelLor": "ford-transit-2006-2014",
+   "url": "https://www.navigatiiandroid.ro/navigatie-ford-transit-2006-2014/navigatie-dedicata-cu-android-ford-transit-2006-2014-1gb-ram-radio-gps-dual-zone-display-hd-ips-9-touchscreen-internet-wi-fi",
+   "limitari": null
   },
   {
    "modelLor": "honda-cr-v-3-2006-2012",
