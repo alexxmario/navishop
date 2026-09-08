@@ -233,10 +233,13 @@ const HomePage = () => {
       <Header />
 
       {/* Hero Section - Desktop: full-bleed looping video (fades in/out for a smooth loop) */}
-      <section className="hidden lg:block relative bg-black overflow-hidden h-[620px] xl:h-[700px]">
+      {/* Height follows the video's 1920x802 ratio (41.6vw) so nothing gets cropped while
+          resizing/zooming; clamped so it stays usable on short and very wide viewports,
+          where object-center keeps the crop symmetric instead of eating the bottom. */}
+      <section className="hidden lg:block relative bg-black overflow-hidden h-[clamp(520px,41.6vw,780px)]">
         <video
-          className="absolute inset-0 w-full h-full object-cover object-top"
-          src="/hero-video.mp4"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          src="/hero-video-2.mp4"
           autoPlay
           loop
           muted
