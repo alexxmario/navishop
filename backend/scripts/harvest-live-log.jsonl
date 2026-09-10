@@ -1,0 +1,181 @@
+{"ts": "2026-09-10T17:50:26", "event": "start", "de_citit": 3, "deja": 71, "total_modele": 382}
+{"ts": "2026-09-10T17:50:38", "event": "progres", "procesate": 3, "din": 3, "cu_limitari": 0, "erori": 0}
+{"ts": "2026-09-10T17:50:49", "event": "start", "de_citit": 311, "deja": 74, "total_modele": 382}
+{"ts": "2026-09-10T17:50:55", "event": "gasit", "model": "audi-q5-8r-2008-2017", "text": "Se poate monta pe masini echipate cu Audi Concert si Audi Symphony. Daca masina este echipata cu Audi Multimed"}
+{"ts": "2026-09-10T17:51:07", "event": "gasit", "model": "bmw-seria-3-e46-1997-2005", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T17:51:12", "event": "gasit", "model": "bmw-seria-3-f30-2011-2018", "text": "Compatibil cu masini cu unitate multimedia NBT. Preia toate functiile meniului original. Nu este compatibil cu"}
+{"ts": "2026-09-10T17:51:18", "event": "gasit", "model": "bmw-seria-4-f32-f36-2013-2020", "text": "Compatibil cu masini cu unitate multimedia NBT. Preia toate functiile meniului original. Nu este compatibil cu"}
+{"ts": "2026-09-10T17:51:23", "event": "gasit", "model": "bmw-seria-5-e39-1995-2003", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T17:51:29", "event": "gasit", "model": "bmw-seria-5-f10-2009-2016", "text": "Compatibila cu masini cu unitate multimedia CIC. Preia toate functiile meniului original."}
+{"ts": "2026-09-10T17:51:40", "event": "gasit", "model": "bmw-x5-e53-2000-2006", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T17:51:40", "event": "progres", "procesate": 10, "din": 311, "cu_limitari": 7, "erori": 0}
+{"ts": "2026-09-10T17:51:46", "event": "gasit", "model": "bmw-x5-e70-2006-2013", "text": "Compatibila cu masini cu unitate multimedia CCC. Preia toate functiile meniului original."}
+{"ts": "2026-09-10T17:51:51", "event": "gasit", "model": "bmw-x6-e71-2007-2014", "text": "Compatibila cu masini cu unitate multimedia CCC. Preia toate functiile meniului original."}
+{"ts": "2026-09-10T17:52:03", "event": "gasit", "model": "chevrolet-captiva-2006-2011", "text": "Daca masina are navigatie originala sau ecran care afiseaza temperatura climei este necesar un cablu supliment"}
+{"ts": "2026-09-10T17:52:08", "event": "gasit", "model": "chevrolet-captiva-2011-2016", "text": "Daca masina are navigatie originala sau ecran care afiseaza temperatura climei este necesar un cablu supliment"}
+{"ts": "2026-09-10T17:52:36", "event": "progres", "procesate": 20, "din": 311, "cu_limitari": 11, "erori": 0}
+{"ts": "2026-09-10T17:52:53", "event": "gasit", "model": "citroen-berlingo-dupa-2018", "text": "Daca masina are ecran mare din fabrica este nevoie de un ornament suplimentar in valoare de 100 lei. Pentru a "}
+{"ts": "2026-09-10T17:52:58", "event": "gasit", "model": "citroen-c-crosser-2007-2012", "text": "Daca masina are amplificator Rockford este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T17:53:04", "event": "gasit", "model": "citroen-c-elysee-2012-2021", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T17:53:26", "event": "gasit", "model": "citroen-jumper-dupa-2006", "text": "Nu se poate monta pe masini cu navigatie originala, detalii aici ."}
+{"ts": "2026-09-10T17:53:31", "event": "progres", "procesate": 30, "din": 311, "cu_limitari": 15, "erori": 0}
+{"ts": "2026-09-10T17:53:54", "event": "gasit", "model": "dacia-jogger-dupa-2021", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica, pilot automat adaptiv (distronic) sau sen"}
+{"ts": "2026-09-10T17:54:05", "event": "gasit", "model": "dacia-logan-3-dupa-2021", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica, pilot automat adaptiv (distronic) sau sen"}
+{"ts": "2026-09-10T17:54:21", "event": "gasit", "model": "dacia-sandero-3-dupa-2021", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica, pilot automat adaptiv (distronic) sau sen"}
+{"ts": "2026-09-10T17:54:27", "event": "progres", "procesate": 40, "din": 311, "cu_limitari": 18, "erori": 0}
+{"ts": "2026-09-10T17:55:07", "event": "gasit", "model": "fiat-ducato-2006-2022", "text": "Nu se poate monta pe masini cu navigatie originala, detalii aici ."}
+{"ts": "2026-09-10T17:55:24", "event": "progres", "procesate": 50, "din": 311, "cu_limitari": 19, "erori": 0}
+{"ts": "2026-09-10T17:55:47", "event": "gasit", "model": "fiat-tipo-dupa-2015", "text": "Nu se poate monta pe masini care au bordul precum in poza de aici ."}
+{"ts": "2026-09-10T17:55:59", "event": "gasit", "model": "ford-c-max-2-grand-c-max-2010-2019", "text": "Senzorii de parcare vor functiona, dar functia de parcare automata (modele ce parcheaza singure) nu va fi disp"}
+{"ts": "2026-09-10T17:56:16", "event": "gasit", "model": "ford-fiesta-6-2008-2019", "text": "In cazuri rare, la anumite masini comenzile de pe volan nu sunt preluate de canbus si nu vor functiona."}
+{"ts": "2026-09-10T17:56:21", "event": "progres", "procesate": 60, "din": 311, "cu_limitari": 22, "erori": 0}
+{"ts": "2026-09-10T17:56:27", "event": "gasit", "model": "ford-focus-4-dupa-2018", "text": "Daca masina are amplificator audio Bang & Olufsen este nevoie de acest cablu adaptor care se achizitioneaza se"}
+{"ts": "2026-09-10T17:56:38", "event": "gasit", "model": "ford-kuga-2-2012-2019", "text": "Senzorii de parcare vor functiona, dar functia de parcare automata (modele ce parcheaza singure) nu va fi disp"}
+{"ts": "2026-09-10T17:57:13", "event": "gasit", "model": "honda-accord-7-2003-2008", "text": "Nu se poate monta pe masini cu motor diesel."}
+{"ts": "2026-09-10T17:57:18", "event": "progres", "procesate": 70, "din": 311, "cu_limitari": 25, "erori": 0}
+{"ts": "2026-09-10T17:57:24", "event": "gasit", "model": "honda-civic-10-2015-2021", "text": "Daca masina are amplificator audio este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T17:57:30", "event": "gasit", "model": "honda-civic-8-2006-2011", "text": "Display-ul original pe care se afiseaza data si ora va ramane inactiv. Pentru a ramane activ este necesar un c"}
+{"ts": "2026-09-10T17:57:41", "event": "gasit", "model": "honda-cr-v-5-2017-2022", "text": "Daca masina are amplificator audio este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T17:58:03", "event": "gasit", "model": "hyundai-elantra-5-2010-2016", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T17:58:09", "event": "gasit", "model": "hyundai-elantra-6-2015-2020", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:58:14", "event": "gasit", "model": "hyundai-elantra-7-dupa-2020", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:58:14", "event": "progres", "procesate": 80, "din": 311, "cu_limitari": 31, "erori": 0}
+{"ts": "2026-09-10T17:58:37", "event": "gasit", "model": "hyundai-i10-dupa-2020", "text": "Pozitia clemelor de prindere din zona centrala a ramei incluse in pachet difera fata de cele originale. Pentru"}
+{"ts": "2026-09-10T17:58:53", "event": "gasit", "model": "hyundai-i20-dupa-2020", "text": "Pentru a putea monta navigația este nevoie ca atât rama primită de la noi cât și o parte din plasticul de pe b"}
+{"ts": "2026-09-10T17:59:04", "event": "gasit", "model": "hyundai-i30-gd-2011-2017", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T17:59:10", "event": "gasit", "model": "hyundai-i30-pd-dupa-2017", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:59:10", "event": "progres", "procesate": 90, "din": 311, "cu_limitari": 35, "erori": 0}
+{"ts": "2026-09-10T17:59:16", "event": "gasit", "model": "hyundai-i40-2012-2020", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T17:59:21", "event": "gasit", "model": "hyundai-ioniq-2016-2022", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:59:27", "event": "gasit", "model": "hyundai-kona-dupa-2017", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:59:43", "event": "gasit", "model": "hyundai-santa-fe-3-2012-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T17:59:49", "event": "gasit", "model": "hyundai-santa-fe-4-dupa-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:00:06", "event": "progres", "procesate": 100, "din": 311, "cu_limitari": 40, "erori": 0}
+{"ts": "2026-09-10T18:00:22", "event": "gasit", "model": "iveco-daily-6-dupa-2014", "text": "Daca masina are comenzi pe volan, pentru a fi preluate de navigatie este necesar acest cablu suplimentar care "}
+{"ts": "2026-09-10T18:00:45", "event": "gasit", "model": "jeep-grand-cherokee-2-1998-2005", "text": "Daca masina are amplificator audio este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:01:02", "event": "progres", "procesate": 110, "din": 311, "cu_limitari": 42, "erori": 0}
+{"ts": "2026-09-10T18:01:07", "event": "gasit", "model": "jeep-renegade-dupa-2014", "text": "Pentru masinile fabricate dupa 2022 care au camera de marsarier originala si doriti sa fie preluata de catre n"}
+{"ts": "2026-09-10T18:01:24", "event": "gasit", "model": "jeep-wrangler-4-dupa-2018", "text": "Daca masina are camera de marsarier originala si doriti sa fie preluata de catre navigatie este necesar un cab"}
+{"ts": "2026-09-10T18:01:35", "event": "gasit", "model": "kia-ceed-2012-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:01:41", "event": "gasit", "model": "kia-ceed-proceed-xceed-dupa-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:01:47", "event": "gasit", "model": "kia-optima-1-2010-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:01:53", "event": "gasit", "model": "kia-optima-2-dupa-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:01:58", "event": "progres", "procesate": 120, "din": 311, "cu_limitari": 48, "erori": 0}
+{"ts": "2026-09-10T18:02:04", "event": "gasit", "model": "kia-picanto-3-dupa-2017", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:02:15", "event": "gasit", "model": "kia-sorento-3-2015-2020", "text": "Daca masina are navigatie originala sau camera de marsarier este necesar un cablu suplimentar care se achiziti"}
+{"ts": "2026-09-10T18:02:26", "event": "gasit", "model": "kia-sportage-2-2004-2010", "text": "Nu se poate monta pe masini care au rotitele de reglaj aer deasupra unitatii audio, detalii aici ."}
+{"ts": "2026-09-10T18:02:31", "event": "gasit", "model": "land-rover-freelander-2-2006-2014", "text": "Daca unitatea audio originala are mufa precum in poza de aici este nevoie de acest cablu adaptor care se achiz"}
+{"ts": "2026-09-10T18:02:42", "event": "gasit", "model": "lexus-rx-2-2003-2009", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:02:48", "event": "gasit", "model": "mazda-2-2007-2014", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:02:54", "event": "gasit", "model": "mazda-2-2014-2022", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:02:54", "event": "progres", "procesate": 130, "din": 311, "cu_limitari": 55, "erori": 0}
+{"ts": "2026-09-10T18:02:59", "event": "gasit", "model": "mazda-3-2003-2009", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:05", "event": "gasit", "model": "mazda-3-2009-2013", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:10", "event": "gasit", "model": "mazda-5-2005-2010", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:16", "event": "gasit", "model": "mazda-5-2010-2017", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:22", "event": "gasit", "model": "mazda-6-2002-2008", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:27", "event": "gasit", "model": "mazda-6-2008-2013", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:33", "event": "gasit", "model": "mazda-6-dupa-2013", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:03:49", "event": "gasit", "model": "mazda-cx-5-2011-2017", "text": "Daca masina are navigatie originala sau camera de marsarier este necesar un cablu suplimentar care se achiziti"}
+{"ts": "2026-09-10T18:03:49", "event": "progres", "procesate": 140, "din": 311, "cu_limitari": 63, "erori": 0}
+{"ts": "2026-09-10T18:03:55", "event": "gasit", "model": "mazda-cx-5-dupa-2017", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:04:00", "event": "gasit", "model": "mazda-cx-7-2006-2015", "text": "Navigatia este compatibila si cu masinile cu sistem audio Bose."}
+{"ts": "2026-09-10T18:04:11", "event": "gasit", "model": "mercedes-b-class-w245-2005-2011", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:04:22", "event": "gasit", "model": "mercedes-clc-class-cl203-2008-2011", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T18:04:28", "event": "gasit", "model": "mercedes-clk-c209-2002-2010", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T18:04:33", "event": "gasit", "model": "mercedes-cls-c219-2004-2011", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:04:39", "event": "gasit", "model": "mercedes-e-class-w211-2002-2009", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:04:44", "event": "gasit", "model": "mercedes-g-class-w463-2002-2012", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un cablu "}
+{"ts": "2026-09-10T18:04:44", "event": "progres", "procesate": 150, "din": 311, "cu_limitari": 71, "erori": 0}
+{"ts": "2026-09-10T18:04:50", "event": "gasit", "model": "mercedes-gl-x166-2012-2015", "text": "Nu se poate monta pe masini care au sistem de sunet Harman Kardon. Daca masina are camere original 360 grade, "}
+{"ts": "2026-09-10T18:04:56", "event": "gasit", "model": "mercedes-glk-x204-2008-2015", "text": "Nu se poate monta pe masini care au sistem de sunet Harman Kardon. Daca masina are camere original 360 grade, "}
+{"ts": "2026-09-10T18:05:01", "event": "gasit", "model": "mercedes-ml-w163-1998-2005", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:05:07", "event": "gasit", "model": "mercedes-ml-w164-2005-2012", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:05:12", "event": "gasit", "model": "mercedes-ml-w166-2011-2015", "text": "Nu se poate monta pe masini care au sistem de sunet Harman Kardon. Daca masina are camere original 360 grade, "}
+{"ts": "2026-09-10T18:05:23", "event": "gasit", "model": "mini-clubman-2015-2020", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:05:29", "event": "gasit", "model": "mini-cooper-one-2014-2024", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:05:34", "event": "gasit", "model": "mini-countryman-2010-2017", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:05:40", "event": "gasit", "model": "mini-countryman-2016-2020", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:05:40", "event": "progres", "procesate": 160, "din": 311, "cu_limitari": 80, "erori": 0}
+{"ts": "2026-09-10T18:05:45", "event": "gasit", "model": "mitsubishi-eclipse-cross-dupa-2017", "text": "Se poate monta pe masini care au bordul ca in aceasta poza . Daca masina are amplificator Rockford este nevoie"}
+{"ts": "2026-09-10T18:06:02", "event": "gasit", "model": "mitsubishi-lancer-dupa-2007", "text": "Daca masina are amplificator Rockford este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:06:08", "event": "gasit", "model": "mitsubishi-outlander-1-2001-2006", "text": "Compatibila cu masini care au bordul ca in aceasta poza . Pentru a putea monta rama navigatiei, este nevoie ca"}
+{"ts": "2026-09-10T18:06:13", "event": "gasit", "model": "mitsubishi-outlander-2-2006-2012", "text": "Daca masina are amplificator Rockford este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:06:35", "event": "gasit", "model": "mitsubishi-pajero-4-2006-2021", "text": "Daca masina are amplificator Rockford este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:06:35", "event": "progres", "procesate": 170, "din": 311, "cu_limitari": 85, "erori": 0}
+{"ts": "2026-09-10T18:06:41", "event": "gasit", "model": "nissan-juke-2010-2019", "text": "Pentru masinile care au camere 360 este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:06:57", "event": "gasit", "model": "nissan-navara-np300-d23-dupa-2014", "text": "Pentru masinile care au camere 360 este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:07:03", "event": "gasit", "model": "nissan-qashqai-2-2014-2021", "text": "Pentru masinile care au camere 360 este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:07:20", "event": "gasit", "model": "nissan-x-trail-3-t32-2014-2021", "text": "Pentru masinile care au camere 360 este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:07:25", "event": "gasit", "model": "opel-adam-2012-2016", "text": "Daca unitatea audio originala are mufa precum in poza de aici este necesar un cablu suplimentar care se achizi"}
+{"ts": "2026-09-10T18:07:31", "event": "progres", "procesate": 180, "din": 311, "cu_limitari": 90, "erori": 0}
+{"ts": "2026-09-10T18:07:47", "event": "gasit", "model": "opel-astra-j-2009-2018", "text": "Nu se poate monta pe masini care au din fabrica sistem de sunet Infinity."}
+{"ts": "2026-09-10T18:07:52", "event": "gasit", "model": "opel-astra-k-2015-2021", "text": "Nu se poate monta pe masini care au din fabrica sistem de sunet Bose. In cazuri rare, la anumite masini comenz"}
+{"ts": "2026-09-10T18:08:20", "event": "gasit", "model": "opel-corsa-e-2014-2019", "text": "Daca unitatea audio originala are mufa precum in poza de aici este necesar un cablu suplimentar care se achizi"}
+{"ts": "2026-09-10T18:08:26", "event": "progres", "procesate": 190, "din": 311, "cu_limitari": 93, "erori": 0}
+{"ts": "2026-09-10T18:08:37", "event": "gasit", "model": "opel-mokka-a-2012-2020", "text": "Nu se poate monta pe masini care au din fabrica sistem de sunet Infinity."}
+{"ts": "2026-09-10T18:09:22", "event": "progres", "procesate": 200, "din": 311, "cu_limitari": 94, "erori": 0}
+{"ts": "2026-09-10T18:09:27", "event": "gasit", "model": "peugeot-3008-dupa-2016", "text": "Nu se poate monta pe masini care au distronic (pilot automat adaptiv). Daca masina are odorizant original si l"}
+{"ts": "2026-09-10T18:09:33", "event": "gasit", "model": "peugeot-301-dupa-2012", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:09:55", "event": "gasit", "model": "peugeot-4008-2012-2017", "text": "Daca masina are amplificator Rockford este nevoie de acest cablu adaptor care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:10:06", "event": "gasit", "model": "peugeot-5008-dupa-2017", "text": "Nu se poate monta pe masini care au distronic (pilot automat adaptiv). Daca masina are odorizant original si l"}
+{"ts": "2026-09-10T18:10:17", "event": "progres", "procesate": 210, "din": 311, "cu_limitari": 98, "erori": 0}
+{"ts": "2026-09-10T18:10:28", "event": "gasit", "model": "peugeot-boxer-dupa-2006", "text": "Nu se poate monta pe masini cu navigatie originala, detalii aici ."}
+{"ts": "2026-09-10T18:10:45", "event": "gasit", "model": "peugeot-partner-dupa-2018", "text": "Daca masina are ecran mare din fabrica este nevoie de un ornament suplimentar in valoare de 100 lei. Pentru a "}
+{"ts": "2026-09-10T18:10:56", "event": "gasit", "model": "porsche-cayenne-2002-2010", "text": "Daca masina are sistemul audio pe fibra optica (are amplificator sau magazie de cd-uri) este necesar un decodo"}
+{"ts": "2026-09-10T18:11:02", "event": "gasit", "model": "renault-captur-1-2013-2020", "text": "Daca masina are navigatie originala R Link este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:11:07", "event": "gasit", "model": "renault-clio-3-2005-2012", "text": "Daca masina are comenzi pe volan, pentru a fi preluate de navigatie este necesar acest cablu suplimentar care "}
+{"ts": "2026-09-10T18:11:13", "event": "gasit", "model": "renault-clio-4-2012-2019", "text": "Daca masina are navigatie originala R Link este necesar un cablu suplimentar care se achizitioneaza separat."}
+{"ts": "2026-09-10T18:11:13", "event": "progres", "procesate": 220, "din": 311, "cu_limitari": 104, "erori": 0}
+{"ts": "2026-09-10T18:11:35", "event": "gasit", "model": "renault-koleos-1-2008-2016", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica."}
+{"ts": "2026-09-10T18:11:40", "event": "gasit", "model": "renault-megane-2-2001-2009", "text": "In cazuri rare, la anumite masini comenzile de pe volan nu sunt preluate, iar satelitul de comenzi al masinii "}
+{"ts": "2026-09-10T18:12:08", "event": "gasit", "model": "seat-ibiza-4-2008-2017", "text": "Nu se poate monta pe masini care au butonul de avarii integrat in unitatea radio, detalii aici ."}
+{"ts": "2026-09-10T18:12:08", "event": "progres", "procesate": 230, "din": 311, "cu_limitari": 107, "erori": 0}
+{"ts": "2026-09-10T18:12:14", "event": "gasit", "model": "seat-leon-5f-2013-2020", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:12:25", "event": "gasit", "model": "skoda-kodiaq-dupa-2016", "text": "Nu se poate monta pe masini care au amplificator audio Canton."}
+{"ts": "2026-09-10T18:12:30", "event": "gasit", "model": "skoda-octavia-3-2013-2020", "text": "Nu se poate monta pe masini care au amplificator audio Canton."}
+{"ts": "2026-09-10T18:12:41", "event": "gasit", "model": "skoda-superb-3-dupa-2015", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:12:47", "event": "gasit", "model": "smart-forfour-dupa-2014", "text": "Daca masina are navigatie originala din fabrica este necesar acest cablu suplimentar care se achizitioneaza se"}
+{"ts": "2026-09-10T18:12:58", "event": "gasit", "model": "smart-fortwo-dupa-2014", "text": "Daca masina are navigatie originala din fabrica este necesar acest cablu suplimentar care se achizitioneaza se"}
+{"ts": "2026-09-10T18:13:04", "event": "progres", "procesate": 240, "din": 311, "cu_limitari": 113, "erori": 0}
+{"ts": "2026-09-10T18:13:21", "event": "gasit", "model": "ssangyong-rexton-2006-2012", "text": "Compatibila cu masini care au bordul ca in aceasta poza ."}
+{"ts": "2026-09-10T18:13:43", "event": "gasit", "model": "subaru-forester-sj-2013-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:14:00", "event": "progres", "procesate": 250, "din": 311, "cu_limitari": 115, "erori": 0}
+{"ts": "2026-09-10T18:14:34", "event": "gasit", "model": "suzuki-ignis-3-dupa-2016", "text": "Daca masina are navigatie din fabrica si pe ecranul acesteia se afiseaza informatii despre sistemul hibrid al "}
+{"ts": "2026-09-10T18:14:50", "event": "gasit", "model": "suzuki-s-cross-dupa-2021", "text": "Daca masina are navigatie din fabrica si pe ecranul acesteia se afiseaza informatii despre sistemul hibrid al "}
+{"ts": "2026-09-10T18:14:56", "event": "progres", "procesate": 260, "din": 311, "cu_limitari": 117, "erori": 0}
+{"ts": "2026-09-10T18:15:23", "event": "gasit", "model": "suzuki-sx4-s-cross-dupa-2013", "text": "Daca masina are navigatie din fabrica si pe ecranul acesteia se afiseaza informatii despre sistemul hibrid al "}
+{"ts": "2026-09-10T18:15:29", "event": "gasit", "model": "suzuki-vitara-dupa-2015", "text": "Daca masina are navigatie din fabrica si pe ecranul acesteia se afiseaza informatii despre sistemul hibrid al "}
+{"ts": "2026-09-10T18:15:35", "event": "gasit", "model": "toyota-auris-e18-2012-2019", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:15:52", "event": "progres", "procesate": 270, "din": 311, "cu_limitari": 120, "erori": 0}
+{"ts": "2026-09-10T18:16:03", "event": "gasit", "model": "toyota-corolla-e21-dupa-2019", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:16:09", "event": "gasit", "model": "toyota-hilux-7-2004-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:16:14", "event": "gasit", "model": "toyota-hilux-8-dupa-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:16:20", "event": "gasit", "model": "toyota-land-cruiser-j100-1998-2008", "text": "Pentru masini echipate cu amplificator audio JBL din fabrica, cu bordul ca in aceasta poza"}
+{"ts": "2026-09-10T18:16:25", "event": "gasit", "model": "toyota-land-cruiser-j200-2008-2015", "text": "Nu se poate monta pe masini care au navigatie originala din fabrica, detalii aici ."}
+{"ts": "2026-09-10T18:16:31", "event": "gasit", "model": "toyota-land-cruiser-prado-j120-2002-2010", "text": "Daca masina are bordul ca in primele 2 poze din imaginea de aici , navigatia nu se potriveste. Se poate monta "}
+{"ts": "2026-09-10T18:16:36", "event": "gasit", "model": "toyota-land-cruiser-prado-j150-dupa-2009", "text": "Daca masina are amplificator audio JBL din fabrica este nevoie de acest cablu adaptor care se achizitioneaza s"}
+{"ts": "2026-09-10T18:16:47", "event": "gasit", "model": "toyota-prius-w3-2009-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:16:47", "event": "progres", "procesate": 280, "din": 311, "cu_limitari": 128, "erori": 0}
+{"ts": "2026-09-10T18:16:53", "event": "gasit", "model": "toyota-prius-w5-dupa-2015", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:17:04", "event": "gasit", "model": "toyota-rav4-3-2005-2013", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:17:09", "event": "gasit", "model": "toyota-rav4-5-dupa-2018", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:17:15", "event": "gasit", "model": "toyota-verso-2009-2018", "text": "Se poate monta pe masini care au bordul ca in aceasta poza ."}
+{"ts": "2026-09-10T18:17:21", "event": "gasit", "model": "toyota-yaris-p13-2011-2020", "text": "Daca masina are amplificator sau navigatie originala si camera de marsarier este nevoie de acest cablu adaptor"}
+{"ts": "2026-09-10T18:17:26", "event": "gasit", "model": "toyota-yaris-p9-2006-2011", "text": "Pentru a se putea monta navigatia este necesar sa decupeze trimurile laterale de plastic. Detalii aici . Vă ru"}
+{"ts": "2026-09-10T18:17:32", "event": "gasit", "model": "volvo-s40-2004-2013", "text": "Daca mașina nu are capac pe bord, pentru a putea monta navigația este necesară decuparea bordului. Detalii aic"}
+{"ts": "2026-09-10T18:17:38", "event": "gasit", "model": "volvo-s60-2010-2018", "text": "La modelele cu navigatie originala nu este preluat meniul ascuns care se acceseaza din butonul My car."}
+{"ts": "2026-09-10T18:17:44", "event": "gasit", "model": "volvo-s80-1998-2006", "text": "Daca masina are amplificator audio sub scaunul soferului sau pasagerului este nevoie de acest cablu adaptor ca"}
+{"ts": "2026-09-10T18:17:44", "event": "progres", "procesate": 290, "din": 311, "cu_limitari": 137, "erori": 0}
+{"ts": "2026-09-10T18:17:49", "event": "gasit", "model": "volvo-xc60-2008-2017", "text": "La modelele cu navigatie originala nu este preluat meniul ascuns care se acceseaza din butonul My car."}
+{"ts": "2026-09-10T18:17:55", "event": "gasit", "model": "volvo-xc90-2002-2015", "text": "Pentru a putea monta navigatia este nevoie ca masina sa aiba auxiliarul activat. Navigatia comunica prin aux-i"}
+{"ts": "2026-09-10T18:18:40", "event": "gasit", "model": "vw-golf-7-2012-2020", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:18:40", "event": "progres", "procesate": 300, "din": 311, "cu_limitari": 140, "erori": 0}
+{"ts": "2026-09-10T18:19:02", "event": "gasit", "model": "vw-passat-b5-b5-5-1996-2005", "text": "Navigatia nu preia incalizrea in scaune, dezaburirea lunetei sau butonul de ESP. Daca masina are comenzi pe vo"}
+{"ts": "2026-09-10T18:19:07", "event": "gasit", "model": "vw-passat-b8-dupa-2015", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:19:24", "event": "gasit", "model": "vw-tiguan-2-dupa-2016", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:19:29", "event": "gasit", "model": "vw-touareg-7l-2002-2011", "text": "Comenzile de pe volan preluate sunt VOL+ si VOL-, nu si CH+ si CH-. Nu se poate monta pe masini cu amplificato"}
+{"ts": "2026-09-10T18:19:35", "event": "gasit", "model": "vw-touareg-7p-2010-2018", "text": "Daca masina are navigatie originala sau ecran mare din fabrica este necesar un cablu suplimentar in valoare de"}
+{"ts": "2026-09-10T18:19:35", "event": "progres", "procesate": 310, "din": 311, "cu_limitari": 145, "erori": 0}
+{"ts": "2026-09-10T18:19:40", "event": "gasit", "model": "vw-touran-3-dupa-2015", "text": "Daca masina are amplificator audio sub scaunul soferului, acesta va trebui anulat."}
+{"ts": "2026-09-10T18:19:40", "event": "progres", "procesate": 311, "din": 311, "cu_limitari": 146, "erori": 0}
